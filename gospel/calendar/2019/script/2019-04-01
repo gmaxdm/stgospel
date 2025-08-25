@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("1 апреля 2020 г. ( 19 марта ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/2350.html\" target=\"_blank\" title=\"Хрисанф Римский, мч.\">Хрисанфа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2350_3200.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2449.html\" target=\"_blank\" title=\"Дария Римская, мц.\">Дарии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2449_2155.html\" target=\"_blank\" >икона</a>) и с ними мчч. <a  href=\"http://days.pravoslavie.ru/name/1248.html\" target=\"_blank\" title=\"Клавдий Римский, мч.\">Клавдия</a> трибуна, <a  href=\"http://days.pravoslavie.ru/name/2514.html\" target=\"_blank\" title=\"Илария Римская, мц.\">Иларии</a>, жены его, <a  href=\"http://days.pravoslavie.ru/name/894.html\" target=\"_blank\" title=\"Иасон Римский, мч.\">Иасона</a> и <a  href=\"http://days.pravoslavie.ru/name/1393.html\" target=\"_blank\" title=\"Мавр Римский, мч.\">Мавра</a>, сынов их, <a  href=\"http://days.pravoslavie.ru/name/611.html\" target=\"_blank\" title=\"Диодор Римский, пресвитер, сщмч.\">Диодора</a> пресвитера и <a  href=\"http://days.pravoslavie.ru/name/1452.html\" target=\"_blank\" title=\"Мариан Римский, диакон, сщмч.\">Мариана</a> диакона. Прав. <a  href=\"http://days.pravoslavie.ru/name/2678.html\" target=\"_blank\" title=\"София Слуцкая, княжна\">Софии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2678_1514.html\" target=\"_blank\" >икона</a>), кн. Слуцкой. Прп. <a  href=\"http://days.pravoslavie.ru/name/14501.html\" target=\"_blank\" title=\"Симеон (Желнин) Псково-Печерский, прп.\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14501_3142.html\" target=\"_blank\" >икона</a>) Псково-Печерского. Мч. <a  href=\"http://days.pravoslavie.ru/name/1728.html\" target=\"_blank\" title=\"Панхарий Римский, мч.\">Панхария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1728_4138.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/6979.html\" target=\"_blank\" title=\"Васса Псково-Печерская, прп.\">Вассы</a> Псково-Печерской. Прп. <a  href=\"http://days.pravoslavie.ru/name/952.html\" target=\"_blank\" title=\"Преподобный Иннокентий Комельский, Вологодский\">Иннокентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii952_1798.html\" target=\"_blank\" >икона</a>) Комельского, Вологодского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14691.html\" target=\"_blank\" title=\"Симеон Дайбабский, прп.\">Симеона</a> Дайбабского (Серб.). Исп. <a  href=\"http://days.pravoslavie.ru/name/9973.html\" target=\"_blank\" title=\"Иоанн (Блинов), псаломщик, исп.\">Иоанна</a>. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14239.html\" target=\"_blank\" title=\"Матрона (Алексеева), прмц.\">Матроны</a>. Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2999.html\" target=\"_blank\" title=\"\"Умиление\" Смоленская\">\"Умиление\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2999_172.html\" target=\"_blank\" >икона</a>), Смоленской. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_41_4_14.html#z\">Ис. XLI, 4-14.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_17_1_9.html#z\">Быт. XVII, 1-9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_15_20_0_16_0_9.html#z\">Притч. XV, 20 - XVI, 9.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Путь жизни мудрого вверх, чтобы уклониться от преисподней внизу\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17795.htm\" target=\"_blank\" title=\"Библия\">Прит. 15, 24</a>). Всем известно, что есть ад и туда может попасть всякий за дела свои. Но не все помнят это и не так исправно живут, чтобы видна была забота уклониться от ада. Живут, как живется, на авось: авось как-нибудь и в ад не попадем. Где же разум наш? В житейских делах еще может сходить с рук \"авось\", но в таком решительном деле, которое, однажды совершившись, пребудет во веки веков неизменным, \"авось\" обличает неразумность последней степени. Не кичись же, разум, своей разумностью, когда не помнишь этого и не предлагаешь нам помышлений жизни, как уклонившись от ада, спастись.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

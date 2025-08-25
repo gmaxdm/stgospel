@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("22 июля 2020 г. ( 9 июля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 7-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1725.html\" target=\"_blank\" title=\"Священномученик Панкратий, епископ Тавроменийский\">Панкратия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1725_1973.html\" target=\"_blank\" >икона</a>), еп. Тавроменийского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1225.html\" target=\"_blank\" title=\"Священномученик Кирилл, епископ Гортинский\">Кирилла</a>, еп. Гортинского. Прмчч. <a  href=\"http://days.pravoslavie.ru/name/1744.html\" target=\"_blank\" title=\"Патермуфий Египетский, прмч.\">Патермуфия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1744_3888.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1281.html\" target=\"_blank\" title=\"Коприй Египетский, прмч.\">Коприя</a> и мч. <a  href=\"http://days.pravoslavie.ru/name/107.html\" target=\"_blank\" title=\"Александр Египетский, воин, мч.\">Александра</a>. Прпп. <a  href=\"http://days.pravoslavie.ru/name/1745.html\" target=\"_blank\" title=\"Патермуфий Египетский, прп.\">Патермуфия</a> и <a  href=\"http://days.pravoslavie.ru/name/1280.html\" target=\"_blank\" title=\"Коприй Египетский, иеромонах\">Коприя</a> Египетских. Свт. <a  href=\"http://days.pravoslavie.ru/name/2183.html\" target=\"_blank\" title=\"Святитель Феодор Едесский, епископ\">Феодора</a>, еп. Едесского. Прп. <a  href=\"http://days.pravoslavie.ru/name/13502.html\" target=\"_blank\" title=\"Гавриил Афонский, архимандрит, прп.\">Гавриила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13502_3644.html\" target=\"_blank\" >икона</a>) Афонского, настоятеля афонского Ильинского скита. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13745.html\" target=\"_blank\" title=\"Константин (Лебедев), иерей, сщмч.\">Константина</a> пресвитера. <a  href=\"http://days.pravoslavie.ru/name/2883.html\" target=\"_blank\" title=\"Колочская\">Колочской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2883_2407.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2881.html\" target=\"_blank\" title=\"Кипрская (Стромынская)\">Кипрской</a> в с. Стромыни (Московская обл.) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-kor_7_12_24.html#z\">1 Кор., 137 зач., VII, 12-24.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_14_35_0_15_0_11.html#z\">Мф., 60 зач., XIV, 35 - XV, 11.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18021.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 7, 12-24</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18022.htm\" target=\"_blank\" title=\"Библия\">Мф. 14, 35-15, 11</a>). \"Не то, что входит в уста, оскверняет человека; но то, что выходит из уст, оскверняет человека\". Господь сказал это не потому, чтоб Он не благоволил к посту или считал его не нужным для нас, - нет, и Сам Он постился, и апостолов научил тому, и в Церкви Своей святой установил посты, а сказал это для того, чтобы, постясь, мы не ограничивались одним малоядением или сухоядением, но заботились при этом и душу свою держать в посте, не поблажая ее пожеланиям и страстным влечениям. И это главное. Пост же служит могущественным тому средством.  Основа страстей в плоти; когда измождена плоть, тогда словно подкоп подведен под страсти и крепость их рушится. Без поста же одолеть страсти - было бы чудом, похожим на то, чтобы быть в огне и не обгорать. У того, кто довольствует пространно плоть свою пищею, сном и покоем, как держаться чему-нибудь духовному во внимании и намерениях? Отрешиться от земли и войти в созерцание невидимых вещей и стремление к ним ему столь же удобно, как одряхлевшей птице подняться от земли.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

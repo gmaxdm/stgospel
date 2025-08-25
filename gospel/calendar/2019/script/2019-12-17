@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("17 декабря 2020 г. ( 4 декабря ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 28-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмц. <a  href=\"http://days.pravoslavie.ru/name/2427.html\" target=\"_blank\" title=\"Святая великомученица Варвара\">Варвары</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2427_436.html\" target=\"_blank\" >икона</a>)  и мц. <a  href=\"http://days.pravoslavie.ru/name/2527.html\" target=\"_blank\" title=\"Иулиания Илиопольская, мц.\">Иулиании</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/972.html\" target=\"_blank\" title=\"Иоанн Дамаскин, песнописец, прп.\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii972_587.html\" target=\"_blank\" >икона</a>) Дамаскина. Прп. <a  href=\"http://days.pravoslavie.ru/name/1004.html\" target=\"_blank\" title=\"Святитель Иоанн Поливотский, епископ\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1004_3864.html\" target=\"_blank\" >икона</a>), еп. Поливотского. Свт. <a  href=\"http://days.pravoslavie.ru/name/471.html\" target=\"_blank\" title=\"Святитель Геннадий, архиепископ Новгородский\">Геннадия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii471_500.html\" target=\"_blank\" >икона</a>), архиеп. Новгородского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9276.html\" target=\"_blank\" title=\"Алексий (Сабуров), протоиерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/9333.html\" target=\"_blank\" title=\"Иоанн (Пьянков), протоиерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9444.html\" target=\"_blank\" title=\"Александр (Посохин), иерей, сщмч.\">Александра</a> и <a  href=\"http://days.pravoslavie.ru/name/9740.html\" target=\"_blank\" title=\"Николай (Яхонтов), иерей, сщмч.\">Николая</a> пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/9845.html\" target=\"_blank\" title=\"Василий (Кашин), диакон, сщмч.\">Василия</a> диакона и с ним 10-ти мучеников. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13890.html\" target=\"_blank\" title=\"Димитрий (Неведомский), протоиерей, сщмч.\">Димитрия</a> пресвитера, прмц. <a  href=\"http://days.pravoslavie.ru/name/14367.html\" target=\"_blank\" title=\"Анастасия (Титова), послушница, прмц.\">Анастасии</a>, мцц. <a  href=\"http://days.pravoslavie.ru/name/13891.html\" target=\"_blank\" title=\"Екатерина (Арская), мц.\">Екатерины</a> и <a  href=\"http://days.pravoslavie.ru/name/13892.html\" target=\"_blank\" title=\"Кира (Оболенская), мц.\">Киры</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_25_1_13.html#z\">Мф., 104 зач., XXV, 1-13.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_tit_1_5_0_2_0_1.html#z\">Тит., 300 зач. (от&nbsp;полу&#769;), I, 5 - II, 1.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_20_9_18.html#z\">Лк., 100 зач., XX, 9-18.</a> Вмц.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_3_23_29.html#z\">Гал., 208 зач., III, 23-29.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_5_24_34.html#z\">Мк., 21 зач., V, 24-34.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18336.htm\" target=\"_blank\" title=\"Библия\">Тит. 1, 5-2, 1</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18337.htm\" target=\"_blank\" title=\"Библия\">Лк. 20, 9-18</a>). Притча о винограднике изображает ветхозаветную церковь; делатели - это тогдашняя ее иерархия. А так как она не соответствовала своему назначению, то совершился приговор над нею: взять у ней виноградник и отдать другим. Эти другие были сначала св. Апостолы, потом их преемники - архиереи со всем священством. Виноградник Божий - один от начала мира, и назначение делателей его одно было, есть и будет до скончания века - приносить Господину винограда плод - спасенные души. Это задача христианской иерархии, следовательно и нашей. В какой мере исполняется она - все мы видим. Что же сказать на это? Во многом - слава Богу! - но во многом-многом нельзя не пожелать лучшего. Это особенно касается проповеди слова Божия. Где-то слышится проповедь; а между тем это единственный садовый нож в руках делателей винограда Божия. Как бы и над нами не исполнилось: \"придет господин виноградника и погубит виноградарей тех и отдаст виноградник другим\". Но как бы сами не ворвались эти иные и не погубили не только делателей, но и самый виноград. . .<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

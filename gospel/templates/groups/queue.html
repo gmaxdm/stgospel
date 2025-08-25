@@ -1,0 +1,31 @@
+{% extends 'wrapper.html' %}
+{% block title %}Чтение {{ data.group.name }}. Последовательность чтения{% endblock %}
+{% block main %}
+    <div class="">
+        <h3>Чтение {{ data.group.name }}</h3>
+        <h5>Последовательность чтения</h5>
+        <ul class="list-unstyled">
+            {% for i, dt, qi, today, durl in queue %}
+            <li class="mb-4"><p>{{ i }}. {% if durl %}<a href="{{ durl }}">{{ dt }}</a>{% else %}{{ dt }}{% endif %}
+                {% if today %}<span class="badge badge-success">сегодня</span>{% endif %}
+                {% if qi %}
+                    {{ qi.title }}</p>
+                    <ul>
+                    {% if qi.chapters%}
+                        {% for ch in qi.chapters %}
+                            <li>{{ ch.book_title }}. {% if ch.num %}Глава {{ ch.num }}{% else %}Предисловие{% endif %}</li>
+                        {% endfor %}
+                    {% else %}
+                        {% for ch in qi.item %}
+                            <li>{{ ch.book }}. {% if ch.num %}Глава {{ ch.num }}{% else %}Предисловие{% endif %}</li>
+                        {% endfor %}
+                    {% endif %}
+                    </ul>
+                {% else %}
+                </p><p class="badge badge-warning">в этот день чтения нет</p>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

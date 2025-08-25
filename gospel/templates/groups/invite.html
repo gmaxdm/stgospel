@@ -1,0 +1,24 @@
+{% extends 'wrapper.html' %}
+{% block title %}Пригласить участников в чтение по соглашению{% endblock %}
+{% block main %}
+    <div class="mt-3 mb-3 text-right">
+        <h3>Пригласить участиников в чтение <a class="badge badge-primary" href="{% url 'group' view.kwargs.group_user.group_id %}">{{ view.kwargs.group_user.group.name }}</a></h3>
+        <div>Введите адреса электронной почты через запятую</div>
+        <p class"text-muted"><small>За один раз можно ввести 5 адресов</small></p>
+        <form id="finv" name="finv" action="{% url 'group-invite' view.kwargs.group_user.group_id %}" method="POST">
+        {% csrf_token %}
+        <textarea id="invite" style="width: 80%;" rows="5" name="invite" required></textarea>
+        </form>
+        <p class=""><button id="submit">Пригласить</button></p>
+    </div>
+    <script type="text/javascript">
+        $(function() {
+            $("#submit").click(function(e) {
+                e.preventDefault();
+                if($("#invite").val().length) {
+                    $("#finv").submit();
+                }
+            });
+        });
+    </script>
+{% endblock %}

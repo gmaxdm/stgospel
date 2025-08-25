@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("4 октября 2020 г. ( 21 сентября ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 17-я по Пятидесятнице, по Воздвижении. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14709.html\" target=\"_blank\" title=\"Отдание праздника Воздвижения Животворящего Креста Господня\">Отдание</a> праздника Воздвижения Животворящего Креста Господня. Ап. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/1256.html\" target=\"_blank\" title=\"Апостол от 70-ти Кодрат\">Кодрата</a>. Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/601.html\" target=\"_blank\" title=\"Святитель Димитрий, митрополит Ростовский\">Димитрия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii601_347.html\" target=\"_blank\" >икона</a>), митр. Ростовского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/1069.html\" target=\"_blank\" title=\"Святитель Ипатий Ефесский, епископ, сщмч.\">Ипатия</a> епископа и <a  href=\"http://days.pravoslavie.ru/name/179.html\" target=\"_blank\" title=\"Андрей Ефесский, пресвитер, сщмч.\">Андрея</a> пресвитера. Прп. <a  href=\"http://days.pravoslavie.ru/name/586.html\" target=\"_blank\" title=\"Преподобный Даниил Шужгорский\">Даниила</a> Шужгорского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1056.html\" target=\"_blank\" title=\"Иосиф Заоникиевский (Вологодский), Христа ради юродивый, прп.\">Иосифа</a> Заоникиевского. Свтт. <a  href=\"http://days.pravoslavie.ru/name/1102.html\" target=\"_blank\" title=\"Святитель Исаакий Кипрский, епископ\">Исаакия</a> и <a  href=\"http://days.pravoslavie.ru/name/1509.html\" target=\"_blank\" title=\"Святитель Мелетий Кипрский, епископ\">Мелетия</a>, епископов Кипрских. Мчч. <a  href=\"http://days.pravoslavie.ru/name/704.html\" target=\"_blank\" title=\"Евсевий Финикийский, мч.\">Евсевия</a> и <a  href=\"http://days.pravoslavie.ru/name/1832.html\" target=\"_blank\" title=\"Приск Кесарийский (Палестинский), мч.\">Приска</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9455.html\" target=\"_blank\" title=\"Александр (Федосеев), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9277.html\" target=\"_blank\" title=\"Алексий (Стабников), протоиерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/9663.html\" target=\"_blank\" title=\"Константин (Широкинский), иерей, сщмч.\">Константина</a>, <a  href=\"http://days.pravoslavie.ru/name/9649.html\" target=\"_blank\" title=\"Иоанн (Флеров), иерей, сщмч.\">Иоанна</a> пресвитеров. Прмч. <a  href=\"http://days.pravoslavie.ru/name/9177.html\" target=\"_blank\" title=\"Маврикий (Полетаев), архимандрит, сщмч.\">Маврикия</a> и с ним мч. <a  href=\"http://days.pravoslavie.ru/name/9953.html\" target=\"_blank\" title=\"Василий (Кондратьев), мч.\">Василия</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9482.html\" target=\"_blank\" title=\"Валентин (Никольский), иерей, сщмч.\">Валентина</a>, <a  href=\"http://days.pravoslavie.ru/name/9418.html\" target=\"_blank\" title=\"Александр (Беляков), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9622.html\" target=\"_blank\" title=\"Иоанн (Никольский), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9474.html\" target=\"_blank\" title=\"Андрей (Бенедиктов), иерей, сщмч.\">Андрея</a>, <a  href=\"http://days.pravoslavie.ru/name/9778.html\" target=\"_blank\" title=\"Петр (Сахаровский), иерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/9617.html\" target=\"_blank\" title=\"Иоанн (Лазарев), иерей, сщмч.\">Иоанна</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9600.html\" target=\"_blank\" title=\"Иоанн (Быстров), иерей, сщмч.\">Иоанна</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13801.html\" target=\"_blank\" title=\"Василий (Крымкин), иерей, сщмч.\">Василия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 6-е, <a href=\"http://days.pravoslavie.ru/bible/z_lk_24_36_53.html#z\">Лк., 114 зач., XXIV, 36-53.</a> Лит. - Недели по Воздвижении: <a href=\"http://days.pravoslavie.ru/bible/z_gal_2_16_20.html#z\">Гал., 203 зач., II, 16-20.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_8_34_0_9_0_1.html#z\">Мк., 37 зач., VIII, 34 - IX, 1.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_6_16_0_7_0_1.html#z\">2 Кор., 182 зач. (от&nbsp;полу&#769;), VI, 16 - VII, 1.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_15_21_28.html#z\">Мф., 62 зач., XV, 21-28</a> (о хананеянке). Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

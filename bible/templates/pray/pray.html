@@ -1,0 +1,12 @@
+{% extends 'wrapper.html' %}
+{% block title %}{{ pray.title }}{% endblock %}
+{% load format %}
+{% block main %}
+    <div class="">
+        <p><a href="{% url 'prayers' %}">Молитвы</a></p>
+        <h1>{{ pray.title }}</h1>
+        <div class="m-3">
+            {{ pray.text|markup }}
+        </div>
+    </div>
+{% endblock %}

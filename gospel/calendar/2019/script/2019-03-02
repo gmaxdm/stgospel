@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("2 марта 2020 г. ( 18 февраля ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 1-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("По монастырскому уставу - полное воздержание от пищи. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/1333.html\" target=\"_blank\" title=\"Святитель Лев, папа Римский\">Льва</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1333_1882.html\" target=\"_blank\" >икона</a>), Папы Римского. Свт. <a  href=\"http://days.pravoslavie.ru/name/56.html\" target=\"_blank\" title=\"Святитель Агапит Синадский (Фригийский), епископ, исповедник\">Агапита</a> (<a  href=\"http://days.pravoslavie.ru/images/ii56_4057.html\" target=\"_blank\" >икона</a>) исп., еп. Синадского. Свт. <a  href=\"http://days.pravoslavie.ru/name/2311.html\" target=\"_blank\" title=\"Святитель Флавиан Константинопольский, патриарх, исповедник\">Флавиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2311_2102.html\" target=\"_blank\" >икона</a>) исп., патриарха Цареградского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1301.html\" target=\"_blank\" title=\"Косма Яхромский, прп.\">Космы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1301_898.html\" target=\"_blank\" >икона</a>) Яхромского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14220.html\" target=\"_blank\" title=\"Владимир (Терентьев), игумен, прп., исповедник\">Владимира</a> исповедника. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_1_1_20.html#z\">Ис. I, 1-20.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_1_1_13.html#z\">Быт. I, 1-13.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_1_1_20.html#z\">Притч. I, 1-20.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Прииде пост, мати целомудрия\". А какое же было время до того дня? Время блуждения. Душа блудила со всем, что ни попадало приятного на глаза, - и с лицами, и с вещами, а полнее с греховными страстями. Всякий имеет свою страсть, которой угождает во всем. Пора конец положить. Уразумей всякий свою Далилу, вяжущую тебя и предающую злым врагам, и покинь ее. И дано будет тебе больше, чем Самсону: не волосы только отрастут - благие помышления, и не сила только воротится - крепость воли, но и очи откроются - ум станет зрящим и увидит Господа, и себя, и что вокруг тебя в надлежащем свете. Се ныне время благоприятно! Се ныне день спасения!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

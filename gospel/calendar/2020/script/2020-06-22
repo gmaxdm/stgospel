@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("22 июня 2020 г. ( 9 июня ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/1221.html\" target=\"_blank\" title=\"Святитель Кирилл Александрийский\">Кирилла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1221_185.html\" target=\"_blank\" >икона</a>), архиеп. Александрийского. Прав.  <a  href=\"http://days.pravoslavie.ru/name/6991.html\" target=\"_blank\" title=\"Алексий (Мечев) Московский, протоиерей, прав.\">Алексия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6991_1646.html\" target=\"_blank\" >икона</a>) Московского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1224.html\" target=\"_blank\" title=\"Преподобный Кирилл Белоезерский\">Кирилла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1224_185.html\" target=\"_blank\" >икона</a>), игумена Белоезерского. Мцц. <a  href=\"http://days.pravoslavie.ru/name/2701.html\" target=\"_blank\" title=\"Фекла Персидская, мц.\">Феклы</a>, <a  href=\"http://days.pravoslavie.ru/name/2608.html\" target=\"_blank\" title=\"Марфа Персидская, мц.\">Марфы</a> и <a  href=\"http://days.pravoslavie.ru/name/2600.html\" target=\"_blank\" title=\"Мария Персидская, мц.\">Марии</a> Персидских. Прп. <a  href=\"http://days.pravoslavie.ru/name/113.html\" target=\"_blank\" title=\"Александр Куштский, игумен\">Александра</a>, игумена Куштского. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/14271.html\" target=\"_blank\" title=\"Рафаил (Шейченко), иеромонах, исповедник\">Рафаила</a> исповедника ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_rim_7_1_13.html#z\">Рим., 94 зач., VII, 1-13.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_9_36_0_10_0_8.html#z\">Мф., 34 зач., IX, 36 - X, 8.</a> Прп. (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_7_16.html#z\">Евр., 334 зач., XIII, 7-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба прав. Алексия Московского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19,</a> а на литургии - чтения дня и праведного: <a href=\"http://days.pravoslavie.ru/bible/z_evr_4_14_0_5_0_6.html#z\">Евр., 311 зач., IV, 14 - V, 6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17958.htm\" target=\"_blank\" title=\"Библия\">Рим. 7, 1-13</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17959.htm\" target=\"_blank\" title=\"Библия\">Мф. 9, 36-10, 8</a>). Посылая на проповедь св. апостолов, Господь заповедал им всех звать, говоря: \"приблизилось Царство Небесное\", то есть пришло Царствие - идите в него. Нам же что следует проповедовать? Надо всем кричать: сыны Царствия! не бегите из Царствия в неволю и рабство, - потому что бегут. Одних пленяет свобода ума: \"не хотим, говорят, уз веры и гнета авторитета, даже Божественного; сами все разгадаем и порешим\". Ну, и порешили. Настроили басней, в которых больше ребячества, чем в мифологии греков - и величаются. . . Других увлекает широкий путь страстей: \"не хотим, говорят, знать положительных заповедей, ни требований совести, - это все отвлеченности: нам нужна естественность осязательная\". И пошли вслед ее. Что же вышло? Приложились скотом несмысленным. Не от этого ли нравственного ниспадения родилась и теория происхождения человека от животных? Вот куда заходят! А все бегут от Господа, все бегут. . .<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

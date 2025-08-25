@@ -1,0 +1,37 @@
+{% extends 'wrapper.html' %}
+{% load static i18n %}
+{% block title %}{% trans "Форум - " %}{{ topic.title }}{% endblock %}
+{% block main %}
+{% url "register" as register_url %}
+
+<div id="topic">
+<div class="my-4">
+
+<div class="clearfix text-center">
+    <div class="float-left mr-2">
+        <img src="{{ topic.forum.img128 }}" width="64" />
+    </div>
+    <h2>{{ topic.title }}</h2>
+    <div class="small"><a href="{% url "forum-index" %}">{% trans "Forums" %}</a> &rarr; {{ topic.forum.category.title }} &rarr; <a href="{% url 'forum-view' topic.forum.slug %}">{{ topic.forum.title }}</a></div>
+</div>
+
+<div id="topic-posts" class="posts"></div>
+
+{% if topic.closed %}
+<div class="mt-5 text-center">
+    <p>{% trans "Topic is closed." %}</p>
+</div>
+{% else %}
+    {% if not user.is_authenticated %}
+    <div class="mt-5">
+        {% blocktranslate %}
+        <p>Пожалуйста, <a href="{{ register_url }}">зарегистрируйтесь</a> или <a href="{{ login_url }}">войдите</a>, чтобы оставить отзыв.</p>
+        {% endblocktranslate %}
+    </div>
+    {% endif %}
+{% endif %}
+
+</div>
+</div>
+
+{% endblock %}

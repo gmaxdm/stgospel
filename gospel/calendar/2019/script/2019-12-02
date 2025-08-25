@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("2 декабря 2020 г. ( 19 ноября ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 26-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/9.html\" target=\"_blank\" title=\"Авдий, пророк, из 12 малых пророков\">Авдия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9_3568.html\" target=\"_blank\" >икона</a>) (из 12-ти). Мч. <a  href=\"http://days.pravoslavie.ru/name/352.html\" target=\"_blank\" title=\"Варлаам Антиохиец, Кесарийский (Каппадокийский), мч.\">Варлаама</a>. Прпп. <a  href=\"http://days.pravoslavie.ru/name/353.html\" target=\"_blank\" title=\"Варлаам Индийский, иерей, пустынник\">Варлаама</a> (<a  href=\"http://days.pravoslavie.ru/images/ii353_340.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1032.html\" target=\"_blank\" title=\"Иоасаф Индийский, царевич, прп.\">Иоасафа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1032_340.html\" target=\"_blank\" >икона</a>), царевича Индийского, и отца его <a  href=\"http://days.pravoslavie.ru/name/14.html\" target=\"_blank\" title=\"Авенир Индийский, царь\">Авенира</a> царя. Свт. <a  href=\"http://days.pravoslavie.ru/name/2284.html\" target=\"_blank\" title=\"Святитель Филарет (Дроздов), митрополит Московский и Коломенский\">Филарета</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2284_301.html\" target=\"_blank\" >икона</a>), митр. Московского. Мч. <a  href=\"http://days.pravoslavie.ru/name/938.html\" target=\"_blank\" title=\"Илиодор Магидский (Памфилийский), мч.\">Илиодора</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/79.html\" target=\"_blank\" title=\"Аза Исаврийский, мч.\">Азы</a>  и с ним 150-ти воинов. Прп. <a  href=\"http://days.pravoslavie.ru/name/927.html\" target=\"_blank\" title=\"Иларион Грузинский, иеромонах\">Илариона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii927_3829.html\" target=\"_blank\" >икона</a>) чудотворца, Грузинского (Груз.). Прп. <a  href=\"http://days.pravoslavie.ru/name/355.html\" target=\"_blank\" title=\"Преподобный Варлаам, игумен Печерский\">Варлаама</a> (<a  href=\"http://days.pravoslavie.ru/images/ii355_437.html\" target=\"_blank\" >икона</a>), игумена Печерского. Обретение мощей прмч. <a  href=\"http://days.pravoslavie.ru/name/76.html\" target=\"_blank\" title=\"Священномученик Адриан Пошехонский\">Адриана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii76_387.html\" target=\"_blank\" >икона</a>) Пошехонского, Ярославского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14737.html\" target=\"_blank\" title=\"Порфирий (Баирактарис) Кавсокаливит, прп.\">Порфирия</a> Кавсокаливита. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13885.html\" target=\"_blank\" title=\"Иоанн (Вишневский), иерей, сщмч.\">Иоанна</a> пресвитера. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9155.html\" target=\"_blank\" title=\"Святитель Порфирий (Гулевич), епископ Симферопольский, сщмч.\">Порфирия</a>, еп. Симферопольского, <a  href=\"http://days.pravoslavie.ru/name/14523.html\" target=\"_blank\" title=\"Святитель Иоасаф (Удалов), епископ Чистопольский, сщмч.\">Иоасафа</a>, еп. Чистопольского, <a  href=\"http://days.pravoslavie.ru/name/9399.html\" target=\"_blank\" title=\"Сергий (Махаев), протоиерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/9356.html\" target=\"_blank\" title=\"Михаил (Дмитров), протоиерей, сщмч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/9435.html\" target=\"_blank\" title=\"Александр (Мишутин), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9332.html\" target=\"_blank\" title=\"Иоанн (Малиновский), протоиерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9344.html\" target=\"_blank\" title=\"Константин (Михайловский), протоиерей, сщмч.\">Константина</a>, <a  href=\"http://days.pravoslavie.ru/name/9263.html\" target=\"_blank\" title=\"Александр (Серебров), протоиерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9586.html\" target=\"_blank\" title=\"Игнатий (Теслин), иерей, сщмч.\">Игнатия</a>, <a  href=\"http://days.pravoslavie.ru/name/9797.html\" target=\"_blank\" title=\"Симеон (Кривошеев), иерей, сщмч.\">Симеона</a>, <a  href=\"http://days.pravoslavie.ru/name/9626.html\" target=\"_blank\" title=\"Иоанн (Пирамидин), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9650.html\" target=\"_blank\" title=\"Иоанн (Флоровский), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9311.html\" target=\"_blank\" title=\"Димитрий (Куклин), протоиерей, сщмч.\">Димитрия</a>, <a  href=\"http://days.pravoslavie.ru/name/9322.html\" target=\"_blank\" title=\"Иаков (Передий), протоиерей, сщмч.\">Иакова</a>, <a  href=\"http://days.pravoslavie.ru/name/13855.html\" target=\"_blank\" title=\"Иаков (Бриллиантов), иерей, сщмч.\">Иакова</a> пресвитеров, прмчч. <a  href=\"http://days.pravoslavie.ru/name/9190.html\" target=\"_blank\" title=\"Иоасаф (Крымзин), игумен, сщмч.\">Иоасафа</a>, <a  href=\"http://days.pravoslavie.ru/name/14434.html\" target=\"_blank\" title=\"Геннадий (Ребеза), архимандрит, прмч.\">Геннадия</a>, <a  href=\"http://days.pravoslavie.ru/name/9241.html\" target=\"_blank\" title=\"Петр (Мамонтов), иеромонах, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/9208.html\" target=\"_blank\" title=\"Герасим (Сухов), иеромонах, сщмч.\">Герасима</a>, <a  href=\"http://days.pravoslavie.ru/name/9231.html\" target=\"_blank\" title=\"Михаил (Кванин), иеромонах, сщмч.\">Михаила</a>, мчч. <a  href=\"http://days.pravoslavie.ru/name/9948.html\" target=\"_blank\" title=\"Валентин (Корниенко), мч.\">Валентина</a>, <a  href=\"http://days.pravoslavie.ru/name/10017.html\" target=\"_blank\" title=\"Петр (Антонов), мч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/9993.html\" target=\"_blank\" title=\"Леонид (Сальков), мч.\">Леонида</a>, <a  href=\"http://days.pravoslavie.ru/name/13856.html\" target=\"_blank\" title=\"Тимофей (Кучеров), мч.\">Тимофея</a>. Иконы Божией матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2807.html\" target=\"_blank\" title=\"\"В скорбех и печалех Утешение\"\">\"В скорбех и печалех Утешение\"</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-tim_1_18_20_2_8_15.html#z\">1 Тим., 281 зач., I, 18-20; II, 8-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_15_1_10.html#z\">Лк., 78 зач., XV, 1-10.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18305.htm\" target=\"_blank\" title=\"Библия\">1 Тим. 1, 18-20; 2, 8-15</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18307.htm\" target=\"_blank\" title=\"Библия\">Лк. 15, 1-10</a>). \"Притча об овце заблудшей и драхме потерянной\". Как велико милосердие Господа к нам грешным! Оставляет всех исправных и обращается к неисправным, чтоб их исправить; ищет их, и когда находит Сам радуется и созывает все небо сорадоваться Ему. Как же это ищет? Разве Он не знает, где мы, отступив от Него? Знает и видит все, но если бы дело было только за тем, чтоб взять и перенести к своим, тотчас все грешники снова являлись бы в своем чине. Но надо прежде расположить к покаянию, чтобы обращение и возращение к Господу было свободное, а этого нельзя сделать повелением или каким-либо внешним распоряжением. Искание Господом грешника состоит в том, чтоб навести его на покаяние. Все вокруг его располагает Он так, чтоб грешник образумился и, увидев бездну, в которую стремится, возвратился вспять. Сюда направлены все обстоятельства жизни, все встречи с минутами горести и радости, даже слова и взгляды. И внутренние воздействия Божии через совесть и другие, лежащие в сердце правые чувства, никогда не прекращаются. Сколько делается для обращения грешников на путь добродетели, а грешники все остаются грешниками!. . . Мрак наводит враг, и им думается, что все ничего, пройдет; а если и вспадают тревоги, то говорят: \"завтра брошу\", и остаются в прежнем положении. Так проходить день за днем; равнодушие к своему спасению растет и растет. Еще немного и оно перейдет уже в ожесточение в грехе. Придет ли тогда обращение - кто знает.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("14 января 2020 г. ( 1 января ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 31-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/3049.html\" target=\"_blank\" title=\"Обрезание Господне\">Обрезание Господне</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii3049_3136.html\" target=\"_blank\" >икона</a>)</span></span><br> Свт. <a  href=\"http://days.pravoslavie.ru/name/373.html\" target=\"_blank\" title=\"Святитель Василий Великий\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii373_8.html\" target=\"_blank\" >икона</a>) Великого, архиеп. Кесарии Каппадокийской. Мч. <a  href=\"http://days.pravoslavie.ru/name/370.html\" target=\"_blank\" title=\"Василий Анкирский, Кесарийский, мч.\">Василия</a> Анкирского. Св. <a  href=\"http://days.pravoslavie.ru/name/2501.html\" target=\"_blank\" title=\"Емилия Кесарийская (Каппадокийская), прп.\">Емилии</a>, матери свт. <a  href=\"http://days.pravoslavie.ru/name/373.html\" target=\"_blank\" title=\"Святитель Василий Великий\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii373_8.html\" target=\"_blank\" >икона</a>) Великого. Свт. <a  href=\"http://days.pravoslavie.ru/name/14945.html\" target=\"_blank\" title=\"Святитель Афанасий (Вольховский) чудотворец, епископ Мо­гилев­ский и По­лоц­кий\">Афанасия</a> Полтавского, чудотворца Прмч. <a  href=\"http://days.pravoslavie.ru/name/9874.html\" target=\"_blank\" title=\"Иеремия (Леонов), инок, прмч.\">Иеремии</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9154.html\" target=\"_blank\" title=\"Святитель Платон (Кульбуш), епископ Ревельский, сщмч.\">Платона</a>, еп. Ревельского, и с ним <a  href=\"http://days.pravoslavie.ru/name/9353.html\" target=\"_blank\" title=\"Михаил (Блейве), протоиерей, сщмч.\">Михаила</a> и <a  href=\"http://days.pravoslavie.ru/name/9364.html\" target=\"_blank\" title=\"Николай (Бежаницкий), протоиерей, сщмч.\">Николая</a> пресвитеров. Cщмчч. <a  href=\"http://days.pravoslavie.ru/name/9102.html\" target=\"_blank\" title=\"Святитель Александр (Трапицын), архиепископ Самарский, сщмч.\">Александра</a>, архиеп. Самарского, и с ним <a  href=\"http://days.pravoslavie.ru/name/9637.html\" target=\"_blank\" title=\"Иоанн (Смирнов), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9425.html\" target=\"_blank\" title=\"Александр (Иванов), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9645.html\" target=\"_blank\" title=\"Иоанн (Сульдин), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9437.html\" target=\"_blank\" title=\"Александр (Органов), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9546.html\" target=\"_blank\" title=\"Вячеслав (Инфантов), иерей, сщмч.\">Вячеслава</a>, <a  href=\"http://days.pravoslavie.ru/name/9488.html\" target=\"_blank\" title=\"Василий (Витевский), иерей, сщмч.\">Василия</a> и <a  href=\"http://days.pravoslavie.ru/name/9578.html\" target=\"_blank\" title=\"Иаков (Алферов), иерей, сщмч.\">Иакова</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> Лит. - Недели пред Богоявлением: <a href=\"http://days.pravoslavie.ru/bible/z_2-tim_4_5_8.html#z\">2 Тим., 298 зач., IV, 5-8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_1_1_8.html#z\">Мк., 1 зач., I, 1-8.</a> Обрезания: <a href=\"http://days.pravoslavie.ru/bible/z_kol_2_8_12.html#z\">Кол., 254 зач., II, 8-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_2_20_21_2_40_52.html#z\">Лк., 6 зач., II, 20-21, 40-52.</a> Свт. (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18389.htm\" target=\"_blank\" title=\"Библия\">Кол. 2, 8-12</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18390.htm\" target=\"_blank\" title=\"Библия\">Лк. 2, 20-21, 40-62</a>). Как новый год есть начало дней лета, так в день этот надлежит набрать в душу такие помышления, чувства и расположения, которые могли бы, достойно христианина, заправлять всем ходом дел его в продолжении года. Это мы тотчас найдем как только возьмем в мысль, что есть новый год в духовной жизни. В духовной жизни новый год есть, когда кто из живущих в нерадении начинает ревновать о спасении и богоугождении: ибо когда кто решается на это, тогда у него внутри и вне все перестраивается заново и на новых началах, - древнее мимоходит и все бывает ново. Если у тебя есть это, - понови; а если нет, - произведи, - и будет у тебя новый год. К этому же подойдет и достойное празднование обрезания Господня и памяти св. Василия Великого. Сущность сказанного изменения состоит в том что человек начинает с этого момента жить единственно для Бога во спасение свое, тогда как прежде жил исключительно для себя, уготовляя себе пагубу. Тут бросает он прежние привычки, все утехи и все, в чем находил удовольствие; отсекает страсти и похотные расположения и воспринимает дела строгого самоотвержения. А такое изменение точь в точь представляет то, чем по Апостолу, должно быть обрезание сердца, - о котором напоминает и к которому обязывает нас празднование обрезания Господня, и пример которому представляет в лице своем св. Василий Великий. Так все предметы, теснящиеся в сознании, в Новый год сходятся в одном - внутреннем обновлении нашем через обрезание сердца. Если благоволит Господь кому настроиться в новый год таким образом т. е. не только подумать так но и в жизнь ввести все это, тот наисовершеннейшим образом по христиански спразднует Новый год и приготовится к христианскому препровождению всего лета. В следующий Новый год ему надо будет только поновить и оживить воспринятое ныне.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

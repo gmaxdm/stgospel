@@ -1,0 +1,96 @@
+{% extends 'wrapper.html' %}
+{% block title %}Чтение по соглашнию {{ data.group.name }}{% endblock %}
+{% block main %}
+    <h1 class="text-center">{{ data.group.name }}</h1>
+    {% if can_edit %}
+    <div class="text-right mb-4"><a href="{% url 'group-edit' data.group.id %}">редактировать</a></div>
+    {% endif %}
+    {% if isbreak %}
+        <div class="alert alert-{% if insidebreak %}primary{% else %}warning{% endif %} text-center mb-4" role="alert">
+            {% if data.settings.break_start == data.settings.break_end %}
+                {{ data.settings.break_start }}
+            {% else %}
+                С {{ data.settings.break_start }} по {{ data.settings.break_end }}
+            {% endif %}
+            чтения нет.<br/>
+            Чтение будет возобновлено <strong>{{ data.settings.bdate }}</strong>
+        </div>
+    {% endif %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <p>
+                    {% if date %}
+                    Чтение на <a href="{% url 'reading-group' data.group.id %}" class="badge badge-success">сегодня</a>
+                    {% else %}
+                    <span>Чтение {% if data.settings.is_break_date %}приостановлено{% else %}{% if data.group.is_finished %}завершено{% else %}начнется {{ data.settings.start }}{% endif %}{% endif %}</span>
+                    {% endif %}
+                    {% if prevdate %}
+                    &nbsp;|&nbsp;<a href="{% url 'reading-group-date' data.group.id prevdate.year prevdate.month prevdate.day %}" class="badge badge-secondary">вчера</a>
+                    {% endif %}
+                    {% if prevprevdate %}
+                    &nbsp;|&nbsp;<a href="{% url 'reading-group-date' data.group.id prevprevdate.year prevprevdate.month prevprevdate.day %}" class="badge badge-danger">позавчера</a>
+                    {% endif %}
+                </p>
+                <p>Чтение на: <input id="reading-date" type="text" name="date" value="{{ otherdate|date:"Y-m-d" }}"> <a id="reading-link" href="{% url 'reading-group-date' data.group.id otherdate.year otherdate.month otherdate.day %}">посмотреть</a></p>
+                <p><i class="far fa-calendar-alt"></i> Последовательность чтения: <a href="{% url 'group-queue' data.group.id %}">посмотреть</a></p>
+                <div class="text-muted"><small>Скачайте последовательное чтение на 40 дней в формате электронной книги, если вы хотите читать без доступа к интернету:</small></div>
+                <p><i class="fab fa-leanpub"></i> Скачать в формате <a href="{% url 'epub-group' data.group.id %}" download target="_blank">электронной книги</a></p>
+                <p><i class="fas fa-list-ul"></i> Список поминания: <a href="{% url 'group-list' data.group.id %}"><i class="fas fa-print"></i> версия для печати</a></p>
+                <p><i class="fas fa-book"></i> Сборник: <a href="{% url 'volume' data.volume.volume.id %}">{{ data.volume.volume.title }}</a></p>
+                {% if 0 %}
+                <dl class="row">
+                    <dt class="col-sm-7">Количество имен в списке</dt>
+                    <dd class="col-sm-5">{{ data.settings.ncnt|default:"не ограничено" }}</dd>
+                    <dt class="col-sm-7">Начало чтения</dt>
+                    <dd class="col-sm-5">{{ data.settings.start }}</dd>
+                    <dt class="col-sm-7">Завершение чтения</dt>
+                    <dd class="col-sm-5">{{ data.settings.end|default:"не ограничено" }}</dd>
+                </dl>
+                {% endif %}
+                <p><a href="{% url 'group-members' data.group.id %}">Участники</a></p>
+                {% if can_edit %}
+                <p><a href="{% url 'group-invite' data.group.id %}">Пригласить участников</a></p>
+                {% endif %}
+                <div class="text-muted"><small>Чтение доступно только для зарегистрированных пользователей, но вы можете поделиться открытой ссылкой на чтение:</small></div>
+                <p><samp id="plink">https://st-gospel.ru{% url 'reading' %}?g={{ data.group.link }}</samp> <a href="#" id="copyLink" class="badge badge-secondary">скопировать</a> <a href="{% url 'reading' %}?g={{ data.group.link }}">посмотреть</a></p>
+                <p><a href="{% url 'group-leave' data.group.id %}">Оставить чтение (покинуть группу)</a></p>
+            </div>
+            <div class="col-sm-4">
+                <p>последние изменения:</p>
+                <ul class="list-unstyled" style="font-size: 0.8rem;">
+                    {% for h in history %}
+                    <li>
+                        <div>{{ h.get_action_display }}</div>
+                        <div class="text-right text-muted">{{ h.user }}</div>
+                        <div class="text-right"><small>{{ h.cdate }}</small></div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function() {
+            $("#reading-date").datepicker({
+                dateFormat: DATE_FORMAT,
+                defaultDate: getDate('{{ otherdate|date:"Y-m-d" }}'),
+                minDate: getDate('{{ data.settings.start|date:"Y-m-d" }}'),
+                {% if not data.settings.is_break_date and data.settings.end %}
+                maxDate: getDate('{{ data.settings.end|date:"Y-m-d" }}'),
+                {% endif %}
+            }).on("change", function() {
+                var lnk = $("#reading-link"),
+                    href = lnk.attr("href"),
+                    sp = href.split("/"),
+                    dt = getDate(this.value);
+                $("#reading-link").attr("href", sp.slice(0, sp.length-4).concat([dt.getYear()+1900, dt.getMonth()+1, dt.getDate(), ""]).join("/"));
+            });
+            $("#copyLink").on("click", function(e) {
+                e.preventDefault();
+                copyToClipboard($("#plink").text());
+                $(this).removeClass("badge-secondary").addClass("badge-success").text("скопировано");
+            });
+        });
+    </script>
+{% endblock %}

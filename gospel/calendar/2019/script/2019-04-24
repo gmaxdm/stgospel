@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("24 апреля 2020 г. ( 11 апреля ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Светлая седмица - сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Последование в честь Пресвятой Богородицы ради Ее «Живоносного Источника». Иконы Божией Матери <a  href=\"http://days.pravoslavie.ru/name/2849.html\" target=\"_blank\" title=\"\"Живоносный Источник\"\">\"Живоносный Источник\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2849_557.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/205.html\" target=\"_blank\" title=\"Святитель Антипа Пергамский, епископ, сщмч.\">Антипы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii205_99.html\" target=\"_blank\" >икона</a>), еп. Пергама Асийского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1837.html\" target=\"_blank\" title=\"Прокесс Римский, мч.\">Прокесса</a> и <a  href=\"http://days.pravoslavie.ru/name/1493.html\" target=\"_blank\" title=\"Мартиниан Римский, мч.\">Мартиниана</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/2162.html\" target=\"_blank\" title=\"Фармуфий Египетский, пустынник\">Фармуфия</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1018.html\" target=\"_blank\" title=\"Иоанн Солунский (Фессалоникийский), прп.\">Иоанна</a>, ученика прп. <a  href=\"http://days.pravoslavie.ru/name/539.html\" target=\"_blank\" title=\"Преподобный Григорий Декаполит\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii539_510.html\" target=\"_blank\" >икона</a>) Декаполита. Прпп. <a  href=\"http://days.pravoslavie.ru/name/871.html\" target=\"_blank\" title=\"Преподобный Иаков Железноборовский\">Иакова</a> Железноборовского и <a  href=\"http://days.pravoslavie.ru/name/870.html\" target=\"_blank\" title=\"Иаков Брылеевский, прп.\">Иакова</a> Брылевского, сподвижника его. Свт. <a  href=\"http://days.pravoslavie.ru/name/362.html\" target=\"_blank\" title=\"Святитель Варсонофий, епископ Тверской\">Варсонофия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii362_367.html\" target=\"_blank\" >икона</a>), еп. Тверского. Свт. <a  href=\"http://days.pravoslavie.ru/name/14907.html\" target=\"_blank\" title=\"Святитель Каллиник Черникский, епископ Рымника-Вылчи, епископ, свт.\">Каллиника</a> Черникского (Рум.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14245.html\" target=\"_blank\" title=\"Николай (Гаварин), иерей, сщмч.\">Николая</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_3_1_8.html#z\">Деян., 7 зач., III, 1-8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_2_12_22.html#z\">Ин., 7 зач., II, 12-22.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17826.htm\" target=\"_blank\" title=\"Библия\">Дея. З, 1-8</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17827.htm\" target=\"_blank\" title=\"Библия\">Ин. 2, 12-22</a>). Есть у святых отцов похвала некоторым лицам, славным по христианской жизни своей, состоящая в том, что они воскресли прежде общего воскресения. В чем же тайна такой жизни? В том, что они усвоили себе характеристические черты жизни по воскресении, как они указываются в слове Божием, и делали их качествующими в себе. Будущая жизнь представляется отрешенною от всего плотского: там не женятся, ни посягают, - не будут там питаться мертвою пищею, и самое тело восприимут духовное. Итак, кто живет отрешенно от всего плотского, тот принимает в себя или возращает в себе элементы будущей по воскресении жизни. Дойди до того, чтобы в тебе замерло все плотское, и станешь воскресшим прежде будущего воскресения. Путь к этому указывает апостол, когда говорит: \"поступайте по духу, и вы не будете исполнять вожделений плоти\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17828.htm\" target=\"_blank\" title=\"Библия\">Гал. 5, 16</a>). И удостоверяет, что этим путем наверное можно достигнуть чаемого: \"сеющий, говорит он, в дух от духа пожнет жизнь вечную\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17829.htm\" target=\"_blank\" title=\"Библия\">Гал. 6, 8</a>).<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

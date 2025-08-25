@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("27 марта 2020 г. ( 14 марта ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я Великого поста, Крестопоклонная. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/403.html\" target=\"_blank\" title=\"Венидикт Нурсийский, игумен\">Венедикта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii403_89.html\" target=\"_blank\" >икона</a>) Нурсийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/721.html\" target=\"_blank\" title=\"Святитель Евсхимон (Евсхим) Лампсакийский, епископ, исповедник\">Евсхимона</a> исп., еп. Лампсакийского. Блгв. вел. кн. <a  href=\"http://days.pravoslavie.ru/name/1883.html\" target=\"_blank\" title=\"Ростислав (в крещении Михаил) Мстиславич Киевский, Смоленский, великий князь\">Ростислава-Михаила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1883_3092.html\" target=\"_blank\" >икона</a>). Свт. <a  href=\"http://days.pravoslavie.ru/name/2173.html\" target=\"_blank\" title=\"Святитель Феогност Киевский и Московский, митрополит\">Феогноста</a>, митр. Киевского и всея России. <a  href=\"http://days.pravoslavie.ru/name/3011.html\" target=\"_blank\" title=\"Феодоровская\">Феодоровской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3011_69.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_29_13_23.html#z\">Ис. XXIX, 13-23.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_12_1_7.html#z\">Быт. XII, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_14_15_26.html#z\">Притч. XIV, 15-26.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Сказал Господь Аврааму: пойди из земли твоей, от родства твоего и из дома отца твоего, в землю, которую Я укажу тебе\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18517.htm\" target=\"_blank\" title=\"Библия\">Быт. 12, 1</a>). Это явный образ того изменения сердечного, которое совершается в истинно - верующих, когда они искренно берут на себя крест свой и последуют Христу. Оставляют они отца своего - самость, распиная ее самоотвержением; оставляют род свой - свои личные греховные склонности, страсти и привычки, распявши их решимостью неуклонно во всем следовать страстеубийственным заповедям Господним; оставляют землю свою, всю область греховную, мир, со всеми его требованиями, распиная его решимостью быть для него чуждым, хотя бы для этого необходимо было потерпеть не только потери в имуществе и весе общественном, но и самую смерть.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

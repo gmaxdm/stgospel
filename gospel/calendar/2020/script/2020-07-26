@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("26 июля 2020 г. ( 13 июля ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 7-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6916.html\" target=\"_blank\" title=\"Память святых отцев шести Вселенских Соборов\">Память</a> святых отцев шести Вселенских Соборов. Собор Архангела <a  href=\"http://days.pravoslavie.ru/name/446.html\" target=\"_blank\" title=\"Архангел Гавриил\">Гавриила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii446_71.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/2068.html\" target=\"_blank\" title=\"Стефан Савваит, прп.\">Стефана</a> Савваита. Свт. <a  href=\"http://days.pravoslavie.ru/name/1139.html\" target=\"_blank\" title=\"Святитель Иулиан Кеноманийский, епископ\">Иулиана</a>, еп. Кеноманийского. Мч. <a  href=\"http://days.pravoslavie.ru/name/1963.html\" target=\"_blank\" title=\"Серапион, мч.\">Серапиона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1963_4381.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/1479.html\" target=\"_blank\" title=\"Маркиан Иконийский, мч.\">Маркиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1479_4379.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 7-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_20_1_10.html#z\">Ин., 63 зач., XX, 1-10.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_15_1_7.html#z\">Рим., 116 зач., XV, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_9_27_35.html#z\">Мф., 33 зач., IX, 27-35.</a> Свв. отцов: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_7_16.html#z\">Евр., 334 зач., XIII, 7-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_17_1_13.html#z\">Ин., 56 зач., XVII, 1-13.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18029.htm\" target=\"_blank\" title=\"Библия\">Рим. 15, 1-7</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18030.htm\" target=\"_blank\" title=\"Библия\">Мф. 9, 27-35</a>). \"По вере вашей да будет вам\", сказал Господь двум слепцам, и тотчас отверзлись очи их. Насколько веры, настолько привтечения Божеской силы. Вера приемник, уста и вместилище благодати. Как легкие у одного бывают большие, а у другого маленькие, и те больше принимают воздуха, а эти меньше, - так и вера у иного большая, у другого маленькая, и та больше принимает даров от Господа, а эта меньше. Бог всюду есть, все объемлет и содержит, и любит обитать в душах человеческих; но входит в них не насильно, хоть всемогущ, а как бы по приглашению, ибо не хочет нарушать дарованной Им человеку власти над собою или права хозяйства в себе. Кто отворяет себя верою, того преисполняет Бог, а кто затворился неверием, в того не входит хоть и близ есть. Господи! приложи же нам веру, ибо и вера Твой же дар. Из нас же всякий должен исповедать: \"я же беден и нищ\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18031.htm\" target=\"_blank\" title=\"Библия\">Пс. 69, 6</a>).<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

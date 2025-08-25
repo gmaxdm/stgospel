@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("4 апреля 2020 г. ( 22 марта ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я Великого поста. <a  href=\"http://days.pravoslavie.ru/name/8059.html\" target=\"_blank\" title=\"Похвала Пресвятой Богородицы\">Похвала Пресвятой Богородицы (Суббота Акафиста)</a> (<a  href=\"http://days.pravoslavie.ru/images/ii8059_1037.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/371.html\" target=\"_blank\" title=\"Василий Анкирский, пресвитер, сщмч.\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii371_4142.html\" target=\"_blank\" >икона</a>), пресвитера Анкирского. Мц. <a  href=\"http://days.pravoslavie.ru/name/2459.html\" target=\"_blank\" title=\"Дросида Римская, мц.\">Дросиды</a>, дщери царя Траяна, и с нею дев <a  href=\"http://days.pravoslavie.ru/name/13979.html\" target=\"_blank\" title=\"Аглаида, мц.\">Аглаиды</a>, <a  href=\"http://days.pravoslavie.ru/name/13980.html\" target=\"_blank\" title=\"Аполлинария, мц.\">Аполлинарии</a>, <a  href=\"http://days.pravoslavie.ru/name/13981.html\" target=\"_blank\" title=\"Дария, мц.\">Дарии</a>, <a  href=\"http://days.pravoslavie.ru/name/13982.html\" target=\"_blank\" title=\"Мамфуса, мц.\">Мамфусы</a>, <a  href=\"http://days.pravoslavie.ru/name/13983.html\" target=\"_blank\" title=\"Таисия, мц.\">Таисии</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1101.html\" target=\"_blank\" title=\"Преподобный Исаакий Далматский\">Исаакия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1101_856.html\" target=\"_blank\" >икона</a>) Далматского. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_9_24_28.html#z\">Евр., 322 зач., IX, 24-28.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_8_27_31.html#z\">Мк., 35 зач., VIII, 27-31.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_evr_9_1_7.html#z\">Евр., 320 зач., IX, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17798.htm\" target=\"_blank\" title=\"Библия\">Ев. 9, 24-28</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17799.htm\" target=\"_blank\" title=\"Библия\">Мк. 8, 27-31</a>). Спросил Господь апостолов, как они Его понимают? В лице св. апостола Петра, они отвечали: \"Ты - Христос\". Не вдруг созрело это исповедание, но, созревши, осело в глубь сердца и стало источным его направителем. Оно было омрачено смертью Господа, но не поколебнуто, и быв воскрешено еще в большей силе Воскресением, стремило апостолов во всю их жизнь на проповедь всему миру. Есть момент и у каждого верующего, когда он всеми силами своими изрекает: \"Ты - Христос, Господь мой и Спаситель. Ты спасение мое, свет мой, сила моя, утешение мое, надежда моя и живот вечный\". Тогда совершается то, от чего он с апостолом взывает: \"кто меня разлучит от любви Христовой\"! - и подобно ему начинает гнаться за всем угодным Христу Господу, пока достигнет в меру возраста Его.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

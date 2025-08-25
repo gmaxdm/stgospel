@@ -1,0 +1,66 @@
+{% extends 'wrapper.html' %}
+{% block title %}Чтение {{ group.name }}. Участники{% endblock %}
+{% block main %}
+    <div class="mt-3 mb-3">
+        <h3 class="text-center mb-5">Участники чтения <a class="badge badge-primary" href="{% url 'group' group.id %}">{{ group.name }}</a></h3>
+        <ul class="list-unstyled">
+        {% for user in users %}
+        <li class="row">
+            <div class="col-sm-9">{{ forloop.counter }}. {{ user.user }} (
+                <small class="text-muted">{{ user.get_role_display }}</small>
+                )
+                {% if group_user.perm_admin %}
+                    {% if user.role == "U" %}
+                    <small><button class="btn" data-role="E" data-uid="{{ user.user_id }}" title="Можно редактировать чтение (списки и молитвы) и приглашать участников.">Редактор</button></small>&nbsp;
+                    <small><button class="btn" data-role="A" data-uid="{{ user.user_id }}" title="Роль Редактора и может менять роли участников. Изменив роль на Администратора, в дальнейшем вы ее уже не сможете изменить.">Администратор</button></small>
+                    {% elif user.role == "E" %}
+                    <small><button class="btn" data-role="U" data-uid="{{ user.user_id }}" title="Доступ к чтению без прав редактирования.">Участник</button></small>
+                    <small><button class="btn" data-role="A" data-uid="{{ user.user_id }}" title="Роль Редактора и может менять роли участников. Изменив роль на Администратора, в дальнейшем вы ее уже не сможете изменить.">Администратор</button></small>
+                    {% endif %}
+                {% endif %}
+            </div>
+            <div class="col-sm-3 text-right text-muted"><small>с {{ user.joined }}</small></div>
+        </li>
+        {% if user.deleted %}
+        <li class="row">
+            <div class="col-sm-9"></div>
+            <div class="col-sm-3 text-right text-muted"><small>до {{ user.deleted }}</small></div>
+        </li>
+        {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+    {% if group_user.perm_admin %}
+    <script type="text/javascript">
+        var ROLES = {"A": "Администратор", "E": "Редактор", "U": "Участник"}
+        function change_role(role_key, uid, title) {
+            var role = ROLES[role_key];
+            if(!role) return;
+            if(confirm("Изменить текущую роль на " + role + "?\n" + title)) {
+                $.ajax({
+                    url: "{% url 'j-group-edit' %}",
+                    type: "POST",
+                    data: {
+                        id: {{ group.id }},
+                        action: "change_role",
+                        uid: uid,
+                        role: role_key
+                    },
+                    success: function(data) {
+                        if(data.ok) document.location.reload();
+                    },
+                    dataType: "json"
+                });
+            }
+        }
+        $(function() {
+            $(".btn").on("click", function() {
+                var role = $(this).data("role");
+                var uid = $(this).data("uid");
+                var title = $(this).attr('title');
+                change_role(role, uid, title);
+            });
+        });
+    </script>
+    {% endif %}
+{% endblock %}

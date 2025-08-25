@@ -1,0 +1,130 @@
+{% verbatim %}
+{% extends 'wrapper.html' %}
+{% block title %}
+{% endverbatim %}
+Кафисма {{ num }}
+{% verbatim %}
+{% endblock %}
+{% block main %}
+{% endverbatim %}
+<script>
+    $(function() {
+        $("#bf-sw").click(function(e) {
+            e.preventDefault();
+            $("#sp-bf-sw").text(function(i, text) {
+                return text === "включить" ? "выключить" : "включить";
+            });
+            $("#l-content").toggleClass("display-4-1");
+            $("h3, h4, h5, h6").toggleClass("display-3-1");
+        });
+    });
+</script>
+<p class="text-right d-print-none">
+    <i class="fas fa-font"></i> <a href="#" id="bf-sw"><span id="sp-bf-sw">включить</span> крупный шрифт</a>
+</p>
+<div id="l-content" class="m-3">
+    <p><a href="{% url 'psalter' %}">Псалтирь</a></p>
+    <h3>{{ kathisma }}</h3>
+    <div class="">
+        {% for ps in psalms1 %}
+            <h4>{{ ps.title }}</h4>
+            <ul class="list-unstyled">
+            {% for l in ps.lines %}
+                <li>{% if l.num %}<strong class="text-danger">{{ l.num }}</strong>{% endif %} {% if l.is_secondary %}<span class="text-secondary">{{ l.text }}</span>{% else %}{{ l.text }}{% endif %}</li>
+            {% endfor %}
+            </ul>
+        {% endfor %}
+
+        <br/>
+        <p class="text-danger">Слава Отцу, и Сыну, и Святому Духу и ныне, и присно и во веки веков. Аминь.</p>
+        <p>Аллилуйя, аллилуйя, аллилуйя, слава Тебе, Боже! (<span class="text-muted">3 раза</span>).</p>
+        <p>Господи, помилуй (<span class="text-muted">3 раза</span>).</p>
+        <p class="text-danger">Слава Отцу, и Сыну, и Святому Духу и ныне, и присно и во веки веков. Аминь.</p>
+        <br/>
+        <h4>Молитва о живых</h4>
+        {% verbatim %}
+            Спаси́, Го́споди, и поми́луй раб Твои́х:
+            {% if health %}
+                {% for n in health %}
+                    {% if n.name %}
+                    <span class="badge badge-light">{{ n.name }}{% if n.till %} <small class="text-muted">до {{ n.till }}</small>{% endif %}, </span>
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                <small>{% if user.is_authenticated %}<a href="{% url 'mysynodik-edit' %}" class="badge bg-light text-dark">[добавить имена о здравии]</a>{% else %}<a href="{% url 'login' %}?next={{ request.path }}" class="badge bg-light text-dark">[войдите или зарегистрируйтесь, чтобы добавить имена]</a>{% endif %}</small>
+            {% endif %}
+            и всех правосла́вных христиа́н.<br/>
+            <br/>
+        {% endverbatim %}
+
+        {% for ps in psalms2 %}
+            <h4>{{ ps.title }}</h4>
+            <ul class="list-unstyled">
+            {% for l in ps.lines %}
+                <li>{% if l.num %}<strong class="text-danger">{{ l.num }}</strong>{% endif %} {% if l.is_secondary %}<span class="text-secondary">{{ l.text }}</span>{% else %}{{ l.text }}{% endif %}</li>
+            {% endfor %}
+            </ul>
+        {% endfor %}
+
+        <br/>
+        <p class="text-danger">Слава Отцу, и Сыну, и Святому Духу и ныне, и присно и во веки веков. Аминь.</p>
+        <p>Аллилуйя, аллилуйя, аллилуйя, слава Тебе, Боже! (<span class="text-muted">3 раза</span>).</p>
+        <p>Господи, помилуй (<span class="text-muted">3 раза</span>).</p>
+        <p class="text-danger">Слава Отцу, и Сыну, и Святому Духу и ныне, и присно и во веки веков. Аминь.</p>
+        <br/>
+
+        <h4>Молитва об усопших</h4>
+        {% verbatim %}
+            Упоко́й, Го́споди, ду́ши усо́пших раб Твои́х:
+            {% if rip %}
+                {% for n in rip %}
+                    {% if n.name %}
+                    <span class="badge badge-light">{{ n.name }}{% if n.till %} <small class="text-muted">до {{ n.till }}</small>{% endif %}{% if not forloop.last %}, {% endif %}</span>
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+            <small>{% if user.is_authenticated %}<a href="{% url 'mysynodik-edit' %}" class="badge bg-light text-dark">[добавить имена о упокоении]</a>{% else %}<a href="{% url 'login' %}?next={{ request.path }}" class="badge bg-light text-dark">[войдите или зарегистрируйтесь, чтобы добавить имена]</a>{% endif %}</small>
+            {% endif %}
+            и всех правосла́вных христиа́н, и прости́ им вся согреше́ния во́льная и нево́льная, и да́руй им Ца́рствие Небе́сное.<br/>
+        {% endverbatim %}
+        <br/>
+
+        {% for ps in psalms3 %}
+            <h4>{{ ps.title }}</h4>
+            <ul class="list-unstyled">
+            {% for l in ps.lines %}
+                <li>{% if l.num %}<strong class="text-danger">{{ l.num }}</strong>{% endif %} {% if l.is_secondary %}<span class="text-secondary">{{ l.text }}</span>{% else %}{{ l.text }}{% endif %}</li>
+            {% endfor %}
+            </ul>
+        {% endfor %}
+
+        <br/>
+        <p class="text-danger">Слава Отцу, и Сыну, и Святому Духу и ныне, и присно и во веки веков. Аминь.</p>
+        <p>Аллилуйя, аллилуйя, аллилуйя, слава Тебе, Боже! (<span class="text-muted">3 раза</span>).</p>
+        <p>Господи, помилуй (<span class="text-muted">3 раза</span>).</p>
+        <p class="text-danger">Слава Отцу, и Сыну, и Святому Духу и ныне, и присно и во веки веков. Аминь.</p>
+        <br/>
+
+        <h4>По {{ num }}–й кафисме:</h4>
+
+        <p>Святы́й Бо́же, Святы́й Кре́пкий, Святы́й Безсме́ртный, поми́луй нас. (<span class="text-muted">Tрижды</span>)</p>
+        <p>Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́не и при́сно и во ве́ки веко́в. Ами́нь.</p>
+        <p>Пресвята́я Тро́ице, поми́луй нас; Го́споди, очи́сти грехи́ на́ша; Влады́ко, прости́ беззако́ния на́ша; Святы́й, посети́ и исцели́ не́мощи на́ша, и́мене Твоего́ ра́ди.</p>
+        <p>Го́споди, поми́луй. (<span class="text-muted">Трижды</span>)</p>
+        <p>Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́не и при́сно и во ве́ки веко́в. Ами́нь.</p>
+        <p>О́тче наш, И́же еси́ на небесе́х! Да святи́тся и́мя Твое́, да прии́дет Ца́рствие Твое́, да бу́дет во́ля Твоя́, я́ко на небеси́ и на земли́. Хлеб наш насу́щный даждь нам днесь; и оста́ви нам до́лги на́ша, я́коже и мы оставля́ем должнико́м на́шим; и не введи́ нас во искуше́ние, но изба́ви нас от лука́ваго.</p>
+
+        <h5>{{ tropar.title }}:</h5>
+        {% for l in tropar.text %}
+            <p>{{ l }}</p>
+        {% endfor %}
+        <p><span class="text-danger">Сла́ва Отцу, и Сы́ну, и Свято́му Ду́ху.</span> {{ tropar.slava }}</p>
+        <p><span class="text-danger">И ны́не, и при́сно, и во ве́ки веко́в, ами́нь.</span> {{ tropar.nine }}</p>
+
+        <p>Го́споди, поми́луй (<span class="text-muted">40</span>) <span class="text-muted">и молитва</span>:</p>
+        <p>{{ pray }}</p>
+    </div>
+</div>
+{% verbatim %}
+{% endblock %}
+{% endverbatim %}

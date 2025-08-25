@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("23 августа 2020 г. ( 10 августа ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 11-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Успенский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. Римских: архидиакона <a  href=\"http://days.pravoslavie.ru/name/1323.html\" target=\"_blank\" title=\"Лаврентий Римский, архидиакон, сщмч.\">Лаврентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1323_909.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1981.html\" target=\"_blank\" title=\"Святитель Сикст II Римский, папа, сщмч.\">Сикста</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1981_4434.html\" target=\"_blank\" >икона</a>) папы, <a  href=\"http://days.pravoslavie.ru/name/2165.html\" target=\"_blank\" title=\"Феликиссим Римский, диакон, сщмч.\">Феликиссима</a> и <a  href=\"http://days.pravoslavie.ru/name/54.html\" target=\"_blank\" title=\"Агапит Римский, диакон, сщмч.\">Агапита</a> диаконов, <a  href=\"http://days.pravoslavie.ru/name/1876.html\" target=\"_blank\" title=\"Роман Римский, мч.\">Романа</a>. Блж. <a  href=\"http://days.pravoslavie.ru/name/1319.html\" target=\"_blank\" title=\"Блаженный Лаврентий, Христа ради юродивый, Калужский чудотворец\">Лаврентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1319_1877.html\" target=\"_blank\" >икона</a>), Христа ради юродивого, Калужского. <a  href=\"http://days.pravoslavie.ru/name/14742.html\" target=\"_blank\" title=\"Собор новомучеников и исповедников Соловецких\">Собор</a> новомучеников и исповедников Соловецких. Второе обретение и перенесение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/1904.html\" target=\"_blank\" title=\"Преподобный Савва Сторожевский\">Саввы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1904_1071.html\" target=\"_blank\" >икона</a>) Сторожевского, Звенигородского. <a  href=\"http://days.pravoslavie.ru/name/14816.html\" target=\"_blank\" title=\"Собор Валаамских святых\">Собор</a> Валаамских святых. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/11930.html\" target=\"_blank\" title=\"Вячеслав (Закедский), иерей, сщмч.\">Вячеслава</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13782.html\" target=\"_blank\" title=\"Афанасий (Кислов), иерей, сщмч.\">Афанасия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - Ев. 11-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_9_2_12.html#z\">1 Кор., 141 зач., IX, 2-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_18_23_35.html#z\">Мф., 77 зач., XVIII, 23-35</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба Собора новомучеников и исповедников Соловецких, то на литургии - чтения дня и новомучеников: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_28_39.html#z\">Рим., 99 зач., VIII, 28-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_8_19.html#z\">Лк., 105-106 зач., XXI, 8-19.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18092.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 9, 2-12</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18093.htm\" target=\"_blank\" title=\"Библия\">Мф. 18, 23-35</a>). Притчу о двух должниках Господь заключил такими словами: \"Так и Отец Мой Небесный поступит с вами, если не простит каждый из вас от сердца своего брату своему согрешений его\". Кажется, такая малость требуется: прости и будешь прощен; а когда прощен, то и в милость принят; а когда в милость принят, то стал участником во всех сокровищах милости. Стало быть, тут и спасение, и рай, и вечное блаженство. И такое великое приобретение за такую малость, что простим!. . Да, малость, но для самолюбия нашего нет ничего тяжелее, как прощать. Ненамеренную какую-нибудь неприятность, тайно причиненную нам, так чтоб никто не видал, мы еще, пожалуй, простим; но чуть что почувствительней да при людях, хоть не проси: нет прощения. Бывают обстоятельства, что хочешь - не хочешь, а высказать неудовольствия нельзя, -  и молчишь: но язык-то молчит, а сердце говорит и строит злые планы. Повыссься неприятность еще на одну линию, - и удержа нет: ни стыд, ни страх, ни потери, ничто не удержит. Вскипевшая самость делает человека словно помешанным и поддавшийся ей начинает городить глупости. Такому несчастью больше всего бывает подвержены люди не какие-нибудь, а чем кто цивилизованней, тем чувствительней к оскорблениям, тем меньше прощает. Снаружи отношения иногда все еще остаются гладкими, но внутри решительный разлад. А между тем, Господь требует, чтобы прощали от всего сердца.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("16 декабря 2020 г. ( 3 декабря ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 28-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: горячая пища без масла. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/2040.html\" target=\"_blank\" title=\"Софония, пророк, из 12 малых пророков\">Софонии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2040_1147.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1904.html\" target=\"_blank\" title=\"Преподобный Савва Сторожевский\">Саввы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1904_1071.html\" target=\"_blank\" >икона</a>) Сторожевского (Звенигородского). Прп. <a  href=\"http://days.pravoslavie.ru/name/2226.html\" target=\"_blank\" title=\"Феодул Константинопольский, Ефесский, епарх, прп., столпник\">Феодула</a> Константинопольского. Прп. <a  href=\"http://days.pravoslavie.ru/name/960.html\" target=\"_blank\" title=\"Иоанн Безмолвник, Савваит\">Иоанна</a> молчальника, бывшего еп. Колонийского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2174.html\" target=\"_blank\" title=\"Святитель Феодор Александрийский, архиепископ, сщмч.\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2174_1228.html\" target=\"_blank\" >икона</a>), архиеп. Александрийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14493.html\" target=\"_blank\" title=\"Георгий Черникский, прп.\">Георгия</a> Черникского (Рум.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9281.html\" target=\"_blank\" title=\"Андрей (Косовский), протоиерей, сщмч.\">Андрея</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9707.html\" target=\"_blank\" title=\"Николай (Ершов), иерей, сщмч.\">Николая</a> пресвитера. Св. <a  href=\"http://days.pravoslavie.ru/name/9960.html\" target=\"_blank\" title=\"Георгий (Седов), исп.\">Георгия</a> исп. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-tim_4_9_22.html#z\">2 Тим., 299 зач., IV, 9-22.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_20_1_8.html#z\">Лк., 99 зач., XX, 1-8.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18334.htm\" target=\"_blank\" title=\"Библия\">2 Тим. 4, 9-22</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18335.htm\" target=\"_blank\" title=\"Библия\">Лк. 20, 1-8</a>). Священники, книжники и старцы не веровали в Господа. Дабы возвести их к вере, Он предложил им вопрос: \"крещение Иоанново с небес было или от человеков\"? Рассудите об этом безпристрастно, и рассуждение ваше приведет вас к вере. Что сказано о явлении Иоанна, то можно сказать о всяком событии, сопровождавшем пришествие Господа во плоти, и о самом пришествии, со всеми его соприкосновенностями. Рассуди всякий о всем этом, - вывод будет один: \"воистину Он был Сын Божий\". Могут приходить разные мысли, рождаться недоумения, встречаться будто несообразности, но в конце всех исследований выйдет одно всестороннее убеждение, что нельзя иначе думать, как так, как изображено в Евангелиях и апостольских писаниях. \"Велия благочестия тайна: Бог явися во плоти\", оставаясь тайною сама в себе, будет ясна для ума по нравственной необходимости, какую наложит на него собственное его исследование, исповедать так, а не иначе. Неверы или совсем не исследуют всего как должно, или исследуют поверхностно, чужим умом, или принимают несчастное настроение, противоположное требованиям веры и, чтоб оправдать свое неверие, довольствуются самою малостью для отрицания веры. И верующих колеблют речи неверов по той причине, что верующие, довольствуясь простою верою, не разъясняют для себя оснований веры. Речи те застают их врасплох, оттого они и колеблются.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

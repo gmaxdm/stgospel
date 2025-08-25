@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("21 октября 2020 г. ( 8 октября ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 20-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/2641.html\" target=\"_blank\" title=\"Преподобная Пелагия Антиохийская\">Пелагии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2641_3540.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/655.html\" target=\"_blank\" title=\"Досифей Верхнеостровский, Псковский, игумен\">Досифея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii655_1001.html\" target=\"_blank\" >икона</a>) Верхнеостровского, Псковского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2125.html\" target=\"_blank\" title=\"Преподобный Трифон, архимандрит Вятский\">Трифона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2125_3538.html\" target=\"_blank\" >икона</a>), архим. Вятского, чудотворца. <a  href=\"http://days.pravoslavie.ru/name/14483.html\" target=\"_blank\" title=\"Собор Вятских святых\">Собор</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14483_3537.html\" target=\"_blank\" >икона</a>) Вятских святых. Св. <a  href=\"http://days.pravoslavie.ru/name/2642.html\" target=\"_blank\" title=\"Пелагия Антиохийская, дева, мц.\">Пелагии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2642_3752.html\" target=\"_blank\" >икона</a>) девы. Прп. <a  href=\"http://days.pravoslavie.ru/name/2686.html\" target=\"_blank\" title=\"Преподобная Таисия Египетская\">Таисии</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9110.html\" target=\"_blank\" title=\"Святитель Димитрий (Добросердов), архиепископ Можайский, сщмч.\">Димитрия</a>, архиеп. Можайского, и с ним <a  href=\"http://days.pravoslavie.ru/name/9853.html\" target=\"_blank\" title=\"Иоанн (Хренов), диакон, сщмч.\">Иоанна</a> диакона, прмчч. <a  href=\"http://days.pravoslavie.ru/name/9164.html\" target=\"_blank\" title=\"Амвросий (Астахов), архимандрит, сщмч.\">Амвросия</a> и <a  href=\"http://days.pravoslavie.ru/name/9192.html\" target=\"_blank\" title=\"Пахомий (Туркевич), игумен, сщмч.\">Пахомия</a>, прмц. <a  href=\"http://days.pravoslavie.ru/name/9907.html\" target=\"_blank\" title=\"Татиана (Бесфамильная), инокиня, прмц.\">Татианы</a>, мч. <a  href=\"http://days.pravoslavie.ru/name/10007.html\" target=\"_blank\" title=\"Николай (Рейн), мч.\">Николая</a>, мцц. <a  href=\"http://days.pravoslavie.ru/name/10082.html\" target=\"_blank\" title=\"Мария (Волнухина), мц.\">Марии</a> и <a  href=\"http://days.pravoslavie.ru/name/10090.html\" target=\"_blank\" title=\"Надежда (Ажгеревич), мц.\">Надежды</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9145.html\" target=\"_blank\" title=\"Святитель Иона (Лазарев), епископ Велижский, сщмч.\">Ионы</a>, еп. Велижского, прмч. <a  href=\"http://days.pravoslavie.ru/name/13818.html\" target=\"_blank\" title=\"Серафим (Щелоков), архимандрит, прмч.\">Серафима</a>, сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9773.html\" target=\"_blank\" title=\"Петр (Озерецковский), иерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/9503.html\" target=\"_blank\" title=\"Василий (Озерецковский), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9386.html\" target=\"_blank\" title=\"Павел (Преображенский), протоиерей, сщмч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/13816.html\" target=\"_blank\" title=\"Петр (Никотин), протоиерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/13817.html\" target=\"_blank\" title=\"Владимир (Сперанский), иерей, сщмч.\">Владимира</a> пресвитеров, мчч. <a  href=\"http://days.pravoslavie.ru/name/13819.html\" target=\"_blank\" title=\"Виктор (Фролов), мч.\">Виктора</a>, <a  href=\"http://days.pravoslavie.ru/name/13820.html\" target=\"_blank\" title=\"Иоанн (Рыбин), мч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13821.html\" target=\"_blank\" title=\"Николай (Кузьмин), мч.\">Николая</a> и мц. <a  href=\"http://days.pravoslavie.ru/name/13822.html\" target=\"_blank\" title=\"Елисавета (Куранова), мц.\">Елисаветы</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/13823.html\" target=\"_blank\" title=\"Варлаам (Ефимов), прмч.\">Варлаама</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_flp_2_24_30.html#z\">Флп., 243 зач., II, 24-30.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_46_0_7_0_1.html#z\">Лк., 28 зач., VI, 46 - VII, 1.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18215.htm\" target=\"_blank\" title=\"Библия\">Лк. 6, 46-7, 1</a>). \"Что вы зовете Меня: Господи! Господи! и не делаете того, что Я говорю?\" Отчего зовут Господом, а не творят воли Господней, отчего, то есть делами, не признают господства Его? Оттого, что только языком так зовут, а не сердцем. Когда бы сердце произносило: \"Господи, Ты мой Господь\", тогда в нем пребывала бы и полная готовность повиноваться тому, кого исповедуют своим Господом. А так как этого нет, то дела идут врозь с языком, а дела всегда таковы, каково сердце. Что же, стало быть нечего и взывать: \"Господи, Господи\"? Нет, не то. А надобно к внешнему слову приложить слово внутреннее, - чувство и расположение сердца. Сядь и размысли о Господе и о себе самом: что Господь и что ты такое; что Господь для тебя сделал и делает, зачем живешь и до чего доживешь. . . Тотчас дойдешь до убеждения, что иначе нельзя, как исполнять волю Господа всю неуклонно; другого нет нам пути. Убеждение это родит готовность делом исполнить то, что говорится словом: Господь. При такой готовности возбудится потребность помощи свыше, а от ней молитва: \"Господи, Господи! помоги и даруй силы ходить в воле Твоей\". И будет взывание ко Господу приятное для Господа.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("2 июля 2020 г. ( 19 июня ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апостола <a  href=\"http://days.pravoslavie.ru/name/1132.html\" target=\"_blank\" title=\"Иуда Иаковлев (Леввей, Фаддей), апостол из 12-ти\">Иуды</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1132_1852.html\" target=\"_blank\" >икона</a>), брата Господня. Свт. <a  href=\"http://days.pravoslavie.ru/name/1036.html\" target=\"_blank\" title=\"Святитель Иов Московский и всея Руси, патриарх\">Иова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1036_262.html\" target=\"_blank\" >икона</a>), патриарха Московского и всея Руси. Святителя <a  href=\"http://days.pravoslavie.ru/name/13504.html\" target=\"_blank\" title=\"Святитель Иоанн (Максимович) Чудотворец, архиепископ Шанхайский и Сан-Францисский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13504_134.html\" target=\"_blank\" >икона</a>) (Максимовича) архиепископа Шанхайского и Сан-Францисского, Чудотворца. Мч. <a  href=\"http://days.pravoslavie.ru/name/846.html\" target=\"_blank\" title=\"Зосима Аполлониадский, Кононейский, мч.\">Зосимы</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1707.html\" target=\"_blank\" title=\"Преподобный Паисий Великий\">Паисия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1707_1971.html\" target=\"_blank\" >икона</a>) Великого. Прп. <a  href=\"http://days.pravoslavie.ru/name/994.html\" target=\"_blank\" title=\"Иоанн Отшельник. Палестинский, прп.\">Иоанна</a> отшельника. Прп. <a  href=\"http://days.pravoslavie.ru/name/356.html\" target=\"_blank\" title=\"Варлаам Пинежский, Важский, Шенкурский, прп.\">Варлаама</a> Пинежского, Важского, Шенкурского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1712.html\" target=\"_blank\" title=\"Паисий Хилендарский (Афонский), Болгарский, прп.\">Паисия</a> Хилендарского, Болгарского (Болг.). ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_11_13_24.html#z\">Рим., 106 зач., XI, 13-24.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_iud_1_1_10.html#z\">Иуд., 77 зач., I, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_14_21_24.html#z\">Ин., 48 зач. (от&nbsp;полу&#769;), XIV, 21-24.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба свт. Иова или свт. Иоанна Максимовича, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9,</a> а на литургии - чтения дня и святителя: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17979.htm\" target=\"_blank\" title=\"Библия\">Мф. 11, 27-30</a>). \"Придите ко Мне, все труждающиеся и обремененные, и Я успокою вас\". О, божественного, о любезного, о сладчайшего Твоего гласа! Пойдемте же все вслед зовущего нас Господа! Но наперед надо восчувствовать, что нам трудно и тяжело восчувствовать, то есть, что у нас грехов много, и грехи эти тяжки. От этого чувства родится потребность искать себе облегчения. Вера укажет тогда нам единственное прибежище в Господе Спасителе, и шаги наши сами собою направятся к Нему. Душа, возжелавшая избавиться от грехов, знает, что сказать Господу: \"возьми бремя от меня тяжкое, греховное, а я возьму иго Твое благое\". И бывает так: Господь прощает грехи, а душа начинает ходить в заповедях Его. И заповеди - иго, и грехи - бремя. Но сличив то и другое, душа находит, что иго заповедей легко, как перо, а бремя грехов тяжело, как гора. Не убоимся же охотно принять иго Господне благое и бремя Его легкое! Так только, а не иначе, можем обрести покой душам нашим.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

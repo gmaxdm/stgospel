@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("3 апреля 2020 г. ( 21 марта ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/874.html\" target=\"_blank\" title=\"Святитель Иаков Катанский (Сицилийский), епископ, исповедник\">Иакова</a> еп.,  исп. Прп. <a  href=\"http://days.pravoslavie.ru/name/6986.html\" target=\"_blank\" title=\"Серафим Вырицкий, прп.\">Серафима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6986_1494.html\" target=\"_blank\" >икона</a>) Вырицкого. Свт. <a  href=\"http://days.pravoslavie.ru/name/1228.html\" target=\"_blank\" title=\"Святитель Кирилл Катанский (Сицилийский), епископ\">Кирилла</a>, еп. Катанского. Свт. <a  href=\"http://days.pravoslavie.ru/name/2324.html\" target=\"_blank\" title=\"Святитель Фома Константинопольский, патриарх\">Фомы</a>, патриарха Константинопольского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13706.html\" target=\"_blank\" title=\"Владимир (Введенский), иерей, сщмч.\">Владимира</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_45_11_17.html#z\">Ис. XLV, 11-17.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_22_1_18.html#z\">Быт. XXII, 1-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_17_17_0_18_0_5.html#z\">Притч. XVII, 17 - XVIII, 5.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Души праведных в руке Божией\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17797.htm\" target=\"_blank\" title=\"Библия\">Прем. 3, 1</a>). А грешников души в чьей руке? Спаситель говорил апостолам, что сатана домогается сеять их, как пшеницу, то есть домогается сбить их с правого пути, взять в свои руки и делать с ними, что захочет. Потому все уклоняющиеся от Господа - в руках сатаны, и он сеет их и бросает, куда хочет. От того у грешников голова постоянно и кружится, что враг, мотая ими туда и сюда, не дает им опомниться; даже как скоро заметит, что кто-нибудь начинает одумываться, еще сильнее начинает трясти его, чтобы опять помутилась голова и мысли рассеялись.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

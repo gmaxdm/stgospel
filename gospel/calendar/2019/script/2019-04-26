@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("26 апреля 2020 г. ( 13 апреля ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14393.html\" target=\"_blank\" title=\"Неделя Антипасхи\">Антипасха. Неделя 2-я по Пасхе, апостола Фомы</a>. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/276.html\" target=\"_blank\" title=\"Артемон Лаодикийский, пресвитер, сщмч.\">Артемона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii276_424.html\" target=\"_blank\" >икона</a>), пресвитера Лаодикийского. Мч. <a  href=\"http://days.pravoslavie.ru/name/1304.html\" target=\"_blank\" title=\"Крискент Мирликийский, мч.\">Крискента</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1304_4197.html\" target=\"_blank\" >икона</a>), из Мир Ликийских. Мц. <a  href=\"http://days.pravoslavie.ru/name/2739.html\" target=\"_blank\" title=\"Фомаида Александрийская (Египетская), мц.\">Фомаиды</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2739_2278.html\" target=\"_blank\" >икона</a>) Египетской. Прмц. <a  href=\"http://days.pravoslavie.ru/name/13714.html\" target=\"_blank\" title=\"Марфа (Тестова), прмц.\">Марфы</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 1-е, <a href=\"http://days.pravoslavie.ru/bible/z_mf_28_16_20.html#z\">Мф., 116 зач., XXVIII, 16-20.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_5_12_20.html#z\">Деян., 14 зач., V, 12-20.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_20_19_31.html#z\">Ин., 65 зач., XX, 19-31.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17834.htm\" target=\"_blank\" title=\"Библия\">Дея. 5, 12-20</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17835.htm\" target=\"_blank\" title=\"Библия\">Ин. 20, 19-31</a>). \"Господь мой и Бог мой!\" воззвал св. апостол Фома. Ощущаете ли с какою силою ухватился он за Господа и как крепко держит Его? Не крепче держит утопающий доску, на которой чает спасенным быть от потопления. Прибавим, что кто не имеет таким Господа для себя и себя в отношении к Господу, тот еще не верует в Господа, как следует. Мы говорим: \"Господь Спаситель\", разумея, что Он Спаситель всех, а этот говорит: \"Господь Спаситель мой\". Кто говорит: \"мой Спаситель\", тот ощущает свое спасение, исходящее от Него. Ощущению же спасения сопредельно ощущение пагубы, из которой извлек спасенного Спасающий. Чувство пагубы жизнелюбивого по природе человека, знающего, что не может он сам себя спасти, заставляет искать Спасителя. Когда обретет Его и ощутит силу спасения. от Него исходящую, хватается за Него крепко и оторваться от Него не захочет, хоть бы лишали его за то самой жизни. Такого рода события в духовной жизни христианина не воображаются только умом, а переживаются самым делом. Затем, как вера его, так и сочетание со Христом становятся крепки, как жизнь или смерть. Такой только искренно взывает: \"кто меня разлучит!\"<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

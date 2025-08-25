@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("16 июля 2020 г. ( 3 июля ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/864.html\" target=\"_blank\" title=\"Иакинф Римский, мч.\">Иакинфа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii864_4360.html\" target=\"_blank\" >икона</a>). Перенесение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/2294.html\" target=\"_blank\" title=\"Святитель Филипп, Митрополит Московский и всея России, чудотворец\">Филиппа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2294_22.html\" target=\"_blank\" >икона</a>), митр. Московского, всея России чудотворца. Мчч. <a  href=\"http://days.pravoslavie.ru/name/614.html\" target=\"_blank\" title=\"Диомид, мч.\">Диомида</a>, <a  href=\"http://days.pravoslavie.ru/name/680.html\" target=\"_blank\" title=\"Евлампий, мч.\">Евлампия</a>, <a  href=\"http://days.pravoslavie.ru/name/284.html\" target=\"_blank\" title=\"Асклипиодот, мч.\">Асклипиодота</a> и мц. <a  href=\"http://days.pravoslavie.ru/name/2447.html\" target=\"_blank\" title=\"Голиндуха, мц.\">Голиндухи</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1580.html\" target=\"_blank\" title=\"Мокий (Мокиан), мч.\">Мокия</a> и <a  href=\"http://days.pravoslavie.ru/name/1462.html\" target=\"_blank\" title=\"Марк, мч.\">Марка</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/112.html\" target=\"_blank\" title=\"Преподобный Александр Константинопольский\">Александра</a>, обители \"Неусыпающих\" первоначальника. Свт. <a  href=\"http://days.pravoslavie.ru/name/169.html\" target=\"_blank\" title=\"Святитель Анатолий, патриарх Константинопольский\">Анатолия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii169_1654.html\" target=\"_blank\" >икона</a>), Патриарха Константинопольского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/172.html\" target=\"_blank\" title=\"Анатолий Печерский, затворник\">Анатолия</a> и другого <a  href=\"http://days.pravoslavie.ru/name/173.html\" target=\"_blank\" title=\"Анатолий Печерский, затворник\">Анатолия</a> затворника, Печерских. Свт. <a  href=\"http://days.pravoslavie.ru/name/387.html\" target=\"_blank\" title=\"Святитель Василий, епископ Рязанский и Муромский\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii387_341.html\" target=\"_blank\" >икона</a>), еп. Рязанского. Блгвв. кн. <a  href=\"http://days.pravoslavie.ru/name/375.html\" target=\"_blank\" title=\"Василий Всеволодович Ярославский, князь\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii375_444.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1271.html\" target=\"_blank\" title=\"Константин Всеволодович Ярославский, князь\">Константина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1271_444.html\" target=\"_blank\" >икона</a>) Ярославских. Прп. <a  href=\"http://days.pravoslavie.ru/name/1026.html\" target=\"_blank\" title=\"Иоанн Яренгский, прп.\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1026_3546.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/14400.html\" target=\"_blank\" title=\"Лонгин Яренгский, прп.\">Лонгина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14400_3546.html\" target=\"_blank\" >икона</a>) Яренгских. Блж. <a  href=\"http://days.pravoslavie.ru/name/989.html\" target=\"_blank\" title=\"Блаженный Иоанн, Христа ради юродивый, Московский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii989_3716.html\" target=\"_blank\" >икона</a>), Христа ради юродивого, Московского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1627.html\" target=\"_blank\" title=\"Преподобный Никодим Кожеезерский\">Никодима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1627_831.html\" target=\"_blank\" >икона</a>) Кожеезерского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14420.html\" target=\"_blank\" title=\"Святитель Антоний (Быстров), архиепископ Архангельский и Холмогорский, сщмч.\">Антония</a>, архиепископа Архангельского. Обретение мощей сщмч. <a  href=\"http://days.pravoslavie.ru/name/9125.html\" target=\"_blank\" title=\"Святитель Сильвестр (Ольшевский), архиепископ Омский, сщмч.\">Сильвестра</a>, архиеп. Омского. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_3_18_23.html#z\">1 Кор., 129 зач., III, 18-23.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_13_36_43.html#z\">Мф., 54 зач., XIII, 36-43.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18008.htm\" target=\"_blank\" title=\"Библия\">1 Кор. З, 18-23</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18009.htm\" target=\"_blank\" title=\"Библия\">Мф. 13, 36-43</a>). \"И ввергнут их\" (творящих соблазны и беззакония) \"в печь огненную; там будет плач и скрежет зубов; тогда праведники воссияют, как солнце, в Царстве Отца их\". Так совершится разделение добра и зла, света и тьмы. Теперь течет период смешения их. Господу угодно было так устроить, чтобы тварная свобода возрастала и крепла в добре через борьбу со злом; зло допущено и в сопредельности с свободою внутри, и в соприкосновении с человеком во вне. Оно не определяет, а искушает. Чувствующему искушение необходимо не падать, а вступать в борьбу. Побеждающий освобожается от одного искушения, и подвигается вперед и вверх, чтобы там вступить в новое искушение. Так до самого конца жизни. О, когда бы уразуметь нам это значение искушающего нас зла, чтобы по этому уразумению устроить и жизнь свою! Борцы увенчиваются, наконец, переходя в другую жизнь, где нет ни печалей и болезней во вне, и где они извнутри, как ангелы Божии, становятся чистыми без приражения искусительных движений и мыслей. Так заготовляется торжество света и добра, которое во всей славе своей откроется в последний день мира.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

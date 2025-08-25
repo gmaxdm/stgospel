@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("28 декабря 2020 г. ( 15 декабря ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 30-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9113.html\" target=\"_blank\" title=\"Сщмч. Иларион (Троицкий), архиепископ Верейский\">Илариона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9113_1790.html\" target=\"_blank\" >икона</a>), архиеп. Верейского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/757.html\" target=\"_blank\" title=\"Святитель Елевферий Иллирийский, Римский, епископ, сщмч.\">Елевферия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii757_546.html\" target=\"_blank\" >икона</a>), матери его мц. <a  href=\"http://days.pravoslavie.ru/name/2405.html\" target=\"_blank\" title=\"Анфия Римская, мц.\">Анфии</a> и мч. <a  href=\"http://days.pravoslavie.ru/name/1284.html\" target=\"_blank\" title=\"Корив Римский, мч.\">Корива</a> епарха. Прп. <a  href=\"http://days.pravoslavie.ru/name/1690.html\" target=\"_blank\" title=\"Павел Латрийский, прп.\">Павла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1690_3882.html\" target=\"_blank\" >икона</a>) Латрийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/2071.html\" target=\"_blank\" title=\"Святитель Стефан Сурожский, архиепископ, исповедник\">Стефана</a> исп., архиеп. Сурожского. Собор <a  href=\"http://days.pravoslavie.ru/name/6919.html\" target=\"_blank\" title=\"Собор Крымских святых\">Крымских</a> святых. Мч. <a  href=\"http://days.pravoslavie.ru/name/758.html\" target=\"_blank\" title=\"Мученик Елевферий Кувикуларий\">Елевферия</a> кувикулария. Прп. <a  href=\"http://days.pravoslavie.ru/name/1736.html\" target=\"_blank\" title=\"Пард Римлянин, Палестинский, отшельник\">Парда</a> отшельника. Прп. <a  href=\"http://days.pravoslavie.ru/name/2127.html\" target=\"_blank\" title=\"Преподобный Трифон Печенгский, Кольский\">Трифона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2127_380.html\" target=\"_blank\" >икона</a>) Печенгского, Кольского. Собор <a  href=\"http://days.pravoslavie.ru/name/14371.html\" target=\"_blank\" title=\"Собор Кольских святых.\">Кольских</a> святых. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9446.html\" target=\"_blank\" title=\"Александр (Рождественский), иерей, сщмч.\">Александра</a> и <a  href=\"http://days.pravoslavie.ru/name/9487.html\" target=\"_blank\" title=\"Василий (Виноградов), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/13901.html\" target=\"_blank\" title=\"Викторин (Добронравов), иерей, сщмч.\">Викторина</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_evr_8_7_13.html#z\">Евр., 319 зач., VIII, 7-13.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_8_11_21.html#z\">Мк., 33 зач., VIII, 11-21</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба сщмч. Илариона, архиеп. Верейского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22,</a> а на литургии - чтения дня и священномученика: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18360.htm\" target=\"_blank\" title=\"Библия\">Евр. 8, 7-13</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18361.htm\" target=\"_blank\" title=\"Библия\">Мр. 8, 11-21</a>). Плыл Господь с учениками на другую сторону моря, а они забыли взять хлебов, и имели с собою только один хлеб, и стали думать, как тут им быть. Ведая помышления их, Господь напомнил о насыщении четырех и пяти тысяч народа, возведя их тем к твердому упованию, что при Нем не умрут с голоду, хоть бы и ни одного хлеба не имели. Сколько тревог наводит иногда на каждого помышление о безвестном будущем! Успокоение от этих тревог одно - упование на Господа, а оживление и укрепление почерпается из разумного рассмотрения того, что уже было с нами и с другими. Не найдется ни один человек, который бы в жизни своей не испытал нечаянных избавлений от беды или нечаянных поворотов жизни его на лучшее. Воспоминаниями о таких случаях и оживляй душу свою, когда начнут томить ее мрачные мысли о том, как быть. Бог все устроит к лучшему и теперь, как бывало прежде. Положись на Него; еще прежде избавления от беды, Он пошлет тебе благодушие, при котором и не заметишь беды своей. \"Уповающего на Господа милость обыдет\". Рассматривай опыты сего в Свящ. Писании, в житиях святых, в своей жизни и жизни знакомых твоих и увидишь, как в зеркале, как \"близ Господь всем призывающим Его\". И страхования за участь свою не возмутят души твоей.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

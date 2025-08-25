@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("31 октября 2020 г. ( 18 октября ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 21-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апостола и евангелиста <a  href=\"http://days.pravoslavie.ru/name/1375.html\" target=\"_blank\" title=\"Лука Евангелист, апостол от 70-ти, сщмч.\">Луки</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1375_920.html\" target=\"_blank\" >икона</a>). Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/1055.html\" target=\"_blank\" title=\"Преподобный Иосиф Волоцкий\">Иосифа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1055_47.html\" target=\"_blank\" >икона</a>), игумена Волоцкого, чудотворца. Мч. <a  href=\"http://days.pravoslavie.ru/name/1453.html\" target=\"_blank\" title=\"Марин Аназаровский, Тарсийский, мч.\">Марина</a> Тарсийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1143.html\" target=\"_blank\" title=\"Иулиан Персиянин, пустынник\">Иулиана</a> Пустынника. Преставление вмц. <a  href=\"http://days.pravoslavie.ru/name/2751.html\" target=\"_blank\" title=\"Хриса (Хрисия, Злата) Могленская, вмц.\">Златы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2751_989.html\" target=\"_blank\" >икона</a>)(Хрисы) (Болг.). Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9476.html\" target=\"_blank\" title=\"Андрей (Воскресенский), иерей, сщмч.\">Андрея</a>, <a  href=\"http://days.pravoslavie.ru/name/9785.html\" target=\"_blank\" title=\"Сергий (Бажанов), иерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/13835.html\" target=\"_blank\" title=\"Сергий (Гусев), иерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/13836.html\" target=\"_blank\" title=\"Николай (Соколов), протоиерей, сщмч.\">Николая</a> пресвитеров, мц. <a  href=\"http://days.pravoslavie.ru/name/13837.html\" target=\"_blank\" title=\"Елисавета (Крымова), мц.\">Елисаветы</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25.</a> Лит. - Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_kol_4_5_9_4_14_14_4_18_18.html#z\">Кол., 260 зач. (от&nbsp;полу&#769;), IV, 5-9, 14, 18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_16_21.html#z\">Лк., 51 зач., X, 16-21.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_3_12_18.html#z\">2 Кор., 174 зач., III, 12-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_1_10.html#z\">Лк., 22 зач., VI, 1-10.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18240.htm\" target=\"_blank\" title=\"Библия\">Лк. 6, 1-10</a>). Господни ученики срывают колосья, растирают их руками и едят в субботу. Дело очень маловажное и на вид, и по существу своему; между тем фарисеи не утерпели и укорили их. Что заставило их поднимать об этом речь? На вид - неразумная ревность, а в существе - дух пересудливости. Этот за все цепляется, и все представляет в мрачном виде беззаконности и пагубности. Это немощь, в большей или меньшей степени, почти общая у людей не внимающих себе. Словом не всякий выскажет пересудливые мысли, а удержаться от них редкий удерживается. Кто-то приседит сердцу и разжигает его на пересуды - оно и источает их. Но в то же самое время пересудчик сам готов на недобрые дела, лишь бы только никто не видал, и непременно состоит в недобром порядке в каком-либо отношении; он как-будто затем и судит и осуждает, чтобы чувство правды, оскорбленное и подавленное в себе, вознаградить нападками на других, хоть бы то и неправыми. Правдолюбивый и стоящий в правде, зная, как трудно достается исправность в делах, а еще более в чувствах, никогда не станет судить; он скорее готов бывает покрыть снисхождением не только малое, но и великое преступление других. Господь не судит пересудчиков фарисеев, а снисходительно толкует им, что ученики сделали поступок, который всякий, рассудив как следует, может извинить. И всегда почти так бывает: рассуди о поступке ближнего и найдешь, что он совсем не имеет того важного, ужасающего характера, который показался тебе в нем с первого раза.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

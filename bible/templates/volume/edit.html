@@ -1,0 +1,12 @@
+{% extends 'wrapper.html' %}
+{% block title %}Редактирование сборника священного писания{% endblock %}
+{% block main %}
+    <div class="mt-3 mb-5">
+        <h3>Редактирование сборника Священного Писания</h3>
+    </div>
+    <p class="lead">Сборник может включать в себя отдельные книги, собрания глав и собрания стихов</p>
+    <div id="volume-edit"></div>
+    <script type="text/javascript">
+        URLS.VOLUME = "{% url 'j-volume' view.kwargs.id %}";
+    </script>
+{% endblock %}

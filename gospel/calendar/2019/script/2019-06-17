@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("17 июня 2020 г. ( 4 июня ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/1546.html\" target=\"_blank\" title=\"Святитель Митрофан Константинопольский, патриарх\">Митрофана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1546_4296.html\" target=\"_blank\" >икона</a>), патриарха Константинопольского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1527.html\" target=\"_blank\" title=\"Мефодий Пешношский, игумен\">Мефодия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1527_3460.html\" target=\"_blank\" >икона</a>), игумена Пешношского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2338.html\" target=\"_blank\" title=\"Фронтасий Галльский, мч.\">Фронтасия</a>, <a  href=\"http://days.pravoslavie.ru/name/1949.html\" target=\"_blank\" title=\"Северин Галльский, мч.\">Северина</a>, <a  href=\"http://days.pravoslavie.ru/name/1944.html\" target=\"_blank\" title=\"Севериан Галльский, мч.\">Севериана</a> и <a  href=\"http://days.pravoslavie.ru/name/1984.html\" target=\"_blank\" title=\"Силан Галльский, мч.\">Силана</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/1263.html\" target=\"_blank\" title=\"Конкордий Римлянин, Сполетский, иерей, сщмч.\">Конкордия</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/289.html\" target=\"_blank\" title=\"Святитель Астий Диррахийский, епископ, сщмч.\">Астия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii289_4366.html\" target=\"_blank\" >икона</a>), еп. Диррахийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/847.html\" target=\"_blank\" title=\"Святитель Зосима Вавилонский (Египетский), епископ\">Зосимы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii847_1779.html\" target=\"_blank\" >икона</a>), еп. Вавилона Египетского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14513.html\" target=\"_blank\" title=\"Георгий (Богич), иерей, сщмч.\">Георгия</a> пресвитера (Серб.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14511.html\" target=\"_blank\" title=\"Святитель Иоанникий (Липовац), митрополит Черногорско-Приморский, сщмч.\">Иоанникия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14511_3461.html\" target=\"_blank\" >икона</a>), митр. Черногорско-Приморского (Серб.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13722.html\" target=\"_blank\" title=\"Петр (Беляев), иерей, сщмч.\">Петра</a> пресвитера. Обретение мощей сщмч. <a  href=\"http://days.pravoslavie.ru/name/9121.html\" target=\"_blank\" title=\"Святитель Петр (Зверев), архиепископ Воронежский, сщмч.\">Петра</a>, архиепископа Воронежского. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_rim_4_13_25.html#z\">Рим., 87 зач., IV, 13-25.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_7_21_23.html#z\">Мф., 23 зач., VII, 21-23</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба прп. Мефодия, игумена Пешношского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30,</a> а на литургии - чтения дня и преподобного: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17948.htm\" target=\"_blank\" title=\"Библия\">Рим. 4, 13-25</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17949.htm\" target=\"_blank\" title=\"Библия\">Мф. 7, 21-23</a>). \"Не всякий, говорящий Мне: Господи! Господи! войдет в Царство Небесное, но исполняющий волю Отца Моего Небесного\". Одною молитвою не спасешься; с молитвою надо соединять и исполнение воли Божией, - всего, что на ком лежит по его званию и строю жизни. И молитва предметом своим должна иметь преимущественно прошение о том, чтоб Бог сподобил нас не отступать ни в чем от святой воли Его. И обратно, кто имеет ревность исполнять во всем волю Божию, того и молитва дерзновеннее перед Богом и доступнее к престолу Его. Даже так бывает, что где хождение в воле Божией не сопутствует молитве, там самая молитва не бывает настоящею молитвою, трезвенною и сердечною, а только внешнею, читательною, во время которой нравственная неисправность как туманом закрывается многословием, при неустроенности и блуждании мыслей. Надо и то, и другое сладить благочестием, и будет плод.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

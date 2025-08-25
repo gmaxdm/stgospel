@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("8 апреля 2020 г. ( 26 марта ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я Великого поста (седмица ваий). ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Отдание праздника Благовещения Пресвятой Богородицы.  Собор Архангела <a  href=\"http://days.pravoslavie.ru/name/446.html\" target=\"_blank\" title=\"Архангел Гавриил\">Гавриила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii446_71.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1091.html\" target=\"_blank\" title=\"Священномученик Ириней, епископ Сармийский\">Иринея</a>, еп. Сремского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/400.html\" target=\"_blank\" title=\"Вафусий Готфский, пресвитер, сщмч.\">Вафусия</a> и <a  href=\"http://days.pravoslavie.ru/name/410.html\" target=\"_blank\" title=\"Верк Готфский, пресвитер, сщмч.\">Верка</a> пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/261.html\" target=\"_blank\" title=\"Арпила Готфский, прмч.\">Арпилы</a> монаха; мирян: <a  href=\"http://days.pravoslavie.ru/name/18.html\" target=\"_blank\" title=\"Авив Готфский, мч.\">Авива</a>, <a  href=\"http://days.pravoslavie.ru/name/68.html\" target=\"_blank\" title=\"Агн Готфский, мч.\">Агна</a>, <a  href=\"http://days.pravoslavie.ru/name/1867.html\" target=\"_blank\" title=\"Реас Готфский, мч.\">Реаса</a>, <a  href=\"http://days.pravoslavie.ru/name/896.html\" target=\"_blank\" title=\"Игафракс Готфский, мч.\">Игафракса</a>, <a  href=\"http://days.pravoslavie.ru/name/1127.html\" target=\"_blank\" title=\"Иской Готфский, мч.\">Искоя</a>, <a  href=\"http://days.pravoslavie.ru/name/1983.html\" target=\"_blank\" title=\"Сила Готфский, мч.\">Силы</a>, <a  href=\"http://days.pravoslavie.ru/name/1980.html\" target=\"_blank\" title=\"Сигиц Готфский, мч.\">Сигица</a>, <a  href=\"http://days.pravoslavie.ru/name/2035.html\" target=\"_blank\" title=\"Сонирил Готфский, мч.\">Сонирила</a>, <a  href=\"http://days.pravoslavie.ru/name/2082.html\" target=\"_blank\" title=\"Суимвл Готфский, мч.\">Суимвла</a>, <a  href=\"http://days.pravoslavie.ru/name/2279.html\" target=\"_blank\" title=\"Ферм Готфский, мч.\">Ферма</a>, <a  href=\"http://days.pravoslavie.ru/name/2298.html\" target=\"_blank\" title=\"Филл Готфский, мч.\">Филла</a> и мцц. <a  href=\"http://days.pravoslavie.ru/name/2392.html\" target=\"_blank\" title=\"Анна Готфская, мц.\">Анны</a>, <a  href=\"http://days.pravoslavie.ru/name/2380.html\" target=\"_blank\" title=\"Мученица Алла Готфская\">Аллы</a>, <a  href=\"http://days.pravoslavie.ru/name/2569.html\" target=\"_blank\" title=\"Мученица Лариса Готфская\">Ларисы</a>, <a  href=\"http://days.pravoslavie.ru/name/2621.html\" target=\"_blank\" title=\"Моико Готфская, мц.\">Моико</a>, <a  href=\"http://days.pravoslavie.ru/name/2582.html\" target=\"_blank\" title=\"Мамика Готфская, мц.\">Мамики</a>, <a  href=\"http://days.pravoslavie.ru/name/2691.html\" target=\"_blank\" title=\"Уирко Готфская, мц.\">Уирко</a>, <a  href=\"http://days.pravoslavie.ru/name/2388.html\" target=\"_blank\" title=\"Анимаиса (Анимаида) Готфская, мц.\">Анимаисы</a> (Анимаиды), <a  href=\"http://days.pravoslavie.ru/name/2439.html\" target=\"_blank\" title=\"Гаафа Готфская, царица, мц.\">Гаафы</a>, царицы Готфской, и <a  href=\"http://days.pravoslavie.ru/name/2460.html\" target=\"_blank\" title=\"Дуклида Готфская, царевна, мц.\">Дуклиды</a>, царевны Готфской. Прп. <a  href=\"http://days.pravoslavie.ru/name/6602.html\" target=\"_blank\" title=\"Малх Сирийский, прп.\">Малха</a> Сирийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/380.html\" target=\"_blank\" title=\"Василий Новый. Константинопольский, исповедник\">Василия</a> Нового. Мц. <a  href=\"http://days.pravoslavie.ru/name/14240.html\" target=\"_blank\" title=\"Параскева (Кочнева), мц.\">Параскевы</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_58_1_11.html#z\">Ис. LVIII, 1-11.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_43_26_31_45_1_16.html#z\">Быт. XLIII, 26-31; XLV, 1-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_21_23_0_22_0_4.html#z\">Притч. XXI, 23 - XXII, 4.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Взывай громко\", говорит Господь св. пророку Илии, \"не удерживайся, обличая беззакония людей Моих\". Что же сделали? \"Они ищут Меня, желают приближения к Богу\". Но разве в этом есть грех? Ведь это и должны они делать. Да, должны, но дело в том, что они делают это не так как должно. Чают успеть в своем искании одним постом, не радея о делах правды и любви. И пост Мне приятен, говорит Господь, но такой, когда смиряя тело свое, прощают обиды, оставляют долги, алчущих питают, бескровных вводят в дом, нагих одевают. Когда все это будет при посте, тогда искание Меня и приближение ко Мне будет успешно; \"тогда откроется, как заря, свет твой. . . и слава Господня будет сопровождать тебя. Тогда ты воззовешь, и Господь услышит? возопиешь, и Он скажет? \"вот Я!\". . . И будет Господь вождем твоим всегда\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17807.htm\" target=\"_blank\" title=\"Библия\">Ис. 58, 1-11</a>).<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

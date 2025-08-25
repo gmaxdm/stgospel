@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("21 июля 2020 г. ( 8 июля ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 7-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/2865.html\" target=\"_blank\" title=\"Казанская икона Божией Матери\">Явление иконы Пресвятой Богородицы во граде Казани</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2865_167.html\" target=\"_blank\" >икона</a>). Вмч. <a  href=\"http://days.pravoslavie.ru/name/1844.html\" target=\"_blank\" title=\"Прокопий (до мученичества Неаний) Кесарийский (Палестинский), вмч.\">Прокопия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1844_1994.html\" target=\"_blank\" >икона</a>). Прав. <a  href=\"http://days.pravoslavie.ru/name/1847.html\" target=\"_blank\" title=\"Прокопий Устюжский, Христа ради юродивый\">Прокопия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1847_154.html\" target=\"_blank\" >икона</a>), Христа ради юродивого, Устюжского чудотворца. Прав. <a  href=\"http://days.pravoslavie.ru/name/1846.html\" target=\"_blank\" title=\"Праведный Прокопий Устьянский\">Прокопия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1846_824.html\" target=\"_blank\" >икона</a>) Устьянского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13744.html\" target=\"_blank\" title=\"Феодор (Располов), иерей, сщмч.\">Феодора</a> и <a  href=\"http://days.pravoslavie.ru/name/11471.html\" target=\"_blank\" title=\"Николай (Брянцев), иерей, сщмч.\">Николая</a> пресвитеров. Знамение от иконы Божией Матери <a  href=\"http://days.pravoslavie.ru/name/2783.html\" target=\"_blank\" title=\"\"Благовещение\" Устюжская\">Благовещения</a> во граде Устюге. Чтимые списки с Казанской иконы Божией Матери: в <a  href=\"http://days.pravoslavie.ru/name/10113.html\" target=\"_blank\" title=\"Казанская (Московская)\">Москве</a>, <a  href=\"http://days.pravoslavie.ru/name/10114.html\" target=\"_blank\" title=\"Казанская (Казанский список)\">Казани</a>, и <a  href=\"http://days.pravoslavie.ru/name/10115.html\" target=\"_blank\" title=\"Казанская (Петербургский список)\">Петербурге</a>;  <a  href=\"http://days.pravoslavie.ru/name/2874.html\" target=\"_blank\" title=\"Казанская (Ярославская)\">Ярославская</a>, <a  href=\"http://days.pravoslavie.ru/name/2869.html\" target=\"_blank\" title=\"Казанская (Вязниковская)\">Вязниковская</a>, <a  href=\"http://days.pravoslavie.ru/name/2871.html\" target=\"_blank\" title=\"Казанская (Нижнеломовская)\">Нижнеломовская</a>, <a  href=\"http://days.pravoslavie.ru/name/14723.html\" target=\"_blank\" title=\"Казанская (Витебская)\">Витебская</a> <a  href=\"http://days.pravoslavie.ru/name/2873.html\" target=\"_blank\" title=\"Казанская (Тобольская)\">Тобольская</a>, <a  href=\"http://days.pravoslavie.ru/name/2870.html\" target=\"_blank\" title=\"Каплуновская икона Божией Матери\">Каплуновская</a>, <a  href=\"http://days.pravoslavie.ru/name/2872.html\" target=\"_blank\" title=\"Казанская (Тамбовская)\">Тамбовская</a>, <a  href=\"http://days.pravoslavie.ru/name/10117.html\" target=\"_blank\" title=\"Казанская (Пензенская)\">Пензенская</a>, <a  href=\"http://days.pravoslavie.ru/name/14291.html\" target=\"_blank\" title=\"Казанская (Песчанская)\">Песчанская</a>, <a  href=\"http://days.pravoslavie.ru/name/14290.html\" target=\"_blank\" title=\"Казанская (Чимеевская)\">Чимеевская</a>, в <a  href=\"http://days.pravoslavie.ru/name/2867.html\" target=\"_blank\" title=\"Казанская (Высочиновская)\">Высочиновская</a>, в <a  href=\"http://days.pravoslavie.ru/name/2868.html\" target=\"_blank\" title=\"Казанская (Вышенская)\">Вышенская</a>. <a  href=\"http://days.pravoslavie.ru/name/14514.html\" target=\"_blank\" title=\"Якобштадтская\">Якобштадтской</a> иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

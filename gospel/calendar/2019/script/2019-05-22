@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("22 мая 2020 г. ( 9 мая ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/1109.html\" target=\"_blank\" title=\"Пророк Исаия\">Исаии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1109_857.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/2353.html\" target=\"_blank\" title=\"Христофор Ликийский, мч.\">Христофора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2353_4253.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/2359.html\" target=\"_blank\" title=\"Преподобный Шио Мгвимский\">Шио</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2359_4260.html\" target=\"_blank\" >икона</a>) Мгвимского (Груз.). Перенесение мощей святителя и чудотворца <a  href=\"http://days.pravoslavie.ru/name/1635.html\" target=\"_blank\" title=\"Святитель Николай Мирликийский, чудотворец\">Николая</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1635_96.html\" target=\"_blank\" >икона</a>) из Мир Ликийских в Бар. Прп. <a  href=\"http://days.pravoslavie.ru/name/6990.html\" target=\"_blank\" title=\"Иосиф Оптинский, прп.\">Иосифа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6990_808.html\" target=\"_blank\" >икона</a>) Оптинского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14459.html\" target=\"_blank\" title=\"Димитрий (Воскресенский), протоиерей, сщмч.\">Димитрия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13716.html\" target=\"_blank\" title=\"Василий (Колосов), иерей, сщмч.\">Василия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_15_5_34.html#z\">Деян., 36 зач., XV, 5-34.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_17_28.html#z\">Ин., 37 зач., X, 17-28.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17892.htm\" target=\"_blank\" title=\"Библия\">Дея. 15, 5-34</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17893.htm\" target=\"_blank\" title=\"Библия\">Ин. 10, 17-28</a>). \"Вы не верите, ибо вы не из овец Моих\", говорит Господь неверовавшим иудеям. \"Овцы Мои слушаются голоса Моего, и Я знаю их, и они идут за Мною\". Неверующие не от стада Христова. Тогда неверующие были такие, которые еще не входили в стадо, а теперь между нами неверующие все те, которые отпали от веры или отстали от стада Христова. Господь - пастырь: все Его овцы по Нем идут, следуя Его учению и исполняя Его святые заповеди. Грешники - это овцы больные и слабые, но все же плетущиеся тут же вместе со стадом. А веру потерявшие - это те, которые совсем отстали, и брошены на съедение зверям. Вот они-то настоящие отсталые. Они не из стада Христова и голоса Его не слушают; и Он не знает их, не знает потому, что они не дают знать о себе, как дала знать кровоточивая. И на суде сказано им будет: не знаю вас, отойдите.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

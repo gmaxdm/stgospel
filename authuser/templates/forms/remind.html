@@ -1,0 +1,62 @@
+{% extends "wrapper.html" %}
+{% load i18n %}
+{% block main %}
+{% if messages %}
+<h1>{% trans 'Восстановление пароля' %}</h1>
+{% for message in messages %}
+<div class="body_maindiv">
+    <div class="body_textsection">
+    	{% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+    	<div class="body_card_header">{% trans 'Успешно' %}!</div>
+    	<div class="info_basetext center">
+			<p>{% trans 'Вам выслано письмо на email, указанный при регистрации' %}</p>
+		</div>
+	    <div class="info_maintext">
+	        <p>{% trans 'Для завершения восстановления пароля, пожалуйста, откройте отправленное письмо и пройдите по ссылке для активации вашей учетной записи' %}</p>
+	    </div>
+	    {% else %}
+	    <div class="body_card_header">{% trans 'Что-то не так' %}:</div>
+    	<div class="info_basetext center">
+			<p class="_bold">{{ message }}</p>
+		</div>
+	    <div class="info_maintext">
+	        <p>{% trans 'Пожалуйста, обратите внимание на неточности и попробуйте еще раз' %}</p>
+	    </div>
+	    <div class="info_maintext center">
+	    	<p><a href="{% url 'remind' %}" class="button_prior">{% trans 'Восстановить пароль' %}</a></p>
+	    </div>
+	    {% endif %}
+    </div>
+</div>
+{% endfor %}
+{% else %}
+    <h1>{% trans 'Восстановление пароля' %}</h1>
+	<p>{% trans 'Пожалуйста, укажите адресс электронной почты, указанный при регистрации' %}</p>
+    {% if form.errors %}
+        {% for f, errs in form.errors.items %}
+        <p>{{f}}</p>
+        <ul class="list-unstyled">
+            {% for err in errs %}
+                <li class="alert alert-danger">{{ err }}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    {% endif %}
+    <form action="{% url "remind" %}" name="freg" method="POST">{% csrf_token %}
+        <dl class="form_data">
+            <div class="form_data_field">
+            <dt><label for="email">E-mail:</label></dt>
+            <dd>
+                <p><input type="email" name="email" value="{{ form.data.email }}" id="email" required></p>
+            </dd>
+            </div>
+            <div class="info_basetext center">
+                <p>{% trans 'Вы должны иметь доступ к указанному почтовому ящику' %}</p>
+            </div>
+        </dl>
+	<p>{% trans 'После успешного заполнения формы на указанный вами email будет отправлено письмо.' %}</p>
+    <p>{% trans 'Для завершения восстановления, пожалуйста, откройте это письмо и пройдите по присланной ссылке' %}</p>
+    <p><button class="btn btn-primary" type="submit">{% trans 'Восстановить пароль' %}</button></p>
+    </form>
+{% endif %}
+{% endblock %}

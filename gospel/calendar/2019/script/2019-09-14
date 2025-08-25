@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("14 сентября 2020 г. ( 1 сентября ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 15-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6932.html\" target=\"_blank\" title=\"Начало индикта - церковное новолетие\">Начало индикта</a> - церковное новолетие. Прп. <a  href=\"http://days.pravoslavie.ru/name/2011.html\" target=\"_blank\" title=\"Преподобный Симеон Столпник\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2011_1107.html\" target=\"_blank\" >икона</a>) Столпника и матери его <a  href=\"http://days.pravoslavie.ru/name/2607.html\" target=\"_blank\" title=\"Марфа Каппадокийская\">Марфы</a>. Прав. <a  href=\"http://days.pravoslavie.ru/name/924.html\" target=\"_blank\" title=\"Святой Иисус Навин\">Иисуса</a> Навина. Мч. <a  href=\"http://days.pravoslavie.ru/name/85.html\" target=\"_blank\" title=\"Священномученик Аифал Персидский\">Аифала</a> (<a  href=\"http://days.pravoslavie.ru/images/ii85_1629.html\" target=\"_blank\" >икона</a>) диакона, Персидского. Мцц. 40 дев постниц и мч. <a  href=\"http://days.pravoslavie.ru/name/146.html\" target=\"_blank\" title=\"Аммун Ираклийский, диакон, сщмч.\">Аммуна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii146_4585.html\" target=\"_blank\" >икона</a>) диакона, учителя их. Мц. <a  href=\"http://days.pravoslavie.ru/name/2545.html\" target=\"_blank\" title=\"Каллиста Никомидийская, мц.\">Каллисты</a> и братий её, мчч. <a  href=\"http://days.pravoslavie.ru/name/692.html\" target=\"_blank\" title=\"Евод Никомидийский, мч.\">Евода</a> и <a  href=\"http://days.pravoslavie.ru/name/805.html\" target=\"_blank\" title=\"Ермоген Никомидийский, мч.\">Ермогена</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/14959.html\" target=\"_blank\" title=\"Дионисий Малый\">Дионисия</a> Малого (Рум.). Прмц. <a  href=\"http://days.pravoslavie.ru/name/13773.html\" target=\"_blank\" title=\"Татиана (Грибкова), прмц.\">Татианы</a>, мц. <a  href=\"http://days.pravoslavie.ru/name/14310.html\" target=\"_blank\" title=\"Наталия (Козлова), мч.\">Наталии</a>. Собор Пресвятой Богородицы в Миасинской обители (в память обретения её <a  href=\"http://days.pravoslavie.ru/name/2902.html\" target=\"_blank\" title=\"Миасинская\">иконы</a>). <a  href=\"http://days.pravoslavie.ru/name/3023.html\" target=\"_blank\" title=\"Черниговская Гефсиманская\">Черниговской-Гефсиманской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3023_2561.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2769.html\" target=\"_blank\" title=\"Александрийская\">Александрийской</a>, <a  href=\"http://days.pravoslavie.ru/name/14478.html\" target=\"_blank\" title=\"Августовская\">Августовской</a> и именуемой <a  href=\"http://days.pravoslavie.ru/name/2823.html\" target=\"_blank\" title=\"\"Всеблаженная\"\">\"Всеблаженная\"</a> (в Казани) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Новолетия: <a href=\"http://days.pravoslavie.ru/bible/z_1-tim_2_1_7.html#z\">1 Тим., 282 зач., II, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_4_16_22.html#z\">Лк., 13 зач., IV, 16-22.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_kol_3_12_16.html#z\">Кол., 258 зач., III, 12-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18187.htm\" target=\"_blank\" title=\"Библия\">Лк. 4, 16-22</a>). Господь не возвестить только пришел о лете приятном, но и принес его. Где же оно? В душах верующих. Земля никогда не будет превращена в рай, пока будет существовать настоящий порядок вещей; но она есть и будет поприщем приготовления к райской жизни. Начатки ее полагаются в душе; возможность сему в благодати Божией; благодать же принес Господь наш Иисус Христос - принес, следовательно, для душ лето приятное. Кто слушает Господа и исполняет все заповеданное Им, тот получает благодать и силою ее наслаждается в себе летом приятным. Это верно совершается во всех искренно верующих и действующих по вере. Мыслями не наполнишь душу этою приятностью; надо действовать и приятность вселится сама собою. Внешнего покоя может не быть никакого, а один внутренний, но он неотъемлем от Христа. Впрочем, всегда бывает так, что коль скоро водворится внутренний покой, внешние беспокойства не имеют тяготы и горькости. Стало быть и с этой стороны есть лето приятно; только снаружи оно кажется холодною зимою.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

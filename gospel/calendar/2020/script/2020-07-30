@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("30 июля 2020 г. ( 17 июля ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 8-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмц. <a  href=\"http://days.pravoslavie.ru/name/2587.html\" target=\"_blank\" title=\"Великомученица Марина\">Марины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2587_81.html\" target=\"_blank\" >икона</a>) (Маргариты). Прп. <a  href=\"http://days.pravoslavie.ru/name/1088.html\" target=\"_blank\" title=\"Иринарх Соловецкий, игумен\">Иринарха</a> Соловецкого. Прп. <a  href=\"http://days.pravoslavie.ru/name/1343.html\" target=\"_blank\" title=\"Преподобный Леонид Устьнедумский\">Леонида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1343_914.html\" target=\"_blank\" >икона</a>) Устьнедумского. Перенесение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/1324.html\" target=\"_blank\" title=\"Лазарь Галисийский, иеромонах\">Лазаря</a> Галисийского. <a  href=\"http://days.pravoslavie.ru/name/2961.html\" target=\"_blank\" title=\"Святогорская\">Святогорской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2961_3503.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-kor_10_28_0_11_0_7.html#z\">1 Кор., 147 зач., X, 28 - XI, 7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_16_24_28.html#z\">Мф., 69 зач., XVI, 24-28.</a> Вмц.: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_6_1_10.html#z\">2 Кор., 181 зач., VI, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_36_50.html#z\">Лк., 33 зач., VII, 36-50.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18040.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 10, 28-11, 7</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18041.htm\" target=\"_blank\" title=\"Библия\">Мф. 16, 24-28</a>). Господь от хотящих последовать Ему требует решительного самоотвержения: \"отвергнись себя\". Можно это выразить и так: брось свои интересы и преследуй одни интересы Господа. Это исполнишь, когда будешь всегда творить угодное Ему. Как же это сделать? Смотри внимательно за тем, что в тебе внутри и что около тебя во вне, и строго определив как угодно Господу, чтобы ты поступил в таком и в таком случае, внешнем или внутреннем, поступай так, не жалея себя и не вмешивая сюда своих расчетов, с полным самоотвержением. Скажешь: определить это мудрено. Нет, не мудрено. У нас есть заповеди ясные и определенные; они выражают все, что угодно от нас Господу. Остается только сделать применение их к данному случаю, а это не представляет больших трудностей. Достаточно иметь здравый смысл. Не догадаешься - спроси у духовного отца своего или у другого кого, чье слово уважаешь, и поступи по указанию. Но всячески лучше изощрять свое рассуждение посредством чтения слова Божия и отеческих писаний, чтобы всегда иметь решителя с собою.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

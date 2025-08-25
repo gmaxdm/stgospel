@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("2 ноября 2020 г. ( 20 октября ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 22-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмч. <a  href=\"http://days.pravoslavie.ru/name/273.html\" target=\"_blank\" title=\"Артемий Антиохийский, военачальник, вмч.\">Артемия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii273_422.html\" target=\"_blank\" >икона</a>). Прав. отрока <a  href=\"http://days.pravoslavie.ru/name/274.html\" target=\"_blank\" title=\"Святой праведный Артемий Веркольский\">Артемия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii274_423.html\" target=\"_blank\" >икона</a>) Веркольского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14744.html\" target=\"_blank\" title=\"Гавриил (Ургебадзе) Самтаврийский\">Гавриила</a> Самтаврийского (Груз.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9713.html\" target=\"_blank\" title=\"Николай (Любомудров), иерей, сщмч.\">Николая</a> пресвитера. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9577.html\" target=\"_blank\" title=\"Зосима (Пепенин), иерей, сщмч.\">Зосимы</a>, <a  href=\"http://days.pravoslavie.ru/name/9334.html\" target=\"_blank\" title=\"Иоанн (Родионов), протоиерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9605.html\" target=\"_blank\" title=\"Иоанн (Ганчев), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9629.html\" target=\"_blank\" title=\"Иоанн (Речкин), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9737.html\" target=\"_blank\" title=\"Николай (Фигуров), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9669.html\" target=\"_blank\" title=\"Леонид (Никольский), иерей, сщмч.\">Леонида</a>, <a  href=\"http://days.pravoslavie.ru/name/9646.html\" target=\"_blank\" title=\"Иоанн (Талызин), иерей, сщмч.\">Иоанна</a> и <a  href=\"http://days.pravoslavie.ru/name/9438.html\" target=\"_blank\" title=\"Александр (Орлов), иерей, сщмч.\">Александра</a> пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/9855.html\" target=\"_blank\" title=\"Михаил (Исаев), диакон, сщмч.\">Михаила</a> и <a  href=\"http://days.pravoslavie.ru/name/9769.html\" target=\"_blank\" title=\"Петр (Кравец), диакон, сщмч.\">Петра</a> диаконов и мч. <a  href=\"http://days.pravoslavie.ru/name/10011.html\" target=\"_blank\" title=\"Павел (Бочаров), мч.\">Павла</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_kol_2_13_20.html#z\">Кол., 255 зач., II, 13-20.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_9_18_22.html#z\">Лк., 43 зач., IX, 18-22.</a> Вмч.: <a href=\"http://days.pravoslavie.ru/bible/z_2-tim_2_1_10.html#z\">2 Тим., 292 зач., II, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_15_17_0_16_0_2.html#z\">Ин., 52 зач., XV, 17 - XVI, 2.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18243.htm\" target=\"_blank\" title=\"Библия\">Кол. 2, 13-20</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18244.htm\" target=\"_blank\" title=\"Библия\">Лк. 9, 18-22</a>). \"За кого почитает Меня народ?\" спрашивал Господь. В ответ на это апостолы передали ходячие в народе мнения о Нем, которые все слагались по тогдашнему образу воззрений: кто говорил, что Он Иоанн Креститель, кто, - что Он Илия, кто, - что какой-нибудь из древних пророков воскресший. Как же ныне отвечают? Тоже разно и всякий по своему образу мыслей. Материалисты, безбожники и бездушники из породы обезьян какой ответ дадут, когда у них нет ни Бога, ни души? Спириты, подобно арианам, отделываются ответом, который проклят на первом вселенском соборе. Деисты видят Бога очень далеким от мира, и, будучи не в силах вместить в своей системе таинство воплощения, отвечают как евиониты, социниане. Подобные ответы вы встретите и в русском обществе, так как означенные трех родов личности есть и множатся и у нас. Но благодарение Господу, есть еще у нас безмерно преобладающее число искренно верующих и строго содержащих апостольское исповедание, что Господь Иисус Христос - воплотившийся единородный Сын Божий, еще в раю обетованный прародителям нашим Спаситель и Искупитель рода человеческого. Какая сторона пересилит - единому Богу ведомо. Будем молиться о сохранении в нас света Христова и об отгнании тьмы лжеучений. Падки мы на худое; потому не дивно, что ложь и возьмет верх. Она и ныне уже ходит по улицам города открыто, тогда как прежде опасливо пряталась от взора верующих христиан.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

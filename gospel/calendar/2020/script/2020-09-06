@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("6 сентября 2020 г. ( 24 августа ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 13-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/724.html\" target=\"_blank\" title=\"Святитель Евтихий, епископ, апостол от меньших, сщмч.\">Евтихия</a>, ученика ап. <a  href=\"http://days.pravoslavie.ru/name/962.html\" target=\"_blank\" title=\"Апостол и евангелист Иоанн Богослов\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii962_183.html\" target=\"_blank\" >икона</a>) Богослова. Перенесение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/1779.html\" target=\"_blank\" title=\"Святитель Петр, митрополит Московский и всея Руси\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1779_262.html\" target=\"_blank\" >икона</a>), митр. Московского, всея России чудотворца. <a  href=\"http://days.pravoslavie.ru/name/8075.html\" target=\"_blank\" title=\"Собор Московских святых\">Собор Московских святых</a> (<a  href=\"http://days.pravoslavie.ru/images/ii8075_979.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/2090.html\" target=\"_blank\" title=\"Татион Клавдиопольский (Вифинский), мч.\">Татиона</a>. Мц. <a  href=\"http://days.pravoslavie.ru/name/2669.html\" target=\"_blank\" title=\"Сира Персидская, дева, мц.\">Сиры</a>, девы Персидской. Прп. <a  href=\"http://days.pravoslavie.ru/name/491.html\" target=\"_blank\" title=\"Георгий Лимниот (озерник), прп., исповедник\">Георгия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii491_4459.html\" target=\"_blank\" >икона</a>) Лимниота. Равноап. <a  href=\"http://days.pravoslavie.ru/name/10144.html\" target=\"_blank\" title=\"Косма Этолийский, Афонский, Албанский, иеромонах, равноапостольный, сщмч.\">Космы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10144_4458.html\" target=\"_blank\" >икона</a>) Этолийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/264.html\" target=\"_blank\" title=\"Преподобный Арсений Комельский\">Арсения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii264_1670.html\" target=\"_blank\" >икона</a>) Комельского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13612.html\" target=\"_blank\" title=\"Максим (Сандович), сщмч.\">Максима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13612_1903.html\" target=\"_blank\" >икона</a>) Горлицкого пресвитера. Прп. <a  href=\"http://days.pravoslavie.ru/name/14476.html\" target=\"_blank\" title=\"Аристоклий (Амвросиев) старец Московский, иеросхимонах, прп.\">Аристоклия</a>, старца Московского. Прмч. <a  href=\"http://days.pravoslavie.ru/name/9180.html\" target=\"_blank\" title=\"Серафим (Шахмуть), архимандрит Жировицкий, сщмч.\">Серафима</a>. <a  href=\"http://days.pravoslavie.ru/name/2942.html\" target=\"_blank\" title=\"Петровская\">Петровской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2942_2454.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 2-е, <a href=\"http://days.pravoslavie.ru/bible/z_mk_16_1_8.html#z\">Мк., 70 зач., XVI, 1-8.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_16_13_24.html#z\">1 Кор., 166 зач., XVI, 13-24.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_21_33_42.html#z\">Мф., 87 зач., XXI, 33-42.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

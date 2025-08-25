@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("12 августа 2020 г. ( 30 июля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 10-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апп. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/1982.html\" target=\"_blank\" title=\"Святитель Сила (Силос), епископ Коринфский, апостол от 70-ти\">Силы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1982_1097.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1986.html\" target=\"_blank\" title=\"Священномученик Силуан, апостол от 70-ти\">Силуана</a>, <a  href=\"http://days.pravoslavie.ru/name/1302.html\" target=\"_blank\" title=\"Святитель Крискент, епископ Галатийский, апостол от 70-ти, сщмч.\">Крискента</a>, <a  href=\"http://days.pravoslavie.ru/name/781.html\" target=\"_blank\" title=\"Святитель Епенет, епископ Карфагенский, апостол от 70-ти\">Епенета</a> и <a  href=\"http://days.pravoslavie.ru/name/194.html\" target=\"_blank\" title=\"Апостол от 70-ти Андроник\">Андроника</a> (<a  href=\"http://days.pravoslavie.ru/images/ii194_406.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/969.html\" target=\"_blank\" title=\"Святой мученик Иоанн Воин\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii969_1320.html\" target=\"_blank\" >икона</a>) Воина. Прп. <a  href=\"http://days.pravoslavie.ru/name/7001.html\" target=\"_blank\" title=\"Анатолий (Потапов) II Оптинский, Младший, прп.\">Анатолия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii7001_3251.html\" target=\"_blank\" >икона</a>) Оптинского, Младшего. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/1814.html\" target=\"_blank\" title=\"Святитель Полихроний Вавилонский, епископ, сщмч.\">Полихрония</a>, еп. Вавилонского, <a  href=\"http://days.pravoslavie.ru/name/1739.html\" target=\"_blank\" title=\"Пармений Вавилонский, Кордульский, пресвитер, сщмч.\">Пармения</a>, <a  href=\"http://days.pravoslavie.ru/name/762.html\" target=\"_blank\" title=\"Елима Вавилонский, Кордульский, пресвитер, сщмч.\">Елимы</a> и <a  href=\"http://days.pravoslavie.ru/name/2352.html\" target=\"_blank\" title=\"Хрисотель Вавилонский, Кордульский, пресвитер, сщмч.\">Хрисотеля</a> пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/1373.html\" target=\"_blank\" title=\"Лука Вавилонский, Кордульский, диакон, сщмч.\">Луки</a> и <a  href=\"http://days.pravoslavie.ru/name/1582.html\" target=\"_blank\" title=\"Муко Вавилонский, Кордульский, диакон, сщмч.\">Муко</a> диаконов, мчч. <a  href=\"http://days.pravoslavie.ru/name/12.html\" target=\"_blank\" title=\"Авдон Персидский, Римский, князь, мч.\">Авдона</a> и <a  href=\"http://days.pravoslavie.ru/name/1958.html\" target=\"_blank\" title=\"Сеннис Персидский, Римский, князь, мч.\">Сенниса</a>, князей Персидских, и  мчч. <a  href=\"http://days.pravoslavie.ru/name/1662.html\" target=\"_blank\" title=\"Олимпий перс, Кордульский, мч.\">Олимпия</a> и <a  href=\"http://days.pravoslavie.ru/name/1433.html\" target=\"_blank\" title=\"Максим Перс, Кордульский, мч.\">Максима</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/336.html\" target=\"_blank\" title=\"Священномученик Валентин, епископ Интерамны\">Валентина</a> (Уалентина) епископа и трех учеников его, мчч. <a  href=\"http://days.pravoslavie.ru/name/1848.html\" target=\"_blank\" title=\"Прокул Интерамский (Италийский), мч.\">Прокула</a>, <a  href=\"http://days.pravoslavie.ru/name/811.html\" target=\"_blank\" title=\"Ефив Интерамский (Италийский), мч.\">Ефива</a> и <a  href=\"http://days.pravoslavie.ru/name/243.html\" target=\"_blank\" title=\"Аполлоний Интерамский (Италийский), мч.\">Аполлония</a> и прав. <a  href=\"http://days.pravoslavie.ru/name/43.html\" target=\"_blank\" title=\"Авундий Интерамский (Италийский)\">Авундия</a>. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/512.html\" target=\"_blank\" title=\"Преподобный Герман Соловецкий\">Германа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii512_1075.html\" target=\"_blank\" >икона</a>) Соловецкого. Прп. <a  href=\"http://days.pravoslavie.ru/name/2386.html\" target=\"_blank\" title=\"Блаженная Ангелина Сербская\">Ангелины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2386_2130.html\" target=\"_blank\" >икона</a>), деспотисы Сербской. <a  href=\"http://days.pravoslavie.ru/name/14683.html\" target=\"_blank\" title=\"Собор Самарских святых\">Собор</a> Самарских святых. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13758.html\" target=\"_blank\" title=\"Иоанн (Плотников), диакон, сщмч.\">Иоанна</a> диакона. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_1-kor_16_4_12.html#z\">1 Кор., 165 зач., XVI, 4-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_21_28_32.html#z\">Мф., 86 зач., XXI, 28-32.</a> Мч.: <a href=\"http://days.pravoslavie.ru/bible/z_rim_15_1_7.html#z\">Рим., 116 зач., XV, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_16_24_28.html#z\">Мф., 69 зач., XVI, 24-28</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба мч. Иоанна Воина, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_in_15_9_16.html#z\">Ин., 51 зач., XV, 9-16.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18070.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 16, 4-12</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18071.htm\" target=\"_blank\" title=\"Библия\">Мф. 21, 28-32</a>). В притче о двух сынах, второй из них проворно сказал: \"иду\", и не пошел. Это образ всех скороспелых благонамерений, которые привести в исполнение не достает потом постоянства, воли и терпения. Сердце легкое тотчас готово на всякое представляющееся ему добро, но нетвердая и нетрудолюбивая воля отказывается от делания на первых же порах. Эта немощь встречается почти у всех. Как же избегнуть такой несостоятельности перед самим собой и перед другими? А вот как: не начинай ничего не обдумавши и не рассчитавши, что на предпринимаемое достанет сил. Так Господь повелел в притче о начинающем войну и приступающем к построению дома. В чем же этот расчет? В том, по сказанию тех же приточных внушений Господа, чтоб вооружиться наперед самоотвержением и терпением. Посмотри есть ли у тебя эти подпоры всех тружеников в добре, и если есть, начинай дело, а если нет, то наперед запасись ими. Если запасешься, то что ни встретится на пути к намеренному, все перетерпишь и преодолеешь, и начатое доведешь до конца. Расчет не то значит, что коль скоро трудновато дело - брось, а то, чтобы воодушевить себя на всякий труд. Отсюда будет исходить твердость воли и постоянство делания. И не будет с тобою никогда того, чтобы ты сказал - иду, а потом не пошел.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

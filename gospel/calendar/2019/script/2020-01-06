@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("6 января 2020 г. (24  декабря 2019 г. ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 30-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. Строгий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14392.html\" target=\"_blank\" title=\"Навечерие Рождества Христова (Рождественский сочельник)\">Навечерие</a> Рождества Христова (Рождественский сочельник). Прмц. <a  href=\"http://days.pravoslavie.ru/name/2464.html\" target=\"_blank\" title=\"Евгения Римская, дева, прмц.\">Евгении</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2464_348.html\" target=\"_blank\" >икона</a>) и с нею мчч. <a  href=\"http://days.pravoslavie.ru/name/1850.html\" target=\"_blank\" title=\"Прот Римский, прмч.\">Прота</a>, <a  href=\"http://days.pravoslavie.ru/name/865.html\" target=\"_blank\" title=\"Иакинф Римский, прмч.\">Иакинфа</a> и <a  href=\"http://days.pravoslavie.ru/name/2562.html\" target=\"_blank\" title=\"Клавдия Римская, мц.\">Клавдии</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1638.html\" target=\"_blank\" title=\"Николай Славянин, схимонах\">Николая</a> монаха. Прмч. <a  href=\"http://days.pravoslavie.ru/name/9172.html\" target=\"_blank\" title=\"Иннокентий (Беда), архимандрит, сщмч.\">Иннокентия</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9400.html\" target=\"_blank\" title=\"Сергий (Мечёв), протоиерей, сщмч.\">Сергия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 1-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_evr_1_1_12.html#z\">Евр., 303 зач., I, 1-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_1_18_25.html#z\">Мф., 2 зач., I, 18-25.</a> На 3-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_gal_3_23_29.html#z\">Гал., 208 зач., III, 23-29.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_2_1_20.html#z\">Лк., 5 зач., II, 1-20.</a> На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_evr_1_10_0_2_0_3.html#z\">Евр., 304 зач., I, 10 - II, 3.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_2_1_12.html#z\">Мф., 3 зач., II, 1-12.</a> На 9-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_evr_2_11_18.html#z\">Евр., 306 зач., II, 11-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_2_13_23.html#z\">Мф., 4 зач., II, 13-23.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_evr_1_1_12.html#z\">Евр., 303 зач., I, 1-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_2_1_20.html#z\">Лк., 5 зач., II, 1-20.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

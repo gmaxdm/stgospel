@@ -1,0 +1,39 @@
+{% extends 'wrapper.html' %}
+{% block main %}
+    <div class="mt-3 mb-3 text-center">
+        {% if book %}
+        <h3>Начать чтение книги <span class="badge badge-primary">{{ book.title }}</span></h3>
+        {% elif volume %}
+        <h3>Начать чтение сборника <span class="badge badge-primary">{{ volume.title }}</span></h3>
+        {% endif %}
+    </div>
+    {% if book %}
+    <p class="lead">Предполагается прочитывание каждый день по одной главе.</p>
+    {% elif volume %}
+    <p class="lead">Предполагается прочитывание каждый день по одному разделу сборника.</p>
+    {% endif %}
+    <p>Чтение начнется с сегодняшнего дня.</p>
+    {% if book %}
+    <p>Всего: {{ book.chapters }} глав.</p>
+    {% endif %}
+    <p class="text-muted"><small>параметры чтения потом можно поменять</small></p>
+    <div class="row justify-content-end">
+        <div class="col-auto">
+            <form name="fleave" action="{% url 'group-create' %}" method="POST">{% csrf_token %}
+                <input type="hidden" name="name" value="{{ name }}">
+                {% if book %}
+                <input type="hidden" name="book_id" value="{{ book.id }}">
+                {% endif %}
+                <input type="hidden" name="volume" value="{{ volume.id }}">
+                <button type="submit" class="btn btn-primary btn-sm">Начать</button>
+            </form>
+        </div>
+        <div class="col-auto">
+            {% if book %}
+            <a href="{% url 'book' book.slug %}" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">Назад</a>
+            {% elif volume %}
+            <a href="{% url 'volume' volume.id %}" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">Назад</a>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

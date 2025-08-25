@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("1 ноября 2020 г. ( 19 октября ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 21-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/1039.html\" target=\"_blank\" title=\"Пророк Иоиль\">Иоиля</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1039_844.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/2137.html\" target=\"_blank\" title=\"Уар Египетский, мч.\">Уара</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2137_1211.html\" target=\"_blank\" >икона</a>) и с ним семи мчч., учителей христианских. Перенесение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/1011.html\" target=\"_blank\" title=\"Преподобный Иоанн Рыльский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1011_133.html\" target=\"_blank\" >икона</a>) Рыльского. Блж. <a  href=\"http://days.pravoslavie.ru/name/2563.html\" target=\"_blank\" title=\"Клеопатра Палестинская\">Клеопатры</a> и сына ее <a  href=\"http://days.pravoslavie.ru/name/996.html\" target=\"_blank\" title=\"Иоанн Палестинский, воин\">Иоанна</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1914.html\" target=\"_blank\" title=\"Священномученик Садок Персидский\">Садока</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1914_3774.html\" target=\"_blank\" >икона</a>) (Шах-Дуста), еп. Персидского, и с ним 128-ми мучеников. <a  href=\"http://days.pravoslavie.ru/name/14977.html\" target=\"_blank\" title=\"Собор святых Архангельской митрополии\">Собор</a> святых Архангельской митрополии. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/12673.html\" target=\"_blank\" title=\"Сергий (Покровский), протоиерей, сщмч.\">Сергия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 10-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_21_1_14.html#z\">Ин., 66 зач., XXI, 1-14.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_gal_2_16_20.html#z\">Гал., 203 зач., II, 16-20.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_8_5_15.html#z\">Лк., 35 зач., VIII, 5-15.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18241.htm\" target=\"_blank\" title=\"Библия\">Гал. 2, 16-20</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18242.htm\" target=\"_blank\" title=\"Библия\">Лк. 8, 5-15</a>). Под терниями и волчцами, подавляющими слово Божественной истины, кроме богатства, сластей и скорбей житейских, в нынешнее время надо разуметь и разные ложные учения, распространяемые учеными, потерявшими истину и сбившимися с пути к ней. Таких учений у нас расходится много: иные гласно и открыто идут против истины; другие - под условными намеками, понятными, однако, тем, к кому направляются. В существе они действуют как угар; незаметно входя, омрачают голову и доводят до потери ясного сознания всего окружающего. Кто нахватается этого угара, тот начинает бредить, как сонный, ибо все представляется ему уже совсем не в том виде, как оно есть и как представляется находящемуся в здравом уме. Встретив такое лицо, вы видите, что у него подавлена не только истина всякая, но заглушено и чувство истины, и ложь внедрилась во все составы ума. Как же быть? Не слушать и не читать этих бредней, а когда невольно услышалось или прочиталось, - выбрось из головы, а когда не выбрасывается, - подвергнуть рассуждению, и все разлетится, как дым.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

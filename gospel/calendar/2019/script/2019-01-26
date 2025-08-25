@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("26 января 2020 г. ( 13 января ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 32-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Попразднство Богоявления. Мчч. <a  href=\"http://days.pravoslavie.ru/name/799.html\" target=\"_blank\" title=\"Мученик Ермил Белградский\">Ермила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii799_550.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2080.html\" target=\"_blank\" title=\"Мученик Стратоник\">Стратоника</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2080_2061.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1085.html\" target=\"_blank\" title=\"Иринарх Ростовский, затворник\">Иринарха</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1085_3154.html\" target=\"_blank\" >икона</a>), затворника Ростовского. Прп. <a  href=\"http://days.pravoslavie.ru/name/753.html\" target=\"_blank\" title=\"Елеазар (Севрюков) Анзерский, прп.\">Елеазара</a> (<a  href=\"http://days.pravoslavie.ru/images/ii753_1773.html\" target=\"_blank\" >икона</a>) Анзерского. Мч. <a  href=\"http://days.pravoslavie.ru/name/1763.html\" target=\"_blank\" title=\"Петр Авессаломит (Анийский), мч.\">Петра</a> Анийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/878.html\" target=\"_blank\" title=\"Святитель Иаков Низибийский (Нисивийский), епископ\">Иакова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii878_1781.html\" target=\"_blank\" >икона</a>), еп. Низибийского. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 10-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_21_1_14.html#z\">Ин., 66 зач., XXI, 1-14.</a> Лит. - Недели по Богоявлении: <a href=\"http://days.pravoslavie.ru/bible/z_ef_4_7_13.html#z\">Еф., 224 зач. (от&nbsp;полу&#769;), IV, 7-13.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_12_17.html#z\">Мф., 8 зач., IV, 12-17.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_1-tim_1_15_17.html#z\">1 Тим., 280 зач. (от&nbsp;полу&#769;), I, 15-17</a> (Недели 31-й). <a href=\"http://days.pravoslavie.ru/bible/z_lk_18_35_43.html#z\">Лк., 93 зач., XVIII, 35-43</a> (Недели 31-й). Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18410.htm\" target=\"_blank\" title=\"Библия\">Ефес. 4, 7-13</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18411.htm\" target=\"_blank\" title=\"Библия\">Мф. 4, 12-17</a>). Вчера Апостол вооружил христианина, вступившего на путь спасения, духовным всеоружием, а ныне указывает руководителей в этом бранном шествии и последнюю светлую цель всего, на воодушевление в притрудностях. Руководители - пастыри и учители, которых дал Господь Церкви, и устами которых Сам изрекает благопотребное всякому руководственное указание, коль скоро кто обращается к ним с верою и молитвенным к Господу обращением. Истину эту знают самоотверженно идущие путем Господним, и без жаления себя ведущие борьбу с врагами спасения. Они в пастырях своих всегда встречают помощь и вразумление, когда со стороны смотря и ожидать бы ее нельзя было. Ибо не к человекам приходят, а ко Господу, всегда готовому руководить и вразумлять через человеков сих всякого искренно и с верою ищущего у Него себе помощи. Светлая цель последняя есть \"в меру полного возраста Христова\", - возраст \"в мужа совершенного\". Что есть муж совершенный в обычном порядке, всем ведомо; и нельзя найти человека, которому не было бы желательно достигнуть такого совершенства; но что есть муж совершенный в Господе, никому неведомо, кроме вступивших в этот возраст. Это однако не должно ни у кого охлаждать ревности к достижению и себе такого возраста, а напротив более еще возгревать ее; потому что неведомость зависит от высоты того совершенства духовного, которое именуется мужским возрастом в жизни по Богу. Апостол определил его восприятием полноты совершенств, явленных в Господе Спасителе. Всякий видит, что есть из-за чего к званию нашему приложить \"все старание\".<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

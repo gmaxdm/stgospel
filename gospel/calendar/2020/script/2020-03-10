@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("10 марта 2020 г. ( 26 февраля ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/1825.html\" target=\"_blank\" title=\"Святитель Порфирий Газский, архиепископ\">Порфирия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1825_52.html\" target=\"_blank\" >икона</a>), архиеп. Газского. Мч. <a  href=\"http://days.pravoslavie.ru/name/1939.html\" target=\"_blank\" title=\"Севастиан, военачальник, мч.\">Севастиана</a> и <a  href=\"http://days.pravoslavie.ru/name/6630.html\" target=\"_blank\" title=\"Христодул, мч.\">Христодула</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6630_4088.html\" target=\"_blank\" >икона</a>) (Gr. Cal). Прп. <a  href=\"http://days.pravoslavie.ru/name/1942.html\" target=\"_blank\" title=\"Севастиан Сохотский, Пошехонский, прп.\">Севастиана</a> Пошехонского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14993.html\" target=\"_blank\" title=\"Михаил (Лисицын), пресвитер, сщмч.\">Михаила</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9756.html\" target=\"_blank\" title=\"Петр (Варламов), иерей, сщмч.\">Петра</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/10738.html\" target=\"_blank\" title=\"Сергий (Воскресенский), иерей, сщмч.\">Сергия</a> пресвитера. Прмц. <a  href=\"http://days.pravoslavie.ru/name/9885.html\" target=\"_blank\" title=\"Анна (Благовещенская), инокиня, прмц.\">Анны</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9143.html\" target=\"_blank\" title=\"Святитель Иоанн (Пашин), епископ Рыльский, сщмч.\">Иоанна</a>, еп. Рыльского, и <a  href=\"http://days.pravoslavie.ru/name/9608.html\" target=\"_blank\" title=\"Иоанн (Дунаев), иерей, сщмч.\">Иоанна</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_5_7_16.html#z\">Ис. V, 7-16.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_4_8_15.html#z\">Быт. IV, 8-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_5_1_15.html#z\">Притч. V, 1-15.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"И сказал Каин Господу: наказание мое больше, нежели снести можно\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18482.htm\" target=\"_blank\" title=\"Библия\">Быт. 4, 13</a>). Можно ли было так говорить перед лицом Бога, строгого, конечно, в правде, но и всегда готового миловать искренно кающегося? Зависть помрачила здравые понятия, преступление обдуманное ожесточило сердце, и вот Каин грубо отвечает Самому Богу: \"разве я сторож брату моему?\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18483.htm\" target=\"_blank\" title=\"Библия\">Быт. 4, 9</a>) Бог хочет умягчить его каменное сердце молотом строгого суда Своего, - а он не поддается, и, замкнувшись в своем огрубении, предается той участи, какую изготовил себе завистью и убийством. То дивно, что после того он жил, как и все: имел детей, устраивал семейный быт и житейские отношения держал; печать же отвержения и отчаяния все лежала на нем. Стало быть это дело внутреннее, которое совершается в совести, из сознания своих отношений к Богу, под действием тяготящих ее дел, страстей и греховных навыков. Да внемлют этому ныне в особенности! Но вместе да воскресят веру, что нет греха, побеждающего милосердие Божие, хотя на умягчение сердца, конечно, потребуются и время и труд. Но ведь - или спасение, или погибель!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

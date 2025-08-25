@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("3 декабря 2020 г. ( 20 ноября ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 26-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14388.html\" target=\"_blank\" title=\"Предпразднство Введения во храм Пресвятой Богородицы\">Предпразднство</a> Введения во храм Пресвятой Богородицы. Прп. <a  href=\"http://days.pravoslavie.ru/name/539.html\" target=\"_blank\" title=\"Преподобный Григорий Декаполит\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii539_510.html\" target=\"_blank\" >икона</a>) Декаполита. Свт. <a  href=\"http://days.pravoslavie.ru/name/1839.html\" target=\"_blank\" title=\"Святитель Прокл Константинопольский, патриарх\">Прокла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1839_4383.html\" target=\"_blank\" >икона</a>), архиеп. Константинопольского. Мч. <a  href=\"http://days.pravoslavie.ru/name/588.html\" target=\"_blank\" title=\"Дасий (Узий) Доростольский, мч.\">Дасия</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/712.html\" target=\"_blank\" title=\"Евстафий Никейский, мч.\">Евстафия</a>, <a  href=\"http://days.pravoslavie.ru/name/2280.html\" target=\"_blank\" title=\"Феспесий Никейский, мч.\">Феспесия</a> и <a  href=\"http://days.pravoslavie.ru/name/170.html\" target=\"_blank\" title=\"Анатолий Никейский, мч.\">Анатолия</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/1654.html\" target=\"_blank\" title=\"Святитель Нирса Сциагарцадатский (Персидский), епископ, сщмч.\">Нирсы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1654_3832.html\" target=\"_blank\" >икона</a>) еп. и <a  href=\"http://days.pravoslavie.ru/name/1057.html\" target=\"_blank\" title=\"Иосиф Персидский, мч.\">Иосифа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1057_3831.html\" target=\"_blank\" >икона</a>), ученика его, <a  href=\"http://days.pravoslavie.ru/name/961.html\" target=\"_blank\" title=\"Иоанн Бет-Селевкийский (Персидский), сщмч.\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii961_3831.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1909.html\" target=\"_blank\" title=\"Святитель Саверий Бет-Селевкийский (Персидский), епископ, сщмч.\">Саверия</a>, <a  href=\"http://days.pravoslavie.ru/name/1104.html\" target=\"_blank\" title=\"Святитель Исаакий (Исакий) Персидский, епископ, сщмч.\">Исакия</a> и <a  href=\"http://days.pravoslavie.ru/name/1070.html\" target=\"_blank\" title=\"Святитель Ипатий Персидский, епископ, сщмч.\">Ипатия</a>, епископов Персидских; мч. <a  href=\"http://days.pravoslavie.ru/name/83.html\" target=\"_blank\" title=\"Азат Гадиабский (Персидский), мч.\">Азата</a> скопца, <a  href=\"http://days.pravoslavie.ru/name/1925.html\" target=\"_blank\" title=\"Сасоний Гузитский (Персидский), мч.\">Сасония</a>, <a  href=\"http://days.pravoslavie.ru/name/2700.html\" target=\"_blank\" title=\"Фекла Персидская, дева, мц.\">Феклы</a>, <a  href=\"http://days.pravoslavie.ru/name/2399.html\" target=\"_blank\" title=\"Анна Селевкийская (Персидская), мц.\">Анны</a>  и иных многих мужей и жен, в Персиде пострадавших. Прп. <a  href=\"http://days.pravoslavie.ru/name/575.html\" target=\"_blank\" title=\"Дамиан (в схиме Диодор) Юрьегорский, Каргопольский, прп.\">Дамиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii575_3569.html\" target=\"_blank\" >икона</a>) (в схиме Диодора) Юрьегорского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9273.html\" target=\"_blank\" title=\"Алексий (Никатов), протоиерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/9261.html\" target=\"_blank\" title=\"Александр (Сахаров), протоиерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9296.html\" target=\"_blank\" title=\"Владимир (Медведюк), протоиерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/13050.html\" target=\"_blank\" title=\"Иоанн (Заболотный), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13857.html\" target=\"_blank\" title=\"Алексий (Аманов), протоиерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/13858.html\" target=\"_blank\" title=\"Василий (Канделябров), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/13863.html\" target=\"_blank\" title=\"Николай (Покровский), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/13860.html\" target=\"_blank\" title=\"Иоанн (Сарв), протоиерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13859.html\" target=\"_blank\" title=\"Емилиан (Панасевич), иерей, сщмч.\">Емилиана</a>, <a  href=\"http://days.pravoslavie.ru/name/13862.html\" target=\"_blank\" title=\"Николай (Зеленов), иерей, сщмч.\">Николая</a> пресвитеров, и прмчч. <a  href=\"http://days.pravoslavie.ru/name/13864.html\" target=\"_blank\" title=\"Арсений (Дмитриев), игумен, прмч.\">Арсения</a>, <a  href=\"http://days.pravoslavie.ru/name/9189.html\" target=\"_blank\" title=\"Евтихий (Качур), игумен, прмч.\">Евтихия</a> и <a  href=\"http://days.pravoslavie.ru/name/9212.html\" target=\"_blank\" title=\"Иларион (Писарец), иеромонах, сщмч.\">Илариона</a>, прмц. <a  href=\"http://days.pravoslavie.ru/name/13861.html\" target=\"_blank\" title=\"Иоанникия (Кожевникова), игумения, прмц.\">Иоанникии</a> игумении. Прмц. <a  href=\"http://days.pravoslavie.ru/name/9925.html\" target=\"_blank\" title=\"Татиана (Фомичева), послушница, прмц.\">Татианы</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-tim_3_1_13.html#z\">1 Тим., 283 зач., III, 1-13.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_16_1_9.html#z\">Лк., 80 зач., XVI, 1-9,</a> и за пятницу (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_1-tim_4_4_8_4_16_16.html#z\">1 Тим., 285 зач., IV, 4-8, 16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_16_15_18_17_1_4.html#z\">Лк., 82 зач., XVI, 15-18; XVII, 1-4.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18308.htm\" target=\"_blank\" title=\"Библия\">1 Тим. 3, 1-13</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18309.htm\" target=\"_blank\" title=\"Библия\">Лк. 16, 1-9</a>). Притча о неправедном приставнике обличенном. Вишь как ухитрился он выпутаться из беды! Хоть бы всем нам так ухитриться устраивать себе покойное житие по исходе из этой жизни! Но нет, \"сыны века сего догадливее сынов света в своем роде\". Отчего приставник так всхлопотался? Оттого, что близка была беда. Близость беды возбудила энергию и сообразительность, и он скоро все уладил. А у нас будто не близка беда? Смерть может постигнуть каждую минуту, а за нею тотчас и \"дай ответ в управлении твоем\". Все это знают, и, однако же, почти никто ни с места. Что это за омрачение? То, что никто не думает сейчас умереть, а полагает, что проживет день - другой; хоть и не определяет срока, а все уверен, что смерть еще впереди. Оттого и беда видится все еще впереди. Беда впереди - и соображения на случай беды отлагаются на будущее время. Целую жизнь оставаться в неисправности никто не думает, а только отлагает на нынешний день. А так как и вся жизнь слагается из нынешних дней и часов, то и не приходит озабоченность, как устроиться на будущее.<br>(<a  href=\"https://days.pravoslavie.ru/Bible/C18310.htm\" target=\"_blank\" title=\"Библия\">1 Тим. 4, 4-8, 16</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18311.htm\" target=\"_blank\" title=\"Библия\">Лк. 16, 15-18; 17, 1-4</a>). \"Невозможно не придти соблазнам, но горе тому, через кого они приходят\"! стало быть, жить с плеча, нараспашку нельзя. Надо осторожно осматриваться, как бы не соблазнить кого. Разум кичит и ни на кого не смотрит; а между тем возбуждает кругом соблазны делом, а более словом. Соблазн растет и увеличивает беду самого соблазнителя, а он того не чует и еще больше расширяется в соблазнах. Благо, что угроза Божия за соблазн здесь, на земле, почти не исполняется в чаянии исправления; это отложено до будущего суда и воздаяния; тогда только почувствуют соблазнители, сколь великое зло соблазн. Здесь же никто почти и не думает о том, соблазнит ли или не соблазнит он своими делами и речами окружающих. Два греха, в очах Божиих очень великие, ни во что вменяются людьми: это - соблазн и осуждение. Соблазнителю, по слову Господа, лучше не жить; осуждающий уже осужден. Но ни тот, ни другой не помышляют об этом и даже сказать не могут, грешны ли они в чем либо подобном. Какое, в самом деле, ослепление окружает нас и как беспечно ходим мы посреди смерти!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

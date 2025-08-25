@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("8 февраля 2020 г. ( 26 января ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 34-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Перенесение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/978.html\" target=\"_blank\" title=\"Святитель Иоанн Златоуст\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii978_8.html\" target=\"_blank\" >икона</a>) Златоуста. Прпп. <a  href=\"http://days.pravoslavie.ru/name/1312.html\" target=\"_blank\" title=\"Ксенофонт Константинопольский, Палестинский, прп.\">Ксенофонта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1312_905.html\" target=\"_blank\" >икона</a>), супруги его <a  href=\"http://days.pravoslavie.ru/name/2596.html\" target=\"_blank\" title=\"Мария Константинопольская, Палестинская, прп.\">Марии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2596_905.html\" target=\"_blank\" >икона</a>) и сыновей их <a  href=\"http://days.pravoslavie.ru/name/259.html\" target=\"_blank\" title=\"Аркадий Константинопольский, Палестинский, прп.\">Аркадия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii259_905.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/981.html\" target=\"_blank\" title=\"Иоанн Константинопольский, Палестинский, прп.\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii981_905.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/160.html\" target=\"_blank\" title=\"Анания Финикийский, пресвитер, сщмч.\">Анании</a> (<a  href=\"http://days.pravoslavie.ru/images/ii160_3984.html\" target=\"_blank\" >икона</a>) пресвитера, <a  href=\"http://days.pravoslavie.ru/name/1788.html\" target=\"_blank\" title=\"Петр Финикийский, мч.\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1788_3984.html\" target=\"_blank\" >икона</a>), темничного стража, и с ними семи воинов. Прп. <a  href=\"http://days.pravoslavie.ru/name/2000.html\" target=\"_blank\" title=\"Симеон Ветхий, Сирийский, игумен\">Симеона</a> Ветхого. Свт. <a  href=\"http://days.pravoslavie.ru/name/1063.html\" target=\"_blank\" title=\"Святитель Иосиф Солунский (Фессалоникийский), архиепископ, песнописец, исповедник\">Иосифа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1063_4382.html\" target=\"_blank\" >икона</a>) Студита, архиеп. Солунского. Перенесение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/2202.html\" target=\"_blank\" title=\"Преподобный Феодор Студит\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2202_2085.html\" target=\"_blank\" >икона</a>), игумена Студийского. Блгв. <a  href=\"http://days.pravoslavie.ru/name/556.html\" target=\"_blank\" title=\"Давид III Возобновитель, царь Иверии и Абхазии\">Давида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii556_1750.html\" target=\"_blank\" >икона</a>) III Возобновителя, царя Иверии и Абхазии (Груз.). Прп. <a  href=\"http://days.pravoslavie.ru/name/1313.html\" target=\"_blank\" title=\"Ксенофонт Робейский, игумен\">Ксенофонта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1313_3260.html\" target=\"_blank\" >икона</a>) Робейского. Мч. <a  href=\"http://days.pravoslavie.ru/name/12289.html\" target=\"_blank\" title=\"Иоанн (Попов), иерей, мч.\">Иоанна</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9.</a> Лит. - Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_2-tim_2_11_19.html#z\">2 Тим., 293 зач., II, 11-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_18_2_8.html#z\">Лк., 88 зач., XVIII, 2-8.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18425.htm\" target=\"_blank\" title=\"Библия\">2 Тим. 2, 11-19</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18426.htm\" target=\"_blank\" title=\"Библия\">Лк. 18, 2-8</a>). Чтобы сделать более впечатленною ту истину, \"что должно всегда молиться и не унывать\", если не скоро услышится молитва, но все продолжать молиться, Господь сказал притчу, как судья, Бога не боявшийся и людей не стыдившийся, удовлетворил наконец прошение вдовицы, не потому, чтоб Бога убоялся и людей постыдился, а потому одному, что вдова та не давала ему покоя. Так если такой человек загрубелый не устоял против неотступности прошения, Бог ли человеколюбивый и многомилостивый не исполнит прошения, неотступно со слезами и сокрушением к Нему возносимого?! И вот ответ на то, почему молитвы наши часто не слышатся. Потому что воссылаем прошения наши к Богу не усердно, будто мимоходом, и притом так, что помолившись однажды ныне, завтра ждем исполнения своей молитвы, не думая попотеть и переутрудить себя в молитве. Вот и не слышится и не исполняется молитва наша, потому что сами не исполняем, как следует, положенного для молитвы закона уповательной и усердной неотступности.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

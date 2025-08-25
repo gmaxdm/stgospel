@@ -1,0 +1,79 @@
+{% extends 'wrapper.html' %}
+{% load common format %}
+{% block main %}
+<script>
+    $(function() {
+        $("#bf-sw").click(function(e) {
+            e.preventDefault();
+            $("#sp-bf-sw").text(function(i, text) {
+                return text === "включить" ? "выключить" : "включить";
+            });
+            $("#l-content").toggleClass("display-4-1");
+            $("h3, h4, h5, h6").toggleClass("display-3-1");
+        });
+    });
+</script>
+<p class="text-right d-print-none">
+    <i class="fas fa-font"></i> <a href="#" id="bf-sw"><span id="sp-bf-sw">включить</span> крупный шрифт</a>
+</p>
+<div id="l-content">
+    {% if can_join %}
+    <form action="{% url 'add-to-group' %}" method="POST">{% csrf_token %}
+        <input type="hidden" name="id" value="{{ group.id }}">
+        <div class="my-4 p-4 alert alert-info" role="alert">
+            <div class="lead">Добавить это чтение к вашим чтениям?</div>
+            <div class="text-muted"><small>Это позволит быстро открывать его через ваше меню, вносить необходимые изменения в списки, скачивать офлайн версию в формате электронной книги и многое другое.</small></div>
+            <div class="text-muted"><small>Вы можете убрать его из своих чтений в любое время.</small></div>
+            <div class="px-2 text-right"><button type="submit" class="btn btn-primary btn-sm">Да</button></div>
+        </div>
+    </form>
+    {% endif %}
+    <h1 class="text-center">{{ name }}</h1>
+    <p class="text-center"><a href="{{ queueurl }}">Последовательность чтения</a></p>
+    <p class="text-right">чтение на <strong>{{ date }}</strong></p>
+    {% if reading %}
+    <div>
+        {% for pg in data.prays %}
+            {% if pg.start %}
+            <h4>{{ pg.pray.title }}</h4>
+            <p class="lead">{{ pg.pray.text|markup }}</p>
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% if group.settings.listorder == "B" %}
+        {% include 'reading/group_lo_between.html' %}
+    {% else %}
+        {% include 'reading/group_lo_after.html' %}
+    {% endif %}
+    <div>
+        {% for pg in data.prays %}
+            {% if pg.end %}
+            <h4>{{ pg.pray.title }}</h4>
+            <p class="lead">{{ pg.pray.text|markup }}</p>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <div class="container">
+        <div class="row justify-content-{% if prevdate and nextdate %}between{% elif prevdate %}start{% else %}end{% endif %}">
+            {% if prevdate %}
+            <div class="col-6 text-left">
+                чтение на <a href="{{ prevurl }}">вчера</a><br>
+                <small class="text-muted">({{ prevdate }})</small>
+            </div>
+            {% endif %}
+            {% if nextdate %}
+            <div class="col-6 text-right">
+                чтение на <a href="{{ nexturl }}">завтра</a><br>
+                <small class="text-muted">({{ nextdate }})</small>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% else %}
+    <div class="alert alert-primary text-center" role="alert">
+        <div>На эту дату чтения в этой группе нет</div>
+        <div><span>Чтение {% if group.settings.is_break_date %}приостановлено до <strong>{{ group.settings.bdate|calendar }}</strong>{% else %}{% if group.is_finished %}завершено{% else %}начнется {{ group.settings.start }}{% endif %}{% endif %}</span></div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

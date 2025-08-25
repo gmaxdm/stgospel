@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("5 апреля 2020 г. ( 23 марта ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 5-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/2593.html\" target=\"_blank\" title=\"Преподобная Мария Египетская\">Марии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2593_64.html\" target=\"_blank\" >икона</a>) Египетской. Прмч. <a  href=\"http://days.pravoslavie.ru/name/1645.html\" target=\"_blank\" title=\"Святитель Никон Сицилийский, епископ, сщмч.\">Никона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1645_4143.html\" target=\"_blank\" >икона</a>) еп. и 199-ти учеников его. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2297.html\" target=\"_blank\" title=\"Филит Иллирийский, сенатор, мч.\">Филита</a>, <a  href=\"http://days.pravoslavie.ru/name/2571.html\" target=\"_blank\" title=\"Лидия Иллирийская, мц.\">Лидии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2571_2212.html\" target=\"_blank\" >икона</a>), супруги его, <a  href=\"http://days.pravoslavie.ru/name/1416.html\" target=\"_blank\" title=\"Македон Иллирийский, мч.\">Македона</a>, <a  href=\"http://days.pravoslavie.ru/name/2245.html\" target=\"_blank\" title=\"Феопрепий (Боголеп) Иллирийский, мч.\">Феопрепия</a>, <a  href=\"http://days.pravoslavie.ru/name/1308.html\" target=\"_blank\" title=\"Кронид Иллирийский, мч.\">Кронида</a> и <a  href=\"http://days.pravoslavie.ru/name/154.html\" target=\"_blank\" title=\"Амфилохий Иллирийский, мч.\">Амфилохия</a>, чад их. Прп. <a  href=\"http://days.pravoslavie.ru/name/1643.html\" target=\"_blank\" title=\"Преподобный Никон, игумен Киево-Печерский\">Никона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1643_3207.html\" target=\"_blank\" >икона</a>), игумена Киево-Печерского. Мч. <a  href=\"http://days.pravoslavie.ru/name/378.html\" target=\"_blank\" title=\"Праведный Василий Мангазейский\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii378_3206.html\" target=\"_blank\" >икона</a>) Мангазейского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9349.html\" target=\"_blank\" title=\"Макарий (Квиткин), протоиерей, сщмч.\">Макария</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/10804.html\" target=\"_blank\" title=\"Василий (Коклин), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9803.html\" target=\"_blank\" title=\"Стефан (Преображенский), иерей, сщмч.\">Стефана</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/13707.html\" target=\"_blank\" title=\"Илия (Вятлин), иеромонах, прмч.\">Илии</a>, прмц. <a  href=\"http://days.pravoslavie.ru/name/10806.html\" target=\"_blank\" title=\"Анастасия, прмц.\">Анастасии</a>, <a  href=\"http://days.pravoslavie.ru/name/14416.html\" target=\"_blank\" title=\"Варвара (Конкина), прмц.\">Варвары</a>, мч. <a  href=\"http://days.pravoslavie.ru/name/9937.html\" target=\"_blank\" title=\"Алексий (Скоробогатов), мч.\">Алексия</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/9182.html\" target=\"_blank\" title=\"Сергий (Сребрянский), архимандрит, исп.\">Сергия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9182_2026.html\" target=\"_blank\" >икона</a>) исповедника. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 9-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_20_19_31.html#z\">Ин., 65 зач., XX, 19-31.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_evr_9_11_14.html#z\">Евр., 321 зач. (от&nbsp;полу&#769;), IX, 11-14.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_10_32_45.html#z\">Мк., 47 зач., X, 32-45.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_3_23_29.html#z\">Гал., 208 зач., III, 23-29.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_36_50.html#z\">Лк., 33 зач., VII, 36-50.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17800.htm\" target=\"_blank\" title=\"Библия\">Ев. 9, 11-14</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17801.htm\" target=\"_blank\" title=\"Библия\">Мк. 10, 32-45</a>). Грешница, услышав, что Спаситель в доме Симона, пришла туда с алавастром мира и, ставши при ногах Господа сзади, начала плакать и умыла слезами своими ноги Его, потом отерла их своими волосами, облобызала и помазала миром (<a  href=\"https://days.pravoslavie.ru/Bible/C17802.htm\" target=\"_blank\" title=\"Библия\">Лк. 7, 36-39</a>). Она ничего не говорит, а только действует и своими действиями показывает самую нежную любовь к Господу. За то и сказано было о ней: \"прощаются грехи ее многие за то, что она возлюбила много\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17803.htm\" target=\"_blank\" title=\"Библия\">Лк. 7, 47</a>). О, когда бы и нам меньше говорить, а больше действовать, и действиями своими свидетельствовать любовь ко Господу! Скажешь: \"Когда бы Он Сам тут был, так сейчас бы готов все сделать для Него\". Да Он и есть тут, невидимо Своим лицом, а видимо во всех христианах, а наиболее в нуждающихся. Невидимого Господа намащай любительною сердечно - умною молитвою, а для видимого - делай все возможное для нуждающихся, и будешь делать для Бога.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

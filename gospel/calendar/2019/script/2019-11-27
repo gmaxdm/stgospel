@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("27 ноября 2020 г. ( 14 ноября ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 25-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апостола <a  href=\"http://days.pravoslavie.ru/name/2291.html\" target=\"_blank\" title=\"Филипп, апостол из 12-ти\">Филиппа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2291_1239.html\" target=\"_blank\" >икона</a>). Правоверного  царя <a  href=\"http://days.pravoslavie.ru/name/1153.html\" target=\"_blank\" title=\"Иустиниан I Управда, император Византийский\">Иустиниана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1153_479.html\" target=\"_blank\" >икона</a>) и царицы <a  href=\"http://days.pravoslavie.ru/name/2707.html\" target=\"_blank\" title=\"Феодора Греческая, царица\">Феодоры</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2707_478.html\" target=\"_blank\" >икона</a>). Свт. <a  href=\"http://days.pravoslavie.ru/name/543.html\" target=\"_blank\" title=\"Святитель Григорий Палама\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii543_33.html\" target=\"_blank\" >икона</a>) Паламы, архиеп. Фессалонитского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2293.html\" target=\"_blank\" title=\"Филипп Ирапский, Череповецкий, прп.\">Филиппа</a> Ирапского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9308.html\" target=\"_blank\" title=\"Димитрий (Беневоленский), протоиерей, сщмч.\">Димитрия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9308_1759.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/9421.html\" target=\"_blank\" title=\"Александр (Быков), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9515.html\" target=\"_blank\" title=\"Виктор (Ильинский), иерей, сщмч.\">Виктора</a>, <a  href=\"http://days.pravoslavie.ru/name/9274.html\" target=\"_blank\" title=\"Алексий (Никологорский), протоиерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/9678.html\" target=\"_blank\" title=\"Михаил (Белюстин), иерей, сщмч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/9691.html\" target=\"_blank\" title=\"Михаил (Некрасов), иерей, сщмч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/9812.html\" target=\"_blank\" title=\"Феодор (Баккалинский), иерей, сщмч.\">Феодора</a>, <a  href=\"http://days.pravoslavie.ru/name/9779.html\" target=\"_blank\" title=\"Петр (Титов), иерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/9465.html\" target=\"_blank\" title=\"Алексий (Нечаев), иерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/9396.html\" target=\"_blank\" title=\"Сергий (Знаменский), протоиерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/9368.html\" target=\"_blank\" title=\"Николай (Виноградов), протоиерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9498.html\" target=\"_blank\" title=\"Василий (Лихарев), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9456.html\" target=\"_blank\" title=\"Александр (Чекалов), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9706.html\" target=\"_blank\" title=\"Николай (Дунаев), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9312.html\" target=\"_blank\" title=\"Димитрий (Лебедев), протоиерей, сщмч.\">Димитрия</a> , <a  href=\"http://days.pravoslavie.ru/name/13599.html\" target=\"_blank\" title=\"Димитрий (Рудаков), иерей, сщмч.\">Димитрия</a>, <a  href=\"http://days.pravoslavie.ru/name/9781.html\" target=\"_blank\" title=\"Порфирий (Колосовский), иерей, сщмч.\">Порфирия</a>, <a  href=\"http://days.pravoslavie.ru/name/13851.html\" target=\"_blank\" title=\"Василий (Розанов), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/14349.html\" target=\"_blank\" title=\"Георгий (Извеков), протоиерей, сщмч.\">Георгия</a>, <a  href=\"http://days.pravoslavie.ru/name/14348.html\" target=\"_blank\" title=\"Василий (Никольский), протоиерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/14350.html\" target=\"_blank\" title=\"Сергий (Руфицкий), протоиерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/14485.html\" target=\"_blank\" title=\"Александр, протоиерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/14525.html\" target=\"_blank\" title=\"Сергий (Спасский), иерей, сщмч.\">Сергия</a> пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/9857.html\" target=\"_blank\" title=\"Николай (Богородский), диакон, сщмч.\">Николая</a> диакона, прмч. <a  href=\"http://days.pravoslavie.ru/name/9198.html\" target=\"_blank\" title=\"Аристарх (Заглодин-Кокорев), иеромонах, сщмч.\">Аристарха</a>, мч. <a  href=\"http://days.pravoslavie.ru/name/9959.html\" target=\"_blank\" title=\"Гавриил (Безфамильный), мч.\">Гавриила</a> и мц. <a  href=\"http://days.pravoslavie.ru/name/10052.html\" target=\"_blank\" title=\"Анна (Зерцалова), мц.\">Анны</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13852.html\" target=\"_blank\" title=\"Феодор (Грудаков), иерей, сщмч.\">Феодора</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13853.html\" target=\"_blank\" title=\"Сергий (Константинов), протоиерей, сщмч.\">Сергия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_2-sol_3_6_18.html#z\">2 Сол., 277 зач., III, 6-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_13_31_35.html#z\">Лк., 73 зач., XIII, 31-35.</a> Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_4_9_16.html#z\">1 Кор., 131 зач., IV, 9-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_1_43_51.html#z\">Ин., 5 зач., I, 43-51.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18295.htm\" target=\"_blank\" title=\"Библия\">2 Фес. 3, 6-18</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18296.htm\" target=\"_blank\" title=\"Библия\">Лк. 13, 31-35</a>). \"Се оставляется дом ваш пуст\", сказал Господь об Иерусалиме. Значит, есть мера долготерпению Божию. Милосердие Божие вечно бы готово терпеть, ожидая добра; но что делать, когда мы доходим до такого расстройства, что не к чему и рук приложить? Потому и бросают нас. Так будет и в вечности. Все говорят: милосердие Божие не попустит вечного отвержения. Да оно и не хочет того; но что делать с теми, которые преисполнены зла, а исправиться не хотят? Они сами себя ставят за пределами милости Божией и оставляются там потому, что не хотят выйти оттуда. Спириты придумали множество рождений, как средство к перечищению грешников. Но осквернившийся грехами в одно рождение может таким же явиться и в десяти других, а затем и без конца. Как есть прогресс в добре, так есть прогресс и в зле. Мы видим на земле ожесточенных во зле; такими же могут они остаться и вне земли, а потом и навсегда. Когда придет всему конец, а ему придти неизбежно, куда девать этих ожесточившихся во зле? Уж, конечно, куда-нибудь вне области светлой, определенной для потрудившихся над собою в очищении своих нечистот. Вот и ад! Не исправившиеся при лучших обстоятельствах исправятся ли при худших? А если же нет, то вот и вечный ад! Не Бог виновник ада и вечных в нем мучений, а сами грешники. Не будь нераскаянных грешников, и ада не будет. Господь очень желает, чтоб не было грешников, затем и на землю приходил. Если Он желает безгрешности, то, значит, желает и того, чтоб никто не попал в вечные муки. Все дело за нами. Давайте же сговоримся и уничтожим ад безгрешностью. Господь будет рад тому; Он и открыл об аде для того, чтоб всякий поостерегся попасть туда.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>https://st-gospel.ru/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>hourly</changefreq>
+      <priority>1</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/about/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/bible/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/volume/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/volume/1/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/prayers/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://st-gospel.ru/easter/hours/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/communion/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/thanks/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/morning/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/evening/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/kanon/ave-maria/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/holidays/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/psalter/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/psalter/begin/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    {% for u in kathisma %}
+    <url>
+      <loc>https://st-gospel.ru/psalter/kathisma/{{ u }}/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    {% endfor %}
+    <url>
+      <loc>https://st-gospel.ru/psalter/end/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/troparion/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://st-gospel.ru/forum/</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    {% for u in urls %}
+    <url>
+      <loc>https://st-gospel.ru{{ u }}</loc>
+      <lastmod>{{ date }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    {% endfor %}
+</urlset>

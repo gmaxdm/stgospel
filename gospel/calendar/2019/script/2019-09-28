@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("28 сентября 2020 г. ( 15 сентября ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 17-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Попразднство Воздвижения Креста Господня. Вмч. <a  href=\"http://days.pravoslavie.ru/name/1613.html\" target=\"_blank\" title=\"Никита Готфский, Константинопольский, вмч.\">Никиты</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1613_1081.html\" target=\"_blank\" >икона</a>). Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/88.html\" target=\"_blank\" title=\"Святитель Акакий Мелитинский, епископ, исповедник\">Акакия</a> исповедника, еп. Мелитинского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1429.html\" target=\"_blank\" title=\"Максим Маркианопольский (Мизийский), мч.\">Максима</a>, <a  href=\"http://days.pravoslavie.ru/name/2220.html\" target=\"_blank\" title=\"Феодот Маркианопольский (Мизийский), мч.\">Феодота</a>, <a  href=\"http://days.pravoslavie.ru/name/2416.html\" target=\"_blank\" title=\"Асклиада (Асклипиодота) Маркианопольская (Мизийская), мц.\">Асклиады</a> (Асклипиодоты). Мч. <a  href=\"http://days.pravoslavie.ru/name/1826.html\" target=\"_blank\" title=\"Порфирий Ефесский, мч.\">Порфирия</a>. Обретение мощей первомч. архидиакона <a  href=\"http://days.pravoslavie.ru/name/2051.html\" target=\"_blank\" title=\"Первомученик и архидиакон Стефан\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2051_373.html\" target=\"_blank\" >икона</a>). Свт. <a  href=\"http://days.pravoslavie.ru/name/1050.html\" target=\"_blank\" title=\"Святитель Иосиф Алавердский, епископ\">Иосифа</a>, еп. Алавердского (Груз.). Прп. <a  href=\"http://days.pravoslavie.ru/name/2303.html\" target=\"_blank\" title=\"Филофей Мравинский (Вифинский), пресвитер\">Филофея</a> пресвитера, в Малой Азии. Свт. <a  href=\"http://days.pravoslavie.ru/name/14535.html\" target=\"_blank\" title=\"Святитель Симеон, архиепископ Солунский\">Симеона</a>, архиеп. Солунского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14321.html\" target=\"_blank\" title=\"Иоанн (Ильинский), протоиерей, сщмч.\">Иоанна</a> пресвитера. Прмц. <a  href=\"http://days.pravoslavie.ru/name/9892.html\" target=\"_blank\" title=\"Евдокия (Ткаченко), инокиня, прмц.\">Евдокии</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13788.html\" target=\"_blank\" title=\"Андрей (Ковалев), иерей, сщмч.\">Андрея</a>, <a  href=\"http://days.pravoslavie.ru/name/13790.html\" target=\"_blank\" title=\"Григорий (Троицкий), иерей, сщмч.\">Григория</a>, <a  href=\"http://days.pravoslavie.ru/name/13789.html\" target=\"_blank\" title=\"Григорий (Конокотин), иерей, сщмч.\">Григория</a>, <a  href=\"http://days.pravoslavie.ru/name/13791.html\" target=\"_blank\" title=\"Иоанн (Яковлев), иерей, сщмч.\">Иоанна</a> пресвитеров. Прп. <a  href=\"http://days.pravoslavie.ru/name/9171.html\" target=\"_blank\" title=\"Игнатий (Бирюков), архимандрит, сщмч.\">Игнатия</a> исп. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9309.html\" target=\"_blank\" title=\"Димитрий (Игнатенко), протоиерей, сщмч.\">Димитрия</a> пресвитера. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9324.html\" target=\"_blank\" title=\"Иоанн (Бороздин), протоиерей, сщмч.\">Иоанна</a> и <a  href=\"http://days.pravoslavie.ru/name/9583.html\" target=\"_blank\" title=\"Иаков (Леонович), иерей, сщмч.\">Иакова</a>, <a  href=\"http://days.pravoslavie.ru/name/13792.html\" target=\"_blank\" title=\"Петр (Петриков), иерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/14322.html\" target=\"_blank\" title=\"Николай (Скворцов), протоиерей, сщмч.\">Николая</a> пресвитеров и <a  href=\"http://days.pravoslavie.ru/name/9837.html\" target=\"_blank\" title=\"Николай (Цветков), протодиакон, сщмч.\">Николая</a> диакона, прмц. <a  href=\"http://days.pravoslavie.ru/name/9900.html\" target=\"_blank\" title=\"Мария (Рыкова), инокиня, прмц.\">Марии</a> и мц. <a  href=\"http://days.pravoslavie.ru/name/10080.html\" target=\"_blank\" title=\"Людмила (Петрова), мц.\">Людмилы</a>. <a  href=\"http://days.pravoslavie.ru/name/2922.html\" target=\"_blank\" title=\"Новоникитская\">Новоникитской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2922_2440.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_ef_1_22_0_2_0_3.html#z\">Еф., 219 зач., I, 22 - II, 3.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_10_46_52.html#z\">Мк., 48 зач., X, 46-52.</a> Вмч.: <a href=\"http://days.pravoslavie.ru/bible/z_2-tim_2_1_10.html#z\">2 Тим., 292 зач., II, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18167.htm\" target=\"_blank\" title=\"Библия\">Мк. 10, 46-52</a>). Слепец Иерихонский, узнав, что Господь мимо идет, возвысил голос свой. Вопль его дошел до Господа; ничто окружающее Господа не могло помешать сему слышанию, и Господь, подозвав слепца, возвратил ему зрение. И во всякое время и во всяком месте Господь не мимоходит только, но есть; Он всем миром правит. Судя по человечески, значит, у Него много забот; притом и сонмы ангелов окружают Его с своими славословиями. Но если ты сумеешь возвысить голос свой, подобно Иерихонскому слепцу, ничто не помешает воплю твоему дойти до Господа; Он услышит и исполнит прошение твое. Дело не за Господом; и Сам Он близ, и все тебе нужное уже готово у Него; остановка за тобою. Сумей возвысить голос в меру услышания Господня и тотчас все получишь. Какая же это мера? Вера, упование, преданность в волю Божию. Но и эти меры имеют свои меры. Какие же должны быть эти меры? Спроси у того, кто молился и получал просимое; он скажет тебе: \"молился я о том-то и о том-то получил по прошению; теперь мне нужно то-то, молюсь и не получаю, и знаю почему: потому что никак не могу взойти в ту меру молитвы, какая была у меня прежде\". Выходит, что меру эту нельзя определить с буквальною точностью. Одно только определенно верно, что дело стоит за нами. а не за Господом. Как только дойдешь до способности принять, непременно получишь.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

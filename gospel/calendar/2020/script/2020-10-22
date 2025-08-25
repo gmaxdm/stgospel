@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("22 октября 2020 г. ( 9 октября ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 20-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Ап. <a  href=\"http://days.pravoslavie.ru/name/867.html\" target=\"_blank\" title=\"Апостол Иаков Алфеев\">Иакова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii867_576.html\" target=\"_blank\" >икона</a>) Алфеева. Прпп. <a  href=\"http://days.pravoslavie.ru/name/193.html\" target=\"_blank\" title=\"Андроник Антиохийский, Египетский, прп.\">Андроника</a> (<a  href=\"http://days.pravoslavie.ru/images/ii193_4534.html\" target=\"_blank\" >икона</a>) и супруги его <a  href=\"http://days.pravoslavie.ru/name/2421.html\" target=\"_blank\" title=\"Афанасия Тавенская, прп.\">Афанасии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2421_2144.html\" target=\"_blank\" >икона</a>). Прав. <a  href=\"http://days.pravoslavie.ru/name/30.html\" target=\"_blank\" title=\"Авраам\">Авраама</a> (<a  href=\"http://days.pravoslavie.ru/images/ii30_199.html\" target=\"_blank\" >икона</a>) праотца и племянника его <a  href=\"http://days.pravoslavie.ru/name/1370.html\" target=\"_blank\" title=\"Лот\">Лота</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1131.html\" target=\"_blank\" title=\"Мученик Иувентин Антиохийский\">Еввентия</a> (Иувентина) и <a  href=\"http://days.pravoslavie.ru/name/1422.html\" target=\"_blank\" title=\"Мученик Максим Антиохийский\">Максима</a> воинов. Св. <a  href=\"http://days.pravoslavie.ru/name/2649.html\" target=\"_blank\" title=\"Поплия Антиохийская, диакониса, исповедница\">Поплии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2649_3755.html\" target=\"_blank\" >икона</a>) исповедницы, диакониссы Антиохийской. Прп. <a  href=\"http://days.pravoslavie.ru/name/1773.html\" target=\"_blank\" title=\"Петр Галатийский, Константинопольский, прп.\">Петра</a> Галатийского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13824.html\" target=\"_blank\" title=\"Константин (Сухов), иерей, сщмч.\">Константина</a> и <a  href=\"http://days.pravoslavie.ru/name/9758.html\" target=\"_blank\" title=\"Петр (Вяткин), иерей, сщмч.\">Петра</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9656.html\" target=\"_blank\" title=\"Константин (Аксёнов), иерей, сщмч.\">Константина</a> пресвитера. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/9163.html\" target=\"_blank\" title=\"Севастиан (Фомин) Карагандинский, схиархимандрит, исп.\">Севастиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9163_3094.html\" target=\"_blank\" >икона</a>) Карагандинского исп. <a  href=\"http://days.pravoslavie.ru/name/2885.html\" target=\"_blank\" title=\"Корсунская\">Корсунской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2885_2411.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_flp_3_1_8.html#z\">Флп., 244 зач., III, 1-8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_17_30.html#z\">Лк., 31 зач., VII, 17-30.</a> Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_4_9_16.html#z\">1 Кор., 131 зач., IV, 9-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_16_21.html#z\">Лк., 51 зач., X, 16-21.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18217.htm\" target=\"_blank\" title=\"Библия\">Лк. 7, 17-30</a>). Св. Иоанн Предтеча посылает учеников своих спросить Господа: Он ли Тот, Который должен придти или другого ожидать надобно? Не для себя он так спрашивал, ибо знал точно кто Иисус Христос, будучи извещен об этом с неба, но для учеников. И ученики искали решения этого вопроса не из совопросничества, а из искреннего желания знать истину. Таковым нет нужды много говорить; Господь и не говорит, а только указывает на то, что было в ту пору Им совершено. Божественные дела свидетельствовали о божестве Его. Это было так очевидно, что вопрошавшие не стали уже больше вопрошать. Так и всегда. Сила Божия живет в Церкви; искренний искатель истины тотчас осязает се и удостоверяется в истине. Это опытное удостоверение полагает конец всем вопросам и совершенно успокаивает. Кто же не хочет верить, и, потеряв веру, начинает искать в Церкви и христианстве не основания веры, а поводов как бы оправдать свое неверие, тому никакие указания не кажутся удовлетворительными. Неверие же свое он считает основательным, хоть основания его мелочны и ничтожны. Того хочет его сердце, - потому все и сносно.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

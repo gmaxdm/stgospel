@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("24 февраля 2020 г. ( 11 февраля ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица cырная (масленица) - сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Из трапезы исключается мясо. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/435.html\" target=\"_blank\" title=\"Священномученик Власий, епископ Севастийский\">Власия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii435_45.html\" target=\"_blank\" >икона</a>), еп. Севастийского, и с ним двух отроков и 7 жен. Блгв. Кн. <a  href=\"http://days.pravoslavie.ru/name/438.html\" target=\"_blank\" title=\"Благоверный князь Всеволод Псковский\">Всеволода</a> (<a  href=\"http://days.pravoslavie.ru/images/ii438_460.html\" target=\"_blank\" >икона</a>), во св. Крещении Гавриила, Псковского. Прп. <a  href=\"http://days.pravoslavie.ru/name/600.html\" target=\"_blank\" title=\"Преподобный Димитрий Прилуцкий, Вологодский\">Димитрия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii600_1760.html\" target=\"_blank\" >икона</a>) Прилуцкого, Вологодского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14946.html\" target=\"_blank\" title=\"Кассиан Босой, Волоколамский, прп.\">Кассиана</a> Босого, Волоколамского. Прав. <a  href=\"http://days.pravoslavie.ru/name/2706.html\" target=\"_blank\" title=\"Феодора Греческая, царица\">Феодоры</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2706_3104.html\" target=\"_blank\" >икона</a>), царицы Греческой, восстановившей почитание святых икон. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_3-in_1_1_15.html#z\">3 Ин., 76 зач., I, 1-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_19_29_40_22_7_39.html#z\">Лк., 96 зач., XIX, 29-40; XXII, 7-39.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

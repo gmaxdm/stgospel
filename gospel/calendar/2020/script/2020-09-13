@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("13 сентября 2020 г. ( 31 августа ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 14-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6931.html\" target=\"_blank\" title=\"Положение честного пояса Пресвятой Богородицы\">Положение</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6931_3522.html\" target=\"_blank\" >икона</a>) честного Пояса Пресвятой Богородицы. Перенесение мощей блгвв. кн. <a  href=\"http://days.pravoslavie.ru/name/1781.html\" target=\"_blank\" title=\"Святой благоверный князь Петр Муромский\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1781_3494.html\" target=\"_blank\" >икона</a>), в иночестве Давида, и кн. <a  href=\"http://days.pravoslavie.ru/name/2696.html\" target=\"_blank\" title=\"Феврония (в иночестве Евфросиния) Муромская, княгиня\">Февронии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2696_3494.html\" target=\"_blank\" >икона</a>), в иночестве Евфросинии, Муромских чудотворцев. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1207.html\" target=\"_blank\" title=\"Святитель Киприан Карфагенский, епископ, сщмч.\">Киприана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1207_873.html\" target=\"_blank\" >икона</a>), еп. Карфагенского. Свт. <a  href=\"http://days.pravoslavie.ru/name/469.html\" target=\"_blank\" title=\"Святитель Геннадий Константинопольский, патриарх\">Геннадия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii469_3521.html\" target=\"_blank\" >икона</a>), Патриарха Константинопольского. <a  href=\"http://days.pravoslavie.ru/name/14706.html\" target=\"_blank\" title=\"Собор новомучеников Ясеновацких\">Собор</a> новомучеников Ясеновацких (Серб.). <a  href=\"http://days.pravoslavie.ru/name/14687.html\" target=\"_blank\" title=\"Собор Саратовских святых\">Собор</a> Саратовских святых <a  href=\"http://days.pravoslavie.ru/name/14477.html\" target=\"_blank\" title=\"Собор Нижегородских святых\">Собор</a> Нижегородских святых. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/14308.html\" target=\"_blank\" title=\"Александр (Любимов), иерей, сщмч.\">Александра</a> пресвитера и <a  href=\"http://days.pravoslavie.ru/name/14309.html\" target=\"_blank\" title=\"Владимир (Двинский), диакон, сщмч.\">Владимира</a> диакона. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9685.html\" target=\"_blank\" title=\"Михаил (Косухин), иерей, сщмч.\">Михаила</a> и <a  href=\"http://days.pravoslavie.ru/name/14423.html\" target=\"_blank\" title=\"Мирон (Ржепик), протоиерей, сщмч.\">Мирона</a>  пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13772.html\" target=\"_blank\" title=\"Димитрий (Смирнов), иерей, сщмч.\">Димитрия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - Ев. 3-е, <a href=\"http://days.pravoslavie.ru/bible/z_mk_16_9_20.html#z\">Мк., 71 зач., XVI, 9-20.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_1_21_0_2_0_4.html#z\">2 Кор., 170 зач., I, 21 - II, 4.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_22_1_14.html#z\">Мф., 89 зач., XXII, 1-14.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_evr_9_1_7.html#z\">Евр., 320 зач., IX, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается служба блгвв. кн. Петра и кн. Февронии, то на литургии - чтения дня и блгвв. кн. Петра и кн. Февронии: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18136.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 1, 21-2, 4</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18137.htm\" target=\"_blank\" title=\"Библия\">Мф. 22, 1-14</a>). Царь устраивает брачный пир для своего сына, посылает за званными однажды, посылает дважды, нейдут из-за житейских забот: тот занялся хозяйством, тот торговлею. Сделано новое приглашение в других сферах, и брачная палата наполнилась возлежащими. Между ними оказался один не одетый по брачному, и потому извержен. Смысл притчи ясен. Пир брачный - Царство Небесное; приглашение - проповедь Евангелия; отказавшиеся - совсем не уверовавшие; не одетый по брачному - уверовавший, но не живший по вере. К какому разряду кто из нас относится, сам всякий разбери. Что мы званные, это ясно, но верующие ли? Ведь можно быть и среди верующих, под общим их именем, без веры. Иной совсем не думает о вере, словно нет ее; иной кое-что ведает о ней и из нее и доволен; иной криво толкует веру; иной совсем враждебно относится к ней, а все числятся в кругу христиан, хоть у них ровно ничего нет христианского. Если ты веруешь, - разбери, сообразны ли с верою чувства твои, дела твои, - одеяние души, ради которых Бог видит тебя брачно или небрачно одетым. Можно знать веру хорошо и ревновать по ней, а в жизни работать страстям, одеваться, то есть, в срамную одежду души грехолюбивой. У таких на словах одно, а в сердце другое; на языке: \"Господи, Господи!\", а внутри: \"имей мя отреченна\". Рассуждайте же о себе, в вере ли вы и в брачной ли вы одежде добродетелей, или в срамных рубищах грехов и страстей.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("22 февраля 2020 г. ( 9 февраля ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица мясопустная. <a  href=\"http://days.pravoslavie.ru/name/3563.html\" target=\"_blank\" title=\"Суббота мясопустная\">Вселенская родительская (мясопустная) суббота</a>. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/1621.html\" target=\"_blank\" title=\"Мученик Никифор Антиохийский\">Никифора</a>, из Антиохии Сирской. Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/951.html\" target=\"_blank\" title=\"Святитель Иннокентий, епископ Иркутский\">Иннокентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii951_35.html\" target=\"_blank\" >икона</a>), еп. Иркутского. Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/2119.html\" target=\"_blank\" title=\"Святитель Тихон (Белавин), патриарх Московский и всея Руси\">Тихона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2119_26.html\" target=\"_blank\" >икона</a>), патриарха Московского и всея России. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/1484.html\" target=\"_blank\" title=\"Священномученик Маркиан, епископ Сиракузский\">Маркелла</a>, еп. Сикелийского, <a  href=\"http://days.pravoslavie.ru/name/2281.html\" target=\"_blank\" title=\"Святитель Филагрий Кипрский, епископ, сщмч.\">Филагрия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2281_4021.html\" target=\"_blank\" >икона</a>), еп. Кипрского, и <a  href=\"http://days.pravoslavie.ru/name/1725.html\" target=\"_blank\" title=\"Священномученик Панкратий, епископ Тавроменийский\">Панкратия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1725_1973.html\" target=\"_blank\" >икона</a>), еп. Тавроменийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1724.html\" target=\"_blank\" title=\"Панкратий Печерский, затворник\">Панкратия</a> Печерского, в Дальних пещерах. Прпп. <a  href=\"http://days.pravoslavie.ru/name/468.html\" target=\"_blank\" title=\"Преподобный Геннадий Важеозерский\">Геннадия</a> и <a  href=\"http://days.pravoslavie.ru/name/1622.html\" target=\"_blank\" title=\"Преподобный Никифор Важеозерский\">Никифора</a> Важеезерских. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9294.html\" target=\"_blank\" title=\"Василий (Измайлов), протоиерей, сщмч.\">Василия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13661.html\" target=\"_blank\" title=\"Иоанн (Фрязинов), иерей, сщмч.\">Иоанна</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-kor_10_23_28.html#z\">1 Кор., 146 зач., X, 23-28.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_8_9_21_25_27_21_33_36.html#z\">Лк., 105 зач., XXI, 8-9, 25-27, 33-36.</a> За упокой: <a href=\"http://days.pravoslavie.ru/bible/z_1-sol_4_13_17.html#z\">1 Сол., 270 зач., IV, 13-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_5_24_30.html#z\">Ин., 16 зач., V, 24-30.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18454.htm\" target=\"_blank\" title=\"Библия\">1 Фес. 4, 13-17</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18455.htm\" target=\"_blank\" title=\"Библия\">Ин. 5, 24-30</a>). Святая Церковь переводит ныне внимание наше за пределы настоящей жизни, к прешедшим отсюда отцам и братиям нашим, чая напоминанием о состоянии их, которого и нам не миновать, расположить нас к должному прохождению сырной седмицы и следующего за ней великого поста. Послушаем матери своей Церкви, и поминая отцов и братий наших, позаботимся себя приготовить к прехождению на тот свет. Приведем на память грехи свои и оплачем их, положив дальше чистыми себя блюсти от всякой скверны. Ибо в Царствие Божие не войдет ничто нечистое, и на суде никто из нечистых не оправдается. После же смерти не жди очищения. Каков перейдешь, таким и останешься. Здесь надо заготовить свое очищение. Поспешим же - ибо кто может предсказывать себе долголетие? Жизнь сей час же может пресечься. Как явиться на тот свет нечистыми? Какими глазами взглянем на отцов и братий наших, имеющих встретить нас? Что ответим на их вопросы: это что у тебя нехорошее? - а это что? И это что? Какой срам и стыд покроет нас?! Поспешим же исправить все неисправное, чтоб явиться на тот свет, хоть сколько-нибудь сносными и терпимыми.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

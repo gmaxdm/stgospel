@@ -1,0 +1,19 @@
+{% extends 'wrapper.html' %}
+{% block title %}Библия. Сборники{% endblock %}
+{% block main %}
+    <div class="">
+        <h1>Библия. Сборники</h1>
+        {% if object_list %}
+        <ul class="p-3">
+            {% for book in object_list %}
+            <li><a href="{% url 'volume' book.id %}">{{ book.title }}</a>
+                &nbsp;<small><a href="{% url 'volume-edit' book.id %}"><i class="far fa-edit"></i></a></small>
+                &nbsp;<small><a href="{% url 'volume-del' book.id %}"><i class="fas fa-times"></i></a></small>
+            </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p class="text-muted"><small>У вас пока нет сборников. Но вы можете создать его. <a href="{% url 'volume-create' %}">Создать сборник</a>.</small></p>
+        {% endif %}
+    </div>
+{% endblock %}

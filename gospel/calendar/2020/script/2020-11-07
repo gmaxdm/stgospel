@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("7 ноября 2020 г. ( 25 октября ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 22-я по Пятидесятнице. <a  href=\"http://days.pravoslavie.ru/name/3569.html\" target=\"_blank\" title=\"Суббота Дмитриевская\">Димитриевская родительская суббота</a>. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/1482.html\" target=\"_blank\" title=\"Маркиан Константинопольский, чтец, мч.\">Маркиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1482_3556.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1495.html\" target=\"_blank\" title=\"Мартирий Константинопольский, иподиакон, мч.\">Мартирия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1495_3557.html\" target=\"_blank\" >икона</a>). Прав. <a  href=\"http://days.pravoslavie.ru/name/2684.html\" target=\"_blank\" title=\"Тавифа Иоппийская\">Тавифы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2684_3558.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/161.html\" target=\"_blank\" title=\"Анастасий Аквилейский, Салонский, мч.\">Анастасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii161_3583.html\" target=\"_blank\" >икона</a>). Прпп. <a  href=\"http://days.pravoslavie.ru/name/1496.html\" target=\"_blank\" title=\"Преподобный Мартирий, диакон Печерский\">Мартирия</a> диакона и <a  href=\"http://days.pravoslavie.ru/name/1497.html\" target=\"_blank\" title=\"Мартирий Печерский, затворник\">Мартирия</a> затворника, Печерских. Прп. <a  href=\"http://days.pravoslavie.ru/name/12725.html\" target=\"_blank\" title=\"Матрона (Власова), исповедница\">Матроны</a> исп. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-kor_5_1_10.html#z\">2 Кор., 178 зач., V, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_1_10.html#z\">Лк., 29 зач., VII, 1-10.</a> За упокой: <a href=\"http://days.pravoslavie.ru/bible/z_1-sol_4_13_17.html#z\">1 Сол., 270 зач., IV, 13-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_5_24_30.html#z\">Ин., 16 зач., V, 24-30.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18253.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 5, 1-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18254.htm\" target=\"_blank\" title=\"Библия\">Лк. 7, 1-10</a>). Какая светлая личность сотник! Как дошел он до такой веры, что превзошел ею всех израильтян, воспитанных откровением, пророчествами и чудесами? Евангелие не указывает как, а живописует только веру его и сказывает, как похвалил его Господь. Путь веры - тайный, сокровенный путь. Кто может и в себе-то самом объяснить, как слагаются в сердце убеждения веры? Лучше всего решает это св. Апостол, называя веру Божиим даром. Вера действительно Божий дар, но неверы не безответны, то, стало быть, сами виноваты, что не дается им этот дар. Нет приемника для этого дара, он и не дается, ибо нечем принять его, а в таком случае давать то же, что тратить понапрасну. Как душа делается способною приемницею дара веры, это трудно определить. В сотнике видно крайнее смирение, несмотря на то, что он был властный человек, добродетельный и разумный. Не смирением ли вообще привлекается эта великая милость, дающая веру? Очень не дивно. По крайней мере, всем ведомо то, что неверы всегда духа гордого и что вера более всего требует покорности ума под свое иго.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

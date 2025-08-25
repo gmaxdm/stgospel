@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("5 января 2020 г. (23  декабря 2019 г. ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 29-я по Пятидесятнице, перед Рождеством Христовым, святых отец. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мучеников, иже в Крите: <a  href=\"http://days.pravoslavie.ru/name/2227.html\" target=\"_blank\" title=\"Феодул Критский, мч.\">Феодула</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2227_3901.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1932.html\" target=\"_blank\" title=\"Саторнин Критский, мч.\">Саторнина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1932_3901.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/694.html\" target=\"_blank\" title=\"Евпор Критский, мч.\">Евпора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii694_3901.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/466.html\" target=\"_blank\" title=\"Геласий Критский, мч.\">Геласия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii466_3901.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/688.html\" target=\"_blank\" title=\"Евникиан Критский, мч.\">Евникиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii688_3901.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/856.html\" target=\"_blank\" title=\"Зотик Критский, мч.\">Зотика</a> (<a  href=\"http://days.pravoslavie.ru/images/ii856_3901.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1820.html\" target=\"_blank\" title=\"Помпий Критский, мч.\">Помпия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1820_3901.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/65.html\" target=\"_blank\" title=\"Агафопус Критский, мч.\">Агафопуса</a> (<a  href=\"http://days.pravoslavie.ru/images/ii65_3901.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/366.html\" target=\"_blank\" title=\"Василид Критский, мч.\">Василида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii366_3901.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/663.html\" target=\"_blank\" title=\"Еварест Критский, мч.\">Евареста</a> (<a  href=\"http://days.pravoslavie.ru/images/ii663_3901.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1657.html\" target=\"_blank\" title=\"Святитель Нифонт Кипрский, епископ\">Нифонта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1657_1961.html\" target=\"_blank\" >икона</a>), еп. Кипрского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1691.html\" target=\"_blank\" title=\"Святитель Павел Неокесарийский, епископ, исповедник\">Павла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1691_3603.html\" target=\"_blank\" >икона</a>), еп. Неокесарийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/2237.html\" target=\"_blank\" title=\"Святитель Феоктист Новгородский, архиепископ\">Феоктиста</a>, архиеп. Новгородского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9511.html\" target=\"_blank\" title=\"Василий (Спасский), иерей, сщмч.\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9511_4626.html\" target=\"_blank\" >икона</a>) пресвитера и прмч. <a  href=\"http://days.pravoslavie.ru/name/9223.html\" target=\"_blank\" title=\"Макарий (Миронов), иеромонах, сщмч.\">Макария</a> и <a  href=\"http://days.pravoslavie.ru/name/14727.html\" target=\"_blank\" title=\"Иона (Смирнов), прмч.\">Ионы</a> Смирнова. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 7-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_20_1_10.html#z\">Ин., 63 зач., XX, 1-10.</a> Лит. - Недели пред Рождеством Христовым: <a href=\"http://days.pravoslavie.ru/bible/z_evr_11_9_10_11_17_23_11_32_40.html#z\">Евр., 328 зач., XI, 9-10, 17-23, 32-40.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_1_1_25.html#z\">Мф., 1 зач., I, 1-25.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

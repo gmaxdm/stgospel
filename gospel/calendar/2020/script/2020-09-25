@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("25 сентября 2020 г. ( 12 сентября ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 16-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14708.html\" target=\"_blank\" title=\"Отдание праздника Рождества Пресвятой Богородицы\">Отдание</a> праздника Рождества Пресвятой Богородицы. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/41.html\" target=\"_blank\" title=\"Святитель Автоном Италийский, епископ, сщмч.\">Автонома</a> (<a  href=\"http://days.pravoslavie.ru/images/ii41_4606.html\" target=\"_blank\" >икона</a>), еп. Италийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/6836.html\" target=\"_blank\" title=\"Афанасий Серпуховской, прп.\">Афанасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6836_426.html\" target=\"_blank\" >икона</a>) Высоцкого, Серпуховского чудотворца. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1291.html\" target=\"_blank\" title=\"Святитель Корнут Никомидийский (Иконийский), епископ, сщмч.\">Корнута</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1291_4609.html\" target=\"_blank\" >икона</a>), еп. Никомидийского (Иконийского) . Мч. <a  href=\"http://days.pravoslavie.ru/name/1135.html\" target=\"_blank\" title=\"Иулиан Галатийский, пресвитер, сщмч.\">Иулиана</a> и с ним 40 мучеников. Прп. <a  href=\"http://days.pravoslavie.ru/name/398.html\" target=\"_blank\" title=\"Вассиан Тиксненский, Тотемский, прп.\">Вассиана</a> Тиксненского. Перенесение мощей прав. <a  href=\"http://days.pravoslavie.ru/name/1999.html\" target=\"_blank\" title=\"Праведный Симеон Верхотурский\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1999_1103.html\" target=\"_blank\" >икона</a>) Верхотурского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2175.html\" target=\"_blank\" title=\"Святитель Феодор, епископ Александрийский, сщмч.\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2175_4610.html\" target=\"_blank\" >икона</a>) еп. Александрийского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9406.html\" target=\"_blank\" title=\"Феодор (Лебедев), протоиерей, сщмч.\">Феодора</a>, <a  href=\"http://days.pravoslavie.ru/name/13787.html\" target=\"_blank\" title=\"Иоанн (Прудентов), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13786.html\" target=\"_blank\" title=\"Николай (Житов), протоиерей, сщмч.\">Николая</a> пресвитеров и мч. <a  href=\"http://days.pravoslavie.ru/name/9932.html\" target=\"_blank\" title=\"Алексий (Ворошин), мч.\">Алексия</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_ef_1_7_17.html#z\">Еф., 217 зач., I, 7-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_8_1_10.html#z\">Мк., 32 зач., VIII, 1-10,</a> и за субботу (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_10_23_28.html#z\">1 Кор., 146 зач., X, 23-28.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_24_34_44.html#z\">Мф., 101 зач., XXIV, 34-44.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18160.htm\" target=\"_blank\" title=\"Библия\">Еф. 1, 7-17</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18161.htm\" target=\"_blank\" title=\"Библия\">Мк. 8, 1-10</a>). Насытив четыре тысячи семью хлебами, Господь \"тотчас восшед в лодку, прибыл в пределы Далмануфские\", как будто ничего особенного не сделано. Таково истинное доброделание - делать и делать, не обращая внимание на сделанное, и всегда забывая задняя, простираться впредняя. У исполненных доброты это бывает как бы естественно. Как богатырь поднимает большие тяжести, не замечая того, а малосильный и малую тяжесть подняв, не может этого забыть; так сильный добротой всякое добро делает без напряжения, только бы случай; а скудный добротою без напряжения не может обойтись: оно и памятно ему, и он все на него посматривает, все озирается. Доброе сердце жаждет доброделания, и не бывает довольно, когда не наделает добра вдоволь, как не бывает сыт человек, пока не наестся. Как здесь, пока чувствуется голод, помнится обед, а когда голод утолен, то все забыто. Так и у истинно доброго помнится доброе дело, пока еще не сделано, а когда сделано, то и забыто.<br>(<a  href=\"https://days.pravoslavie.ru/Bible/C18162.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 10, 23-28</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18163.htm\" target=\"_blank\" title=\"Библия\">Мф. 24, 34-44</a>). \"Бодрствуйте, потому что не знаете, в который час Господь ваш приидет\". Бдеть не значит сидеть сложа руки, но, имея в мысли, что Господь внезапно приидет, так себя держать и так вести дела свои, чтоб быть готовыми встретить Его во всякое мгновение, не опасаясь получить укор и осуждение. Как же это сделать? Очень просто. Ходить по заповедям, не нарушая ни одной, а случится нарушить какую - тотчас очищать покаянием и должным удовлетворением с своей стороны. Тогда и будет у нас все чисто. И минуты не оставляй греха на душе: тотчас кайся, плачь в сердце своем и беги к духовному отцу исповедаться и получить разрешение, а затем опять берись за дела по заповедям Божиим. Если ревностно возмешься за то, чтоб быть исправным в жизни - скоро исправишься, только не оставайся долго в падении. Падения при таком порядке все будут реже и реже, а там и совсем прекратятся, при помощи всеисцеляющей благодати Божией. Тогда водворится радостное удостоворение, что встретишь Господа не неготовый.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

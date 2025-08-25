@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("17 апреля 2020 г. ( 4 апреля ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Страстная седмица. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. Строгий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("По монастырскому уставу - полное воздержание от пищи. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><a  href=\"http://days.pravoslavie.ru/name/6749.html\" target=\"_blank\" title=\"Великий Пяток\">Великий Пяток. Воспоминание Святых спасительных Страстей Господа нашего Иисуса Христа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6749_95.html\" target=\"_blank\" >икона</a>)</span><br> Прп. <a  href=\"http://days.pravoslavie.ru/name/1059.html\" target=\"_blank\" title=\"Иосиф Песнописец, пресвитер\">Иосифа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1059_98.html\" target=\"_blank\" >икона</a>) песнописца. Прп. <a  href=\"http://days.pravoslavie.ru/name/496.html\" target=\"_blank\" title=\"Георгий Пелопонесский, Малеин, прп.\">Георгия</a>, иже в Малеи. Мцц. <a  href=\"http://days.pravoslavie.ru/name/2730.html\" target=\"_blank\" title=\"Фервуфа, дева, мц.\">Фервуфы</a> девы, сестры и рабыни ее. Прп. <a  href=\"http://days.pravoslavie.ru/name/852.html\" target=\"_blank\" title=\"Зосима Палестинский, отшельник\">Зосимы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii852_4162.html\" target=\"_blank\" >икона</a>) Палестинского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1060.html\" target=\"_blank\" title=\"Преподобный Иосиф Многоболезненный\">Иосифа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1060_1838.html\" target=\"_blank\" >икона</a>) многоболезненного, Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/848.html\" target=\"_blank\" title=\"Преподобный Зосима Ворбозомский\">Зосимы</a> Ворбозомского. Прмчч. <a  href=\"http://days.pravoslavie.ru/name/9166.html\" target=\"_blank\" title=\"Вениамин (Кононов), архимандрит настоятель Соловецкого м-ря, сщмч.\">Вениамина</a> и <a  href=\"http://days.pravoslavie.ru/name/9232.html\" target=\"_blank\" title=\"Никифор (Кучин), иеромонах, сщмч.\">Никифора</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9152.html\" target=\"_blank\" title=\"Святитель Николай (Караулов), епископ Вельский, сщмч.\">Николая</a>, еп. Вельского, прмц. <a  href=\"http://days.pravoslavie.ru/name/14417.html\" target=\"_blank\" title=\"Мария (Лелянова), инокиня, прмц.\">Марии</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9602.html\" target=\"_blank\" title=\"Иоанн (Вечерко), иерей, сщмч.\">Иоанна</a> пресвитера. Мч. <a  href=\"http://days.pravoslavie.ru/name/14242.html\" target=\"_blank\" title=\"Иоанн (Колесников), мч.\">Иоанна</a>. Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/6692.html\" target=\"_blank\" title=\"\"Геронтисса\"\">«Герондисса»</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Евангелия Последования Святых Страстей Господа нашего Иисуса Христа: 1-е. <a href=\"http://days.pravoslavie.ru/bible/z_in_13_31_0_14_0_0_15_0_0_16_0_0_17_0_0_18_0_1.html#z\">Ин., 46 зач., XIII, 31 - XVIII, 1.</a> 2-е. <a href=\"http://days.pravoslavie.ru/bible/z_in_18_1_28.html#z\">Ин., 58 зач., XVIII, 1-28.</a> 3-е. <a href=\"http://days.pravoslavie.ru/bible/z_mf_26_57_75.html#z\">Мф., 109 зач., XXVI, 57-75.</a> 4-е. <a href=\"http://days.pravoslavie.ru/bible/z_in_18_28_0_19_0_16.html#z\">Ин., 59 зач., XVIII, 28 - XIX, 16.</a> 5-е. <a href=\"http://days.pravoslavie.ru/bible/z_mf_27_3_32.html#z\">Мф., 111 зач., XXVII, 3-32.</a> 6-е. <a href=\"http://days.pravoslavie.ru/bible/z_mk_15_16_32.html#z\">Мк., 67 зач., XV, 16-32.</a> 7-е. <a href=\"http://days.pravoslavie.ru/bible/z_mf_27_33_54.html#z\">Мф., 113 зач., XXVII, 33-54.</a> 8-е. <a href=\"http://days.pravoslavie.ru/bible/z_lk_23_32_49.html#z\">Лк., 111 зач., XXIII, 32-49.</a> 9-е. <a href=\"http://days.pravoslavie.ru/bible/z_in_19_25_37.html#z\">Ин., 61 зач., XIX, 25-37.</a> 10-е. <a href=\"http://days.pravoslavie.ru/bible/z_mk_15_43_47.html#z\">Мк., 69 зач., XV, 43-47.</a> 11-е. <a href=\"http://days.pravoslavie.ru/bible/z_in_19_38_42.html#z\">Ин., 62 зач., XIX, 38-42.</a> 12-е. <a href=\"http://days.pravoslavie.ru/bible/z_mf_27_62_66.html#z\">Мф., 114 зач., XXVII, 62-66.</a>  Литургии не положено.  На 1-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_gal_6_14_18.html#z\">Гал., 215 зач. (от&nbsp;полу&#769;), VI, 14-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_27_1_56.html#z\">Мф., 110 зач., XXVII, 1-56.</a> На 3-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_rim_5_6_11.html#z\">Рим., 88 зач. (от&nbsp;полу&#769;), V, 6-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_15_16_41.html#z\">Мк., 67 зач., XV, 16-41.</a> На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_evr_2_11_18.html#z\">Евр., 306 зач., II, 11-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_23_32_49.html#z\">Лк., 111 зач., XXIII, 32-49.</a> На 9-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_evr_10_19_31.html#z\">Евр., 324 зач., X, 19-31.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_18_28_0_19_0_37.html#z\">Ин., 59 зач., XVIII, 28 - XIX, 37.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_1_18_0_2_0_2.html#z\">1 Кор., 125 зач., I, 18 - II, 2.</a> Ев. составное: <a href=\"http://days.pravoslavie.ru/bible/z_mf_27_1_44.html#z\">Мф., 110 зач., XXVII, 1-44;</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_23_39_43.html#z\">Лк., XXIII, 39-43;</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_27_45_54.html#z\">Мф., XXVII, 45-54;</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_19_31_37.html#z\">Ин., XIX, 31-37;</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_27_55_61.html#z\">Мф., XXVII, 55-61.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("Распятие Христа Господа и собор архангела Гавриила! Новое утешительное сочетание! Гавриил предвозвещает рождение Предтечи; Гавриил благовествует Деве; он же, вероятно, возвещал радость о рождении Спасителя; не кто другой и женам возвестил о Воскресении Христа Господа. Таким образом, Гавриил - всякой радости провозвестник и приноситель. Распятие же Христово - радость и отрада всех грешников. Грешнику, пришедшему в чувство своей греховности и всеправедной правды Божией, некуда укрыться, кроме как под сень креста. Здесь принимает он удостоверение, что ему нет прощения, пока он один стоит перед Богом со своими грехами и даже со слезами о них. Одно для него спасение - в крестной смерти Господа. На кресте рукописание всех грехов разодрано. И всякий, кто принимает это с полною верою, делается причастным этого таинства помилования. С созреванием этой веры созревает и уверенность в помиловании и вместе отрада от чувства вступления в состояние помилования на все века. Крест - источник радости, потому что грешник верою пьет из него отраду помилования. В этом отношении он есть своего рода архангел, благовествующий радость.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

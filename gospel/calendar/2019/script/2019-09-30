@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("30 сентября 2020 г. ( 17 сентября ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 17-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мцц. <a  href=\"http://days.pravoslavie.ru/name/2434.html\" target=\"_blank\" title=\"Мученица Вера Римская\">Веры</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2434_216.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2623.html\" target=\"_blank\" title=\"Мученица Надежда Римская\">Надежды</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2623_216.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2576.html\" target=\"_blank\" title=\"Мученица Любовь Римская\">Любови</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2576_216.html\" target=\"_blank\" >икона</a>) и матери их <a  href=\"http://days.pravoslavie.ru/name/2677.html\" target=\"_blank\" title=\"Мученица София Римская\">Софии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2677_216.html\" target=\"_blank\" >икона</a>). Мцц. <a  href=\"http://days.pravoslavie.ru/name/2719.html\" target=\"_blank\" title=\"Феодотия Никейская, мц.\">Феодотии</a> и <a  href=\"http://days.pravoslavie.ru/name/2370.html\" target=\"_blank\" title=\"Агафоклия, мц.\">Агафоклии</a>. Мучеников  <a  href=\"http://days.pravoslavie.ru/name/1759.html\" target=\"_blank\" title=\"Святитель Пелий Египетский, Тирский, епископ, сщмч.\">Пелия</a> и <a  href=\"http://days.pravoslavie.ru/name/1650.html\" target=\"_blank\" title=\"Святитель Нил Египетский, Тирский, епископ, сщмч.\">Нила</a>, епископов Египетских, <a  href=\"http://days.pravoslavie.ru/name/831.html\" target=\"_blank\" title=\"Зиновий (Зинон) Тирский (Сидонский), пресвитер, сщмч.\">Зинона</a> пресвитера, <a  href=\"http://days.pravoslavie.ru/name/1746.html\" target=\"_blank\" title=\"Патермуфий Тирский, мч.\">Патермуфия</a>, <a  href=\"http://days.pravoslavie.ru/name/944.html\" target=\"_blank\" title=\"Илия Тирский, мч.\">Илии</a> и иных 151. Свт. <a  href=\"http://days.pravoslavie.ru/name/14314.html\" target=\"_blank\" title=\"Святитель Иоаким (Пани), патриарх Александрийский\">Иоакима</a>, патриарха Александрийского. Прмчч. <a  href=\"http://days.pravoslavie.ru/name/14324.html\" target=\"_blank\" title=\"Павел (Моисеев), архимандрит, прмч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/14325.html\" target=\"_blank\" title=\"Феодосий (Соболев), архимандрит, прмч.\">Феодосия</a>, <a  href=\"http://days.pravoslavie.ru/name/14326.html\" target=\"_blank\" title=\"Никодим (Щапков), иеромонах, прмч.\">Никодима</a> и <a  href=\"http://days.pravoslavie.ru/name/14327.html\" target=\"_blank\" title=\"Серафим (Кулаков), иеромонах, прмч.\">Серафима</a>. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14328.html\" target=\"_blank\" title=\"Ирина (Фролова), прмц.\">Ирины</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/9975.html\" target=\"_blank\" title=\"Иоанн (Коротков), мч.\">Иоанна</a>. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14329.html\" target=\"_blank\" title=\"Александра (Хворостянникова), послушница, прмц.\">Александры</a>. <a  href=\"http://days.pravoslavie.ru/name/3017.html\" target=\"_blank\" title=\"Цареградская\">Цареградской</a> и <a  href=\"http://days.pravoslavie.ru/name/2900.html\" target=\"_blank\" title=\"Макарьевская\">Макарьевской</a> икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_ef_3_8_21.html#z\">Еф., 223 зач., III, 8-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_11_23_26.html#z\">Мк., 51 зач., XI, 23-26.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18171.htm\" target=\"_blank\" title=\"Библия\">Мк. 11, 23-26</a>). Если не отпустите другим согрешений против вас, то и Отец ваш небесный не отпустит вам согрешений ваших, сказал Господь. Кто не отпускает другим? Праведник или тот, кто сознает себя праведным. Такому ничего не остается, как судить и произносить только приговоры и требовать казни виновным. Кто же чувствует себя грешным, тому до других ли? Не повернется у него язык осудить другого и потребовать от него удовлетворения, когда совесть самого непрестанно обличает и непрестанно грозит праведным судом Божиим. Итак, не грешить ли лучше, чем праведничать? Нет, всячески ревнуй о праведности; но при всей твоей праведности, сознавай, что ты раб неключимый , и сознавай помыслом нераздвоенным, т. е. не так, что впереди стоит мысль о своей неключимости, а позади прячется чувство праведности, но полным сознанием и чувством имей себя неключимым. Когда дойдешь до этого (а до этого надо доходить, ибо оно не вдруг приобретается) - тогда, как бы ни согрешил против тебя брат твой, взыскивать не станешь, потому что совесть будет твердить: \"и не того еще стоишь, мало тебе этого\", - и простишь; а простивши, сам удостоишься прощения. Так всю жизнь: прощение за прощение, а на суде за это будет тебе всепрощение.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("13 января 2020 г. (31  декабря 2019 г. ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 31-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14711.html\" target=\"_blank\" title=\"Отдание праздника Рождества Христова\">Отдание</a> праздника Рождества Христова. Прп. <a  href=\"http://days.pravoslavie.ru/name/2615.html\" target=\"_blank\" title=\"Мелания Римляныня, Вифлеемская, Палестинская, прп.\">Мелании</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2615_3611.html\" target=\"_blank\" >икона</a>) Римляныни. Свт. <a  href=\"http://days.pravoslavie.ru/name/14380.html\" target=\"_blank\" title=\"Святитель Петр (Могила), митрополит киевский\">Петра</a> Могилы, митрополита Киевского. Свт. <a  href=\"http://days.pravoslavie.ru/name/14530.html\" target=\"_blank\" title=\"Святитель Досифей (Васич), митрополит Загребский, исповедник\">Досифея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14530_3613.html\" target=\"_blank\" >икона</a>), митр. Загребского, исп. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13909.html\" target=\"_blank\" title=\"Михаил (Березин), иерей, сщмч.\">Михаила</a> пресвитера. Мч. <a  href=\"http://days.pravoslavie.ru/name/10024.html\" target=\"_blank\" title=\"Петр (Троицкий), мч.\">Петра</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_11_17_23_11_27_31.html#z\">Евр., 329 зач., XI, 17-23, 27-31.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_12_13_17.html#z\">Мк., 54 зач., XII, 13-17.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

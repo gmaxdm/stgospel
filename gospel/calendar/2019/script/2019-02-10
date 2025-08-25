@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("10 февраля 2020 г. ( 28 января ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/817.html\" target=\"_blank\" title=\"Преподобный Ефрем Сирин\">Ефрема</a> (<a  href=\"http://days.pravoslavie.ru/images/ii817_351.html\" target=\"_blank\" >икона</a>) Сирина. Прп. <a  href=\"http://days.pravoslavie.ru/name/2213.html\" target=\"_blank\" title=\"Преподобный Феодосий Тотемский\">Феодосия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2213_377.html\" target=\"_blank\" >икона</a>) Тотемского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1715.html\" target=\"_blank\" title=\"Палладий Антиохийский (Сирийский), пустынник\">Палладия</a> пустынника. Прп. <a  href=\"http://days.pravoslavie.ru/name/1097.html\" target=\"_blank\" title=\"Преподобный Исаак Сирин\">Исаака</a> Сирина, еп. Ниневийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/813.html\" target=\"_blank\" title=\"Преподобный Ефрем Новоторжский\">Ефрема</a> Новоторжского. Прп. <a  href=\"http://days.pravoslavie.ru/name/815.html\" target=\"_blank\" title=\"Преподобный Ефрем Печерский\">Ефрема</a> (<a  href=\"http://days.pravoslavie.ru/images/ii815_553.html\" target=\"_blank\" >икона</a>) Печерского, еп. Переяславского. Св. <a  href=\"http://days.pravoslavie.ru/name/10402.html\" target=\"_blank\" title=\"Феодор (Богоявленский), иерей, исповедник\">Феодора</a> исп., пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13639.html\" target=\"_blank\" title=\"Святитель Игнатий (Садковский), епископ Скопинский, сщмч.\">Игнатия</a>, еп. Скопинского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9535.html\" target=\"_blank\" title=\"Владимир (Пищулин), иерей, сщмч.\">Владимира</a> пресвитера и прмч. <a  href=\"http://days.pravoslavie.ru/name/9199.html\" target=\"_blank\" title=\"Варфоломей (Ратных), иеромонах, сщмч.\">Варфоломея</a>. Мц. <a  href=\"http://days.pravoslavie.ru/name/14211.html\" target=\"_blank\" title=\"Ольга (Евдокимова), мц.\">Ольги</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/9176.html\" target=\"_blank\" title=\"Леонтий (Стасевич), архимандрит, исп.\">Леонтия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9176_3625.html\" target=\"_blank\" >икона</a>) исповедника. <a  href=\"http://days.pravoslavie.ru/name/2982.html\" target=\"_blank\" title=\"Суморинская-Тотемская\">Суморинской-Тотемской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2982_3271.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-pet_1_20_0_2_0_9.html#z\">2 Пет., 66 зач., I, 20 - II, 9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_13_9_13.html#z\">Мк., 59 зач., XIII, 9-13.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18429.htm\" target=\"_blank\" title=\"Библия\">2 Пет. 1, 20-2, 9</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18430.htm\" target=\"_blank\" title=\"Библия\">Мк. 13, 9-13</a>). Страх Божий как приводит к началу святой и богоугодной жизни, так бывает самым верным блюстителем ее, когда кто, последовав его внушениям, положит это начало. Учит нас этому нынешний Апостол, приводя на память грозные суды Божии и наказания, здесь еще явленные над непокоряющимися воле Его. \"Ангелов\", говорит, \"согрешивших не пощадил\". Были чисты и в пресветлом обитали жилище. Но как только согрешили, низвержены во мрак преисподний. Нас ли с тобою пощадит, если пойдем против воли Его?! Разлилось нечестие при Ное. Бог навел на них потоп и всех погубил, исключая восьми душ, семейства Ноева. Не посмотрел, что много их. Над тобою ли одним станет Он раздумывать - погубить тебя или нет, когда не станешь слушать гласа Его?! - Долго спускал Господь Содому и Гоморре. Они же вместо вразумления спешили на верх нечестия, за то, когда не чаяли, поражены огнем, во образ вечного огня, ожидающего нечествующих. Не миновать и тебе этого огня, если пойдешь теми же путями. Приводи все это на память, сидя сам с собою, особенно в ночной тишине и темноте, и возгревая тем страх Божий, страшись греха, как бы в нем подкрадывался к тебе пламень огня вечнующаго.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

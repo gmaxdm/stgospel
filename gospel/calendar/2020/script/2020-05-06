@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("6 мая 2020 г. ( 23 апреля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмч. <a  href=\"http://days.pravoslavie.ru/name/497.html\" target=\"_blank\" title=\"Великомученик Георгий Победоносец\">Георгия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii497_116.html\" target=\"_blank\" >икона</a>) Победоносца. <a  href=\"http://days.pravoslavie.ru/name/2858.html\" target=\"_blank\" title=\"Иверская икона Божией Матери\">Иверской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2858_53.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. Мц. царицы <a  href=\"http://days.pravoslavie.ru/name/2379.html\" target=\"_blank\" title=\"Мученица Александра Римская\">Александры</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2379_306.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/171.html\" target=\"_blank\" title=\"Мученик Анатолий\">Анатолия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii171_399.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1854.html\" target=\"_blank\" title=\"Протолеон Никомидийский, мч.\">Протолеона</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/14713.html\" target=\"_blank\" title=\"София (Хотокуриду), прп.\">Софии</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9593.html\" target=\"_blank\" title=\"Иоанн (Ансеров), иерей, сщмч.\">Иоанна</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_2_12.html#z\">Лк., 63 зач., XII, 2-12.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_8_18_25.html#z\">Деян., 19 зач., VIII, 18-25.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_6_35_39.html#z\">Ин., 21 зач., VI, 35-39.</a> Вмч.: <a href=\"http://days.pravoslavie.ru/bible/z_deqn_12_1_11.html#z\">Деян., 29 зач., XII, 1-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_15_17_0_16_0_2.html#z\">Ин., 52 зач., XV, 17 - XVI, 2.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17857.htm\" target=\"_blank\" title=\"Библия\">Дея. 8, 18-25</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17858.htm\" target=\"_blank\" title=\"Библия\">Ин. 6, 35-39</a>). Св. Петр говорит Симону: \"Нет тебе в сем части и жребия, ибо сердце твое неправо перед Богом. Итак, покайся в сем грехе твоем и молись. Богу; может быть, отпустится тебе помысл сердца твоего\". Нет части, а Симон и думать не думал, что зашел так далеко; и делать внешне ничего не делал он безобразного, а только подумал направо, и помышление сердца его сделало то, что апостол недоумевал, отпустится ли оно ему, если даже он покается и молиться будет Богу. Вот что значит строй сердца, и помышление из него исходящее по известному строю! Судя по нему, человек со вне бывает одно, а извнутри совсем другое. И это внутреннее видит только один Бог, и те, кому откроет Дух Божий, испытующий сердца. С каким же страхом и трепетом должно соделать свое спасение! И как искренно и усердно нужно молить Бога: \"Сердце чистое сотвори во мне, Боже, и дух правый обнови внутри меня\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17859.htm\" target=\"_blank\" title=\"Библия\">Пс. 50</a>). И на суде будет нечто страшное и изумительное. Скажет Господь: \"не знаю вас\" тем, которые не только были уверены сами, что Божии, но и в очах всех являлись таковыми. Что же остается нам? Только взывать: \"ими же веси судьбами спаси нас, Господи\"! Сам, как знаешь, дай спасительный строй сердцу нашему!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

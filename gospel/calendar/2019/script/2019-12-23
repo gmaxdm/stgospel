@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("23 декабря 2020 г. ( 10 декабря ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 29-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: горячая пища без масла. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/1533.html\" target=\"_blank\" title=\"Мученик Мина Александрийский\">Мины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1533_959.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/803.html\" target=\"_blank\" title=\"Ермоген Александрийский, мч.\">Ермогена</a> и <a  href=\"http://days.pravoslavie.ru/name/673.html\" target=\"_blank\" title=\"Евграф Александрийский, мч.\">Евграфа</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/1031.html\" target=\"_blank\" title=\"Святитель Иоасаф Белгородский\">Иоасафа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1031_241.html\" target=\"_blank\" >икона</a>), еп. Белгородского. Мч. <a  href=\"http://days.pravoslavie.ru/name/467.html\" target=\"_blank\" title=\"Гемелл Пафлагонянин, Анкирский. Многострадалец, мч.\">Гемелла</a> Пафлагонянина. Прп. <a  href=\"http://days.pravoslavie.ru/name/2322.html\" target=\"_blank\" title=\"Фома Дефуркин, игумен\">Фомы</a>. Блж. <a  href=\"http://days.pravoslavie.ru/name/1015.html\" target=\"_blank\" title=\"Блаженный Иоанн Сербский\">Иоанна</a> и родителей его блжж. <a  href=\"http://days.pravoslavie.ru/name/2069.html\" target=\"_blank\" title=\"Блаженный Стефан Сербский\">Стефана</a> и <a  href=\"http://days.pravoslavie.ru/name/2386.html\" target=\"_blank\" title=\"Блаженная Ангелина Сербская\">Ангелины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2386_2130.html\" target=\"_blank\" >икона</a>), Бранковичей, правителей Сербских. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9585.html\" target=\"_blank\" title=\"Иаков (Шестаков), иерей, сщмч.\">Иакова</a> и <a  href=\"http://days.pravoslavie.ru/name/9268.html\" target=\"_blank\" title=\"Александр (Шкляев), протоиерей, сщмч.\">Александра</a> пресвитеров, сщмч. <a  href=\"http://days.pravoslavie.ru/name/9569.html\" target=\"_blank\" title=\"Евграф (Плетнев), иерей, сщмч.\">Евграфа</a> пресвитера и сына его мч. <a  href=\"http://days.pravoslavie.ru/name/14528.html\" target=\"_blank\" title=\"Михаил (Плеьнев), мч.\">Михаила</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9279.html\" target=\"_blank\" title=\"Анатолий (Правдолюбов), протоиерей, сщмч.\">Анатолия</a>, <a  href=\"http://days.pravoslavie.ru/name/9266.html\" target=\"_blank\" title=\"Александр (Туберовский), протоиерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9317.html\" target=\"_blank\" title=\"Евгений (Харьков), протоиерей, сщмч.\">Евгения</a>, <a  href=\"http://days.pravoslavie.ru/name/9341.html\" target=\"_blank\" title=\"Константин (Бажанов), протоиерей, сщмч.\">Константина</a>, <a  href=\"http://days.pravoslavie.ru/name/9708.html\" target=\"_blank\" title=\"Николай (Карасёв), иерей, сщмч.\">Николая</a> пресвитеров, и с ними мчч. <a  href=\"http://days.pravoslavie.ru/name/10020.html\" target=\"_blank\" title=\"Петр (Гришин), мч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/9969.html\" target=\"_blank\" title=\"Евсевий (Тряхов), мч.\">Евсевия</a>, <a  href=\"http://days.pravoslavie.ru/name/10000.html\" target=\"_blank\" title=\"Михаил (Якунькин), мч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/9967.html\" target=\"_blank\" title=\"Дорофей (Климашев), мч.\">Дорофея</a>, <a  href=\"http://days.pravoslavie.ru/name/9992.html\" target=\"_blank\" title=\"Лаврентий (Когтев), мч.\">Лаврентия</a>, <a  href=\"http://days.pravoslavie.ru/name/9962.html\" target=\"_blank\" title=\"Григорий (Берденев), мч.\">Григория</a> и мцц. <a  href=\"http://days.pravoslavie.ru/name/10046.html\" target=\"_blank\" title=\"Александра (Устюхина), мц.\">Александры</a> и <a  href=\"http://days.pravoslavie.ru/name/10100.html\" target=\"_blank\" title=\"Татиана (Егорова), мц.\">Татианы</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14370.html\" target=\"_blank\" title=\"Михаил (Кобзев), протоиерей, сщмч.\">Михаила</a> пресвитера. Прмч. <a  href=\"http://days.pravoslavie.ru/name/13895.html\" target=\"_blank\" title=\"Сергий (Сорокин), иеромонах, прмч.\">Сергия</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9380.html\" target=\"_blank\" title=\"Николай (Розов), протоиерей, сщмч.\">Николая</a> и <a  href=\"http://days.pravoslavie.ru/name/13896.html\" target=\"_blank\" title=\"Алексий (Введенский), протоиерей, сщмч.\">Алексия</a> пресвитеров. Свв. <a  href=\"http://days.pravoslavie.ru/name/10053.html\" target=\"_blank\" title=\"Анна (Ивашкина), исп.\">Анны</a> и <a  href=\"http://days.pravoslavie.ru/name/10099.html\" target=\"_blank\" title=\"Татиана (Бякирева), исп.\">Татианы</a> испп. Св. <a  href=\"http://days.pravoslavie.ru/name/10102.html\" target=\"_blank\" title=\"Фекла (Макушева), исп.\">Феклы</a> исп. Прп. <a  href=\"http://days.pravoslavie.ru/name/13897.html\" target=\"_blank\" title=\"Анна (Столярова), схимонахиня, исповедница\">Анны</a> исп. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_evr_5_11_0_6_0_8.html#z\">Евр., 312 зач., V, 11 - VI, 8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_5_7_21_10_11_21_20_24.html#z\">Лк., 104 зач., XXI, 5-7, 10-11, 20-24.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> Мчч.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18349.htm\" target=\"_blank\" title=\"Библия\">Евр. 5, 11-6, 8</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18350.htm\" target=\"_blank\" title=\"Библия\">Лк. 21, 5-7, 10-11, 20-24</a>). Ученики указывали Господу на красоту здания и утварей храма, а Он сказал: \"придут дни, в которые из того, что вы здесь видите, не останется камня на камне; все будет разрушено\". Это подпись всему красному мира сего. На вид кажется прочно и вековечно; но день-другой, смотришь, как ничего не бывало: и красота увядает, и силы истощаются, и слава меркнет, и умы изживаются, и одежда изнашивается. Все в себе самом носит силу разрушительную, которая не лежит, как семя неразвитое, а состоит в непрестанном действии и все течет к своему концу. \"Преходит образ мира сего. Убо образом ходит человек: сокровиществует и не весть, кому соберет я \". А мы все суетимся, все хлопочем, и хлопотам нашим конца нет. Встречаем кругом себя постоянные уроки, а все свое, словно слепы и ничего не видим. Да и правду сказать, что слепы или ослеплены: и себе, и ничему окружающему нас, и владеемому нами, конца не чаем. И что еще? Обстановившись, как нам представляется, хорошо, уверены что стоим твердо, как на утесе; тогда положение наше скорее похоже на то, как если бы мы стояли на трясине: вот-вот провалимся. Но не чуем этого и предаемся безпечному наслаждению текущим, как будто всегда имеющим пребывать. Помолимся же, да откроет Господь умные очи наши, и да узрим все, не как оно кажется, а как оно есть.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

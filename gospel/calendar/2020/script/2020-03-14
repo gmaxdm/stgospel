@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("14 марта 2020 г. ( 1 марта ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я Великого поста. <a  href=\"http://days.pravoslavie.ru/name/14381.html\" target=\"_blank\" title=\"Суббота второй седмицы Великого поста\">Поминовение усопших</a>. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прмц. <a  href=\"http://days.pravoslavie.ru/name/2466.html\" target=\"_blank\" title=\"Преподобномученица Евдокия\">Евдокии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2466_99.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/6653.html\" target=\"_blank\" title=\"Нестор Пергийский (Памфилийский), мч.\">Нестора</a> и <a  href=\"http://days.pravoslavie.ru/name/2122.html\" target=\"_blank\" title=\"Тривимий Пергийский (Памфилийский), мч.\">Тривимия</a>. Мц. <a  href=\"http://days.pravoslavie.ru/name/2401.html\" target=\"_blank\" title=\"Мученица Антонина Никейская\">Антонины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2401_2140.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/1472.html\" target=\"_blank\" title=\"Маркелл, мч.\">Маркелла</a> и <a  href=\"http://days.pravoslavie.ru/name/216.html\" target=\"_blank\" title=\"Антоний, мч.\">Антония</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/2457.html\" target=\"_blank\" title=\"Домнина Сирийская, дева, прп.\">Домнины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2457_4095.html\" target=\"_blank\" >икона</a>) Сирийской. Прп. <a  href=\"http://days.pravoslavie.ru/name/1494.html\" target=\"_blank\" title=\"Преподобный Мартирий Зеленецкий\">Мартирия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1494_945.html\" target=\"_blank\" >икона</a>) Зеленецкого. Прмц. <a  href=\"http://days.pravoslavie.ru/name/13686.html\" target=\"_blank\" title=\"Ольга (Жильцова), прмц.\">Ольги</a>. Cщмчч. <a  href=\"http://days.pravoslavie.ru/name/9501.html\" target=\"_blank\" title=\"Василий (Никитский), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9389.html\" target=\"_blank\" title=\"Петр (Любимов), протоиерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/9644.html\" target=\"_blank\" title=\"Иоанн (Стрельцов), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13688.html\" target=\"_blank\" title=\"Вениамин (Фаминцев), протоиерей, сщмч.\">Вениамина</a>, <a  href=\"http://days.pravoslavie.ru/name/13691.html\" target=\"_blank\" title=\"Михаил (Букринский), иерей, сщмч.\">Михаила</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/9827.html\" target=\"_blank\" title=\"Антоний (Корж), иеродиакон, сщмч.\">Антония</a>, прмцц. <a  href=\"http://days.pravoslavie.ru/name/9887.html\" target=\"_blank\" title=\"Анна (Макандина), инокиня, прмц.\">Анны</a>, <a  href=\"http://days.pravoslavie.ru/name/13689.html\" target=\"_blank\" title=\"Дария (Зайцева), прмц.\">Дарии</a>, <a  href=\"http://days.pravoslavie.ru/name/13690.html\" target=\"_blank\" title=\"Евдокия (Архипова), прмц.\">Евдокии</a>, <a  href=\"http://days.pravoslavie.ru/name/14413.html\" target=\"_blank\" title=\"Александра (Дьячкова), прмц.\">Александры</a>, <a  href=\"http://days.pravoslavie.ru/name/14451.html\" target=\"_blank\" title=\"Матрона (Макандина), прмц.\">Матроны</a>,  мч. <a  href=\"http://days.pravoslavie.ru/name/13687.html\" target=\"_blank\" title=\"Василий (Архипов), мч.\">Василия</a>, мц. <a  href=\"http://days.pravoslavie.ru/name/10089.html\" target=\"_blank\" title=\"Надежда (Аббакумова), мц.\">Надежды</a>. Cщмч. <a  href=\"http://days.pravoslavie.ru/name/9426.html\" target=\"_blank\" title=\"Александр (Ильенков), иерей, сщмч.\">Александра</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14506.html\" target=\"_blank\" title=\"Василий (Константинов-Гришин), иерей, сщмч.\">Василия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_evr_3_12_16.html#z\">Евр., 309 зач., III, 12-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_1_35_44.html#z\">Мк., 6 зач., I, 35-44</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. За упокой: <a href=\"http://days.pravoslavie.ru/bible/z_1-sol_4_13_17.html#z\">1 Сол., 270 зач., IV, 13-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_5_24_30.html#z\">Ин., 16 зач., V, 24-30.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если в этот день совершается полиелейная служба в честь иконы Божией Матери, именуемой «Державная», то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56,</a> а на литургии - чтения дня: <a href=\"http://days.pravoslavie.ru/bible/z_evr_3_12_16.html#z\">Евр., 309 зач., III, 12-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_1_35_44.html#z\">Мк., 6 зач., I, 35-44,</a> и Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18488.htm\" target=\"_blank\" title=\"Библия\">Евр. З, 12-16</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18489.htm\" target=\"_blank\" title=\"Библия\">Мк. 1, 35-44</a>). \"Вышел (Иисус) и удалился в пустынное место и там молился\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18490.htm\" target=\"_blank\" title=\"Библия\">Мк. 1, 35</a>). Господь молится, как человек, или, лучше, как вочеловечившийся человеческим естеством. Его молитва ходатайственная за нас, а вместе образовательная для Его человечества, которому надлежало входить ограниченным путем в обладание Божественным. В последнем значении она для нас образец и пример. Апостол Павел учит, что у приявших Духа, Дух молится и, конечно, не Сам от Себя, но возбуждая молитвенные устремления к Богу в духе человеческом. И вот у нас настоящая молитва - молитва духодвижная. Но такова она на верхней ступени. Путь к ней - труд молитвенный у ищущих очищения и освящения. Уединение, ночь - приличнейшая этому труду обстановка; самый же труд - множество поклонов с сердечными воздыханиями. Трудись и трудись, леность всякую отогнавши. Сжалится над тобою Господь и подаст тебе дух молитвы, который начнет действовать в тебе так же, как действует дыхание в теле.  Начинай! Се ныне время благоприятно.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("8 сентября 2020 г. ( 26 августа ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 14-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сретение <a  href=\"http://days.pravoslavie.ru/name/2812.html\" target=\"_blank\" title=\"Владимирская икона Божией Матери\">Владимирской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2812_112.html\" target=\"_blank\" >икона</a>) иконы Пресвятой Богородицы. Мчч. <a  href=\"http://days.pravoslavie.ru/name/74.html\" target=\"_blank\" title=\"Мученик Адриан Никомидийский\">Адриана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii74_386.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2624.html\" target=\"_blank\" title=\"Мученица Наталия Никомидийская\">Наталии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2624_471.html\" target=\"_blank\" >икона</a>) и прочих 23, с ними пострадавших. Блж. <a  href=\"http://days.pravoslavie.ru/name/14304.html\" target=\"_blank\" title=\"Мария (Федина) Дивеевская, Христа ради юродивый\">Марии</a> Дивеевской. Прп. <a  href=\"http://days.pravoslavie.ru/name/75.html\" target=\"_blank\" title=\"Преподобный Адриан Ондрусовский\">Адриана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii75_1627.html\" target=\"_blank\" >икона</a>) Ондрусовского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13769.html\" target=\"_blank\" title=\"Петр (Иовлев), иерей, сщмч.\">Петра</a> пресвитера. Св. <a  href=\"http://days.pravoslavie.ru/name/9305.html\" target=\"_blank\" title=\"Георгий (Коссов), протоиерей, исп.\">Георгия</a> исп., пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9521.html\" target=\"_blank\" title=\"Виктор (Элланский), иерей, сщмч.\">Виктора</a> пресвитера, мчч. <a  href=\"http://days.pravoslavie.ru/name/9965.html\" target=\"_blank\" title=\"Димитрий (Морозов), мч.\">Димитрия</a>, <a  href=\"http://days.pravoslavie.ru/name/10018.html\" target=\"_blank\" title=\"Петр (Бордан), мч.\">Петра</a> и св. <a  href=\"http://days.pravoslavie.ru/name/9394.html\" target=\"_blank\" title=\"Роман (Медведь), протоиерей, исп.\">Романа</a> исп., пресвитера. Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/9099.html\" target=\"_blank\" title=\"Святитель Николай (Могилевский), митрополит Алма-Атинский, исп.\">Николая</a> исп., митр. Алма- Атинского. Псково-Печерской  именуемой <a  href=\"http://days.pravoslavie.ru/name/2997.html\" target=\"_blank\" title=\"Псково-Печерская икона Божией Матери \"Умиление\"\">\"Умиление\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2997_2977.html\" target=\"_blank\" >икона</a>), иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_12_20_0_13_0_2.html#z\">2 Кор., 196 зач., XII, 20 - XIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_4_24_34.html#z\">Мк., 17 зач., IV, 24-34.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18126.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 12, 20-13, 2</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18127.htm\" target=\"_blank\" title=\"Библия\">Мк. 4, 24-34</a>). Притча о постепенном возрастании из семени пшеницы изображает в отношении к каждому человеку постепенное возрастание потаенного в сердце человека, благодатью Божией засеменяемого и соблюдаемого, а в отношении к человечеству - постепенное увеличение тела Церкви или общества спасаемых в Господе Иисусе Христе, по чину Им установленному. Этою притчею разрешается вопрос: отчего до сего времени христианство не всеобъемлюще? Как человек, бросив семя в землю, спит и встает, семя же прозябает и растет само собою без его ведома, так и Господь, положив на земле семя Божественной жизни, дал ему свободу о себе разрастаться, подчинив его естественному течению событий и не насилуя этих последних; блюдет только семя, содействует ему в частных случаях и дает общее направление. Причина этому в свободе человека. Господь ищет, чтобы человек сам себя подчинил Ему и ждет склонения его свободы; дело и длится. Если бы все зависело только от воли Божией, давно бы все были христианами. Другая мысль: созидаемое тело Церкви созидается на небе; с земли поступают только материалы, образуемые тоже небесными деятелями. Слово с неба проходит по земле и привлекает хотящих. Внявшие и последовавшие поступают, как сырцовый материал, в лабораторию Божию, в Церковь, и здесь переделываются по образцам с неба данным. Переделанные, по исходе из этой жизни, переходят на небо и там поступают в здание Божие, каждый куда годен. Это идет непрерывно и, следовательно, дело Божие не стоит. Всеобщая торжественность христианства и не требуется для сего. Здание Божие созидается невидимо.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

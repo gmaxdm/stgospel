@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("14 декабря 2020 г. ( 1 декабря ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 28-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: горячая пища без масла. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/1587.html\" target=\"_blank\" title=\"Наум, пророк, из 12 малых пророков\">Наума</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1587_1930.html\" target=\"_blank\" >икона</a>). Прав. <a  href=\"http://days.pravoslavie.ru/name/2283.html\" target=\"_blank\" title=\"Филарет Милостивый, Пафлагонянин\">Филарета</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2283_1255.html\" target=\"_blank\" >икона</a>) Милостивого. Мч. <a  href=\"http://days.pravoslavie.ru/name/158.html\" target=\"_blank\" title=\"Анания Персиянин, мч.\">Анании</a> (<a  href=\"http://days.pravoslavie.ru/images/ii158_4624.html\" target=\"_blank\" >икона</a>) Персянина. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-tim_2_20_26.html#z\">2 Тим., 294 зач., II, 20-26.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_19_37_44.html#z\">Лк., 97 зач., XIX, 37-44.</a> Прав.: <a href=\"http://days.pravoslavie.ru/bible/z_kol_3_12_16.html#z\">Кол., 258 зач., III, 12-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_31_36.html#z\">Лк., 26 зач., VI, 31-36.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18330.htm\" target=\"_blank\" title=\"Библия\">2 Тим. 2, 20-26</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18331.htm\" target=\"_blank\" title=\"Библия\">Лк. 19, 37-44</a>). Народ взывает: \"осанна!\", - а Господь плачет. Не совершается ли нечто подобное и при наших торжествах церковных? Тогда видимость была торжественна; но Господь смотрел на то, что было в душах невидимо, и видел его достойным плача. И у нас видимость на праздниках всегда празднественна; но таково ли бывает внутреннее всех настроение? Иной не понимает совсем силы и значения праздников; иной чутьем темно ощущает нечто, а ясно ничего не видит; и разве кто-кто и видит, и чувствует, и располагается достойно празднеству. Жертв праздники наши берут много; но сколько из них отделяется Господу и братиям? Или ничего, или самая незначительная малость; все почти берет чрево и суетность. От Господа укрыться это не может, и не дивно если Он, говоря по человечески, плачет, когда мы издаем торжественные возгласы. Таковы-то искупленные, оправданные, всыновленные!. . Дали обет, приняли обязательство - духом ходить и похотей плотских не совершать, а тут у них что идет? Сыны Царствия хуже последних рабов!. . .<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

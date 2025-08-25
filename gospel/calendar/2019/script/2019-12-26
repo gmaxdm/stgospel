@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("26 декабря 2020 г. ( 13 декабря ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 29-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/718.html\" target=\"_blank\" title=\"Евстратий Севастийский, военачальник, мч.\">Евстратия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii718_535.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/27.html\" target=\"_blank\" title=\"Авксентий Севастийский, Аравийский, пресвитер, сщмч.\">Авксентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii27_535.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/670.html\" target=\"_blank\" title=\"Евгений Севастийский, мч.\">Евгения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii670_535.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1449.html\" target=\"_blank\" title=\"Мардарий Севастийский, мч.\">Мардария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1449_535.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1677.html\" target=\"_blank\" title=\"Орест Севастийский, мч.\">Ореста</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1677_535.html\" target=\"_blank\" >икона</a>). Мц. <a  href=\"http://days.pravoslavie.ru/name/2575.html\" target=\"_blank\" title=\"Лукия Сиракузская, дева, мц.\">Лукии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2575_2214.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/266.html\" target=\"_blank\" title=\"Арсений Латрийский, игумен\">Арсения</a> Латрийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/257.html\" target=\"_blank\" title=\"Преподобный Аркадий Вяземский и Новоторжский\">Аркадия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii257_332.html\" target=\"_blank\" >икона</a>) Новоторжского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1448.html\" target=\"_blank\" title=\"Мардарий Печерский, затворник\">Мардария</a>, затворника Печерского. Свт. <a  href=\"http://days.pravoslavie.ru/name/14498.html\" target=\"_blank\" title=\"Святитель Досифей, митрополит Молдавский\">Досифея</a>, митр. Молдавского (Рум.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9457.html\" target=\"_blank\" title=\"Александр (Юзефович), иерей, сщмч.\">Александра</a> пресвитера и мч. <a  href=\"http://days.pravoslavie.ru/name/9977.html\" target=\"_blank\" title=\"Иоанн (Меньков), мч.\">Иоанна</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9295.html\" target=\"_blank\" title=\"Владимир (Лозина-Лозинский), протоиерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/13898.html\" target=\"_blank\" title=\"Александр (Поспелов), протоиерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/13899.html\" target=\"_blank\" title=\"Иаков (Гусев), иерей, сщмч.\">Иакова</a>, <a  href=\"http://days.pravoslavie.ru/name/14442.html\" target=\"_blank\" title=\"Алексий (Рождественский), протоиерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/14496.html\" target=\"_blank\" title=\"Григорий (Фаддеев), иерей, сщмч.\">Григория</a>  пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9698.html\" target=\"_blank\" title=\"Николай (Амассийский), иерей, сщмч.\">Николая</a> пресвитера. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13900.html\" target=\"_blank\" title=\"Емилиан (Киреев), иерей, сщмч.\">Емилиана</a>, <a  href=\"http://days.pravoslavie.ru/name/14497.html\" target=\"_blank\" title=\"Василий (Покровский), иерей, сщмч.\">Василия</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22.</a> Лит. - Мчч.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_2_11_13.html#z\">Еф., 220 зач. (от&nbsp;полу&#769;), II, 11-13.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_13_18_29.html#z\">Лк., 72 зач., XIII, 18-29.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18356.htm\" target=\"_blank\" title=\"Библия\">Еф. 2, 11-13</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18357.htm\" target=\"_blank\" title=\"Библия\">Лк. 13, 18-29</a>). \"Подвизайтесь войти сквозь тесные врата\". Тесные врата - жизнь не по своей воле, не по своим желаниям, не в угоду себе; широкие врата - жизнь по всем движениям и стремлениям страстного сердца, без малейшего себе отказа в чем-либо. Таким образом, врата в царствие - самостеснение. Стесняй себя во всем - и это будет то же, что напряжение или упор в дверь, чтоб отворить ее и протесниться сквозь нее. Как и чем себя стеснять? Заповедями Божиими, противоположными страстным движениям сердца. Когда начинаешь сердиться на кого, вспомни заповедь Господа: \"не гневайтесь всяко\", и стесни тем сердце свое. Когда придут блудные движения, приведи на мысль запрещение даже и смотреть на жену с вожделением, и стесни тем свое похотение. Когда захочется осудить кого, вспомни слово Господа, что этим ты делаешь Судью небесного неумолимым в отношении к себе, и стесни тем свою заносчивость. Так в отношении и ко всякому порочному движению. Собери против каждого из них изречения Божественного Писания и держи их в памяти. Как только выйдет из сердца какое-либо дурное желание, ты тотчас вяжи его направленным против него изречением; или наперед обвяжи все свои желания и помышления Божественными словами и ходи в них: будешь, будто в узах. Но в этих узах - свобода, или свободный путь в Царствие Божие.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

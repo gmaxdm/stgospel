@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("4 января 2020 г. (22  декабря 2019 г. ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 29-я по Пятидесятнице. Суббота перед Рождеством Христовым. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмц. <a  href=\"http://days.pravoslavie.ru/name/2384.html\" target=\"_blank\" title=\"Святая великомученица Анастасия Узорешительница\">Анастасии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2384_104.html\" target=\"_blank\" >икона</a>) Узорешительницы. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2351.html\" target=\"_blank\" title=\"Хрисогон Римлянин, Аквилейский, мч.\">Хрисогона</a>, <a  href=\"http://days.pravoslavie.ru/name/2718.html\" target=\"_blank\" title=\"Святая мученица Феодотия\">Феодотии</a>, <a  href=\"http://days.pravoslavie.ru/name/691.html\" target=\"_blank\" title=\"Евод Никейский, мч.\">Евода</a>, <a  href=\"http://days.pravoslavie.ru/name/722.html\" target=\"_blank\" title=\"Евтихиан Иллирийский, мч.\">Евтихиана</a> и иных. Прп. <a  href=\"http://days.pravoslavie.ru/name/14745.html\" target=\"_blank\" title=\"Никифор (Джанакакис) Прокаженный, прп.\">Никифора</a> Прокаженного. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9310.html\" target=\"_blank\" title=\"Димитрий (Киранов), протоиерей, сщмч.\">Димитрия</a> и <a  href=\"http://days.pravoslavie.ru/name/9407.html\" target=\"_blank\" title=\"Феодор (Поройков), протоиерей, сщмч.\">Феодора</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("Субботы пред Рождеством Христовым: <a href=\"http://days.pravoslavie.ru/bible/z_gal_3_8_12.html#z\">Гал., 205 зач., III, 8-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_13_18_29.html#z\">Лк., 72 зач., XIII, 18-29.</a> Ряд. (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_ef_2_11_13.html#z\">Еф., 220 зач. (от&nbsp;полу&#769;), II, 11-13.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_16_10_15.html#z\">Лк., 81 зач., XVI, 10-15.</a> Вмц.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_3_23_29.html#z\">Гал., 208 зач., III, 23-29.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_36_50.html#z\">Лк., 33 зач., VII, 36-50.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18385.htm\" target=\"_blank\" title=\"Библия\">Лк. 16, 10-15</a>). \"Не можете служить Богу и мамоне\". Раздвоенная мысль и раздвоенное сердце делают человека ни к чему негожим; ибо \"человек с двоящимися мыслями не тверд во всех путях своих\". Он или ничего не делает, или делает да переделывает, то есть, одною рукою строит, а другою разоряет. Источник истинно богоугодной жизни - твердая решимость во всем угождать Богу. Эта решимость устремляет все помышления, желания и чувства человека на одно, и объединяя таким образом его внутреннее, делает его сильным на дела и вносит единство во всю совокупность его деятельности, сообщая ей один характер. Дела такие благоуспешны и многоплодны потому, что полны истинной жизни. Отчего вялость, неподвижность, бесплодность дел? От внутренней безжизненность, а внутренняя безжизненность от раздвоения внутреннего. Не сознана единая цель, не поставлена она законом жизни, - дела и идут, как пришлось. Оттого одни направляются в одну сторону, другие в другою; здание жизни и не созидается. Избери цель и посвяти ей жизнь. Настоящая, главная цель указана богоподобным естеством человека; она живое богообщение. К это главной цели обращай и цели частные, ученые, житейские, гражданские, коммерческие, служебные, правительственные. Если бы всякий в обществе держался этого - в общество внесен бы был строй один общий, и один дух всех бы исполнил.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

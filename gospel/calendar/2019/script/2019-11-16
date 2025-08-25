@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("16 ноября 2020 г. ( 3 ноября ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 24-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/95.html\" target=\"_blank\" title=\"Святитель Акепсим Наессонский (Анисский), Арбельский, Персидский, епископ, сщмч.\">Акепсима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii95_3823.html\" target=\"_blank\" >икона</a>) еп., <a  href=\"http://days.pravoslavie.ru/name/1058.html\" target=\"_blank\" title=\"Иосиф Персидский, пресвитер, сщмч.\">Иосифа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1058_3823.html\" target=\"_blank\" >икона</a>) пресвитера и <a  href=\"http://days.pravoslavie.ru/name/85.html\" target=\"_blank\" title=\"Священномученик Аифал Персидский\">Аифала</a> (<a  href=\"http://days.pravoslavie.ru/images/ii85_1629.html\" target=\"_blank\" >икона</a>) диакона. Обновление (освящение) храма вмч. <a  href=\"http://days.pravoslavie.ru/name/497.html\" target=\"_blank\" title=\"Великомученик Георгий Победоносец\">Георгия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii497_116.html\" target=\"_blank\" >икона</a>) в Лидде. Мчч. <a  href=\"http://days.pravoslavie.ru/name/292.html\" target=\"_blank\" title=\"Аттик Севастийский, мч.\">Аттика</a> (<a  href=\"http://days.pravoslavie.ru/images/ii292_3855.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/52.html\" target=\"_blank\" title=\"Агапий Севастийский, мч.\">Агапия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii52_3855.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/676.html\" target=\"_blank\" title=\"Евдоксий Севастийский, мч.\">Евдоксия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii676_3855.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1187.html\" target=\"_blank\" title=\"Катерий (Картерий) Севастийский, мч.\">Катерия</a>, <a  href=\"http://days.pravoslavie.ru/name/1129.html\" target=\"_blank\" title=\"Истукарий Севастийский, мч.\">Истукария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1129_3855.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1713.html\" target=\"_blank\" title=\"Пактовий Севастийский, мч.\">Пактовия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1713_3855.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1649.html\" target=\"_blank\" title=\"Никтополион Севастийский, мч.\">Никтополиона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1649_3855.html\" target=\"_blank\" >икона</a>) и дружины их. Прп. <a  href=\"http://days.pravoslavie.ru/name/94.html\" target=\"_blank\" title=\"Акепсим Антиохийский, Сирийский, пресвитер, отшельник\">Акепсима</a>. Прав. <a  href=\"http://days.pravoslavie.ru/name/2670.html\" target=\"_blank\" title=\"Снандулия (Яздундокта) Персидская\">Снандулии</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9370.html\" target=\"_blank\" title=\"Николай (Динариев), протоиерей, сщмч.\">Николая</a> и мч. <a  href=\"http://days.pravoslavie.ru/name/10013.html\" target=\"_blank\" title=\"Павел (Парфенов), мч.\">Павла</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9484.html\" target=\"_blank\" title=\"Василий (Архангельский), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9768.html\" target=\"_blank\" title=\"Петр (Косменков), иерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/9505.html\" target=\"_blank\" title=\"Василий (Покровский), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9259.html\" target=\"_blank\" title=\"Александр (Парусников), протоиерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9299.html\" target=\"_blank\" title=\"Владимир (Писарев), протоиерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/9397.html\" target=\"_blank\" title=\"Сергий (Кедров), протоиерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/9726.html\" target=\"_blank\" title=\"Николай (Пятницкий), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9289.html\" target=\"_blank\" title=\"Викентий (Смирнов), протоиерей, сщмч.\">Викентия</a>, <a  href=\"http://days.pravoslavie.ru/name/9613.html\" target=\"_blank\" title=\"Иоанн (Кесарийский), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9774.html\" target=\"_blank\" title=\"Петр (Орленков), иерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/12870.html\" target=\"_blank\" title=\"Александр (Зверев), протоиерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/12872.html\" target=\"_blank\" title=\"Павел (Андреев), протоиерей, сщмч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/13843.html\" target=\"_blank\" title=\"Косма (Петриченко), иерей, сщмч.\">Космы</a> пресвитеров и <a  href=\"http://days.pravoslavie.ru/name/9861.html\" target=\"_blank\" title=\"Симеон (Кречков), диакон, сщмч.\">Симеона</a> диакона. Мц. <a  href=\"http://days.pravoslavie.ru/name/10069.html\" target=\"_blank\" title=\"Евдокия (Сафронова), мц.\">Евдокии</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14484.html\" target=\"_blank\" title=\"Сергий (Станиславлев), протодиакон, сщмч.\">Сергия</a> диакона. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-sol_2_20_0_3_0_8.html#z\">1 Сол., 267 зач., II, 20 - III, 8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_11_29_33.html#z\">Лк., 59 зач., XI, 29-33.</a> Свв.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18271.htm\" target=\"_blank\" title=\"Библия\">1 Фес. 2, 20-3, 8</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18272.htm\" target=\"_blank\" title=\"Библия\">Лк. 11, 29-33</a>). \"Царица южная восстанет на суд с людьми рода сего и осудит их\", За что? За равнодушие к делу совершаемому Господом перед их глазами. Та царица, услышав о мудрости Соломоновой, издалека пришла послушать его, а эти мужи, имея перед лицом Самого Господа, не внимают Ему, хоть очевидно было, что Он выше Соломона, как небо выше земли. И всех равнодушных к делам Божиим, осуждает южная царица, потому что Господь всегда и среди нас так же очевидно присущ в евангельских сказаниях, как было тогда. Читая Евангелие, мы имеем пред очами Господа со всеми дивными делами Его, ибо оно также несомненно, как несомненно свидетельство собственных очей. Между тем, кто-кто внимает Господу так печатлеющемуся в душах наших. Мы смежили очи свои или обратили их в другую сторону, оттого и не видим; а не видя, не занимаемся делами Господа. Но это не извинение, а причина невнимания, столько же преступная, сколько преступно и самое дело, происходящее от него. Дело Господа наше первое дело, то есть спасение души. К тому, что от Господа, мы должны внимать и без отношения к нам, не тем ли более когда оно все обращено на нас, на устроение нашего сушественного дела, значение которого простирается на всю вечность? Судите, сколь же преступно невнимание к такому делу!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

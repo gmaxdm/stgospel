@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("26 февраля 2020 г. ( 13 февраля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица cырная (масленица) - сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Из трапезы исключается мясо. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1492.html\" target=\"_blank\" title=\"Мартиниан Кесарийский (Палестинский), прп.\">Мартиниана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1492_4037.html\" target=\"_blank\" >икона</a>). Прпп. <a  href=\"http://days.pravoslavie.ru/name/2512.html\" target=\"_blank\" title=\"Зоя Вифлеемская, прп.\">Зои</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2512_2176.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2663.html\" target=\"_blank\" title=\"Преподобная Фотиния (Светлана) Палестинская\">Фотинии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2663_2282.html\" target=\"_blank\" >икона</a>) (Светланы). Свт. <a  href=\"http://days.pravoslavie.ru/name/14757.html\" target=\"_blank\" title=\"Серафим (Соболев), архиеп. Богучарский\">Серафима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14757_4591.html\" target=\"_blank\" >икона</a>) (Соболева), архиеп. Богучарского. Прп. <a  href=\"http://days.pravoslavie.ru/name/683.html\" target=\"_blank\" title=\"Святитель Евлогий Александрийский, архиепископ\">Евлогия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii683_4035.html\" target=\"_blank\" >икона</a>), архиеп. Александрийского. Прп. Стефана, в иночестве <a  href=\"http://days.pravoslavie.ru/name/2003.html\" target=\"_blank\" title=\"Преподобный Симеон Мироточивый, царь Сербский\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2003_648.html\" target=\"_blank\" >икона</a>), царя Сербского, Мироточивого. <a  href=\"http://days.pravoslavie.ru/name/14915.html\" target=\"_blank\" title=\"Собор святых Омской митрополии\">Собор</a> святых Омской митрополии. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13662.html\" target=\"_blank\" title=\"Василий (Триумфов), иерей, сщмч.\">Василия</a> и <a  href=\"http://days.pravoslavie.ru/name/13664.html\" target=\"_blank\" title=\"Гавриил (Преображенский), иерей, сщмч.\">Гавриила</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9321.html\" target=\"_blank\" title=\"Зосима (Трубачев), протоиерей, сщмч.\">Зосимы</a>, <a  href=\"http://days.pravoslavie.ru/name/9705.html\" target=\"_blank\" title=\"Николай (Добролюбов), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/10526.html\" target=\"_blank\" title=\"Василий (Горбачев), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/10528.html\" target=\"_blank\" title=\"Иоанн (Покровский), протоиерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/10530.html\" target=\"_blank\" title=\"Леонтий (Гримальский), протоиерей, сщмч.\">Леонтия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10530_4352.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/13663.html\" target=\"_blank\" title=\"Владимир (Покровский), иерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/13669.html\" target=\"_blank\" title=\"Парфений (Грузинов), иерей, сщмч.\">Парфения</a>, <a  href=\"http://days.pravoslavie.ru/name/13666.html\" target=\"_blank\" title=\"Иоанн (Косинский), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13665.html\" target=\"_blank\" title=\"Иоанн (Калабухов), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13668.html\" target=\"_blank\" title=\"Михаил (Попов), иерей, сщмч.\">Михаила</a> пресвитеров и <a  href=\"http://days.pravoslavie.ru/name/14408.html\" target=\"_blank\" title=\"Евгений (Никольский), диакон, сщмч.\">Евгения</a> диакона, мч. <a  href=\"http://days.pravoslavie.ru/name/10014.html\" target=\"_blank\" title=\"Павел (Соколов), мч.\">Павла</a>, прмцц. <a  href=\"http://days.pravoslavie.ru/name/10534.html\" target=\"_blank\" title=\"Анна, прмц.\">Анны</a>, <a  href=\"http://days.pravoslavie.ru/name/10536.html\" target=\"_blank\" title=\"Вера (Морозова), прмц.\">Веры</a> и <a  href=\"http://days.pravoslavie.ru/name/13667.html\" target=\"_blank\" title=\"Ирина (Хвостова), прмц.\">Ирины</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_ioil_2_12_26.html#z\">Иоил. II, 12-26.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_ioil_3_12_21.html#z\">Иоил. III, 12-21.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"И ныне еще говорит Господь: обратитесь ко Мне всем сердцем своим в посте, плаче и рыдании. Раздирайте сердца ваши, а не одежды ваши и обратитесь к Господу Богу вашему; ибо Он благ и милосерд, долготерпелив и многомилостив. Вострубите трубою, назначьте пост и объявите торжественное собрание. . . пусть выйдет жених из чертога своего и невеста из своей горницы. . . да плачут священники, служители Господни, и говорят: \"пощади, Господи, народ Твой\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18462.htm\" target=\"_blank\" title=\"Библия\">Иоиль. 2, 12-17</a>). Кто слышит ныне глас этот, раздающийся в церкви? Если бы с неба на площадях раздался громовой голос: \"пощадите, люди, себя самих, да пощадит и вас Господь\", может быть кто-нибудь и услышал бы его и очнулся от упоения утехами, похотями и вином. Священники не перестают взывать: \"пощади Господи\"! Но от Господа верно исходит грозный ответ: \"не пощажу, ибо нет ищущих пощады\". Все спиною стоят к Господу, отвратились от Него и забыли Его.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

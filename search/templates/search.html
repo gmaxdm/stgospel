@@ -1,0 +1,21 @@
+{% extends 'wrapper.html' %}
+{% block title %}Поиск текста по Библии{% endblock %}
+{% block main %}
+    <div class="mt-3 mb-3">
+        {% for line in lines %}
+            <blockquote class="blockquote text-right">
+                <p class="mb-0"><strong class="text-danger">{{ line.num }}</strong> {{ line.text }}</p>
+                <footer class="blockquote-footer">Глава {{ line.chapter.num }} <cite title="Название книги священного писания"><a href="{% url 'book' line.chapter.book.slug %}">{{ line.chapter.book.title }}</a></cite></footer>
+            </blockquote>
+        {% endfor %}
+    </div>
+    <script type="text/javascript">
+        $(function() {
+            findAndReplaceDOMText(document.getElementById("main"), {
+                preset: 'prose',
+                find: /{{ text }}/i,
+                wrap: 'mark',
+            });
+        });
+    </script>
+{% endblock %}

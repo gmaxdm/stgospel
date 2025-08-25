@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("21 августа 2020 г. ( 8 августа ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 11-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Успенский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/777.html\" target=\"_blank\" title=\"Святитель Емилиан Кизический, епископ, исповедник\">Емилиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii777_4429.html\" target=\"_blank\" >икона</a>) исповедника, еп. Кизического. Перенесение мощей прпп. <a  href=\"http://days.pravoslavie.ru/name/854.html\" target=\"_blank\" title=\"Преподобный Зосима, игумен Соловецкий\">Зосимы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii854_180.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1907.html\" target=\"_blank\" title=\"Преподобный Савватий Соловецкий\">Савватия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1907_180.html\" target=\"_blank\" >икона</a>) Соловецких, второе перенесение мощей прпп. <a  href=\"http://days.pravoslavie.ru/name/854.html\" target=\"_blank\" title=\"Преподобный Зосима, игумен Соловецкий\">Зосимы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii854_180.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1907.html\" target=\"_blank\" title=\"Преподобный Савватий Соловецкий\">Савватия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1907_180.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/512.html\" target=\"_blank\" title=\"Преподобный Герман Соловецкий\">Германа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii512_1075.html\" target=\"_blank\" >икона</a>) Соловецких. Свт. <a  href=\"http://days.pravoslavie.ru/name/1543.html\" target=\"_blank\" title=\"Святитель Мирон Критский, епископ\">Мирона</a> Чудотворца, еп. Критского. Прп. <a  href=\"http://days.pravoslavie.ru/name/546.html\" target=\"_blank\" title=\"Григорий Печерский, иконописец\">Григория</a>, иконописца Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/549.html\" target=\"_blank\" title=\"Григорий Синаит, прп.\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii549_1747.html\" target=\"_blank\" >икона</a>) Синаита. Мчч. <a  href=\"http://days.pravoslavie.ru/name/759.html\" target=\"_blank\" title=\"Елевферий, мч.\">Елевферия</a> и <a  href=\"http://days.pravoslavie.ru/name/1342.html\" target=\"_blank\" title=\"Леонид, мч.\">Леонида</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/11902.html\" target=\"_blank\" title=\"Иосиф (Баранов), прмч.\">Иосифа</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/11906.html\" target=\"_blank\" title=\"Николай (Шумков), иерей, сщмч.\">Николая</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9116.html\" target=\"_blank\" title=\"Святитель Никодим (Кротков), архиепископ Костромской, сщмч.\">Никодима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9116_3020.html\" target=\"_blank\" >икона</a>), архиеп. Костромского. <a  href=\"http://days.pravoslavie.ru/name/2991.html\" target=\"_blank\" title=\"Толгская\">Толгской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2991_1196.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_2-kor_4_13_18.html#z\">2 Кор., 177 зач., IV, 13-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_24_27_33_24_42_51.html#z\">Мф., 100 зач., XXIV, 27-33, 42-51</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба прпп. Зосимы и Савватия, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30,</a> а на литургии - чтения дня и преподобных: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18088.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 4, 13-13</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18089.htm\" target=\"_blank\" title=\"Библия\">Мф. 24, 27-33. 42-51</a>). \"Бодрствуйте, потому что не знаете, в который час Господь ваш приидет\". Если б это помнилось, не было бы и грешников, а между тем не помнится, хоть и всякий знает, что это несомненно верно. Даже подвижники, самые строгие, и те не сильны были свободно держать память об этом, а ухитрялись прикреплять ее к сознанию так, чтобы она не отходила: кто гроб держал в келлии, кто упрашивал сотоварищей своих по подвигу спрашивать о гробе и могиле, кто держал картинки смерти и суда, кто еще как. Не касается души смерть, она и не помнит ее. Но всячески, не может же не касаться души то, что тотчас следует за смертью; уж об этом то она не может не иметь заботы, так как тут решение ее участи на веки вечные. Отчего же этого-то она не помнит? Сама себя обманывает, что не скоро и что, авось, как-нибудь дело пройдет не худо для нас. Горькая! То уж несомненно, что которая душа держит такие мысли, та нерадива и поблажает себе, так как же думать, чтоб дело суда прошло для нее благоприятно? Нет, надо так себя держать, как держит ученик, которому предстоит экзамен: что ни делает он, а экзамен нейдет из головы; такое памятование не дозволяет ему и минуты понапрасну тратить, а все время употребляет он на приготовление к экзамену. Когда бы и нам так настроиться!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

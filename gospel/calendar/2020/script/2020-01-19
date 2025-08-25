@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("19 января 2020 г. ( 6 января ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 31-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/3040.html\" target=\"_blank\" title=\"Крещение Господне\">Святое Богоявление. Крещение Господа Бога и Спаса нашего Иисуса Христа.</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii3040_11.html\" target=\"_blank\" >икона</a>)</span></span><br> Преставление свт. <a  href=\"http://days.pravoslavie.ru/name/2253.html\" target=\"_blank\" title=\"Святитель Феофан Затворник, Вышенский, епископ\">Феофана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2253_683.html\" target=\"_blank\" >икона</a>), Затворника Вышенского. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mk_1_9_11.html#z\">Мк., 2 зач., I, 9-11.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_tit_2_11_14_3_4_7.html#z\">Тит., 302 зач., II, 11-14; III, 4-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_3_13_17.html#z\">Мф., 6 зач., III, 13-17.</a> На освящении воды: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_10_1_4.html#z\">1 Кор., 143 зач. (от&nbsp;полу&#769;), X, 1-4.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_1_9_11.html#z\">Мк., 2 зач., I, 9-11.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("Богоявление (<a  href=\"https://days.pravoslavie.ru/Bible/C18400.htm\" target=\"_blank\" title=\"Библия\">Тит. 2, 11-14; З, 4-7</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18401.htm\" target=\"_blank\" title=\"Библия\">Мф. З, 13-17</a>). Крещение Господа названо Богоявлением потому что в нем явил Себя так осязательно единый истинный Бог в Троице покланяемый : Бог Отец - гласом с неба, Бог Сын - воплотившийся - крещением. Бог Дух Святый - нисшествием на Крещаемого. Тут явлено и таинство отношения лиц Пресвятой Троицы. Бог Дух Святый от Отца исходит и в Сыне почивает а не исходит от Него. Явлено здесь и то, что воплощенное домостроительство спасения совершено Богом Сыном воплотившимся, соприсущу Ему Духу Святому и Богу Отцу. Явлено и то, что и спасение каждого может совершиться не иначе, как в Господе Иисусе Христе, благодатью Св. Духа, по благоволению Отца. Все таинства христианские сияют здесь божественным светом своим и просвещают умы и сердца с верою совершающих это великое празднество.  Приидите, востечем умно горе , и погрузимся в созерцание этих таин спасения нашего, поя: во Иордане крещающуся Тебе, Господи, Тройческое явися поклонение, - спасение тройчески нам устрояющее и нас тройчески спасающее.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

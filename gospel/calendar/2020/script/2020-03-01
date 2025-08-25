@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("1 марта 2020 г. ( 17 февраля ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица cырная (масленица) - сплошная. Неделя 37-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Заговенье на Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Из трапезы исключается мясо. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмч. <a  href=\"http://days.pravoslavie.ru/name/2203.html\" target=\"_blank\" title=\"Великомученик Феодор Тирон\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2203_1238.html\" target=\"_blank\" >икона</a>) Тирона. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/804.html\" target=\"_blank\" title=\"Священномученик Ермоген, патриарх Московский и всея Руси\">Ермогена</a> (<a  href=\"http://days.pravoslavie.ru/images/ii804_214.html\" target=\"_blank\" >икона</a>), Патриарха Московского и всея России, чудотворца. Прав. <a  href=\"http://days.pravoslavie.ru/name/2586.html\" target=\"_blank\" title=\"Мариамна (Мария)\">Мариамны</a>, сестры ап. <a  href=\"http://days.pravoslavie.ru/name/2291.html\" target=\"_blank\" title=\"Филипп, апостол из 12-ти\">Филиппа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2291_1239.html\" target=\"_blank\" >икона</a>). Обретение мощей мч. <a  href=\"http://days.pravoslavie.ru/name/1533.html\" target=\"_blank\" title=\"Мученик Мина Александрийский\">Мины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1533_959.html\" target=\"_blank\" >икона</a>) Калликелада. Прп <a  href=\"http://days.pravoslavie.ru/name/2195.html\" target=\"_blank\" title=\"Феодор Печерский, Молчаливый\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2195_2079.html\" target=\"_blank\" >икона</a>) молчаливого, Печерского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13675.html\" target=\"_blank\" title=\"Михаил (Никологорский), иерей, сщмч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/14219.html\" target=\"_blank\" title=\"Павел (Косминков), протоиерей, сщмч.\">Павла</a> пресвитеров. Мц. <a  href=\"http://days.pravoslavie.ru/name/14410.html\" target=\"_blank\" title=\"Анна (Четверикова), мц.\">Анны</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - Ев. 4-е, <a href=\"http://days.pravoslavie.ru/bible/z_lk_24_1_12.html#z\">Лк., 112 зач., XXIV, 1-12.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_13_11_0_14_0_4.html#z\">Рим., 112 зач., XIII, 11 - XIV, 4.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_6_14_21.html#z\">Мф., 17 зач., VI, 14-21</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается служба сщмч. Ермогена, то на литургии прокимен и аллилуиарий - Недели сыропустной и священномученика, и чтения - дня и священномученика: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18471.htm\" target=\"_blank\" title=\"Библия\">Мф. 6, 14-21</a>). \"Если вы будете прощать людям согрешения их, то простит и вам Отец ваш Небесный; а если не будете прощать людям согрешения их, то и Отец ваш не простит вам согрешений ваших\". Какой простой и подручный способ спасения! Прощаются тебе согрешения под условием прощения прегрешений против тебя ближнего твоего. Сам, значит, ты в своих руках. Переломи себя и от немирных чувств к брату перейди к искренно мирным, - и все тут. Прощеный день, какой это великий небесный день Божий! Когда бы все мы как должно пользовались им, то нынешний день из христианских обществ делал бы райские общества, и земля сливалась бы с небом.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

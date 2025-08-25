@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("9 февраля 2020 г. ( 27 января ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 34-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6613.html\" target=\"_blank\" title=\"Собор новомучеников и исповедников Церкви Русской\">Собор</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6613_23.html\" target=\"_blank\" >икона</a>) новомучеников и исповедников Церкви Русской. Перенесение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/978.html\" target=\"_blank\" title=\"Святитель Иоанн Златоуст\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii978_8.html\" target=\"_blank\" >икона</a>) Златоуста. <a  href=\"http://days.pravoslavie.ru/name/14503.html\" target=\"_blank\" title=\"Поминовение всех усопших, пострадавших в годину гонений за веру Христову\">Поминовение</a> всех усопших, пострадавших в годину гонений за веру Христову. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 1-е, <a href=\"http://days.pravoslavie.ru/bible/z_mf_28_16_20.html#z\">Мф., 116 зач., XXVIII, 16-20.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_2-tim_3_10_15.html#z\">2 Тим., 296 зач., III, 10-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_18_10_14.html#z\">Лк., 89 зач., XVIII, 10-14.</a> Мчч.: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_28_39.html#z\">Рим., 99 зач., VIII, 28-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_8_19.html#z\">Лк., 105-106 зач., XXI, 8-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18427.htm\" target=\"_blank\" title=\"Библия\">2 Тим. 3, 10-15</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18428.htm\" target=\"_blank\" title=\"Библия\">Лк. 18, 10-14</a>). Вчера учило нас Евангелие неотступности в молитве, а ныне учит смирению или чувству бесправности на услышание. Не присваивай себе права на услышание, но приступай к молитве, как никакого внимания недостойный, и дающий себе дерзновение отверзть уста и вознести молитву к Богу по одному безпредельному к нам бедным снисхождению Господа. И на мысль да не приходит тебе: я то и то сделал; подай же мне то-то. Все, что бы ты ни делал, почитай должным; ты должен был все то сделать. Если бы не сделал, подвергся бы наказанию, а что сделал, тут не за что награждать, ничего особенного не явил ты. Вон фарисей перечислил свои права на услышание, и вышел из церкви ни с чем. Худо не то, что он так делал, как говорил; так и следовало ему поступать, а худо то, что он выставил то, как особенное нечто, тогда как сделавши то и думать о том не следовало. - Избави нас, Господи, от этого фарисейского греха! Словами редко кто так говорит, но в чувстве сердца редко кто не бывает таким. Ибо отчего плохо молятся? Оттого, что чувствуют себя и без того в порядке находящимся перед Богом.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

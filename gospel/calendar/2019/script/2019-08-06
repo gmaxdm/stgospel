@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("6 августа 2020 г. ( 24 июля ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 9-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мц. <a  href=\"http://days.pravoslavie.ru/name/2757.html\" target=\"_blank\" title=\"Христина Тирская, мц.\">Христины</a>. Мчч. блгвв. князей <a  href=\"http://days.pravoslavie.ru/name/324.html\" target=\"_blank\" title=\"Благоверный князь Борис\">Бориса</a> (<a  href=\"http://days.pravoslavie.ru/images/ii324_435.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/518.html\" target=\"_blank\" title=\"Благоверный князь Глеб\">Глеба</a> (<a  href=\"http://days.pravoslavie.ru/images/ii518_174.html\" target=\"_blank\" >икона</a>), во св. Крещении Романа и Давида. Прп. <a  href=\"http://days.pravoslavie.ru/name/1812.html\" target=\"_blank\" title=\"Поликарп Печерский, архимандрит\">Поликарпа</a>, архим. Печерского. Свт. <a  href=\"http://days.pravoslavie.ru/name/15001.html\" target=\"_blank\" title=\"Святитель Георгий (Конисский), архиепископ Могилевский\">Георгия</a>, архиеп. Могилевского.  Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/14722.html\" target=\"_blank\" title=\"Далмат Исетский, прп.\">Далмата</a> Исетского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13754.html\" target=\"_blank\" title=\"Алфей (Корбанский), диакон, сщмч.\">Алфея</a> диакона. Свв. <a  href=\"http://days.pravoslavie.ru/name/9612.html\" target=\"_blank\" title=\"Иоанн (Калинин, Оленевский), иерей, исп.\">Николая</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9612_1820.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/9722.html\" target=\"_blank\" title=\"Николай (Понгельский), иерей, сщмч.\">Иоанна</a> испп., пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_14_6_19.html#z\">1 Кор., 155 зач., XIV, 6-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_20_17_28.html#z\">Мф., 81 зач., XX, 17-28.</a> Блгвв. кнн.: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_28_39.html#z\">Рим., 99 зач., VIII, 28-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_15_17_0_16_0_2.html#z\">Ин., 52 зач., XV, 17 - XVI, 2.</a> Мц.: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_6_1_10.html#z\">2 Кор., 181 зач., VI, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_36_50.html#z\">Лк., 33 зач., VII, 36-50.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18058.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 14, 6-19</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18059.htm\" target=\"_blank\" title=\"Библия\">Мф. 20, 17-28</a>). Христианство вполне удовлетворяет и нашему стремлению к первенству, но как? Совсем противным тому способом, какой употребляется в мире. Хочешь быть первым? Будь всем раб, то есть будь перед всеми последний, и это столько же существенно, сколько сушественно настраивать жизнь свою и свой нрав по примеру Господа Христа. Господь говорит: \"Сын Человеческий не для того пришел, чтобы Ему служили, но чтобы послужить и отдать душу Свою для искупления многих\". Господь служит, даже ноги учеников умывает: нечего, стало быть, стыдиться послужить кому-либо. Как и чем можешь, служи; случаи на каждом шагу: голодного накорми, нагого одень, странного в дом введи, больного посети и даже походи за ним и требующему всякой другой помощи не откажи. И не телу только, но и душе другого послужи: вразуми, совет подай, книжку хорошую укажи, утешь, подкрепи. И слово - могущественное средство помогать; в нем душа выходит и, сочетаясь с другою, силы ему придает.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

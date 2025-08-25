@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("10 апреля 2020 г. ( 28 марта ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я Великого поста (седмица ваий). ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/931.html\" target=\"_blank\" title=\"Иларион Новый, Пеликитский, игумен, прмч.\">Илариона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii931_1002.html\" target=\"_blank\" >икона</a>) Нового, игумена Пеликитского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2072.html\" target=\"_blank\" title=\"Стефан Триглийский, игумен, исповедник\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2072_2057.html\" target=\"_blank\" >икона</a>) чудотворца, исп., игумена Триглийского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1045.html\" target=\"_blank\" title=\"Иона Персидский, мч.\">Ионы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1045_4149.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/348.html\" target=\"_blank\" title=\"Варахисий Персидский, мч.\">Варахисия</a> и других с ними. Мч.  <a  href=\"http://days.pravoslavie.ru/name/325.html\" target=\"_blank\" title=\"Боян (Енравот) Болгарский, князь, мч.\">Бояна</a>, кн. Болгарского. Прмч. <a  href=\"http://days.pravoslavie.ru/name/717.html\" target=\"_blank\" title=\"Евстратий Печерский, прмч.\">Евстратия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii717_1767.html\" target=\"_blank\" >икона</a>) Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/933.html\" target=\"_blank\" title=\"Преподобный Иларион Псковоезерский, Гдовский\">Илариона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii933_1001.html\" target=\"_blank\" >икона</a>) Псковоезерского, Гдовского. Св. <a  href=\"http://days.pravoslavie.ru/name/13708.html\" target=\"_blank\" title=\"Николай (Постников), протоиерей, сщмч.\">Николая</a>, исп.,  пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13709.html\" target=\"_blank\" title=\"Василий (Малинин), протоиерей, сщмч.\">Василия</a> пресвитера. Мч. <a  href=\"http://days.pravoslavie.ru/name/13710.html\" target=\"_blank\" title=\"Иоанн (Чернов), мч.\">Иоанна</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_66_10_24.html#z\">Ис. LXVI, 10-24.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_49_33_0_50_0_26.html#z\">Быт. XLIX, 33 - L, 26.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_31_8_32.html#z\">Притч. XXXI, 8-32.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("Кончились дни св. Четыредесятницы! Теперь всякий сядь и сведи итоги, - что было в начале и что есть теперь? Была купля: что же, какова выручка? есть ли хоть малая прибыль? Выступили мы на ристалище: что же, гнались мы и гнавшись достигли ли ожидаемого? Борьба была объявлена: что же, вооружались ли мы, дрались ли, и дравшись пали или победили? Внимательные и бодренные постники, с сердцем сокрушенным и смиренным потрудившиеся, конечно, озираясь назад, не могут не порадоваться. Нам же, нерадивым и плотоугодливым, только о сластях и утехах хлопотавшим, всегда одно стыдение лица. А то и этого нет. Иных бьют, и не больно им, потому что у них лоб медян и шея железна.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

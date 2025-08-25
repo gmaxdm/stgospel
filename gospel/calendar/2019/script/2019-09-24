@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("24 сентября 2020 г. ( 11 сентября ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 16-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/2703.html\" target=\"_blank\" title=\"Феодора Александрийская Младшая, прп.\">Феодоры</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2703_3529.html\" target=\"_blank\" >икона</a>) Александрийской. Перенесение мощей прпп. <a  href=\"http://days.pravoslavie.ru/name/1970.html\" target=\"_blank\" title=\"Сергий Валаамский, прп.\">Сергия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1970_287.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/507.html\" target=\"_blank\" title=\"Герман Валаамский, прп.\">Германа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii507_287.html\" target=\"_blank\" >икона</a>), Валаамских чудотворцев. Прп. <a  href=\"http://days.pravoslavie.ru/name/1987.html\" target=\"_blank\" title=\"Силуан Афонский, прп.\">Силуана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1987_29.html\" target=\"_blank\" >икона</a>) Афонского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/603.html\" target=\"_blank\" title=\"Димитрий Скепсийский (Геллеспонтийский), князь, мч.\">Димитрия</a>, <a  href=\"http://days.pravoslavie.ru/name/2462.html\" target=\"_blank\" title=\"Еванфия Скепсийская (Геллеспонтская), княгиня, мц.\">Еванфии</a>, жены его, и <a  href=\"http://days.pravoslavie.ru/name/595.html\" target=\"_blank\" title=\"Димитриан Скепсийский (Геллеспонтский), мч.\">Димитриана</a>, сына их. Мц. <a  href=\"http://days.pravoslavie.ru/name/2468.html\" target=\"_blank\" title=\"Святая преподобномученица Евдокия\">Ии</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/746.html\" target=\"_blank\" title=\"Евфросин Палестинский, прп.\">Евфросина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii746_125.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/608.html\" target=\"_blank\" title=\"Диодор Лаодикийский (Сирский), мч.\">Диодора</a> и <a  href=\"http://days.pravoslavie.ru/name/591.html\" target=\"_blank\" title=\"Дидим Лаодикийский (Сирский), мч.\">Дидима</a>, Сирских. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9377.html\" target=\"_blank\" title=\"Николай (Подьяков), протоиерей, сщмч.\">Николая</a> и <a  href=\"http://days.pravoslavie.ru/name/9522.html\" target=\"_blank\" title=\"Виктор, иерей, сщмч.\">Виктора</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9340.html\" target=\"_blank\" title=\"Карп (Эльб), протоиерей, сщмч.\">Карпа</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13785.html\" target=\"_blank\" title=\"Николай (Широгоров), диакон, сщмч.\">Николая</a> диакона. <a  href=\"http://days.pravoslavie.ru/name/2870.html\" target=\"_blank\" title=\"Каплуновская икона Божией Матери\">Каплуновской</a> иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_ef_1_1_9.html#z\">Еф., 216 зач., I, 1-9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_7_24_30.html#z\">Мк., 30 зач., VII, 24-30.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18158.htm\" target=\"_blank\" title=\"Библия\">Еф. 1, 1-9</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18159.htm\" target=\"_blank\" title=\"Библия\">Мк. 7, 24-30</a>). Что подвигло сирофиникиянку придти к Господу и быть столь неотступною в прошении? Сложившийся образ убеждений; убеждена была, что Спаситель силен исцелить дочь ее и пришла к Нему; убеждена была, что Он не оставит без удовлетворения прошения ее, и не переставала просить. Убеждения - итог всей жизни, воспитания, ходячих мыслей, впечатлений от окружающего, от встречаемых учений и разнообразных случаев и занятий в жизни. Под действием всего этого работает мысль и доходит до известных убеждений. При этом надо иметь во внимании, что всюду есть и отовсюду теснится в душу человека истина Божия. Истина лежит в сердце человека; истина Божия отпечатлена на всех тварях; есть истина Божия в обычаях и нравах человека; есть она и в учениях больше или меньше. Но всюду же есть и ложь. Кто от истины, тот собирает истину и полон убеждений истинных, спасительных. А кто не от истины, тот собирает ложь и полон убеждений ложных, заблуждений пагубных. От человека ли быть от истины и не от истины - всякий разбери сам, а между тем суд Божий всех ожидает. . .<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

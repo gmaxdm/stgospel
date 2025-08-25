@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /bible/*
+Allow: /volume/*
+Allow: /prayers/*
+Allow: /pray/*
+Disallow: /admin
+Disallow: /reading/pub
+
+User-agent: Yandex
+Allow: /bible/*
+Allow: /volume/*
+Allow: /prayers/*
+Allow: /pray/*
+Disallow: /admin
+Disallow: /reading/pub

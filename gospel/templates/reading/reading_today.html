@@ -1,0 +1,26 @@
+{% extends 'wrapper.html' %}
+{% load common %}
+{% block main %}
+{% for group in groups %}
+    {% group_date group.group 0 as today %}
+    {% group_date group.group -2 as prevprevdate %}
+    {% group_date group.group -1 as prevdate %}
+    {% if today %}
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title clearfix"><a class="float-left" href="{% url 'group' group.group.id %}">{{ group.group.name }}</a>{% if group.perm_edit %} <small><a class="float-right" href="{% url 'group-edit' group.group.id %}">редактировать</a></small>{% endif %}</h5>
+            <p>
+                {% if prevprevdate %}
+                <a href="{% url 'reading-group-date' group.group.id prevprevdate.year prevprevdate.month prevprevdate.day %}" class="badge badge-danger">позавчера</a>&nbsp;|&nbsp;
+                {% endif %}
+                {% if prevdate %}
+                <a href="{% url 'reading-group-date' group.group.id prevdate.year prevdate.month prevdate.day %}" class="badge badge-secondary">вчера</a>&nbsp;|&nbsp;
+                {% endif %}
+                <a href="{% url 'reading-group' group.group.id %}" class="badge badge-success">сегодня</a>
+            </p>
+            <p class="card-text">Сборник: <a href="{% url 'volume' group.group.get_full_data.volume.volume.id %}">{{ group.group.get_full_data.volume.volume.title }}</a></p>
+        </div>
+    </div>
+{% endif %}
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("25 февраля 2020 г. ( 12 февраля ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица cырная (масленица) - сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Из трапезы исключается мясо. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/2858.html\" target=\"_blank\" title=\"Иверская икона Божией Матери\">Иверской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2858_53.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. Свт. <a  href=\"http://days.pravoslavie.ru/name/1507.html\" target=\"_blank\" title=\"Святитель Мелетий Антиохийский, патриарх\">Мелетия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1507_4034.html\" target=\"_blank\" >икона</a>), архиеп. Антиохийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/131.html\" target=\"_blank\" title=\"Алексий, митрополит Московский и всея Руси\">Алексия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii131_46.html\" target=\"_blank\" >икона</a>), митр. Московского и всея России, чудотворца. Свт. <a  href=\"http://days.pravoslavie.ru/name/1510.html\" target=\"_blank\" title=\"Святитель Мелетий (Леонтович), архиепископ Харьковский\">Мелетия</a>, архиеп. Харьковского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2592.html\" target=\"_blank\" title=\"Мария Вифинская, прп.\">Марии</a>, именовавшейся Марином, и отца ее <a  href=\"http://days.pravoslavie.ru/name/668.html\" target=\"_blank\" title=\"Преподобный Евгений Вифинский\">Евгения</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/213.html\" target=\"_blank\" title=\"Святитель Антоний Константинопольский, патриарх\">Антония</a>, Патриарха Константинопольского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14739.html\" target=\"_blank\" title=\"Мелетий Ипсенийский, прп.\">Мелетия</a> Ипсенийского. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56,</a> или свт.: <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_iud_1_1_10.html#z\">Иуд., 77 зач., I, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_22_39_42_22_45_0_23_0_1.html#z\">Лк., 109 зач., XXII, 39-42, 45 - XXIII, 1.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

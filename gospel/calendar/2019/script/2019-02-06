@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("6 февраля 2020 г. ( 24 января ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 34-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/2567.html\" target=\"_blank\" title=\"Ксения (в миру Евсевия) Миласская, диакониса\">Ксении</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2567_903.html\" target=\"_blank\" >икона</a>). Блж. <a  href=\"http://days.pravoslavie.ru/name/2568.html\" target=\"_blank\" title=\"Святая блаженная Ксения Петербургская\">Ксении</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2568_24.html\" target=\"_blank\" >икона</a>) Петербургской. Мчч. <a  href=\"http://days.pravoslavie.ru/name/328.html\" target=\"_blank\" title=\"Вавила Сицилийский, иерей, отшельник, сщмч.\">Вавилы</a> Сицилийского и учеников его <a  href=\"http://days.pravoslavie.ru/name/2108.html\" target=\"_blank\" title=\"Тимофей Сицилийский, прмч.\">Тимофея</a> и <a  href=\"http://days.pravoslavie.ru/name/6601.html\" target=\"_blank\" title=\"Агапий Сицилийский, прмч.\">Агапия</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1417.html\" target=\"_blank\" title=\"Македоний Сирийский, пресвитер, пустынник\">Македония</a>, сирийского пустынника. Перенесение мощей прмч. <a  href=\"http://days.pravoslavie.ru/name/165.html\" target=\"_blank\" title=\"Преподобномученик Анастасий Персиянин\">Анастасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii165_3237.html\" target=\"_blank\" >икона</a>) Персянина. Свт. <a  href=\"http://days.pravoslavie.ru/name/502.html\" target=\"_blank\" title=\"Святитель Герасим, епископ Великопермский (Устьвымский)\">Герасима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii502_3162.html\" target=\"_blank\" >икона</a>) Великопермского, Устьвымского. Мч. <a  href=\"http://days.pravoslavie.ru/name/979.html\" target=\"_blank\" title=\"Мученик Иоанн Казанский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii979_1324.html\" target=\"_blank\" >икона</a>) Казанского. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-pet_4_12_0_5_0_5.html#z\">1 Пет., 62 зач., IV, 12 - V, 5.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_12_38_44.html#z\">Мк., 57 зач., XII, 38-44.</a> Блж.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18421.htm\" target=\"_blank\" title=\"Библия\">1 Пет. 4, 12-5, 5</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18422.htm\" target=\"_blank\" title=\"Библия\">Мк. 12, 38-44</a>). Вдовица положила в сокровищное хранилище (в кружку церковную) две лепты (полушки, примерно); а Господь сказал, что она положила больше всех, хотя другие клали тогда рублями и десятками рублей. Что же дало перевес ее лепте? Расположение, с каким сделано приношение. Видишь, какая разность доброделания бездушного, по обычаю, и доброделания с душою и сердцем? Не внешняя постановка дела даст ему цену, а внутреннее расположение. Оттого бывает, что дело выдающееся по всем отношениям никакой цены перед Богом не имеет, а дело незначительное по виду высокою ценою оценивается. Что отсюда следует, само собою видно. Но не вздумай кто небречь о внешнем, замышляя ограничиться одним внутренним. Вдовица та не получила бы одобрения, если бы сказала себе: имею желание положить и я, да что делать? Только и есть у меня что две лепты. Отдай их, сама не при чем останусь. Но как поимела желание, так и сделала, предав жизнь свою в руки Божии. И если бы не положила ничего, никто бы ее не осудил, ни люди, ни Бог. Но тогда она не явила бы и такого расположения, которое выделило ее из ряда других и сделало славною во всем христианском мире.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("1 января 2020 г. (19  декабря 2019 г. ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 29-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: горячая пища без масла. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/437.html\" target=\"_blank\" title=\"Мученик Вонифатий Тарсийский\">Вонифатия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii437_99.html\" target=\"_blank\" >икона</a>) . Мчч. <a  href=\"http://days.pravoslavie.ru/name/941.html\" target=\"_blank\" title=\"Илия Египтянин, мч.\">Илии</a>, <a  href=\"http://days.pravoslavie.ru/name/1834.html\" target=\"_blank\" title=\"Пров Египтянин, мч.\">Прова</a> и <a  href=\"http://days.pravoslavie.ru/name/252.html\" target=\"_blank\" title=\"Арис Египтянин, мч.\">Ариса</a>, египтян. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1805.html\" target=\"_blank\" title=\"Полиевкт Кесарийский (Каппадокийский), мч.\">Полиевкта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1805_3894.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2103.html\" target=\"_blank\" title=\"Тимофей Мавританский, диакон, сщмч.\">Тимофея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2103_3895.html\" target=\"_blank\" >икона</a>) диакона. Свт. <a  href=\"http://days.pravoslavie.ru/name/542.html\" target=\"_blank\" title=\"Святитель Григорий Омиритский, епископ\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii542_511.html\" target=\"_blank\" >икона</a>), еп. Омиритского. Свт.<a  href=\"http://days.pravoslavie.ru/name/436.html\" target=\"_blank\" title=\"Святитель Вонифатий Милостивый\">Вонифатия</a> Милостивого, еп. Ферентийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/942.html\" target=\"_blank\" title=\"Преподобный Илия Муромец, Печерский\">Илии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii942_1795.html\" target=\"_blank\" >икона</a>) Муромца, Печерского. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_5_11_0_6_0_8.html#z\">Евр., 312 зач., V, 11 - VI, 8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_10_11_16.html#z\">Мк., 44 зач., X, 11-16.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18379.htm\" target=\"_blank\" title=\"Библия\">Мр. 10, 11-16</a>). С какою любовью отнесся Господь к детям! Да и кто не относится к ним с любовью? Чем дольше кто живет, тем больше любит детей. Видится в них свежесть жизни, чистота и непорочность нрава, которых нельзя не любить. Иным приходит на мысль, смотря на невинность детства полагать, что первородного греха нет, что всякий падает сам, когда приходит в возраст и встречается с противонравственными стремлениями, преодолеть которые, кажется ему, он не в силах. Падает-то всякий сам, а первородный грех все-таки есть. Апостол Павел видит в нас закон греха, противовоюющий закону ума. Этот закон как семя, сначала будто не виден, а потом раскрывается и увлекает. Так рожденные от прокаженных до известного возраста не обнаруживают проказы, потом она раскрывается, и начинает снедать их так же, как и родителей. Где была проказа до времени? Внутри скрывалась. Так и первородный грех до времени скрывается, а потом выходит наружу и делает свое. Окружающая среда много значит и для подавления этого греха и для раскрытия его. Не будь кругом стихий греховных, нечем было бы питаться тому сокрытому греху и он, может быть, сам собою бы иссох: но в том-то горе наше, что кругом всегда бывает много благоприятствующего его питанию. Много греха и в каждом лице и в обществе: но все это не необходимо определяет нас на грех. Грех всегда дело свободы: борись, и не падешь. Падает только тот, кто не хочет бороться. Отчего не хотим бороться? На хотенье и нехотенье нет устава: хочу, потому что хочу; и не хочу, потому что не хочу: самовластие - вот источное начало; дальше его нельзя идти.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

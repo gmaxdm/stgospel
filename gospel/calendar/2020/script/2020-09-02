@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("2 сентября 2020 г. ( 20 августа ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 13-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/1921.html\" target=\"_blank\" title=\"Пророк Самуил\">Самуила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1921_1079.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/1951.html\" target=\"_blank\" title=\"Севир Фракийский, пресвитер, сщмч.\">Севира</a> и <a  href=\"http://days.pravoslavie.ru/name/1514.html\" target=\"_blank\" title=\"Мемнон Фракийский, сотник, мч.\">Мемнона</a>  и с ними 37-ми мучеников. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9432.html\" target=\"_blank\" title=\"Александр (Малиновский), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9666.html\" target=\"_blank\" title=\"Лев (Ершов), иерей, сщмч.\">Льва</a>, <a  href=\"http://days.pravoslavie.ru/name/14422.html\" target=\"_blank\" title=\"Владимир (Четверин), иерей, сщмч.\">Владимира</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13774.html\" target=\"_blank\" title=\"Николай (Бирюков), иерей, сщмч.\">Николая</a> пресвитера. Обретение мощей сщмч. <a  href=\"http://days.pravoslavie.ru/name/9140.html\" target=\"_blank\" title=\"Святитель Гермоген (Долганев), епископ Тобольский, сщмч.\">Гермогена</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9140_599.html\" target=\"_blank\" >икона</a>), еп. Тобольского. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-kor_9_12_0_10_0_7.html#z\">2 Кор., 189 зач., IX, 12 - X, 7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_3_20_27.html#z\">Мк., 13 зач., III, 20-27.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18115.htm\" target=\"_blank\" title=\"Библия\">Мк. З, 20-27</a>). \"Если царство разделится само в себе, не может устоять царство то\". Пока внутри качествует единомыслие лукавства греховного, крепко бывает в нас царство тьмы и греха; но когда благодать Божия плененную грехом часть духа привлечет к себе, освободив ее из плена, тогда происходит внутри разделение: грех на одной стороне, добро на другой. Коль скоро, вследствие этого возбуждения, сознанием и свободою человек сочетается с добром, грех теряет всякую опору и идет к разложению. Постоянство в принятом добром намерении и терпение в трудах по нему, совсем расстраивают грех и истребляют. Тогда начинается царство добра внутри, и стоит, пока не вкрадется какое-либо злое помышление и, привлекши к себе произволение, не произведет снова разделения. Дай только ход зародившемуся греховному побуждению, сочетайся с ним и произведи его в дело - опять начнет добро слабеть, а зло расти, пока совсем его не истребит. Это почти непрерывная история внутренней жизни у тех, которые слабосерды и не имеют твердого нрава.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

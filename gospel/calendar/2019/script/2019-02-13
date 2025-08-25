@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("13 февраля 2020 г. ( 31 января ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Бессребреников мчч. <a  href=\"http://days.pravoslavie.ru/name/1211.html\" target=\"_blank\" title=\"Мученик Кир Александрийский\">Кира</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1211_3165.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/959.html\" target=\"_blank\" title=\"Мученик Иоанн Александрийский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii959_3165.html\" target=\"_blank\" >икона</a>) и с ними мцц. <a  href=\"http://days.pravoslavie.ru/name/2420.html\" target=\"_blank\" title=\"Афанасия Канопская, мц.\">Афанасии</a> и дщерей ее <a  href=\"http://days.pravoslavie.ru/name/2717.html\" target=\"_blank\" title=\"Феодотия Канопская, мц.\">Феодотии</a>,  <a  href=\"http://days.pravoslavie.ru/name/2724.html\" target=\"_blank\" title=\"Феоктиста Канопская, мц.\">Феоктисты</a> и <a  href=\"http://days.pravoslavie.ru/name/2469.html\" target=\"_blank\" title=\"Евдоксия Канопская, мц.\">Евдоксии</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/1617.html\" target=\"_blank\" title=\"Святитель Никита Печерский, епископ Новгородский, затворник\">Никиты</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1617_3166.html\" target=\"_blank\" >икона</a>), затворника Печерского, еп. Новгородского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/420.html\" target=\"_blank\" title=\"Мученик Викторин Коринфский\">Викторина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii420_4177.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/415.html\" target=\"_blank\" title=\"Мученик Виктор Коринфский\">Виктора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii415_4177.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1626.html\" target=\"_blank\" title=\"Мученик Никифор Коринфский\">Никифора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1626_4177.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1244.html\" target=\"_blank\" title=\"Мученик Клавдий Коринфский\">Клавдия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1244_4177.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/607.html\" target=\"_blank\" title=\"Мученик Диодор Коринфский\">Диодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii607_4177.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1969.html\" target=\"_blank\" title=\"Мученик Серафион Коринфский\">Серапиона</a> и <a  href=\"http://days.pravoslavie.ru/name/1731.html\" target=\"_blank\" title=\"Мученик Папий Коринфский\">Папия</a>. Мц. <a  href=\"http://days.pravoslavie.ru/name/2690.html\" target=\"_blank\" title=\"Трифена Кизическая, мц.\">Трифены</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2690_3995.html\" target=\"_blank\" >икона</a>) Кизической. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-in_1_8_0_2_0_6.html#z\">1 Ин., 69 зач., I, 8 - II, 6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_13_31_0_14_0_2.html#z\">Мк., 62 зач., XIII, 31 - XIV, 2.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_161.html#z\">Ин., 36 зач., X, 9-161.</a> Бессребреников: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_12_27_0_13_0_8.html#z\">1 Кор., 153 зач., XII, 27 - XIII, 8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_1_1_10_5_8.html#z\">Мф., 34 зач. (от&nbsp;полу&#769;), X, 1, 5-8.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18437.htm\" target=\"_blank\" title=\"Библия\">Мк. 13, 31-14, 2</a>). На что вчера навел нас Апостол, то ныне прямо внушает нам Евангелие. \"Смотрите, бодрствуйте, молитесь; ибо не знаете, когда наступит это время. Итак, бодрствуйте. . . чтобы, пришед внезапно, не нашел вас спящими\". Надобно ждать, и каждое мгновение держать в мысли, что вот-вот явится Господь и воссияет как молния от одного конца вселенной до другого. Иным думается, что можно это ожидание Господа заменить ожиданием смерти. Хорошо и это, или хоть это. Но ожидание Господня пришествия одно, а ожидание смерти - иное. Иная мысль о том и другом; иное и чувство, рождающееся под действием той и другой мысли. Дня Господня жди, в который все кончится определением безвозвратным. После смерти все еще будет длиться время нерешенного состояния; а день Господень все распределит на вечные веки, и запечатлеет так, что уж не жди изменения. Ждал, говоришь. И еще жди. И все жди. Но это, скажешь, отравит все радости. Не отравит, а только изгонит из порядков твоей жизни такие радости, которые незаконно пользуются этим именем. Будешь и при этом радоваться, но только о Господе. И Господа ждать при такой радости можно, и если Господь застанет тебя в этой радости, не взыщет, а похвалит.<br>(<a  href=\"https://days.pravoslavie.ru/Bible/C18458.htm\" target=\"_blank\" title=\"Библия\">1 Ин. 1, 1-15</a>). Что значит \"ходить во истине\"? Значит, приняв истину в сердце, так держать себя в мыслях и чувствах, как требуется истиною. Таким образом, что Бог есть везде и все видит, - это есть истина: кто примет эту истину сердцем и станет держать себя - и внутренне, и внешне - так, как бы перед ним был Сам Бог и все в нем видел, тот будет и ходить в этой истине. Что Бог все содержит, и что без Него мы ничего не можем успешно делать - это истина: кто примет ее сердцем и станет во всем, что бы ни делал, обращаться в молитве за помощью к Богу, и принимать все, что с ним ни случилось бы, как от руки Господней, тот будет ходить в этой истине. Что смерть каждый час может нас похитить, а по смерти тотчас и суд Божий, это истина: кто примет эту истину сердцем и станет так жить, тот будет ходить в этой истине. Так и относительно всякой другой истины.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

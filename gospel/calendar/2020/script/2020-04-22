@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("22 апреля 2020 г. ( 9 апреля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Светлая седмица - сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/696.html\" target=\"_blank\" title=\"Евпсихий Кесарийский (Каппадокийский), мч.\">Евпсихия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii696_4189.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/636.html\" target=\"_blank\" title=\"Святитель Дисан Персидский, епископ, сщмч.\">Дисана</a> еп., <a  href=\"http://days.pravoslavie.ru/name/1451.html\" target=\"_blank\" title=\"Мариав Персидский, сщмч.\">Мариава</a> пресвитера, <a  href=\"http://days.pravoslavie.ru/name/7.html\" target=\"_blank\" title=\"Авдиес Персидский, мч.\">Авдиеса</a> и прочих 270-ти. Прмч. <a  href=\"http://days.pravoslavie.ru/name/330.html\" target=\"_blank\" title=\"Вадим Персидский, архимандрит, сщмч.\">Вадима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii330_339.html\" target=\"_blank\" >икона</a>) архимандрита и 7 учеников его. <a  href=\"http://days.pravoslavie.ru/name/6920.html\" target=\"_blank\" title=\"Собор преподобных отцев, на Богошественной Горе Синай подвизавшихся\">Собор</a> преподобных отцев, на Богошественной горе Синай подвизавшихся. Мч. <a  href=\"http://days.pravoslavie.ru/name/14453.html\" target=\"_blank\" title=\"Гавриил (Фомин), мч.\">Гавриила</a>. <a  href=\"http://days.pravoslavie.ru/name/2877.html\" target=\"_blank\" title=\"Касперовская\">Касперовской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2877_869.html\" target=\"_blank\" >икона</a>)  иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_2_22_36.html#z\">Деян., 5 зач., II, 22-36.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_1_35_51.html#z\">Ин., 4 зач., I, 35-51.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17822.htm\" target=\"_blank\" title=\"Библия\">Дея. 2, 22-36</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17823.htm\" target=\"_blank\" title=\"Библия\">Ин. 1, 35-51</a>). Истину Воскресения разум может доказывать своими соображениями, на основании Писания, и силу его доводов не может не признать неверующий, скоро не заглушено еще в нем чувство истины. Верующие не требует доказательств, потому что Церковь Божия преисполнена светом Воскресения. Верны и убедительны оба эти указателя истины. Но против соображений разума могут рождаться и встречаться противосоображения, и вера может быть препираема и колеблема недоумениями и сомнениями, извне приходящими и внутри возникающими. Нет ли неприступной ограды для истины Воскресения? Есть. Это будет, когда сила Воскресения, воспринятая еще в крещении, начнет действенно обнаруживаться в истреблении растления души и тела, водворении в них начал новой жизни. Такой будет ходить во свете Воскресения, и ему безумным покажется всякий, говорящий против истины Воскресения, как тому, кто ходит днем, говорящий - будто теперь ночь.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

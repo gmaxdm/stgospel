@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("30 декабря 2020 г. ( 17 декабря ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 30-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: горячая пища без масла. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/583.html\" target=\"_blank\" title=\"Пророк Даниил\">Даниила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii583_514.html\" target=\"_blank\" >икона</a>) и трех отроков: <a  href=\"http://days.pravoslavie.ru/name/157.html\" target=\"_blank\" title=\"Анания Вавилонский, отрок, мч.\">Анании</a> (<a  href=\"http://days.pravoslavie.ru/images/ii157_491.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/81.html\" target=\"_blank\" title=\"Азария Вавилонский, отрок, мч.\">Азарии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii81_491.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1544.html\" target=\"_blank\" title=\"Мисаил Вавилонский, отрок, мч.\">Мисаила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1544_491.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/580.html\" target=\"_blank\" title=\"Даниил (в сxиме Стефан) Нивертский, Египетский, прп., исповедник\">Даниила</a> исп., в схиме Стефана. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9447.html\" target=\"_blank\" title=\"Александр (Савелов), иерей, сщмч.\">Александра</a> и <a  href=\"http://days.pravoslavie.ru/name/9365.html\" target=\"_blank\" title=\"Николай (Бепьтюков), протоиерей, сщмч.\">Николая</a>  и <a  href=\"http://days.pravoslavie.ru/name/13902.html\" target=\"_blank\" title=\"Сергий (Флоринский), протоиерей, сщмч.\">Сергия</a> пресвитеров. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9775.html\" target=\"_blank\" title=\"Петр (Покровский), иерей, сщмч.\">Петра</a> и <a  href=\"http://days.pravoslavie.ru/name/9610.html\" target=\"_blank\" title=\"Иоанн (Земляной), иерей, сщмч.\">Иоанна</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_10_1_18.html#z\">Евр., 323 зач., X, 1-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_8_30_34.html#z\">Мк., 36 зач., VIII, 30-34.</a> Свв.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_11_33_0_12_0_2.html#z\">Евр., 330 зач., XI, 33 - XII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_11_47_0_12_0_1.html#z\">Лк., 62 зач., XI, 47 - XII, 1.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18364.htm\" target=\"_blank\" title=\"Библия\">Евр. 10, 1-18</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18365.htm\" target=\"_blank\" title=\"Библия\">Мр. 8, 30-34</a>). Пригласив следовать за собою с крестом, Господь указывает при этом путь сей, устраняя главные к нему препятствия не внешние, а внутренние, коренящиеся в сердце человеческом. Хочешь, как бы говорит Он, идти вслед Меня, - во-первых, не жалей себя; ибо кто будет жалеть себя, тот погубит себя; во-вторых, не связывайся корыстолюбием, ибо \"какая польза человеку, если он приобретет весь мир, а душе своей повредит?\" В-третьих, не стесняйся тем, что скажут или как смотреть на тебя будут другие: \"ибо кто постыдится Меня и Моих слов в роде сем прелюбодейном и грешном, того постыдится и Сын Человеческий, когда приидет в славе Отца Своего со святыми ангелами\". Саможаление, корыстолюбие и стыдение лица человеческого главные цепи, которыми держится человек в жизни небогоугодной, на пути страстей и греха. они - главные препятствия к обращению грешника; они же главный предмет борьбы духовной в человеке кающемся и в начавшем уже приносить плоды покаяния. Пока эти нити не отрезаны, жизнь христианская в нас ненадежна, полна преткновений и падений, если не всегда внешних, то внутренних. Вот и присмотрись всякий к себе хорошенько, и если есть что в нем из сказанного - позаботься отрешиться от того: иначе не надейся взойти к совершенству о Христе, хоть внешне будешь и очень исправен.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("7 июня 2020 г. ( 25 мая ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 8-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/3038.html\" target=\"_blank\" title=\"День Святой Троицы\">День Святой Троицы. Пятидесятница.</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii3038_278.html\" target=\"_blank\" >икона</a>)</span></span><br> Третье обретение главы Предтечи и Крестителя Господня <a  href=\"http://days.pravoslavie.ru/name/1007.html\" target=\"_blank\" title=\"Пророк, Предтеча и Креститель Господень Иоанн\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1007_11.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2276.html\" target=\"_blank\" title=\"Святитель Ферапонт Кипрский, епископ, сщмч.\">Ферапонта</a>, еп. Кипрского. Свт. <a  href=\"http://days.pravoslavie.ru/name/13476.html\" target=\"_blank\" title=\"Святитель Иннокентий (Борисов), архиепископ Херсонский и Таврический\">Иннокентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13476_763.html\" target=\"_blank\" >икона</a>), архиеп. Херсонского. <a  href=\"http://days.pravoslavie.ru/name/14261.html\" target=\"_blank\" title=\"Собор мучеников Холмских и Подляшских\">Собор</a> мучеников Холмских и Подляшских. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14681.html\" target=\"_blank\" title=\"Елена (Коробова), прмц.\">Елены</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/9881.html\" target=\"_blank\" title=\"Таврион (Толоконцев), инок, прмч.\">Тавриона</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_20_19_23.html#z\">Ин., 65 зач., XX, 19-23.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_2_1_11.html#z\">Деян., 3 зач., II, 1-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_7_37_52_8_12_12.html#z\">Ин., 27 зач., VII, 37-52; VIII, 12.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17926.htm\" target=\"_blank\" title=\"Библия\">Дея. 2, 1-11</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17927.htm\" target=\"_blank\" title=\"Библия\">Ин. 7, 37-52; 8, 12</a>). Совершилась икономия нашего спасения! Действия всех Лиц Пресвятой Троицы в сем деле отныне вступили в силу. Чему быть благоволил Бог-Отец, что исполнил в Себе Сын Божий, то присвоить верующим снисшел ныне Дух Святый. Ибо спасение наше \"по предведению Бога Отца, при освящении от Духа, к послушанию и окроплению Кровью Иисуса Христа\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17928.htm\" target=\"_blank\" title=\"Библия\">1 Пет. 1, 2</a>). Того ради и \"крещаемся во имя Отца и Сына и Святого Духа\", обязуясь \"соблюдать все, что Я повелел вам\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17929.htm\" target=\"_blank\" title=\"Библия\">Мф. 28, 19-20</a>). Не исповедующие Пресвятой Троицы не могут иметь части в спасительных действиях Лиц Ее и, следовательно, получить спасение. Слава Отцу и Сыну и Святому Духу, Троице единосущной и нераздельной, предавшей нам исповедание о Себе! \"Отче Вседержителю, Слове и Душе, треми соединяемое во Ипостасех естество пресущественно, и пребожественно, в Тебя крестились, и Тебя благословим во все веки\".<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

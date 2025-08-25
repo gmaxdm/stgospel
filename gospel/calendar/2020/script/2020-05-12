@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("12 мая 2020 г. ( 29 апреля ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Девяти мучеников Кизических: <a  href=\"http://days.pravoslavie.ru/name/2170.html\" target=\"_blank\" title=\"Феогнид (Феогний) Кизический, мч.\">Феогнида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2170_871.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1887.html\" target=\"_blank\" title=\"Руф Кизический, мч.\">Руфа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1887_871.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/206.html\" target=\"_blank\" title=\"Антипатр Кизический, мч.\">Антипатра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii206_871.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2249.html\" target=\"_blank\" title=\"Феостих Кизический, мч.\">Феостиха</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2249_871.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/271.html\" target=\"_blank\" title=\"Артема Кизический, мч.\">Артемы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii271_871.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1397.html\" target=\"_blank\" title=\"Магн Кизический, мч.\">Магна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1397_871.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2218.html\" target=\"_blank\" title=\"Феодот Кизический, мч.\">Феодота</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2218_871.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2146.html\" target=\"_blank\" title=\"Фавмасий Кизический, мч.\">Фавмасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2146_871.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2289.html\" target=\"_blank\" title=\"Филимон Кизический, мч.\">Филимона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2289_871.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1515.html\" target=\"_blank\" title=\"Мемнон Чудотворец, Египетский, игумен\">Мемнона</a> чудотворца. Прп. <a  href=\"http://days.pravoslavie.ru/name/6989.html\" target=\"_blank\" title=\"Нектарий Оптинский\">Нектария</a> Оптинского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/606.html\" target=\"_blank\" title=\"Диодор Афродисийский (Карийский), мч.\">Диодора</a> и <a  href=\"http://days.pravoslavie.ru/name/1872.html\" target=\"_blank\" title=\"Родопиан Афродисийский (Карийский), диакон, сщмч.\">Родопиана</a> диакона. Свт. <a  href=\"http://days.pravoslavie.ru/name/381.html\" target=\"_blank\" title=\"Святой Василий, епископ Захолмский\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii381_640.html\" target=\"_blank\" >икона</a>) Острожского (Серб.). <a  href=\"http://days.pravoslavie.ru/name/14251.html\" target=\"_blank\" title=\"Триста мучеников, в горах Дудиквати и Папати пострадавшие\">Трехсот мучеников</a>, в горах Дудиквати и Папати (Турция) пострадавших (Груз.). Прп. <a  href=\"http://days.pravoslavie.ru/name/13520.html\" target=\"_blank\" title=\"Амфилохий (Головатюк) Почаевский, схиигумен, прп.\">Амфилохия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13520_825.html\" target=\"_blank\" >икона</a>) Почаевского. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_10_21_33.html#z\">Деян., 25 зач., X, 21-33.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_7_1_13.html#z\">Ин., 25 зач., VII, 1-13.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17870.htm\" target=\"_blank\" title=\"Библия\">Дея. 10, 21-33</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17871.htm\" target=\"_blank\" title=\"Библия\">Ин. 7, 1-13</a>). \"Вас мир не может ненавидеть, а Меня ненавидит, потому что Я свидетельствую о нем, что дела его злы\". Это сказал Господь не ученикам, а ученикам предрек потом, что и их мир будет ненавидеть и гнать, потому что Он изъял их из мира. Посему замечайте, на что обращается ненависть мира и узнаете, где часть Христова; на что больше восстает мир, то больше есть Христово, ближе к Нему, сообразнее с духом Его. Это внешний указатель, но для внешних и этого достаточно. Мир сам не действует, а разжигается на дела князем своим - сатаною, дела которого разрушил Господь и продолжает разрушать в верующих и через верующих. Прямо Господу он ничего не может сделать; потому-то ярость свою обращает он на верующих в Него, чтобы через досаждение им досадить Господу. И тут не прямо действует, но через органы свои, составляющие мир. Это не значит, что он силен; не бойтесь его, но скорее дерзайте, ибо Господь победил мир и князя его. Кто сам не поддается, тому он ничего не в состоянии сделать.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

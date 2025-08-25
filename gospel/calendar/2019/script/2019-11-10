@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("10 ноября 2020 г. ( 28 октября ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 23-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмц. <a  href=\"http://days.pravoslavie.ru/name/14172.html\" target=\"_blank\" title=\"Параскева Пятница, вмц.\">Параскевы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14172_150.html\" target=\"_blank\" >икона</a>), нареченной Пятница. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2094.html\" target=\"_blank\" title=\"Терентий Сирийский, мч.\">Терентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2094_3796.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2626.html\" target=\"_blank\" title=\"Неонилла Сирийская, мц.\">Неониллы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2626_3796.html\" target=\"_blank\" >икона</a>) и чад их: <a  href=\"http://days.pravoslavie.ru/name/1924.html\" target=\"_blank\" title=\"Сарвил Сирийский, мч.\">Сарвила</a>, <a  href=\"http://days.pravoslavie.ru/name/2330.html\" target=\"_blank\" title=\"Фот (Фотий) Сирийский, мч.\">Фота</a>, <a  href=\"http://days.pravoslavie.ru/name/2231.html\" target=\"_blank\" title=\"Феодул Сирийский, мч.\">Феодула</a>, <a  href=\"http://days.pravoslavie.ru/name/911.html\" target=\"_blank\" title=\"Иеракс Сирийский, мч.\">Иеракса</a>, <a  href=\"http://days.pravoslavie.ru/name/1655.html\" target=\"_blank\" title=\"Нит Сирийский, мч.\">Нита</a>, <a  href=\"http://days.pravoslavie.ru/name/422.html\" target=\"_blank\" title=\"Вил Сирийский, мч.\">Вила</a>, <a  href=\"http://days.pravoslavie.ru/name/2472.html\" target=\"_blank\" title=\"Евникия Сирийская, мц.\">Евникии</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/2067.html\" target=\"_blank\" title=\"Стефан Савваит, прп.\">Стефана</a> Савваита, творца канонов. Свт. <a  href=\"http://days.pravoslavie.ru/name/269.html\" target=\"_blank\" title=\"Святитель Арсений, архиепископ Сербский\">Арсения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii269_420.html\" target=\"_blank\" >икона</a>) I, архиеп. Сербского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1037.html\" target=\"_blank\" title=\"Преподобный Иов, игумен Почаевский\">Иова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1037_242.html\" target=\"_blank\" >икона</a>), игумена Почаевского. Свт. <a  href=\"http://days.pravoslavie.ru/name/601.html\" target=\"_blank\" title=\"Святитель Димитрий, митрополит Ростовский\">Димитрия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii601_347.html\" target=\"_blank\" >икона</a>), митр. Ростовского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/312.html\" target=\"_blank\" title=\"Африкан, мч.\">Африкана</a>, <a  href=\"http://days.pravoslavie.ru/name/2092.html\" target=\"_blank\" title=\"Терентий, мч.\">Терентия</a>, <a  href=\"http://days.pravoslavie.ru/name/1431.html\" target=\"_blank\" title=\"Максим, мч.\">Максима</a>, <a  href=\"http://days.pravoslavie.ru/name/1821.html\" target=\"_blank\" title=\"Помпий, мч.\">Помпия</a> и иных 36-ти. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1216.html\" target=\"_blank\" title=\"Святитель Кириак Иерусалимский, патриарх, сщмч.\">Кириака</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1216_3793.html\" target=\"_blank\" >икона</a>), Патриарха  Иерусалимского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1598.html\" target=\"_blank\" title=\"Святитель Неофит Урбнисский, епископ, сщмч.\">Неофита</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1598_3795.html\" target=\"_blank\" >икона</a>), еп. Урбнисского (Груз.). Прп. <a  href=\"http://days.pravoslavie.ru/name/1024.html\" target=\"_blank\" title=\"Святитель Иоанн Хозевит, Кесарийский, епископ\">Иоанна</a> Хозевита, еп. Кесарийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14340.html\" target=\"_blank\" title=\"Феофил Киевский, Христа ради юродивый, прп.\">Феофила</a> Киевского, Христа ради юродивого. Прп. <a  href=\"http://days.pravoslavie.ru/name/14689.html\" target=\"_blank\" title=\"Арсений Капподакийский, прп.\">Арсения</a> Каппадокийского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9603.html\" target=\"_blank\" title=\"Иоанн (Виленский), иерей, сщмч.\">Иоанна</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-sol_1_6_10.html#z\">1 Сол., 263 зач., I, 6-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_11_1_10.html#z\">Лк., 55 зач., XI, 1-10.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Чтения свт. Димитрия (на утрене и литургии) читаются, если ему совершается служба. Если совершается полиелейная служба прп. Иова, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30,</a> а на литургии - чтения дня и преподобного: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18259.htm\" target=\"_blank\" title=\"Библия\">1 Фес. 1, 6-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18260.htm\" target=\"_blank\" title=\"Библия\">Лк. 11, 1-10</a>). Господь дал молитву общую для всех, совместив в ней все нужды наши, духовные и телесные, внутренние и внешние, вечные и временные. Но так как в одной молитве нельзя совместить всего, о чем приходится молиться Богу в жизни, то, после молитвы общей, дано правило на случай частных о чем-либо прошений: \"просите, и дано будет вам; ищете, и найдете; стучите и отворят вам\". В церкви Божией так и делается: христиане все обще молятся об общих нуждах, но каждый частно излагает перед Господом свои нужды и потребности. Обще молимся в храмах по установленным чинопоследованиям, которые все ничто иное, как разъясненная и в разных видах изложенная молитва Господня, а частно, дома, всякий как умеет просит Господа о своем. И в храме можно молиться о своем, и дома можно молиться о своем, и дома можно молиться общею молитвою. Об одном только надо заботиться, чтобы, когда стоим на молитве, дома ли или в церкви, у нас на душе была действительная молитва, действительное обращение и восхождение ума и сердца нашего к Богу. Как кто сумеет пусть делает это. Не стой как статуя и не бормочи молитв, как заведенная машинка, играющая песни. Сколько ни стой так и сколько ни бормочи, нет у тебя молитвы, когда ум блуждает и сердце полно суетных чувств. Уж если стоишь на молитве, приладился к ней, что стоит тебе и ум и сердце привлечь сюда же? И влеки их, хотя бы они упорствовать стали. Тогда составится молитва настоящая и привлечет милость Божию и Божие обетование молитве: просите и дастся, исполнится. Не дается часто оттого, что прошения нет, а только просительное положение.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

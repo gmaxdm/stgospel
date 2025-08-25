@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("29 ноября 2020 г. ( 16 ноября ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 25-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апостола и евангелиста <a  href=\"http://days.pravoslavie.ru/name/1500.html\" target=\"_blank\" title=\"Апостол Матфей\">Матфея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1500_948.html\" target=\"_blank\" >икона</a>). Прав. <a  href=\"http://days.pravoslavie.ru/name/2340.html\" target=\"_blank\" title=\"Святитель Фулвиан (в крещении Матфей) Эфиопский, князь, епископ\">Фулвиана</a>, кн. Ефиопского, во св. Крещении Матфея. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14538.html\" target=\"_blank\" title=\"Филумен (Хасапис) Святогробец, архимандрит, сщмч.\">Филумена</a> Святогробца (Иерус.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9405.html\" target=\"_blank\" title=\"Феодор (Колеров), протоиерей, сщмч.\">Феодора</a> пресвитера и с ним мчч. <a  href=\"http://days.pravoslavie.ru/name/9939.html\" target=\"_blank\" title=\"Анания (Бойков), мч.\">Анании</a> и <a  href=\"http://days.pravoslavie.ru/name/9996.html\" target=\"_blank\" title=\"Михаил (Болдаков), мч.\">Михаила</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9651.html\" target=\"_blank\" title=\"Иоанн (Цветков), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9735.html\" target=\"_blank\" title=\"Николай (Троицкий), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9514.html\" target=\"_blank\" title=\"Виктор (Воронов), иерей, сщмч.\">Виктора</a>, <a  href=\"http://days.pravoslavie.ru/name/9509.html\" target=\"_blank\" title=\"Василий (Соколов), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9671.html\" target=\"_blank\" title=\"Макарий (Соловьев), иерей, сщмч.\">Макария</a> и <a  href=\"http://days.pravoslavie.ru/name/9351.html\" target=\"_blank\" title=\"Михаил (Абрамов), протоиерей, сщмч.\">Михаила</a> пресвитеров. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14351.html\" target=\"_blank\" title=\"Пантелеимон (Аржаных), игумен, прмч.\">Пантелеимона</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/9966.html\" target=\"_blank\" title=\"Димитрий (Спиридонов), мч.\">Димитрия</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 3-е, <a href=\"http://days.pravoslavie.ru/bible/z_mk_16_9_20.html#z\">Мк., 71 зач., XVI, 9-20.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_ef_4_1_6.html#z\">Еф., 224 зач., IV, 1-6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_25_37.html#z\">Лк., 53 зач., X, 25-37.</a> Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_4_9_16.html#z\">1 Кор., 131 зач., IV, 9-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_9_9_13.html#z\">Мф., 30 зач., IX, 9-13.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18299.htm\" target=\"_blank\" title=\"Библия\">Еф. 4, 1-6</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18300.htm\" target=\"_blank\" title=\"Библия\">Лк. 10, 25-37</a>). Вопрошавшему о том, как спастись, Господь с Своей стороны дал вопрос: \"в законе что написано? как читаешь?\". Этим Он показал, что за разрешением всех недоразумений надо обращаться к слову Божию. А чтоб и самих недоразумений не было, лучше всего всегда читать Божественное Писание со вниманием, рассуждением, сочувственно, с приложением к своей жизни и исполнением того, что касается мыслей - в мыслях, что касается чувств - в чувствах и расположениях, что касается дел - в делах. Внимающий слову Божию собирает светлые понятия о всем, что в нем, и что около и что выше его: выясняет свои обязательные отношения во всех случаях жизни, и святые правила, как драгоценные бисеры, нанизывает на нить совести, которая потом точно и определенно указывает, как когда поступить в угодность Господу, укрощает страсти, на которые чтение слова Божия действует всегда успокоительно. Какая бы ни волновала тебя страсть, начни читать слово Божие и страсть будет становиться все тише и тише, а наконец и совсем угомонится. Богатящийся ведением слова Божия имеет над собою столп облачный, руководивший израильтян в пустыне.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

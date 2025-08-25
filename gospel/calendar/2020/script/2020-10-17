@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("17 октября 2020 г. ( 4 октября ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 19-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/920.html\" target=\"_blank\" title=\"Святитель Иерофей Афинский, епископ, сщмч.\">Иерофея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii920_997.html\" target=\"_blank\" >икона</a>), еп. Афинского. Обретение мощей свтт. <a  href=\"http://days.pravoslavie.ru/name/553.html\" target=\"_blank\" title=\"Святитель Гурий, архиепископ Казанский\">Гурия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii553_367.html\" target=\"_blank\" >икона</a>), архиеп. Казанского, и <a  href=\"http://days.pravoslavie.ru/name/362.html\" target=\"_blank\" title=\"Святитель Варсонофий, епископ Тверской\">Варсонофия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii362_367.html\" target=\"_blank\" >икона</a>), еп. Тверского. <a  href=\"http://days.pravoslavie.ru/name/6904.html\" target=\"_blank\" title=\"Собор Казанских святых\">Собор Казанских Святых</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6904_867.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/453.html\" target=\"_blank\" title=\"Гаий Александрийский, диакон, сщмч.\">Гаия</a>, <a  href=\"http://days.pravoslavie.ru/name/2147.html\" target=\"_blank\" title=\"Фавст Александрийский, диакон, сщмч.\">Фавста</a>, <a  href=\"http://days.pravoslavie.ru/name/698.html\" target=\"_blank\" title=\"Святитель Евсевий Лаодикийский, епископ, сщмч.\">Евсевия</a> и <a  href=\"http://days.pravoslavie.ru/name/2348.html\" target=\"_blank\" title=\"Херимон Александрийский, диакон, сщмч.\">Херимона</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1775.html\" target=\"_blank\" title=\"Петр Капетолийский, Дамасский, пресвитер, сщмч.\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1775_3747.html\" target=\"_blank\" >икона</a>) Капетолийского. Мцц. <a  href=\"http://days.pravoslavie.ru/name/2455.html\" target=\"_blank\" title=\"Домнина Едесская, мц.\">Домнины</a> и дщерей ее <a  href=\"http://days.pravoslavie.ru/name/2438.html\" target=\"_blank\" title=\"Виринея (Вероника) Едесская, мц.\">Виринеи</a> (Вероники) и <a  href=\"http://days.pravoslavie.ru/name/2654.html\" target=\"_blank\" title=\"Проскудия (Просдока) Едесская, мц.\">Проскудии</a> (Просдоки). Мчч. <a  href=\"http://days.pravoslavie.ru/name/566.html\" target=\"_blank\" title=\"Давикт (Адавкт) Ефесский, Мелитинский, мч.\">Давикта</a> (Адавкта). и дщери его <a  href=\"http://days.pravoslavie.ru/name/2546.html\" target=\"_blank\" title=\"Каллисфения Ефесская\">Каллисфении</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1697.html\" target=\"_blank\" title=\"Павел Препростый, прп.\">Павла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1697_367.html\" target=\"_blank\" >икона</a>) Препростого. Прп. <a  href=\"http://days.pravoslavie.ru/name/144.html\" target=\"_blank\" title=\"Аммон (Аммун) Нитрийский, Египетский, прп.\">Аммона</a>. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/432.html\" target=\"_blank\" title=\"Святой благоверный князь Владимир Ярославич Новгородский\">Владимира</a> (<a  href=\"http://days.pravoslavie.ru/images/ii432_1717.html\" target=\"_blank\" >икона</a>) Ярославича Новгородского, чудотворца. Прпп. <a  href=\"http://days.pravoslavie.ru/name/769.html\" target=\"_blank\" title=\"Елладий Печерский, затворник, постник\">Елладия</a> и <a  href=\"http://days.pravoslavie.ru/name/1667.html\" target=\"_blank\" title=\"Онисим Печерский, затворник\">Онисима</a> Печерских. Прп. <a  href=\"http://days.pravoslavie.ru/name/145.html\" target=\"_blank\" title=\"Преподобный Аммон, затворник Печерский\">Аммона</a>, затворника Печерского. Св. прав. <a  href=\"http://days.pravoslavie.ru/name/2076.html\" target=\"_blank\" title=\"Святой Стефан Щилянович\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2076_650.html\" target=\"_blank\" >икона</a>) Щиляновича (Серб.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/12587.html\" target=\"_blank\" title=\"Димитрий (Вознесенский), иерей, сщмч.\">Димитрия</a> пресвитера. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9702.html\" target=\"_blank\" title=\"Николай (Верещагин), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9695.html\" target=\"_blank\" title=\"Михаил (Твердовский), иерей, сщмч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/9580.html\" target=\"_blank\" title=\"Иаков (Бобырев), иерей, сщмч.\">Иакова</a> и <a  href=\"http://days.pravoslavie.ru/name/9808.html\" target=\"_blank\" title=\"Тихон (Архангельский), иерей, сщмч.\">Тихона</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/13815.html\" target=\"_blank\" title=\"Василий (Цветков), архимандрит, прмч.\">Василия</a>. Св. <a  href=\"http://days.pravoslavie.ru/name/10104.html\" target=\"_blank\" title=\"Хиония (Архангельская), исп.\">Хионии</a> исп.. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_1-kor_15_58_0_16_0_3.html#z\">1 Кор., 164 зач., XV, 58 - XVI, 3.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_5_17_26.html#z\">Лк., 19 зач., V, 17-26</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается служба свтт. Гурия и Варсонофия, то на литургии - чтения дня и святителей: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18207.htm\" target=\"_blank\" title=\"Библия\">Лк. 5, 17-26</a>). \"Но чтобы вы знали, что Сын Человеческий имеет власть на земле прощать грехи, - сказал Он расслабленному: тебе говорю, встань, возьми постель твою и иди в дом твой\". Отпущение грехов чудо внутреннее, духовное; исцеление от расслабления - чудо внешнее, естественное действие Божие на мир, вместе с тем физическое. Этим событием оправдывается и утверждается привтечение силы Божией и в порядке мира нравственного, и в течении явлений мира физического. Последнее в видах первого, ибо в нем цель всего. Господь не наcилует свободы, а вразумляет, возбуждает, поражает. Лучшее к тому средство - чудо внешнее. Быть ему положено тогда, когда было положено быть разумной твари, управляющейся свободою. Эта связь так существенна, что отвергающие сверхъестественное действие Божие на мир, вместе с тем отвергают и свободу человека, в сознании, что последняя необходимо вызывает первое; и наоборот, иcповедующие истину воздействия Божия в мире, поверх естественного течения явлений, могут смело им говорить: мы чувствуем, что мы свободны. Сознание свободы также сильно и неотразимо, как сознание бытия. Свобода же неотложно требует непосредственных промыслительных Божиих действий: следовательно, и их признание также твердо стоит, как сознание свободы.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

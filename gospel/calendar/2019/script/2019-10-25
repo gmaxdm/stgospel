@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("25 октября 2020 г. ( 12 октября ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 20-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Память святых отцев <a  href=\"http://days.pravoslavie.ru/name/6902.html\" target=\"_blank\" title=\"Седьмой Вселенский Собор\">VII Вселенского собора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6902_473.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/1835.html\" target=\"_blank\" title=\"Пров Тарсийский, мч.\">Прова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1835_3759.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2088.html\" target=\"_blank\" title=\"Тарах Тарсийский, мч.\">Тараха</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2088_3759.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/196.html\" target=\"_blank\" title=\"Андроник Тарсийский, мч.\">Андроника</a> (<a  href=\"http://days.pravoslavie.ru/images/ii196_2062.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1297.html\" target=\"_blank\" title=\"Святитель Косма Маиумский, Святоградец, епископ\">Космы</a>, еп. Маиумского, творца канонов. Мц. <a  href=\"http://days.pravoslavie.ru/name/2452.html\" target=\"_blank\" title=\"Домника (Домнина) Аназаровская (Киликийская), мц.\">Домники</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2452_3758.html\" target=\"_blank\" >икона</a>). Свт. <a  href=\"http://days.pravoslavie.ru/name/1487.html\" target=\"_blank\" title=\"Святитель Мартин Милостивый, Турский, епископ\">Мартина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1487_1908.html\" target=\"_blank\" >икона</a>) Милостивого, еп. Турского. Прп. <a  href=\"http://days.pravoslavie.ru/name/152.html\" target=\"_blank\" title=\"Преподобный Амфилохий, игумен Глушицкий\">Амфилохия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii152_521.html\" target=\"_blank\" >икона</a>), игумена Глушицкого. <a  href=\"http://days.pravoslavie.ru/name/6935.html\" target=\"_blank\" title=\"Перенесение из Мальты в Гатчину части древа Животворящего Креста Господня\">Перенесение</a> из Мальты в Гатчину части древа Животворящего Креста Господня, <a  href=\"http://days.pravoslavie.ru/name/3013.html\" target=\"_blank\" title=\"Филермская\">Филермской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3013_2552.html\" target=\"_blank\" >икона</a>) иконы Божией Матери и десной руки св. <a  href=\"http://days.pravoslavie.ru/name/1007.html\" target=\"_blank\" title=\"Пророк, Предтеча и Креститель Господень Иоанн\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1007_11.html\" target=\"_blank\" >икона</a>) Крестителя. Св. <a  href=\"http://days.pravoslavie.ru/name/13826.html\" target=\"_blank\" title=\"Иоанн (Летников), исповедник\">Иоанна</a> исп. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14430.html\" target=\"_blank\" title=\"Лаврентий (Левченко), прмч.\">Лаврентия</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9442.html\" target=\"_blank\" title=\"Александр (Поздеевский), иерей, сщмч.\">Александра</a> пресвитера. Свт. <a  href=\"http://days.pravoslavie.ru/name/9099.html\" target=\"_blank\" title=\"Святитель Николай (Могилевский), митрополит Алма-Атинский, исп.\">Николая</a> исп. митр. Алма-Атинского. <a  href=\"http://days.pravoslavie.ru/name/2861.html\" target=\"_blank\" title=\"Иерусалимская\">Иерусалимской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2861_998.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2936.html\" target=\"_blank\" title=\"\"Одигитрия\" Ярославская\">Ярославской-Смоленской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2936_1293.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2959.html\" target=\"_blank\" title=\"Рудненская\">Рудненской</a>, и <a  href=\"http://days.pravoslavie.ru/name/2875.html\" target=\"_blank\" title=\"Калужская икона Божией Матери\">Калужской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2875_4175.html\" target=\"_blank\" >икона</a>) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 9-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_20_19_31.html#z\">Ин., 65 зач., XX, 19-31.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_gal_1_11_19.html#z\">Гал., 200 зач., I, 11-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_11_16.html#z\">Лк., 30 зач., VII, 11-16.</a> Свв. отцов: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_7_16.html#z\">Евр., 334 зач., XIII, 7-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_17_1_13.html#z\">Ин., 56 зач., XVII, 1-13.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18223.htm\" target=\"_blank\" title=\"Библия\">Лк. 7, 11-16</a>). Видит Господь мать плачущую о смерти сына и милосердует о ней; в другой раз позван был на брак, и сорадовался семейной радости. Этим показал Он, что разделять обычные житейские радости и печали не противно духу Его. Так и делают христиане истинные, благоговейные, со страхом провождающие жизнь свою. Однако, они различают в житейском быту порядки от порядков; ибо в них много вошло такого, на чем не может быть Божия благоволения. Есть обычаи, вызванные страстями и придуманные в удовлетворение их; другими питается одна суетность. В ком есть дух Христов, тот сумеет различить хорошее от дурного: одного он держится, а другое отвергает. Кто делает это со страхом Божиим, того не чуждаются другие, хоть он и не поступает подобно им, ибо он действует всегда в духе любви и снисхождения к немощам братий своих. Только дух ревности меру преходящий колет глаза и производит разлад и разделение. Такой дух никак не может удержаться, чтоб не поучить и не обличить. А тот заботится лишь о том, чтобы себя и семью свою учредить по христиански; в дела же других вмешиваться не считает позволительным, говоря в себе: \"кто меня поставил судьею\"? Такою тихостью он располагает к себе всех и внушает уважение к тем порядкам, которых держится. Всеуказчик же и себя делает нелюбимым и на добрые порядки, которых держится, наводит неодобрение. Смирение в таких случаях нужно, христианское смирение. Оно источник христианского благоразумия, умеющего хорошо поступать в данных случаях.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

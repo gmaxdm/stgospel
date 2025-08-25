@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("12 июня 2020 г. ( 30 мая ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 1-я по Пятидесятнице (сплошная). ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1101.html\" target=\"_blank\" title=\"Преподобный Исаакий Далматский\">Исаакия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1101_856.html\" target=\"_blank\" >икона</a>) исп., игумена обители Далматской. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14268.html\" target=\"_blank\" title=\"Василий (Смоленский), протоиерей, сщмч.\">Василия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_rim_2_14_29.html#z\">Рим., 82 зач., II, 14-29.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_33_41.html#z\">Мф., 14 зач., V, 33-41</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если в этот день совершается полиелейная служба прав. Иоанна Кронштадтского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_6_1_13.html#z\">Мф., 16 зач., VI, 1-13,</a> а на литургии - чтения дня и праведного: <a href=\"http://days.pravoslavie.ru/bible/z_evr_4_14_0_5_0_6.html#z\">Евр., 311 зач., IV, 14 - V, 6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17938.htm\" target=\"_blank\" title=\"Библия\">Рим. 2, 14-29</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17939.htm\" target=\"_blank\" title=\"Библия\">Мф. 5, 33-41</a>). \"А Я говорю вам: не противься злому\"; иначе отдай себя на жертву своенравию и злобе людской. Но этак и жить нельзя? Не беспокойся. Кто заповедь эту дал, тот же есть и Промыслитель и Попечитель наш. Когда с полною верою, от всей души пожелаешь так жить, чтоб не противиться никакому злу, то Господь сам устроит для тебя образ жизни, не только сносный, но и счастливый. К тому же на деле бывает так, что противление больше раздражает противника и побуждает его изобретать новые неприятности, а уступка обезоруживает его и смиряет. Оттого бывает, что претерпи только первые натиски злобы, - люди сжалятся и оставят тебя в покое. А противление и месть разжигает злобу которая от одного лица переходит в семью, а потом из поколения в поколение.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("31 мая 2020 г. ( 18 мая ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6775.html\" target=\"_blank\" title=\"Первый Вселенский Собор\">Неделя 7-я по Пасхе, святых отцев I Вселенского Собора</a>. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Память <a  href=\"http://days.pravoslavie.ru/name/6908.html\" target=\"_blank\" title=\"Память святых отцев семи Вселенских Соборов\">святых отцев</a> семи Вселенских Соборов. Мч. <a  href=\"http://days.pravoslavie.ru/name/2216.html\" target=\"_blank\" title=\"Мученик Феодот Анкирский\">Феодота</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2216_4303.html\" target=\"_blank\" >икона</a>) Анкирского и мцц. семи дев: <a  href=\"http://days.pravoslavie.ru/name/2378.html\" target=\"_blank\" title=\"Александра Анкирская (Коринфская), дева, мц.\">Александры</a>, <a  href=\"http://days.pravoslavie.ru/name/2689.html\" target=\"_blank\" title=\"Текуса Анкирская (Коринфская), дева, мц.\">Текусы</a>, <a  href=\"http://days.pravoslavie.ru/name/2561.html\" target=\"_blank\" title=\"Клавдия Анкирская (Коринфская), дева, мц.\">Клавдии</a>, <a  href=\"http://days.pravoslavie.ru/name/2693.html\" target=\"_blank\" title=\"Фаина Анкирская (Коринфская), дева, мц.\">Фаины</a>, <a  href=\"http://days.pravoslavie.ru/name/2481.html\" target=\"_blank\" title=\"Мученица Евфрасия Анкирская\">Евфрасии</a>, <a  href=\"http://days.pravoslavie.ru/name/2612.html\" target=\"_blank\" title=\"Матрона Анкирская (Коринфская), дева, мц.\">Матроны</a> и <a  href=\"http://days.pravoslavie.ru/name/2536.html\" target=\"_blank\" title=\"Иулия Анкирская (Коринфская), дева, мц.\">Иулии</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1778.html\" target=\"_blank\" title=\"Петр Лампсакский, мч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/626.html\" target=\"_blank\" title=\"Дионисий Лампсакский, мч.\">Дионисия</a>, <a  href=\"http://days.pravoslavie.ru/name/183.html\" target=\"_blank\" title=\"Андрей Лампсакский, мч.\">Андрея</a>, <a  href=\"http://days.pravoslavie.ru/name/1689.html\" target=\"_blank\" title=\"Павел Лампсакский, мч.\">Павла</a> и <a  href=\"http://days.pravoslavie.ru/name/2755.html\" target=\"_blank\" title=\"Христина Лампсакийская, мц.\">Христины</a> Лампсакийских. Прп. <a  href=\"http://days.pravoslavie.ru/name/13462.html\" target=\"_blank\" title=\"Макарий (Глухарев) Алтайский, архимандрит, прп.\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13462_684.html\" target=\"_blank\" >икона</a>) Алтайского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1083.html\" target=\"_blank\" title=\"Ираклий Афинянин, мч.\">Ираклия</a>, <a  href=\"http://days.pravoslavie.ru/name/1702.html\" target=\"_blank\" title=\"Павлин Афинянин, мч.\">Павлина</a> и <a  href=\"http://days.pravoslavie.ru/name/404.html\" target=\"_blank\" title=\"Венедим Афинянин, мч.\">Венедима</a> Афинских. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2008.html\" target=\"_blank\" title=\"Симеон Персидский, мч.\">Симеона</a>, <a  href=\"http://days.pravoslavie.ru/name/1095.html\" target=\"_blank\" title=\"Святитель Исаак Бет-Селевкийский (Персидский), епископ, сщмч.\">Исаака</a> и <a  href=\"http://days.pravoslavie.ru/name/401.html\" target=\"_blank\" title=\"Святитель Вахтисий Бет-Никторский (Персидский), епископ, сщмч.\">Вахтисия</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/558.html\" target=\"_blank\" title=\"Давид Грузинский, мч.\">Давида</a> и <a  href=\"http://days.pravoslavie.ru/name/2089.html\" target=\"_blank\" title=\"Таричан Грузинский, мч.\">Таричана</a> отроков (Груз.). Прав. <a  href=\"http://days.pravoslavie.ru/name/14952.html\" target=\"_blank\" title=\"Святой праведный Иоанн Кормянский\">Иоанна</a> Кормянского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14510.html\" target=\"_blank\" title=\"Михаил (Виноградов), иерей, сщмч.\">Михаила</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13718.html\" target=\"_blank\" title=\"Василий (Крылов), иерей, сщмч.\">Василия</a> пресвитера. <a  href=\"http://days.pravoslavie.ru/name/3021.html\" target=\"_blank\" title=\"Челнская\">Челнской</a> и Псково-Печерской, именуемой <a  href=\"http://days.pravoslavie.ru/name/2997.html\" target=\"_blank\" title=\"Псково-Печерская икона Божией Матери \"Умиление\"\">Умиление</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2997_2977.html\" target=\"_blank\" >икона</a>), икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 10-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_21_1_14.html#z\">Ин., 66 зач., XXI, 1-14.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_20_16_18_20_28_36.html#z\">Деян., 44 зач., XX, 16-18, 28-36.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_17_1_13.html#z\">Ин., 56 зач., XVII, 1-13.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17912.htm\" target=\"_blank\" title=\"Библия\">Дея. 20, 16-18, 28-36</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17913.htm\" target=\"_blank\" title=\"Библия\">Ин. 17, 1-13</a>). Арий стал отвергать божество Сына Божия и Его единосущие Богу Отцу. На него поднялась вся Церковь; все верующие, во всех концах мира, едиными устами исповедали, что Господь Иисус Христос есть Сын Божий Единородный, Бог от Бога, рожден, не сотворен, единосущен Отцу. Иной подумал бы, что это случайное какое-либо воодушевление на единомыслие; но эта вера прошла потом огненное испытание, когда на сторону ариан склонилась власть и знать. Ни огонь, ни меч, ни гонения не могли истребить ее и она тотчас обнаружилась повсюду всеми, коль скоро прекращалось давление внешней силы. Это значит, что она составляет сердце Церкви и сущность ее исповедания. Слава Господу, хранящему в нас эту веру! Ибо пока она есть, мы еще христиане, хоть и худо живем; не станет ее - и христианству конец.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

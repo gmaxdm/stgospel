@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("2 февраля 2020 г. ( 20 января ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 33-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/735.html\" target=\"_blank\" title=\"Евфимий Великий, иеромонах\">Евфимия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii735_528.html\" target=\"_blank\" >икона</a>) Великого. Мчч. <a  href=\"http://days.pravoslavie.ru/name/949.html\" target=\"_blank\" title=\"Мученик Инна\">Инны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii949_1797.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1795.html\" target=\"_blank\" title=\"Мученик Пинна\">Пинны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1795_3973.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1870.html\" target=\"_blank\" title=\"Мученик Римма\">Риммы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1870_1998.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/394.html\" target=\"_blank\" title=\"Васс Никомидийский, мч.\">Васса</a> (<a  href=\"http://days.pravoslavie.ru/images/ii394_3971.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/700.html\" target=\"_blank\" title=\"Евсевий Никомидийский, мч.\">Евсевия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii700_3971.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/728.html\" target=\"_blank\" title=\"Евтихий Никомидийский, мч.\">Евтихия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii728_3971.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/368.html\" target=\"_blank\" title=\"Василид Никомидийский, мч.\">Василида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii368_3971.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1322.html\" target=\"_blank\" title=\"Лаврентий Печерский, затворник\">Лаврентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1322_3225.html\" target=\"_blank\" >икона</a>) затворника Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/741.html\" target=\"_blank\" title=\"Преподобный Евфимий, схимник Печерский\">Евфимия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii741_3226.html\" target=\"_blank\" >икона</a>) схимника Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/744.html\" target=\"_blank\" title=\"Преподобный Евфимий Сянжемский, Вологодский\">Евфимия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii744_3224.html\" target=\"_blank\" >икона</a>) Сянжемского, Вологодского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14210.html\" target=\"_blank\" title=\"Евфимий (Кереселидзе), игумен, исповедник, прп.\">Евфимия</a> исп (Груз.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9385.html\" target=\"_blank\" title=\"Павел (Добромыслов), протоиерей, сщмч.\">Павла</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 11-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-tim_4_9_15.html#z\">1 Тим., 285 зач. (от&nbsp;полу&#769;), IV, 9-15</a> (Недели 32-й). <a href=\"http://days.pravoslavie.ru/bible/z_lk_19_1_10.html#z\">Лк., 94 зач., XIX, 1-10</a> (Недели 32-й, о Закхее). Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

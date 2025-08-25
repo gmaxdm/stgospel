@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("24 августа 2020 г. ( 11 августа ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 12-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Успенский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. архидиакона <a  href=\"http://days.pravoslavie.ru/name/693.html\" target=\"_blank\" title=\"Евпл Катанский (Сицилийский), архидиакон, сщмч.\">Евпла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii693_4435.html\" target=\"_blank\" >икона</a>). Мц. <a  href=\"http://days.pravoslavie.ru/name/2673.html\" target=\"_blank\" title=\"Сосанна Римская, дева, мц.\">Сосанны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2673_2260.html\" target=\"_blank\" >икона</a>) девы и с нею <a  href=\"http://days.pravoslavie.ru/name/457.html\" target=\"_blank\" title=\"Святитель Гаий Римский, папа, сщмч.\">Гаия</a>, папы Римского, <a  href=\"http://days.pravoslavie.ru/name/444.html\" target=\"_blank\" title=\"Гавиний Римский, пресвитер, сщмч.\">Гавиния</a> пресвитера, <a  href=\"http://days.pravoslavie.ru/name/1247.html\" target=\"_blank\" title=\"Клавдий Римский, сановник, мч.\">Клавдия</a>, <a  href=\"http://days.pravoslavie.ru/name/1435.html\" target=\"_blank\" title=\"Максим Римский, мч.\">Максима</a>, <a  href=\"http://days.pravoslavie.ru/name/2651.html\" target=\"_blank\" title=\"Препедигна Римская, мц.\">Препедигны</a>, <a  href=\"http://days.pravoslavie.ru/name/123.html\" target=\"_blank\" title=\"Александр Римский, мч.\">Александра</a> и <a  href=\"http://days.pravoslavie.ru/name/1317.html\" target=\"_blank\" title=\"Куфий Римский, мч.\">Куфия</a>. Прмчч. <a  href=\"http://days.pravoslavie.ru/name/2196.html\" target=\"_blank\" title=\"Преподобномученик Феодор Печерский\">Феодора</a> и <a  href=\"http://days.pravoslavie.ru/name/383.html\" target=\"_blank\" title=\"Преподобномученик Василий Печерский\">Василия</a> Печерских. Прп. <a  href=\"http://days.pravoslavie.ru/name/2181.html\" target=\"_blank\" title=\"Преподобный Феодор, князь Острожский\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2181_2981.html\" target=\"_blank\" >икона</a>), кн. Острожского, Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/13486.html\" target=\"_blank\" title=\"Иоанн (Крюков) Святогорский, иеросхимонах, прп., затворник\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13486_793.html\" target=\"_blank\" >икона</a>) Святогорского, затворника.  ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-kor_5_10_15.html#z\">2 Кор., 179 зач., V, 10-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_1_9_15.html#z\">Мк., 2 зач., I, 9-15.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18094.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 5, 10-15</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18095.htm\" target=\"_blank\" title=\"Библия\">Мк. 1, 9-15</a>). Господь начал проповедь Свою так: \"исполнилось время и приблизилось Царствие Божие: покайтесь и веруйте в Евангелие\". В конце веков тоже будет сказано: исполнилось время, приблизилось Царствие; но будет прибавлено не \"покайтесь и веруйте\", а \"исходите на суд\". Время покаяния и трудов самоисправления кончилось; давай каждый отчет в том, что телом сделал благого или злого. Итак, пока время, поспешите воспользоваться им к своему спасению. Объятия Отчие отверсты к принятию всех приходящих с искренним чувством сокрушения о прошедшем, и с желанием поработать Богу впредь усердным исполнением заповедей Его святых. Для каждого из нас конец века - смерть: она дверь в другую жизнь. Почаще посматривай в нее и повернее для себя определяй: что же потом? - и определивши без жаления себя, примись за труды, чтоб заготовить неготовое ко вступлению туда, где радость нескончаемая, и к отстранению всего, что может подать право слугам тьмы кромешной возобладать нами и увлечь в свою область, откуда не будет уже выхода.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

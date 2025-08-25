@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("21 июня 2020 г. ( 8 июня ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6981.html\" target=\"_blank\" title=\"Собор всех святых в земле Российской просиявших.\">Неделя 2-я по Пятидесятнице, Всех святых в земле Российской просиявших</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6981_493.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмч. <a  href=\"http://days.pravoslavie.ru/name/2201.html\" target=\"_blank\" title=\"Великомученик Феодор Стратилат\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2201_55.html\" target=\"_blank\" >икона</a>) Стратилата. <a  href=\"http://days.pravoslavie.ru/name/6891.html\" target=\"_blank\" title=\"Собор всех преподобных и богоносных отцев во Святой Горе Афонской просиявших\">Собор</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6891_3472.html\" target=\"_blank\" >икона</a>) всех преподобных и Богоносных отцев, во Святой Горе Афонской просиявших. Прп. <a  href=\"http://days.pravoslavie.ru/name/812.html\" target=\"_blank\" title=\"Святитель Ефрем Антиохийский, патриарх\">Ефрема</a>, Патриарха Антиохийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/855.html\" target=\"_blank\" title=\"Зосима Финикийский, прп.\">Зосимы</a> Финикийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/2199.html\" target=\"_blank\" title=\"Святитель Феодор Ростовский и Суздальский, епископ\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2199_195.html\" target=\"_blank\" >икона</a>), еп. Суздальского. Обретение мощей страстотерпцев благоверных князей <a  href=\"http://days.pravoslavie.ru/name/375.html\" target=\"_blank\" title=\"Василий Всеволодович Ярославский, князь\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii375_444.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1271.html\" target=\"_blank\" title=\"Константин Всеволодович Ярославский, князь\">Константина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1271_444.html\" target=\"_blank\" >икона</a>) Ярославских. <a  href=\"http://days.pravoslavie.ru/name/3032.html\" target=\"_blank\" title=\"Ярославская\">Ярославской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3032_304.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/3001.html\" target=\"_blank\" title=\"Урюпинская\">Урюпинской</a> икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 2-е, <a href=\"http://days.pravoslavie.ru/bible/z_mk_16_1_8.html#z\">Мк., 70 зач., XVI, 1-8.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_2_10_16.html#z\">Рим., 81 зач. (от&nbsp;полу&#769;), II, 10-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_18_23.html#z\">Мф., 9 зач., IV, 18-23.</a> Свв.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_11_33_0_12_0_2.html#z\">Евр., 330 зач., XI, 33 - XII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17956.htm\" target=\"_blank\" title=\"Библия\">Рим. 2, 10-16</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17957.htm\" target=\"_blank\" title=\"Библия\">Мф. 4, 18-23</a>). Позвал Господь Петра и Андрея, и они тотчас, оставя все, пошли за Ним. Позвал Он Иакова и Иоанна, и они тоже тотчас оставили все и пошли за Господом. Отчего же они так скоро и охотно пошли? Оттого, что увидели лучшее. Таков уж закон у нас в душе, что узнав и вкусив лучшее, она отвращается от худшего и бросает его. Тут совершается то же, что потом Господь изобразил в притче о сокровище, сокрытом на селе, и о бисере многоценном. Это сокровище и бисер - вера в Господа и общение с Ним по силе веры. Обладателями этого мы нарицаемся еще в крещении. Отчего же мы так мало ценим такое сокровище и, мало ценя, меняем на пустошь? Оттого, что во время воспитания не вводят нас во вкус этого сокровища, и оно становится чуждо нашему сердцу. Сердце наше не знает этого лучшего. Оно знает только, что из нехорошего меньше нехорошо и что больше, и на этом основывает свой взгляд. Тут и причина вся, отчего иных зовет Господь и они идут, а мы, и призванные, бежим от Него.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

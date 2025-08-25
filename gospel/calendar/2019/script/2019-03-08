@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("8 марта 2020 г. ( 24 февраля ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 38-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Первое и второе обретение главы <a  href=\"http://days.pravoslavie.ru/name/1007.html\" target=\"_blank\" title=\"Пророк, Предтеча и Креститель Господень Иоанн\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1007_11.html\" target=\"_blank\" >икона</a>) Предтечи. Прп. <a  href=\"http://days.pravoslavie.ru/name/787.html\" target=\"_blank\" title=\"Еразм Печерский, прп.\">Еразма</a> Печерского. <a  href=\"http://days.pravoslavie.ru/name/2881.html\" target=\"_blank\" title=\"Кипрская (Стромынская)\">Кипрской</a> иконы Божией Матери в с. Стромыни Московской области. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 5-е, <a href=\"http://days.pravoslavie.ru/bible/z_lk_24_12_35.html#z\">Лк., 113 зач., XXIV, 12-35.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_evr_11_24_26_11_32_0_12_0_2.html#z\">Евр., 329 зач. (от&nbsp;полу&#769;), XI, 24-26, 32 - XII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_1_43_51.html#z\">Ин., 5 зач., I, 43-51.</a> Предтечи: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_4_6_15.html#z\">2 Кор., 176 зач., IV, 6-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_2_15.html#z\">Мф., 40 зач., XI, 2-15.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18478.htm\" target=\"_blank\" title=\"Библия\">Евр. 11, 24-26, 32-12, 2</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18479.htm\" target=\"_blank\" title=\"Библия\">Ин. 1, 43-51</a>). Православие. Не забудь правого слова, которое сказал ты Богу, возобновляя с Ним завет, нарушенный с твоей стороны не добросовестно. Припомни, как и почему нарушил и старайся избежать новой неверности. Не слово красное славно, - славна верность. Не славно ли быть в завете с царем? Сколько же славнее быть в завете с Царем царей! Но слава эта обратится в посрамление тебе, если не будешь верен завету. От начала мира сколько прославлено великих людей! И все они прославлены за верность, в которой устояли, несмотря на великие беды и скорби из-за такой верности: испытали поругания и побои, а также узы и темницу. Были побиваемы камнями, перепиливаемы, подвергаемы пытке, умирали от меча, скитались в милотях и козьих кожах, терпя недостатки, скорби, озлобления; те, которых весь мир не был достоин, скитались по пустыням и горам, по пещерам и ущельям земли . . . посему и мы, имея вокруг себя такое облако свидетелей, с терпением будем проходить предлежащее нам поприще, взирая на начальника и совершителя веры Иисуса\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18480.htm\" target=\"_blank\" title=\"Библия\">Евр. 11, 36-38; 12, 1-2</a>).<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

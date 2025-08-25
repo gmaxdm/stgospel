@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("30 октября 2020 г. ( 17 октября ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 21-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/1680.html\" target=\"_blank\" title=\"Осия, пророк, из 12 малых пророков\">Осии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1680_3547.html\" target=\"_blank\" >икона</a>). Прмч. <a  href=\"http://days.pravoslavie.ru/name/182.html\" target=\"_blank\" title=\"Преподобномученик Андрей Критский\">Андрея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii182_1656.html\" target=\"_blank\" >икона</a>) Критского. Мчч. бессребреников <a  href=\"http://days.pravoslavie.ru/name/1295.html\" target=\"_blank\" title=\"Святой мученик бессребренник Косма Аравийский\">Космы</a> и <a  href=\"http://days.pravoslavie.ru/name/571.html\" target=\"_blank\" title=\"Святой бессребренник Дамиан Аравийский\">Дамиана</a>, Аравийских, и братий их мчч. <a  href=\"http://days.pravoslavie.ru/name/1347.html\" target=\"_blank\" title=\"Леонтий Киликийский, мч.\">Леонтия</a>, <a  href=\"http://days.pravoslavie.ru/name/232.html\" target=\"_blank\" title=\"Анфим Киликийский, мч.\">Анфима</a> и <a  href=\"http://days.pravoslavie.ru/name/733.html\" target=\"_blank\" title=\"Евтропий Киликийский, мч.\">Евтропия</a>. Перенесение мощей прав. <a  href=\"http://days.pravoslavie.ru/name/1328.html\" target=\"_blank\" title=\"Святитель Лазарь Четверодневный, Китийский, епископ\">Лазаря</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1328_72.html\" target=\"_blank\" >икона</a>) Четверодневного, еп. Китийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/214.html\" target=\"_blank\" title=\"Преподобный Антоний Леохновский, Новгородский\">Антония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii214_3639.html\" target=\"_blank\" >икона</a>) Леохновского, Новгородского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9361.html\" target=\"_blank\" title=\"Неофит (Любимов), протоиерей, сщмч.\">Неофита</a> и <a  href=\"http://days.pravoslavie.ru/name/14519.html\" target=\"_blank\" title=\"Анатолий (Ивановский), иерей, сщмч.\">Анатолия</a> пресвитеров, прмчч. <a  href=\"http://days.pravoslavie.ru/name/13833.html\" target=\"_blank\" title=\"Иакинф (Питателев), прмч.\">Иакинфа</a> и <a  href=\"http://days.pravoslavie.ru/name/13834.html\" target=\"_blank\" title=\"Каллист (Опарин), прмч.\">Каллиста</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9103.html\" target=\"_blank\" title=\"Святитель Александр (Щукин), архиепископ Семипалатинский, сщмч.\">Александра</a>, архиеп. Семипалатинского. Икон Божией Матери, именуемых <a  href=\"http://days.pravoslavie.ru/name/2948.html\" target=\"_blank\" title=\"\"Прежде Рождества и по Рождестве Дева\"\"> \"Прежде Рождества и по Рождестве Дева\"</a> и <a  href=\"http://days.pravoslavie.ru/name/2862.html\" target=\"_blank\" title=\"\"Избавительница\"\">\"Избавительница\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2862_2381.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_kol_2_1_7.html#z\">Кол., 253 зач., II, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_9_12_18.html#z\">Лк., 42 зач., IX, 12-18.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18235.htm\" target=\"_blank\" title=\"Библия\">Лк. 9, 12-18</a>). Чудное насыщение народа в пустыне - образ насыщения верующих во св. причащение Пречистым Телом и Пречистой Кровью Господа. Господь сидит особо; народ рассажен рядами; апостолы посредствуют, получают хлеб и раздают. Так и ныне: верующие все разделены на группы - малые частные церкви, в которых Господь, невидимо присутствуя, раздает Свое Тело и Кровь, через апостольских преемников. Как тогда апостолами, так теперь преемниками их говорит Он: \"вы дайте им есть\". Как тогда, так и теперь народ верующий неотступно предстоит Господу в посте, слушании слова и молитвенном взыскании исцеления от грехов, когда готовится приступить к Божественным Тайнам. Так предначатое в явлении Господа таинство продолжается доселе и будет продолжаться до скончания века. И в будущем веке будет своего рода причащение, ибо Господь обещает дать вкусить от манны сокровенные и от древа животного (<a  href=\"https://days.pravoslavie.ru/Bible/C18236.htm\" target=\"_blank\" title=\"Библия\">Апок. 2, 7 и 17</a>). И в земном раю, для прародителей устроено было свое таинственное причащение - вкушение от древа жизни; в ветхозаветной же церкви образ его - вкушение пасхального агнца. Таким образом, таинственное причащение началось с родом человеческим, было и будет с ним во веки вечные, в разных видах, но одном значении - приискреннего общения с Господом; ибо \"в Нем была жизнь, и жизнь была свет человеков\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18237.htm\" target=\"_blank\" title=\"Библия\">Ин. 1, 4</a>). Созданным по образу Божию и надлежит быть в таком общении с Тем, \"Который есть сияние славы и образ ипостаси Отчей\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18238.htm\" target=\"_blank\" title=\"Библия\">Евр. 1, 3</a>).<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

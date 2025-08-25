@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("21 февраля 2020 г. ( 8 февраля ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица мясопустная. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Отдание праздника Сретения Господня. Вмч. <a  href=\"http://days.pravoslavie.ru/name/2201.html\" target=\"_blank\" title=\"Великомученик Феодор Стратилат\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2201_55.html\" target=\"_blank\" >икона</a>) Стратилата. Прор. <a  href=\"http://days.pravoslavie.ru/name/824.html\" target=\"_blank\" title=\"Захария Серповидец, пророк, из 12 малых пророков\">Захарии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii824_561.html\" target=\"_blank\" >икона</a>) Серповидца из 12-ти. Свт. <a  href=\"http://days.pravoslavie.ru/name/1902.html\" target=\"_blank\" title=\"Святитель Савва II Сербский, архиепископ\">Саввы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1902_2774.html\" target=\"_blank\" >икона</a>) II, архиеп. Сербского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9798.html\" target=\"_blank\" title=\"Симеон (Кульгавец), иерей, сщмч.\">Симеона</a>,  <a  href=\"http://days.pravoslavie.ru/name/9280.html\" target=\"_blank\" title=\"Андрей (Добрынин), протоиерей, сщмч.\">Андрея</a>, <a  href=\"http://days.pravoslavie.ru/name/13660.html\" target=\"_blank\" title=\"Сергий (Любомудров), протоиерей, сщмч.\">Сергия</a>  и <a  href=\"http://days.pravoslavie.ru/name/14407.html\" target=\"_blank\" title=\"Петр (Марков), протоиерей\">Петра</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9416.html\" target=\"_blank\" title=\"Александр (Абиссов), иерей, сщмч.\">Александра</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_2-in_1_1_13.html#z\">2 Ин., 75 зач., I, 1-13.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_15_22_22_15_25_25_15_33_41.html#z\">Мк., 68 зач., XV, 22, 25, 33-41</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если в этот день совершается полиелейная служба свт. Тихона, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16,</a> а на литургии - чтения дня и святителя: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18452.htm\" target=\"_blank\" title=\"Библия\">2 Ин. 1, 1-13</a>). Св. Иоанн Богослов пишет: \"многие обольстители вошли в мир, не исповедующие Иисуса Христа, пришедшего во плоти\". Так было в его время; а ныне входят в мир обольстители, которые исповедуют Христа, во плоти пришедшего, но которые тем не менее \"обольстители и антихристы\". Началось это явнее со времен Ария и доселе идет. Древние, впрочем, претыкались более в догмате о лице Иисуса Христа, Спасителя нашего; а со времен Лютера стали претыкаться в учении о спасении в Нем. И сколько уже перебывало таких? И у нас явились такие \"обольстители и антихристы\", которые толкуют, что \"веруй и довольно\"; больше ничего не нужно, - ни церкви, ни таинств, ни священства. Начинают же свою лесть и эти тоже со Христа Господа и спасения в Нем. Но как не право о сем толкуют, то это антихристы и клятве подлежат. Остерегайтесь их. \"Всякий, преступающий учение Христово и не пребывающий в нем, не имеет Бога\". И они не имеют; потому что не имеют учения Христова. Учение это в Церкви, а они отложились от Церкви. Только те, которые Церкви следуют, имеют учение Христово и пребывают в нем. Ради этого и Христа Сына Божия имеют и Бога Отца. А те не имеют, хоть и твердят, что имеют. Не принимайте таковых и не приветствуйте их.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,35 @@
+.chapter {
+}
+.chapter p {
+    font-size: 20px;
+}
+.bibletree__title {
+    text-align: center;
+    width: 100%;
+    margin-left: -17px;
+}
+.select__items {
+    margin: 10px;
+}
+.select__items li {
+    cursor: pointer;
+    padding: 0 5px;
+}
+.select__items li:hover {
+    background: #bfeaca;
+}
+.select__items li.selected {
+    background: #7fd893;
+}
+.list__cont {
+    padding: 0 10px;
+    background: #eee3ef;
+    border: 1px solid #d9cedc;
+}
+.collection__cont {
+    padding: 0 10px;
+    background: #c6dcea;
+    border: 1px solid #b7c6d2;
+}
+.collection {
+}

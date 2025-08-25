@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-30 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/forum/index.html:4
+msgid "Экономикон - форум"
+msgstr "Economicon - forum"
+
+#: templates/forum/index.html:11 templates/forum/topic.html:15
+msgid "Forums"
+msgstr "Forums"
+
+#: templates/forum/index.html:16
+msgid "Topic"
+msgstr "Topic"
+
+#: templates/forum/index.html:17
+msgid "Posts"
+msgstr "Posts"
+
+#: templates/forum/index.html:18
+msgid "Visits"
+msgstr "Visits"
+
+#: templates/forum/index.html:19
+msgid "Creator"
+msgstr "Creator"
+
+#: templates/forum/index.html:20
+msgid "Last Post"
+msgstr "Last Post"
+
+#: templates/forum/index.html:40
+msgid "Post was deleted."
+msgstr "Post was deleted."
+
+#: templates/forum/index.html:55
+msgid "New topic"
+msgstr "New topic"
+
+#: templates/forum/index.html:64
+msgid "Title"
+msgstr "Title"
+
+#: templates/forum/index.html:66
+msgid "Please select Forum"
+msgstr "Please select Forum"
+
+#: templates/forum/index.html:75
+msgid "Create"
+msgstr "Create"
+
+#: templates/forum/index.html:82 templates/forum/topic.html:27
+#, python-format
+msgid ""
+"\n"
+"    <p>Пожалуйста\" <a href=\"%(register_url)s\">зарегистрируйтесь</a>, "
+"чтобы оставить отзыв.</p>\n"
+"    "
+msgstr ""
+"\n"
+"    <p>Please\" <a href=\"%(register_url)s\">register</a>, "
+"to leave a post.</p>\n"
+"    "
+
+#: templates/forum/index.html:87 templates/forum/topic.html:32
+msgid "Register"
+msgstr "Register"
+
+#: templates/forum/topic.html:4
+msgid "Экономикон - "
+msgstr "Economicon - "
+
+#: templates/forum/topic.html:22
+msgid "Topic is closed."
+msgstr "Topic is closed."

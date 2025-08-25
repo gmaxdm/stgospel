@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("7 апреля 2020 г. ( 25 марта ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я Великого поста (седмица ваий). ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/3042.html\" target=\"_blank\" title=\"Благовещение Пресвятой Богородицы\">Благовещение Пресвятой Богородицы.</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii3042_3403.html\" target=\"_blank\" >икона</a>)</span></span><br> Преставление свт. <a  href=\"http://days.pravoslavie.ru/name/2119.html\" target=\"_blank\" title=\"Святитель Тихон (Белавин), патриарх Московский и всея Руси\">Тихона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2119_26.html\" target=\"_blank\" >икона</a>), патриарха Московского и всея России. Прп. <a  href=\"http://days.pravoslavie.ru/name/1897.html\" target=\"_blank\" title=\"Савва Новый, иеромонах\">Саввы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1897_4181.html\" target=\"_blank\" >икона</a>) Нового. Иконы <a  href=\"http://days.pravoslavie.ru/name/2781.html\" target=\"_blank\" title=\"\"Благовещение\" Киевская\">Благовещения</a> Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_49_6_10.html#z\">Ис. XLIX, 6-10.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_31_3_16.html#z\">Быт. XXXI, 3-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_21_3_21.html#z\">Притч. XXI, 3-21.</a> Благовещения: <a href=\"http://days.pravoslavie.ru/bible/z_ish_3_1_8.html#z\">Исх. III, 1-8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_8_22_30.html#z\">Притч. VIII, 22-30.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_evr_2_11_18.html#z\">Евр., 306 зач., II, 11-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_24_38.html#z\">Лк., 3 зач., I, 24-38.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Кто затыкает ухо свое от вопля бедного, тот и сам будет вопить, - и не будет услышан\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17805.htm\" target=\"_blank\" title=\"Библия\">Прит. 21, 13</a>). А мы часто дивимся отчего Бог не слушает молитв наших? Вот и причина! Оттого что бывали, верно, случаи, когда мы затыкали уши свои от речей, которыми умаливал нас нуждающийся; вот и нас не слышит Господь. Но это еще не велико горе, если не слышится молитва о чем либо временном, а вот горе, если не станет Господь слушать нас, когда начнем молиться Ему об отпущении грехов наших. А не станет, если вопль к Нему тех, которые презрены нами, сильнее молитв наших. Надо поспешить отвратить эту крайнюю беду, по примеру Закхея, которому за его мудрые решения сказал Господь: \"ныне пришло спасение дому сему\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17806.htm\" target=\"_blank\" title=\"Библия\">Лк. 19, 9</a>).<br>Благовещение и установление таинства Тела и Крови. Какое сочетание! Мы причащаемся истинного Тела и истинной Крови Христовых, - тех самых, которые в воплощении приняты от пренепорочных кровей Пречистой Девы Богородицы. Таким образом, в воплощении, совершившемся в час благовещения, положено основание таинству Тела и Крови. И ныне это приводится на память всем христианам, чтобы, помня то, чтили Пресвятую Богородицу истинной Матерью своей, не как молитвенницу только и ходатаицу, но и как питательницу всех. Дети питаются молоком матери, а мы питаемся Телом и Кровью, которые от Пресвятой Девы Богородицы. Питаясь так, мы пьем существенно млеко из грудей Ее.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("3 июня 2020 г. ( 21 мая ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 7-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/2812.html\" target=\"_blank\" title=\"Владимирская икона Божией Матери\">Владимирской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2812_112.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. Равноапп. царя <a  href=\"http://days.pravoslavie.ru/name/1270.html\" target=\"_blank\" title=\"Святой равноапостольный царь Константин\">Константина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1270_467.html\" target=\"_blank\" >икона</a>) и матери его царицы <a  href=\"http://days.pravoslavie.ru/name/2494.html\" target=\"_blank\" title=\"Равноапостольная царица Елена\">Елены</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2494_894.html\" target=\"_blank\" >икона</a>) . Прп. <a  href=\"http://days.pravoslavie.ru/name/639.html\" target=\"_blank\" title=\"Додо Гареджийский, Грузинский, прп.\">Додо</a> Давидо-Гареджийского, Грузинского. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/1276.html\" target=\"_blank\" title=\"Святой блаженный князь Константин Муромский\">Константина</a> (Ярослава) и чад его <a  href=\"http://days.pravoslavie.ru/name/1557.html\" target=\"_blank\" title=\"Михаил Муромский\">Михаила</a> и <a  href=\"http://days.pravoslavie.ru/name/2189.html\" target=\"_blank\" title=\"Святой князь Феодор Муромский\">Феодора</a>, Муромских чудотворцев. Обретение мощей блж. <a  href=\"http://days.pravoslavie.ru/name/14260.html\" target=\"_blank\" title=\"Андрей (Огородников) Симбирский, Христа ради юродивый\">Андрея</a> Симбирского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1179.html\" target=\"_blank\" title=\"Кассиан грек, Угличский, прп.\">Кассиана</a> грека, Угличского чудотворца. <a  href=\"http://days.pravoslavie.ru/name/6906.html\" target=\"_blank\" title=\"Собор Карельских святых\">Собор Карельских святых</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6906_3148.html\" target=\"_blank\" >икона</a>). <a  href=\"http://days.pravoslavie.ru/name/14698.html\" target=\"_blank\" title=\"Собор Симбирских святых\">Собор Симбирских святых</a>. <a  href=\"http://days.pravoslavie.ru/name/14532.html\" target=\"_blank\" title=\"Собор Уфимских святых\">Собор Уфимских святых</a>. Чтимые списки с Владимирской иконы Божией Матери: Псково-Печерская <a  href=\"http://days.pravoslavie.ru/name/2997.html\" target=\"_blank\" title=\"Псково-Печерская икона Божией Матери \"Умиление\"\">\"Умиление\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2997_2977.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2813.html\" target=\"_blank\" title=\"Владимирская (Заоникиевская)\">Заоникиевская</a>, <a  href=\"http://days.pravoslavie.ru/name/2817.html\" target=\"_blank\" title=\"Владимирская (Красногорская, Черногорская) \"Умиление\"\">Красногорская</a> или Черногорская, <a  href=\"http://days.pravoslavie.ru/name/2815.html\" target=\"_blank\" title=\"Владимирская (Оранская)\">Оранская</a> ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_23_1_11.html#z\">Деян., 47 зач., XXIII, 1-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_16_15_23.html#z\">Ин., 54 зач., XVI, 15-23.</a> Равноапп. (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_deqn_26_1_5_26_12_20.html#z\">Деян., 49 зач., XXVI, 1-5, 12-20.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17918.htm\" target=\"_blank\" title=\"Библия\">Дея 23, 1-11</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17919.htm\" target=\"_blank\" title=\"Библия\">Ин. 16, 15-23</a>). Господь говорит святым апостолам перед страданиями: \"вскоре не увидите Меня. и опять вскоре увидите Меня\". Страдания Господа и смерть так поразили св. апостолов, что очи ума их помутились, и они не стали видеть Господа, как Господа; скрылся свет, и они сидели во тьме горькой и томительной. Тьму эту разогнал свет воскресения Христова, - и они опять узрели Господа. Так слова Свои объяснил Сам Господь: \"вы восплачете\", говорил Он, \"и возрыдаете, а мир возрадуется; вы печальны будете, но печаль ваша в радость будет\". Говорят, что и всякая душа на пути к совершенству, испытывает подобное же поражение. Тьма повсюдная покрывает ее, и она не знает куда деваться; но приходит Господь, и печаль ее претворяет в радость. Верно необходимо так, как необходимо жене помучиться перед тем, как предстоит родиться от нее человеку в мир. Нельзя ли отсюда заключить, что кто не испытал этого, в том еще не рождался настоящий христианин?<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

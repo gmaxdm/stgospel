@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("21 ноября 2020 г. ( 8 ноября ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 24-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6905.html\" target=\"_blank\" title=\"Собор Архистратига Михаила и прочих Небесных Сил бесплотных\">Собор</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6905_1131.html\" target=\"_blank\" >икона</a>) Архистратига <a  href=\"http://days.pravoslavie.ru/name/1547.html\" target=\"_blank\" title=\"Архистратиг Михаил\">Михаила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1547_140.html\" target=\"_blank\" >икона</a>) и прочих Небесных Сил бесплотных. Архангелов <a  href=\"http://days.pravoslavie.ru/name/446.html\" target=\"_blank\" title=\"Архангел Гавриил\">Гавриила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii446_71.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1866.html\" target=\"_blank\" title=\"Рафаил, архангел\">Рафаила</a>, <a  href=\"http://days.pravoslavie.ru/name/2142.html\" target=\"_blank\" title=\"Уриил, архангел\">Уриила</a>, <a  href=\"http://days.pravoslavie.ru/name/1953.html\" target=\"_blank\" title=\"Селафиил, архангел\">Селафиила</a>, <a  href=\"http://days.pravoslavie.ru/name/908.html\" target=\"_blank\" title=\"Иегудиил, архангел\">Иегудиила</a>, <a  href=\"http://days.pravoslavie.ru/name/346.html\" target=\"_blank\" title=\"Варахиил, архангел\">Варахиила</a> и <a  href=\"http://days.pravoslavie.ru/name/912.html\" target=\"_blank\" title=\"Иеремиил, архангел\">Иеремиила</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_13_24_30_13_36_43.html#z\">Мф., 52 зач., XIII, 24-30, 36-43.</a> Лит. - Бесплотных: <a href=\"http://days.pravoslavie.ru/bible/z_evr_2_2_10.html#z\">Евр., 305 зач., II, 2-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_16_21.html#z\">Лк., 51 зач., X, 16-21.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

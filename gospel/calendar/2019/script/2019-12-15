@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("15 декабря 2020 г. ( 2 декабря ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 28-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/3.html\" target=\"_blank\" title=\"Аввакум, пророк, из 12 малых пророков\">Аввакума</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3_198.html\" target=\"_blank\" >икона</a>). Мц. <a  href=\"http://days.pravoslavie.ru/name/2619.html\" target=\"_blank\" title=\"Миропия Хиосская, мц.\">Миропии</a>. Прпп. <a  href=\"http://days.pravoslavie.ru/name/993.html\" target=\"_blank\" title=\"Иоанн Оксиринфский (Египетский), прп.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/1079.html\" target=\"_blank\" title=\"Ираклемон (Ираклеон) Оксиринфский (Египетский), прп.\">Ираклемона</a>, <a  href=\"http://days.pravoslavie.ru/name/185.html\" target=\"_blank\" title=\"Андрей Оксиринфский (Египетский), прп.\">Андрея</a> и <a  href=\"http://days.pravoslavie.ru/name/2266.html\" target=\"_blank\" title=\"Феофил Оксиринфский (Египетский), прп.\">Феофила</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1113.html\" target=\"_blank\" title=\"Святитель Исе (Иессей) Цилканский, епископ\">Исе</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1113_3858.html\" target=\"_blank\" >икона</a>) (Иессея), еп. Цилканского (Груз.). Прп. <a  href=\"http://days.pravoslavie.ru/name/303.html\" target=\"_blank\" title=\"Преподобный Афанасий, затворник Печерский\">Афанасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii303_620.html\" target=\"_blank\" >икона</a>), затворника Печерского, в Ближних пещерах и другого <a  href=\"http://days.pravoslavie.ru/name/304.html\" target=\"_blank\" title=\"Преподобный Афанасий Печерский, затворник\">Афанасия</a>, затворника Печерского, в Дальних пещерах. Св. <a  href=\"http://days.pravoslavie.ru/name/2074.html\" target=\"_blank\" title=\"Стефан Урош V, Сербский, король\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2074_3582.html\" target=\"_blank\" >икона</a>) Уроша, царя Сербского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9673.html\" target=\"_blank\" title=\"Матфей (Александров), иерей, сщмч.\">Матфея</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14199.html\" target=\"_blank\" title=\"Димитрий (Благовещенский), иерей, сщмч.\">Димитрия</a> пресвитера и прп. <a  href=\"http://days.pravoslavie.ru/name/14441.html\" target=\"_blank\" title=\"Вера (Графова), прп., исповедница\">Веры</a> исповедницы . Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9104.html\" target=\"_blank\" title=\"Святитель Алексий (Бельковский), архиепископ Великоустюжский, сщмч.\">Алексия</a>, архиеп. Великоустюжского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13889.html\" target=\"_blank\" title=\"Иоанн (Днепровский), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9658.html\" target=\"_blank\" title=\"Константин (Некрасов), иерей, сщмч.\">Константина</a>, <a  href=\"http://days.pravoslavie.ru/name/9369.html\" target=\"_blank\" title=\"Николай (Виноградский), протоиерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9794.html\" target=\"_blank\" title=\"Сергий (Фелицын), иерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/9537.html\" target=\"_blank\" title=\"Владимир (Проферансов), иерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/9607.html\" target=\"_blank\" title=\"Иоанн (Державин), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13888.html\" target=\"_blank\" title=\"Феодор (Алексинский), иерей, сщмч.\">Феодора</a>, <a  href=\"http://days.pravoslavie.ru/name/14440.html\" target=\"_blank\" title=\"Николай (Сафонов), протоиерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/13887.html\" target=\"_blank\" title=\"Николай (Заболотский), протоиерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/14362.html\" target=\"_blank\" title=\"Павел (Понятский), иерей, сщмч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/14492.html\" target=\"_blank\" title=\"Сергий (Кудрявцев), протоиерей, сщмч.\">Сергия</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/9210.html\" target=\"_blank\" title=\"Данакт (Калашников), иеромонах, сщмч.\">Данакта</a>, <a  href=\"http://days.pravoslavie.ru/name/14363.html\" target=\"_blank\" title=\"Косма (Магда), иеромонах, прмч.\">Космы</a> прмцц. <a  href=\"http://days.pravoslavie.ru/name/9896.html\" target=\"_blank\" title=\"Маргарита (Закачурина), инокиня, прмц.\">Маргариты</a>, <a  href=\"http://days.pravoslavie.ru/name/9906.html\" target=\"_blank\" title=\"Тамара (Проворкина), инокиня, прмц.\">Тамары</a>, <a  href=\"http://days.pravoslavie.ru/name/14364.html\" target=\"_blank\" title=\"Антонина (Степанова), прмц.\">Антонины</a> и <a  href=\"http://days.pravoslavie.ru/name/14366.html\" target=\"_blank\" title=\"Мария (Журавлева), прмц.\">Марии</a>, мц. <a  href=\"http://days.pravoslavie.ru/name/13886.html\" target=\"_blank\" title=\"Матрона (Конюхова), мц.\">Матроны</a>. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14365.html\" target=\"_blank\" title=\"Мария (Цейтлин), прмц.\">Марии</a>. Мч.  <a  href=\"http://days.pravoslavie.ru/name/12986.html\" target=\"_blank\" title=\"Борис (Успенский), мч.\">Бориса</a>. Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/6692.html\" target=\"_blank\" title=\"\"Геронтисса\"\">«Герондисса»</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-tim_3_16_0_4_0_4.html#z\">2 Тим., 297 зач., III, 16 - IV, 4.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_19_45_48.html#z\">Лк., 98 зач., XIX, 45-48.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18332.htm\" target=\"_blank\" title=\"Библия\">2 Тим. 3, 16-4, 4</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18333.htm\" target=\"_blank\" title=\"Библия\">Лк. 19, 45-48</a>). \"Дом Мой есть дом молитвы\". И точно, только войди в храм, и уж позывает тебя на молитву. Все тут так расположено и так делается, чтоб располагать и споспешествовать молитве. Потому, если хочешь возгреть молитву в сердце своем, ходи чаще в храм Божий. Дома так не помолишься, как в храме. Есть такие, которые и дома тепло молятся, но если дома так, то насколько выше того в храме? Но бывая в храме, не телом только бывай в нем, а более духом. Стань, где потише, и зря умом Господа перед собою, изливай перед Ним душу свою. Мечтания разгоняй, забот не допускай, и одному делу внимай - делу молитвы. Поднимай тяжелую душу горе, и дебелость ее разбивай созерцанием вещей Божественных. Если есть что за тобою, сними с себя покаянием и обетом исправления. Если совесть не сыта, подбавь дел самоотвержения и любви. Стоя в храме, заготовляйся и на все время как будешь вне храма, не отступать от Господа мыслью, а всегда видеть Его перед собою, чтоб не подвиглись стопы твои с правого пути на неправый. От этого, когда придешь в храм, тебе легче будет держать себя в нем как должно. А от достодолжного пребывания в храме, опять легче будет тебе удержать внимание перед Господом, когда будешь вне храма. . . И так пойдет все выше и выше расти твое пребывание в Господе, а больше этого чего еще желать?<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

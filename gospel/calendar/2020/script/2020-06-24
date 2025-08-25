@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("24 июня 2020 г. ( 11 июня ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апостолов <a  href=\"http://days.pravoslavie.ru/name/365.html\" target=\"_blank\" title=\"Апостол Варфоломей\">Варфоломея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii365_440.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/358.html\" target=\"_blank\" title=\"Святой Варнава, апостол от 70-ти\">Варнавы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii358_439.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/6800.html\" target=\"_blank\" title=\"Преподобный Варнава Ветлужский\">Варнавы</a> Ветлужского. Перенесение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/813.html\" target=\"_blank\" title=\"Преподобный Ефрем Новоторжский\">Ефрема</a> Новоторжского.  Иконы Божией Матери,  именуемой <a  href=\"http://days.pravoslavie.ru/name/2845.html\" target=\"_blank\" title=\"\"Достойно есть\" (\"Милующая\")\">\"Достойно есть\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2845_524.html\" target=\"_blank\" >икона</a>) (\"Милующая\") ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_2_13.html#z\">Рим., 96 зач., VIII, 2-13.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22.</a> Апп.: <a href=\"http://days.pravoslavie.ru/bible/z_deqn_11_19_26_11_29_30.html#z\">Деян., 28 зач., XI, 19-26, 29-30.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_16_21.html#z\">Лк., 51 зач., X, 16-21.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба в честь иконы Божией Матери, именуемой «Достойно есть», то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56,</a> а на литургии - чтения дня и Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17962.htm\" target=\"_blank\" title=\"Библия\">Рим. 8, 2-13</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17963.htm\" target=\"_blank\" title=\"Библия\">Мф. 10, 16-22</a>). \"Претерпевший же до конца спасется\". А есть ли нам что терпеть? В этом ни у кого не бывает недостатка. Поприще терпения у всякого широко; стало быть и спасение у нас, под руками. Претерпи все до конца и спасен будешь. Надо, однако же, терпеть умеючи, а то можно протерпеть и пользы никакой не получить. Во-первых, веру святую блюди, и жизнь по вере веди безукоризненную; всякий же случающийся грех очищай тотчас покаянием. Во-вторых, все, что приходится терпеть, принимай как от руки Божией, помня твердо, что без воли Божией ничего не бывает. В-третьих, веруя что все от Господа исходящее посылается Им во благо душам нашим, о всем искренно благодари Бога, благодари и за скорби, и за утешения. В-четвертых, полюби прискорбность ради великой ее спасительности, и возбуди в себе жаждание ее, как пития хотя горького, но целительного. В-пятых, держи в мысли, что когда пришла беда, то ее не сбросишь как тесную одежду; надо перенесть. По-христиански ли ты перетерпишь ее или не по-христиански, - все же претерпеть неизбежно; так лучше же претерпеть по-христиански. Ропотливость не избавляет от беды, а только ее отяжеляет; а смиренная покорность определениям Промысла Божия и благодушие отнимают тяготу у бед. В-шестых, сознай себя стоящим еще и не такой беды, - сознай, что если бы Господь хотел поступить с тобой по всей правде, то такую ли беду следовало послать тебе? В-седьмых, больше всего молись, и милостивый Господь подаст тебе крепость духа, при которой, тогда как другие дивиться будут твоим бедам, тебе будет казаться, что и терпеть то нечего.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

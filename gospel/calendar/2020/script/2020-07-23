@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("23 июля 2020 г. ( 10 июля ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 7-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6926.html\" target=\"_blank\" title=\"Положение честной ризы Господа нашего Иисуса Христа в Москве\">Положение</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6926_188.html\" target=\"_blank\" >икона</a>) честной ризы Господа нашего Иисуса Христа в Москве. Мчч. <a  href=\"http://days.pravoslavie.ru/name/10118.html\" target=\"_blank\" title=\"Сорок пять мучеников Никопольских\">45-ти</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10118_4377.html\" target=\"_blank\" >икона</a>) в Никополе Армянском: <a  href=\"http://days.pravoslavie.ru/name/1351.html\" target=\"_blank\" title=\"Леонтий Никопольский (Армянский), мч.\">Леонтия</a>, <a  href=\"http://days.pravoslavie.ru/name/1395.html\" target=\"_blank\" title=\"Маврикий Никопольский (Армянский), мч.\">Маврикия</a>, <a  href=\"http://days.pravoslavie.ru/name/581.html\" target=\"_blank\" title=\"Даниил Никопольский (Армянский), мч.\">Даниила</a>, <a  href=\"http://days.pravoslavie.ru/name/217.html\" target=\"_blank\" title=\"Антоний Никопольский (Армянский), мч.\">Антония</a>, <a  href=\"http://days.pravoslavie.ru/name/115.html\" target=\"_blank\" title=\"Александр Никопольский (Армянский), мч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/889.html\" target=\"_blank\" title=\"Ианикит (Аникита) Никопольский (Армянский), мч.\">Ианикита</a>, <a  href=\"http://days.pravoslavie.ru/name/2026.html\" target=\"_blank\" title=\"Сисиний Томский (Кюстенджийский), мч.\">Сисиния</a>, <a  href=\"http://days.pravoslavie.ru/name/1517.html\" target=\"_blank\" title=\"Менея Никопольский (Армянский), мч.\">Менеи</a>, <a  href=\"http://days.pravoslavie.ru/name/423.html\" target=\"_blank\" title=\"Вирилад Никопольский (Армянский), мч.\">Вирилада</a> и прочих. Прп. <a  href=\"http://days.pravoslavie.ru/name/218.html\" target=\"_blank\" title=\"Преподобный Антоний Киево-Печерский\">Антония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii218_337.html\" target=\"_blank\" >икона</a>) Печерского, Киевского, начальника всех русских монахов. Мч. <a  href=\"http://days.pravoslavie.ru/name/242.html\" target=\"_blank\" title=\"Аполлоний Иконийский, мч.\">Аполлония</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/411.html\" target=\"_blank\" title=\"Вианор Писидийский, мч.\">Вианора</a> и <a  href=\"http://days.pravoslavie.ru/name/1989.html\" target=\"_blank\" title=\"Силуан Писидийский, мч.\">Силуана</a>. <a  href=\"http://days.pravoslavie.ru/name/6927.html\" target=\"_blank\" title=\"Прподобные пустынники египетские, огнем и дымом уморенные\">Преподобных пустынников египетских</a>, огнем и дымом уморенных. Прп. <a  href=\"http://days.pravoslavie.ru/name/1988.html\" target=\"_blank\" title=\"Преподобный Силуан, схимник Киево-Печерский\">Силуана</a>, схимника Печерского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/14469.html\" target=\"_blank\" title=\"Евмений Гортинский, Кудумский, прп.\">Евмения</a> и <a  href=\"http://days.pravoslavie.ru/name/14470.html\" target=\"_blank\" title=\"Парфений Гортинский, Кудумский, прп.\">Парфения</a> Гортинских. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13743.html\" target=\"_blank\" title=\"Александр (Попов), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/13723.html\" target=\"_blank\" title=\"Василий (Победоносцев), протоиерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9763.html\" target=\"_blank\" title=\"Петр (Зефиров), иерей, сщмч.\">Петра</a> и <a  href=\"http://days.pravoslavie.ru/name/13746.html\" target=\"_blank\" title=\"Стефан (Луканин), иерей, сщмч.\">Стефана</a> пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/13747.html\" target=\"_blank\" title=\"Георгий (Бегма), диакон, сщмч.\">Георгия</a> и <a  href=\"http://days.pravoslavie.ru/name/13748.html\" target=\"_blank\" title=\"Нестор (Гудзовский), диакон, сщмч.\">Нестора</a> диаконов. <a  href=\"http://days.pravoslavie.ru/name/2884.html\" target=\"_blank\" title=\"Коневская\">Коневской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2884_796.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_27_27_32.html#z\">Мф., 112 зач., XXVII, 27-32</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_7_24_35.html#z\">1 Кор., 138 зач., VII, 24-35.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_15_12_21.html#z\">Мф., 61 зач., XV, 12-21.</a> Ризы (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_1_18_24.html#z\">1 Кор., 125 зач., I, 18-24.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_15_16_32.html#z\">Мк., 67 зач., XV, 16-32.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба только прп. Антония, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30,</a> а на литургии - чтения дня и преподобного: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18023.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 7, 24-35</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18024.htm\" target=\"_blank\" title=\"Библия\">Мф. 15, 12-21</a>). \"Из сердца исходят злые помыслы\". В сердце же откуда? Корень их в живущем в нас грехе, а разветвление их, размножение и определенный вид в каждом от его собственного произволения. Как же быть? Сначала отсеки все, что от произвола. Это будет похоже на то, как если бы кто в дереве оборвал листья, обсек ветви и сучья, и ствол отрубил почти до корня. Затем, не позволяй выходить новым отросткам, самый корень и засохнет: то есть не позволяй из сердца исходить злым мыслям, а исходящие отражай и отгоняй, и живущий в нас грех, не получая подкрепления, ослабнет и совсем обессилеет. В этом существо заповеди: \"трезвитесь и бодрствуйте. Внимайте себе. Препояшьте чресла помышлений ваших\". При внимании, надо держать рассуждение. Из сердца исходит не одно худое, но и доброе; не всякое, однако, доброе внушаемое сердцем исполнять должно. Что истинно должно исполнять, это определит рассуждение. Рассуждение - садовничий нож, одни ветви отсекает, а другие прививает.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

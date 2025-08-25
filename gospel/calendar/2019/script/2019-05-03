@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("3 мая 2020 г. ( 20 апреля ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14397.html\" target=\"_blank\" title=\"Неделя 3-я по Пасхе, свв. жен-мироносиц\">Неделя 3-я по Пасхе, свв. жен-мироносиц</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14397_4336.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Святых жен-мироносиц: <a  href=\"http://days.pravoslavie.ru/name/2598.html\" target=\"_blank\" title=\"Святая равноапостольная Мария Магдалина\">Марии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2598_256.html\" target=\"_blank\" >икона</a>) Магдалины, <a  href=\"http://days.pravoslavie.ru/name/2595.html\" target=\"_blank\" title=\"Святая Мария Клеопова\">Марии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2595_555.html\" target=\"_blank\" >икона</a>) Клеоповой, <a  href=\"http://days.pravoslavie.ru/name/2661.html\" target=\"_blank\" title=\"Саломия мироносица\">Саломии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2661_555.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2515.html\" target=\"_blank\" title=\"Иоанна Мироносица\">Иоанны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2515_555.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2606.html\" target=\"_blank\" title=\"Марфа Вифанская\">Марфы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2606_555.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2591.html\" target=\"_blank\" title=\"Мария Вифанская\">Марии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2591_555.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2681.html\" target=\"_blank\" title=\"Сусанна мироносица\">Сусанны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2681_4336.html\" target=\"_blank\" >икона</a>) и иных; праведных <a  href=\"http://days.pravoslavie.ru/name/1053.html\" target=\"_blank\" title=\"Иосиф Аримафейский\">Иосифа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1053_4405.html\" target=\"_blank\" >икона</a>) Аримафейского и <a  href=\"http://days.pravoslavie.ru/name/1632.html\" target=\"_blank\" title=\"Никодим\">Никодима</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/2204.html\" target=\"_blank\" title=\"Феодор Трихина (\"власяничный\"), прп.\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2204_4212.html\" target=\"_blank\" >икона</a>) Трихины. Свтт.  <a  href=\"http://days.pravoslavie.ru/name/533.html\" target=\"_blank\" title=\"Святитель Григорий Антиохийский, патриарх\">Григория</a>, <a  href=\"http://days.pravoslavie.ru/name/168.html\" target=\"_blank\" title=\"Святитель Анастасий I Синаит, Антиохийский, патриарх\">Анастасия</a> I Синаита , Патриархов Антиохийских. Прп. <a  href=\"http://days.pravoslavie.ru/name/6606.html\" target=\"_blank\" title=\"Анастасий, игумен Синайской горы, прп.\">Анастасия</a>, игумена Синайской горы. Блгв. <a  href=\"http://days.pravoslavie.ru/name/2687.html\" target=\"_blank\" title=\"Святая благоверная царица Тамара\">Тамары</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2687_156.html\" target=\"_blank\" >икона</a>), царицы Грузинской. Прп. <a  href=\"http://days.pravoslavie.ru/name/116.html\" target=\"_blank\" title=\"Преподобный Александр Ошевенский\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii116_392.html\" target=\"_blank\" >икона</a>) Ошевенского. Мч. младенца <a  href=\"http://days.pravoslavie.ru/name/447.html\" target=\"_blank\" title=\"Гавриил Белостокский, Слуцкий, младенец, мч.\">Гавриила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii447_345.html\" target=\"_blank\" >икона</a>) Белостокского. Свт. <a  href=\"http://days.pravoslavie.ru/name/13515.html\" target=\"_blank\" title=\"Святитель Николай (Велимирович), епископ Охридский и Жичский\">Николая</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13515_818.html\" target=\"_blank\" >икона</a>), еп. Охридского и Жичского (Серб.). Свт. <a  href=\"http://days.pravoslavie.ru/name/14247.html\" target=\"_blank\" title=\"Святитель Феодосий (Ганицкий), епископ Коломенский, исповедник\">Феодосия</a> исп., еп. Коломенского. <a  href=\"http://days.pravoslavie.ru/name/2880.html\" target=\"_blank\" title=\"Кипрская\">Кипрской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2880_875.html\" target=\"_blank\" >икона</a>)  иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 3-е, <a href=\"http://days.pravoslavie.ru/bible/z_mk_16_9_20.html#z\">Мк., 71 зач., XVI, 9-20.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_6_1_7.html#z\">Деян., 16 зач., VI, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_15_43_0_16_0_8.html#z\">Мк., 69 зач., XV, 43 - XVI, 8.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17849.htm\" target=\"_blank\" title=\"Библия\">Дея. 6, 1-7</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17850.htm\" target=\"_blank\" title=\"Библия\">Мк. 15, 43-16, 8</a>). Неутомимые жены! Сна не давали очам и веждам дремания, пока не обрели Возлюбленного! А мужи будто упираются ногами: идут на гроб, видят его пустым, и остаются в недоумении что бы это значило, потому что Самого не видали. Но значит ли это, что у них меньше было любви, чем у жен? Нет, тут была любовь рассуждающая, боящаяся ошибки по причине высокой цены любви и предмета ее. Когда и они увидели и осязали, тогда каждый из них не языком, подобно Фоме, а сердцем исповедал: \"Господь мой и Бог мой\", и уже ничто не могло разлучить их с Господом. Мироносицы и апостолы - образ двух сторон нашей жизни: чувства и рассуждения. Без чувства жизнь не жизнь; без рассуждения - жизнь слепа, много истрачивается, а мало плода здравого дает. Надо сочетать то и другое. Чувство пусть идет вперед и возбуждает; рассуждение же пусть определяет время, место, способ, вообще бытовой строй того, что делать намекает сердце. Внутри сердце идет вперед, а на практике - рассуждение. Когда же чувства станут обученными в рассуждении добра и зла, тогда, может быть, можно будет положиться и на одно сердце; как из живого дерева сами собою идут отростки, цветы и плоды, так и из сердца начинает тогда возникать только добро, разумно влагающееся в течение жизни нашей.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

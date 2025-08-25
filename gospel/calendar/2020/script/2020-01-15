@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("15 января 2020 г. ( 2 января ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 31-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14398.html\" target=\"_blank\" title=\"Предпразднство Богоявления\">Предпразднство</a> Богоявления. Свт. <a  href=\"http://days.pravoslavie.ru/name/1996.html\" target=\"_blank\" title=\"Святитель Сильвестр I Римский, папа\">Сильвестра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1996_2032.html\" target=\"_blank\" >икона</a>), Папы Римского. Прав. <a  href=\"http://days.pravoslavie.ru/name/2528.html\" target=\"_blank\" title=\"Праведная Иулиания Лазаревская, Муромская\">Иулиании</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2528_2191.html\" target=\"_blank\" >икона</a>) Лазаревской, Муромской. Преставление, второе обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/1968.html\" target=\"_blank\" title=\"Преподобный Серафим, Саровский чудотворец\">Серафима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1968_5.html\" target=\"_blank\" >икона</a>), Саровского чудотворца. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2169.html\" target=\"_blank\" title=\"Святитель Феоген Парийский, епископ, сщмч.\">Феогена</a>, еп Парийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1995.html\" target=\"_blank\" title=\"Преподобный Сильвестр Печерский\">Сильвестра</a> Печерского. Мч. <a  href=\"http://days.pravoslavie.ru/name/14399.html\" target=\"_blank\" title=\"Василий Петров, мч.\">Василия</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Лит. - Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

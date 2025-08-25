@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("28 апреля 2020 г. ( 15 апреля ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я по Пасхе. <a  href=\"http://days.pravoslavie.ru/name/3566.html\" target=\"_blank\" title=\"Радоница\">Радоница. Поминовение усопших</a>. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апп. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/253.html\" target=\"_blank\" title=\"Апостол от 70-ти Аристарх\">Аристарха</a> (<a  href=\"http://days.pravoslavie.ru/images/ii253_418.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1860.html\" target=\"_blank\" title=\"Священномученик Пуд, апостол от 70-ти\">Пуда</a> и <a  href=\"http://days.pravoslavie.ru/name/2129.html\" target=\"_blank\" title=\"Священномученик Трофим, апостол от 70-ти\">Трофима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2129_2075.html\" target=\"_blank\" >икона</a>). Мцц. <a  href=\"http://days.pravoslavie.ru/name/2431.html\" target=\"_blank\" title=\"Мученица Василисса Римская\">Василиссы</a> и <a  href=\"http://days.pravoslavie.ru/name/2383.html\" target=\"_blank\" title=\"Мученица Анастасия Римская\">Анастасии</a>. Мчч. Месукевийских - <a  href=\"http://days.pravoslavie.ru/name/2083.html\" target=\"_blank\" title=\"Сухий Месукевийский, Грузинский, мч.\">Сухия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2083_4532.html\" target=\"_blank\" >икона</a>) и дружины его: <a  href=\"http://days.pravoslavie.ru/name/184.html\" target=\"_blank\" title=\"Андрей Месукевийский, Грузинский, мч.\">Андрея</a>, <a  href=\"http://days.pravoslavie.ru/name/164.html\" target=\"_blank\" title=\"Анастасий Месукевийский, Грузинский, мч.\">Анастасия</a>, <a  href=\"http://days.pravoslavie.ru/name/2085.html\" target=\"_blank\" title=\"Талале Месукевийский, Грузинский, мч.\">Талале</a>, <a  href=\"http://days.pravoslavie.ru/name/2208.html\" target=\"_blank\" title=\"Феодорит Месукевийский, Грузинский, мч.\">Феодорита</a>, <a  href=\"http://days.pravoslavie.ru/name/895.html\" target=\"_blank\" title=\"Ивхирион Месукевийский, Грузинский, мч.\">Ивхириона</a>, <a  href=\"http://days.pravoslavie.ru/name/1049.html\" target=\"_blank\" title=\"Иордан Месукевийский, Грузинский, мч.\">Иордана</a>, <a  href=\"http://days.pravoslavie.ru/name/1262.html\" target=\"_blank\" title=\"Кондрат Месукевийский, Грузинский, мч.\">Кондрата</a>, <a  href=\"http://days.pravoslavie.ru/name/1384.html\" target=\"_blank\" title=\"Лукиан Месукевийский, Грузинский, мч.\">Лукиана</a>, <a  href=\"http://days.pravoslavie.ru/name/1532.html\" target=\"_blank\" title=\"Мимненос Месукевийский, Грузинский, мч.\">Мимненоса</a>, <a  href=\"http://days.pravoslavie.ru/name/1599.html\" target=\"_blank\" title=\"Нерангиос Месукевийский, Грузинский, мч.\">Нерангиоса</a>, <a  href=\"http://days.pravoslavie.ru/name/1807.html\" target=\"_blank\" title=\"Полиевкт Месукевийский, Грузинский, мч.\">Полиевкта</a>, <a  href=\"http://days.pravoslavie.ru/name/877.html\" target=\"_blank\" title=\"Иаков Месукевийский, Грузинский, мч.\">Иакова</a>, <a  href=\"http://days.pravoslavie.ru/name/2320.html\" target=\"_blank\" title=\"Фока Месукевийский, Грузинский, мч.\">Фоки</a>, <a  href=\"http://days.pravoslavie.ru/name/640.html\" target=\"_blank\" title=\"Доментиан Месукевийский, Грузинский, мч.\">Доментиана</a>, <a  href=\"http://days.pravoslavie.ru/name/416.html\" target=\"_blank\" title=\"Виктор Месукевийский, Грузинский, мч.\">Виктора</a>, <a  href=\"http://days.pravoslavie.ru/name/851.html\" target=\"_blank\" title=\"Зосима Месукевийский, Грузинский, мч.\">Зосимы</a> (Груз.). Мч. <a  href=\"http://days.pravoslavie.ru/name/1894.html\" target=\"_blank\" title=\"Савва Готфский, Муссовский (Валахийский), мч.\">Саввы</a> Готфского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14246.html\" target=\"_blank\" title=\"Александр (Гневушев), иерей, сщмч.\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14246_4520.html\" target=\"_blank\" >икона</a>) пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_4_1_10.html#z\">Деян., 10 зач., IV, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_3_16_21.html#z\">Ин., 10 зач., III, 16-21.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17838.htm\" target=\"_blank\" title=\"Библия\">Дея. 4, 1-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17839.htm\" target=\"_blank\" title=\"Библия\">Ин. З, 16-21</a>). \"Неверующий в Сына Божия уже осужден\". За что же? За то, что когда кругом свет, он остается во тьме, по любви к ней. Тьмолюбие, ненавидение света делает его кругом виноватым, даже без определения в чем истина; потому что у кого есть эта искренняя любовь к истине, того она изведет из тьмы заблуждения и приведет к свету истины. Пример в св. ап. Павле. Он был искренний истинолюбец, вседушно преданный тому, что считал истинным, без всяких интересов. Потому, как скоро указана была ему истина не в том, что он считал истинным, он в ту же минуту бросил это древнее, оказавшееся не истинным, и всем сердцем прилепился к новому, осязательно доказанному истинным. То же самое бывает со всяким искренним истинолюбцем. Истина о Христе ясна как день: ищи и обрящешь. Помощь же свыше всегда готова искреннему искателю. Потому, если кто остается во тьме неверия, тот остается только по любви ко тьме, и за это уже осужден.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

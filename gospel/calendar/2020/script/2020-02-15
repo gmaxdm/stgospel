@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("15 февраля 2020 г. ( 2 февраля ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/3041.html\" target=\"_blank\" title=\"Сретение Господне\">Сретение Господа Нашего Иисуса Христа.</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii3041_56.html\" target=\"_blank\" >икона</a>)</span></span><br> ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 2-е, <a href=\"http://days.pravoslavie.ru/bible/z_mk_16_1_8.html#z\">Мк., 70 зач., XVI, 1-8.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_6_12_20.html#z\">1 Кор., 135 зач., VI, 12-20.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_15_11_32.html#z\">Лк., 79 зач., XV, 11-32.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("Сретение. В Сретении Господа окружают, с одной стороны, праведность, чающая спасение не в себе, - Симеон, и строгая в посте и молитвах жизнь, оживляемая верою, - Анна; с другой - чистота существенная, всесторонняя и непоколебимая - Дева Богоматерь, и смиренная, молчаливая покорность и преданность воле Божией - Иосиф Обручник. Перенеси все эти духовные настроения в сердце свое и встретишь Господа не приносимого, а Самого грядущего к тебе, восприимешь Его в объятия сердца, и воспоешь песнь, которая пройдет небеса и возвеселит всех ангелов и святых.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

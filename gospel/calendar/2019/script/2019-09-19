@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("19 сентября 2020 г. ( 6 сентября ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 15-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Воспоминание чуда Архистратига <a  href=\"http://days.pravoslavie.ru/name/1547.html\" target=\"_blank\" title=\"Архистратиг Михаил\">Михаила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1547_140.html\" target=\"_blank\" >икона</a>), бывшего в Хонех (Колоссах). Мчч. <a  href=\"http://days.pravoslavie.ru/name/675.html\" target=\"_blank\" title=\"Евдоксий Мелитинский, мч.\">Евдоксия</a>, <a  href=\"http://days.pravoslavie.ru/name/838.html\" target=\"_blank\" title=\"Зинон Мелитинский, мч.\">Зинона</a> и <a  href=\"http://days.pravoslavie.ru/name/1407.html\" target=\"_blank\" title=\"Макарий Мелитинский, мч.\">Макария</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1882.html\" target=\"_blank\" title=\"Ромил Римский, мч.\">Ромила</a> и с ним многих. Прп. <a  href=\"http://days.pravoslavie.ru/name/280.html\" target=\"_blank\" title=\"Архипп Херотопский (в Хонех), пономарь\">Архиппа</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/6842.html\" target=\"_blank\" title=\"Кириак Александрийский, гражданин, мч.\">Кириака</a>, <a  href=\"http://days.pravoslavie.ru/name/2148.html\" target=\"_blank\" title=\"Фавст Александрийский, пресвитер, сщмч.\">Фавста</a> пресвитера, <a  href=\"http://days.pravoslavie.ru/name/17.html\" target=\"_blank\" title=\"Авив Александрийский, диакон, сщмч.\">Авива</a> диакона и с ним 11-ти мучеников Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1225.html\" target=\"_blank\" title=\"Священномученик Кирилл, епископ Гортинский\">Кирилла</a>, еп. Гортинского. Прп. <a  href=\"http://days.pravoslavie.ru/name/559.html\" target=\"_blank\" title=\"Давид Ермопольский, прп.\">Давида</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/12263.html\" target=\"_blank\" title=\"Димитрий (Спасский), иерей, сщмч.\">Димитрия</a> пресвитера. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/12265.html\" target=\"_blank\" title=\"Иоанн (Павловский), иерей, сщмч.\">Иоанна</a>  и <a  href=\"http://days.pravoslavie.ru/name/12267.html\" target=\"_blank\" title=\"Всеволод (Потемкинский), иерей, сщмч.\">Всеволода</a> пресвитеров. <a  href=\"http://days.pravoslavie.ru/name/2878.html\" target=\"_blank\" title=\"Киево-Братская\">Киево-Братской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2878_3524.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2772.html\" target=\"_blank\" title=\"Арапетская (Аравийская)\">Арапетской</a> икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Архангела: <a href=\"http://days.pravoslavie.ru/bible/z_evr_2_2_10.html#z\">Евр., 305 зач., II, 2-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_16_21.html#z\">Лк., 51 зач., X, 16-21.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_4_17_0_5_0_5.html#z\">1 Кор., 132 зач., IV, 17 - V, 5.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_24_1_13.html#z\">Мф., 97 зач., XXIV, 1-13.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18149.htm\" target=\"_blank\" title=\"Библия\">Мф. 24, 1-13</a>). \"По причине умножения беззакония, во многих охладеет любовь\". Любовь уничтожается беззакониями; чем больше грехов, тем меньше любви. Где все грехи, там не ищи любви. Стало быть, кто взыщет распространения любви и сокращения не-любви, тот должен позаботиться об умалении грехов и сокращении области грехолюбия. Вот настоящее начало гуманности! Приняв его, надо принять и все способы, какими можно противодействовать греху. Грехи во вне плод внутренней греховности. Внутренняя же греховность вся коренится на эгоизме с его исчадиями. Следовательно, гуманистам надо в закон себе взять такие порядки, какими подавляется эгоизм, а эгоизм сильнее всего подавляется недаванием себе воли. Не давай себе воли и скоро одолеешь эгоизм. Напротив, какие хочешь употреблять средства против эгоизма, ничего не сделаешь с ним, если будешь давать свободу воле. Отсюда следует, где ищут волюшки во всем, там ищут расширения эгоизма и иссякновения любви, ищут большего зла. А между тем, таков дух нынешнего времени - и зло растет.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("14 июля 2020 г. ( 1 июля ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Бессребреников <a  href=\"http://days.pravoslavie.ru/name/1298.html\" target=\"_blank\" title=\"Косма Римский, бессребреник, мч.\">Космы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1298_3107.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/574.html\" target=\"_blank\" title=\"Дамиан Римский, бессребреник, мч.\">Дамиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii574_3107.html\" target=\"_blank\" >икона</a>), в Риме пострадавших. Мч. <a  href=\"http://days.pravoslavie.ru/name/1830.html\" target=\"_blank\" title=\"Потит Гаргарский, мч.\">Потита</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1776.html\" target=\"_blank\" title=\"Петр Константинопольский, Олимпийский, прп.\">Петра</a> патрикия. Прав. <a  href=\"http://days.pravoslavie.ru/name/2386.html\" target=\"_blank\" title=\"Блаженная Ангелина Сербская\">Ангелины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2386_2130.html\" target=\"_blank\" >икона</a>), деспотиссы Сербской. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13741.html\" target=\"_blank\" title=\"Аркадий (Гаряев), иерей, сщмч.\">Аркадия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14283.html\" target=\"_blank\" title=\"Алексий (Дроздов), протодиакон, сщмч.\">Алексия</a> диакона. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-kor_1_1_9.html#z\">1 Кор., 122 зач., I, 1-9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_13_24_30.html#z\">Мф., 52 зач., XIII, 24-30.</a> Бессребреников: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_12_27_0_13_0_8.html#z\">1 Кор., 153 зач., XII, 27 - XIII, 8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_1_1_10_5_8.html#z\">Мф., 34 зач. (от&nbsp;полу&#769;), X, 1, 5-8.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18005.htm\" target=\"_blank\" title=\"Библия\">Мф. 13, 24-30</a>). Сеяно доброе семя, но пришел враг и посеял плевелы посреди пшеницы. Плевелы - это в Церкви ереси и расколы, а в каждом из нас худые помыслы, чувства, желания, страсти. Примет человек доброе семя слова Божия, решается жить свято и начинает так жить. Когда заснет человек такой, то есть ослабит внимание к себе, тогда приходит враг спасения и влагает в него худые замыслы, которые, не быв отвергнуты вначале, созревают в желания и расположения и заводят свой круг дел и предприятий, перемешивающихся с делами, чувствами и мыслями добрыми. И пребывают так оба вместе до жатвы. Жатва эта - покаяние. Посылает Господь ангелов - чувство сокрушения и страха Божия, и они, явившись, как серп, пожигают все плевельное и сжигают в огне самоосуждения болезненного. Пшеница чистая остается в житнице сердца, на радость и человеку, и ангелам, и преблагому Богу в Троице покланяемому.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

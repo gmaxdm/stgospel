@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("19 февраля 2020 г. ( 6 февраля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица мясопустная. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/440.html\" target=\"_blank\" title=\"Святитель Вукол Смирнский, епископ\">Вукола</a> (<a  href=\"http://days.pravoslavie.ru/images/ii440_4009.html\" target=\"_blank\" >икона</a>), еп. Смирнского. Мцц. <a  href=\"http://days.pravoslavie.ru/name/2458.html\" target=\"_blank\" title=\"Дорофея Кесарийская (Каппадокийская), дева, мц.\">Дорофеи</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2458_3031.html\" target=\"_blank\" >икона</a>) девы, жен <a  href=\"http://days.pravoslavie.ru/name/2754.html\" target=\"_blank\" title=\"Христина Кесарийская (Каппадокийская), мц.\">Христины</a>, <a  href=\"http://days.pravoslavie.ru/name/2544.html\" target=\"_blank\" title=\"Каллиста Кесарийская (Каппадокийская), мц.\">Каллисты</a> и мч. <a  href=\"http://days.pravoslavie.ru/name/2260.html\" target=\"_blank\" title=\"Феофил Кесарийский (Каппадокийский), мч.\">Феофила</a>. Мц. <a  href=\"http://days.pravoslavie.ru/name/2692.html\" target=\"_blank\" title=\"Фавста (Фауста) Кизическая, дева, мц.\">Фавсты</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2692_4010.html\" target=\"_blank\" >икона</a>) девы и мчч. <a  href=\"http://days.pravoslavie.ru/name/678.html\" target=\"_blank\" title=\"Евиласий Кизический, мч.\">Евиласия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii678_4010.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1427.html\" target=\"_blank\" title=\"Максим Кизический, мч.\">Максима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1427_4010.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/1147.html\" target=\"_blank\" title=\"Иулиан Эмесский (Емисский), мч.\">Иулиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1147_4011.html\" target=\"_blank\" >икона</a>) Емисского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/361.html\" target=\"_blank\" title=\"Преподобный Варсонофий Великий\">Варсонофия</a> Великого и <a  href=\"http://days.pravoslavie.ru/name/1008.html\" target=\"_blank\" title=\"Иоанн пророк, прп.\">Иоанна</a> Пророка. Свт. <a  href=\"http://days.pravoslavie.ru/name/2333.html\" target=\"_blank\" title=\"Святитель Фотий Константинопольский, патриарх\">Фотия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2333_2108.html\" target=\"_blank\" >икона</a>), Патриарха Константинопольского. Мцц. дев  <a  href=\"http://days.pravoslavie.ru/name/2604.html\" target=\"_blank\" title=\"Марфа Азийская, дева, мц.\">Марфы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2604_4015.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2590.html\" target=\"_blank\" title=\"Мария Азийская, дева, мц.\">Марии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2590_4015.html\" target=\"_blank\" >икона</a>) и брата их, прмч. <a  href=\"http://days.pravoslavie.ru/name/1358.html\" target=\"_blank\" title=\"Ликарион Азийский, отрок, мч.\">Ликариона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1358_4015.html\" target=\"_blank\" >икона</a>) отрока. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9314.html\" target=\"_blank\" title=\"Димитрий (Рождественский), протоиерей, сщмч.\">Димитрия</a> пресвитера и мч. <a  href=\"http://days.pravoslavie.ru/name/9941.html\" target=\"_blank\" title=\"Анатолий (Рождественский), мч.\">Анатолия</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9500.html\" target=\"_blank\" title=\"Василий (Надеждин), иерей, сщмч.\">Василия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14217.html\" target=\"_blank\" title=\"Александр (Телемаков), иерей, сщмч.\">Александра</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-in_3_21_0_4_0_6.html#z\">1 Ин., 73 зач., III, 21 - IV, 6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_14_43_0_15_0_1.html#z\">Мк., 65 зач., XIV, 43 - XV, 1.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18448.htm\" target=\"_blank\" title=\"Библия\">1 Ин. 3, 21-4, 6</a>). Нужна помощь - проси. Просил, говоришь, не дана. Но как же другим дается? У Господа нет лицеприятия, чтобы одному дать, а другому не дать, без всякой причины. Он всем готов дать, будучи любоподателен. Если иному не даст, причина не в Нем, а в просящем помощи. Между этими причинами могут быть и такие, которых мы и угадать не можем. Но есть причины ведомые, всякому самому видные. Одну из таких - и не главнейшую ли? - указывает Св. Иоанн в отсутствии дерзновения, а отсутствие дерзновения производит из осуждения сердца или совести. \"Возлюбленные\", говорит, \"если сердце наше не осуждает нас, то мы имеем дерзновение к Богу, и чего ни попросим, получим от Него, потому что соблюдаем заповеди Его и делаем благоугодное перед Ним\". К этим словам нечего прибавлять. Все ясно само собою. Какой господин станет помогать неверному слуге, моту и развратнику? А Господь будто поблажать будет нам, когда мы не хотим угождать Ему и заповеди Его творить, когда, может быть, тут то и за молитву беремся, когда приспела крайняя нужда?!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

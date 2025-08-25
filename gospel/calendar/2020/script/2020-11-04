@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("4 ноября 2020 г. ( 22 октября ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 22-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Празднование в честь <a  href=\"http://days.pravoslavie.ru/name/2865.html\" target=\"_blank\" title=\"Казанская икона Божией Матери\">Казанской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2865_167.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. Равноап. <a  href=\"http://days.pravoslavie.ru/name/15.html\" target=\"_blank\" title=\"Святитель Аверкий Иерапольский, епископ, равноапостольный\">Аверкия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii15_3782.html\" target=\"_blank\" >икона</a>), еп. Иерапольского, чудотворца. Семи отроков, иже во Ефесе: <a  href=\"http://days.pravoslavie.ru/name/1439.html\" target=\"_blank\" title=\"Максимилиан Ефесский\">Максимилиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1439_370.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/888.html\" target=\"_blank\" title=\"Иамвлих Ефесский\">Иамвлиха</a> (<a  href=\"http://days.pravoslavie.ru/images/ii888_370.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1491.html\" target=\"_blank\" title=\"Мартиниан Ефесский\">Мартиниана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1491_370.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/621.html\" target=\"_blank\" title=\"Дионисий Ефесский\">Дионисия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii621_370.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/224.html\" target=\"_blank\" title=\"Антонин Ефесский\">Антонина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii224_370.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/752.html\" target=\"_blank\" title=\"Ексакустодиан (Константин) Ефесский\">Константина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii752_370.html\" target=\"_blank\" >икона</a>) (Ексакустодиана) и <a  href=\"http://days.pravoslavie.ru/name/976.html\" target=\"_blank\" title=\"Иоанн Ефесский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii976_370.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/103.html\" target=\"_blank\" title=\"Святитель Александр Адрианопольский, епископ, сщмч.\">Александра</a> еп., <a  href=\"http://days.pravoslavie.ru/name/1082.html\" target=\"_blank\" title=\"Ираклий Адрианопольский, мч.\">Ираклия</a> воина и жен <a  href=\"http://days.pravoslavie.ru/name/2390.html\" target=\"_blank\" title=\"Анна Адрианопольская, мц.\">Анны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2390_3005.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2497.html\" target=\"_blank\" title=\"Елисавета Адрианопольская, мц.\">Елисаветы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2497_4552.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2715.html\" target=\"_blank\" title=\"Феодотия Адрианопольская, мц.\">Феодотии</a> и <a  href=\"http://days.pravoslavie.ru/name/2444.html\" target=\"_blank\" title=\"Гликерия Адрианопольская, мц.\">Гликерии</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9123.html\" target=\"_blank\" title=\"Святитель Серафим (Самойлович), архиепископ Угличский, сщмч.\">Серафима</a>, архиеп. Угличского, и с ним <a  href=\"http://days.pravoslavie.ru/name/9540.html\" target=\"_blank\" title=\"Владимир (Соболев), иерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/9431.html\" target=\"_blank\" title=\"Александр (Лебедев), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9486.html\" target=\"_blank\" title=\"Василий (Богоявленский), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/13838.html\" target=\"_blank\" title=\"Александр (Андреев), протоиерей, сщмч.\">Александра</a> пресвитеров и прмчч.  <a  href=\"http://days.pravoslavie.ru/name/9169.html\" target=\"_blank\" title=\"Герман (Полянский), архимандрит, сщмч.\">Германа</a> и  <a  href=\"http://days.pravoslavie.ru/name/9179.html\" target=\"_blank\" title=\"Мина (Шелаев), архимандрит, сщмч.\">Мины</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9736.html\" target=\"_blank\" title=\"Николай (Ушаков), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/13839.html\" target=\"_blank\" title=\"Николай (Богословский), протоиерей, сщмч.\">Николая</a> пресвитера и прмч. <a  href=\"http://days.pravoslavie.ru/name/9209.html\" target=\"_blank\" title=\"Григорий (Воробьев), иеромонах, сщмч.\">Григория</a>. Обретение мощей сщмч. <a  href=\"http://days.pravoslavie.ru/name/9151.html\" target=\"_blank\" title=\"Святитель Никодим (Кононов), епископ Белгородский, сщмч.\">Никодима</a>, еп. Белгородского. <a  href=\"http://days.pravoslavie.ru/name/2770.html\" target=\"_blank\" title=\"Андрониковская\">Андрониковской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2770_408.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/14514.html\" target=\"_blank\" title=\"Якобштадтская\">Якобштадтской</a> икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

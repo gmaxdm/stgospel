@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("3 сентября 2020 г. ( 21 августа ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 13-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Ап. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/2153.html\" target=\"_blank\" title=\"Святитель Фаддей, епископ Едесский, Бейрутский, апостол от 70-ти\">Фаддея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2153_1225.html\" target=\"_blank\" >икона</a>). Мц. <a  href=\"http://days.pravoslavie.ru/name/2432.html\" target=\"_blank\" title=\"Васса Алонская, мц.\">Вассы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2432_4455.html\" target=\"_blank\" >икона</a>) и чад ее, мчч. <a  href=\"http://days.pravoslavie.ru/name/2171.html\" target=\"_blank\" title=\"Феогний Едесский, мч.\">Феогния</a>, <a  href=\"http://days.pravoslavie.ru/name/49.html\" target=\"_blank\" title=\"Агапий Едесский, мч.\">Агапия</a> и <a  href=\"http://days.pravoslavie.ru/name/1799.html\" target=\"_blank\" title=\"Пист Едесский, мч.\">Писта</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/40.html\" target=\"_blank\" title=\"Преподобный Авраамий Смоленский\">Аврамия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii40_954.html\" target=\"_blank\" >икона</a>) Смоленского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14303.html\" target=\"_blank\" title=\"Марфа (Милюкова) Дивеевская, прп.\">Марфы</a> Дивеевской. Прп. <a  href=\"http://days.pravoslavie.ru/name/37.html\" target=\"_blank\" title=\"Авраамий Печерский, Трудолюбивый\">Аврамия</a> трудолюбивого, Печерского. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14516.html\" target=\"_blank\" title=\"Рафаил (Момчилович), игумен Шишатовацкий, прмч.\">Рафаила</a> (Серб.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9423.html\" target=\"_blank\" title=\"Александр (Елоховский), иерей, сщмч.\">Александра</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9752.html\" target=\"_blank\" title=\"Павел (Ягодинский), иерей, сщмч.\">Павла</a> пресвитера. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14475.html\" target=\"_blank\" title=\"Игнатий (Даланов), иеромонах, прмч.\">Игнатия</a>. Явление <a  href=\"http://days.pravoslavie.ru/name/14724.html\" target=\"_blank\" title=\"Светописанный образ Пресвятой Богородицы\">Светописанного образа</a> Пресвятой Богородицы в Русском на Афоне Свято-Пантелеимоновом монастыре. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-kor_10_7_18.html#z\">2 Кор., 190 зач., X, 7-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_3_28_35.html#z\">Мк., 14 зач., III, 28-35.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18116.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 10, 7-18</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18117.htm\" target=\"_blank\" title=\"Библия\">Мк. 3, 28-35</a>). \"Кто будет хулить Духа Святого, тому не будет прощения вовек\". Долго ли попасть в этот страшный грех? Очень не долго; ибо вот какие этого рода грехи: \"многое и безмерное упование на благодать Божию; отчаяние или ненадеяние на Божие благоутробие; противоречие явной и утвержденной истине и отвержение православной христианской веры. Иные к этому присоединяют зависть к духовным дарам, которые получает от Бога ближний; упорство в грехе и состарение в злобе; нерадение о покаянии до отшествия от жизни сей\" (Правосл. испов. ч. З, вопр. 38). Вот сколько путей! Зайди в который-нибудь из них, уж трудно будет воротиться, так и понесет тебя к пропасти поглощающей. Противление истине начинается малыми сомнениями, возбужденными словом или писанием злым. Оставь их без внимания и врачевания, они заведут к неверию и упорству в нем. До отчаяния тоже доходят незаметно: покаюсь - говорят, и грешат. Так несколько раз; потом, видя, что покаяние не приходит, говорят в себе: так тому и быть, не совладаешь с собою, и предаются греху в полную власть. Собирается бездна грехов, а при этом допускается и бездна противлений явным влечениям Божией благодати. Когда в этом виде придет человек к мысли исправиться, множество грехов подавляет его, а противление благодати отнимает смелость приступить к Господу, и решает: \"вящая вина моя, еже оставитися мне\". Вот и отчаяние! Берегись начатков неверия и грехолюбия и не попадешь в эту бездну.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

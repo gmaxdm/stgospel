@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("6 октября 2020 г. ( 23 сентября ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 18-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Зачатие честного, славного Пророка, Предтечи и Крестителя Господня <a  href=\"http://days.pravoslavie.ru/name/1007.html\" target=\"_blank\" title=\"Пророк, Предтеча и Креститель Господень Иоанн\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1007_11.html\" target=\"_blank\" >икона</a>). Прославление свт. <a  href=\"http://days.pravoslavie.ru/name/953.html\" target=\"_blank\" title=\"Святитель Иннокентий, митрополит Московский и Коломенский\">Иннокентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii953_74.html\" target=\"_blank\" >икона</a>), митр. Московского. Прпп. жен <a  href=\"http://days.pravoslavie.ru/name/2566.html\" target=\"_blank\" title=\"Ксанфиппа Толедская, прп.\">Ксанфиппы</a> и <a  href=\"http://days.pravoslavie.ru/name/2648.html\" target=\"_blank\" title=\"Поликсения Испанская, дева, прп.\">Поликсении</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2648_2255.html\" target=\"_blank\" >икона</a>). Мц. <a  href=\"http://days.pravoslavie.ru/name/2656.html\" target=\"_blank\" title=\"Мученица Ираида Александрийская\">Ираиды</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2656_2257.html\" target=\"_blank\" >икона</a>) девы. Мчч. <a  href=\"http://days.pravoslavie.ru/name/188.html\" target=\"_blank\" title=\"Андрей Сиракузский, мч.\">Андрея</a>, <a  href=\"http://days.pravoslavie.ru/name/1016.html\" target=\"_blank\" title=\"Иоанн Сиракузский, мч.\">Иоанна</a> и чад Иоанновых <a  href=\"http://days.pravoslavie.ru/name/1787.html\" target=\"_blank\" title=\"Петр Сиракузский, мч.\">Петра</a> и <a  href=\"http://days.pravoslavie.ru/name/229.html\" target=\"_blank\" title=\"Антонин Сиракузский, мч.\">Антонина</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9625.html\" target=\"_blank\" title=\"Иоанн (Панкратович), иерей, сщмч.\">Иоанна</a> пресвитера. <a  href=\"http://days.pravoslavie.ru/name/2971.html\" target=\"_blank\" title=\"Словенская\">Словенской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2971_981.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_ef_5_20_26.html#z\">Еф., 230 зач., V, 20-26.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_3_23_0_4_0_1.html#z\">Лк., 11 зач., III, 23 - IV, 1.</a> Предтечи: <a href=\"http://days.pravoslavie.ru/bible/z_gal_4_22_31.html#z\">Гал., 210 зач. (от&nbsp;полу&#769;), IV, 22-31.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_5_25.html#z\">Лк., 2 зач., I, 5-25.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("3 ноября 2020 г. ( 21 октября ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 22-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/926.html\" target=\"_blank\" title=\"Иларион Великий, прп.\">Илариона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii926_1791.html\" target=\"_blank\" >икона</a>) Великого. Перенесение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/928.html\" target=\"_blank\" title=\"Преподобный Иларион, епископ Меглинский\">Илариона</a>, еп. Меглинского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/589.html\" target=\"_blank\" title=\"Дасий Никомидийский, мч.\">Дасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii589_3780.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/456.html\" target=\"_blank\" title=\"Гаий Никомидийский, мч.\">Гаия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii456_3780.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/858.html\" target=\"_blank\" title=\"Зотик Никомидийский, мч.\">Зотика</a> (<a  href=\"http://days.pravoslavie.ru/images/ii858_3780.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/932.html\" target=\"_blank\" title=\"Преподобный Иларион Печерский, схимник\">Илариона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii932_1793.html\" target=\"_blank\" >икона</a>), схимника Печерского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/2267.html\" target=\"_blank\" title=\"Преподобный Феофил Омучский\">Феофила</a> и <a  href=\"http://days.pravoslavie.ru/name/879.html\" target=\"_blank\" title=\"Иаков Омучский, прп.\">Иакова</a> Омучских. Прп. <a  href=\"http://days.pravoslavie.ru/name/933.html\" target=\"_blank\" title=\"Преподобный Иларион Псковоезерский, Гдовский\">Илариона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii933_1001.html\" target=\"_blank\" >икона</a>) Псковоезерского, Гдовского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9120.html\" target=\"_blank\" title=\"Святитель Павлин (Крошечкин), архиепископ Могилевский, сщмч.\">Павлина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9120_2982.html\" target=\"_blank\" >икона</a>), архиеп. Могилевского, <a  href=\"http://days.pravoslavie.ru/name/9131.html\" target=\"_blank\" title=\"Святитель Аркадий (Ершов), епископ Екатеринбургский, сщмч.\">Аркадия</a>, еп. Екатеринбургского, и с ними <a  href=\"http://days.pravoslavie.ru/name/9473.html\" target=\"_blank\" title=\"Анатолий (Левицкий), иерей, сщмч.\">Анатолия</a> и <a  href=\"http://days.pravoslavie.ru/name/9697.html\" target=\"_blank\" title=\"Никандр (Чернелевский), иерей, сщмч.\">Никандра</a> пресвитеров и мч. <a  href=\"http://days.pravoslavie.ru/name/9988.html\" target=\"_blank\" title=\"Киприан (Анников), мч.\">Киприана</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9109.html\" target=\"_blank\" title=\"Святитель Дамиан (Воскресенский), архиепископ Курский, сщмч.\">Дамиана</a>, архиеп. Курского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9661.html\" target=\"_blank\" title=\"Константин (Чекалов), иерей, сщмч.\">Константина</a>, <a  href=\"http://days.pravoslavie.ru/name/9791.html\" target=\"_blank\" title=\"Сергий (Смирнов), иерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/9502.html\" target=\"_blank\" title=\"Василий (Никольский), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9813.html\" target=\"_blank\" title=\"Феодор (Беляев), иерей, сщмч.\">Феодора</a>, <a  href=\"http://days.pravoslavie.ru/name/9526.html\" target=\"_blank\" title=\"Владимир (Введенский), иерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/9727.html\" target=\"_blank\" title=\"Николай (Раевский), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9614.html\" target=\"_blank\" title=\"Иоанн (Козырев), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9492.html\" target=\"_blank\" title=\"Василий (Козырев), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9419.html\" target=\"_blank\" title=\"Александр (Богоявленский), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9563.html\" target=\"_blank\" title=\"Димитрий (Троицкий), иерей, сщмч.\">Димитрия</a> и <a  href=\"http://days.pravoslavie.ru/name/9463.html\" target=\"_blank\" title=\"Алексий (Москвин), иерей, сщмч.\">Алексия</a> пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/9838.html\" target=\"_blank\" title=\"Сергий (Казанский), протодиакон, сщмч.\">Сергия</a> и <a  href=\"http://days.pravoslavie.ru/name/9851.html\" target=\"_blank\" title=\"Иоанн (Мельницкий), диакон, сщмч.\">Иоанна</a> диаконов, прмчч. <a  href=\"http://days.pravoslavie.ru/name/9246.html\" target=\"_blank\" title=\"Софроний (Несмеянов), иеромонах, сщмч.\">Софрония</a> и <a  href=\"http://days.pravoslavie.ru/name/14537.html\" target=\"_blank\" title=\"Неофит (Осипов), архимандрит, прмч.\">Неофита</a>. Прмц. <a  href=\"http://days.pravoslavie.ru/name/12687.html\" target=\"_blank\" title=\"Пелагия (Тестова), прмц.\">Пелагии</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_kol_2_20_0_3_0_3.html#z\">Кол., 256 зач., II, 20 - III, 3.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_9_23_27.html#z\">Лк., 44 зач., IX, 23-27,</a> и за среду (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_kol_3_17_0_4_0_1.html#z\">Кол., 259 зач., III, 17 - IV, 1.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_9_43_50.html#z\">Лк., 47 зач., IX, 43-50.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_9_6_11.html#z\">2 Кор., 188 зач., IX, 6-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18247.htm\" target=\"_blank\" title=\"Библия\">Кол. 3, 17-4, 1</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18248.htm\" target=\"_blank\" title=\"Библия\">Лк. 9, 44-50</a>). \"Кто примет Меня тот принимает Пославшего Меня\", сказал Господь: а Пославший Его - Бог, следовательно, кто исповедует Господа, тот Бога исповедует, а кто не исповедует Его, тот и Бога не исповедует. Скажешь: я исповедаю Христа великим, премудрым, всемирным учителем. Нет, исповедуй Его так, как Он Сам говорит о Себе, что Он и Отец едино суть, единого Божеского естества лица, раздельные но единочестные и сопрестольные. Кто не исповедует так, тот, как бы ни величал Господа, все одно, что не исповедует Его, а не будучи исповедником Его, не исповедует и Отца, не исповедует Бога. Потому, каким богочтецом ни выказывай себя, ты не богочтец, когда не исповедуешь Господа Иисуса Христа Сыном Божиим Единородным, нас ради воплотившимся и Своею крестною смертью нас спасшим. Не все одно какого Бога исповедать, лишь бы исповедать: поклонявшиеся солнцу и звездам, или вымышленным существам, не называются богочтецами, потому что не то считали Богом, что есть Бог. Так и тот, кто Господа не исповедует, не богочтец, потому что не того Бога исповедует, который истинный Бог. Истинный Бог не есть без Сына совечного и собезначального. Потому, коль скоро не исповедуешь Сына, не исповедуешь и Бога истинного. Какая цена твоего исповедания - один Бог рассудит, но так как нам Бог открыт Богом истинным, то помимо этого откровения нельзя иметь Бога истинного.<br>(<a  href=\"https://days.pravoslavie.ru/Bible/C18245.htm\" target=\"_blank\" title=\"Библия\">Кол. 2, 20-3, 3</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18246.htm\" target=\"_blank\" title=\"Библия\">Лк. 9, 23-27</a>). Не стыдись исповедать Господа Иисуса Христа воплотившимся Сыном Божиим и искупившим Своею крестною смертью, воскресением же и вознесением Своим открывшим нам вход в Царство Небесное. Если ты постыдишься, то и Он постыдится тебя, \"когда приидет во славе Своей и Отца и святых Ангелов\". Ныне в обществе пошла мода совсем не говорить о Господе и о спасении, тогда как в начале только и речей было, что об этих дорогих предметах. К чему больше лежит сердце, о том и речь охотнее течет. Неужели же к Господу меньше стало лежать сердце? Судя по речам, должно быть так. Одни совсем не ведают Его, другие холодны к Нему; опасаясь попасть на таких, и те, которые теплы ко Господу, не заводят о Нем речи, и священство молчит. И вышло, что речь о Господе Спасителе и о главном нашем деле - спасении - исключена из круга речей, принятых в обществе. Что же, скажете, неужели только и говорить, что об этом? Зачем же только об этом? Обо всем можно говорить с этой точки зрения, так что речь вообще будет оттенена духом Христовым. Тогда и можно будет угадать, говорят ли христиане или язычники, а ныне вы этого не угадаете ни по речам, ни по писаниям. Пересмотрите все журналы, о чем только там не пишут? Но повести речь по христиански никому нет охоты. Мудреное время!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

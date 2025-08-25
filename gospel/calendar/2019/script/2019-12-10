@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("10 декабря 2020 г. ( 27 ноября ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 27-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2853.html\" target=\"_blank\" title=\"Знамение\"> \"Знамение\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2853_563.html\" target=\"_blank\" >икона</a>). Знамение Пресвятой Богородицы, бывшее в Новгороде Великом. Вмч. <a  href=\"http://days.pravoslavie.ru/name/881.html\" target=\"_blank\" title=\"Иаков Персиянин, вмч.\">Иакова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii881_3844.html\" target=\"_blank\" >икона</a>) Персянина. Прп. <a  href=\"http://days.pravoslavie.ru/name/1714.html\" target=\"_blank\" title=\"Палладий Александрийский, прп.\">Палладия</a> Александрийского. Обретение мощей блгв. кн. Новгородского <a  href=\"http://days.pravoslavie.ru/name/438.html\" target=\"_blank\" title=\"Благоверный князь Всеволод Псковский\">Всеволода</a> (<a  href=\"http://days.pravoslavie.ru/images/ii438_460.html\" target=\"_blank\" >икона</a>), во св. Крещении Гавриила, Псковского чудотворца. Свт. <a  href=\"http://days.pravoslavie.ru/name/883.html\" target=\"_blank\" title=\"Святитель Иаков Ростовский, епископ\">Иакова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii883_352.html\" target=\"_blank\" >икона</a>), еп. Ростовского. Блж. <a  href=\"http://days.pravoslavie.ru/name/14260.html\" target=\"_blank\" title=\"Андрей (Огородников) Симбирский, Христа ради юродивый\">Андрея</a> Симбирского. <a  href=\"http://days.pravoslavie.ru/name/14690.html\" target=\"_blank\" title=\"Собор новомучеников и исповедников Радонежских\">Собор</a> новомучеников и исповедников Радонежских. Прмчч. <a  href=\"http://days.pravoslavie.ru/name/6936.html\" target=\"_blank\" title=\"Преподобномученики 17 монахов в Индии\">17-ти монахов</a> в Индии. Прп. <a  href=\"http://days.pravoslavie.ru/name/1873.html\" target=\"_blank\" title=\"Роман Антиохийский (Сирийский), отшельник\">Романа</a> чудотворца. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9117.html\" target=\"_blank\" title=\"Священномученик Николай (Добронравов), архиепископ Владимирский и Суздальский\">Николая</a>, архиеп. Владимирского, <a  href=\"http://days.pravoslavie.ru/name/9287.html\" target=\"_blank\" title=\"Василий (Соколов), протоиерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9283.html\" target=\"_blank\" title=\"Борис (Ивановский), протоиерей, сщмч.\">Бориса</a>, <a  href=\"http://days.pravoslavie.ru/name/9816.html\" target=\"_blank\" title=\"Феодор (Дорофеев), иерей, сщмч.\">Феодора</a>, <a  href=\"http://days.pravoslavie.ru/name/9699.html\" target=\"_blank\" title=\"Николай (Андреев), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9468.html\" target=\"_blank\" title=\"Алексий (Сперанский), иерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/9606.html\" target=\"_blank\" title=\"Иоанн (Глазков), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9786.html\" target=\"_blank\" title=\"Сергий (Бредников), иерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/13875.html\" target=\"_blank\" title=\"Иоанн (Смирнов), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13879.html\" target=\"_blank\" title=\"Сергий (Аманов), иерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/13876.html\" target=\"_blank\" title=\"Николай (Покровский), протоиерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/14436.html\" target=\"_blank\" title=\"Димитрий (Беляев), иерей, сщмч.\">Димитрия</a>, <a  href=\"http://days.pravoslavie.ru/name/14437.html\" target=\"_blank\" title=\"Владимир (Смирнов), протоиерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/14491.html\" target=\"_blank\" title=\"Иоанн (Хрусталев), протоиерей, сщмч.\">Иоанна</a> пресвитеров, прмчч. <a  href=\"http://days.pravoslavie.ru/name/9218.html\" target=\"_blank\" title=\"Иоасаф (Боев), иеромонах, сщмч.\">Иоасафа</a>, <a  href=\"http://days.pravoslavie.ru/name/9175.html\" target=\"_blank\" title=\"Кронид (Любимов), архимандрит, сщмч.\">Кронида</a>,  <a  href=\"http://days.pravoslavie.ru/name/9233.html\" target=\"_blank\" title=\"Николай (Салтыков), иеромонах, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/14360.html\" target=\"_blank\" title=\"Ксенофонт (Бондаренко), иерей, прмч.\">Ксенофонта</a>, <a  href=\"http://days.pravoslavie.ru/name/13106.html\" target=\"_blank\" title=\"Алексий (Гаврин), прмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/13108.html\" target=\"_blank\" title=\"Аполлос (Федосеев), иеромонах, сщмч.\">Аполлоса</a>, <a  href=\"http://days.pravoslavie.ru/name/13878.html\" target=\"_blank\" title=\"Серафим (Крестьянинов), иеромонах, прмч.\">Серафима</a>, <a  href=\"http://days.pravoslavie.ru/name/13877.html\" target=\"_blank\" title=\"Никон (Беляев), архимандрит, прмч.\">Никона</a> и мч. <a  href=\"http://days.pravoslavie.ru/name/13110.html\" target=\"_blank\" title=\"Иоанн (Емельянов), мч.\">Иоанна</a>. Икон Божией Матери \"Знамение\": <a  href=\"http://days.pravoslavie.ru/name/2855.html\" target=\"_blank\" title=\"Знамение Курская-Коренная\">Курской-Коренной</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2855_2365.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2854.html\" target=\"_blank\" title=\"Знамение Абалацкая\">Абалацкой</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2854_2994.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2857.html\" target=\"_blank\" title=\"Знамение Царскосельская\">Царскосельской</a>, <a  href=\"http://days.pravoslavie.ru/name/13880.html\" target=\"_blank\" title=\"\"Знамение\" Верхнетагильская\">Верхнетагильской</a>, именуемой <a  href=\"http://days.pravoslavie.ru/name/13881.html\" target=\"_blank\" title=\"\"Знамение\" \"Корчемная\"\">\"Корчемная\"</a>, <a  href=\"http://days.pravoslavie.ru/name/2856.html\" target=\"_blank\" title=\"Знамение Серафимо-Понетаевская\">Серафимо-Понетаевской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2856_2364.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-tim_6_17_21.html#z\">1 Тим., 289 зач., VI, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_18_31_34.html#z\">Лк., 92 зач., XVIII, 31-34.</a> Богородицы (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_evr_9_1_7.html#z\">Евр., 320 зач., IX, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a> Вмч.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_15_1_7.html#z\">Ин., 50 зач., XV, 1-7.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18322.htm\" target=\"_blank\" title=\"Библия\">1 Тим. 6, 17-21</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18323.htm\" target=\"_blank\" title=\"Библия\">Лк. 18, 31-34</a>). Господь сказал ученикам о страдании Своем, но они ничего не уразумели из сказанного: \"слова сии были для них сокровенны\". А после \"не судили, что ведети\" верующим, \"точию Иисуса Христа и Сего распята\". Не пришло время, они ничего и не понимали в тайне сей: а прошло оно - поняли, и всем преподали и разъяснили. Это и со всеми бывает, да не в отношении только к этой тайне, но и ко всякой другой. Непонятное в начале со временем становится понятным; словно луч света входит в сознание и уясняет то, что прежде было темным. Кто же это разъясняет? Сам Господь, благодать Духа, живущая в верующих, ангел хранитель, - только уж никак не сам человек. Он тут приемник, а не производитель. При всем том, иное остается непонятным на целую жизнь, и не для частных только лиц, но и для всего человечества. Человек окружен непонятностями: иные разъясняются ему в течение жизни, а иные оставляются до другой жизни: там узрится. И это даже для богопросвещенных умов. Отчего же не открывается теперь? Оттого, что иное невместимо, стало быть нечего и говорить о нем; иное не сказывается по врачебным целям, т. е. было бы вредно знать преждевременно. В другой жизни многое разъяснится, но откроются другие предметы и другие тайны. Сотворенному уму никогда не избыть тайн непостижимых. Ум бунтует против этих уз: но бунтуй - не бунтуй, а уз таинственности не разорвешь. Смирись же, гордый ум, под крепкую руку Божию и веруй!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

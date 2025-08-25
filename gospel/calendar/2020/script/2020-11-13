@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("13 ноября 2020 г. ( 31 октября ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 23-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апп. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/2050.html\" target=\"_blank\" title=\"Святитель Стахий, епископ Византийский, апостол от 70-ти\">Стахия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2050_3806.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/150.html\" target=\"_blank\" title=\"Святитель Амплий, епископ Лиддский, апостол от 70-ти, сщмч.\">Амплия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii150_3806.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2139.html\" target=\"_blank\" title=\"Святитель Урван, епископ Македонский, апостол от 70-ти, сщмч.\">Урвана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2139_3806.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1585.html\" target=\"_blank\" title=\"Святитель Наркисс, епископ Афинский, апостол от 70-ти\">Наркисса</a>, <a  href=\"http://days.pravoslavie.ru/name/244.html\" target=\"_blank\" title=\"Апостол от 70-ти Аполлос Александриец\">Апеллия</a> и <a  href=\"http://days.pravoslavie.ru/name/255.html\" target=\"_blank\" title=\"Апостол из 70-ти Аристовул\">Аристовула</a> (<a  href=\"http://days.pravoslavie.ru/images/ii255_1669.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/783.html\" target=\"_blank\" title=\"Епимах Новый, Александрийский, мч.\">Епимаха</a> (<a  href=\"http://days.pravoslavie.ru/images/ii783_3800.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/2578.html\" target=\"_blank\" title=\"Мавра Константинопольская, диакониса\">Мавры</a> Константинопольской. Прпп. <a  href=\"http://days.pravoslavie.ru/name/2047.html\" target=\"_blank\" title=\"Спиридон Печерский, просфорник\">Спиридона</a> и <a  href=\"http://days.pravoslavie.ru/name/1628.html\" target=\"_blank\" title=\"Преподобный Никодим Печерский\">Никодима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1628_1946.html\" target=\"_blank\" >икона</a>), просфорников Печерских. Сщмч. протоиерея <a  href=\"http://days.pravoslavie.ru/name/1025.html\" target=\"_blank\" title=\"Священномученик Иоанн Кочуров\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1025_531.html\" target=\"_blank\" >икона</a>) Царскосельского, Петроградского. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14342.html\" target=\"_blank\" title=\"Леонид (Молчанов), игумен, прмч.\">Леонида</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9303.html\" target=\"_blank\" title=\"Всеволод (Смирнов), протоиерей, сщмч.\">Всеволода</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9303_3705.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/9422.html\" target=\"_blank\" title=\"Александр (Воздвиженский), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9790.html\" target=\"_blank\" title=\"Сергий (Розанов), иерей, сщмч.\">Сергия</a> и <a  href=\"http://days.pravoslavie.ru/name/9467.html\" target=\"_blank\" title=\"Алексий (Сибирский), иерей, сщмч.\">Алексия</a> и <a  href=\"http://days.pravoslavie.ru/name/12808.html\" target=\"_blank\" title=\"Василий (Колоколов), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/13840.html\" target=\"_blank\" title=\"Петр (Воскобойников), протоиерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/13841.html\" target=\"_blank\" title=\"Василий (Архангельский), протоиерей, сщмч.\">Василия</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/9194.html\" target=\"_blank\" title=\"Анатолий (Ботвинников), иеромонах, сщмч.\">Анатолия</a>, <a  href=\"http://days.pravoslavie.ru/name/14343.html\" target=\"_blank\" title=\"Евфросин (Антонов), иеромонах, прмч.\">Евфросина</a>  и мч. <a  href=\"http://days.pravoslavie.ru/name/9971.html\" target=\"_blank\" title=\"Иаков (Блатов), мч.\">Иакова</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14344.html\" target=\"_blank\" title=\"Иннокентий (Мазурин), иеродиакон, прмч.\">Иннокентия</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-sol_2_14_19.html#z\">1 Сол., 266 зач., II, 14-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_11_23_26.html#z\">Лк., 58 зач., XI, 23-26.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18265.htm\" target=\"_blank\" title=\"Библия\">1 Фес. 2, 14-19</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18266.htm\" target=\"_blank\" title=\"Библия\">Лк. 11, 23-26</a>). \"Кто не со Мною, тот против Меня; и кто не собирает со Мною, тот расточает\". Выходит, что можно целый век трудиться и думать, что собрано много всякого добра, а все ни к чему, коль скоро собираемо было не с Господом. Что же значит собирать с Господом? Трудиться и действовать по вере в Господа, по заповедям Его, с помощью благодати Его, воодушевляясь обетованиями Его, - жить так, чтоб духом жизни был дух Христов. Есть в мире две области - добра и зла, истины и лжи. Только добро и истина составляют настоящее имение, прочное и ценное; но добро и истина только от Господа, и приобретаются лишь с помощью Его. Понятно, кто не с Господом собирает, тот не соберет истины и добра, не соберет того, что можно назвать настоящим имением, прочным и ценным, то что ни собирал бы кто, все не в прок, все напрасный труд, напрасная трата сил и времени.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

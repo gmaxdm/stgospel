@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("31 декабря 2020 г. ( 18 декабря ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 30-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/1940.html\" target=\"_blank\" title=\"Севастиан Медиоланский, Римский, мч.\">Севастиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1940_3891.html\" target=\"_blank\" >икона</a>) и дружины его: <a  href=\"http://days.pravoslavie.ru/name/1648.html\" target=\"_blank\" title=\"Никострат Римский, мч.\">Никострата</a> (казнохранителя), жены его <a  href=\"http://days.pravoslavie.ru/name/2513.html\" target=\"_blank\" title=\"Зоя Римская, мц.\">Зои</a>, <a  href=\"http://days.pravoslavie.ru/name/1184.html\" target=\"_blank\" title=\"Касторий Римский, мч.\">Кастория</a>, <a  href=\"http://days.pravoslavie.ru/name/2121.html\" target=\"_blank\" title=\"Транквиллин Римский, пресвитер, сщмч.\">Транквиллина</a> пресвитера и сынов его <a  href=\"http://days.pravoslavie.ru/name/1476.html\" target=\"_blank\" title=\"Маркеллин Римский, диакон, сщмч.\">Маркеллина</a> и <a  href=\"http://days.pravoslavie.ru/name/1465.html\" target=\"_blank\" title=\"Марк Римский, диакон, сщмч.\">Марка</a>, диаконов, <a  href=\"http://days.pravoslavie.ru/name/1245.html\" target=\"_blank\" title=\"Клавдий Римский, комментарисий (смотритель темниц), мч.\">Клавдия</a>, начальника над тюрьмами, сына его <a  href=\"http://days.pravoslavie.ru/name/2018.html\" target=\"_blank\" title=\"Симфориан Римский, мч.\">Симфориана</a>, брата <a  href=\"http://days.pravoslavie.ru/name/421.html\" target=\"_blank\" title=\"Викторин Римский, мч.\">Викторина</a>, <a  href=\"http://days.pravoslavie.ru/name/2097.html\" target=\"_blank\" title=\"Тивуртий Римский, мч.\">Тивуртия</a> и <a  href=\"http://days.pravoslavie.ru/name/1186.html\" target=\"_blank\" title=\"Кастул Римский, мч.\">Кастула</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/1566.html\" target=\"_blank\" title=\"Святитель Модест Иерусалимский, патриарх\">Модеста</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1566_975.html\" target=\"_blank\" >икона</a>), архиеп. Иерусалимского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2314.html\" target=\"_blank\" title=\"Святитель Флор Амийский, епископ\">Флора</a>, еп. Амийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1560.html\" target=\"_blank\" title=\"Михаил Сингелл (помощник епископа), Константинопольский, прп., исповедник\">Михаила</a> исп. Прп. <a  href=\"http://days.pravoslavie.ru/name/14813.html\" target=\"_blank\" title=\"Даниил Пустынник, исихаст, Румынский, прп.\">Даниила</a> Пустынника (Рум.). Прп. <a  href=\"http://days.pravoslavie.ru/name/1942.html\" target=\"_blank\" title=\"Севастиан Сохотский, Пошехонский, прп.\">Севастиана</a> Сохотского, Пошехонского. Прославление прав. <a  href=\"http://days.pravoslavie.ru/name/1999.html\" target=\"_blank\" title=\"Праведный Симеон Верхотурский\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1999_1103.html\" target=\"_blank\" >икона</a>) Верхотурского. Мч. <a  href=\"http://days.pravoslavie.ru/name/9957.html\" target=\"_blank\" title=\"Виктор (Матвеев), мч.\">Виктора</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/6609.html\" target=\"_blank\" title=\"Священномученик архиепископ Фаддей (Успенский)\">Фаддея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6609_50.html\" target=\"_blank\" >икона</a>), архиепископа Тверского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9118.html\" target=\"_blank\" title=\"Святитель Николай (Клементьев), архиепископ Вепикоустюжский, сщмч.\">Николая</a>, архиеп. Великоустюжского, <a  href=\"http://days.pravoslavie.ru/name/9589.html\" target=\"_blank\" title=\"Илия (Бенеманский), иерей, сщмч.\">Илии</a>,  <a  href=\"http://days.pravoslavie.ru/name/9619.html\" target=\"_blank\" title=\"Иоанн (Миронский), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9536.html\" target=\"_blank\" title=\"Владимир (Преображенский), иерей, сщмч.\">Владимира</a> и <a  href=\"http://days.pravoslavie.ru/name/14443.html\" target=\"_blank\" title=\"Николай (Кобранов), протоиерей, сщмч.\">Николая</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13340.html\" target=\"_blank\" title=\"Сергий (Астахов), диакон, сщмч.\">Сергия</a> диакона и мц. <a  href=\"http://days.pravoslavie.ru/name/10061.html\" target=\"_blank\" title=\"Вера (Трукс), мц.\">Веры</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_evr_10_35_0_11_0_7.html#z\">Евр., 326 зач., X, 35 - XI, 7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_9_10_16.html#z\">Мк., 39 зач., IX, 10-16</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается служба прав. Симеона Верхотурского, то на литургии - чтения дня и праведного: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> Если совершается полиелейная служба сщмч. Фаддея, архиеп. Тверского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22,</a> а на литургии - чтения дня и священномученика: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_28_39.html#z\">Рим., 99 зач., VIII, 28-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18367.htm\" target=\"_blank\" title=\"Библия\">Мр. 9, 10-16</a>). История течет и, кажется, неумолимо определяет частные события. Сколько было подготовок к принятию Спасителя!. . . Наконец, пришел ближайший Его указатель, Иоанн, но вышло что? С Иоанном \"поступили, как хотели\"; и Сын Человеческий уничижен и пострадал. Течения событий нельзя было переломить: оно взяло свое. Так и всегда текущая история все увлекает вслед себя. Спрашивается теперь: где же свобода? И что она будет такое, при таком порядке событий? Не более, как призрак. Так обычно рассуждают фаталисты. Но эта всеопределяющая необходимость течения событий только кажущаяся; на деле все события человеческие, и общие и частные, плод свободных начинаний человека. Общее течет именно так потому, что все или большинство того хотят; и частное входит в соглашение с общим, потому что тот и другой в частности того хотят. Доказательство тому на лицо: среди доброго общего бывают частности худые; и среди худого общего бывают частности добрые. И еще: среди крепко сложившегося общего зарождаются частности, которые, разрастаясь и укрепляясь более и более, пересиливают прежнее общее и занимают его место. Но эти частности всегда дело свободы. Что общего у христианства с характером времени, в которое оно зачалось? Оно засеменено несколькими лицами, которые не были порождением необходимого течения историй; оно привлекало желающих, крепко расширялось и стало общим делом тогдашнего человечества, а все-таки оно было делом свободы. То же и в худом направлении: как развратился Запад? Сам себя развратил: стали вместо Евангелия учиться у язычников и перенимать у них обычаи - и развратились. То же будет и у нас: начали мы учиться у отпадшего от Христа Господа Запада, и перенесли в себя дух его, кончится тем, что, подобно ему, отшатнемся от истинного христианства. Но во всем этом ничего нет необходимо определяющего на дело свободы: захотим, и прогоним западную тьму; не захотим, и погрузимся, конечно, в нее.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

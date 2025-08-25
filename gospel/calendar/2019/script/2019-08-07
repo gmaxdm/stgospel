@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("7 августа 2020 г. ( 25 июля ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 9-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Успение прав. <a  href=\"http://days.pravoslavie.ru/name/2394.html\" target=\"_blank\" title=\"Анна, мать Пресвятой Богородицы\">Анны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2394_107.html\" target=\"_blank\" >икона</a>), матери Пресвятой Богородицы. Свв. жен <a  href=\"http://days.pravoslavie.ru/name/2633.html\" target=\"_blank\" title=\"Олимпиада Константинопольская, диакониса, дева\">Олимпиады</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2633_2243.html\" target=\"_blank\" >икона</a>) диакониссы и <a  href=\"http://days.pravoslavie.ru/name/2473.html\" target=\"_blank\" title=\"Евпраксия Константинопольская, Тавенская, Младшая, дева, прп.\">Евпраксии</a> девы, Тавеннской. Прп. <a  href=\"http://days.pravoslavie.ru/name/1403.html\" target=\"_blank\" title=\"Преподобный Макарий Желтоводский, Унженский\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1403_139.html\" target=\"_blank\" >икона</a>) Желтоводского, Унженского. Память <a  href=\"http://days.pravoslavie.ru/name/6915.html\" target=\"_blank\" title=\"Пятый Вселенский Собор\"> V Вселенского Собора</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13753.html\" target=\"_blank\" title=\"Николай (Удинцев), иерей, сщмч.\">Николая</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9262.html\" target=\"_blank\" title=\"Александр (Сахаров), протоиерей, сщмч.\">Александра</a> пресвитера. Св. <a  href=\"http://days.pravoslavie.ru/name/11755.html\" target=\"_blank\" title=\"Ираида, исповедница\">Ираиды</a> исп. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-kor_14_26_40.html#z\">1 Кор., 157 зач., XIV, 26-40.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_21_12_14_21_17_20.html#z\">Мф., 83 зач., XXI, 12-14, 17-20.</a> Прав. Анны: <a href=\"http://days.pravoslavie.ru/bible/z_gal_4_22_31.html#z\">Гал., 210 зач. (от&nbsp;полу&#769;), IV, 22-31.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_8_16_21.html#z\">Лк., 36 зач., VIII, 16-21.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18060.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 14, 26-40</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18061.htm\" target=\"_blank\" title=\"Библия\">Мф. 21, 12-14. 17-20</a>). \"Дом Мой домом молитвы наречется, а вы сделали его вертепом разбойников\". Всем известно, что храм требует благоговеинства, собранности мыслей, углубленного богомыслия и стояния в присутствии Божием, и однако же, кто исполняет это? В храм идут с желанием помолиться, постоять в нем немного с теплым усердием, а потом мысли начинают бродить, и в голове происходит торг еще шумнее того, который встретил Господь в храме Иерусалимском. Отчего так? Оттого что пребывание в храме - отражение всей жизни. Как живут, так и в храме себя держат. Храм влияет и несколько поддерживает духовные движения, но потом обычное течение духовного строя берет свое. Потому если хочешь, чтобы твое пребывание в храме было достойным стоянием перед лицом Господа, подготовляйся к тому жизнью обычною; ходи, сколько можешь, в молитвенном настроении. Этот труд доведет тебя до того, что и в храме все время простоишь благоговейно. Это же благоговеинство воодушевит тебя на благоговеинство и в обычной жизни. Так пойдешь все выше и выше. Помоги же Господи, начинай!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

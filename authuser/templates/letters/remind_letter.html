@@ -1,0 +1,8 @@
+{% extends 'letters/letter_wrapper.html' %}
+{% load i18n %}
+{% block title %}{% trans 'Здравствуйте' %}, {{ first_name }} {{ last_name }}!{% endblock %}
+{% block main %}
+  <p>{% trans 'Для восстановления пароля пройдите, пожалуйста, по ссылке' %} <a href="https://st-gospel.ru/remind/confirm/?t={{ confirmstr }}" style="color:#007bff;text-decoration:none;font-weight:bold;">{% trans 'восстановить пароль' %}</a>.</p>
+  <br />
+  <p>{% trans 'Благодарим Вас!' %}</p>
+{% endblock %}

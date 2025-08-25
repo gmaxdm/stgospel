@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("30 января 2020 г. ( 17 января ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 33-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/209.html\" target=\"_blank\" title=\"Преподобный Антоний Великий\">Антония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii209_21.html\" target=\"_blank\" >икона</a>) Великого. Прп. <a  href=\"http://days.pravoslavie.ru/name/211.html\" target=\"_blank\" title=\"Преподобный Антоний Дымский\">Антония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii211_410.html\" target=\"_blank\" >икона</a>) Дымского. Прп. <a  href=\"http://days.pravoslavie.ru/name/222.html\" target=\"_blank\" title=\"Преподобный Антоний Черноезерский\">Антония</a> Черноезерского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13636.html\" target=\"_blank\" title=\"Виктор (Европейцев), иерей, сщмч.\">Виктора</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9750.html\" target=\"_blank\" title=\"Павел (Успенский), иерей, сщмч.\">Павла</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Лит. - Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

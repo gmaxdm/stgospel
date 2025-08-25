@@ -137,3 +137,14 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Python
+*.pyc
+__pycache__
+
+# Other
+.DS_Store
+*~
+static/js/gospel.bundle.js
+stgospel/settings/local.py
+root/sitemap.xml

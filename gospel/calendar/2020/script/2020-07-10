@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("10 июля 2020 г. ( 27 июня ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Прав. <a  href=\"http://days.pravoslavie.ru/name/2515.html\" target=\"_blank\" title=\"Иоанна Мироносица\">Иоанны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2515_555.html\" target=\"_blank\" >икона</a>) мироносицы. Прп. <a  href=\"http://days.pravoslavie.ru/name/1919.html\" target=\"_blank\" title=\"Преподобный Сампсон Странноприимец\">Сампсона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1919_369.html\" target=\"_blank\" >икона</a>) странноприимца. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/143.html\" target=\"_blank\" title=\"Амвросий Оптинский, прп.\">Амвросия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii143_202.html\" target=\"_blank\" >икона</a>) Оптинского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1950.html\" target=\"_blank\" title=\"Севир Валерийский (Италийский), пресвитер\">Севира</a> пресвитера. Прп. <a  href=\"http://days.pravoslavie.ru/name/498.html\" target=\"_blank\" title=\"Преподобный Георгий Иверский, Афонский\">Георгия</a> Иверского, Афонского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1489.html\" target=\"_blank\" title=\"Преподобный Мартин Туровский\">Мартина</a> Туровского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1961.html\" target=\"_blank\" title=\"Преподобный Серапион Кожеезерский\">Серапиона</a> Кожеезерского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13737.html\" target=\"_blank\" title=\"Александр (Сидоров), иерей, сщмч.\">Александра</a> и <a  href=\"http://days.pravoslavie.ru/name/13738.html\" target=\"_blank\" title=\"Владимир (Сергеев), иерей, сщмч.\">Владимира</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14279.html\" target=\"_blank\" title=\"Петр (Остроумов), иерей, сщмч.\">Петра</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_rim_16_1_16.html#z\">Рим., 120 зач., XVI, 1-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_13_3_9.html#z\">Мф., 50 зач., XIII, 3-9.</a> Прп. Сампсона: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_32_40.html#z\">Лк., 67 зач., XII, 32-40</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба прп. Амвросия Оптинского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30,</a> а на литургии - чтения дня и преподобного: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17995.htm\" target=\"_blank\" title=\"Библия\">Рим. 16, 1-16</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17996.htm\" target=\"_blank\" title=\"Библия\">Мф. 13, 3-9</a>). Притча о сеятеле изображает разные отношения душ к слову Божию. На первом месте стоят те, которые совсем не внимают слову. Слышат, но слышанное не входит в душу, а ложится поверх ее, как семя при дороге. Слово не вмещается в них, потому что у них другой образ мыслей, другие правила, другие вкусы. Оттого оно скоро исчезает из памяти, забывается, как будто вовсе не было слышано. На втором - те, которые слышат слово охотно и принимают его скоро, но никаких трудов по исполнению его нести не хотят. Поэтому пока не требуется никакой жертвы они услаждаются словом и особенно его обетованиями, а как скоро окажется необходимость пожертвовать чем-либо для верности слову, они изменяют ему, отказываются и от слова, и от обетований его, в угоду своих привязанностей. На третьем - те, которые принимают слово и начинают жить по нему, но потом слишком предаются заботам и печалям века, попечениям земным, которые подавляют все благие начинания, образовавшиеся было под действием слова Божия. На четвертом - те, которые принимают слово с полною верою и решаются жить по требованию его с готовностью на всепожертвования и труды и не допускают сердца своего быть связанным с чем-либо земным. Сядь и рассуди всяк, к какому классу принадлежишь.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

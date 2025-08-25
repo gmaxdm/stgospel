@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("15 сентября 2020 г. ( 2 сентября ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 15-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/1441.html\" target=\"_blank\" title=\"Мамант Кесарийский (Каппадокийский), мч.\">Маманта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1441_933.html\" target=\"_blank\" >икона</a>), отца его <a  href=\"http://days.pravoslavie.ru/name/2217.html\" target=\"_blank\" title=\"Феодот Кесарийский (Каппадокийский), мч.\">Феодота</a> и матери <a  href=\"http://days.pravoslavie.ru/name/2659.html\" target=\"_blank\" title=\"Руфина Кесарийская (Каппадокийская), мц.\">Руфины</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1005.html\" target=\"_blank\" title=\"Иоанн IV Постник, Патриарх Константинопольский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1005_1821.html\" target=\"_blank\" >икона</a>) постника, патриарха Константинопольского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/218.html\" target=\"_blank\" title=\"Преподобный Антоний Киево-Печерский\">Антония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii218_337.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2211.html\" target=\"_blank\" title=\"Преподобный Феодосий Печерский\">Феодосия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2211_205.html\" target=\"_blank\" >икона</a>) Печерских. Мчч. <a  href=\"http://days.pravoslavie.ru/name/6831.html\" target=\"_blank\" title=\"Мученики 3628 в Никомидии пострадавшие.\">3628 в Никомидии</a>. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/2213.html\" target=\"_blank\" title=\"Преподобный Феодосий Тотемский\">Феодосия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2213_377.html\" target=\"_blank\" >икона</a>) Тотемского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9135.html\" target=\"_blank\" title=\"Святитель Варсонофий (Лебедев), епископ Кирилловский, сщмч.\">Варсонофия</a>, еп. Кирилловского, и с ним <a  href=\"http://days.pravoslavie.ru/name/9611.html\" target=\"_blank\" title=\"Иоанн (Иванов), иерей, сщмч.\">Иоанна</a> пресвитера, прмц. <a  href=\"http://days.pravoslavie.ru/name/9866.html\" target=\"_blank\" title=\"Серафима (Сулимова), игумения, прмц.\">Серафимы</a> игумении и мчч. <a  href=\"http://days.pravoslavie.ru/name/9940.html\" target=\"_blank\" title=\"Анатолий (Барашков), мч.\">Анатолия</a>, <a  href=\"http://days.pravoslavie.ru/name/10002.html\" target=\"_blank\" title=\"Николай (Бурлаков), мч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9999.html\" target=\"_blank\" title=\"Михаил (Трубников), мч.\">Михаила</a> и <a  href=\"http://days.pravoslavie.ru/name/10038.html\" target=\"_blank\" title=\"Филипп (Марышев), мч.\">Филиппа</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9141.html\" target=\"_blank\" title=\"Святитель Дамаскин (Цедрик), епископ Стародубский, сщмч.\">Дамаскина</a>, еп. Стародубского, и с ним <a  href=\"http://days.pravoslavie.ru/name/9319.html\" target=\"_blank\" title=\"Евфимий (Горячев), протоиерей, сщмч.\">Евфимия</a>, <a  href=\"http://days.pravoslavie.ru/name/9618.html\" target=\"_blank\" title=\"Иоанн (Мельниченко), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9640.html\" target=\"_blank\" title=\"Иоанн (Смоличев), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9533.html\" target=\"_blank\" title=\"Владимир (Моринский), иерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/9513.html\" target=\"_blank\" title=\"Виктор (Басов), иерей, сщмч.\">Виктора</a>, <a  href=\"http://days.pravoslavie.ru/name/9823.html\" target=\"_blank\" title=\"Феодот (Шатохин), иерей, сщмч.\">Феодота</a>, <a  href=\"http://days.pravoslavie.ru/name/9772.html\" target=\"_blank\" title=\"Петр (Новосельский), иерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/9805.html\" target=\"_blank\" title=\"Стефан (Ярошевич), иерей, сщмч.\">Стефана</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/12211.html\" target=\"_blank\" title=\"Святитель Герман (Ряшенцев), епископ Вязниковский, сщмч.\">Германа</a>, еп. Вязниковского, <a  href=\"http://days.pravoslavie.ru/name/12213.html\" target=\"_blank\" title=\"Стефан (Ермолин), иерей, сщмч.\">Стефана</a> пресвитера и мч. <a  href=\"http://days.pravoslavie.ru/name/13775.html\" target=\"_blank\" title=\"Павел (Елькин), мч.\">Павла</a>. <a  href=\"http://days.pravoslavie.ru/name/2875.html\" target=\"_blank\" title=\"Калужская икона Божией Матери\">Калужской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2875_4175.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_gal_2_11_16.html#z\">Гал., 202 зач., II, 11-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_5_24_34.html#z\">Мк., 21 зач., V, 24-34 -</a> за понедельник и за вторник (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_gal_2_21_0_3_0_7.html#z\">Гал., 204 зач., II, 21 - III, 7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_6_1_7.html#z\">Мк., 22 зач., VI, 1-7.</a> Мч.: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_28_39.html#z\">Рим., 99 зач., VIII, 28-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_15_1_7.html#z\">Ин., 50 зач., XV, 1-7</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба прпп. Антония и Феодосия, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30,</a> а на литургии - чтения за понедельник, за вторник (под зачало) и преподобных: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18138.htm\" target=\"_blank\" title=\"Библия\">Гал. 2, 11-16</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18139.htm\" target=\"_blank\" title=\"Библия\">Мк. 5, 24-34</a>). У кровоточивой, только лишь прикоснулась она с верою к Господу, и изошла к ней сила от Господа, \"тотчас иссяк у ней источник крови\". Кровотечение - образ страстных мыслей и замыслов, непрестанно источаемых сердцем, еще не очистившимся от всякого сочувствия к греху; это наша греховная болезнь. Ощущается она теми, которые покаялись и возревновали держать себя чистыми не внешне только, но внутренне. Такие видят, что из сердца непрестанно исходят помышления злые, и болят о том, и ищут врачевания себе. Но врачевания этого нельзя найти ни в себе, ни в других; оно от Господа, именно, когда душа коснется Господа и от Господа изойдет сила в душу, другими словами, когда произойдет ощутительное общение с Господом, которое свидетельствуется особою теплотою и горением внутренним, когда, говорю, это совершится, тотчас душа ощущает, \"что исцелена от болезни\". Благо великое; но как его достигнуть? Кровоточивая протеснилась к Господу и получила исцеление; и нам надо протесняться к Господу, идти неленостно теснотою подвигов внутренних и внешних. Идущему так все тесно, все тесно и Господа не видно, а потом вдруг тут и есть Господь. И радость! Царствие Божие не приходит с усмотрением. . .<br>(<a  href=\"https://days.pravoslavie.ru/Bible/C18141.htm\" target=\"_blank\" title=\"Библия\">Мк. 6, 1-7</a>). \"Откуда у Него это? что за премудрость дана Ему?\" Так говорили назаретяне о Господе, знавшие прежнюю, незнатную Его жизнь. То же бывает со всеми, которые истинно последуют Господу. Кто строго держится пути Господня, тот после трудов, когда преодолеет все неправое в себе, изменяется весь, во всем своем составе: и взор, и походка, и речь, и держание себя - все носит печать особенной стройности и достоинства, хотя бы являющийся таким прежде был из самого низкого состояния и нисколько не образован. И приходится слышать: откуда у него это? Если же телесное и видимое так преобразуется, то что сказать о внутреннем и душевном, которое непосредственнее и ближе подлежит действию претворяющей благодати, и в отношении к которому внешнее служит только выражением и последствием? Как светлы о всем мысли, точны и определенны! Как верно суждение о сущем и бывающем! Взгляд его на все выше философского! А намерения, а действия, а предприятия? Все чисто, свято отсвечивается небесною светлостью. Это поистине новый человек! Образования не получил, в академиях лекций не слушал, и воспитания никакого не имел, а является благовоспитаннейшим и премудрым. Внимание к себе, труд чад собою, молитва и к Богу приближение все переделали благодатью Божиею, а как, никто этого не видит. Оттого и вопрос: \"откуда у него это?\"<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("20 июня 2020 г. ( 7 июня ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2216.html\" target=\"_blank\" title=\"Мученик Феодот Анкирский\">Феодота</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2216_4303.html\" target=\"_blank\" >икона</a>) Анкирского. Прав. <a  href=\"http://days.pravoslavie.ru/name/14807.html\" target=\"_blank\" title=\"Павел Таганрогский, прп.\">Павла</a> Таганрогского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1477.html\" target=\"_blank\" title=\"Святитель Маркеллин Римский, папа, сщмч.\">Маркеллина</a>, папы Римского, и мчч. <a  href=\"http://days.pravoslavie.ru/name/1246.html\" target=\"_blank\" title=\"Клавдий Римский, мч.\">Клавдия</a>, <a  href=\"http://days.pravoslavie.ru/name/1237.html\" target=\"_blank\" title=\"Кирин Римский, мч.\">Кирина</a> и <a  href=\"http://days.pravoslavie.ru/name/228.html\" target=\"_blank\" title=\"Мученик Антонин Римский\">Антонина</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1473.html\" target=\"_blank\" title=\"Святитель Маркелл Римский, папа, сщмч.\">Маркелла</a>, папы Римского, мчч. <a  href=\"http://days.pravoslavie.ru/name/2024.html\" target=\"_blank\" title=\"Сисиний Римский, диакон, сщмч.\">Сисиния</a> и <a  href=\"http://days.pravoslavie.ru/name/1219.html\" target=\"_blank\" title=\"Кириак Римский, диакон, сщмч.\">Кириака</a> диаконов, <a  href=\"http://days.pravoslavie.ru/name/2030.html\" target=\"_blank\" title=\"Смарагд Римский, мч.\">Смарагда</a>, <a  href=\"http://days.pravoslavie.ru/name/1331.html\" target=\"_blank\" title=\"Ларгий Римский, мч.\">Ларгия</a>, <a  href=\"http://days.pravoslavie.ru/name/246.html\" target=\"_blank\" title=\"Апрониан Римский, мч.\">Апрониана</a>, <a  href=\"http://days.pravoslavie.ru/name/1937.html\" target=\"_blank\" title=\"Сатурнин Римский, мч.\">Сатурнина</a>, <a  href=\"http://days.pravoslavie.ru/name/1733.html\" target=\"_blank\" title=\"Папий Римский, мч.\">Папия</a> и <a  href=\"http://days.pravoslavie.ru/name/1392.html\" target=\"_blank\" title=\"Мавр Африканский, Римский, мч.\">Мавра</a> воинов и <a  href=\"http://days.pravoslavie.ru/name/1305.html\" target=\"_blank\" title=\"Крискентиан Римский, мч.\">Крискентиана</a>, мцц. <a  href=\"http://days.pravoslavie.ru/name/2652.html\" target=\"_blank\" title=\"Прискилла Римская\">Прискиллы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2652_2256.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2573.html\" target=\"_blank\" title=\"Лукина Римская\">Лукины</a> и <a  href=\"http://days.pravoslavie.ru/name/2413.html\" target=\"_blank\" title=\"Артемия Римская, царевна, мц.\">Артемии</a> царевны. Мцц. <a  href=\"http://days.pravoslavie.ru/name/2542.html\" target=\"_blank\" title=\"Калерия (Валерия) Кесарийская (Палестинская), мц.\">Калерии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2542_2197.html\" target=\"_blank\" >икона</a>) (Валерии), <a  href=\"http://days.pravoslavie.ru/name/2554.html\" target=\"_blank\" title=\"Кириакия (Кирия) Кесарийская (Палестинская), мц.\">Кириакии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2554_2204.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2594.html\" target=\"_blank\" title=\"Мария Кесарийская (Палестинская), мц.\">Марии</a> в Кесарии Палестинской. <a  href=\"http://days.pravoslavie.ru/name/12311.html\" target=\"_blank\" title=\"Собор святых Ивановской митрополии\">Собор святых Ивановской митрополии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii12311_3468.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9106.html\" target=\"_blank\" title=\"Святитель Андроник (Никольский), архиепископ Пермский, сщмч.\">Андроника</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9106_599.html\" target=\"_blank\" >икона</a>), архиеп. Пермского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9433.html\" target=\"_blank\" title=\"Александр (Махетов), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9440.html\" target=\"_blank\" title=\"Александр (Осетров), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9481.html\" target=\"_blank\" title=\"Валентин (Белов), иерей, сщмч.\">Валентина</a>, <a  href=\"http://days.pravoslavie.ru/name/9512.html\" target=\"_blank\" title=\"Вениамин (Луканин), иерей, сщмч.\">Вениамина</a>, <a  href=\"http://days.pravoslavie.ru/name/9519.html\" target=\"_blank\" title=\"Виктор (Никифоров), иерей, сщмч.\">Виктора</a>, <a  href=\"http://days.pravoslavie.ru/name/9260.html\" target=\"_blank\" title=\"Александр (Преображенский), протоиерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9525.html\" target=\"_blank\" title=\"Владимир (Белозеров), иерей, сщмч.\">Владимира</a>,  <a  href=\"http://days.pravoslavie.ru/name/9587.html\" target=\"_blank\" title=\"Игнатий (Якимов), иерей, сщмч.\">Игнатия</a>, <a  href=\"http://days.pravoslavie.ru/name/9683.html\" target=\"_blank\" title=\"Михаил (Денисов), иерей, сщмч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/9719.html\" target=\"_blank\" title=\"Николай (Онянов), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9749.html\" target=\"_blank\" title=\"Павел (Соколов), иерей, сщмч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/9728.html\" target=\"_blank\" title=\"Николай (Рождественский), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9374.html\" target=\"_blank\" title=\"Николай (Конюхов), протоиерей, сщмч.\">Николая</a> пресвитеров и мч. <a  href=\"http://days.pravoslavie.ru/name/9929.html\" target=\"_blank\" title=\"Александр (Зуев), мч.\">Александра</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9770.html\" target=\"_blank\" title=\"Петр (Кузнецов), иерей, сщмч.\">Петра</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_rim_3_19_26.html#z\">Рим., 84 зач., III, 19-26.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_7_1_8.html#z\">Мф., 20 зач., VII, 1-8.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17954.htm\" target=\"_blank\" title=\"Библия\">Рим. З, 19-26</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17955.htm\" target=\"_blank\" title=\"Библия\">Мф. 7, 1-8</a>). \"Не судите, да не судимы будете\". Что за болезнь - пересуды и осуждение! Все знают, что это грех, а между тем ничего нет обычнее в речах наших, как осуждение. Иной скажет: \"не поставь Господи в осуждение\", а все-таки осуждение свое доведет до конца. Иной оправдывает себя тем, что разумному человеку надо же иметь свой взгляд на текущее, и в пересудах пытается быть хладнокровно рассуждающим; но и простое ухо не может не различать в речах его высящегося и злорадствующего осуждения. Между тем, приговор Господа за этот грех строг и решителен. Кто осуждает других, тому нет оправдания. Как же быть? Как миновать беды? Решительное средство против осуждения состоит вот в чем: считать самого себя осужденным. Кто возчувствует себя таким, тому некогда будет судить других. Только и речей у него будет: \"Господи, помилуй! Господи, прости мои согрешения!\"<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

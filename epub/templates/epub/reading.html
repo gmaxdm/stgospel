@@ -1,0 +1,39 @@
+{% load format %}
+<html xml:lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>{{ date }}</title>
+  </head>
+  <body>
+
+  <div>
+    
+    <h1 class="text-center">Группа {{ data.group.name }}</h1>
+    <p class="text-right">чтение на <strong>{{ date }}</strong></p>
+    <div>
+        {% for pg in data.prays %}
+            {% if pg.start %}
+            <h4>{{ pg.pray.title }}</h4>
+            <p class="lead">{{ pg.pray.text|markup }}</p>
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% if data.settings.listorder == "B" %}
+        {% include 'epub/group_lo_between.html' %}
+    {% else %}
+        {% include 'epub/group_lo_after.html' %}
+    {% endif %}
+    <div>
+        {% for pg in data.prays %}
+            {% if pg.end %}
+            <h4>{{ pg.pray.title }}</h4>
+            <p class="lead">{{ pg.pray.text|markup }}</p>
+            {% endif %}
+        {% endfor %}
+    </div>
+    
+  </div>
+
+  </body>
+</html>

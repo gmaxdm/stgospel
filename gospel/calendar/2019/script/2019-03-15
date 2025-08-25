@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("15 марта 2020 г. ( 2 марта ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 39-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2841.html\" target=\"_blank\" title=\"\"Державная\"\">\"Державная\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2841_61.html\" target=\"_blank\" >икона</a>). Свт. <a  href=\"http://days.pravoslavie.ru/name/543.html\" target=\"_blank\" title=\"Святитель Григорий Палама\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii543_33.html\" target=\"_blank\" >икона</a>) Паламы, архиеп. Солунского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2219.html\" target=\"_blank\" title=\"Святитель Феодот Киринейский, епископ, исповедник\">Феодота</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2219_4102.html\" target=\"_blank\" >икона</a>), еп. Киринейского. Свт. <a  href=\"http://days.pravoslavie.ru/name/270.html\" target=\"_blank\" title=\"Святитель Арсений, епископ Тверской\">Арсения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii270_421.html\" target=\"_blank\" >икона</a>), еп. Тверского. Мч. <a  href=\"http://days.pravoslavie.ru/name/2128.html\" target=\"_blank\" title=\"Троадий Неокесарийский, мч.\">Троадия</a>. Мц. <a  href=\"http://days.pravoslavie.ru/name/2477.html\" target=\"_blank\" title=\"Евфалия Леентинская (Сицилийская), мц.\">Евфалии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2477_4097.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/62.html\" target=\"_blank\" title=\"Агафон Скитский (египетский), пустынник\">Агафона</a> Египетского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/7970.html\" target=\"_blank\" title=\"440 Италийских мучеников\">440 Италийских</a>. <a  href=\"http://days.pravoslavie.ru/name/6899.html\" target=\"_blank\" title=\"Собор всех преподобных отцев Киево-Печерских.\">Собор</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6899_371.html\" target=\"_blank\" >икона</a>) всех преподобных отцев Киево-Печерских. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 6-е, <a href=\"http://days.pravoslavie.ru/bible/z_lk_24_36_53.html#z\">Лк., 114 зач., XXIV, 36-53.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_evr_1_10_0_2_0_3.html#z\">Евр., 304 зач., I, 10 - II, 3.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_2_1_12.html#z\">Мк., 7 зач., II, 1-12.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Я есмь дверь: кто войдет Мною, тот спасется\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18493.htm\" target=\"_blank\" title=\"Библия\">Ин. 10, 9</a>). Это то же, что в другом месте говорит Господь: \"никто не приходит к Отцу, как только через Меня\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18494.htm\" target=\"_blank\" title=\"Библия\">Ин. 14, 6</a>). И еще ближе подтвердил Он то же, когда сказал: \"без Меня не можете делать ничего\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18495.htm\" target=\"_blank\" title=\"Библия\">Ин. 15, 5</a>). Тот и христианин, кто весь во Христе, и кто, что ни имеет в себе ценного, все то от Христа имеет. Оправдание у него Христово, и тело его тоже Христово. Спасающийся потому спасается, что облечен во Христа. В этом только положении он имеет доступ к Отцу. Мы - отпадшие от Бога и за то подгневные. Только тогда правда Божия отступает и милость Его простирается к нам и нас приближающихся принимает, когда мы приближаемся во Христе и о Христе. Печать Христова отпечатлевается на всем естестве христианина, и носящий ее пойдет посреди сени смертной и не убоится зла. Для того, чтобы быть такими, мы имеем таинства - крещение и причащение, посредствуемое у грешащих по крещении покаянием. Но это от лица Господа; с нашей же стороны, для принятия их, должны образоваться в духе приимательные расположения - вера, которая исповедует: я погибший и спасаюсь только Господом Иисусом Христом; любовь, которая ревнует все посвящать Господу Спасителю, ничего не щадя; упование, которое, ничего от себя не чая, уверено, что не будет оставлено Господом, но всякую будет иметь от Него помощь - и внутреннюю, и внешнюю - во всю жизнь, пока взято будет туда, где Он Сам.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

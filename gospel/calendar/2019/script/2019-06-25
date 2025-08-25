@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("25 июня 2020 г. ( 12 июня ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1671.html\" target=\"_blank\" title=\"Онуфрий Великий, прп.\">Онуфрия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1671_322.html\" target=\"_blank\" >икона</a>) Великого. Прп. <a  href=\"http://days.pravoslavie.ru/name/1767.html\" target=\"_blank\" title=\"Петр Афонский, прп.\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1767_322.html\" target=\"_blank\" >икона</a>) Афонского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/1023.html\" target=\"_blank\" title=\"Иоанн Фиваидский, прп.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/192.html\" target=\"_blank\" title=\"Андрей Фиваидский, прп.\">Андрея</a>, <a  href=\"http://days.pravoslavie.ru/name/1080.html\" target=\"_blank\" title=\"Ираклемон (Иракламвон) Фиваидский, прп.\">Ираклемона</a> и <a  href=\"http://days.pravoslavie.ru/name/2273.html\" target=\"_blank\" title=\"Феофил Фиваидский, прп.\">Феофила</a> Фиваидских. Прп. <a  href=\"http://days.pravoslavie.ru/name/265.html\" target=\"_blank\" title=\"Преподобный Арсений Коневский\">Арсения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii265_419.html\" target=\"_blank\" >икона</a>) Коневского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1672.html\" target=\"_blank\" title=\"Онуфрий Мальский, Псковский, прп.\">Онуфрия</a> Мальского, Псковского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/1673.html\" target=\"_blank\" title=\"Онуфрий Перцовский, Вологодский, прп.\">Онуфрия</a> и <a  href=\"http://days.pravoslavie.ru/name/26.html\" target=\"_blank\" title=\"Авксентий Перцовский, Вологодский, прп., исповедник\">Авксентия</a> Вологодских. Прп. <a  href=\"http://days.pravoslavie.ru/name/2063.html\" target=\"_blank\" title=\"Стефан Озерский, Комельский, прп.\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2063_2050.html\" target=\"_blank\" >икона</a>) Озерского, Комельского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/397.html\" target=\"_blank\" title=\"Вассиан Пертоминский, Соловецкий, прп.\">Вассиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii397_820.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1046.html\" target=\"_blank\" title=\"Иона Пертоминский, Соловецкий, прп.\">Ионы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1046_820.html\" target=\"_blank\" >икона</a>) Пертоминских, Соловецких. Обретение мощей и второе прославление блгв. вел. кн. <a  href=\"http://days.pravoslavie.ru/name/2393.html\" target=\"_blank\" title=\"Святая княгиня Анна Кашинская\">Анны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2393_308.html\" target=\"_blank\" >икона</a>) Кашинской. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_rim_8_22_27.html#z\">Рим., 98 зач., VIII, 22-27.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_23_31.html#z\">Мф., 37 зач., X, 23-31.</a> Прпп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17964.htm\" target=\"_blank\" title=\"Библия\">Рим. 8, 22-27</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17965.htm\" target=\"_blank\" title=\"Библия\">Мф. 10, 23-31</a>). \"Нет ничего сокровенного, что не открылось бы, и тайного, что не было бы узнано\". Следовательно, как ни прячемся мы теперь с грехами своими, пользы от этого нам никакой нет. Придет срок, а далеко ли он? - и все выйдет наружу. Как же быть? Не надо прятаться. Согрешил - иди и открой грех свой духовному отцу твоему. Когда получишь разрешение, грех исчезнет, будто его не было. Нечему будет потом быть открываему и являему. Если же спрячешь грех и не покаешься, то сбережешь его в себе, чтоб было чему обнаружиться в свое время на обличение тебя. Все это нам наперед открыл Бог, чтоб мы еще теперь ухитрились обезоружить Его праведный и страшный суд на нас грешных.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

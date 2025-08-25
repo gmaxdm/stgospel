@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("13 августа 2020 г. ( 31 июля ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 10-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Заговенье на Успенский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14384.html\" target=\"_blank\" title=\"Предпразднство происхождения честных древ Животворящего Креста Господня\">Предпразднство</a> происхождения честных древ Животворящего Креста Господня. Прав. <a  href=\"http://days.pravoslavie.ru/name/674.html\" target=\"_blank\" title=\"Евдоким Каппадокиянин\">Евдокима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii674_4402.html\" target=\"_blank\" >икона</a>) Каппадокиянина. Мц. <a  href=\"http://days.pravoslavie.ru/name/2534.html\" target=\"_blank\" title=\"Иулитта Кесарийская (Каппадокийская), мц.\">Иулитты</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/14899.html\" target=\"_blank\" title=\"Святитель Герман епископ Осерский, епископ Осерский, свт.\">Германа</a>, епископа Осерского. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14471.html\" target=\"_blank\" title=\"Дионисий Ватопедский, прмч.\">Дионисия</a> Ватопедского (Конст.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/407.html\" target=\"_blank\" title=\"Священномученик Вениамин Петроградский, Гдовский, митрополит\">Вениамина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii407_31.html\" target=\"_blank\" >икона</a>), митр. Петроградского и Гдовского, и иже с ним убиенных сщмч. архим. <a  href=\"http://days.pravoslavie.ru/name/1972.html\" target=\"_blank\" title=\"Священномученик Сергий (Шеин)\">Сергия</a> и мчч. <a  href=\"http://days.pravoslavie.ru/name/2363.html\" target=\"_blank\" title=\"Мученик Юрий (Новицкий)\">Юрия</a> и <a  href=\"http://days.pravoslavie.ru/name/999.html\" target=\"_blank\" title=\"Мученик Иоанн (Ковшаров)\">Иоанна</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/9994.html\" target=\"_blank\" title=\"Максим (Румянцев), мч.\">Максима</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14301.html\" target=\"_blank\" title=\"Владимир (Холодковский), иерей, сщмч.\">Владимира</a> пресвитера. Cщмч. <a  href=\"http://days.pravoslavie.ru/name/9634.html\" target=\"_blank\" title=\"Иоанн (Румянцев), иерей, сщмч.\">Иоанна</a> пресвитера, св. <a  href=\"http://days.pravoslavie.ru/name/9660.html\" target=\"_blank\" title=\"Константин (Разумов), иерей, исповедник\">Константина</a> исп., пресвитера, мц. <a  href=\"http://days.pravoslavie.ru/name/10057.html\" target=\"_blank\" title=\"Анна (Серова), мц.\">Анны</a> и св. <a  href=\"http://days.pravoslavie.ru/name/10073.html\" target=\"_blank\" title=\"Елисавета (Румянцева), исп.\">Елисаветы</a> исп. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_2-kor_1_1_7.html#z\">2 Кор., 167 зач., I, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_21_43_46.html#z\">Мф., 88 зач., XXI, 43-46,</a> и за пятницу (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_1_12_20.html#z\">2 Кор., 169 зач., I, 12-20.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_22_23_33.html#z\">Мф., 91 зач., XXII, 23-33.</a> Прав.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба сщмч. Вениамина, митр. Петроградского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22,</a> а на литургии - чтения дня, за пятницу (под зачало) и священномученика: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_28_39.html#z\">Рим., 99 зач., VIII, 28-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18072.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 1, 1-7</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18073.htm\" target=\"_blank\" title=\"Библия\">Мф. 21, 43-46</a>). Архиереи и фарисеи уразумели, что Господь говорил притчи на их счет, раскрывал им глаза, чтоб увидели истину, что же сделали они по этому случаю? Придумывали, как бы убить Господа. Если бы предубеждение не кривило их здравомыслия, им следовало, если не поверить, как требовала очевидность указаний, то обсудить внимательно, не так ли и в самом деле, как объясняет Спаситель. Предубеждение столкнуло их на кривую дорогу, и они потом оказались богоубийцами. И всегда так, и ныне так. Немцы, а за ними и наши онемечившиеся умом, как скоро встретят в Евангелии чудо, тотчас кричат: \"неправда, неправда; этого не было и не могло быть, надо это вычеркнуть\". Не то же ли это что убить? Пересмотрите все книги этих умников, ни в одной не найдете указания причин, почему они так думают; ни один из них ничего не может сказать против того, чем доказывается истина евангельская, и ни один не позаботился вникнуть в доводы, какими люди здравомыслящие обличают их лживость: твердят все только свое, что быть не может и потому не верят Евангелию. И ничего с ними не поделаешь: они готовы идти против Самого Бога.<br>(<a  href=\"https://days.pravoslavie.ru/Bible/C18075.htm\" target=\"_blank\" title=\"Библия\">Мф. 22, 23-33</a>). Об образе будущей жизни Господь сказал, что там не женятся и не посягают, т. е. не будут там иметь места наши земные житейские отношения; стало быть и все порядки земной жизни. Ни наук, ни искусств, ни правительств и ничего другого не будет. Что же будет? Будет Бог всяческая во всех. А так как Бог - дух, единится с духом, и духовное действует, то вся жизнь будет там непрерывным течением духовных движений. Отсюда следует один вывод, что поскольку будущая жизнь наша цель, а здешняя только приготовление к ней, то все время жизни проживать на одно только то, что уместно лишь в этой жизни, а в будущей неприложимо, значит идти против своего назначения и готовить себе в будущем горькую, прегорькую участь. Не то чтоб непременно уж требовалось все бросить, но что, работая сколько нужно для этой жизни, главную заботу надо обращать на приготовление к будущей, стараясь, насколько то возможно, и чернорабочесть земную обращать в средство к той же цели.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

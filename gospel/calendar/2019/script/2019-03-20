@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("20 марта 2020 г. ( 7 марта ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Священномучеников, в Херсонесе епископствовавших: <a  href=\"http://days.pravoslavie.ru/name/390.html\" target=\"_blank\" title=\"Святитель Василий Херсонесский, епископ, сщмч.\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii390_1270.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/818.html\" target=\"_blank\" title=\"Святитель Ефрем Херсонесский, епископ, сщмч.\">Ефрема</a> (<a  href=\"http://days.pravoslavie.ru/images/ii818_1270.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1172.html\" target=\"_blank\" title=\"Святитель Капитон Херсонесский, епископ, сщмч.\">Капитона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1172_1270.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/672.html\" target=\"_blank\" title=\"Святитель Евгений Херсонесский, епископ, сщмч.\">Евгения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii672_399.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/810.html\" target=\"_blank\" title=\"Святитель Еферий Херсонесский, епископ, сщмч.\">Еферия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii810_1270.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/772.html\" target=\"_blank\" title=\"Святитель Елпидий Херсонесский, епископ, сщмч.\">Елпидия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii772_1270.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/59.html\" target=\"_blank\" title=\"Святитель Агафодор Херсонесский, епископ, сщмч.\">Агафодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii59_1270.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1697.html\" target=\"_blank\" title=\"Павел Препростый, прп.\">Павла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1697_367.html\" target=\"_blank\" >икона</a>) Препростого. Свт. <a  href=\"http://days.pravoslavie.ru/name/1698.html\" target=\"_blank\" title=\"Святитель Павел Прусиадский, епископ, исповедник\">Павла</a> исп., еп. Прусиадского. Прп. <a  href=\"http://days.pravoslavie.ru/name/776.html\" target=\"_blank\" title=\"Емилиан Италийский, прп.\">Емилиана</a> Италийского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9730.html\" target=\"_blank\" title=\"Николай (Розов), иерей, сщмч.\">Николая</a> пресвитера. Прмч. <a  href=\"http://days.pravoslavie.ru/name/9235.html\" target=\"_blank\" title=\"Нил (Тютюкин), иеромонах, сщмч.\">Нила</a>, прмцц. <a  href=\"http://days.pravoslavie.ru/name/9901.html\" target=\"_blank\" title=\"Матрона (Грошева), инокиня, прмц.\">Матроны</a>, <a  href=\"http://days.pravoslavie.ru/name/9897.html\" target=\"_blank\" title=\"Мария (Грошева), инокиня, прмц.\">Марии</a>, <a  href=\"http://days.pravoslavie.ru/name/13695.html\" target=\"_blank\" title=\"Евдокия (Синицина), прмц.\">Евдокии</a>, <a  href=\"http://days.pravoslavie.ru/name/13696.html\" target=\"_blank\" title=\"Екатерина (Константинова), прмц.\">Екатерины</a>, <a  href=\"http://days.pravoslavie.ru/name/13697.html\" target=\"_blank\" title=\"Антонина (Новикова), прмц.\">Антонины</a>, <a  href=\"http://days.pravoslavie.ru/name/13698.html\" target=\"_blank\" title=\"Надежда (Круглова), прмц.\">Надежды</a>, <a  href=\"http://days.pravoslavie.ru/name/14232.html\" target=\"_blank\" title=\"Ксения (Петрухина), прмц.\">Ксении</a> и <a  href=\"http://days.pravoslavie.ru/name/14233.html\" target=\"_blank\" title=\"Анна (Горохова), прмц.\">Анны</a>. Иконы Божией Матери <a  href=\"http://days.pravoslavie.ru/name/2978.html\" target=\"_blank\" title=\"\"Споручница грешных\"\">\"Споручница грешных\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2978_63.html\" target=\"_blank\" >икона</a>),  в Корце (Ровенск. обл.) в Одрине (Орловск. обл.) и в Москве. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_13_2_13.html#z\">Ис. XIII, 2-13.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_8_4_21.html#z\">Быт. VIII, 4-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_10_31_0_11_0_12.html#z\">Притч. X, 31 - XI, 12.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Нечестивый падет от нечестия своего\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18502.htm\" target=\"_blank\" title=\"Библия\">Прит. 11, 5</a>). Нечестие - это неправильное отношение к Богу или полное богозабвение, к которому принадлежит и неверие в бытие Бога и Его промышление о тварях. Иные души, будучи теснимы напором подобных нечестивых мыслей, желая, однако, являть из себя исправные личности, решают так: буду правдив, честен и гуманен, не занимая себя тем, есть ли кто выше меня, назирающий, обязывающий и имеющий потребовать отчета. И что же? Не бывает на них благословения Божия, которого не взыскивают, и дело их не спеется. Совесть каждодневно напоминает им о делах или неправды, или нечестности, или негуманности. Только перед людьми успевают они являть себя праведными, в оправдание свое, где нужно отгрызаясь и кривотолкуя факты. Кто же добросовестен внутри, тому нечем себя оправдать. Невнимательные к себе пропускают мимо и этот внутренний разлад, внимательные же управляются с этим кое - как. О, когда бы кто либо из них добросовестно взглянул на этот разлад, и разобрал, откуда он и как его уладить! Он уладил бы потом и сам себя, и других позаботился бы направить на добрый лад.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

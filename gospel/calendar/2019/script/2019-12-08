@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("8 декабря 2020 г. ( 25 ноября ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 27-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14710.html\" target=\"_blank\" title=\"Отдание праздника Введения во храм Пресвятой Богородицы\">Отдание</a> праздника Введения во храм Пресвятой Богородицы. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/6969.html\" target=\"_blank\" title=\"Священномученик Климент, папа Римский\">Климента</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6969_887.html\" target=\"_blank\" >икона</a>), папы Римского, и <a  href=\"http://days.pravoslavie.ru/name/1764.html\" target=\"_blank\" title=\"Священномученик Петр, архиепископ Александрийский\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1764_274.html\" target=\"_blank\" >икона</a>), архиеп. Александрийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1772.html\" target=\"_blank\" title=\"Петр Галатийский, Антиохийский, Молчальник, прп.\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1772_3572.html\" target=\"_blank\" >икона</a>) молчальника Галатийского. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14524.html\" target=\"_blank\" title=\"Магдалина (Забелина), прмц.\">Магдалины</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13084.html\" target=\"_blank\" title=\"Святитель Серафим (Остроумов), архиепископ Смоленский, сщмч.\">Серафима</a>, архиеп. Смоленского, <a  href=\"http://days.pravoslavie.ru/name/9306.html\" target=\"_blank\" title=\"Григорий (Воинов), протоиерей, сщмч.\">Григория</a>, <a  href=\"http://days.pravoslavie.ru/name/9337.html\" target=\"_blank\" title=\"Иоанн (Тарасов), протоиерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9504.html\" target=\"_blank\" title=\"Василий (Парийский), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9665.html\" target=\"_blank\" title=\"Косма (Коротких), иерей, сщмч.\">Космы</a>, <a  href=\"http://days.pravoslavie.ru/name/9604.html\" target=\"_blank\" title=\"Иоанн (Владимирский), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9795.html\" target=\"_blank\" title=\"Симеон (Афонькин), иерей, сщмч.\">Симеона</a>, <a  href=\"http://days.pravoslavie.ru/name/9588.html\" target=\"_blank\" title=\"Иларион (Соловьев), иерей, сщмч.\">Илариона</a>, <a  href=\"http://days.pravoslavie.ru/name/9414.html\" target=\"_blank\" title=\"Ярослав (Савицкий), протоиерей, сщмч.\">Ярослава</a>, <a  href=\"http://days.pravoslavie.ru/name/9255.html\" target=\"_blank\" title=\"Александр (Вершинский), протоиерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/13868.html\" target=\"_blank\" title=\"Иоанн (Янушев), протоиерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13869.html\" target=\"_blank\" title=\"Виктор (Смирнов), протоиерей, сщмч.\">Виктора</a>, <a  href=\"http://days.pravoslavie.ru/name/14359.html\" target=\"_blank\" title=\"Андрей (Шершнев), иерей, сщмч.\">Андрея</a>, <a  href=\"http://days.pravoslavie.ru/name/14435.html\" target=\"_blank\" title=\"Варлаам (Попов), протоиерей, сщмч.\">Варлаама</a>  пресвитеров и мч. <a  href=\"http://days.pravoslavie.ru/name/10012.html\" target=\"_blank\" title=\"Павел (Кузовков), мч.\">Павла</a>. Мч.  <a  href=\"http://days.pravoslavie.ru/name/13086.html\" target=\"_blank\" title=\"Николай (Копнинский), мч.\">Николая</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-tim_5_11_21.html#z\">1 Тим., 286 зач., V, 11-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_17_26_37.html#z\">Лк., 87 зач., XVII, 26-37.</a> Богородицы (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_evr_9_1_7.html#z\">Евр., 320 зач., IX, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a> Сщмчч.: <a href=\"http://days.pravoslavie.ru/bible/z_flp_3_20_0_4_0_3.html#z\">Флп., 246 зач., III, 20 - IV, 3.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18318.htm\" target=\"_blank\" title=\"Библия\">1 Тим. 5, 11-21</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18319.htm\" target=\"_blank\" title=\"Библия\">Лк. 17, 26-37</a>). \"Кто станет сберегать душу свою, тот погубит ее; а кто погубит ее, тот оживит ее\". Нужно понимать так: сберегать душу свою значит жалеть себя; а губить душу - не жалеть себя; надобно только подразумевать: на пути заповедей Господних, или в работании Господу. И выйдет так: кто работает Господу в исполнении Его заповедей, не жалея себя, тот спасается; а кто жалеет себя, тот погибает. Стань жалеть себя, непременно уж окажешься нарушителем заповедей, и, следовательно, рабом неключимым; а неключимому рабу какой приговор? \"Негодного раба выбросьте во тьму внешнюю: там будет плач и скрежет зубов\". Потрудитесь наблюсти за собою хоть в продолжении одного дня, и увидите, что саможаление кривит все дела наши и отбивает охоту делать их. Без труда и напряжения ничего не сделаешь; а понудить себя жаль, - вот и остановка. Есть дела, которые, хочешь - не хочешь, надо делать. Такие дела делаются неопустительно, хоть и трудновато. Но тут саможаление побеждается саможалением. Не станешь делать - есть будет нечего. А так как дела заповедей не такого рода, то при саможалении они всегда опускаются. И на худые дела поблажка тоже делается из саможаления. Жаль отказать себе в том, чего захотелось - желание и исполняется; а оно или прямо грешно, или ведет ко греху. Так жалеющий себя всегда - что должно, того не делает, а что не должно, в том себе поблажает, и выходит никуда негожим. Какое же тут спасение?<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

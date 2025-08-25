@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("4 июля 2020 г. ( 21 июня ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/1145.html\" target=\"_blank\" title=\"Иулиан Тарсийский, мч.\">Иулиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1145_860.html\" target=\"_blank\" >икона</a>) Тарсийского. Обретение мощей преподобного <a  href=\"http://days.pravoslavie.ru/name/1424.html\" target=\"_blank\" title=\"Максим Грек, прп.\">Максима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1424_255.html\" target=\"_blank\" >икона</a>) Грека. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2095.html\" target=\"_blank\" title=\"Апостол от 70-ти Тертий\">Терентия</a>, еп. Иконийского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/1148.html\" target=\"_blank\" title=\"Иулий Мирмидонянин, пресвитер\">Иулия</a> пресвитера и <a  href=\"http://days.pravoslavie.ru/name/1142.html\" target=\"_blank\" title=\"Иулиан Мирмидонянин, диакон\">Иулиана</a> диакона. Мчч. <a  href=\"http://days.pravoslavie.ru/name/281.html\" target=\"_blank\" title=\"Арчил II Иверский, царь, мч.\">Арчила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii281_3029.html\" target=\"_blank\" >икона</a>) II, царя Иверского, и <a  href=\"http://days.pravoslavie.ru/name/1371.html\" target=\"_blank\" title=\"Луарсаб II Карталинский, царь, мч.\">Луарсаба</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1371_4587.html\" target=\"_blank\" >икона</a>) II, царя Карталинского (Груз.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13729.html\" target=\"_blank\" title=\"Иоанн (Будрин), иерей, сщмч.\">Иоанна</a> пресвитера. Прп. <a  href=\"http://days.pravoslavie.ru/name/9168.html\" target=\"_blank\" title=\"Георгий (Лавров), архимандрит, исп.\">Георгия</a> исп. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14278.html\" target=\"_blank\" title=\"Алексий (Скворцов), иерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/9750.html\" target=\"_blank\" title=\"Павел (Успенский), иерей, сщмч.\">Павла</a> и <a  href=\"http://days.pravoslavie.ru/name/13728.html\" target=\"_blank\" title=\"Николай (Розанов), протоиерей, сщмч.\">Николая</a> пресвитеров. Прмч. <a  href=\"http://days.pravoslavie.ru/name/13730.html\" target=\"_blank\" title=\"Иона (Санков), иеромонах, прмч.\">Ионы</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/14464.html\" target=\"_blank\" title=\"Никита (Сухарев), мч.\">Никиты</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> Мч.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_5_7_21_10_11_21_20_24.html#z\">Лк., 104 зач., XXI, 5-7, 10-11, 20-24.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_rim_6_11_17.html#z\">Рим., 92 зач., VI, 11-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_8_14_23.html#z\">Мф., 26 зач., VIII, 14-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17982.htm\" target=\"_blank\" title=\"Библия\">Рим. 6, 11-17</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17983.htm\" target=\"_blank\" title=\"Библия\">Мф. 8, 14-23</a>). Одному из хотевших идти вслед Господа Он сказал: \"Сын Человеческий не имеет, где приклонить голову\", а другому, хотевшему прежде похоронить отца, сказал: оставь мертвого; его похоронят другие, а ты иди за Мною. Это значит, что кто хочет идти за Господом, тому не должно ожидать от этого следования на земле никакого утешения, а одних лишений, нужд и скорбей, и что житейские заботы, даже самые законные, не совместны с этим следованием. Надобно отрешиться от всего решительно, чтоб ничто уже не привязывало к земле; затем обречь себя на всесторонние страдания или крест, и снарядившись таким образом идти за Господом. Такова прямая воля Господня! Но кому эта заповедь - апостолам только или всем христианам? Рассуди всякий сам. Отвергнуть себя и взять крест - всем ли сказано? Потом, возлюбить Господа больше отца и матери, братьев и сестер, жены и детей - всем ли сказано? Вывод ясен. Как же быть? Однажды и апостолы предлагали такой вопрос Господу и Он ответил им: \"невозможное человекам возможно Богу\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17984.htm\" target=\"_blank\" title=\"Библия\">Лк. 18, 27</a>).<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("5 мая 2020 г. ( 22 апреля ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/2200.html\" target=\"_blank\" title=\"Святитель Феодор Сикеот\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2200_4215.html\" target=\"_blank\" >икона</a>) Сикеота, еп. Анастасиупольского. Апп. <a  href=\"http://days.pravoslavie.ru/name/365.html\" target=\"_blank\" title=\"Апостол Варфоломей\">Нафанаила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii365_440.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1375.html\" target=\"_blank\" title=\"Лука Евангелист, апостол от 70-ти, сщмч.\">Луки</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1375_920.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1254.html\" target=\"_blank\" title=\"Климент, апостол от 70-ти, сщмч.\">Климента</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/14894.html\" target=\"_blank\" title=\"Елиподий Лионский, мч.\">Епиподия</a> Лионского. Прп. <a  href=\"http://days.pravoslavie.ru/name/426.html\" target=\"_blank\" title=\"Виталий Александрийский, прп.\">Виталия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii426_452.html\" target=\"_blank\" >икона</a>). Перенесение мощей блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/438.html\" target=\"_blank\" title=\"Благоверный князь Всеволод Псковский\">Всеволода</a> (<a  href=\"http://days.pravoslavie.ru/images/ii438_460.html\" target=\"_blank\" >икона</a>), во святом Крещении Гавриила, Псковского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14507.html\" target=\"_blank\" title=\"Святитель Платон (Йованович), епископ Бянолукский\">Платона</a>, еп. Банялукского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9570.html\" target=\"_blank\" title=\"Евстафий (Малаховский), иерей, сщмч.\">Евстафия</a> пресвитера. Мч. <a  href=\"http://days.pravoslavie.ru/name/9555.html\" target=\"_blank\" title=\"Димитрий (Власенков), мч.\">Димитрия</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_8_5_17.html#z\">Деян., 18 зач., VIII, 5-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_6_27_33.html#z\">Ин., 20 зач., VI, 27-33.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17855.htm\" target=\"_blank\" title=\"Библия\">Дея. 8, 5-17</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17856.htm\" target=\"_blank\" title=\"Библия\">Ин. 6, 27-33</a>). \"Уверовал и сам Симон и крестившись не отходил от Филиппа\". И веровал и крестился, а ничего не вышло из него. Надо думать, что в строе веры его было что либо недолжное. Вера искренняя - отрицание своего ума. Надо ум оголить и как чистую доску представить вере, чтобы она начертала себя на нем как есть, без всякой примеси сторонних речений и положений. Когда в уме остаются свои положения, тогда, по написании на нем положений веры, окажется в нем смесь положений: сознание будет путаться, встречая между действиями веры и мудрствования ума. Таков и был Симон - образ для всех еретиков; таковы и все, с своими мудрованиями вступающие в область веры, как прежде, так и теперь. Они путаются в вере, и ничего из них не выходит, кроме вреда: для себя - когда они остаются безгласными, для других - когда не удерживается в них одних эта путаница, а прорывается наружу, по их жажде быть учителями. Отсюда всегда выходит партия лиц более или менее погрешающих в вере, с несчастною уверенностью в непогрешимости и бедственным позывом всех переделать на свой лад.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

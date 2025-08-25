@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("24 июля 2020 г. ( 11 июля ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 7-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Воспоминание чуда вмц. <a  href=\"http://days.pravoslavie.ru/name/2479.html\" target=\"_blank\" title=\"Святая великомученица Евфимия Всехвальная\">Евфимии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2479_530.html\" target=\"_blank\" >икона</a>) всехвальной, имже Православие утвердися. Равноап. <a  href=\"http://days.pravoslavie.ru/name/2634.html\" target=\"_blank\" title=\"Святая равноапостольная великая княгиня Российская Ольга\">Ольги</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2634_217.html\" target=\"_blank\" >икона</a>), вел. кн. Российской, во св. Крещении Елены. Обретение мощей сщмч. <a  href=\"http://days.pravoslavie.ru/name/9113.html\" target=\"_blank\" title=\"Сщмч. Иларион (Троицкий), архиепископ Верейский\">Илариона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9113_1790.html\" target=\"_blank\" >икона</a>), архиеп. Верейского. Мч. <a  href=\"http://days.pravoslavie.ru/name/1202.html\" target=\"_blank\" title=\"Киндей Сидский (Памфилийский), пресвитер, сщмч.\">Киндея</a> пресвитера. <a  href=\"http://days.pravoslavie.ru/name/2938.html\" target=\"_blank\" title=\"Оковецкая (Ржевская)\">Ржевской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2938_2445.html\" target=\"_blank\" >икона</a>), или Оковецкой, и <a  href=\"http://days.pravoslavie.ru/name/2792.html\" target=\"_blank\" title=\"Борколабовская\">Борколабовской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2792_571.html\" target=\"_blank\" >икона</a>) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_1-kor_7_35_0_8_0_7.html#z\">1 Кор., 139 зач., VII, 35 - VIII, 7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_15_29_31.html#z\">Мф., 63 зач., XV, 29-31.</a> Свв.: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_6_1_10.html#z\">2 Кор., 181 зач., VI, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_36_50.html#z\">Лк., 33 зач., VII, 36-50</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба сщмч. Илариона, архиеп. Верейского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22,</a> а на литургии - чтения дня и священномученика: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18025.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 7, 35-8, 7</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18026.htm\" target=\"_blank\" title=\"Библия\">Мф. 15, 29-31</a>). Без внимания и в житейском порядке ничего не сделаешь как следует; в порядке же духовном - оно первое. Оно замечает худое и предает его внутреннему суду; оно же составляет стражу внутренней палаты, в которой обсуждают что и как надлежит сделать, а потом оберегает и исполнителей решения. Не удивительно потому, что духовная жизнь во всем своем объеме именуется жизнью трезвенною, и в писаниях отеческих больше всего вы встретите речей о трезвении или внимании: это одно и то же. Как дорого, потому, навыкнуть вниманию! Первоначальный труд у начавших заботиться о душе на это обычно и направляется. И дело их начинает походить немного на дело с тех только пор, как начнет собираться внимание в себя; обыкновенно оно все вне, а не внутрь. С этого же момента и внутренняя жизнь зачинается и вместе с вниманием зреет и крепнет. Что это значит? Значит то, чтобы встать умом в сердце перед Господом и перед лицем Его сознательно все обсуждать и предпринимать. Дело это, очевидно, сложное. Оно спеется вместе с молитвою и сколько укрепляется ею, столько и ее укрепляет.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

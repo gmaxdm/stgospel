@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("20 мая 2020 г. ( 7 мая ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14694.html\" target=\"_blank\" title=\"Отдание Преполовения\">Отдание</a> праздника Преполовения Пятидесятницы. <a  href=\"http://days.pravoslavie.ru/name/6887.html\" target=\"_blank\" title=\"Воспоминание явления на небе Креста Господня в Иерусалиме\">Воспоминание</a> явления на небе Креста Господня в Иерусалиме. Мч. <a  href=\"http://days.pravoslavie.ru/name/87.html\" target=\"_blank\" title=\"Акакий Каппадокиянин, Византийский, сотник, мч.\">Акакия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii87_4251.html\" target=\"_blank\" >икона</a>) сотника. Прпп. <a  href=\"http://days.pravoslavie.ru/name/977.html\" target=\"_blank\" title=\"Иоанн Зедазнийский, прп.\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii977_3462.html\" target=\"_blank\" >икона</a>) Зедазнийского и учеников его: <a  href=\"http://days.pravoslavie.ru/name/21.html\" target=\"_blank\" title=\"Священномученик Авив Некресский, Кахетинский\">Авива</a> (<a  href=\"http://days.pravoslavie.ru/images/ii21_3849.html\" target=\"_blank\" >икона</a>), еп. Некресского, <a  href=\"http://days.pravoslavie.ru/name/215.html\" target=\"_blank\" title=\"Преподобный Антоний, столпник Марткопский, Иверский\">Антония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii215_3213.html\" target=\"_blank\" >икона</a>) Марткопского, <a  href=\"http://days.pravoslavie.ru/name/557.html\" target=\"_blank\" title=\"Давид Гареджийский, прп.\">Давида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii557_1751.html\" target=\"_blank\" >икона</a>) Гареджийского, <a  href=\"http://days.pravoslavie.ru/name/827.html\" target=\"_blank\" title=\"Зенон (Зинон) Икалтойский, прп.\">Зенона</a> Икалтского, <a  href=\"http://days.pravoslavie.ru/name/2155.html\" target=\"_blank\" title=\"Фаддей Степанцминдский, прп.\">Фаддея</a> Степанцминдского, <a  href=\"http://days.pravoslavie.ru/name/1113.html\" target=\"_blank\" title=\"Святитель Исе (Иессей) Цилканский, епископ\">Исе</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1113_3858.html\" target=\"_blank\" >икона</a>), еп. Цилканского, <a  href=\"http://days.pravoslavie.ru/name/1050.html\" target=\"_blank\" title=\"Святитель Иосиф Алавердский, епископ\">Иосифа</a>, еп. Алавердского, <a  href=\"http://days.pravoslavie.ru/name/1116.html\" target=\"_blank\" title=\"Исидор Самтавийский, прп.\">Исидора</a> Самтавийского, <a  href=\"http://days.pravoslavie.ru/name/1561.html\" target=\"_blank\" title=\"Михаил Улумбийский, прп.\">Михаила</a> Улумбийского, <a  href=\"http://days.pravoslavie.ru/name/1798.html\" target=\"_blank\" title=\"Пирр Бретский, прп.\">Пирра</a> Бретского, <a  href=\"http://days.pravoslavie.ru/name/2075.html\" target=\"_blank\" title=\"Стефан Хирский, прп.\">Стефана</a> Хирского, <a  href=\"http://days.pravoslavie.ru/name/2359.html\" target=\"_blank\" title=\"Преподобный Шио Мгвимский\">Шио</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2359_4260.html\" target=\"_blank\" >икона</a>) Мгвимского (Груз.) Прп. <a  href=\"http://days.pravoslavie.ru/name/1652.html\" target=\"_blank\" title=\"Преподобный Нил Сорский\">Нила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1652_1296.html\" target=\"_blank\" >икона</a>) Сорского. Обретение мощей <a  href=\"http://days.pravoslavie.ru/name/6873.html\" target=\"_blank\" title=\"Нил Мироточивый, Афонский, прп.\">Нила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6873_264.html\" target=\"_blank\" >икона</a>) Мироточивого, Афонского. <a  href=\"http://days.pravoslavie.ru/name/14951.html\" target=\"_blank\" title=\"Собор преподобных отец Русского на Афоне Свято-Пантелеимонова монастыря\">Собор</a> преподобных отец Русского на Афоне Свято-Пантелеимонова монастыря. <a  href=\"http://days.pravoslavie.ru/name/13910.html\" target=\"_blank\" title=\"Любечская\">Любечской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13910_3003.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2850.html\" target=\"_blank\" title=\"Жировицкая\">Жировицкой</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2850_336.html\" target=\"_blank\" >икона</a>) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_deqn_13_13_24.html#z\">Деян., 32 зач., XIII, 13-24.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_6_5_14.html#z\">Ин., 18 зач., VI, 5-14</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба прп. Нила Сорского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30,</a> а на литургии - чтения дня и преподобного: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17887.htm\" target=\"_blank\" title=\"Библия\">Дея. 13, 13-24</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17888.htm\" target=\"_blank\" title=\"Библия\">Ин. 6, 5-14</a>). Ученики говорили Господу. чтобы отпустил народ купить себе брашна в селах, но Господь сказал им: \"не нужно им идти; вы дайте им есть\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17889.htm\" target=\"_blank\" title=\"Библия\">Мф. 14, 16</a>). Это было перед чудом насыщения пяти тысяч народа, кроме жен и детей, пятью хлебами и двумя рыбами. Такое событие, имевшее особое значение в жизни Господа, представляет еще такой урок. Народ - образ человечества, алчущего и жаждущего истины. Когда Господь сказал апостолам: \"вы дайте им есть\", то этим предуказал им их будущее служение роду человеческому - напитать его истиною. Апостолы сделали это дело для своего времени; для последующих же времен передали это служение преемствующему им пастырству. И к нынешнему пастырству простирает речь Господь: \"дайте вы есть народу вашему\". И пастырство должно на совести своей держать обязательство - питать народ истиною. В церкви должна идти неумолчно проповедь слова Божия. Молчащее пастырство - что - за пастырство? А оно много молчит, через меру молчит. Но нельзя сказать, чтоб это происходило от того, что нет веры. в сердце: так, одно недоразумение, дурной обычай. Все же это не оправдывает его.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

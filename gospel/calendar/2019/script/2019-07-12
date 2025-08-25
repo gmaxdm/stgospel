@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("12 июля 2020 г. ( 29 июня ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 5-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'color:#b33\'>Славных и всехвальных первоверховных апостолов <a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/1785.html\" target=\"_blank\" title=\"Апостол Петр\">Петра</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii1785_15.html\" target=\"_blank\" >икона</a>) и <a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/1694.html\" target=\"_blank\" title=\"Апостол Павел\">Павла</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii1694_149.html\" target=\"_blank\" >икона</a>).</span> Свт. <a  href=\"http://days.pravoslavie.ru/name/14281.html\" target=\"_blank\" title=\"Святитель Григорий (Каллидос), митрополит Ираклийский и Редестосский\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14281_3497.html\" target=\"_blank\" >икона</a>), митр. Ираклийского (Конст.). Прп. <a  href=\"http://days.pravoslavie.ru/name/14774.html\" target=\"_blank\" title=\"Преподобный Паисий Святогорец\">Паисия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14774_4634.html\" target=\"_blank\" >икона</a>) Святогорца. Прмчч. <a  href=\"http://days.pravoslavie.ru/name/14285.html\" target=\"_blank\" title=\"Неофит Липсийский, (другой), мч.\">Неофита</a>, <a  href=\"http://days.pravoslavie.ru/name/14286.html\" target=\"_blank\" title=\"Иона Липсийский, мч.\">Ионы</a>, <a  href=\"http://days.pravoslavie.ru/name/14284.html\" target=\"_blank\" title=\"Неофит Липсийский, мч.\">Неофита</a>, <a  href=\"http://days.pravoslavie.ru/name/14287.html\" target=\"_blank\" title=\"Иона Липсийский, (другой), мч.\">Ионы</a> и <a  href=\"http://days.pravoslavie.ru/name/14288.html\" target=\"_blank\" title=\"Парфений Липсийский, мч.\">Парфения</a> Липсийских. <a  href=\"http://days.pravoslavie.ru/name/2877.html\" target=\"_blank\" title=\"Касперовская\">Касперовской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2877_869.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 5-е, <a href=\"http://days.pravoslavie.ru/bible/z_lk_24_12_35.html#z\">Лк., 113 зач., XXIV, 12-35.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_10_1_10.html#z\">Рим., 103 зач., X, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_8_28_0_9_0_1.html#z\">Мф., 28 зач., VIII, 28 - IX, 1.</a> Апп.: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_11_21_0_12_0_9.html#z\">2 Кор., 193 зач., XI, 21 - XII, 9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_16_13_19.html#z\">Мф., 67 зач., XVI, 13-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18000.htm\" target=\"_blank\" title=\"Библия\">Рим. 10, 1-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18001.htm\" target=\"_blank\" title=\"Библия\">Мф. 8, 28-9, 1</a>). Гадаринцы видели дивное чудо Господне, явленное в изгнании легиона бесов и, однако же, всем городом вышли и молили Господа, \"чтобы Он отошел от пределов их\". Не видно, чтобы они враждебно относились к Нему, но не видно и веры. Их объяло какое-то неопределенное страхование, по которому они желали только: иди мимо, куда знаешь, только нас не касайся. Это настоящий образ людей, которые мирно в имениях своих живут. Сложился около них порядок вещей не неблагоприятный; они привыкли к нему, ни помышлений, ни потребности нет, чтобы изменить, или отменить что, и боятся они сделать какой-либо новый шаг. Чувствуя, однако, что если придет повеление свыше, то страх Божий и совесть заставят их отказаться от старого и принять новое, - они всячески избегают случаев, могущих довести их до таких убеждений, чтоб прикрываясь неведением, жить покойно в старых привычках. Таковы те, которые боятся читать Евангелие и отеческие книги, и заводить беседу о духовных вещах, из опасения растревожить свою совесть, которая пробудившись начнет понуждать одно бросить, другое принять.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

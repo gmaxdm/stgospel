@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("3 февраля 2020 г. ( 21 января ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 34-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1426.html\" target=\"_blank\" title=\"Максим Исповедник, прп.\">Максима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1426_638.html\" target=\"_blank\" >икона</a>) исп. Мч. <a  href=\"http://days.pravoslavie.ru/name/1596.html\" target=\"_blank\" title=\"Неофит Никейский, мч.\">Неофита</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/671.html\" target=\"_blank\" title=\"Евгений Трапезундский, мч.\">Евгения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii671_3974.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1166.html\" target=\"_blank\" title=\"Кандид Трапезундский, мч.\">Кандида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1166_3974.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/341.html\" target=\"_blank\" title=\"Валериан Трапезундский, мч.\">Валериана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii341_3974.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/97.html\" target=\"_blank\" title=\"Акила Трапезундский, мч.\">Акилы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii97_3974.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1424.html\" target=\"_blank\" title=\"Максим Грек, прп.\">Максима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1424_255.html\" target=\"_blank\" >икона</a>) Грека. Мц. <a  href=\"http://days.pravoslavie.ru/name/2372.html\" target=\"_blank\" title=\"Мученица Агния Римская\">Агнии</a> девы. Мч. <a  href=\"http://days.pravoslavie.ru/name/167.html\" target=\"_blank\" title=\"Святой мученик Анастасий\">Анастасия</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9590.html\" target=\"_blank\" title=\"Илия (Березовский), иерей, сщмч.\">Илии</a> пресвитера. Икон Божией Матери <a  href=\"http://days.pravoslavie.ru/name/2889.html\" target=\"_blank\" title=\"Ктиторская\">Ктиторской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2889_3233.html\" target=\"_blank\" >икона</a>) и именуемой <a  href=\"http://days.pravoslavie.ru/name/2941.html\" target=\"_blank\" title=\"\"Отрада\" (\"Утешение\") Ватопедская\">\"Отрада\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2941_311.html\" target=\"_blank\" >икона</a>), или \"Утешение\", Ватопедских икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-pet_2_21_0_3_0_9.html#z\">1 Пет., 59 зач., II, 21 - III, 9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_12_13_17.html#z\">Мк., 54 зач., XII, 13-17.</a> Прп. и мч.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_11_33_0_12_0_2.html#z\">Евр., 330 зач., XI, 33 - XII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_8_12.html#z\">Лк., 64 зач., XII, 8-12,</a> или прп. Максима Грека: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

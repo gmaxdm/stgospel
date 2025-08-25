@@ -1,0 +1,13 @@
+{% extends 'wrapper.html' %}
+{% block title %}Редактирование чтения{% endblock %}
+{% block main %}
+    <div class="mt-3 mb-3 text-center">
+        <div class="float-left"><a href="{% url "group" view.kwargs.id %}">о чтении</a></div>
+        <h3>Редактирование чтения</h3>
+    </div>
+    <div id="group-edit"></div>
+    <p><a href="{% url 'reading-group' view.kwargs.id %}" class="badge badge-success" target="_blank">посмотреть на сегодня</a></p>
+    <script type="text/javascript">
+        URLS.GROUP = "{% url 'j-group' view.kwargs.id %}";
+    </script>
+{% endblock %}

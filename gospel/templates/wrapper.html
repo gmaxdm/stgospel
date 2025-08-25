@@ -1,0 +1,194 @@
+<!doctype html>
+{% load static %}
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    {% block description %}
+    <meta name="description" content="Православный церковный календарь на 2025 год. Чтение Библии на каждый день. Чтение Евангелия на каждый день. Тропари, молитвы и богослужебные чтения на каждый день. Молитвы утренние. Молитвы на сон грядущим. Последование ко Святому Причащению. Соборное чтение Священного Писания в группах по соглашению. Чтение Библии онлайн на любых устройствах. Выберите одну или несколько книг Библии и начните читать каждый день. Добавляйте к чтению списки поминовения и различные молитвы. Можно экспортировать чтение в формат электронной книги epub." />
+    {% endblock %}
+    {% block keywords %}
+    <meta name="keywords" content="Православный церковный календарь на 2025, месяцеслов, чтение Библии на каждый день, чтение Евангелия на каждый день, тропарь дня, тропари, помянник, синодик, Библия, Евангелие, Апостол, чтение на сегодня, чтение на завтра, Слово Божие, соборное чтение, читать Библию онлайн, Священное писание, чтение по соглашению, молитвы, читать Библию, Синодальный перевод, Православие, Псалтирь, электронная книга, epub" />
+    {% endblock %}
+    <meta name="robots" content="index,follow" />
+    <meta name="yandex-verification" content="91ece56331014abe" />
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.fixes.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/jquery-ui.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/stgospel.bundle.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bible.css' %}">
+    <script src="{% static 'js/urls.js' %}"></script>
+    <script src="{% static 'js/jquery-2.2.4.min.js' %}"></script>
+    <script src="{% static 'js/jquery.mobile.custom.min.js' %}"></script>
+    <script src="{% static 'js/findAndReplaceDOMText.js' %}"></script>
+    <title>{% block title %}Православный церковный календарь. Евангелие, Апостол, тропари на каждый день{% endblock %}</title>
+  </head>
+  <body>
+    <div class="hidden">
+        <p>Православный церковный календарь праздников и постов на каждый день. Евангелие и Апостол на каждый день. Чтение Библии на каждый день. Чтение Евангелия на каждый день. Тропари, молитвы и богослужебные чтения.</p>
+        <p>Соборное чтение Священного Писания в группах по соглашению. Чтение Библии онлайн на любых устройствах. Выберите одну или несколько книг Библии и начните читать каждый день. Добавляйте к чтению списки поминовения и различные молитвы. Можно экспортировать чтение в формат электронной книги epub.</p>
+        <p>Христианину очень важно читать Библию каждый день. Участие в группах по соглашению стимулирует это. Помимо простой организационной функции участие в группах по соглашению оказывает еще и посильную молитвенную помощь всем участникам, их родственникам и всем, о ком они молятся.</p>
+        {% if 0 %}
+        <p>Участие в группах по соглашению проникнуто духом соборности. Каждый участник несет свою долю ответственности за соборное чтение и старается не пропускать каждодневное чтение, не отбиваться от общего ритма. Если же по каким-то причинам такое происходит, то, как правило, участник берет на себя труд читать пропущенные главы.</p>
+        {% endif %}
+        <p>Каждодневное чтение в должном ритме способствует бодрстованию, как и учит наш Господь Иисус Христос.</p>
+    </div>
+    <div id="modaldialog"></div>
+    <div id="scroll-to-top-cont" class="scroll_to_top"><a id="scroll-to-top" href="#"><i class="fas fa-angle-up"></i></a></div>
+    <ul class="top-messages">
+    {% for mes in messages %}
+        <li class="alert alert-{% if mes.tags == 'info' %}success{% elif mes.tags == 'error' %}danger{% else %}warning{% endif %}" role="alert">{{ mes }}</li>
+    {% endfor %}
+    </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <ul class="navbar-nav navbar-dd-abs{% if not user.is_authenticated %} mr-auto{% endif %}">
+        <li class="nav-item active"><a class="nav-link" href="{% url 'main' %}">Календарь</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="{% url 'bible' %}" id="bible" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Библия</a>
+          <div class="dropdown-menu" aria-labelledby="bible">
+            {% for vol in volumes %}
+            <a class="dropdown-item" href="{% url 'volume' vol.id %}">{{ vol.title|truncatechars:"33" }}</a>
+            {% endfor %}
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="{% url 'volumes-my' %}">Редактировать сборник</a>
+            <a class="dropdown-item" href="{% url 'volume-create' %}">Создать сборник</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="{% url 'prayers' %}" id="prayers" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Молитвы</a>
+          <div class="dropdown-menu prayers" aria-labelledby="prayers">
+            <a class="dropdown-item" href="{% url 'holidays' %}">Двунадесятые праздники</a>
+            {% if 1 %}
+            <a class="dropdown-item" href="{% url 'easter-hours' %}">Часы ПАСХИ</a>
+            {% endif %}
+            <a class="dropdown-item" href="{% url 'pray-morning' %}">Молитвы утренние</a>
+            <a class="dropdown-item" href="{% url 'pray-evening' %}">Молитвы на сон грядущим</a>
+            <a class="dropdown-item" href="{% url 'pray-ave-maria' %}">Канон ко Пресвятой Богородице</a>
+            <a class="dropdown-item" href="{% url 'pray-communion' %}">Последование ко Святому Причащению</a>
+            <a class="dropdown-item" href="{% url 'pray-thanks' %}">Благодарственные молитвы по Святом Причащении</a>
+            <a class="dropdown-item" href="{% url 'psalter' %}">Псалтирь на церковнославянском</a>
+            <a class="dropdown-item" href="{% url 'troparion' %}">Тропари</a>
+            <a class="dropdown-item" href="{% url 'prayers' %}">Молитвы</a>
+          </div>
+        </li>
+      </ul>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nbGroups" aria-controls="nbGroups" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse{% if not user.is_authenticated %} fg-none{% endif %} text-center" id="nbGroups">
+      {% if user.is_authenticated %}
+      <ul class="navbar-nav mr-auto">
+        {% if groups %}
+        <li class="nav-item"><a class="nav-link" href="{% if groups|length == 1 %}{% url 'reading-group' groups.0.group.id %}{% else %}{% url 'reading-user-today' %}{% endif %}">Чтение на сегодня</a></li>
+        {% endif %}
+      </ul>
+      {% endif %}
+      <ul class="navbar-nav">
+      {% if user.is_authenticated %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ user|truncatechars:"15" }}</a>
+          <div class="dropdown-menu" aria-labelledby="profile">
+            <a class="dropdown-item" href="{% url 'reading-user' %}">Мои чтения</a>
+            <a class="dropdown-item" href="{% url 'group-create' %}">Создать чтение</a>
+            <a class="dropdown-item" href="{% url 'myprayers' %}">Мои молитвы</a>
+            <a class="dropdown-item" href="{% url 'mysynodik' %}">Мой помянник</a>
+            {% if user.is_staff %}
+            <a class="dropdown-item" href="/admin/">Менеджер</a>
+            {% endif %}
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="{% url 'profile' %}">Профиль</a>
+            <a class="dropdown-item" href="{% url 'logout' %}">Выйти</a>
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="{% url 'forum-index' %}">Форум</a>
+            <a class="dropdown-item" href="{% url 'feedback' %}">Обратная связь</a>
+            <a class="dropdown-item" href="{% url 'about' %}">О сайте</a>
+          </div>
+        </li>
+      {% else %}
+        <li class="nav-item"><a class="navbar-brand ml-3" href="{% url 'about' %}">О сайте</a></li>
+        <li class="nav-item"><a class="navbar-brand ml-3" href="{% url 'forum-index' %}">Форум</a></li>
+        <li class="nav-item"><a class="navbar-brand ml-3" href="{% url 'login' %}">Войти</a></li>
+      {% endif %}
+      </ul>
+      <form class="form-inline my-2 my-lg-0" id="search" action="{% url 'search' %}">
+          <input class="form-control" type="text" id="sval" maxlength="100" name="s" placeholder="Поиск">
+      </form>
+    </div>
+  </nav>
+
+  <main id="main" role="main" class="container pb-4">
+    {% block main %}
+    {% endblock %}
+  </main>
+
+    <footer class="footer">
+      <div class="container text-right text-muted">
+          <div class="float-left"><i class="fas fa-eye"></i> {{ counter }}</div><div class="float-right"><span>&copy; 2018-2025 st-gospel.ru</span></div>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+    {% if user.is_authenticated %}
+        var USER = {{ user.id }};
+        URLS.MY_PRAYERS_EDIT = "{% url 'j-myprayers-edit' %}";
+        URLS.MY_PRAYERS = "{% url 'myprayers' %}";
+        URLS.SYNODIK_EDIT = "{% url 'j-synodik-edit' %}";
+    {% else %}
+        var USER = null;
+    {% endif %}
+        URLS.CREATE_VOLUME = "{% url 'volume-create' %}";
+        URLS.PRAYERS = "{% url 'prayers' %}";
+        URLS.BOOK = "{% url 'j-book' 777 %}";
+        URLS.CHAPTER = "{% url 'j-chapter' 777 777 %}";
+        URLS.BOOKS = "{% url 'j-bible' %}";
+        URLS.VOLUMES = "{% url 'j-volumes' %}";
+        URLS.VOLUME_EDIT = "{% url 'j-volume-edit' %}";
+        URLS.GROUP_EDIT = "{% url 'j-group-edit' %}";
+
+        var TINYMCE_URL = "{% static 'js/tinymce/tinymce.min.js' %}";
+        var TOPIC_ID = {{ topic.id|default:0 }};
+        var LANG = "ru";
+
+        $(function() {
+            $("#search").submit(function(e) {
+                return $("#sval").val().length > 2;
+            });
+            findAndReplaceDOMText(document.getElementById("main"), {
+                preset: 'prose',
+                find: /_([^_]+)_/g,
+                replace: '$1',
+                wrap: 'em',
+            });
+            findAndReplaceDOMText(document.getElementById("main"), {
+                preset: 'prose',
+                find: '--',
+                replace: "\u2500",
+            });
+            $("body").on("click", "#scroll-to-top", function(e) {
+                e.preventDefault();
+                $("html,body").animate({scrollTop: 0}, 300);
+            });
+            $(window).on("scroll", function() {
+                var _t = $(window).scrollTop(),
+                    up = $("#scroll-to-top-cont");
+                if(_t > 550) {
+                    up.fadeIn();
+                } else {
+                    up.fadeOut();
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript" src="{% static 'js/i18n.ru.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery-ui.min.js' %}"></script>
+    <script src="{% static 'js/jquery.ui.touch-punch.min.js' %}"></script>
+    <script src="{% static 'js/base.js' %}"></script>
+    <script src="{% static 'js/gospel.bundle.js' %}"></script>
+  </body>
+</html>

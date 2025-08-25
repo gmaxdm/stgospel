@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("8 октября 2020 г. ( 25 сентября ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 18-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/2483.html\" target=\"_blank\" title=\"Евфросиния Александрийская, прп.\">Евфросинии</a> Александрийской. Преставление прп. <a  href=\"http://days.pravoslavie.ru/name/1974.html\" target=\"_blank\" title=\"Преподобный Сергий Радонежский\">Сергия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1974_159.html\" target=\"_blank\" >икона</a>), игумена Радонежского, всея России чудотворца. Прмч. <a  href=\"http://days.pravoslavie.ru/name/1755.html\" target=\"_blank\" title=\"Пафнутий Тентирский, Египтянин, прмч.\">Пафнутия</a> египтянина и с ним 546-ти мучеников. Прп. <a  href=\"http://days.pravoslavie.ru/name/2490.html\" target=\"_blank\" title=\"Преподобная Евфросиния Суздальская\">Евфросинии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2490_2167.html\" target=\"_blank\" >икона</a>) Суздальской, в миру Феодулии. Перенесение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/509.html\" target=\"_blank\" title=\"Святитель Герман, архиепископ Казанский и Свияжский\">Германа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii509_224.html\" target=\"_blank\" >икона</a>), архиеп. Казанского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14331.html\" target=\"_blank\" title=\"Досифея (Тяпкина) Киевская, затворница, прп.\">Досифеи</a> затворницы, Киевской. Обретение мощей сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9449.html\" target=\"_blank\" title=\"Александр (Смирнов), иерей, сщмч.\">Александра</a> и <a  href=\"http://days.pravoslavie.ru/name/9819.html\" target=\"_blank\" title=\"Феодор (Ремизов), иерей, сщмч.\">Феодора</a> пресвитеров. Св. <a  href=\"http://days.pravoslavie.ru/name/9379.html\" target=\"_blank\" title=\"Николай (Розов), протоиерей, исп.\">Николая</a> исп., пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Лит. - Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

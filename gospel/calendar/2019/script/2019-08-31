@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("31 августа 2020 г. ( 18 августа ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 13-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/2315.html\" target=\"_blank\" title=\"Мученик Флор Иллирийский\">Флора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2315_196.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1318.html\" target=\"_blank\" title=\"Мученик Лавр Италийский\">Лавра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1318_196.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/793.html\" target=\"_blank\" title=\"Ерм Римский, мч.\">Ерма</a>, <a  href=\"http://days.pravoslavie.ru/name/1966.html\" target=\"_blank\" title=\"Серапион Римский, мч.\">Серапиона</a> и <a  href=\"http://days.pravoslavie.ru/name/1809.html\" target=\"_blank\" title=\"Полиен Римский, мч.\">Полиена</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/778.html\" target=\"_blank\" title=\"Святитель Емилиан Требийский, епископ, сщмч.\">Емилиана</a> епископа и с ним <a  href=\"http://days.pravoslavie.ru/name/934.html\" target=\"_blank\" title=\"Иларион Требийский, иеромонах, сщмч.\">Илариона</a>, <a  href=\"http://days.pravoslavie.ru/name/632.html\" target=\"_blank\" title=\"Дионисий Требийский, мч.\">Дионисия</a> и <a  href=\"http://days.pravoslavie.ru/name/802.html\" target=\"_blank\" title=\"Ермипп Требийский, мч.\">Ермиппа</a> и прочих 1000. Свт. <a  href=\"http://days.pravoslavie.ru/name/983.html\" target=\"_blank\" title=\"Святитель Иоанн V Константинопольский, патриарх\">Иоанна</a> и <a  href=\"http://days.pravoslavie.ru/name/490.html\" target=\"_blank\" title=\"Святитель Георгий I Константинопольский, патриарх\">Георгия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii490_3744.html\" target=\"_blank\" >икона</a>), патриархов Константинопольских. Прп. <a  href=\"http://days.pravoslavie.ru/name/1409.html\" target=\"_blank\" title=\"Преподобный Макарий, игумен Пеликитской обители\">Макария</a>, игумена Пеликитского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1011.html\" target=\"_blank\" title=\"Преподобный Иоанн Рыльский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1011_133.html\" target=\"_blank\" >икона</a>) Рыльского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/12013.html\" target=\"_blank\" title=\"Григорий (Бронников), иерей, сщмч.\">Григория</a> пресвитера и мчч. <a  href=\"http://days.pravoslavie.ru/name/9968.html\" target=\"_blank\" title=\"Евгений (Дмитров), псаломщик, мч.\">Евгения</a> и <a  href=\"http://days.pravoslavie.ru/name/12015.html\" target=\"_blank\" title=\"Михаил (Ерегодский), мч.\">Михаила</a>. Иконы Божией Матери именуемой <a  href=\"http://days.pravoslavie.ru/name/13767.html\" target=\"_blank\" title=\"\"Всецарица\"\">\"Всецарица\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13767_4577.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-kor_8_7_15.html#z\">2 Кор., 186 зач., VIII, 7-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_3_6_12.html#z\">Мк., 11 зач., III, 6-12.</a> Мчч.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_2_12.html#z\">Лк., 63 зач., XII, 2-12.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18109.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 8, 7-15</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18110.htm\" target=\"_blank\" title=\"Библия\">Мк. 3, 6-12</a>). Господь людям и бесам запрещал хвалить Его, когда был на земле, но требовал, чтоб веровали в Него и исполняли заповеди Божии. Тот же закон у Господа и теперь, тот же будет и на суде: \"Не всякий, говорящий Мне: Господи! Господи! войдет в Царство Небесное, но исполняющий волю Отца Моего Небесного\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18111.htm\" target=\"_blank\" title=\"Библия\">Мф. 7, 21</a>). Оттого в церкви начинают петь: \"слава в вышних Богу\", а к концу доходят до \"исцели душу мою. . . научи мя творити волю Твою\". Без этого никакой цены не имеет хвала Богу. Да она тогда и не бывает исходящею из души, а только возносимого языком с чужих слов, потому Господь и не обращает на нее внимания. Надо так устроить, чтобы другие видели дела наши и хвалили Господа, чтобы жизнь наша была хвалою Богу, ибо Он делающий все во всех, только не мешай; к Нему и хвала за дела восходит. Всякому надо стать благоуханием Христовым, тогда и без хвалы будет непрестанное славословие Господу. Цветок розы не издает голоса, а благоухание его далеко расходится молча; так надо жить и всем христианам.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

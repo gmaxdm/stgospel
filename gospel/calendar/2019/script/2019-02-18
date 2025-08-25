@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("18 февраля 2020 г. ( 5 февраля ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица мясопустная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мц. <a  href=\"http://days.pravoslavie.ru/name/2369.html\" target=\"_blank\" title=\"Мученица Агафия\">Агафии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2369_383.html\" target=\"_blank\" >икона</a>). Свт. <a  href=\"http://days.pravoslavie.ru/name/2214.html\" target=\"_blank\" title=\"Святитель Феодосий, архиепископ Черниговский\">Феодосия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2214_729.html\" target=\"_blank\" >икона</a>), архиеп. Черниговского. Мц. <a  href=\"http://days.pravoslavie.ru/name/2721.html\" target=\"_blank\" title=\"Феодулия Аназаровская, мц.\">Феодулии</a> и мчч. <a  href=\"http://days.pravoslavie.ru/name/766.html\" target=\"_blank\" title=\"Елладий Аназарвский, мч.\">Елладия</a>, <a  href=\"http://days.pravoslavie.ru/name/1399.html\" target=\"_blank\" title=\"Макарий Аназарвский, мч.\">Макария</a> и <a  href=\"http://days.pravoslavie.ru/name/661.html\" target=\"_blank\" title=\"Евагрий Аназарвский, мч.\">Евагрия</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/10010.html\" target=\"_blank\" title=\"Николай (Цикура), мч.\">Николая</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/13659.html\" target=\"_blank\" title=\"Михаил (Амелюшкин), мч.\">Михаила</a>, прмц. <a  href=\"http://days.pravoslavie.ru/name/14406.html\" target=\"_blank\" title=\"Александра (Каспарова), прмц.\">Александры</a>. <a  href=\"http://days.pravoslavie.ru/name/2848.html\" target=\"_blank\" title=\"Елецкая-Черниговская\">Елецкой-Черниговской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2848_2345.html\" target=\"_blank\" >икона</a>), Сицилийской, или <a  href=\"http://days.pravoslavie.ru/name/2842.html\" target=\"_blank\" title=\"Дивногорская-Сицилийская\">Дивногорской</a>, и именуемой  <a  href=\"http://days.pravoslavie.ru/name/2810.html\" target=\"_blank\" title=\"\"Взыскание погибших\"\">\"Взыскание погибших\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2810_58.html\" target=\"_blank\" >икона</a>) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_1-in_3_10_20.html#z\">1 Ин., 72 зач., III, 10-20.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_14_10_42.html#z\">Мк., 64 зач., XIV, 10-42</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>*Если совершается полиелейная служба в честь иконы Божией Матери, именуемой «Взыскание погибших», то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56,</a> а на литургии - чтения дня и Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a> Если совершается полиелейная служба свт. Феодосия, архиеп. Черниговского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16,</a> а на литургии - чтения дня и святителя: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18447.htm\" target=\"_blank\" title=\"Библия\">Мк. 14, 10-42</a>). Св. Петр с каким воодушевлением уверял, что не отвергнется Господа; а когда дошло до дела, отрекся от Него, и еще трижды. Такова немощь наша! Не самонадеянничай же, и, вступая в среду врагов, на Господа возложи все упование преодолеть их. На то и попущено было такое падение и столь высокому лицу, чтоб после того никто уже не дерзал сам собою исправить что доброе или преодолеть какого врага, внутреннего или внешнего. Однако, уповать на Господа уповай, но и своих рук не опускай. Помощь от Господа приходит на наши усилия и, соединяясь с ними, делает их мощными. Не будь этих усилий, не на что низойти помощи Божией, она и не низойдет. Но опять, будь в тебе самонадеянность и, следовательно, отсутствие потребности помощи и искания ее, - она опять не низойдет. Как ей низойти туда, где она считается излишнею?! И принять ее в таком случае не чем. Принимается она сердцем. Сердце же отверзается для приятия чувством потребности. Так то и другое нужно. Боже, помоги! но и сам ты не лежи.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

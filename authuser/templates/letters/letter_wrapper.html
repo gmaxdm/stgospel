@@ -1,0 +1,61 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body style="color: #212529;">
+<center>
+<table width="100%" height="100%" style="width:100%;height:100%;" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" valign="top" style="width:100%;font-family:Helvetica Neue,Arial;">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr><td height="20" style="height:20px;line-height:20px;font-size:10px;">&nbsp;</td></tr>
+	</table>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr><td width="20" style="width:20px;">&nbsp;</td>
+	<td align="center">
+	<table cellpadding="0" cellspacing="0" style="max-width:600px;color:#505050;">
+	<tr>
+	<td width="20" style="width:20px;">&nbsp;</td>
+	<td align="center">
+	<table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td align="left" valign="middle" height="96">
+            <div style="font-size:24px;">
+                {% trans 'Чтение священного писания' %}
+            </div>
+        </td>
+        <td align="right" width="96" height="96">
+            <img src="https://st-gospel.ru/static/images/touch/ic_bible_96.png" alt="St Gospel" style="vertical-align: middle;">
+        </td>
+    </tr>
+	<tr><td colspan="2" align="left">
+	<div style="height: 20px; line-height:20px; font-size:16px;">&nbsp;</div>
+	<div style="line-height:24px;">
+		<span style="font-family: Helvetica Neue, Arial, Helvetica, sans-serif; font-size: 16px; font-weight:bold;">
+			{% block title %}{% endblock %}
+		</span>
+	</div>
+	{% block main %}
+	{% endblock %}
+	<br />
+  	<hr />
+  	<p style="color:gray;font-style:italic;font-size:0.8em;">{% trans 'С Уважением' %}, <a href="https://st-gospel.ru/" style="color:#007bff;text-decoration:none;font-weight:bold;">st-gospel.ru</a></p>
+  	<br />
+  	<p style="color:gray;font-size:0.8em;">{% trans 'Это автоматическое письмо' %}. {% trans 'Пожалуйста, не отвечайте на него' %}.</p>
+	<div style="height: 20px; line-height:20px; font-size:16px;">&nbsp;</div>
+	</td></tr>
+	</table>
+	</td>
+	<td width="20" style="width:20px;">&nbsp;</td>
+	</tr>	
+	</table>
+	</td>
+	<td width="20" style="width:20px;">&nbsp;</td></tr>
+	</table>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr><td height="20" style="height:20px;line-height:20px;font-size:10px;">&nbsp;</td></tr>
+	</table>
+</td></tr></table>
+</center>
+</body>
+</html>

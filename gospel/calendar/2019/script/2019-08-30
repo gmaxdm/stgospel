@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("30 августа 2020 г. ( 17 августа ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 12-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/1542.html\" target=\"_blank\" title=\"Мирон Кизический, пресвитер, сщмч.\">Мирона</a> пресвитера. Прп. <a  href=\"http://days.pravoslavie.ru/name/13616.html\" target=\"_blank\" title=\"Пимен Угрешский, архимандрит, прп.\">Пимена</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13616_4589.html\" target=\"_blank\" >икона</a>) Угрешского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2309.html\" target=\"_blank\" title=\"Мученик Фирс\">Фирса</a>, <a  href=\"http://days.pravoslavie.ru/name/1338.html\" target=\"_blank\" title=\"Мученик Левкий Кесарийский\">Левкия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1338_3597.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1292.html\" target=\"_blank\" title=\"Коронат (Корнут) Кесарийский (Вифинский), мч.\">Короната</a> и дружины их. Мч. <a  href=\"http://days.pravoslavie.ru/name/1750.html\" target=\"_blank\" title=\"Патрокл Трикассинский (Труасский), Галльский, мч.\">Патрокла</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1699.html\" target=\"_blank\" title=\"Павел Птолемаидский, мч.\">Павла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1699_4108.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2532.html\" target=\"_blank\" title=\"Иулиания Птолемаидская, мц.\">Иулиании</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2532_4108.html\" target=\"_blank\" >икона</a>) и прочих с ними. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2078.html\" target=\"_blank\" title=\"Стратон Никомидийский, мч.\">Стратона</a>, <a  href=\"http://days.pravoslavie.ru/name/2295.html\" target=\"_blank\" title=\"Филипп Никомидийский, мч.\">Филиппа</a>, <a  href=\"http://days.pravoslavie.ru/name/723.html\" target=\"_blank\" title=\"Евтихиан Никомидийский, мч.\">Евтихиана</a> и <a  href=\"http://days.pravoslavie.ru/name/1210.html\" target=\"_blank\" title=\"Киприан Никомидийский, мч.\">Киприана</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/136.html\" target=\"_blank\" title=\"Преподобный Алипий Печерский\">Алипия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii136_330.html\" target=\"_blank\" >икона</a>), иконописца Печерского. <a  href=\"http://days.pravoslavie.ru/name/14685.html\" target=\"_blank\" title=\"Собор Кемеровских святых\">Собор</a> Кемеровских святых. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/12009.html\" target=\"_blank\" title=\"Алексий (Великосельский), иерей, сщмч.\">Алексия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13794.html\" target=\"_blank\" title=\"Димитрий (Остроумов), протоиерей, сщмч.\">Димитрия</a> пресвитера. Иконы Божией Матери именуемой «<a  href=\"http://days.pravoslavie.ru/name/14919.html\" target=\"_blank\" title=\"\"Прибавление ума\"\">Прибавление ума</a>». <a  href=\"http://days.pravoslavie.ru/name/2960.html\" target=\"_blank\" title=\"Свенская-Печерская икона Божией Матери\">Свенской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2960_2457.html\" target=\"_blank\" >икона</a>) (Печерской) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 1-е, <a href=\"http://days.pravoslavie.ru/bible/z_mf_28_16_20.html#z\">Мф., 116 зач., XXVIII, 16-20.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_15_1_11.html#z\">1 Кор., 158 зач., XV, 1-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_19_16_26.html#z\">Мф., 79 зач., XIX, 16-26.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18107.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 15, 1-11</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18108.htm\" target=\"_blank\" title=\"Библия\">Мф. 19, 16-26</a>). \"Трудно богатому войти в Царство Небесное\". Тут разумеется богатый, который в самом себе видит много способов и много сил к своему благоденствию. Но коль скоро многоимеющий отсечет всякое пристрастие к имению, погасит в себе всякую на него надежду и перестанет видеть в нем существенную свою опору, тогда он в сердце бывает то же, что ничего неимеющий; такому открыта дорога в Царствие. Богатство тогда не только не мешает, но помогает, ибо дает способ благотворить. Не богатство беда, а упование на него и пристрастие к нему. Эту мысль можно обобщить так: кто на что уповает и к чему пристращается, тот тем и богат бывает. Кто на Бога единого уповает и к Нему всем сердцем прилепляется, тот Богом и богат; кто на другое что уповает, к тому и сердце свое обращает, кроме Бога, тот другим этим и богат, а не Богом. Отсюда выходит: кто не Богом богат, тому нет входа в Царствие Божие. Тут разумеются род, связи, ум, чины, круг действий и проч.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

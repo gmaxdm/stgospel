@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("15 октября 2020 г. ( 2 октября ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 19-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1205.html\" target=\"_blank\" title=\"Священномученик Киприан\">Киприана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1205_872.html\" target=\"_blank\" >икона</a>), мц. <a  href=\"http://days.pravoslavie.ru/name/2539.html\" target=\"_blank\" title=\"Мученица Иустина Антиохийская\">Иустины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2539_872.html\" target=\"_blank\" >икона</a>) и мч. <a  href=\"http://days.pravoslavie.ru/name/2236.html\" target=\"_blank\" title=\"Феоктист Никомидийский, мч.\">Феоктиста</a>. Блж. <a  href=\"http://days.pravoslavie.ru/name/180.html\" target=\"_blank\" title=\"Андрей Константинопольский, Христа ради юродивый\">Андрея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii180_204.html\" target=\"_blank\" >икона</a>), Христа ради юродивого. Прав. воина <a  href=\"http://days.pravoslavie.ru/name/14294.html\" target=\"_blank\" title=\"Феодор (Ушаков) Санаксарский, воин\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14294_2076.html\" target=\"_blank\" >икона</a>) Ушакова. Мчч. <a  href=\"http://days.pravoslavie.ru/name/555.html\" target=\"_blank\" title=\"Давид Арагветский, князь, мч.\">Давида</a> и <a  href=\"http://days.pravoslavie.ru/name/1269.html\" target=\"_blank\" title=\"Константин Арагветский, князь, мч.\">Константина</a>, князей Арагветских (Груз.). Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/2393.html\" target=\"_blank\" title=\"Святая княгиня Анна Кашинская\">Анны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2393_308.html\" target=\"_blank\" >икона</a>) Кашинской. Прп. <a  href=\"http://days.pravoslavie.ru/name/1179.html\" target=\"_blank\" title=\"Кассиан грек, Угличский, прп.\">Кассиана</a> Угличского. Мц. <a  href=\"http://days.pravoslavie.ru/name/14536.html\" target=\"_blank\" title=\"Александра (Булгакова), мц.\">Александры</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_flp_1_20_27.html#z\">Флп., 238 зач., I, 20-27.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_12_19.html#z\">Лк., 23 зач., VI, 12-19.</a> Свв.: <a href=\"http://days.pravoslavie.ru/bible/z_1-tim_1_12_17.html#z\">1 Тим., 280 зач., I, 12-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18203.htm\" target=\"_blank\" title=\"Библия\">Лк. 6, 12-19</a>). \"И пробыл всю ночь в молитве к Богу\". Тут основание и начало христианских всенощных бдений. Жар молитвенный гонит сон, и восхищения духа не дают заметить течения времени. Настоящие молитвенники и не замечают того; им кажется, будто они только что стали на молитву, а между тем уж и день показался. Но пока дойдет кто до такого совершенства, надо поднимать труд бдения. Несли его и несут уединенники; несли его и несут общежительные; несли его и несут благоговейные и богобоязненные миряне. Но хоть с трудом приходится бдение, плод его остается в душе прямой, всегдашний - умиротворение души и умиление, при расслаблении и изнеможении тела. Состояние очень ценное в ревнующих о преуспеянии в духе! Оттого где заведены бдения (на Афоне), от них отстать не хотят. Все сознают, как это трудно; но отменить этот чин никому нет желания, ради той пользы, какую принимает душа от бдений. Сон больше всего успокаивает и питает плоть; бдение же больше всего смиряет ее. Выспавшийся вдоволь тяжел бывает на дела духовные и хладен к ним; бдящий - быстродвижен, как серна и горит духом. Если должно обучать добру плоть, как рабу, то ничем нельзя так успеть в этом, как частым бдением. Тут она испытывает вполне власть духа над собою и приучается покорствовать ему, а дух приобретает навык властвовать над нею.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

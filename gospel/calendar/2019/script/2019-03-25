@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("25 марта 2020 г. ( 12 марта ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я Великого поста, Крестопоклонная. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/2258.html\" target=\"_blank\" title=\"Феофан Сигрианский, Летописец, исповедник, прп.\">Феофана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2258_4123.html\" target=\"_blank\" >икона</a>) исп., Сигрианского. Прав. <a  href=\"http://days.pravoslavie.ru/name/2306.html\" target=\"_blank\" title=\"Финеес первосвященник Израильский\">Финееса</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/536.html\" target=\"_blank\" title=\"Святитель Григорий Двоеслов, папа Римский\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii536_509.html\" target=\"_blank\" >икона</a>) Двоеслова, папы Римского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2006.html\" target=\"_blank\" title=\"Симеон Новый Богослов, игумен\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2006_3180.html\" target=\"_blank\" >икона</a>) Нового Богослова. Св. <a  href=\"http://days.pravoslavie.ru/name/13701.html\" target=\"_blank\" title=\"Александр (Державин), иерей, исповедник\">Александра</a> исп. пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9627.html\" target=\"_blank\" title=\"Иоанн (Плеханов), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/14236.html\" target=\"_blank\" title=\"Константин (Соколов), иерей, сщмч.\">Константина</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/10802.html\" target=\"_blank\" title=\"Владимир (Волков), архимандрит, сщмч.\">Владимира</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13702.html\" target=\"_blank\" title=\"Сергий (Скворцов), иерей, сщмч.\">Сергия</a> пресвитера. <a  href=\"http://days.pravoslavie.ru/name/2896.html\" target=\"_blank\" title=\"Лиддская на столпе в Лидде\">Лиддской-нерукотворной</a> (на столпе), иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_26_21_0_27_0_9.html#z\">Ис. XXVI, 21 - XXVII, 9.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_9_18_0_10_0_1.html#z\">Быт. IX, 18 - X, 1.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_12_23_0_13_0_9.html#z\">Притч. XII, 23 - XIII, 9.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("Крещение на нашем языке созвучно со крестом. Счастливое созвучие. Ибо хотя видимое действие крещения есть погружение, но существо его есть сораспятие Христу на внутреннем духовном кресте. Апостол Павел говорит: \"ветхий наш человек распят с Ним в крещении\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18515.htm\" target=\"_blank\" title=\"Библия\">Рим. 6, 6</a>). Это не механическое какое либо действие, а нравственное изменение или переворот мыслей, целей, желаний, сочувствий. Прежде все это было запачкано самоугодием, теперь же самоотверженно посвящается все Богу, во Христе Иисусе, благодатью Духа Святого. Скажешь: я не понимал этого, когда был крещен. Теперь понимаешь, и бери на совесть выполнить значение крещения, ибо оно неизгладимо. Даже на суде печать его будет видна или за тебя, или против тебя.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

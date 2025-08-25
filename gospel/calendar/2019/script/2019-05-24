@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("24 мая 2020 г. ( 11 мая ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/13534.html\" target=\"_blank\" title=\"Неделя о слепом\">Неделя 6-я по Пасхе, о слепом</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13534_1308.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1578.html\" target=\"_blank\" title=\"Мокий Амфипольский, сщмч.\">Мокия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1578_4264.html\" target=\"_blank\" >икона</a>). Равноапп. <a  href=\"http://days.pravoslavie.ru/name/1525.html\" target=\"_blank\" title=\"Равноапостольный Мефодий, учитель Словенский\">Мефодия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1525_54.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1233.html\" target=\"_blank\" title=\"Равноапостольный Кирилл, учитель Словенский\">Кирилла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1233_54.html\" target=\"_blank\" >икона</a>), учителей Словенских. Равноапостольного <a  href=\"http://days.pravoslavie.ru/name/6888.html\" target=\"_blank\" title=\"Ростислав Великоморавский, князь\">Ростислава</a>, князя Великоморавского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2045.html\" target=\"_blank\" title=\"Преподобный Софроний, затворник Печерский\">Софрония</a>, затворника Печерского. Свт. <a  href=\"http://days.pravoslavie.ru/name/1631.html\" target=\"_blank\" title=\"Святитель Никодим Сербский, архиепископ\">Никодима</a>, архиеп. Сербского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1054.html\" target=\"_blank\" title=\"Священномученик Иосиф Астраханский\">Иосифа</a>, митр. Астраханского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9352.html\" target=\"_blank\" title=\"Михаил (Белороссов), протоиерей, сщмч.\">Михаила</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9101.html\" target=\"_blank\" title=\"Святитель Александр (Петровский), архиепископ Харьковский, сщмч.\">Александра</a>, архиеп. Харьковского. <a  href=\"http://days.pravoslavie.ru/name/14544.html\" target=\"_blank\" title=\"День тезоименитства Святейшего Патриарха Московского и всея Руси Кирилла\">День тезоименитства</a> Святейшего Патриарха Московского и всея Руси Кирилла. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 8-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_20_11_18.html#z\">Ин., 64 зач., XX, 11-18.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_16_16_34.html#z\">Деян., 38 зач., XVI, 16-34.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_9_1_38.html#z\">Ин., 34 зач., IX, 1-38.</a> Равноапп.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17896.htm\" target=\"_blank\" title=\"Библия\">Дея. 16, 16-34</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17897.htm\" target=\"_blank\" title=\"Библия\">Ин. 9, 1-38</a>). Спорит простота веры с лукавым неверием. Вера, пришедши к прозревавшему слепцу, просветила умные очи его, и он ясно видит истину. Смотрите, как у него все логично. Спрашивают его: ты что о Нем, даровавшем зрение, скажешь? \"Это пророк\", ответил он, то есть посланник Божий, облеченный силою чудодейственною. Непререкаемо верный вывод! Но образованность книжная не хочет видеть этой верности и ищет уклониться от последствий ее. А так как это не удавалось, то она обращается к некнижной простоте со своим внушением: \"воздай славу Богу; мы знаем, что человек Тот грешник\". Простота веры не умеет связать этих понятий - грешность и чудодейственность, и выражает это открыто: \"грешник ли Он, не знаю, одно знаю, что я был слеп, а теперь вижу\". Что можно сказать против такого неведения? Но логика неверов упряма, и при всей очевидности не стыдится утверждать, что не знает откуда отверзший очи слепому. \"Это и удивительно\", говорит им здравая логика веры, \"что вы не знаете откуда Он, а Он отверз мне очи. Но мы знаем, что грешников Бог не слушает; но кто чтит Бога и творит волю Его, того слушает. От века не слышано, чтобы кто отверз очи слепорожденному. Если бы Он не был от Бога, не мог бы творить ничего\". Казалось бы, после этого ничего не оставалось, как преклониться перед силою такого заключения. Но книжная ученость терпеть не может здравой логики веры, и изгнала ее вон. . . Поди теперь, доказывай истину веры тем, у которых ум растлился от упорства в неверии. Неверы всех времен - люди одного покроя.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

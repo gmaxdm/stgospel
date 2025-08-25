@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("31 марта 2020 г. ( 18 марта ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/1226.html\" target=\"_blank\" title=\"Святитель Кирилл Иерусалимский, патриарх\">Кирилла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1226_1865.html\" target=\"_blank\" >икона</a>), архиеп. Иерусалимского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2132.html\" target=\"_blank\" title=\"Трофим Никомидийский, мч.\">Трофима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2132_4134.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/679.html\" target=\"_blank\" title=\"Евкарпий Никомидийский, мч.\">Евкарпия</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/202.html\" target=\"_blank\" title=\"Анин Халкидонский, иеромонах\">Анина</a> монаха. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/12315.html\" target=\"_blank\" title=\"Димитрий (Розанов), иерей, сщмч.\">Димитрия</a> пресвитера, прмц. <a  href=\"http://days.pravoslavie.ru/name/14238.html\" target=\"_blank\" title=\"Наталия (Бакланова), прмц.\">Наталии</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_40_18_31.html#z\">Ис. XL, 18-31.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_15_1_15.html#z\">Быт. XV, 1-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_15_7_19.html#z\">Притч. XV, 7-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Преисподняя и Аваддон открыты перед Господом, тем более сердца сынов человеческих\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18525.htm\" target=\"_blank\" title=\"Библия\">Прит. 15, 11</a>). А грешник все думает, что его никто не видит, и, укрываясь от глаз человеческих темнотою ночи или пустотою места, полагает, что никем не замечен. Божие око видело все; ангел хранитель и совесть были свидетелями. Станешь некогда на суд, тогда все скрытое разоблачится; свидетели неподкупные будут налицо - и умолкнешь. Приговор состоится безапелляционный. Одно средство предотвратить эту неизбежную крайность - покаяние. Дверь к нему отворена. Поспеши войти, пока не пробил час, который ударит, когда - не знаешь, и положит конец и грехам твоим, и всякой надежде помилования.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

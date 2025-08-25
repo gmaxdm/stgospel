@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("20 декабря 2020 г. ( 7 декабря ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 28-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/142.html\" target=\"_blank\" title=\"Святитель Амвросий, епископ Медиоланский\">Амвросия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii142_201.html\" target=\"_blank\" >икона</a>), еп. Медиоланского. Прп. <a  href=\"http://days.pravoslavie.ru/name/221.html\" target=\"_blank\" title=\"Антоний Сийский, иеромонах, прп.\">Антония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii221_414.html\" target=\"_blank\" >икона</a>) Сийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1653.html\" target=\"_blank\" title=\"Преподобный Нил Столобенский\">Нила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1653_265.html\" target=\"_blank\" >икона</a>) Столобенского. Мч. <a  href=\"http://days.pravoslavie.ru/name/311.html\" target=\"_blank\" title=\"Афинодор Месопотамский, прмч.\">Афинодора</a>. Мц. <a  href=\"http://days.pravoslavie.ru/name/2738.html\" target=\"_blank\" title=\"Филофея Румынская, мц.\">Филофеи</a> (Рум.). Прп. <a  href=\"http://days.pravoslavie.ru/name/1003.html\" target=\"_blank\" title=\"Иоанн Печерский, постник\">Иоанна</a>, постника Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1696.html\" target=\"_blank\" title=\"Павел Послушливый (Повинник), прп.\">Павла</a> Послушливого. Прмч. <a  href=\"http://days.pravoslavie.ru/name/9244.html\" target=\"_blank\" title=\"Сергий (Гальковский), иеромонах, сщмч.\">Сергия</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9478.html\" target=\"_blank\" title=\"Антоний (Попов), иерей, сщмч.\">Антония</a> пресвитера, прмч. <a  href=\"http://days.pravoslavie.ru/name/9826.html\" target=\"_blank\" title=\"Андроник (Барсуков), иеродиакон, прмч.\">Андроника</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13894.html\" target=\"_blank\" title=\"Сергий (Успенский), протоиерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/9696.html\" target=\"_blank\" title=\"Михаил (Успенский), иерей, сщмч.\">Михаила</a> и <a  href=\"http://days.pravoslavie.ru/name/9395.html\" target=\"_blank\" title=\"Сергий (Голощапов), протоиерей, сщмч.\">Сергия</a> пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/9856.html\" target=\"_blank\" title=\"Никифор (Литвинов), диакон, сщмч.\">Никифора</a> диакона и прмчч. <a  href=\"http://days.pravoslavie.ru/name/9204.html\" target=\"_blank\" title=\"Галактион (Новиков), иеромонах, сщмч.\">Галактиона</a> и <a  href=\"http://days.pravoslavie.ru/name/14494.html\" target=\"_blank\" title=\"Гурий (Самойлов), иеромонах, прмч.\">Гурия</a>, мч. <a  href=\"http://days.pravoslavie.ru/name/14368.html\" target=\"_blank\" title=\"Иоанн (Демидов), мч.\">Иоанна</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/14201.html\" target=\"_blank\" title=\"Петр (Крестов), протоиерей, сщмч.\">Петра</a> и <a  href=\"http://days.pravoslavie.ru/name/14495.html\" target=\"_blank\" title=\"Василий (Мирожин), протоиерей, сщмч.\">Василия</a> пресвитеров. <a  href=\"http://days.pravoslavie.ru/name/2814.html\" target=\"_blank\" title=\"Владимирская (Селигерская)\">Селигерской</a> (Владимирской) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 6-е, <a href=\"http://days.pravoslavie.ru/bible/z_lk_24_36_53.html#z\">Лк., 114 зач., XXIV, 36-53.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_kol_1_12_18.html#z\">Кол., 250 зач., I, 12-18</a> (Недели 28-й). <a href=\"http://days.pravoslavie.ru/bible/z_lk_17_12_19.html#z\">Лк., 85 зач., XVII, 12-19</a> (Недели 29-й). Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_4_6_15.html#z\">2 Кор., 176 зач., IV, 6-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18358.htm\" target=\"_blank\" title=\"Библия\">Кол. 3, 4-11</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18359.htm\" target=\"_blank\" title=\"Библия\">Лк. 17, 12-19</a>). Исцелены десять прокаженных, а благодарить Господа пришел только один. Не такова ли пропорция благодарных, в общей сложности, людей, благодетельствуемых Господом? Кто не получал благ или, вернее, что есть в нас и что бывает с нами, что не было бы благим для нас? А между тем все ли благодарны Богу и за все ли благодарят? Есть даже такие, которые позволяют себе спрашивать: \"зачем Бог дал бытие? Лучше бы нам не быть\". Бог дал тебе бытие для того, чтоб ты вечно блаженствовал; Он дал тебе бытие даром, даром снабдил тебя и всеми способами к достижению вечного блаженства; за тобою дело: стоит только немножко потрудиться ради того. Говоришь: \"да у меня все горести, бедность, болезни, напасти\". Что же, и это в числе способов к стяжанию вечного блаженства: потерпи. Всю жизнь твою и мгновением нельзя назвать в сравнении с вечностью. Даже если бы и всю жизнь подряд пришлось пострадать, и то ничто против вечности, а ты еще имеешь минуты утешения. Не смотри на настоящее, а на то, что готовится тебе в будущем, и попекись сделать себя достойным того, и тогда горестей не заметишь. Все они будут поглощаться несомненным упованием вечных утешений, и благодарность не будет умолкать в устах твоих.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

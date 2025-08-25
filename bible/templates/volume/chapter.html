@@ -1,0 +1,38 @@
+{% extends 'wrapper.html' %}
+{% block description %}
+    <meta name="description" content="Библия. Синодальный перевод. {{ book.title }}. {{ title }}. {{ chapter.book }}. Глава {{ chapter.num }}. Соборное чтение Библии." />
+{% endblock %}
+{% block title %}{{ title }}. {{ chapter.book }}. Глава {{ chapter.num }}{% endblock %}
+{% block main %}
+    <div class="">
+        <h3 class="mb-2">{{ title }}</h3>
+        <h5 class="mb-3">Сборник: {{ volume }}</h5>
+        <div class="mb-3 text-right">
+            {% for n in chapters %}
+                {% if n.num == chapter.num %}
+                <span class="badge badge-secondary">{% if n.num %}{{ n.num }}{% else %}Предисловие{% endif %}</span>
+                {% else %}
+                <a href="{% url 'volume-chapter' view.kwargs.id n.id %}">{% if n.num %}{{ n.num }}{% else %}Предисловие{% endif %}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <h4 class="mb-2">Глава {{ chapter.num }}</h4>
+        <h5 class="mb-3">Книга: {{ chapter.book }}</h5>
+        <div class="chapter">
+            {% for l in lines %}
+            <p>{% if l.num %}<strong class="text-danger">{{ l.num }}</strong>{% endif %} {{ l.text }}</p>
+            {% endfor %}
+        </div>
+
+        <div class="mb-3 text-right">
+            {% for n in chapters %}
+                {% if n.num == chapter.num %}
+                <span class="badge badge-secondary">{% if n.num %}{{ n.num }}{% else %}Предисловие{% endif %}</span>
+                {% else %}
+                <a href="{% url 'volume-chapter' view.kwargs.id n.id %}">{% if n.num %}{{ n.num }}{% else %}Предисловие{% endif %}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

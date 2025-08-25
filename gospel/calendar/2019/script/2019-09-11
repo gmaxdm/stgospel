@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("11 сентября 2020 г. ( 29 августа ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 14-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Строгий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'color:#b33\'>Усекновение главы  Пророка, Предтечи и Крестителя Господня <a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/1007.html\" target=\"_blank\" title=\"Пророк, Предтеча и Креститель Господень Иоанн\">Иоанна</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii1007_11.html\" target=\"_blank\" >икона</a>).</span> ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_14_1_13.html#z\">Мф., 57 зач., XIV, 1-13.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_13_25_32.html#z\">Деян., 33 зач., XIII, 25-32.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_6_14_30.html#z\">Мк., 24 зач., VI, 14-30.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

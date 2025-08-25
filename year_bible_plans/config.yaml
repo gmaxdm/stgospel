@@ -1,0 +1,12 @@
+azbyka_ru:
+  url: https://azbyka.ru/biblia/biblia-za-god
+  name: Библия за год (azbyka.ru)
+  filename: azbyka_ru.txt
+  parser: AzbykaParser
+  desc: "Отсутствуют: Книга пророка Авдия, Третья книга Ездры"
+bible_by:
+  url: https://bible.by/every-day/
+  name: Библия за год (bible.by)
+  filename: bible_by.txt
+  parser: GeneralParser
+  desc: "Только конанические книги. Некоторые книги повторяются."

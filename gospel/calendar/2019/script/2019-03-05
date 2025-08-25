@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("5 марта 2020 г. ( 21 февраля ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 1-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/2104.html\" target=\"_blank\" title=\"Тимофей Олимпийский (в Символах), пустынник\">Тимофея</a> в Символех. Свт. <a  href=\"http://days.pravoslavie.ru/name/708.html\" target=\"_blank\" title=\"Святитель Евстафий Антиохийский, патриарх, исповедник\">Евстафия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii708_4070.html\" target=\"_blank\" >икона</a>), архиеп. Антиохийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/485.html\" target=\"_blank\" title=\"Святитель Георгий Амастридский, епископ\">Георгия</a>, еп. Амастридского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/10680.html\" target=\"_blank\" title=\"Александр (Вислянский), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/10682.html\" target=\"_blank\" title=\"Даниил (Алферов), иерей, сщмч.\">Даниила</a> и <a  href=\"http://days.pravoslavie.ru/name/13677.html\" target=\"_blank\" title=\"Григорий (Хлебунов), иерей, сщмч.\">Григория</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9345.html\" target=\"_blank\" title=\"Константин (Пятикрестовский), протоиерей, сщмч.\">Константина</a> пресвитера, <a  href=\"http://days.pravoslavie.ru/name/14222.html\" target=\"_blank\" title=\"Павел (Широкогоров), диакон, сщмч.\">Павла</a> диакона. Мц. <a  href=\"http://days.pravoslavie.ru/name/14223.html\" target=\"_blank\" title=\"Ольга (Кошелева), мц.\">Ольги</a>. <a  href=\"http://days.pravoslavie.ru/name/2882.html\" target=\"_blank\" title=\"Козельщанская\">Козельщанской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2882_891.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_2_11_21.html#z\">Ис. II, 11-21.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_2_4_19.html#z\">Быт. II, 4-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_3_1_18.html#z\">Притч. III, 1-18.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Бойся Бога и удаляйся от зла\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18473.htm\" target=\"_blank\" title=\"Библия\">Прит. 3, 7</a>). Положи в этом предел твоего говения, чтоб в конец его водворился страх Божий и укоренилось твердое намерение уклоняться от всякого зла, хотя бы для этого необходимо было тебе все потерять, даже жизнь свою. Для этого не ограничивайся одним внешним порядком говения, но займись особенно собою, войди в себя и посмотри образ мыслей твоих, во всем ли он согласен с неложным Божьим словом, - посмотри свои склонности и расположения, таковы ли они, каких требует от тебя Господь в Евангелии; посмотри всю жизнь твою, во всем ли она согласна с заповедями Божьими. Все богопротивное оплачь и возненавидь, и положи впредь не возвращаться на то. Когда сделаешь так, премудр будешь, а нет, так нет.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

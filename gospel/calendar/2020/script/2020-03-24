@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("24 марта 2020 г. ( 11 марта ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я Великого поста, Крестопоклонная. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/2042.html\" target=\"_blank\" title=\"Святитель Софроний Иерусалимский, патриарх\">Софрония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2042_1146.html\" target=\"_blank\" >икона</a>), патриарха Иерусалимского. Свт. <a  href=\"http://days.pravoslavie.ru/name/737.html\" target=\"_blank\" title=\"Святитель Евфимий, архиепископ Новгородский\">Евфимия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii737_529.html\" target=\"_blank\" >икона</a>), архиеп. Новгородского, чудотворца. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1796.html\" target=\"_blank\" title=\"Пионий Смирнский, пресвитер, сщмч.\">Пиония</a>, пресвитера Смирнского, и иже с ним. Прп. <a  href=\"http://days.pravoslavie.ru/name/2045.html\" target=\"_blank\" title=\"Преподобный Софроний, затворник Печерский\">Софрония</a>, затворника Печерского. Свт. <a  href=\"http://days.pravoslavie.ru/name/2041.html\" target=\"_blank\" title=\"Святитель Софроний Врачанский, Болгарский, епископ\">Софрония</a>, еп. Врачанского (Болг.). Перенесение мощей мч. <a  href=\"http://days.pravoslavie.ru/name/783.html\" target=\"_blank\" title=\"Епимах Новый, Александрийский, мч.\">Епимаха</a> (<a  href=\"http://days.pravoslavie.ru/images/ii783_3800.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/14947.html\" target=\"_blank\" title=\"Алексий Голосеевский, Киевский, прп.\">Алексия</a> Голосеевского, Киевского.  Прп. <a  href=\"http://days.pravoslavie.ru/name/9238.html\" target=\"_blank\" title=\"Патрикий (Петров), иеромонах, исп.\">Патрикия</a> исп. Св. <a  href=\"http://days.pravoslavie.ru/name/14235.html\" target=\"_blank\" title=\"Василий (Малахов), иерей, исповедник\">Василия</a> исп., пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_25_1_9.html#z\">Ис. XXV, 1-9.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_9_8_17.html#z\">Быт. IX, 8-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_12_8_22.html#z\">Притч. XII, 8-22.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("Крещение по апостолу Петру есть \"обещание Богу доброй совести\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18512.htm\" target=\"_blank\" title=\"Библия\">1 Пет. З, 21</a>). Крестившийся дает обет жить остальное время по чистой совести, по всей широте заповедей Господних, принятых в совесть. Нравственная чистота есть черта крещеного. Апостол Павел светлость жизни его сравнивает с светлостью воскресшего Господа. \"Чтобы, как Христос воскрес из мертвых славою Отца, так и нам ходить в обновленной жизни\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18513.htm\" target=\"_blank\" title=\"Библия\">Рим. 6, 4</a>). В крещении ветхий грехолюбивый человек умирает, и восстает человек новый, ревнитель добрым делам. \"Так и вы\", крещенные, \"почитайте себя мертвыми для греха, живыми же для Бога во Христе Иисусе, Господе нашем. Итак, да не царствует грех в смертном вашем теле, чтобы вам повиноваться ему в похотях его; и не предавайте членов ваших греху в орудия неправды, но представьте себя Богу, как оживших из мертвых, и члены ваши Богу в орудия праведности. Грех не должен над нами господствовать\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18514.htm\" target=\"_blank\" title=\"Библия\">Рим. 6, 11-14</a>).<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

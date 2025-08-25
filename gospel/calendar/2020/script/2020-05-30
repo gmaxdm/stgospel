@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("30 мая 2020 г. ( 17 мая ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Ап. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/194.html\" target=\"_blank\" title=\"Апостол от 70-ти Андроник\">Андроника</a> (<a  href=\"http://days.pravoslavie.ru/images/ii194_406.html\" target=\"_blank\" >икона</a>) и св. <a  href=\"http://days.pravoslavie.ru/name/2538.html\" target=\"_blank\" title=\"Иуния (Юния)\">Иунии</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2034.html\" target=\"_blank\" title=\"Солохон Халкидонский, мч.\">Солохона</a>, <a  href=\"http://days.pravoslavie.ru/name/1721.html\" target=\"_blank\" title=\"Памфамир Халкидонский\">Памфамира</a> и <a  href=\"http://days.pravoslavie.ru/name/1720.html\" target=\"_blank\" title=\"Памфалон Халкидонский, мч.\">Памфалона</a> воинов. Свт. <a  href=\"http://days.pravoslavie.ru/name/2056.html\" target=\"_blank\" title=\"Святитель Стефан Константинопольский, патриарх\">Стефана</a>, Патриарха Константинопольского. Прп. Евфросинии, в миру <a  href=\"http://days.pravoslavie.ru/name/2467.html\" target=\"_blank\" title=\"Преподобная Евфросиния Московская\">Евдокии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2467_349.html\" target=\"_blank\" >икона</a>), блгв. вел. кн. Московской. Обретение мощей прмч. <a  href=\"http://days.pravoslavie.ru/name/75.html\" target=\"_blank\" title=\"Преподобный Адриан Ондрусовский\">Адриана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii75_1627.html\" target=\"_blank\" >икона</a>) Ондрусовского. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_deqn_20_7_12.html#z\">Деян., 43 зач., XX, 7-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_14_10_21.html#z\">Ин., 48 зач., XIV, 10-21</a> <span class=\"DAYS_asterix\" style=\"display:none\">**</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* * Если совершается полиелейная служба прп. Евфросинии, вел. кн. Московской, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_6_1_13.html#z\">Мф., 16 зач., VI, 1-13,</a> а на литургии - чтения дня и преподобной: <a href=\"http://days.pravoslavie.ru/bible/z_gal_3_23_29.html#z\">Гал., 208 зач., III, 23-29.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_25_1_13.html#z\">Мф., 104 зач., XXV, 1-13.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17910.htm\" target=\"_blank\" title=\"Библия\">Дея. 20, 7-12</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17911.htm\" target=\"_blank\" title=\"Библия\">Ин. 14, 10-21</a>). \"И если чего попросите у Отца во имя Мое, то сделаю\". Какое утешительное обетование! Но как немногие пользуются им! Редко кто содержит его в уме. Есть такие, которые совсем не понимают его и не принимают. Отчего так? Оттого что Господа не любят, и заповедей Его не исполняют. Эта неверность сердца Господу посекает всякое дерзновение обращаться к Богу с прошением, точно так, как и в житейском быту, неисправный слуга не смеет просить о чем либо господ своих, зная, что не заслужил никакой милости. Заведенные молитвы читаются своим чередом, а в них есть прошения очень великие, но они только читаются, а это, как известно, далеко еще не молитва и не прошение. Стать с истинною молитвою перед Господом и простереть к Нему прошение иначе нельзя, как исправив свои совестные к Нему отношения.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("24 октября 2020 г. ( 11 октября ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 20-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Ап. <a  href=\"http://days.pravoslavie.ru/name/2292.html\" target=\"_blank\" title=\"Святой Филипп, апостол от 70-ти\">Филиппа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2292_3543.html\" target=\"_blank\" >икона</a>), единого от семи диаконов. Прп. <a  href=\"http://days.pravoslavie.ru/name/2256.html\" target=\"_blank\" title=\"Исповедник Феофан Никейский, Константинопольский\">Феофана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2256_1252.html\" target=\"_blank\" >икона</a>) Исповедника, творца канонов, еп. Никейского. Прп. <a  href=\"http://days.pravoslavie.ru/name/7008.html\" target=\"_blank\" title=\"Лев Оптинский, прп.\">Льва</a> (<a  href=\"http://days.pravoslavie.ru/images/ii7008_802.html\" target=\"_blank\" >икона</a>) Оптинского. <a  href=\"http://days.pravoslavie.ru/name/7009.html\" target=\"_blank\" title=\"Собор всех святых, в Оптиной пустыни просиявших\">Собор</a> (<a  href=\"http://days.pravoslavie.ru/images/ii7009_3332.html\" target=\"_blank\" >икона</a>) всех святых, в Оптиной пустыни просиявших. Мцц. <a  href=\"http://days.pravoslavie.ru/name/2508.html\" target=\"_blank\" title=\"Зинаида Тарсийская, мц.\">Зинаиды</a> и <a  href=\"http://days.pravoslavie.ru/name/2737.html\" target=\"_blank\" title=\"Филонилла Тарсийская, целительница, мц.\">Филониллы</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/2257.html\" target=\"_blank\" title=\"Феофан Печерский, Постник\">Феофана</a>, постника Печерского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9824.html\" target=\"_blank\" title=\"Филарет (Великанов), иерей, сщмч.\">Филарета</a> и <a  href=\"http://days.pravoslavie.ru/name/13825.html\" target=\"_blank\" title=\"Александр (Гривский), иерей, сщмч.\">Александра</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_deqn_8_26_39.html#z\">Деян., 20 зач., VIII, 26-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_1_21.html#z\">Лк., 50 зач., X, 1-21.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_1_8_11.html#z\">2 Кор., 168 зач., I, 8-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_5_27_32.html#z\">Лк., 20 зач., V, 27-32.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18221.htm\" target=\"_blank\" title=\"Библия\">Лк. 5, 27-32</a>). \"Я пришел призвать не праведников, а грешников к покаянию\". Какое утешение для грешников! Но надобно отстать от грехов и творить одно добро; да и творя добро, все же почитать себя грешником и притом не на языке, а в сердце. Не греши, а все же, как настоящий грешник, кайся и взывай ко Господу о помиловании. Когда будешь так настроен, значит стоишь во истине; коль же скоро поддашься на праведность и станешь считать себя безгрешным, знай, что ты уклоняешься от пути правого и пошел к тем, которым нет спасения. Как совместить исправную жизнь с чувствами грешности - об этом спрашивают только книжники, которые пишут, а не делают; кто идет деятельным путем, для того это ясно до того, что он понять не может, как можно быть тому иначе.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

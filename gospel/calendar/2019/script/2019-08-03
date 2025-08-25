@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("3 августа 2020 г. ( 21 июля ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 9-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Пророка <a  href=\"http://days.pravoslavie.ru/name/909.html\" target=\"_blank\" title=\"Иезекииль, пророк\">Иезекииля</a> (<a  href=\"http://days.pravoslavie.ru/images/ii909_463.html\" target=\"_blank\" >икона</a>). Прпп. <a  href=\"http://days.pravoslavie.ru/name/2007.html\" target=\"_blank\" title=\"Симеон Палестинский, Емесский, прп., Христа ради юродивый\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2007_4564.html\" target=\"_blank\" >икона</a>), Христа ради юродивого, и <a  href=\"http://days.pravoslavie.ru/name/998.html\" target=\"_blank\" title=\"Иоанн Палестинский, прп.\">Иоанна</a>, спостника его. Мч. <a  href=\"http://days.pravoslavie.ru/name/14897.html\" target=\"_blank\" title=\"Виктор Марсельский, мч.\">Виктора</a> Марсельского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/1674.html\" target=\"_blank\" title=\"Онуфрий Печерский, Молчаливый\">Онуфрия</a> молчаливого и <a  href=\"http://days.pravoslavie.ru/name/1667.html\" target=\"_blank\" title=\"Онисим Печерский, затворник\">Онисима</a> затворника, Печерских. Обретение мощей блгв. княгини <a  href=\"http://days.pravoslavie.ru/name/2393.html\" target=\"_blank\" title=\"Святая княгиня Анна Кашинская\">Анны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2393_308.html\" target=\"_blank\" >икона</a>) Кашинской. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9760.html\" target=\"_blank\" title=\"Петр (Голубев), иерей, сщмч.\">Петра</a> пресвитера. Обретение мощей св. <a  href=\"http://days.pravoslavie.ru/name/9394.html\" target=\"_blank\" title=\"Роман (Медведь), протоиерей, исп.\">Романа</a> исп., пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-kor_11_31_0_12_0_6.html#z\">1 Кор., 150 зач., XI, 31 - XII, 6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_18_1_11.html#z\">Мф., 74 зач., XVIII, 1-11.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18049.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 11, 31-12,6</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18050.htm\" target=\"_blank\" title=\"Библия\">Мф. 13, 1-11</a>). \"Если не обратитесь и не будете как дети, не войдете в Царство Небесное\". Детское строение сердца образцовое. Дети, пока не раскрылись в них эгоистические стремления, - пример подражания. У детей что видим? Веру полную, нерассуждающую, послушание беспрекословное, любовь искреннюю, безпопечение и покой под кровом родителей, живость и свежесть жизни, с подвижностью и желанием научаться и совершенствоваться. Но Спаситель особенно означает одно их свойство - смирение: \"кто умалится, как это дитя, тот и больше в Царстве Небесном\". Ибо коль скоро есть смирение настоящее, то и все добродетели есть. Оно тогда и является в совершенстве, когда другие добродетели уже расцвели в сердце и приходят в зрелость; оно венец их и покров. Это тайна жизни духовной о Христе Иисусе Господе нашем. Чем кто выше, тем смиреннее, ибо он яснее и осязательнее видит, что не он трудится в преуспеянии, а \"благодать, которая в нем\"; и это есть \"мера возраста исполнения Христова\". Ибо главное во Христе Иисусе то, что Он \"смирил Себя, послушлив быв даже до смерти\".<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

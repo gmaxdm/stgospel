@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("14 октября 2020 г. ( 1 октября ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 19-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/3053.html\" target=\"_blank\" title=\"Покров Пресвятой Богородицы\">Покров Пресвятой Владычицы нашей Богородицы и Приснодевы Марии.</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii3053_153.html\" target=\"_blank\" >икона</a>)</span></span><br> Ап. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/156.html\" target=\"_blank\" title=\"Святитель Анания, епископ Дамасский, апостол от 70-ти, сщмч.\">Анании</a> (<a  href=\"http://days.pravoslavie.ru/images/ii156_1652.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1878.html\" target=\"_blank\" title=\"Преподобный Роман Сладкопевец\">Романа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1878_2000.html\" target=\"_blank\" >икона</a>) Сладкопевца. Прп. <a  href=\"http://days.pravoslavie.ru/name/1893.html\" target=\"_blank\" title=\"Преподобный Савва Вишерский\">Саввы</a> Вишерского, Новгородского. Мч. <a  href=\"http://days.pravoslavie.ru/name/647.html\" target=\"_blank\" title=\"Домнин Солунский (Фессалоникийский), мч.\">Домнина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii647_3996.html\" target=\"_blank\" >икона</a>) Солунского. <a  href=\"http://days.pravoslavie.ru/name/6861.html\" target=\"_blank\" title=\"Празднование в честь Хитона Господня и Столпа Животворящего.\">Празднование</a> в честь Хитона Господня и Столпа Животворящего (Груз.). Равноапп. царя Иверского <a  href=\"http://days.pravoslavie.ru/name/6859.html\" target=\"_blank\" title=\"Мириан Иверский, царь\">Мириана</a> (Груз.) и царицы Иверской <a  href=\"http://days.pravoslavie.ru/name/6860.html\" target=\"_blank\" title=\"Нана, царица\">Наны</a> (Груз.). Прмч. <a  href=\"http://days.pravoslavie.ru/name/1551.html\" target=\"_blank\" title=\"Михаил Зовийский (Севастийский), игумен, сщмч.\">Михаила</a>, игумена Зовийского, и с ним 36-ти преподобномучеников. <a  href=\"http://days.pravoslavie.ru/name/14726.html\" target=\"_blank\" title=\"Собор Молдавских святых\">Собор</a> Молдавских святых. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14338.html\" target=\"_blank\" title=\"Алексий (Ставровский), протоиерей, сщмч.\">Алексия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9679.html\" target=\"_blank\" title=\"Михаил (Вологодский), иерей, сщмч.\">Михаила</a> пресвитера. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9252.html\" target=\"_blank\" title=\"Александр (Агафонников), протоиерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9549.html\" target=\"_blank\" title=\"Георгий (Архангельский), иерей, сщмч.\">Георгия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9549_3621.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/13813.html\" target=\"_blank\" title=\"Николай (Кулигин), протоиерей, сщмч.\">Николая</a> пресвитеров, мч. <a  href=\"http://days.pravoslavie.ru/name/14098.html\" target=\"_blank\" title=\"Иоанн (Артемов), мч.\">Иоанна</a>. <a  href=\"http://days.pravoslavie.ru/name/2899.html\" target=\"_blank\" title=\"Люблинская\">Люблинской</a>, <a  href=\"http://days.pravoslavie.ru/name/2950.html\" target=\"_blank\" title=\"Псково-Покровская\">Псково-Покровской</a>, <a  href=\"http://days.pravoslavie.ru/name/2793.html\" target=\"_blank\" title=\"Браиловская\">Браиловской</a>, <a  href=\"http://days.pravoslavie.ru/name/2877.html\" target=\"_blank\" title=\"Касперовская\">Касперовской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2877_869.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2833.html\" target=\"_blank\" title=\"Гербовецкая\">Гербовецкой</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2833_2335.html\" target=\"_blank\" >икона</a>), и <a  href=\"http://days.pravoslavie.ru/name/2777.html\" target=\"_blank\" title=\"Барская\">Барской</a> икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_evr_9_1_7.html#z\">Евр., 320 зач., IX, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

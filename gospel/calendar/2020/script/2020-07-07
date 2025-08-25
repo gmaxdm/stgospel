@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("7 июля 2020 г. ( 24 июня ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'color:#b33\'>Рождество честного славного Пророка, Предтечи и Крестителя Господня <a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/1007.html\" target=\"_blank\" title=\"Пророк, Предтеча и Креститель Господень Иоанн\">Иоанна</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii1007_11.html\" target=\"_blank\" >икона</a>).</span> Мчч. семи братий: <a  href=\"http://days.pravoslavie.ru/name/1676.html\" target=\"_blank\" title=\"Орентий Ризский, мч.\">Орентия</a>, <a  href=\"http://days.pravoslavie.ru/name/2163.html\" target=\"_blank\" title=\"Фарнакий Кордильский, мч.\">Фарнакия</a>, <a  href=\"http://days.pravoslavie.ru/name/808.html\" target=\"_blank\" title=\"Ерос Паремвольский, мч.\">Ероса</a>, <a  href=\"http://days.pravoslavie.ru/name/2308.html\" target=\"_blank\" title=\"Фирмос Апсарский, мч.\">Фирмоса</a>, <a  href=\"http://days.pravoslavie.ru/name/2307.html\" target=\"_blank\" title=\"Фирмин Апсарский, мч.\">Фирмина</a>, <a  href=\"http://days.pravoslavie.ru/name/1215.html\" target=\"_blank\" title=\"Кириак Зиганский, мч.\">Кириака</a> и <a  href=\"http://days.pravoslavie.ru/name/1367.html\" target=\"_blank\" title=\"Лонгин Питиундский (Пицундский), мч.\">Лонгина</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/211.html\" target=\"_blank\" title=\"Преподобный Антоний Дымский\">Антония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii211_410.html\" target=\"_blank\" >икона</a>) Дымского, Новгородского. Правв. отроков <a  href=\"http://days.pravoslavie.ru/name/876.html\" target=\"_blank\" title=\"Иаков Менюжский, Новгородский\">Иакова</a> и <a  href=\"http://days.pravoslavie.ru/name/987.html\" target=\"_blank\" title=\"Иоанн Менюжский, Новгородский\">Иоанна</a> Менюжских, Новгородских. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_24_25_1_57_68_1_76_76_1_80_80.html#z\">Лк., 3 зач., I, 24-25, 57-68, 76, 80.</a> Лит. - Предтечи: <a href=\"http://days.pravoslavie.ru/bible/z_rim_13_11_0_14_0_4.html#z\">Рим., 112 зач., XIII, 11 - XIV, 4.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_1_25_1_57_68_1_76_76_1_80_80.html#z\">Лк., 1 зач., I, 1-25, 57-68, 76, 80.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

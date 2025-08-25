@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("29 мая 2020 г. ( 16 мая ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Попразднство Вознесения Господня. Прп. <a  href=\"http://days.pravoslavie.ru/name/2192.html\" target=\"_blank\" title=\"Преподобный Феодор Освященный\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2192_4543.html\" target=\"_blank\" >икона</a>) Освященного. Перенесение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/814.html\" target=\"_blank\" title=\"Преподобный Ефрем Перекомский\">Ефрема</a> Перекомского, Новгородского чудотворца. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/108.html\" target=\"_blank\" title=\"Святитель Александр Иерусалимский, патриарх, сщмч.\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii108_390.html\" target=\"_blank\" >икона</a>), еп. Иерусалимского. Блж. отроковицы <a  href=\"http://days.pravoslavie.ru/name/2622.html\" target=\"_blank\" title=\"Муза Римляныня, отроковица\">Музы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2622_2236.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/425.html\" target=\"_blank\" title=\"Вит Римский, мч.\">Вита</a> (<a  href=\"http://days.pravoslavie.ru/images/ii425_3626.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1567.html\" target=\"_blank\" title=\"Модест Римский, Пестун, мч.\">Модеста</a> и <a  href=\"http://days.pravoslavie.ru/name/2565.html\" target=\"_blank\" title=\"Крискентия Римская, Питательница, мц.\">Крискентии</a>. Прмчч. <a  href=\"http://days.pravoslavie.ru/name/13717.html\" target=\"_blank\" title=\"Преподобные отцы, в Лавре святого Саввы избиенные\">отцов</a>, в Лавре св. Саввы избиенных. Свт. <a  href=\"http://days.pravoslavie.ru/name/492.html\" target=\"_blank\" title=\"Святитель Георгий II, епископ Митиленский\">Георгия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii492_4542.html\" target=\"_blank\" >икона</a>) II, еп. Митиленского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/1180.html\" target=\"_blank\" title=\"Преподобный Кассиан Комельский, Вологодский\">Кассиана</a> и <a  href=\"http://days.pravoslavie.ru/name/1320.html\" target=\"_blank\" title=\"Преподобный Лаврентий Комельский\">Лаврентия</a> Комельских. Мч. <a  href=\"http://days.pravoslavie.ru/name/14509.html\" target=\"_blank\" title=\"Вукашин из Клепца, мч.\">Вукашина</a> (Серб.). ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_19_1_8.html#z\">Деян., 42 зач., XIX, 1-8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_14_1_11.html#z\">Ин., 47 зач., XIV, 1-11.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17908.htm\" target=\"_blank\" title=\"Библия\">Дея. 19, 1-8</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17909.htm\" target=\"_blank\" title=\"Библия\">Ин. 14, 1-11</a>). \"Если бы вы знали Меня, то знали бы и Отца Моего\". Стало быть, деисты не знают Бога, несмотря на то, что и имя Его носят (Deus - Бог; отсюда деист) и красно о Нем рассуждают. Нет истинного Бога без Сына, равно и без Духа Святого. Кто верует в Бога, но не исповедует Его Отцом Сына, тот не в того бога верует, который истинный Бог, а в иного какого-то, собственного изобретения. Истинный Бог дал Сына Его, дал \"область\" (власть) \"чадами Божиими быть\", любит их, и всякую молитву их слышит, ради Сына. Потому-то кто имеет Сына, тот и Отца имеет; кто не имеет Сына, тот и Отца не имеет. Никто не приходит ко Отцу, как только через Сына, и от Отца ничего не получает, как только через Сына. Помимо Сына нет пути к истинному Богу, и кто мечтает изобрести Его, тот блуждает.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

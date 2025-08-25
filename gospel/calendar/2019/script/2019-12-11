@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("11 декабря 2020 г. ( 28 ноября ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 27-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: горячая пища без масла. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/1087.html\" target=\"_blank\" title=\"Иринарх Севастийский, мч.\">Иринарха</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1087_855.html\" target=\"_blank\" >икона</a>) и святых семи жен. Прмч. и исп. <a  href=\"http://days.pravoslavie.ru/name/2062.html\" target=\"_blank\" title=\"Стефан Новый, Константинопольский, прмч.\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2062_3573.html\" target=\"_blank\" >икона</a>) Нового. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2052.html\" target=\"_blank\" title=\"Стефан Византийский, мч.\">Стефана</a>, <a  href=\"http://days.pravoslavie.ru/name/374.html\" target=\"_blank\" title=\"Василий Византийский, мч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/537.html\" target=\"_blank\" title=\"Григорий Византийский, мч.\">Григория</a>, другого <a  href=\"http://days.pravoslavie.ru/name/538.html\" target=\"_blank\" title=\"Григорий Византийский,(другой), мч.\">Григория</a>, <a  href=\"http://days.pravoslavie.ru/name/964.html\" target=\"_blank\" title=\"Иоанн Византийский, мч.\">Иоанна</a> и иных многих. Свт. <a  href=\"http://days.pravoslavie.ru/name/2198.html\" target=\"_blank\" title=\"Святитель Феодор, архиепископ Ростовский\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2198_1231.html\" target=\"_blank\" >икона</a>), архиеп. Ростовского. Сщмч. митрополита <a  href=\"http://days.pravoslavie.ru/name/6608.html\" target=\"_blank\" title=\"Священномученик митрополит Серафим (Чичагов)\">Серафима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6608_48.html\" target=\"_blank\" >икона</a>). Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9458.html\" target=\"_blank\" title=\"Алексий (Веселовский), иерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/13882.html\" target=\"_blank\" title=\"Алексий (Смирнов), иерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/9489.html\" target=\"_blank\" title=\"Василий (Завгородний), иерей, сщмч.\">Василия</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/14438.html\" target=\"_blank\" title=\"Рафаил (Тюпин), прмч.\">Рафаила</a>, <a  href=\"http://days.pravoslavie.ru/name/14526.html\" target=\"_blank\" title=\"Викентий (Никольский), инок, прмч.\">Викентия</a> и  мц. <a  href=\"http://days.pravoslavie.ru/name/10049.html\" target=\"_blank\" title=\"Анисия (Масланова), мц.\">Анисии</a>. Мц. <a  href=\"http://days.pravoslavie.ru/name/14439.html\" target=\"_blank\" title=\"Параскева (Федорова), мц.\">Параскевы</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9375.html\" target=\"_blank\" title=\"Николай (Крылов), протоиерей, сщмч.\">Николая</a> пресвитера. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/9182.html\" target=\"_blank\" title=\"Сергий (Сребрянский), архимандрит, исп.\">Сергия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9182_2026.html\" target=\"_blank\" >икона</a>), исп. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_2-tim_1_1_2_1_8_18.html#z\">2 Тим., 290 зач., I, 1-2, 8-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_19_12_28.html#z\">Лк., 95 зач., XIX, 12-28.</a> Прмч.: <a href=\"http://days.pravoslavie.ru/bible/z_2-tim_1_8_18.html#z\">2 Тим., 291 зач., I, 8-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_23_31.html#z\">Мф., 37 зач., X, 23-31</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба сщмч. Серафима, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22,</a> а на литургии - чтения дня и священномученика: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_28_39.html#z\">Рим., 99 зач., VIII, 28-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18324.htm\" target=\"_blank\" title=\"Библия\">2 Тим. 1, 1-2. 8-15</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18325.htm\" target=\"_blank\" title=\"Библия\">Лк. 19, 12-28</a>). Притча о десяти минах изображает всю историю человечества до второго пришествия Христова. Господь говорит в ней о Себе, что Он идет через страдания, смерть и воскресение к Отцу Небесному принять царство над человечеством, которое все - Его родовое достояние. Оставшиеся на земле делятся на две половины: на рабов, поработивших себя Господу через послушание вере, и на нехотящих иметь Его царем и работать Ему, ради неверия своего. Тем, которые приступают ко Господу верою, с готовностью работать Ему, даются дары Святого Духа в св. таинствах: это мина - и каждый верующий получает ее на служение в кругу верующих. Когда все из рода человеческого, способные покоряться Господу, покорятся Ему, тогда Он снова придет, как принявший Царство. Первым делом Его будет рассудить рабов, кто что приобрел данною благодатью, а потом последует суд и над теми, которые не захотели иметь Его царем, т. е. , или не уверовали, или отпали от веры. Напечатлей эти истины в уме своем и не отводи от них внимания, ибо тогда будет решение, которому уж не жди перемены. Бегай неверия; но и веруй не праздно, а приноси и плоды веры. Обретши тебя верным вмале, Господь и над многим тебя поставит.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

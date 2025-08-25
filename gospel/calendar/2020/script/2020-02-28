@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("28 февраля 2020 г. ( 15 февраля ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица cырная (масленица) - сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Из трапезы исключается мясо. ");
+}
+
+function print_saints()
+{
+ daysd.write("Ап. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/1664.html\" target=\"_blank\" title=\"Онисим, апостол от 70-ти, сщмч.\">Онисима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1664_4045.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1751.html\" target=\"_blank\" title=\"Пафнутий Александрийский, прп.\">Пафнутия</a> и дщери его <a  href=\"http://days.pravoslavie.ru/name/2483.html\" target=\"_blank\" title=\"Евфросиния Александрийская, прп.\">Евфросинии</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/703.html\" target=\"_blank\" title=\"Евсевий Сирийский, пустынник\">Евсевия</a>, пустынника Сирийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1754.html\" target=\"_blank\" title=\"Пафнутий Печерский, затворник\">Пафнутия</a>, затворника Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14992.html\" target=\"_blank\" title=\"Анфим Хиосский, прп.\">Анфима</a> Хиосского. Сщмчч.  <a  href=\"http://days.pravoslavie.ru/name/9692.html\" target=\"_blank\" title=\"Михаил (Пятаев), иерей, сщмч.\">Михаила</a> и <a  href=\"http://days.pravoslavie.ru/name/9616.html\" target=\"_blank\" title=\"Иоанн (Куминов), иерей, сщмч.\">Иоанна</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9717.html\" target=\"_blank\" title=\"Николай (Морковин), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/13673.html\" target=\"_blank\" title=\"Алексий (Смирнов), иерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/13672.html\" target=\"_blank\" title=\"Алексий (Никитский), иерей, сщмч.\">Алексия</a> пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/13674.html\" target=\"_blank\" title=\"Симеон (Кулямин), диакон, сщмч.\">Симеона</a> диакона, прмч. <a  href=\"http://days.pravoslavie.ru/name/9237.html\" target=\"_blank\" title=\"Павел (Козлов), иеромонах Ниловой пустыни, сщмч.\">Павла</a> и прмц. <a  href=\"http://days.pravoslavie.ru/name/9924.html\" target=\"_blank\" title=\"София (Селивестрова), послушница, прмц.\">Софии</a>. <a  href=\"http://days.pravoslavie.ru/name/2811.html\" target=\"_blank\" title=\"Виленская\">Виленской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2811_110.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2839.html\" target=\"_blank\" title=\"Далматская\">Далматской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2839_3390.html\" target=\"_blank\" >икона</a>) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_zah_8_7_17.html#z\">Зах. VIII, 7-17.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_zah_8_19_23.html#z\">Зах. VIII, 19-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Я спасу вас, и вы будете благословением\", обещает Господь через пророка Захарию (<a  href=\"https://days.pravoslavie.ru/Bible/C18465.htm\" target=\"_blank\" title=\"Библия\">Зах. 8, 7-23</a>). Но под каким условием? Под тем, если каждый будет говорить истину искреннему своему, если дела свои будут разбирать между собою праведно, если не будут злопамятствовать в сердце своем на ближнего своего, не будут любить лживых клятв, и полюбят мир и истину. Если исполнены будут эти условия, то, говорит Господь, \"будут Моим народом, и Я буду их Богом, в истине и правде\", и распространится среди них благословение. Тогда услышат все сторонние и скажут: пойдем к ним помолиться лицу Господню, ибо слышали, что Господь с ними. \"И будут приходить многие племена и сильные народы, чтобы взыскать Господа Саваофа\". Так привлекала к Господу людей и народы высокая нравственная чистота первенствующих христиан. И всегда живущие по духу Христову, без слова, лучшие проповедники Христовы и самые убедительные апостолы христианства.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

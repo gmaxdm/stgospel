@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("23 марта 2020 г. ( 10 марта ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я Великого поста, Крестопоклонная. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч.<a  href=\"http://days.pravoslavie.ru/name/1257.html\" target=\"_blank\" title=\"Кодрат Коринфский, мч.\">Кодрата</a> и иже с ним: <a  href=\"http://days.pravoslavie.ru/name/1208.html\" target=\"_blank\" title=\"Киприан Коринфский, мч.\">Киприана</a>, <a  href=\"http://days.pravoslavie.ru/name/624.html\" target=\"_blank\" title=\"Дионисий Коринфский, мч.\">Дионисия</a>, <a  href=\"http://days.pravoslavie.ru/name/197.html\" target=\"_blank\" title=\"Анект Коринфский, мч.\">Анекта</a>, <a  href=\"http://days.pravoslavie.ru/name/1687.html\" target=\"_blank\" title=\"Павел Коринфский, мч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/1303.html\" target=\"_blank\" title=\"Крискент Коринфский, мч.\">Крискента</a>, <a  href=\"http://days.pravoslavie.ru/name/625.html\" target=\"_blank\" title=\"Дионисий Коринфский (другой), мч.\">Дионисия</a>, <a  href=\"http://days.pravoslavie.ru/name/420.html\" target=\"_blank\" title=\"Мученик Викторин Коринфский\">Викторина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii420_4177.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/415.html\" target=\"_blank\" title=\"Мученик Виктор Коринфский\">Виктора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii415_4177.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1626.html\" target=\"_blank\" title=\"Мученик Никифор Коринфский\">Никифора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1626_4177.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1244.html\" target=\"_blank\" title=\"Мученик Клавдий Коринфский\">Клавдия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1244_4177.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/607.html\" target=\"_blank\" title=\"Мученик Диодор Коринфский\">Диодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii607_4177.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1969.html\" target=\"_blank\" title=\"Мученик Серафион Коринфский\">Серафиона</a>, <a  href=\"http://days.pravoslavie.ru/name/1731.html\" target=\"_blank\" title=\"Мученик Папий Коринфский\">Папия</a>, <a  href=\"http://days.pravoslavie.ru/name/1341.html\" target=\"_blank\" title=\"Мученик Леонид Коринфский\">Леонида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1341_138.html\" target=\"_blank\" >икона</a>) и мцц. <a  href=\"http://days.pravoslavie.ru/name/2745.html\" target=\"_blank\" title=\"Мученица Хариесса Коринфская\">Хариессы</a>, <a  href=\"http://days.pravoslavie.ru/name/2632.html\" target=\"_blank\" title=\"Мученица Нунехия Коринфская\">Нунехии</a>, <a  href=\"http://days.pravoslavie.ru/name/2429.html\" target=\"_blank\" title=\"Мученица Василисса Коринфская\">Василиссы</a>, <a  href=\"http://days.pravoslavie.ru/name/2627.html\" target=\"_blank\" title=\"Ника Коринфская, мц.\">Ники</a>, <a  href=\"http://days.pravoslavie.ru/name/2441.html\" target=\"_blank\" title=\"Гали Коринфская, мц.\">Гали</a>, <a  href=\"http://days.pravoslavie.ru/name/2442.html\" target=\"_blank\" title=\"Мученица Галина Коринфская\">Галины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2442_499.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2710.html\" target=\"_blank\" title=\"Мученица Феодора Коринфская\">Феодоры</a> и иных многих. Прп. <a  href=\"http://days.pravoslavie.ru/name/14807.html\" target=\"_blank\" title=\"Павел Таганрогский, прп.\">Павла</a> Таганрогского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1258.html\" target=\"_blank\" title=\"Кодрат Никомидийский, мч.\">Кодрата</a>  Никомидийского, <a  href=\"http://days.pravoslavie.ru/name/1927.html\" target=\"_blank\" title=\"Саторин Кесарийский, мч.\">Саторина</a>, <a  href=\"http://days.pravoslavie.ru/name/1891.html\" target=\"_blank\" title=\"Руфин Кесарийский, мч.\">Руфина</a>, и прочих. Прп. <a  href=\"http://days.pravoslavie.ru/name/2381.html\" target=\"_blank\" title=\"Анастасия Патрикия, Александрийская, пустынница\">Анастасии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2381_2126.html\" target=\"_blank\" >икона</a>) Патрикии. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9558.html\" target=\"_blank\" title=\"Димитрий (Легейдо), иерей, сщмч.\">Димитрия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_14_24_32.html#z\">Ис. XIV, 24-32.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_8_21_0_9_0_7.html#z\">Быт. VIII, 21 - IX, 7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_11_19_0_12_0_6.html#z\">Притч. XI, 19 - XII, 6.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("Апостол Павел говорит, что израильтяне, перешедше море, крестились в нем (<a  href=\"https://days.pravoslavie.ru/Bible/C18509.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 10, 2</a>). Такое крещение служило для них разделением между Египтом и ими. Петр же апостол прибавляет: \"Так и нас ныне подобное сему образу крещение. . . спасает. . . \" (<a  href=\"https://days.pravoslavie.ru/Bible/C18510.htm\" target=\"_blank\" title=\"Библия\">1 Пет. З, 21</a>). И наше крещение нас спасает и служит разделительною стеною между темною сатанинскою областью греха и мира и светлостью жизни о Христе. Крещенный отрезывает себя от всех надежд и опор земных и живет в веке сем, как бы в пустыне, ни с чем не связанный. Сердца его нет на земле, оно все в оном веке. Все здешнее касается его мимоходом, так что имущей жену бывает, как не имущий, покупающий, как ничего не содержащий, вообще требующий мира, как не требующий (<a  href=\"https://days.pravoslavie.ru/Bible/C18511.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 7, 30</a>).<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

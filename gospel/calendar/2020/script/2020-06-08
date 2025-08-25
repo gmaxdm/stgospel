@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("8 июня 2020 г. ( 26 мая ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 1-я по Пятидесятнице (сплошная). ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/10855.html\" target=\"_blank\" title=\"День Святого Духа\">День Святого Духа</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii10855_1080.html\" target=\"_blank\" >икона</a>)</span></span><br> Апп. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/1174.html\" target=\"_blank\" title=\"Апостол Карп\">Карпа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1174_1858.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/139.html\" target=\"_blank\" title=\"Алфей Капернаумский, апостол от 70-ти\">Алфея</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/494.html\" target=\"_blank\" title=\"Георгий Новый, Серб, Софийский, Болгарский, мч.\">Георгия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii494_44.html\" target=\"_blank\" >икона</a>) Нового. Мчч. <a  href=\"http://days.pravoslavie.ru/name/16.html\" target=\"_blank\" title=\"Аверкий, мч.\">Аверкия</a> и <a  href=\"http://days.pravoslavie.ru/name/2492.html\" target=\"_blank\" title=\"Елена, мц.\">Елены</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1009.html\" target=\"_blank\" title=\"Иоанн Психаит, прп., исповедник\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1009_4249.html\" target=\"_blank\" >икона</a>) Психаита исп. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/1404.html\" target=\"_blank\" title=\"Преподобный Макарий Калязинский\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1404_1894.html\" target=\"_blank\" >икона</a>) Калязинского. <a  href=\"http://days.pravoslavie.ru/name/2995.html\" target=\"_blank\" title=\"Тупичевская\">Тупичевской</a> и <a  href=\"http://days.pravoslavie.ru/name/2880.html\" target=\"_blank\" title=\"Кипрская\">Кипрской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2880_875.html\" target=\"_blank\" >икона</a>)  икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_ef_5_8_19.html#z\">Еф., 229 зач., V, 8-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_18_10_20.html#z\">Мф., 75 зач., XVIII, 10-20.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17930.htm\" target=\"_blank\" title=\"Библия\">Еф. 5, 9-19</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17931.htm\" target=\"_blank\" title=\"Библия\">Мф. 18, 10-20</a>). Утешая учеников Своих, Господь говорил, что для них лучше, чтоб Он взошел на небо, ибо, возшедши, Он пошлет вместо Себя Утешителя - Духа. Нисшел Дух Святый и пребывает в Церкви, совершая в каждом человеке верующем дело Христово. Всякий христианин - причастник Духа. Это так необходимо, что кто Духа не имеет, тот и не Христов. Присмотрись же хорошенько - есть ли в тебе Дух благодати? Ибо он не у всех остается, а бывает так, что и отходит. Вот приметы: сначала находит дух покаяния. и учит христианина обращению к Богу и исправлению жизни; дух покаяния, совершив свое дело, передает христианина духу святости и чистоты, которому преемствует, наконец, дух сыноположения. Черта первого - трудолюбная ревность; черта второго - теплота и горение сердца сладкое; черта третьего - чувство сыновства, по которому исходит из сердца воздыхание к Богу: \"Авва отче\"! Смотри, на которой из этих степеней находишься. Если ни на какой, прими заботу и попечение о себе.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->
