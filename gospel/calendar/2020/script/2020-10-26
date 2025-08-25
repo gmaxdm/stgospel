@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("26 октября 2020 г. ( 13 октября ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 21-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/2858.html\" target=\"_blank\" title=\"Иверская икона Божией Матери\">Иверской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2858_53.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1175.html\" target=\"_blank\" title=\"Святитель Карп Фиатирский, Пергамский, епископ, сщмч.\">Карпа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1175_1859.html\" target=\"_blank\" >икона</a>), еп. Фиатрийского, <a  href=\"http://days.pravoslavie.ru/name/1734.html\" target=\"_blank\" title=\"Папила Фиатирский, Пергамский, диакон, сщмч.\">Папилы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1734_868.html\" target=\"_blank\" >икона</a>) диакона, <a  href=\"http://days.pravoslavie.ru/name/58.html\" target=\"_blank\" title=\"Агафодор Сардийский, мч.\">Агафодора</a> и мц. <a  href=\"http://days.pravoslavie.ru/name/2371.html\" target=\"_blank\" title=\"Агафоника Пергамская, мц.\">Агафоники</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/2317.html\" target=\"_blank\" title=\"Флорентий Солунянин, мч.\">Флорентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2317_3765.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/406.html\" target=\"_blank\" title=\"Священномученик Вениамин Персидский\">Вениамина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii406_3761.html\" target=\"_blank\" >икона</a>) диакона. Прп. <a  href=\"http://days.pravoslavie.ru/name/1614.html\" target=\"_blank\" title=\"Никита Константинопольский, Исповедник, прп.\">Никиты</a> исп. Прп. <a  href=\"http://days.pravoslavie.ru/name/408.html\" target=\"_blank\" title=\"Преподобный Вениамин Печерский\">Вениамина</a> Печерского. Свт. <a  href=\"http://days.pravoslavie.ru/name/14337.html\" target=\"_blank\" title=\"Святитель Мелетий (Пигас), патриарх Александрийский\">Мелетия</a>, патриарха Александрийского. Воспоминание чуда вмц. <a  href=\"http://days.pravoslavie.ru/name/2751.html\" target=\"_blank\" title=\"Хриса (Хрисия, Злата) Могленская, вмц.\">Златы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2751_989.html\" target=\"_blank\" >икона</a>) (Хрисы) в Скопье. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13827.html\" target=\"_blank\" title=\"Иннокентий (Кикин), иерей, сщмч.\">Иннокентия</a> и <a  href=\"http://days.pravoslavie.ru/name/13828.html\" target=\"_blank\" title=\"Николай (Ермолов), протоиерей, сщмч.\">Николая</a> пресвитеров. Обретение мощей сщмч. <a  href=\"http://days.pravoslavie.ru/name/6609.html\" target=\"_blank\" title=\"Священномученик архиепископ Фаддей (Успенский)\">Фаддея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6609_50.html\" target=\"_blank\" >икона</a>), архиеп. Тверского. <a  href=\"http://days.pravoslavie.ru/name/2929.html\" target=\"_blank\" title=\"Икона Божией Матери Одигитрия Седмиезерная\">Седмиезерной</a> иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_flp_4_10_23.html#z\">Флп., 248 зач., IV, 10-23.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_36_50.html#z\">Лк., 33 зач., VII, 36-50.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба только сщмч. Фаддея, архиеп. Тверского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22,</a> а на литургии - чтения дня и священномученика: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_28_39.html#z\">Рим., 99 зач., VIII, 28-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a> При соединении полиелейной службы в честь Иверской иконы Божией Матери с полиелейной службой сщмч. Фаддея, архиеп. Тверского, на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56,</a> а на литургии - чтения дня, Богородицы (под зачало) и священномученика. </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18225.htm\" target=\"_blank\" title=\"Библия\">Лк. 7, 36-50</a>). Отчего так случилось, что Симон фарисей чтит Господа и приглашает Его к себе, но тут же увидев, что Он благосклонно допускает к Себе и грешницу, соблазняется и начинает думать: \"если бы Он был пророк\"?. . Оттого, что захлопотался об угощении и за хлопотами оставил здравое рассуждение о порядках Божиих. Эти две области, житейская и духовная, совсем не схожи по своим свойствам и законам. Между тем, ум наш, чем очень займется, по законам того и судить начинает. По житейским порядкам с явною грешницею нельзя иметь общение; Симон так и судит, забыв, что покаяние всех делает чистыми и грешников равняет с праведниками. Он думает, что грешнице не следует тут быть, и что Спаситель, если не отгоняет ее, то потому, верно, что не знает кто она; от этой мысли тотчас родилась и другая: если не знает, то какой же Он пророк? Словом-то он не сказал этого, а только подумал, и наружно ни в нем, ни в его хлопотах, как доброго хозяина, не произошло никакой перемены, но Господь видел его сердце и по сердцу его сделал ему вразумление. Он внушил ему, что грешникам-то и место около Него и что грешница, припавшая к Нему сердцем, больше почтила Его, чем он, почтивший Его только угощением. Внешнее вводит человека в неприятное Господу чувство праведности, а внутреннее всегда держит его в чувствах своего непотребства перед лицом всеведущего Господа.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

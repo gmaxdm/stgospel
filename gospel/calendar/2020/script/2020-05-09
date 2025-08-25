@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("9 мая 2020 г. ( 26 апреля ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/369.html\" target=\"_blank\" title=\"Святитель Василий Амасийский, епископ, сщмч.\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii369_1699.html\" target=\"_blank\" >икона</a>), еп. Амасийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/2064.html\" target=\"_blank\" title=\"Святитель Стефан Пермский (Великопермский), епископ\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2064_1172.html\" target=\"_blank\" >икона</a>), еп. Великопермского. Прав. <a  href=\"http://days.pravoslavie.ru/name/2443.html\" target=\"_blank\" title=\"Глафира Амасийская, дева\">Глафиры</a> девы. Прп. <a  href=\"http://days.pravoslavie.ru/name/13210.html\" target=\"_blank\" title=\"Иоанникий Девиченский, Чернорецкий, Сербский, прп.\">Иоанникия</a> Девиченского (Серб.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9624.html\" target=\"_blank\" title=\"Иоанн (Панков), иерей, сщмч.\">Иоанна</a> пресвитера и чад его мчч. <a  href=\"http://days.pravoslavie.ru/name/10006.html\" target=\"_blank\" title=\"Николай (Панков), мч.\">Николая</a> и <a  href=\"http://days.pravoslavie.ru/name/10023.html\" target=\"_blank\" title=\"Петр (Панков), мч.\">Петра</a>. Поминовение усопших воинов. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_9_19_31.html#z\">Деян., 22 зач., IX, 19-31.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_15_17_0_16_0_2.html#z\">Ин., 52 зач., XV, 17 - XVI, 2.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17864.htm\" target=\"_blank\" title=\"Библия\">Дея. 9, 19-31</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17865.htm\" target=\"_blank\" title=\"Библия\">Ин. 15, 17-16, 2</a>). Когда св. Павел стал проповедывать в Дамаске, все дивились, говоря: \"не тот ли это самый, который гнал призывающих имя сие?\" И всегда так бывает, что те, среди которых кто либо обращается от неверия к вере, или от греха к добродетели, дивятся, что сделалось с этим обращенным? Все шло у него по нашему, а тут вдруг все стало иначе: и речь, и взор, и поступь, и мысли не те, и начинания иные, и места посещения другие. Тут то же бывает, как если бы шел кто на запад и вдруг повернул на восток. Обе эти жизни противоположны и одна другую исключают. Кто захотел бы совместить их, или составить цельную жизнь частью из того, частью из другого, тот потратит и время и труды, а успеха никакого не будет. Какое общение! Только не понимающие дела могут говорить: \"зачем так круто\"!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("18 января 2020 г. ( 5 января ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 31-я по Пятидесятнице. Суббота перед Богоявлением. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Навечерие Богоявления (<a  href=\"http://days.pravoslavie.ru/name/3560.html\" target=\"_blank\" title=\"Крещенский сочельник (Навечерие Богоявления)\">Крещенский сочельник</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2243.html\" target=\"_blank\" title=\"Святитель Феопемпт Никомидийский, епископ, сщмч.\">Феопемпта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2243_3929.html\" target=\"_blank\" >икона</a>), еп. Никомидийского и мч. <a  href=\"http://days.pravoslavie.ru/name/2241.html\" target=\"_blank\" title=\"Феона (в крещении Синесий) Никомидийский, мч.\">Феоны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2241_3929.html\" target=\"_blank\" >икона</a>) волхва. Прп. <a  href=\"http://days.pravoslavie.ru/name/2667.html\" target=\"_blank\" title=\"Синклитикия Александрийская, прп.\">Синклитикии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2667_3928.html\" target=\"_blank\" >икона</a>) Александрийской. Прп. <a  href=\"http://days.pravoslavie.ru/name/14501.html\" target=\"_blank\" title=\"Симеон (Желнин) Псково-Печерский, прп.\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14501_3142.html\" target=\"_blank\" >икона</a>) Псково-Печерского. Прор. <a  href=\"http://days.pravoslavie.ru/name/1564.html\" target=\"_blank\" title=\"Пророк Михей\">Михея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1564_261.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/2409.html\" target=\"_blank\" title=\"Аполлинария, прп.\">Аполлинарии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2409_2143.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/2329.html\" target=\"_blank\" title=\"Фостирий, прп.\">Фостирия</a>. Прп.  <a  href=\"http://days.pravoslavie.ru/name/1538.html\" target=\"_blank\" title=\"Мина Синайский, прп.\">Мины</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/531.html\" target=\"_blank\" title=\"Григорий Акритский, прп.\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii531_3927.html\" target=\"_blank\" >икона</a>) Акритского. Мч. <a  href=\"http://days.pravoslavie.ru/name/9986.html\" target=\"_blank\" title=\"Иосиф (Беспалов), мч.\">Иосифа</a>  и с ним 37-ми мучеников. Мц. <a  href=\"http://days.pravoslavie.ru/name/10065.html\" target=\"_blank\" title=\"Евгения (Доможирова), мц.\">Евгении</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13629.html\" target=\"_blank\" title=\"Сергий (Лавров), протоиерей, сщмч.\">Сергия</a> пресвитера. Мч. <a  href=\"http://days.pravoslavie.ru/name/14401.html\" target=\"_blank\" title=\"Матфей (Гусев), мч.\">Матфея</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Лит. - Субботы пред Богоявлением: <a href=\"http://days.pravoslavie.ru/bible/z_1-tim_3_14_0_4_0_5.html#z\">1 Тим., 284 зач., III, 14 - IV, 5.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_3_1_11.html#z\">Мф., 5 зач., III, 1-11.</a> На вечерне (совершается отдельно от литургии): <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_10_1_4.html#z\">1 Кор., 143 зач. (от&nbsp;полу&#769;), X, 1-4.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_3_1_18.html#z\">Лк., 9 зач., III, 1-18.</a> На освящении воды: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_10_1_4.html#z\">1 Кор., 143 зач. (от&nbsp;полу&#769;), X, 1-4.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_1_9_11.html#z\">Мк., 2 зач., I, 9-11.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18391.htm\" target=\"_blank\" title=\"Библия\">1 Тим. 3, 14-4, 5</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18392.htm\" target=\"_blank\" title=\"Библия\">Мф. 3, 1-11</a>). \"Дом Божий, который есть Церковь Бога живого, столп и утверждение истины\". Следовательно, нам нечего вращать очи туда и сюда, чтоб высмотреть, нет ли где истины. Она - близ. Будь в Церкви, содержи все, что она содержит, - и будешь во истине, - будешь обладать истиною и жить по ней и в ней, и вследствие того истинной будешь преисполнен жизнью. Вне Православной Церкви нет истины. Она единая верная хранительница всего заповеданного Господом через Св. Апостолов и есть потому настоящая Апостольская Церковь. Иные потеряли Церковь Апостольскую, и, как по христианскому сознанию, носят убеждение, что только Апостольская Церковь может верно хранить и указывать истину, вздумали сами построить такую церковь, и построили, и имя ей такое придали. Имя придали, а существа сообщить не могли. Ибо Апостольская Церковь создана по благоволению Отца Господом Спасителем благодатью Св. Духа через Апостолов. Людям такой уж не создать. Думающие создать такую уподобляются детям, в куклы играющим. Если нет на земле истинной Апостольской Церкви, нечего и труды тратить над созданием ее. Но благодарение Господу, Он не попустил вратам адовым одолеть Св. Апостольскую Церковь. Она есть и пребудет по обетованию Его, до скончания века. И это есть наша Православная Церковь. Слава Богу!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

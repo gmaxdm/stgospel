@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("16 марта 2020 г. ( 3 марта ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/732.html\" target=\"_blank\" title=\"Евтропий Амасийский, мч.\">Евтропия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii732_1768.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1250.html\" target=\"_blank\" title=\"Клеоник Амасийский, мч.\">Клеоника</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1250_1868.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/391.html\" target=\"_blank\" title=\"Мученик Василиск Команский\">Василиска</a> (<a  href=\"http://days.pravoslavie.ru/images/ii391_4104.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/2645.html\" target=\"_blank\" title=\"Пиама Александрийская, дева, прп.\">Пиамы</a> девы. Св. <a  href=\"http://days.pravoslavie.ru/name/832.html\" target=\"_blank\" title=\"Зинон\">Зинона</a> и <a  href=\"http://days.pravoslavie.ru/name/845.html\" target=\"_blank\" title=\"Зоил\">Зоила</a>. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14414.html\" target=\"_blank\" title=\"Марфа (Коврова), послушница, прмц.\">Марфы</a> и мч. <a  href=\"http://days.pravoslavie.ru/name/13692.html\" target=\"_blank\" title=\"Михаил (Строев), мч.\">Михаила</a>. <a  href=\"http://days.pravoslavie.ru/name/2820.html\" target=\"_blank\" title=\"Волоколамская\">Волоколамской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2820_3183.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_8_13_0_9_0_7.html#z\">Ис. VIII, 13 - IX, 7.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_6_9_22.html#z\">Быт. VI, 9-22.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_8_1_21.html#z\">Притч. VIII, 1-21.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Страх Господень ненавидит неправды\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18496.htm\" target=\"_blank\" title=\"Библия\">Прит. 8, 13</a>); а если ненавидит, то прогонит их; если прогонит, то душа станет чиста от них и явится посему правою перед Господом. А это и есть все, чего теперь с такою заботою ищем. Стало быть, восстанови в себе страх Божий и поддерживай его, и будешь обладать самым могущественным средством к самоисцелению. Страх Господень не допустит тебя согрешить, и он же заставит тебя делать всякое добро при всяком к тому случае. И будет у тебя исполняться заповедь: \"уклоняйся от зла и делай добро\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18497.htm\" target=\"_blank\" title=\"Библия\">Пс. 33, 15</a>), которую дает пророк ищущим истинной жизни. Как дойти до страха Божия? Ищи и обрящешь . Здесь нельзя сказать: то и то сделай; страх Божий есть духовное чувство, сокровенно зачинающееся в сердце от его обращения к Богу. Размышление помогает, помогает и напряжение себя на это чувство; но делом оно дается от Господа. Взыщи его как дара, и дан тебе будет. И когда дан будет, тогда только слушайся его беспрекословно: он выправит все твои неправды.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

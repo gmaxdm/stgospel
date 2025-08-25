@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("12 декабря 2020 г. ( 29 ноября ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 27-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/1735.html\" target=\"_blank\" title=\"Парамон Вифинский, мч.\">Парамона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1735_3574.html\" target=\"_blank\" >икона</a>) и с ним 370-ти мучеников. Мч. <a  href=\"http://days.pravoslavie.ru/name/2305.html\" target=\"_blank\" title=\"Филумен Анкирский, мч.\">Филумена</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2305_3852.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/92.html\" target=\"_blank\" title=\"Акакий Синайский, прп.\">Акакия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii92_389.html\" target=\"_blank\" >икона</a>) Синайского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14896.html\" target=\"_blank\" title=\"Святитель Сатурнин первый епископ Тулузский, епископ Тулузский, сщмч.\">Сатурнина</a>, первого епископа Тулузскогою Сщмч. <a  href=\"http://days.pravoslavie.ru/name/21.html\" target=\"_blank\" title=\"Священномученик Авив Некресский, Кахетинский\">Авива</a> (<a  href=\"http://days.pravoslavie.ru/images/ii21_3849.html\" target=\"_blank\" >икона</a>), еп. Некресского (Груз.). Свт. <a  href=\"http://days.pravoslavie.ru/name/14981.html\" target=\"_blank\" title=\"Святитель Мардарий (Ускокович), епископ\">Мардария</a> (Серб.). Прп. <a  href=\"http://days.pravoslavie.ru/name/1590.html\" target=\"_blank\" title=\"Преподобный Нектарий Печерский\">Нектария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1590_3575.html\" target=\"_blank\" >икона</a>) Печерского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14527.html\" target=\"_blank\" title=\"Сергий (Кочуров), иерей, сщмч.\">Сергия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_19_21.html#z\">Лк., 51 зач. (от&nbsp;полу&#769;), X, 19-21.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18326.htm\" target=\"_blank\" title=\"Библия\">Гал. 5, 22-6, 2</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18327.htm\" target=\"_blank\" title=\"Библия\">Лк. 10, 19-21</a>). \"Славлю Тебя, Отче, Господи неба и земли, что Ты утаил сие от мудрых и разумных и открыл младенцам. Ей, Отче, ибо таково было Твое благоволение\". Вот суд над человеческой мудростью и разумностью. И он видимо исполняется. Откровение теперь перед глазами в Божеских писаниях, и разумники читают его, но не понимают. Дивиться надобно: писано просто, а им все представляется там не так, как написано; словно ослепило их. Младенцы видят и понимают; а для них открытое сокрыто. Такой порядок угодно было учредить Отцу Небесному; стало быть, и нечего спорить. Если бы совсем не было открыто существенно нужное, ну тогда разумники могли бы еще возражать; а то открыто - приходи и бери, затем открыто, чтоб ты брал: стань только младенцем. \"Как - я?. . . Ни за что!\" Ну, как хочешь; и оставайся себе премудрым и разумным, ничего, однако же, существенно нужного не понимающим и не вмещающим в своей голове, блуждающим среди призраков и иллюзий, порождаемых твоим умничанием и держащих тебя в полном ослеплении, по которому ты думаешь, что ты зрячий, а ты слеп, \"мжай\", то есть кое-что видишь, как сквозь густую мглу. Но это не указывает тебе настоящей дороги и не ведет к цели, а только держит в неисходном кругу самопрельщения. Избави нас, Господи, от такого страшного состояния!. . .<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("9 декабря 2020 г. ( 26 ноября ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 27-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/137.html\" target=\"_blank\" title=\"Преподобный Алипий Столпник, Адрианопольский\">Алипия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii137_1650.html\" target=\"_blank\" >икона</a>) столпника. Освящение церкви вмч. <a  href=\"http://days.pravoslavie.ru/name/497.html\" target=\"_blank\" title=\"Великомученик Георгий Победоносец\">Георгия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii497_116.html\" target=\"_blank\" >икона</a>) в Киеве. Свт. <a  href=\"http://days.pravoslavie.ru/name/951.html\" target=\"_blank\" title=\"Святитель Иннокентий, епископ Иркутский\">Иннокентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii951_35.html\" target=\"_blank\" >икона</a>), еп. Иркутского. Прп. <a  href=\"http://days.pravoslavie.ru/name/886.html\" target=\"_blank\" title=\"Иаков Сирийский, отшельник\">Иакова</a> отшельника Сирийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/13102.html\" target=\"_blank\" title=\"Стилиан Пафлагонянин, прп.\">Стилиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13102_2060.html\" target=\"_blank\" >икона</a>) Пафлагонского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9326.html\" target=\"_blank\" title=\"Иоанн (Виноградов), протоиерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9304.html\" target=\"_blank\" title=\"Георгий (Колоколов), протоиерей, сщмч.\">Георгия</a>, <a  href=\"http://days.pravoslavie.ru/name/9360.html\" target=\"_blank\" title=\"Назарий (Грибков), протоиерей, сщмч.\">Назария</a>, <a  href=\"http://days.pravoslavie.ru/name/13096.html\" target=\"_blank\" title=\"Василий (Студницин), протоиерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/13094.html\" target=\"_blank\" title=\"Василий (Колосов), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/13098.html\" target=\"_blank\" title=\"Илия (Зачатейский), иерей, сщмч.\">Илии</a>, <a  href=\"http://days.pravoslavie.ru/name/13870.html\" target=\"_blank\" title=\"Василий (Агафоников), протоиерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/13871.html\" target=\"_blank\" title=\"Даниил (Мещанинов), иерей, сщмч.\">Даниила</a>, <a  href=\"http://days.pravoslavie.ru/name/13872.html\" target=\"_blank\" title=\"Михаил (Зеленцовский), иерей, сщмч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/13873.html\" target=\"_blank\" title=\"Николай (Замараев), протоиерей, сщмч.\">Николая</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/13874.html\" target=\"_blank\" title=\"Тихон Бузов, архимандрит, прмч.\">Тихона</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/10025.html\" target=\"_blank\" title=\"Петр (Царапкин), мч.\">Петра</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-tim_5_22_0_6_0_11.html#z\">1 Тим., 287 зач., V, 22 - VI, 11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_18_15_17_18_26_30.html#z\">Лк., 90 зач., XVIII, 15-17, 26-30.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18320.htm\" target=\"_blank\" title=\"Библия\">1 Тим. 5, 22-6, 11</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18321.htm\" target=\"_blank\" title=\"Библия\">Лк. 18, 15-17, 26-30</a>). \"Кто не примет Царствия Божия, как дитя, тот не войдет в него\". Как же это принимать, как дитя? А вот как: в простоте, полным сердцем, без раздумываний. Рассудочный анализ неприложим в области веры. Он может иметь место только в преддверии ее. Как анатом все тело разлагает о подробности, а жизни не видит, так и рассудок - сколько ни рассуждает, силы веры не постигает. Вера сама дает созерцания, которые в целом представляют веру, всецело удовлетворяющею всем потребностям естества нашего, и обязуют сознание, совесть, сердце принять веру. Они и принимают, и приняв, не хотят уже отстать от нее. Тут происходит то же, что с вкусившим приятной и здоровой пищи. Вкусив однажды, он знает, что она пригодна и принимает ее в ряд питающих его веществ. Химия, ни прежде, ни после, не помощница ему в этом убеждении. Убеждение его основано на личном опыте, непосредственно. Так и верующий знает истинность веры непосредственно. Сама вера вселяет в нем непоколебимое убеждение, что она вера. Как же после того вера будет верою разумною? В том и разумность веры, чтоб непосредственно знать, что она вера. Рассудок только портит дело, охлаждая веру и ослабляя жизнь по вере, а главное кичит, и отгоняет благодать Божию: зло в христианстве первой важности.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

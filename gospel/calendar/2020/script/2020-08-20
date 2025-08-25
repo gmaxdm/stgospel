@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("20 августа 2020 г. ( 7 августа ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 11-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Успенский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: горячая пища без масла. ");
+}
+
+function print_saints()
+{
+ daysd.write("Попразднство Преображения Господня. Прмч. <a  href=\"http://days.pravoslavie.ru/name/643.html\" target=\"_blank\" title=\"Дометий Персиянин, Сирийский, иеродиакон, сщмч.\">Дометия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii643_4426.html\" target=\"_blank\" >икона</a>) Персиянина и двух учеников его. Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/1545.html\" target=\"_blank\" title=\"Святитель Митрофан, епископ Воронежский\">Митрофана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1545_363.html\" target=\"_blank\" >икона</a>), еп. Воронежского. Прп. <a  href=\"http://days.pravoslavie.ru/name/7002.html\" target=\"_blank\" title=\"Антоний Оптинский, прп.\">Антония</a> Оптинского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1454.html\" target=\"_blank\" title=\"Марин Кесарийский (Палестинский), мч.\">Марина</a> и <a  href=\"http://days.pravoslavie.ru/name/287.html\" target=\"_blank\" title=\"Астерий Синклитик, Кесарийский (Палестинский), мч.\">Астерия</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1675.html\" target=\"_blank\" title=\"Ор Фиваидский, пустынник\">Ора</a> Фиваидского. Прмц. <a  href=\"http://days.pravoslavie.ru/name/2650.html\" target=\"_blank\" title=\"Потамия, прмц.\">Потамии</a> чудотворицы. Прп. <a  href=\"http://days.pravoslavie.ru/name/11891.html\" target=\"_blank\" title=\"Феодосий Новый, врач, прп.\">Феодосия</a> Нового, врача. Свт. <a  href=\"http://days.pravoslavie.ru/name/14473.html\" target=\"_blank\" title=\"Святитель Иерофей Венгерский, Туркийский, епископ\">Иерофея</a> Венгерского и св. <a  href=\"http://days.pravoslavie.ru/name/14474.html\" target=\"_blank\" title=\"Стефан I Венгерский, король\">Стефана</a> I, короля Венгрии. Прп. <a  href=\"http://days.pravoslavie.ru/name/1792.html\" target=\"_blank\" title=\"Преподобный Пимен Многоболезненный\">Пимена</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1792_1989.html\" target=\"_blank\" >икона</a>) Многоболезненного, Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1522.html\" target=\"_blank\" title=\"Святитель Меркурий Смоленский, Печерский, епископ, сщмч.\">Меркурия</a> Печерского, еп. Смоленского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1793.html\" target=\"_blank\" title=\"Преподобный Пимен, постник Печерский\">Пимена</a>, постника Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14956.html\" target=\"_blank\" title=\"Феодора Сихлинская, Карпатская, прп.\">Феодоры</a> Сихловской (Рум.). Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/119.html\" target=\"_blank\" title=\"Священномученик Александр Хотовицкий\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii119_490.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/9780.html\" target=\"_blank\" title=\"Петр (Токарев), иерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/9359.html\" target=\"_blank\" title=\"Михаил (Плышевский), протоиерей, сщмч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/9327.html\" target=\"_blank\" title=\"Иоанн (Воронец), протоиерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9559.html\" target=\"_blank\" title=\"Димитрий (Миловидов), иерей, сщмч.\">Димитрия</a> и <a  href=\"http://days.pravoslavie.ru/name/9272.html\" target=\"_blank\" title=\"Алексий (Воробьев), протоиерей, сщмч.\">Алексия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9272_3683.html\" target=\"_blank\" >икона</a>) пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/9849.html\" target=\"_blank\" title=\"Елисей (Штопьдер), диакон, сщмч.\">Елисея</a> диакона и прмч. <a  href=\"http://days.pravoslavie.ru/name/9186.html\" target=\"_blank\" title=\"Афанасий (Егоров), игумен, сщмч.\">Афанасия</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9284.html\" target=\"_blank\" title=\"Василий (Аменицкий), протоиерей, сщмч.\">Василия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_4_1_6.html#z\">2 Кор., 175 зач., IV, 1-6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_24_13_28.html#z\">Мф., 99 зач., XXIV, 13-28.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16,</a> или прмч.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_15_17_0_16_0_2.html#z\">Ин., 52 зач., XV, 17 - XVI, 2.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18086.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 4, 1-6</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18087.htm\" target=\"_blank\" title=\"Библия\">Мф. 24, 13-28</a>). \"Претерпевший же до конца спасется\". Но не всякий терпящий спасется, а только тот, кто терпит на пути Господнем. На то жизнь эта, чтоб терпеть, и всякий что-нибудь терпит, и терпит до самого конца. Но терпение нейдет в прок, если оно не бывает ради Господа и св. Евангелия Его. Вступи в путь веры и заповедей евангельских; поводы к терпению умножатся, но терпение с этой минуты начнет плодоносить венцы, и то терпение, которое доселе было пусто, сделается плодоносным. Каким ослеплением окружает нас враг, что только то терпение и представляет тяжелым и невыносимым, какое встречает на пути добра, а то, которое сам он налагает на работающих страстям, представляет легким и ничего нестоющим, хотя оно тяжелее и безотраднее того, которое несут борющиеся со страстями и противляющиеся врагу! А мы слепые, и не видим этого. . . Трудимся, терпим и выбиваемся из сил ради врага, на свою же погибель.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

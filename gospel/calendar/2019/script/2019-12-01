@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("1 декабря 2020 г. ( 18 ноября ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 26-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/1803.html\" target=\"_blank\" title=\"Платон Анкирский, мч.\">Платона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1803_3204.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/1874.html\" target=\"_blank\" title=\"Роман Кесарийский, Антиохийский, диакон, сщмч.\">Романа</a> диакона и отрока <a  href=\"http://days.pravoslavie.ru/name/363.html\" target=\"_blank\" title=\"Варул Антиохийский, отрок, мч.\">Варула</a> (<a  href=\"http://days.pravoslavie.ru/images/ii363_1696.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/819.html\" target=\"_blank\" title=\"Закхей Гадаринский, Кесарийский (Палестинский), диакон, сщмч.\">Закхея</a>, диакона Гадаринской Церкви, и <a  href=\"http://days.pravoslavie.ru/name/140.html\" target=\"_blank\" title=\"Алфей Кесарийский (Палестинский), мч.\">Алфея</a>, чтеца в Кесарии Палестинской. <a  href=\"http://days.pravoslavie.ru/name/13854.html\" target=\"_blank\" title=\"Собор святых Эстонской земли\">Собор</a> святых Эстонской земли. Св. <a  href=\"http://days.pravoslavie.ru/name/13026.html\" target=\"_blank\" title=\"Николай (Виноградов), протоиерей, исповедник\">Николая</a> исп., пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-tim_1_8_14.html#z\">1 Тим., 279 зач., I, 8-14.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_14_25_35.html#z\">Лк., 77 зач., XIV, 25-35.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18303.htm\" target=\"_blank\" title=\"Библия\">1 Тим. 1, 5-14</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18304.htm\" target=\"_blank\" title=\"Библия\">Лк. 14, 25-35</a>). \"Соль - добрая вещь; но если соль потеряет силу, чем исправить ее?\" Соль - ученики Господа, которые, преподавая Его наставления людям истребляли нравственную в них гнилость. Если такое преподавание назовем просвещением, то и титло соли должно тоже перейти на это последнее. Затем все изречение будет в таком виде: добро просвещение, но если просвещение обуяет, то к чему оно тоже? Брось его!. . . Просвещение действует как соль, когда оно исполнено начал и элементов учения Господня, когда само состоит в ученичестве у Господа, а коль скоро оно отступает от этого направления и вместо уроков Господних усваивает себе чуждые учения, тогда оно обуевает само и становится непотребным, само заражается гнилостью заблуждения и лжи, и начинает уже действовать не целительно, а заразительно. История подтвердила и подтверждает это повсюдными опытами. Отчего же никто не внимает опыту? Враг на всех наводит мрак и всем думается, что то и светло, когда в учениях держатся подальше от учения Господня.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

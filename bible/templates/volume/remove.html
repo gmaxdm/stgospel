@@ -1,0 +1,27 @@
+{% extends 'wrapper.html' %}
+{% block main %}
+    <div class="mt-3 mb-3 text-center">
+        <h3>Удалить сборник <span class="badge badge-primary">{{ volume.title }}</span></h3>
+    </div>
+    <p class="lead">Вы действительно хотите удалить данный сборник?</p>
+    {% if agreementgroups %}
+    <p>Сборник используется в следующих чтениях:</p>
+    <ul class="list-unstyled p-3">
+    {% for gr in agreementgroups %}
+        <li><a href="{% url 'group' gr.id %}">{{ gr.name }}</a></li>
+    {% endfor %}
+    </ul>
+    <p class="lead">При удалении сборника, эти чтения также будут удалены!</p>
+    {% endif %}
+    <div class="row justify-content-end">
+        <div class="col-auto">
+            <a href="{% url 'volumes-my' %}" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Нет</a>
+        </div>
+        <div class="col-auto">
+            <form name="fleave" action="{% url 'volume-del-confirm' volume.id %}" method="POST">{% csrf_token %}
+                <input type="hidden" name="id" value="{{ volume.id }}">
+                <button type="submit" class="btn btn-secondary btn-sm">Да</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

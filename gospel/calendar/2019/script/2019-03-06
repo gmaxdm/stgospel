@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("6 марта 2020 г. ( 22 февраля ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 1-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/13526.html\" target=\"_blank\" title=\"Обретение мощей святых мучеников во Евгении\">Обретение</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13526_3177.html\" target=\"_blank\" >икона</a>) мощей мучеников, иже во Евгении. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1394.html\" target=\"_blank\" title=\"Маврикий Апамейский, мч.\">Маврикия</a> и 70-ти воинов: <a  href=\"http://days.pravoslavie.ru/name/2336.html\" target=\"_blank\" title=\"Фотин Апамейский, мч.\">Фотина</a>, <a  href=\"http://days.pravoslavie.ru/name/2178.html\" target=\"_blank\" title=\"Феодор Апамейский, мч.\">Феодора</a>, <a  href=\"http://days.pravoslavie.ru/name/2290.html\" target=\"_blank\" title=\"Филипп Апамейский, мч.\">Филиппа</a> и иных. Прпп. <a  href=\"http://days.pravoslavie.ru/name/2160.html\" target=\"_blank\" title=\"Фалассий Сирийский, пустынник\">Фалассия</a>, <a  href=\"http://days.pravoslavie.ru/name/1359.html\" target=\"_blank\" title=\"Лимний Сирийский, пустынник\">Лимния</a> и <a  href=\"http://days.pravoslavie.ru/name/345.html\" target=\"_blank\" title=\"Варадат Сирийский, пустынник, прп.\">Варадата</a> (<a  href=\"http://days.pravoslavie.ru/images/ii345_3178.html\" target=\"_blank\" >икона</a>), пустынников Сирийских. Прп. <a  href=\"http://days.pravoslavie.ru/name/302.html\" target=\"_blank\" title=\"Преподобный Афанасий Павлопетрийский, исповедник\">Афанасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii302_4072.html\" target=\"_blank\" >икона</a>) исп. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9339.html\" target=\"_blank\" title=\"Иосиф (Смирнов), протоиерей, сщмч.\">Иосифа</a> и <a  href=\"http://days.pravoslavie.ru/name/9531.html\" target=\"_blank\" title=\"Владимир (Ильинский), иерей, сщмч.\">Владимира</a> пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/9850.html\" target=\"_blank\" title=\"Иоанн (Касторский), диакон, сщмч.\">Иоанна</a> диакона и мч. <a  href=\"http://days.pravoslavie.ru/name/9979.html\" target=\"_blank\" title=\"Иоанн (Перебаскин), мч.\">Иоанна</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9681.html\" target=\"_blank\" title=\"Михаил (Горбунов), иерей, сщмч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/14411.html\" target=\"_blank\" title=\"Иоанн (Парусников), протоиерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9518.html\" target=\"_blank\" title=\"Виктор (Моригеровский), иерей, сщмч.\">Виктора</a>, <a  href=\"http://days.pravoslavie.ru/name/13681.html\" target=\"_blank\" title=\"Иоанн (Орлов), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13683.html\" target=\"_blank\" title=\"Сергий (Белокуров), иерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/13678.html\" target=\"_blank\" title=\"Андрей (Ясенев), протоиерей, сщмч.\">Андрея</a>, <a  href=\"http://days.pravoslavie.ru/name/9388.html\" target=\"_blank\" title=\"Павел (Смирнов), протоиерей, сщмч.\">Павла</a>  пресвитеров, прмчч. <a  href=\"http://days.pravoslavie.ru/name/13684.html\" target=\"_blank\" title=\"Сергий (Букашкин), иеромонах, прмч.\">Сергия</a> и <a  href=\"http://days.pravoslavie.ru/name/13679.html\" target=\"_blank\" title=\"Антипа (Кириллов), иеромонах, прмч.\">Антипы</a>, прмц. <a  href=\"http://days.pravoslavie.ru/name/13682.html\" target=\"_blank\" title=\"Параскева (Макарова), послушница, прмц.\">Параскевы</a>, мчч. <a  href=\"http://days.pravoslavie.ru/name/14224.html\" target=\"_blank\" title=\"Стефан (Франтов), псаломщик, мч.\">Стефана</a> и <a  href=\"http://days.pravoslavie.ru/name/14450.html\" target=\"_blank\" title=\"Николай (Некрасов), псаломщик, мч.\">Николая</a>, мцц. <a  href=\"http://days.pravoslavie.ru/name/14225.html\" target=\"_blank\" title=\"Елисавета (Тимохина), мц.\">Елисаветы</a>, <a  href=\"http://days.pravoslavie.ru/name/10077.html\" target=\"_blank\" title=\"Ирина (Смирнова), мц.\">Ирины</a> и <a  href=\"http://days.pravoslavie.ru/name/13680.html\" target=\"_blank\" title=\"Варвара (Лосева), мц.\">Варвары</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/9942.html\" target=\"_blank\" title=\"Андрей (Гневышев), мч.\">Андрея</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/13685.html\" target=\"_blank\" title=\"Филарет (Пряхин), игумен, прмч.\">Филарета</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_3_1_14.html#z\">Ис. III, 1-14.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_2_20_0_3_0_20.html#z\">Быт. II, 20 - III, 20.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_3_19_34.html#z\">Притч. III, 19-34.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Господь гордым противится, смиренным же дает благодать\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18474.htm\" target=\"_blank\" title=\"Библия\">Прит. 3, 34</a>). Припомни особенно слова эти, когда идешь на исповедь. Ничто так, как гордость, не вяжет языка сказать: грешен. Смирись же перед Господом, не пощади себя, не убойся лица человека. Раскрой срамоту свою, да омоешься; покажи раны свои, да исцелеешь; расскажи все неправды твои, да оправдаешься. Чем безжалостнее будешь к себе, тем больше жалости явит к тебе Господь, и отойдешь ты с сладким чувством помилования. Это и есть благодать Господа нашего Иисуса Христа, даваемая от Него тем, которые смиряют себя искренним исповеданием грехов своих.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

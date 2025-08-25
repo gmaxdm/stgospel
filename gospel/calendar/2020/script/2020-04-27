@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("27 апреля 2020 г. ( 14 апреля ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/1488.html\" target=\"_blank\" title=\"Святитель Мартин I Римский, папа, исповедник\">Мартина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1488_4195.html\" target=\"_blank\" >икона</a>) исп., папы Римского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/210.html\" target=\"_blank\" title=\"Мученик Антоний Виленский\">Антония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii210_411.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/965.html\" target=\"_blank\" title=\"Мученик Иоанн Виленский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii965_411.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/709.html\" target=\"_blank\" title=\"Мученик Евстафий Виленский\">Евстафия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii709_411.html\" target=\"_blank\" >икона</a>) Литовских. Мч. <a  href=\"http://days.pravoslavie.ru/name/247.html\" target=\"_blank\" title=\"Ардалион, мч.\">Ардалиона</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/14680.html\" target=\"_blank\" title=\"1000 персидских мучеников\">1000 Персидских</a> и <a  href=\"http://days.pravoslavie.ru/name/84.html\" target=\"_blank\" title=\"Мученик Азат Персидский\">Азата</a> скопца. Св. <a  href=\"http://days.pravoslavie.ru/name/9439.html\" target=\"_blank\" title=\"Александр (Орлов), иерей, исп.\">Александра</a> исп., пресвитера. <a  href=\"http://days.pravoslavie.ru/name/2811.html\" target=\"_blank\" title=\"Виленская\">Виленской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2811_110.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2940.html\" target=\"_blank\" title=\"Остробрамская Виленская\">Виленской-Остробрамской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2940_451.html\" target=\"_blank\" >икона</a>) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_3_19_26.html#z\">Деян., 9 зач., III, 19-26.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_2_1_11.html#z\">Ин., 6 зач., II, 1-11.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17836.htm\" target=\"_blank\" title=\"Библия\">Дея. З, 19-26</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17837.htm\" target=\"_blank\" title=\"Библия\">Ин. 2, 1-11</a>). \"Покайтесь и обратитесь, чтобы загладились грехи ваши, да придут времена отрады от лица Господа\". Так говорил св. апостол Петр распявшим Господа иудеям, утешая их, что сделали это по неведению. Мы же не по неведению распинаем в себе вторично Господа грехами своими; но многомилостивый и нас принимает, когда каемся и обращаемся к Нему от всего сердца своего. Это и сделали мы в великий пост. Всякий прибегал ко Господу в слезах покаяния о грехах своих, и чем искреннее кто это делал, тем сильнее ощущал прохладу помилования, исходящего от лица Господа, через руки и разрешительное слово иерея Божия. Теперь что нам остается делать? Беречься от новых падений, чтобы опять не впасть в вину распинания Господа. Апостол говорит, что Господа Иисуса небо прияло только до лет устроения всех. Потом Он опять приидет и сотворит суд. Какими глазами воззрят на Него те, которые пронзили Ему ребра! А ведь и нам придется стоять в ряду их, если перестанем приносить плоды покаяния и возвратимся на старое.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

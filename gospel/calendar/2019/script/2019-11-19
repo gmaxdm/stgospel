@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("19 ноября 2020 г. ( 6 ноября ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 24-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/1686.html\" target=\"_blank\" title=\"Святитель Павел I Константинопольский, патриарх, сщмч.\">Павла</a> исп., патриарха Константинопольского. Прп. <a  href=\"http://days.pravoslavie.ru/name/357.html\" target=\"_blank\" title=\"Преподобный Варлаам Хутынский\">Варлаама</a> (<a  href=\"http://days.pravoslavie.ru/images/ii357_438.html\" target=\"_blank\" >икона</a>) Хутынского. Мцц. <a  href=\"http://days.pravoslavie.ru/name/2689.html\" target=\"_blank\" title=\"Текуса Анкирская (Коринфская), дева, мц.\">Текусы</a>, <a  href=\"http://days.pravoslavie.ru/name/2378.html\" target=\"_blank\" title=\"Александра Анкирская (Коринфская), дева, мц.\">Александры</a>, <a  href=\"http://days.pravoslavie.ru/name/2647.html\" target=\"_blank\" title=\"Полактия Анкирская (Коринфская), дева, мц.\">Полактии</a>, <a  href=\"http://days.pravoslavie.ru/name/2561.html\" target=\"_blank\" title=\"Клавдия Анкирская (Коринфская), дева, мц.\">Клавдии</a>, <a  href=\"http://days.pravoslavie.ru/name/2481.html\" target=\"_blank\" title=\"Мученица Евфрасия Анкирская\">Евфросинии</a>, <a  href=\"http://days.pravoslavie.ru/name/2419.html\" target=\"_blank\" title=\"Афанасия Анкирская (Коринфская), дева, мц.\">Афанасии</a> и <a  href=\"http://days.pravoslavie.ru/name/2612.html\" target=\"_blank\" title=\"Матрона Анкирская (Коринфская), дева, мц.\">Матроны</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1379.html\" target=\"_blank\" title=\"Лука Тавроменийский, прп.\">Луки</a> Тавроменийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1377.html\" target=\"_blank\" title=\"Лука Печерский, эконом\">Луки</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1377_1887.html\" target=\"_blank\" >икона</a>), эконома Печерского. Свт. <a  href=\"http://days.pravoslavie.ru/name/509.html\" target=\"_blank\" title=\"Святитель Герман, архиепископ Казанский и Свияжский\">Германа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii509_224.html\" target=\"_blank\" >икона</a>), архиеп. Казанского. Прп. <a  href=\"http://days.pravoslavie.ru/name/354.html\" target=\"_blank\" title=\"Варлаам Керетский, Архангельский, иеромонах\">Варлаама</a> Керетского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9150.html\" target=\"_blank\" title=\"Святитель Никита (Делекторский), епископ Орехово-Зуевский, сщмч.\">Никиты</a>, еп. Орехово-Зуевского, <a  href=\"http://days.pravoslavie.ru/name/9472.html\" target=\"_blank\" title=\"Анатолий (Бержицкий), иерей, сщмч.\">Анатолия</a>, <a  href=\"http://days.pravoslavie.ru/name/9282.html\" target=\"_blank\" title=\"Арсений (Троицкий), протоиерей, сщмч.\">Арсения</a>,  <a  href=\"http://days.pravoslavie.ru/name/9725.html\" target=\"_blank\" title=\"Николай (Протасов), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/13845.html\" target=\"_blank\" title=\"Николай (Дворицкий), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/14345.html\" target=\"_blank\" title=\"Константин (Любомудров), иерей, сщмч.\">Константина</a>  пресвитеров., прмчч. <a  href=\"http://days.pravoslavie.ru/name/9187.html\" target=\"_blank\" title=\"Варлаам (Никольский), игумен, сщмч.\">Варлаама</a> и <a  href=\"http://days.pravoslavie.ru/name/9203.html\" target=\"_blank\" title=\"Гавриил (Владимиров), иеромонах, сщмч.\">Гавриила</a>, <a  href=\"http://days.pravoslavie.ru/name/13846.html\" target=\"_blank\" title=\"Гавриил (Гур), иеромонах, прмч.\">Гавриила</a>, прмцц. <a  href=\"http://days.pravoslavie.ru/name/9902.html\" target=\"_blank\" title=\"Нина (Шувалова), инокиня, прмц.\">Нины</a> и <a  href=\"http://days.pravoslavie.ru/name/9905.html\" target=\"_blank\" title=\"Серафима (Горшкова), инокиня, прмц.\">Серафимы</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9497.html\" target=\"_blank\" title=\"Василий (Крылов), иерей, сщмч.\">Василия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-sol_5_1_8.html#z\">1 Сол., 271 зач., V, 1-8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_11_47_0_12_0_1.html#z\">Лк., 62 зач., XI, 47 - XII, 1.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_8_12.html#z\">Лк., 64 зач., XII, 8-12.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18278.htm\" target=\"_blank\" title=\"Библия\">1 Фес. 5, 1-8</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18279.htm\" target=\"_blank\" title=\"Библия\">Лк. 11, 47-12, 1</a>). \"Берегитесь закваски фарисейской, которая есть лицемерие\". Отличительная черта лицемерия - делать все напоказ. Действовать на глазах других еще не лицемерие, потому что большая часть обязательных для нас дел и должны быть совершаемы для людей, следовательно, среди них и на виду у них. Хоть и лучше поступают те, которые ухищряются все делать тайно, но не всегда это возможно; потому-то действующих на виду нельзя тотчас укорять в желании только быть показными или действовать напоказ. У них может быть искреннее желание делать добро, а показанность необходимое сопутствие дел совершаемых внешне. Лицемерие начинается с того момента, когда является намерение не добро делать, а показать только себя делающим добро. И это опять не всегда бывает преступно, потому что может быть минутным набегом помыслов, которые тотчас замечаются и прогоняются. Но когда возымеется в виду установить за собою репутацию делающего добро, то тут уже лицемерие, которое глубоко входит в сердце. Когда же ко всему этому присоединится еще скрытная цель пользоваться и выгодами подобной репутации, то тут уж лицемерие во всей своей силе. Смотри же всякий чего требует Господь, когда заповедует \"беречься закваски фарисейской\". Делай добро по желанию другим добра, по сознанию на то воли Божией, во славу Божию, а о том, как взглянут на то люди, не заботься - и избежишь лицемерия.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("17 сентября 2020 г. ( 4 сентября ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 15-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. Боговидца <a  href=\"http://days.pravoslavie.ru/name/1568.html\" target=\"_blank\" title=\"Пророк Моисей\">Моисея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1568_976.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/326.html\" target=\"_blank\" title=\"Святитель Вавила Антиохийский, епископ, сщмч.\">Вавилы</a>, еп. Великой Антиохии, и с ним трех отроков: <a  href=\"http://days.pravoslavie.ru/name/2138.html\" target=\"_blank\" title=\"Урван Антиохийский, мч.\">Урвана</a>, <a  href=\"http://days.pravoslavie.ru/name/1831.html\" target=\"_blank\" title=\"Прилидиан Антиохийский, мч.\">Прилидиана</a>, <a  href=\"http://days.pravoslavie.ru/name/786.html\" target=\"_blank\" title=\"Епполоний Антиохийский, мч.\">Епполония</a> и матери их <a  href=\"http://days.pravoslavie.ru/name/2758.html\" target=\"_blank\" title=\"Христодула Антиохийская, исповедница\">Христодулы</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/7004.html\" target=\"_blank\" title=\"Преподобномученик Парфений, игумен Кизилташский\">Парфения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii7004_645.html\" target=\"_blank\" >икона</a>), игумена Кизилташского. Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/1031.html\" target=\"_blank\" title=\"Святитель Иоасаф Белгородский\">Иоасафа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1031_241.html\" target=\"_blank\" >икона</a>), еп. Белгородского. Второе обретение и перенесение мощей святителя <a  href=\"http://days.pravoslavie.ru/name/1545.html\" target=\"_blank\" title=\"Святитель Митрофан, епископ Воронежский\">Митрофана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1545_363.html\" target=\"_blank\" >икона</a>), епископа Воронежского. <a  href=\"http://days.pravoslavie.ru/name/14312.html\" target=\"_blank\" title=\"Собор Воронежских святых\">Собор</a> Воронежских святых. Мц. <a  href=\"http://days.pravoslavie.ru/name/2505.html\" target=\"_blank\" title=\"Ермиония, мц.\">Ермионии</a>, дщери ап. <a  href=\"http://days.pravoslavie.ru/name/2292.html\" target=\"_blank\" title=\"Святой Филипп, апостол от 70-ти\">Филиппа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2292_3543.html\" target=\"_blank\" >икона</a>) диакона. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2185.html\" target=\"_blank\" title=\"Феодор Кандавлский, Никомидийский, мч.\">Феодора</a>, <a  href=\"http://days.pravoslavie.ru/name/1528.html\" target=\"_blank\" title=\"Миан Никомидийский, мч.\">Миана</a>, <a  href=\"http://days.pravoslavie.ru/name/1138.html\" target=\"_blank\" title=\"Иулиан Кандавлский, Никомидийский, мч.\">Иулиана</a> и <a  href=\"http://days.pravoslavie.ru/name/1204.html\" target=\"_blank\" title=\"Кион Никомидийский, мч.\">Киона</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/327.html\" target=\"_blank\" title=\"Вавила Никомидийский, мч.\">Вавилы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii327_4533.html\" target=\"_blank\" >икона</a>) Никомидийского и с ним 84-х отроков. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14518.html\" target=\"_blank\" title=\"Святитель Петр (Зимонич), митрополит Дабро-Боснийский, сщмч.\">Петра</a>, митр. Дабро-Боснийского (Серб.). Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/14313.html\" target=\"_blank\" title=\"Святитель Григорий (Лебедев), епископ Шлиссельбургский, сщмч.\">Григория</a>, еп. Шлиссельбургского. <a  href=\"http://days.pravoslavie.ru/name/9745.html\" target=\"_blank\" title=\"Павел (Васильевский), иерей, сщмч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/9601.html\" target=\"_blank\" title=\"Иоанн (Василевский), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9712.html\" target=\"_blank\" title=\"Николай (Лебедев), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9733.html\" target=\"_blank\" title=\"Николай (Сретенский), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9632.html\" target=\"_blank\" title=\"Иоанн (Ромашкин), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9738.html\" target=\"_blank\" title=\"Николай (Хвощев), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9436.html\" target=\"_blank\" title=\"Александр (Никольский), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9771.html\" target=\"_blank\" title=\"Петр (Лебединский), иерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/14517.html\" target=\"_blank\" title=\"Илия (Измайлов), иерей, сщмч.\">Илии</a>,  <a  href=\"http://days.pravoslavie.ru/name/9354.html\" target=\"_blank\" title=\"Михаил (Богородский), протоиерей, сщмч.\">Михаила</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/9247.html\" target=\"_blank\" title=\"Стефан (Кусков), иеромонах, сщмч.\">Стефана</a>, мчч. <a  href=\"http://days.pravoslavie.ru/name/9951.html\" target=\"_blank\" title=\"Василий (Ежов), мч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/10022.html\" target=\"_blank\" title=\"Петр (Лонсков), мч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/10035.html\" target=\"_blank\" title=\"Стефан (Митюшкин), мч.\">Стефана</a> и <a  href=\"http://days.pravoslavie.ru/name/9928.html\" target=\"_blank\" title=\"Александр (Блохин), мч.\">Александра</a>. Мц. <a  href=\"http://days.pravoslavie.ru/name/14424.html\" target=\"_blank\" title=\"Елена (Чернова), мц.\">Елены</a>. Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2914.html\" target=\"_blank\" title=\"\"Неопалимая Купина\"\">\"Неопалимая Купина\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2914_263.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_gal_3_23_0_4_0_5.html#z\">Гал., 208 зач., III, 23 - IV, 5.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_6_30_45.html#z\">Мк., 25 зач., VI, 30-45.</a> Свв.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_11_33_0_12_0_2.html#z\">Евр., 330 зач., XI, 33 - XII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_32_40.html#z\">Лк., 67 зач., XII, 32-40</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба свт. Иоасафа, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16,</a> а на литургии - чтения дня и святителя: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18145.htm\" target=\"_blank\" title=\"Библия\">Мк. 6, 30-45</a>). \"И бежали туда пешие из всех городов. . . и собрались к Нему\", - это в пустыню Вифсаидскую, где совершено чудное насыщение пяти тысяч пятью хлебами и двумя рыбами. Что же влекло народ к Господу? Сочувствие к Божественному. Божество Господа, сокрытое под покровом человеческого естества, являет себя в слове, деле, взоре и во всем, что видно было в Господе. Проявления Божества пробуждали сокрытое в сердце чувство Божества и через него влекли к Господу. Удержать такое движение никто не властен, не только сторонний, но и сам чувствующий его, потому что оно глубже и сильнее всяких других движений. То же Божественное, проявляемое потом Спасителем, влекло к Нему людей всякого языка, иже под небесем. То же действовалось во всей истории Церкви и действуется до сих пор. Малый след Божественного влечет к себе. Что же следует из этого повсюдного и всевременного опыта стремлений нашего духа к Божественному? То, что Божественное, что сверхъестественное, что и Божество, источник его. Это стремление лежит в основе нашего духа и составляет его природу, как это может всякий видеть из умовых, эстетических и деятельных забот наших. Но в природе не может быть лжи и обмана; следовательно, нет их и в этом стремлении к Божеству. Отсюда выходит, что Бог и Божественное есть, и что естественники, отвергающие сверхъестественное, идут против естества духа человеческого.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

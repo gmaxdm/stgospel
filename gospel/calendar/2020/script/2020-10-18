@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("18 октября 2020 г. ( 5 октября ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 19-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мц. <a  href=\"http://days.pravoslavie.ru/name/2747.html\" target=\"_blank\" title=\"Харитина Амисийская (Понтийская), мц.\">Харитины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2747_3748.html\" target=\"_blank\" >икона</a>). Свтт. Московских <a  href=\"http://days.pravoslavie.ru/name/1779.html\" target=\"_blank\" title=\"Святитель Петр, митрополит Московский и всея Руси\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1779_262.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2173.html\" target=\"_blank\" title=\"Святитель Феогност Киевский и Московский, митрополит\">Феогноста</a>,<a  href=\"http://days.pravoslavie.ru/name/131.html\" target=\"_blank\" title=\"Алексий, митрополит Московский и всея Руси\">Алексия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii131_46.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1209.html\" target=\"_blank\" title=\"Святитель Киприан, митрополит Московский и всея Руси\">Киприана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1209_874.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2331.html\" target=\"_blank\" title=\"Святитель Фотий, митрополит Киевский, Московский и всея Руси\">Фотия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2331_2107.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1042.html\" target=\"_blank\" title=\"Святитель Иона, митрополит Московский и всея Руси\">Ионы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1042_355.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/14262.html\" target=\"_blank\" title=\"Святитель Геронтий, митрополит Московский и всея Руси\">Геронтия</a>, <a  href=\"http://days.pravoslavie.ru/name/11767.html\" target=\"_blank\" title=\"Святитель Иоасаф (Скрипицын), митрополит Московский и всея Руси\">Иоасафа</a>, <a  href=\"http://days.pravoslavie.ru/name/1408.html\" target=\"_blank\" title=\"Святитель Макарий, митрополит Московский и всея Руси\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1408_361.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2294.html\" target=\"_blank\" title=\"Святитель Филипп, Митрополит Московский и всея России, чудотворец\">Филиппа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2294_22.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1036.html\" target=\"_blank\" title=\"Святитель Иов Московский и всея Руси, патриарх\">Иова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1036_262.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/804.html\" target=\"_blank\" title=\"Священномученик Ермоген, патриарх Московский и всея Руси\">Ермогена</a> (<a  href=\"http://days.pravoslavie.ru/images/ii804_214.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2119.html\" target=\"_blank\" title=\"Святитель Тихон (Белавин), патриарх Московский и всея Руси\">Тихона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2119_26.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/6607.html\" target=\"_blank\" title=\"Священномученик Петр (Полянский), митрополит Крутицкий\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6607_49.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2284.html\" target=\"_blank\" title=\"Святитель Филарет (Дроздов), митрополит Московский и Коломенский\">Филарета</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2284_301.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/953.html\" target=\"_blank\" title=\"Святитель Иннокентий, митрополит Московский и Коломенский\">Иннокентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii953_74.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/13482.html\" target=\"_blank\" title=\"Святитель Макарий (Невский, Парвицкий), митрополит Московский и Коломенский\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13482_773.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/617.html\" target=\"_blank\" title=\"Святитель Дионисий Александрийский, епископ, исповедник\">Дионисия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii617_1756.html\" target=\"_blank\" >икона</a>), еп. Александрийского. Мц. <a  href=\"http://days.pravoslavie.ru/name/2581.html\" target=\"_blank\" title=\"Мамелхва Персидская, мц.\">Мамелхвы</a> Персидской. Прп. <a  href=\"http://days.pravoslavie.ru/name/550.html\" target=\"_blank\" title=\"Григорий Хандзтийский (Грузинский), архимандрит\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii550_3691.html\" target=\"_blank\" >икона</a>) Хандзойского (Груз.). Прпп. <a  href=\"http://days.pravoslavie.ru/name/573.html\" target=\"_blank\" title=\"Дамиан Печерский, пресвитер\">Дамиана</a>, пресвитера, целебника, <a  href=\"http://days.pravoslavie.ru/name/915.html\" target=\"_blank\" title=\"Иеремия Печерский, Прозорливый\">Иеремии</a> и <a  href=\"http://days.pravoslavie.ru/name/1501.html\" target=\"_blank\" title=\"Преподобный Матфей Печерский, Прозорливый\">Матфея</a> прозорливых, Печерских. Прп. <a  href=\"http://days.pravoslavie.ru/name/2748.html\" target=\"_blank\" title=\"Преподобная Харитина, княжна Литовская\">Харитины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2748_2283.html\" target=\"_blank\" >икона</a>), кн. Литовской, в Новгороде подвизавшейся. Прп. <a  href=\"http://days.pravoslavie.ru/name/9167.html\" target=\"_blank\" title=\"Гавриил (Игошкин), архимандрит, исп.\">Гавриила</a> исп. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 8-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_20_11_18.html#z\">Ин., 64 зач., XX, 11-18.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_11_31_0_12_0_9.html#z\">2 Кор., 194 зач., XI, 31 - XII, 9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_31_36.html#z\">Лк., 26 зач., VI, 31-36.</a> Свтт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18209.htm\" target=\"_blank\" title=\"Библия\">Лк. 6, 31-36</a>). Коренная, исходная заповедь - люби. Малое слово, а выражает всеобъятное дело. Легко сказать люби, но не легко достигнуть в должную меру любви. Не совсем ясно и то, как этого достигнуть; потому-то Спаситель обставляет эту заповедь другими пояснительными правилами: люби, \"как самого себя; и как хотите, чтобы с вами поступали люди, так и вы поступайте с ними\". Тут указывается мера любви, можно сказать, безмерная; ибо есть ли мера любви к самому себе и есть ли добро, которого не пожелал бы себе кто от других? Между тем, однако, это предписание не неисполнимо. Все дело стоит за тем, чтобы войти в совершенное сочувствие с другими так, чтобы их чувства вполне переносить на себя, чувствовать так, как они чувствуют. Когда это будет, нечего и указывать, что в каком случае надо сделать для других: само сердце укажет. Ты только позаботься поддерживать сочувствие, а то тотчас подойдет эгоизм и возвратит тебя к себе и заключит в себя. Тогда и пальцем не пошевелишь для другого и смотреть на него не станешь, хоть умри он. Когда сказал Господь: люби ближнего, как самого себя, то хотел, чтобы вместо нас, стал в нас, т. е. в сердце нашем, ближний. Если же там по старому будет стоять наше \"я\", то не жди добра.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

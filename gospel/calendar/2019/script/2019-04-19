@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("19 апреля 2020 г. ( 6 апреля ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/3039.html\" target=\"_blank\" title=\"Пасха Христова\">Светлое Христово Воскресение. Пасха.</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii3039_67.html\" target=\"_blank\" >икона</a>)</span></span><br> Свт. <a  href=\"http://days.pravoslavie.ru/name/725.html\" target=\"_blank\" title=\"Святитель Евтихий Константинопольский, архиепископ Константинопольский\">Евтихия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii725_4178.html\" target=\"_blank\" >икона</a>), архиеп. Константинопольского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/913.html\" target=\"_blank\" title=\"Иеремий Римский, мч.\">Иеремия</a> и <a  href=\"http://days.pravoslavie.ru/name/278.html\" target=\"_blank\" title=\"Архилий Римский, иерей, сщмч.\">Архилия</a> иерея. Прп. <a  href=\"http://days.pravoslavie.ru/name/2646.html\" target=\"_blank\" title=\"Платонида Сирская, прп.\">Платониды</a> Сирской. Мчч.<a  href=\"http://days.pravoslavie.ru/name/13711.html\" target=\"_blank\" title=\"120 персидских мучеников\">120-ти Персидских</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/1525.html\" target=\"_blank\" title=\"Равноапостольный Мефодий, учитель Словенский\">Мефодия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1525_54.html\" target=\"_blank\" >икона</a>), архиеп. Моравского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/10021.html\" target=\"_blank\" title=\"Петр (Жуков), мч.\">Петра</a> и <a  href=\"http://days.pravoslavie.ru/name/10027.html\" target=\"_blank\" title=\"Прохор (Михайлов), мч.\">Прохора</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9598.html\" target=\"_blank\" title=\"Иоанн (Бойков), иерей, сщмч.\">Иоанна</a> пресвитера. Cщмч. <a  href=\"http://days.pravoslavie.ru/name/9581.html\" target=\"_blank\" title=\"Иаков (Бойков), иерей, сщмч.\">Иакова</a> пресвитера. Прп. <a  href=\"http://days.pravoslavie.ru/name/9163.html\" target=\"_blank\" title=\"Севастиан (Фомин) Карагандинский, схиархимандрит, исп.\">Севастиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9163_3094.html\" target=\"_blank\" >икона</a>) Карагандинского, исп.. ");
+}
+
+function print_chten()
+{
+ daysd.write("Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_1_1_8.html#z\">Деян., 1 зач., I, 1-8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_1_1_17.html#z\">Ин., 1 зач., I, 1-17.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_in_20_19_25.html#z\">Ин., 65 зач., XX, 19-25.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("П а с х а, Г о с п о д н я  П а с х а ! От смерти к жизни привел нас Господь Своим Воскресением. И вот Воскресение это \"ангелы поют на небеси\". увидев светлость обоженного естества человеческого в предопределенной ему славе, в лице Господа Искупителя, во образе коего, силою Воскресения Его, имели претвориться все истинно верующие в Него и прилепляющиеся к Нему вседушно. Слава Господи, преславному Воскресению Твоему! Ангелы поют, сорадуясь нам и предзря восполнение сонма своего; нас же сподоби, Господи, Тебя Воскресшего чистым сердцем славить, видя в Воскресении Твоем пресечение снедающего нас тления, засеменение новой жизни пресветлой и зарю будущей вечной славы, в которую Предтечею вошел Ты Воскресением нас ради. Не человеческие только, но вместе и ангельские языки не сильны изъяснить неизреченную Твою к нам милость, преславно Воскресший Господи!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

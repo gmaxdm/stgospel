@@ -1,0 +1,8 @@
+{% extends 'letters/letter_wrapper.html' %}
+{% load i18n %}
+{% block title %}{% trans 'Здравствуйте' %}, {{ first_name }} {{ last_name }}!{% endblock %}
+{% block main %}
+  <p>{% trans 'Для подтверждения регистрации пройдите, пожалуйста, по ссылке' %} <a href="https://st-gospel.ru/register/confirm/?t={{ confirmstr }}" style="color:#007bff;text-decoration:none;font-weight:bold;">{% trans 'завершить регистрацию' %}</a>.</p>
+  <br />
+  <p>{% trans 'Благодарим Вас!' %}</p>
+{% endblock %}

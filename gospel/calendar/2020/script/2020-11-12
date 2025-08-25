@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("12 ноября 2020 г. ( 30 октября ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 23-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/830.html\" target=\"_blank\" title=\"Святитель Зиновий Егейский (Киликийский), епископ, сщмч.\">Зиновия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii830_3805.html\" target=\"_blank\" >икона</a>), еп. Егейского, и сестры его <a  href=\"http://days.pravoslavie.ru/name/2509.html\" target=\"_blank\" title=\"Зиновия Егейская (Киликийская), мц.\">Зиновии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2509_3822.html\" target=\"_blank\" >икона</a>). Апп. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/2095.html\" target=\"_blank\" title=\"Апостол от 70-ти Тертий\">Тертия</a>, <a  href=\"http://days.pravoslavie.ru/name/1459.html\" target=\"_blank\" title=\"Апостол и евангелист Марк\">Марка</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1459_941.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/359.html\" target=\"_blank\" title=\"Святой Варсава, апостол от 70-ти\">Иуста</a> и <a  href=\"http://days.pravoslavie.ru/name/272.html\" target=\"_blank\" title=\"Святитель Артема, епископ Листрийский, апостол от 70-ти\">Артемы</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1484.html\" target=\"_blank\" title=\"Священномученик Маркиан, епископ Сиракузский\">Маркиана</a>, еп. Сиракузского. Мц. <a  href=\"http://days.pravoslavie.ru/name/2476.html\" target=\"_blank\" title=\"Евтропия Александрийская, мц.\">Евтропии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2476_3803.html\" target=\"_blank\" >икона</a>) Александрийской. Мц. <a  href=\"http://days.pravoslavie.ru/name/2382.html\" target=\"_blank\" title=\"Преподобномученица Анастасия Римляныня\">Анастасии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2382_4590.html\" target=\"_blank\" >икона</a>) Солунской. Св. <a  href=\"http://days.pravoslavie.ru/name/2059.html\" target=\"_blank\" title=\"Стефан Милютин, Сербский, король\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2059_1171.html\" target=\"_blank\" >икона</a>) Милютина, короля Сербского, брата его <a  href=\"http://days.pravoslavie.ru/name/657.html\" target=\"_blank\" title=\"Драгутин (в иночестве Феоктист) Сербский, король, прп.\">Драгутина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii657_992.html\" target=\"_blank\" >икона</a>) и матери их <a  href=\"http://days.pravoslavie.ru/name/2495.html\" target=\"_blank\" title=\"Елена Сербская, королева, прп.\">Елены</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2495_1511.html\" target=\"_blank\" >икона</a>) (Серб.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9834.html\" target=\"_blank\" title=\"Матфей (Казарин), протодиакон, сщмч.\">Матфея</a> диакона. Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/9094.html\" target=\"_blank\" title=\"Святитель Агафангел (Преображенский), митрополит Ярославский, исп.\">Агафангела</a> исп., митр. Ярославского. <a  href=\"http://days.pravoslavie.ru/name/2937.html\" target=\"_blank\" title=\"Озерянская\">Озерянской</a> иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-sol_2_9_14.html#z\">1 Сол., 265 зач., II, 9-14.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_11_14_23.html#z\">Лк., 57 зач., XI, 14-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18263.htm\" target=\"_blank\" title=\"Библия\">1 Фес. 2, 9-14</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18264.htm\" target=\"_blank\" title=\"Библия\">Лк. 11, 14-23</a>). \"Когда сильный с оружием охраняет свой дом, тогда в безопасности его имение; когда же сильнейший его нападет на него и победит его, тогда возьмет все оружие его, на которое он надеялся, и разделит похищенное у него\". Это иносказание объясняет, как Господом разоряется власть бесовская над душами. Пока душа в грехе, ею владеет свой дух злой, хоть не всегда явно показывает то. Он сильнее души, потому и не боится восстания с ее стороны, властвует и тиранствует над нею без сопротивления. Но когда Господь приходит в душу, привлеченный верою и покаянием, тогда разрывает все узы сатанинские, изгоняет беса и лишает его всякой власти над душею такого. И пока работает душа та Господу, бесы не могут возобладать над нею, ибо она сильна Господом, сильнее их. Когда же душа оплошает и отшатнется от Господа, бес опять нападает и одолевает, и бывает ей, бедной, хуже, чем прежде. Это всеобщий невидимый порядок явлений в духовном мире. Если б у нас открылись умные очи, мы увидели бы всемирную брань духов с душами: побеждает то одна, то другая сторона, смотря по тому, общаются ли души с Господом верою, покаянием и ревнованием о добрых делах или отстают от Него нерадением, беспечностью и охлаждением к добру.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

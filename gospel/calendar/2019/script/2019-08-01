@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("1 августа 2020 г. ( 19 июля ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 8-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/2580.html\" target=\"_blank\" title=\"Макрина Каппадокийская, Новая, Младшая, прп.\">Макрины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2580_2217.html\" target=\"_blank\" >икона</a>), сестры свт. <a  href=\"http://days.pravoslavie.ru/name/373.html\" target=\"_blank\" title=\"Святитель Василий Великий\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii373_8.html\" target=\"_blank\" >икона</a>) Великого. Прп. <a  href=\"http://days.pravoslavie.ru/name/592.html\" target=\"_blank\" title=\"Дий Константинопольский, игумен\">Дия</a>. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/1968.html\" target=\"_blank\" title=\"Преподобный Серафим, Саровский чудотворец\">Серафима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1968_5.html\" target=\"_blank\" >икона</a>), Саровского чудотворца. <a  href=\"http://days.pravoslavie.ru/name/14421.html\" target=\"_blank\" title=\"Собор Курских святых\">Собор</a> Курских святых. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/1875.html\" target=\"_blank\" title=\"Благоверный князь мученик Роман Олегович, Рязанский\">Романа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1875_155.html\" target=\"_blank\" >икона</a>) (Олеговича) Рязанского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1710.html\" target=\"_blank\" title=\"Преподобный Паисий Печерский\">Паисия</a> Печерского. Прав. <a  href=\"http://days.pravoslavie.ru/name/2057.html\" target=\"_blank\" title=\"Стефан Лазаревич Новый (Высокий), Сербский, король\">Стефана</a> Высокого, деспота Сербского и матери его <a  href=\"http://days.pravoslavie.ru/name/2617.html\" target=\"_blank\" title=\"Святая Милица, княгиня Сербская\">Милицы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2617_1509.html\" target=\"_blank\" >икона</a>).  Свтт. <a  href=\"http://days.pravoslavie.ru/name/601.html\" target=\"_blank\" title=\"Святитель Димитрий, митрополит Ростовский\">Димитрия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii601_347.html\" target=\"_blank\" >икона</a>), митр. Ростовского, <a  href=\"http://days.pravoslavie.ru/name/1545.html\" target=\"_blank\" title=\"Святитель Митрофан, епископ Воронежский\">Митрофана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1545_363.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2116.html\" target=\"_blank\" title=\"Святитель Тихон Задонский\">Тихона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2116_296.html\" target=\"_blank\" >икона</a>), еп. Воронежских. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Лит. - Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

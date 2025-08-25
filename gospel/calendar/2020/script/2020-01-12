@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("12 января 2020 г. (30  декабря 2019 г. ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 30-я по Пятидесятнице, по Рождестве Христовом. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Правв. <a  href=\"http://days.pravoslavie.ru/name/1061.html\" target=\"_blank\" title=\"Святой Иосиф Обручник\">Иосифа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1061_129.html\" target=\"_blank\" >икона</a>) Обручника, <a  href=\"http://days.pravoslavie.ru/name/562.html\" target=\"_blank\" title=\"Святой царь и пророк Давид\">Давида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii562_168.html\" target=\"_blank\" >икона</a>) царя и <a  href=\"http://days.pravoslavie.ru/name/869.html\" target=\"_blank\" title=\"Апостол Иаков, брат Господень\">Иакова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii869_578.html\" target=\"_blank\" >икона</a>), брата Господня. Мц. <a  href=\"http://days.pravoslavie.ru/name/2389.html\" target=\"_blank\" title=\"Мученица Анисия Солунская\">Анисии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2389_3914.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/860.html\" target=\"_blank\" title=\"Зотик Сиропитатель, Константинопольский, пресвитер, сщмч.\">Зотика</a> (<a  href=\"http://days.pravoslavie.ru/images/ii860_565.html\" target=\"_blank\" >икона</a>) пресвитера, сиропитателя. Свт. <a  href=\"http://days.pravoslavie.ru/name/1408.html\" target=\"_blank\" title=\"Святитель Макарий, митрополит Московский и всея Руси\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1408_361.html\" target=\"_blank\" >икона</a>), митр. Московского. Ап. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/2100.html\" target=\"_blank\" title=\"Апостол Тимон\">Тимона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2100_3610.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/2285.html\" target=\"_blank\" title=\"Филетер Никомидийский, мч.\">Филетера</a> Никомидийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2708.html\" target=\"_blank\" title=\"Феодора Кесарийская, прп.\">Феодоры</a> Кесарийской. Прп. <a  href=\"http://days.pravoslavie.ru/name/2709.html\" target=\"_blank\" title=\"Феодора Константинопольская, прп.\">Феодоры</a> Константинопольской. Мц. <a  href=\"http://days.pravoslavie.ru/name/10083.html\" target=\"_blank\" title=\"Мария (Данилова), мц.\">Марии</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 8-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_20_11_18.html#z\">Ин., 64 зач., XX, 11-18.</a> Лит. - Недели по Рождестве Христовом: <a href=\"http://days.pravoslavie.ru/bible/z_gal_1_11_19.html#z\">Гал., 200 зач., I, 11-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_2_13_23.html#z\">Мф., 4 зач., II, 13-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

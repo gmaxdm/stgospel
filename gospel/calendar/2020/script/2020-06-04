@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("4 июня 2020 г. ( 22 мая ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 7-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/391.html\" target=\"_blank\" title=\"Мученик Василиск Команский\">Василиска</a> (<a  href=\"http://days.pravoslavie.ru/images/ii391_4104.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/557.html\" target=\"_blank\" title=\"Давид Гареджийский, прп.\">Давида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii557_1751.html\" target=\"_blank\" >икона</a>) Гареджийского. Мч. <a  href=\"http://days.pravoslavie.ru/name/1027.html\" target=\"_blank\" title=\"Мученик Иоанн-Владимир, князь Сербский\">Иоанна-Владимира</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1027_3001.html\" target=\"_blank\" >икона</a>), кн. Сербского. Прав. <a  href=\"http://days.pravoslavie.ru/name/868.html\" target=\"_blank\" title=\"Праведный Иаков Боровичский\">Иакова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii868_577.html\" target=\"_blank\" >икона</a>) Боровичского, Новгородского чудотворца. Свв. отцов <a  href=\"http://days.pravoslavie.ru/name/6766.html\" target=\"_blank\" title=\"Второй Вселенский Собор.\">II Вселенского Собора</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/11135.html\" target=\"_blank\" title=\"Михаил (Борисов), протоиерей, сщмч.\">Михаила</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_17_30.html#z\">Лк., 31 зач., VII, 17-30.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_25_13_19.html#z\">Деян., 48 зач., XXV, 13-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_16_23_33.html#z\">Ин., 55 зач., XVI, 23-33.</a> Предтечи: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_4_6_15.html#z\">2 Кор., 176 зач., IV, 6-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_2_15.html#z\">Мф., 40 зач., XI, 2-15.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17920.htm\" target=\"_blank\" title=\"Библия\">Дея. 25, 13-19</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17921.htm\" target=\"_blank\" title=\"Библия\">Ин. 16, 23-33</a>). \"Истинно, истинно - говорю вам: о чем ни попросите Отца во имя Мое, даст вам\", сказал Господь и еще с подтверждением: \"истинно, истинно говорю вам\". Какой стыд для нас, что мы не умеем пользоваться таким неложным обетованием! И добро бы только нам стыд от того; а то наводится тень на самое обетование, будто оно слишком велико и неисполнимо. Нет, вина вся на нас, и главным образом в том, что мы не сознаем себя верными рабами Христовыми, и совесть не дает нам чаять какой - либо милости от Господа. К тому же и то бывает, что если иногда и приступает кто просить о чем Бога, то с раздвоенною душою: помянет о том мимоходом в молитве своей раз и два - и бросает, да и говорит потом: \"не слышит Бог\". Нет, прося чего либо особенно, надо держать неотступность и неутомимость в молитве, подобно вдове, которая и бессердечного судью докучанием своим заставила удовлетворить ее прошению. Настоящие молитвенники, испрашивая что-либо в молитве, соединяют с молитвою пост, бдения, лишения всякого рода и всякое благотворение, и притом просят не день, не два, а месяцы и годы; зато и получают. Им и подражайте, если желаете иметь успех в молитве.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

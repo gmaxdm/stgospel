@@ -1,0 +1,52 @@
+{% extends 'wrapper.html' %}
+{% block title %}
+{% if troparions %}
+Тропари и кондаки: результаты поиска {{ srch }}
+{% else %}
+Тропари на каждый день
+{% endif %}
+{% endblock %}
+{% load common %}
+{% block main %}
+    <div class="">
+        {% if troparions %}
+            <h1>Тропари и кондаки: результаты поиска</h1>
+        {% else %}
+            <h1>Тропари на каждый день</h1>
+        {% endif %}
+        <form name="ftr" method="GET">
+            <input class="form-control" type="search" name="search" maxlength="100" placeholder="введите имя святого или праздник" value="{{ srch }}"/>
+            <p class="text-right mt-2"><button>Искать</button></p>
+        </form>
+        <div>
+        {% if troparions %}
+            {% for tr in troparions %}
+            <div>
+                <h5><a href="{% url 'tropar' %}?id={{ tr|mongo_id }}">{{ tr.title|safe }}</a></h5>
+                {% with dt=tr.date|as_date %}
+                <div class="text-muted ml-3"><small>{{ dt|date:"j E" }}</small></div>
+                {% endwith %}
+                <div class="m-3">
+                    {{ tr.text|linebreaksbr }}
+                </div>
+            </div>
+            {% endfor %}
+        {% else %}
+            <div class="mb-3 card border-info">
+                <div class="card-body">
+                    <div class="card-title text-muted">Сегодня, <em>{{ today }}</em>, {{ today|date:"l" }}</div>
+                    {% for name, prays in calendar.prayers.items %}
+                        {% if prays %}
+                            <h5>{{ name|safe }}</h5>
+                            {% for pray in prays %}
+                            <p class="lead">{{ pray }}</p>
+                            {% endfor %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% include 'pray/day_tropar.html' %}
+        {% endif %}
+        </div>
+    </div>
+{% endblock %}

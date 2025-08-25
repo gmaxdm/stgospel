@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("18 июня 2020 г. ( 5 июня ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/654.html\" target=\"_blank\" title=\"Святитель Дорофей Тирский, епископ, сщмч.\">Дорофея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii654_4301.html\" target=\"_blank\" >икона</a>), еп. Тирского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1478.html\" target=\"_blank\" title=\"Маркиан Египетский, мч.\">Маркиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1478_3555.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1605.html\" target=\"_blank\" title=\"Никандр Египетский, воин, мч.\">Никандра</a>, <a  href=\"http://days.pravoslavie.ru/name/1074.html\" target=\"_blank\" title=\"Иперехий Египетский, мч.\">Иперехия</a>, <a  href=\"http://days.pravoslavie.ru/name/239.html\" target=\"_blank\" title=\"Аполлон Египетский, мч.\">Аполлона</a>, <a  href=\"http://days.pravoslavie.ru/name/1340.html\" target=\"_blank\" title=\"Мученик Леонид\">Леонида</a>, <a  href=\"http://days.pravoslavie.ru/name/251.html\" target=\"_blank\" title=\"Арий Египетский, мч.\">Ария</a>, <a  href=\"http://days.pravoslavie.ru/name/523.html\" target=\"_blank\" title=\"Горгий (Гордий) Египетский, мч.\">Горгия</a>, <a  href=\"http://days.pravoslavie.ru/name/1957.html\" target=\"_blank\" title=\"Селиний (Селиниас) Египетский, мч.\">Селиния</a>, <a  href=\"http://days.pravoslavie.ru/name/1092.html\" target=\"_blank\" title=\"Ириний Египетский, мч.\">Ириния</a> и <a  href=\"http://days.pravoslavie.ru/name/1719.html\" target=\"_blank\" title=\"Памвон Египетский, мч.\">Памвона</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/231.html\" target=\"_blank\" title=\"Анувий Египетский, пустынножитель, исповедник\">Анувия</a>, пустынника Египетского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2184.html\" target=\"_blank\" title=\"Феодор Иорданский, прп.\">Феодора</a> чудотворца. Прп. аввы <a  href=\"http://days.pravoslavie.ru/name/653.html\" target=\"_blank\" title=\"Дорофей Палестинский, авва\">Дорофея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii653_4441.html\" target=\"_blank\" >икона</a>), из обители аввы Серида. Перенесение мощей блж. <a  href=\"http://days.pravoslavie.ru/name/907.html\" target=\"_blank\" title=\"Святой благоверный князь Игорь Ольгович\">Игоря</a> (<a  href=\"http://days.pravoslavie.ru/images/ii907_584.html\" target=\"_blank\" >икона</a>), вел. кн. Черниговского и Киевского. Свт. <a  href=\"http://days.pravoslavie.ru/name/1274.html\" target=\"_blank\" title=\"Святитель Константин, митрополит Киевский и всея России\">Константина</a>, митр. Киевского и всея России. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/2206.html\" target=\"_blank\" title=\"Благоверный князь Феодор Новгородский\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2206_158.html\" target=\"_blank\" >икона</a>) Ярославича (брата св. <a  href=\"http://days.pravoslavie.ru/name/114.html\" target=\"_blank\" title=\"Святой благоверный князь Александр Невский\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii114_30.html\" target=\"_blank\" >икона</a>) Невского), Новгородского. Обретение мощей прпп. <a  href=\"http://days.pravoslavie.ru/name/397.html\" target=\"_blank\" title=\"Вассиан Пертоминский, Соловецкий, прп.\">Вассиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii397_820.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1046.html\" target=\"_blank\" title=\"Иона Пертоминский, Соловецкий, прп.\">Ионы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1046_820.html\" target=\"_blank\" >икона</a>) Пертоминских, Соловецких чудотворцев. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14270.html\" target=\"_blank\" title=\"Михаил (Вотяков), иерей, сщмч.\">Михаила</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14419.html\" target=\"_blank\" title=\"Николай (Рюриков), протоиерей, сщмч.\">Николая</a> пресвитера. <a  href=\"http://days.pravoslavie.ru/name/2859.html\" target=\"_blank\" title=\"Игоревская\">Игоревской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2859_582.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_rim_5_10_16.html#z\">Рим., 89 зач., V, 10-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_8_23_27.html#z\">Мф., 27 зач., VIII, 23-27.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17950.htm\" target=\"_blank\" title=\"Библия\">Рим. 5, 10-16</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17951.htm\" target=\"_blank\" title=\"Библия\">Мф. 8, 23-27</a>). Переправлялись на ту сторону моря. Господь спал. Поднялась буря и все пришли в ужас, а о том, что Господь с ними и что, следовательно, с Ним нечего бояться, и забыли. Так бывает и в порядках жизни, житейских и духовных. Подымется буря бед или страстей, мы обыкновенно встревоживаемся до расслабления, думаем, что это и в порядке вещей: а Господь шлет нам урок: \"маловеры!\" И справедливо!  Нельзя, чтоб не обратить внимание на происшедшее; но можно всегда сохранить разумное спокойствие. Прежде всего посмотри, чего хочет от тебя Господь, и покорись смиренно под крепкую руку Его. Не мятись, не полошись. Затем воздвигни веру свою, что Господь с тобою и припади к стопам Его с молитвой. Но не вопи: \"погибаю!\", а с преданностью взывай: \"Господи! если хочешь - можешь. Однако не моя, но Твоя воля да будет\". Верь, что таким образом безопасно минуешь поднявшуюся бурю.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("9 июня 2020 г. ( 27 мая ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 1-я по Пятидесятнице (сплошная). ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2278.html\" target=\"_blank\" title=\"Святитель Ферапонт Сардийский, епископ, сщмч.\">Ферапонта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2278_4289.html\" target=\"_blank\" >икона</a>), еп. Сардийского. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/1653.html\" target=\"_blank\" title=\"Преподобный Нил Столобенский\">Нила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1653_265.html\" target=\"_blank\" >икона</a>) Столобенского. Прав. <a  href=\"http://days.pravoslavie.ru/name/1010.html\" target=\"_blank\" title=\"Святой Иоанн Русский, исповедник\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1010_833.html\" target=\"_blank\" >икона</a>) Русского, исп. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2704.html\" target=\"_blank\" title=\"Феодора Александрийская, дева, мц.\">Феодоры</a> девы и <a  href=\"http://days.pravoslavie.ru/name/590.html\" target=\"_blank\" title=\"Дидим Александрийский, мч.\">Дидима</a> воина. Прп. <a  href=\"http://days.pravoslavie.ru/name/2275.html\" target=\"_blank\" title=\"Преподобный Ферапонт Можайский\">Ферапонта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2275_300.html\" target=\"_blank\" >икона</a>) Белоезерского, Можайского. Перенесение мощей свтт. Московских <a  href=\"http://days.pravoslavie.ru/name/1209.html\" target=\"_blank\" title=\"Святитель Киприан, митрополит Московский и всея Руси\">Киприана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1209_874.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2331.html\" target=\"_blank\" title=\"Святитель Фотий, митрополит Киевский, Московский и всея Руси\">Фотия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2331_2107.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1042.html\" target=\"_blank\" title=\"Святитель Иона, митрополит Московский и всея Руси\">Ионы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1042_355.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/2277.html\" target=\"_blank\" title=\"Преподобный Ферапонт Монзенский\">Ферапонта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2277_3591.html\" target=\"_blank\" >икона</a>) Монзенского. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_1_1_7_1_13_17.html#z\">Рим., 79 зач., I, 1-7, 13-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_13.html#z\">Мф., 10 зач., IV, 25 - V, 13.</a> Прав. Иоанна Русского: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_8_12.html#z\">Лк., 64 зач., XII, 8-12.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17932.htm\" target=\"_blank\" title=\"Библия\">Рим. 1, 1-7, 13-17</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17933.htm\" target=\"_blank\" title=\"Библия\">Мф. 4, 25-5, 13</a>). По крещении Господа, когда на Него сошел Дух в виде голубине, Он низводится в пустыню искуситься. Таков и общий всем путь. Св. Исаак Сирианин замечает в одном месте, что коль скоро вкусишь благодатное утешение или получишь от Господа какой дар - жди искушения. Искушения прикрывают светлость благодати от собственных глаз человека, которые обычно съедают всякое добро самомнением и самовозношением. Искушения эти бывают и внешние - скорби, унижения, и внутренние - страстные помышления, которые нарочно спускаются, как звери с цепей. Сколько, поэтому, нужно внимать себе и строго разбирать бывающее с нами и в нас, чтобы видеть, почему оно так есть и к чему нас обязывает.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

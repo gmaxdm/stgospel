@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("6 ноября 2020 г. ( 24 октября ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 22-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Иконы Божией Матери <a  href=\"http://days.pravoslavie.ru/name/2824.html\" target=\"_blank\" title=\"\"Всех скорбящих Радость\"\">\"Всех скорбящих Радость\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2824_494.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/248.html\" target=\"_blank\" title=\"Арефа Негранский, градоправитель, мч.\">Арефы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii248_3554.html\" target=\"_blank\" >икона</a>) и с ним 4299 мучеников. Прп. <a  href=\"http://days.pravoslavie.ru/name/13551.html\" target=\"_blank\" title=\"Зосима Верховской, схимонах, прп.\">Зосимы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13551_2894.html\" target=\"_blank\" >икона</a>). Блж. <a  href=\"http://days.pravoslavie.ru/name/761.html\" target=\"_blank\" title=\"Елезвой Эфиопский, царь, затворник\">Елезвоя</a> (<a  href=\"http://days.pravoslavie.ru/images/ii761_3700.html\" target=\"_blank\" >икона</a>) (Калеба), царя Ефиопского. Мц. <a  href=\"http://days.pravoslavie.ru/name/2668.html\" target=\"_blank\" title=\"Синклитикия Негранская, мц.\">Синклитикии</a> и двух дщерей ее. Прпп. <a  href=\"http://days.pravoslavie.ru/name/249.html\" target=\"_blank\" title=\"Арефа Печерский, затворник\">Арефы</a>, <a  href=\"http://days.pravoslavie.ru/name/2028.html\" target=\"_blank\" title=\"Преподобные Арефа, Сисой и Феофил\">Сисоя</a> и <a  href=\"http://days.pravoslavie.ru/name/2270.html\" target=\"_blank\" title=\"Преподобный Феофил Печерский, затворник\">Феофила</a>, затворников Печерских. Свт. <a  href=\"http://days.pravoslavie.ru/name/297.html\" target=\"_blank\" title=\"Святитель Афанасий I Константинопольский, патриарх\">Афанасия</a>, Патриарха Цареградского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14520.html\" target=\"_blank\" title=\"Георгий (Карслидис), прп.\">Георгия</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9146.html\" target=\"_blank\" title=\"Святитель Лаврентий (Князев), епископ Балахнинский, сщмч.\">Лаврентия</a>, еп. Балахнинского, <a  href=\"http://days.pravoslavie.ru/name/9275.html\" target=\"_blank\" title=\"Алексий (Порфирьев), протоиерей, сщмч.\">Алексия</a> пресвитера и мч. <a  href=\"http://days.pravoslavie.ru/name/9935.html\" target=\"_blank\" title=\"Алексий (Нейдгардт), мч.\">Алексия</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/9197.html\" target=\"_blank\" title=\"Арефа (Митренин), иеромонах, исповедник\">Арефы</a> исп.. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9639.html\" target=\"_blank\" title=\"Иоанн (Смирнов), иерей, сщмч.\">Иоанна</a> и <a  href=\"http://days.pravoslavie.ru/name/9718.html\" target=\"_blank\" title=\"Николай (Никольский), иерей, сщмч.\">Николая</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9755.html\" target=\"_blank\" title=\"Петр (Богородский), иерей, сщмч.\">Петра</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_kol_4_10_18.html#z\">Кол., 261 зач., IV, 10-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_1_15.html#z\">Лк., 50 зач., X, 1-15.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18252.htm\" target=\"_blank\" title=\"Библия\">Лк. 10, 1-15</a>). Будет ли на том свете такое снисхождение к неприемлющим Господа, какое показал Он к живущим на земле? Нет, не будет. Посылая \"семьдесят\" на проповедь, Господь заповедал им, чтоб они, когда не примут их, говорили там на распутиях: \"и прах, прилипший к нам от вашего города, оттрясаем вам; однако же знайте, что приблизилось к вам Царствие Божие\"; то есть, вашего нам ничего не нужно: не из корысти какой ходим мы с проповедью, а для возвещения вам мира и Царствия Божия. Не хотите принять этого блага - как хотите; мы идем далее. Так заповедано на настоящее время, а на будущее что? \"Содому в день оный будет отраднее, нежели городу тому\". Стало быть, неверам нечего обнадеживать себя снисхождением Господним. Только и повольничать им, что на земле; а как смерть - так вся гроза гнева Божия обрушится на них. Великое несчастье попасть в неверы! И на земле-то им нерадостно, ибо без Бога и Господа Иисуса Христа - Спасителя и Искупителя, и здесь все мрачно и безотрадно, а что там, того и словом описать и вообразить невозможно. Уж отраднее бы уничтожиться, но и этого не дано будет им.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

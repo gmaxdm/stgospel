@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("28 января 2020 г. ( 15 января ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 33-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1701.html\" target=\"_blank\" title=\"Павел Фивейский, Египетский, отшельник, прп.\">Павла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1701_323.html\" target=\"_blank\" >икона</a>) Фивейского. Прп. <a  href=\"http://days.pravoslavie.ru/name/985.html\" target=\"_blank\" title=\"Преподобный Иоанн Кущник\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii985_1326.html\" target=\"_blank\" >икона</a>) Кущника. Прмч. <a  href=\"http://days.pravoslavie.ru/name/1726.html\" target=\"_blank\" title=\"Пансофий Александрийский, прмч.\">Пансофия</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1857.html\" target=\"_blank\" title=\"Прохор Пшинский, прп.\">Прохора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1857_646.html\" target=\"_blank\" >икона</a>) Пшинского (Серб.). Прп. <a  href=\"http://days.pravoslavie.ru/name/448.html\" target=\"_blank\" title=\"Гавриил Лесновский, прп.\">Гавриила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii448_641.html\" target=\"_blank\" >икона</a>) Лесновского (Серб.). Свт. <a  href=\"http://days.pravoslavie.ru/name/14206.html\" target=\"_blank\" title=\"Святитель Герасим (Паллада), патриарх Александрийский\">Герасима</a>, Патриарха Александрийского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14447.html\" target=\"_blank\" title=\"Михаил (Самсонов), протоиерей, сщмч.\">Михаила</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_iak_3_1_10.html#z\">Иак., 54 зач., III, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_11_11_23.html#z\">Мк., 50 зач., XI, 11-23.</a> Прпп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18398.htm\" target=\"_blank\" title=\"Библия\">Иак. З, 1-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18399.htm\" target=\"_blank\" title=\"Библия\">Мк. 11, 11-23</a>). У смоковницы, которая была богата листьями, а плодов не имела, Господь отнял благословение, - и она иссохла. Это урок действием. Под этой смоковницей разумеются люди, по виду исправные, а в существе дела недостойные одобрения. Кто же такие? Которые красно разглагольствуют о вере, а самой веры не имеют, - держат только в уме предметы веры. И те таковы, которые по внешнему поведению исправны, а по чувствам и расположениям очень неисправны, и дела исправные являют только дотоле, пока нельзя скрыть неисправности в них, а когда можно, не делают. Например, милостыню подает, когда просит кто при людях, а попроси наедине, еще разбранит. Богу молиться в церковь идет и на виду всех молится, и дома молится, чтоб не осрамиться перед домашними. Но как скоро один и лба не перекрестит. О мысленном же и сердечном к Богу обращении и понятия не имеет. Будем молиться, чтобы Бог не попустил нам быть такими. Ибо тогда не миновать нам суда изреченного над смоковницею.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

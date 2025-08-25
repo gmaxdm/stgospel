@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("23 февраля 2020 г. ( 10 февраля ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 36-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Заговенье на мясо. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2342.html\" target=\"_blank\" title=\"Священномученик Харалампий\">Харалампия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2342_1267.html\" target=\"_blank\" >икона</a>) и с ним мчч. <a  href=\"http://days.pravoslavie.ru/name/1824.html\" target=\"_blank\" title=\"Порфирий Антиохийский (Писидийский), мч.\">Порфирия</a>, <a  href=\"http://days.pravoslavie.ru/name/344.html\" target=\"_blank\" title=\"Ваптос Антиохийский (Писидийский), мч.\">Ваптоса</a> и трех мучениц. Мчч. дев <a  href=\"http://days.pravoslavie.ru/name/2502.html\" target=\"_blank\" title=\"Мученица Еннафа Газская\">Еннафы</a>, <a  href=\"http://days.pravoslavie.ru/name/2424.html\" target=\"_blank\" title=\"Мученица Валентина Кесарийская\">Валентины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2424_2145.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2636.html\" target=\"_blank\" title=\"Мученица Павла Кесарийская\">Павлы</a>. Св. <a  href=\"http://days.pravoslavie.ru/name/10510.html\" target=\"_blank\" title=\"Галина\">Галины</a>. Блгв. Кн. <a  href=\"http://days.pravoslavie.ru/name/2395.html\" target=\"_blank\" title=\"Благоверная княгиня Анна Новгородская\">Анны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2395_42.html\" target=\"_blank\" >икона</a>) Новгородской. Прп. <a  href=\"http://days.pravoslavie.ru/name/1856.html\" target=\"_blank\" title=\"Преподобный Прохор Печерский\">Прохора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1856_611.html\" target=\"_blank\" >икона</a>) Лебедника, Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1363.html\" target=\"_blank\" title=\"Лонгин Коряжемский, иеромонах\">Лонгина</a> Коряжемского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14987.html\" target=\"_blank\" title=\"Константин (Верецкий), иерей, сщмч.\">Константина</a> Верецкого пресвитера. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9762.html\" target=\"_blank\" title=\"Петр (Грудинский), иерей, сщмч.\">Петра</a> и <a  href=\"http://days.pravoslavie.ru/name/9483.html\" target=\"_blank\" title=\"Валериан (Новицкий), иерей, сщмч.\">Валериана</a> пресвитеров. Иконы Божией Матери <a  href=\"http://days.pravoslavie.ru/name/2925.html\" target=\"_blank\" title=\"\"Огневидная\"\">\"Огневидная\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2925_1313.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 3-е, <a href=\"http://days.pravoslavie.ru/bible/z_mk_16_9_20.html#z\">Мк., 71 зач., XVI, 9-20.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_8_8_0_9_0_2.html#z\">1 Кор., 140 зач., VIII, 8 - IX, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_25_31_46.html#z\">Мф., 106 зач., XXV, 31-46.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18456.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 8, 8-9, 2</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18457.htm\" target=\"_blank\" title=\"Библия\">Мф. 25, 31-46</a>). Страшный суд! Судия грядет на облаках, окруженный несметным множеством небесных сил безплотных. Трубы гласят по всем концам земли и восставляют умерших. Восставшие полки полками текут на определенное место, к престолу Судии, наперед уже предчувствуя, какой прозвучит в ушах их приговор. Ибо деяния каждого окажутся написанными на челе естества их, и самый вид их будет соответствовать делам и нравам. Разделение десных и шуиих совершится само собою. Наконец все уже определилось. Настало глубокое молчание. Еще мгновение - и слышится решительный приговор Судии - одним: \"приидите\", другим: \"отыдите\". - Помилуй нас, Господи, помилуй нас! Буди милость Твоя, Господи, на нас! - но тогда поздно уже будет взывать так. Теперь надо позаботиться смыть с естества своего написанные на нем знаки, неблагоприятные для нас. Тогда реки слез готовы бы были мы испустить, чтоб омыться; но это уж ни к чему не послужит. Восплачем теперь, если не реками слез, то хоть ручьями; если не ручьями, хоть дождевыми каплями; если и этого не найдем, сокрушимся в сердце и, исповедав грехи свои Господу, умолим Его простить нам их, давая обет не оскорблять Его более нарушением Его заповедей, - и ревнуя потом верно исполнить такой обет.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

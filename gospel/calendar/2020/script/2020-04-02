@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("2 апреля 2020 г. ( 20 марта ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><a  href=\"http://days.pravoslavie.ru/name/13545.html\" target=\"_blank\" title=\"Четверг пятой седмицы Великого Поста\">Четверток</a> Великого канона.</span><br> Прпп. <a  href=\"http://days.pravoslavie.ru/name/1012.html\" target=\"_blank\" title=\"Иоанн Савваит, прмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/1976.html\" target=\"_blank\" title=\"Сергий Савваит, прмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/1748.html\" target=\"_blank\" title=\"Патрикий Савваит, прмч.\">Патрикия</a> и прочих, во обители св. Саввы убиенных. Мц. <a  href=\"http://days.pravoslavie.ru/name/2742.html\" target=\"_blank\" title=\"Мученица Фотина (Светлана) Самаряныня, Римская\">Фотины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2742_2280.html\" target=\"_blank\" >икона</a>) (Светланы) самаряныни, ее сыновей мчч. <a  href=\"http://days.pravoslavie.ru/name/418.html\" target=\"_blank\" title=\"Мученик Виктор (Фотин) Римский\">Виктора</a>, нареченного Фотином, и <a  href=\"http://days.pravoslavie.ru/name/1066.html\" target=\"_blank\" title=\"Иосия Римский, мч.\">Иосии</a>; мцц. <a  href=\"http://days.pravoslavie.ru/name/2385.html\" target=\"_blank\" title=\"Анатолия Римская, мц.\">Анатолии</a>, <a  href=\"http://days.pravoslavie.ru/name/2744.html\" target=\"_blank\" title=\"Фото Римская, мц.\">Фото</a>, <a  href=\"http://days.pravoslavie.ru/name/2740.html\" target=\"_blank\" title=\"Фотида Римская, мц.\">Фотиды</a>, <a  href=\"http://days.pravoslavie.ru/name/2639.html\" target=\"_blank\" title=\"Параскева Римская, мц.\">Параскевы</a>, <a  href=\"http://days.pravoslavie.ru/name/2556.html\" target=\"_blank\" title=\"Кириакия Римская, мц.\">Кириакии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2556_2205.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2456.html\" target=\"_blank\" title=\"Домнина Римская, мц.\">Домнины</a> и мч. <a  href=\"http://days.pravoslavie.ru/name/1941.html\" target=\"_blank\" title=\"Севастиан Римский, военачальник, мч.\">Севастиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1941_2016.html\" target=\"_blank\" >икона</a>). Мцц. <a  href=\"http://days.pravoslavie.ru/name/2377.html\" target=\"_blank\" title=\"Александра Амисийская (Понтийская), мц.\">Александры</a>, <a  href=\"http://days.pravoslavie.ru/name/2560.html\" target=\"_blank\" title=\"Клавдия Амисийская (Понтийская), мц.\">Клавдии</a>, <a  href=\"http://days.pravoslavie.ru/name/2480.html\" target=\"_blank\" title=\"Евфрасия Амисийская (Понтийская), мц.\">Евфрасии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2480_4140.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2611.html\" target=\"_blank\" title=\"Матрона Амисийская (Понтийская), мц.\">Матроны</a>, <a  href=\"http://days.pravoslavie.ru/name/2525.html\" target=\"_blank\" title=\"Иулиания Амисийская (Понтийская), мц.\">Иулиании</a>, <a  href=\"http://days.pravoslavie.ru/name/2478.html\" target=\"_blank\" title=\"Евфимия Амисийская (Понтийская), мц.\">Евфимии</a> и <a  href=\"http://days.pravoslavie.ru/name/2712.html\" target=\"_blank\" title=\"Феодосия (Феодора) Амисийская (Понтийская), мц.\">Феодосии</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/1612.html\" target=\"_blank\" title=\"Святитель Никита Аполлониадский, архиепископ, исповедник\">Никиты</a>, исп., архиеп. Аполлониадского. Прп. <a  href=\"http://days.pravoslavie.ru/name/748.html\" target=\"_blank\" title=\"Преподобный Евфросин Синозерский\">Евфросина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii748_1771.html\" target=\"_blank\" >икона</a>) Синозерского, Новгородского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14948.html\" target=\"_blank\" title=\"Владимир (Пиксанов), сщмч.\">Владимира</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13705.html\" target=\"_blank\" title=\"Василий (Соколов), протодиакон, сщмч.\">Василия</a> диакона. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_42_5_16.html#z\">Ис. XLII, 5-16.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_18_20_33.html#z\">Быт. XVIII, 20-33.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_16_17_0_17_0_17.html#z\">Притч. XVI, 17 - XVII, 17.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Падению предшествует надменность\" (злопомышление) (<a  href=\"https://days.pravoslavie.ru/Bible/C17796.htm\" target=\"_blank\" title=\"Библия\">Прит. 16, 18</a>). Стало быть не допускай мыслей злых, и не будет падений. Между тем, о чем больше всего небрегут? О мыслях. Им позволяют бурлить сколько и как угодно, и думать не думают когда-нибудь укрощать их, или направлять к разумным занятиям. А между тем, в этой суматохе внутренней подходит враг, влагает зло в сердце, обольщает его и склоняет на это зло. И человек, сам того не замечая, является готовым на зло. Остается ему или исполнять скованное сердцем зло, или бороться. Но то наше горе, что за последнее никто почти не берется, а все, как связанные, ведутся на зло.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

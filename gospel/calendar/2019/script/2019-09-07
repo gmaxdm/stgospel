@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("7 сентября 2020 г. ( 25 августа ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 14-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Перенесение мощей ап. <a  href=\"http://days.pravoslavie.ru/name/365.html\" target=\"_blank\" title=\"Апостол Варфоломей\">Варфоломея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii365_440.html\" target=\"_blank\" >икона</a>). Ап. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/2110.html\" target=\"_blank\" title=\"Тит, апостол от 70-ти\">Тита</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2110_3707.html\" target=\"_blank\" >икона</a>), еп. Критского. Свт. <a  href=\"http://days.pravoslavie.ru/name/1534.html\" target=\"_blank\" title=\"Святитель Мина Константинопольский, патриарх\">Мины</a>, Патриарха Константинопольского. Свтт. <a  href=\"http://days.pravoslavie.ru/name/360.html\" target=\"_blank\" title=\"Святитель Варсис Едесский, епископ, исповедник\">Варсиса</a> и <a  href=\"http://days.pravoslavie.ru/name/684.html\" target=\"_blank\" title=\"Святитель Евлогий Едесский\">Евлогия</a>, епископов Едесских, и <a  href=\"http://days.pravoslavie.ru/name/1853.html\" target=\"_blank\" title=\"Святитель Протоген Каррийский, епископ, исповедник\">Протогена</a>, еп. Каррийского, исп. Прмч. <a  href=\"http://days.pravoslavie.ru/name/13768.html\" target=\"_blank\" title=\"Моисей (Кожин), иерей, прмч.\">Моисея</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9297.html\" target=\"_blank\" title=\"Владимир (Мощанский), протоиерей, сщмч.\">Владимира</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9297_1714.html\" target=\"_blank\" >икона</a>) пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-kor_12_10_19.html#z\">2 Кор., 195 зач., XII, 10-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_4_10_23.html#z\">Мк., 16 зач., IV, 10-23.</a> Апп.: <a href=\"http://days.pravoslavie.ru/bible/z_tit_1_1_4_2_15_0_3_0_3_3_12_13_3_15_15.html#z\">Тит., 300 зач., I, 1-4; II, 15 - III, 3, 12-13, 15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18124.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 12, 10-19</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18125.htm\" target=\"_blank\" title=\"Библия\">Мк. 4, 10-23</a>). Вдунул Бог дыхание жизни, и стал человек по образу Божию. То же и в возрождении: дуновением Духа Божия, который неведомо откуда и как приходит, полагаются начала новой жизни и восстанавливается образ. Это - точка отправления; отсюда начинается труд возведения образа в совершенное подобие. Возрожденный по образу Создавшего Господним Духом преобразуется от славы в славу, но не без нас; наш труд и старание, а созидает в возрождении: дуновением Духа Божия, Который неведомо откуда. Вот идеал и способ осуществления в себе образа и подобия Божия! А сколько пишут и толкуют о воспитании! Между тем, в слове Божием все оно определено несколькими словами. Возьмись только осуществить предписанное, и воспитание само собою пойдет успешно к цели. Это Божий путь; но он не исключает путей человеческих, напротив, дает им направление и венчает успех. Когда же остается одно человеческое, тогда воспитание обыкновенно бывает недостаточно, с ущербом, а нередко и совсем извращает воспитываемых; затем дальше и жизнь вся идет криво. Где умножаются криво воспитанные, там и все общество более и более начинает кривиться, и в жизни, и в воззрениях своих. Конец - всеобщее искривление: кто гнет в одну сторону, кто в другую.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

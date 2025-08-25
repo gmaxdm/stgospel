@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("28 октября 2020 г. ( 15 октября ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 21-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/740.html\" target=\"_blank\" title=\"Евфимий Новый, Солунский (Фессалоникийский), иеродиакон\">Евфимия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii740_3544.html\" target=\"_blank\" >икона</a>) Нового, Солунского. Прмч. <a  href=\"http://days.pravoslavie.ru/name/1381.html\" target=\"_blank\" title=\"Лукиан Антиохийский, пресвитер, сщмч.\">Лукиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1381_3769.html\" target=\"_blank\" >икона</a>), пресвитера Антиохийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/9133.html\" target=\"_blank\" title=\"Святитель Афанасий (Сахаров), епископ Ковровский, исп.\">Афанасия</a> исп., еп. Ковровского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1922.html\" target=\"_blank\" title=\"Сарвил Едесский, мч.\">Сарвила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1922_3990.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2433.html\" target=\"_blank\" title=\"Вевея (Февея, Вивея) Едесская, мц.\">Вевеи</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2433_3990.html\" target=\"_blank\" >икона</a>) Едесских. Свт. <a  href=\"http://days.pravoslavie.ru/name/1911.html\" target=\"_blank\" title=\"Святитель Савин Катанский (Сицилийский), епископ\">Савина</a>, еп. Катанского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1385.html\" target=\"_blank\" title=\"Лукиан Печерский, пресвитер, сщмч.\">Лукиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1385_1889.html\" target=\"_blank\" >икона</a>) Печерского. Свт. <a  href=\"http://days.pravoslavie.ru/name/1019.html\" target=\"_blank\" title=\"Святитель Иоанн Суздальский и Нижегородский, епископ\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1019_836.html\" target=\"_blank\" >икона</a>), еп. Суздальского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9796.html\" target=\"_blank\" title=\"Симеон (Конюхов), иерей, сщмч.\">Симеона</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14431.html\" target=\"_blank\" title=\"Димитрий (Касаткин), иерей, сщмч.\">Димитрия</a> пресвитера. Иконы Божией Матери <a  href=\"http://days.pravoslavie.ru/name/2977.html\" target=\"_blank\" title=\"\"Спорительница хлебов\"\">\"Спорительница хлебов\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2977_807.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_8_12.html#z\">Лк., 64 зач., XII, 8-12.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_kol_1_18_23.html#z\">Кол., 251 зач., I, 18-23.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_8_22_25.html#z\">Лк., 37 зач., VIII, 22-25.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_8_12.html#z\">Лк., 64 зач., XII, 8-12.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18231.htm\" target=\"_blank\" title=\"Библия\">Лк. 8, 22-25</a>). Садясь в лодку, чтоб переплыть на другую сторону озера, думали ли апостолы, что встретят бурю и подвергнут жизнь свою опасности? Между тем, вдруг поднялась буря и они не чаяли уже остаться живыми. Таков путь жизни нашей! Не знаешь, как и откуда налетит беда, могущая уничтожить нас. То воздух, то вода, то огонь, то зверь, то человек, то птица, то дом, словом, всеокружающее вдруг может превратиться в орудие смерти нашей. Отсюда закон: живи так, чтоб каждую минуту быть готовым встретиться со смертью и небоязненно вступить в ее область. Сию минуту жив ты, а кто знает, будешь ли жив в следующую? По этой мысли и держи себя. Делать все делай, что следует по порядкам жизни твоей, но никак не забывай, что можешь тотчас переселиться в страну, откуда нет возврата. Непамятование о сем не отдалит определенного часа, и намеренное изгнание из мысли этого решительного переворота не умалит вечного значения того, что будет с нами после него. Предав жизнь свою и все в руки Божии, час за часом проводи с мыслью, что каждый из них час последний. В жизни от этого умалится число пустых утех, а в смерти неисчетно будет вознаграждено это лишение радостью, которой ничего нет равного в радостях жизни.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

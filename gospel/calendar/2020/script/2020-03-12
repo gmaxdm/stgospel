@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("12 марта 2020 г. ( 28 февраля ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/376.html\" target=\"_blank\" title=\"Василий Декаполит, исповедник, прп.\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii376_442.html\" target=\"_blank\" >икона</a>) исповедника. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/6985.html\" target=\"_blank\" title=\"Святитель Арсений (Мацеевич), митрополит Ростовский и Ярославский, сщмч.\">Арсения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6985_740.html\" target=\"_blank\" >икона</a>), митр. Ростовского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1601.html\" target=\"_blank\" title=\"Святитель Нестор Пергийский, Магиддийский, епископ, сщмч.\">Нестора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1601_4092.html\" target=\"_blank\" >икона</a>), еп. Магиддийского. Прпп. жен <a  href=\"http://days.pravoslavie.ru/name/2588.html\" target=\"_blank\" title=\"Марина Берийская (Македонская), дева, затворница, прп.\">Марины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2588_1015.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2553.html\" target=\"_blank\" title=\"Кира Берийская (Македонская), дева, затворница, прп.\">Киры</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2553_2202.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1852.html\" target=\"_blank\" title=\"Святитель Протерий Александрийский, патриарх, сщмч.\">Протерия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1852_4093.html\" target=\"_blank\" >икона</a>), патриарха Александрийского. Блж. <a  href=\"http://days.pravoslavie.ru/name/1636.html\" target=\"_blank\" title=\"Блаженный Николай Псковский\">Николая</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1636_43.html\" target=\"_blank\" >икона</a>) Саллоса, Христа ради юродивого, Псковского. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_6_1_12.html#z\">Ис. VI, 1-12.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_5_1_24.html#z\">Быт. V, 1-24.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_6_3_20.html#z\">Притч. VI, 3-20.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Не давай сна глазам твоим и дремания веждам твоим; спасайся как серна из руки и как птица птицелова\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18486.htm\" target=\"_blank\" title=\"Библия\">Прит. 6, 4-5</a>). Это правило должен взять себе в руководство всякий, кто положил теперь в сердце своем, перед лицом Господа, жить уже по заповедям Его. И он не должен давать сна очам, - не этим внешним, но внутренним очам ума, чтоб они пристально смотрели в сердце и верно замечали все, происходящее там, и тем давали возможность ревнителю разузнавать вражеские козни и избежать опасности от них. Сердце стало теперь поприще борьбы с врагом. Туда он непрестанно сеет свое, отражающееся в помышлениях, которые, однако, не всегда грубо худы, но большею частью прикрыты мнимою добротою и правотою. Цепь всех помышлений - точно хитросплетенная сеть! Пустившийся, вслед их без внимания не минет опутания, и, следовательно, опасности падения. Вот почему, брат, держи око ума твоего острозорким, посредством строгого внимания ко всему, что происходит в тебе и около тебя. Замечай, что предлагает тебе неотступный советник твой с шуей стороны , и разбирай, для чего оно предлагается тебе, куда поведет, и никогда не попадешь в сети его. Не забудь только, что внимание одно не бывает в силе; но когда стоит в содружестве с трезвением, бодренностию и непрестанною ко Господу молитвою. Сочетай все это и будешь неуловим.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

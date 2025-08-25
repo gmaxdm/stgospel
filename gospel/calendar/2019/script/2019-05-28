@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("28 мая 2020 г. ( 15 мая ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/3037.html\" target=\"_blank\" title=\"Вознесение Господне\">Вознесение Господне</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii3037_220.html\" target=\"_blank\" >икона</a>)</span></span><br> Прп. <a  href=\"http://days.pravoslavie.ru/name/1756.html\" target=\"_blank\" title=\"Пахомий Великий, Египетский, Фиваидский, прп.\">Пахомия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1756_4278.html\" target=\"_blank\" >икона</a>) Великого. Свт. <a  href=\"http://days.pravoslavie.ru/name/1110.html\" target=\"_blank\" title=\"Святитель Исаия Ростовский, епископ\">Исаии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1110_858.html\" target=\"_blank\" >икона</a>), еп. Ростовского, чудотворца. Блгв. царевича <a  href=\"http://days.pravoslavie.ru/name/605.html\" target=\"_blank\" title=\"Святой благоверный царевич Димитрий Угличский (Московский)\">Димитрия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii605_121.html\" target=\"_blank\" >икона</a>), Угличского и Московского. Прп. <a  href=\"http://days.pravoslavie.ru/name/318.html\" target=\"_blank\" title=\"Святитель Ахиллий Ларисийский, епископ\">Ахиллия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii318_4274.html\" target=\"_blank\" >икона</a>), еп. Ларисийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1108.html\" target=\"_blank\" title=\"Преподобный Исаия Печерский\">Исаии</a> Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1758.html\" target=\"_blank\" title=\"Пахомий Нерехтский, Сыпановский, Костромской, прп.\">Пахомия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1758_4541.html\" target=\"_blank\" >икона</a>) Нерехтского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/747.html\" target=\"_blank\" title=\"Преподобный Евфросин Псковский\">Евфросина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii747_542.html\" target=\"_blank\" >икона</a>) и ученика его <a  href=\"http://days.pravoslavie.ru/name/1965.html\" target=\"_blank\" title=\"Преподобный Серапион Псковский\">Серапиона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1965_1001.html\" target=\"_blank\" >икона</a>), Псковских. <a  href=\"http://days.pravoslavie.ru/name/14255.html\" target=\"_blank\" title=\"Мученики, в долине Ферейдан от персов пострадавшие\">Мучеников</a>, в долине Ферейдан (Иран) от персов пострадавших (Груз.). Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/265.html\" target=\"_blank\" title=\"Преподобный Арсений Коневский\">Арсения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii265_419.html\" target=\"_blank\" >икона</a>) Коневского. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mk_16_9_20.html#z\">Мк., 71 зач., XVI, 9-20.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_1_1_12.html#z\">Деян., 1 зач., I, 1-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_24_36_53.html#z\">Лк., 114 зач., XXIV, 36-53.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17905.htm\" target=\"_blank\" title=\"Библия\">Дея. 1, 1-12</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17906.htm\" target=\"_blank\" title=\"Библия\">Лк. 24, 36-53</a>). Силу Вознесения Господня св. Павел выражает так: \"восшед на высоту, пленил плен и дал дары человекам\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17907.htm\" target=\"_blank\" title=\"Библия\">Еф. 4, 8</a>). Удовлетворив правде Божией, Господь отверз для нас все сокровища благости Божией. Это и есть плен, или добыча вследствие победы. Начало раздаяния этой добычи человекам есть сошествие Святого Духа, Который, сошедши единожды, всегда пребывает в Церкви и каждому подает что кому потребно, беря все из того же единожды плененного плена. Приди всякий и бери. Но заготовь сокровище-хранительницу - чистое сердце; имей руки, чем брать - веру неразмышляющую, и приступи исканием уповающим и неотступно молящимся.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

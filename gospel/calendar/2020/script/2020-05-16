@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("16 мая 2020 г. ( 3 мая ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write(" Мчч. <a  href=\"http://days.pravoslavie.ru/name/2109.html\" target=\"_blank\" title=\"Тимофей Фиваидский, чтец, мч.\">Тимофея</a> и <a  href=\"http://days.pravoslavie.ru/name/2579.html\" target=\"_blank\" title=\"Мавра Фиваидская, мц.\">Мавры</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/2211.html\" target=\"_blank\" title=\"Преподобный Феодосий Печерский\">Феодосия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2211_205.html\" target=\"_blank\" >икона</a>), игумена Киево-Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1765.html\" target=\"_blank\" title=\"Святитель Петр Аргосский, епископ\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1765_4538.html\" target=\"_blank\" >икона</a>) чудотворца, еп. Аргосского. Свт. <a  href=\"http://days.pravoslavie.ru/name/14458.html\" target=\"_blank\" title=\"Святитель Феофан, митрополит Перифеорийский\">Феофана</a> Перифеорийского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/14456.html\" target=\"_blank\" title=\"Иулиания Московская\">Иулиании</a>  и <a  href=\"http://days.pravoslavie.ru/name/14457.html\" target=\"_blank\" title=\"Евпраксия Московская\">Евпраксии</a>  Московских. <a  href=\"http://days.pravoslavie.ru/name/14249.html\" target=\"_blank\" title=\"Собор новомучеников в Бутове пострадавших\">Собор</a> новомучеников в Бутове пострадавших. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9701.html\" target=\"_blank\" title=\"Николай (Беневольский), иерей, сщмч.\">Николая</a> пресвитера. Икон Божией Матери: <a  href=\"http://days.pravoslavie.ru/name/3003.html\" target=\"_blank\" title=\"\"Успение\" Киево-Печерская\">Успения Киево-Печерской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3003_3622.html\" target=\"_blank\" >икона</a>), принесенной из Царьграда, <a  href=\"http://days.pravoslavie.ru/name/2943.html\" target=\"_blank\" title=\"Печерская\">Печерской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2943_337.html\" target=\"_blank\" >икона</a>) (с предстоящими <a  href=\"http://days.pravoslavie.ru/name/218.html\" target=\"_blank\" title=\"Преподобный Антоний Киево-Печерский\">Антонием</a> (<a  href=\"http://days.pravoslavie.ru/images/ii218_337.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2211.html\" target=\"_blank\" title=\"Преподобный Феодосий Печерский\">Феодосием</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2211_205.html\" target=\"_blank\" >икона</a>) Печерскими) и <a  href=\"http://days.pravoslavie.ru/name/2960.html\" target=\"_blank\" title=\"Свенская-Печерская икона Божией Матери\">Свенской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2960_2457.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_12_1_11.html#z\">Деян., 29 зач., XII, 1-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_8_31_42.html#z\">Ин., 31 зач., VIII, 31-42.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_7_16.html#z\">Евр., 334 зач., XIII, 7-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17879.htm\" target=\"_blank\" title=\"Библия\">Дея. 12, 1-11</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17880.htm\" target=\"_blank\" title=\"Библия\">Ин. 8, 31-42</a>). Сказал Господь: \"если Сын освободит вас, то истинно свободны будете\". Вот где свобода! Ум связан узами неведения, заблуждений, суеверий, недоумений; он бьется, но выбиться из них не может. Прилепись ко Господу, и Он просветит тьму твою и расторгнет все узы, в которых томится ум твой. Волю вяжут страсти, и не дают ей простора действовать; бьется она, как связанный по рукам и по ногам, а выбиться не может. Но прилепись к Господу, и Он даст тебе Самсонову силу и расторгнет все вяжущие тебя узы неправды. Сердце облежат постоянные тревоги, и отдыха ему не дают; но прилепись к Господу, и Он успокоит тебя; и будешь, мирствуя в себе, и все вокруг светло видя, беспрепятственно и непреткновенно шествовать с Господом, сквозь мрак и темноты жизни этой, к всеблаженной, полной отрады и простора вечности.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

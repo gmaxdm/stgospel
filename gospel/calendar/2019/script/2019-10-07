@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("7 октября 2020 г. ( 24 сентября ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 18-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Первомц. равноап. <a  href=\"http://days.pravoslavie.ru/name/2699.html\" target=\"_blank\" title=\"Фекла Иконийская, Селевкийская, первомученица, равноапостольная\">Феклы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2699_1226.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1282.html\" target=\"_blank\" title=\"Коприй Палестинский, прп.\">Коприя</a>. Св. царя  <a  href=\"http://days.pravoslavie.ru/name/6853.html\" target=\"_blank\" title=\"Святой король Стефан Сербский\">Стефана</a> Сербского и сына его св. царя  <a  href=\"http://days.pravoslavie.ru/name/433.html\" target=\"_blank\" title=\"Владислав Сербский, князь\">Владислава</a> (<a  href=\"http://days.pravoslavie.ru/images/ii433_993.html\" target=\"_blank\" >икона</a>) Сербского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1609.html\" target=\"_blank\" title=\"Никандр Псковский, пустынник\">Никандра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1609_1936.html\" target=\"_blank\" >икона</a>) пустынножителя, Псковского чудотворца. Прмч. <a  href=\"http://days.pravoslavie.ru/name/460.html\" target=\"_blank\" title=\"Преподобномученик Галактион Вологодский\">Галактиона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii460_498.html\" target=\"_blank\" >икона</a>) Вологодского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9844.html\" target=\"_blank\" title=\"Василий (Воскресенский), диакон, сщмч.\">Василия</a> диакона. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9475.html\" target=\"_blank\" title=\"Андрей (Быстров), иерей, сщмч.\">Андрея</a> и <a  href=\"http://days.pravoslavie.ru/name/9742.html\" target=\"_blank\" title=\"Павел (Березин), иерей, сщмч.\">Павла</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/9870.html\" target=\"_blank\" title=\"Виталий (Кокорев), инок, прмч.\">Виталия</a> и мчч. <a  href=\"http://days.pravoslavie.ru/name/9950.html\" target=\"_blank\" title=\"Василий (Виноградов), мч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/10031.html\" target=\"_blank\" title=\"Сергий (Михайлов), мч.\">Сергия</a> и <a  href=\"http://days.pravoslavie.ru/name/10034.html\" target=\"_blank\" title=\"Спиридон (Савельев), мч.\">Спиридона</a>. <a  href=\"http://days.pravoslavie.ru/name/2906.html\" target=\"_blank\" title=\"Мирожская\">Мирожской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2906_961.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_ef_5_25_33.html#z\">Еф., 231 зач., V, 25-33.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_4_1_15.html#z\">Лк., 12 зач., IV, 1-15,</a> и за четверг (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_ef_5_33_0_6_0_9.html#z\">Еф., 232 зач., V, 33 - VI, 9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_4_16_22.html#z\">Лк., 13 зач., IV, 16-22.</a> Первомц.: <a href=\"http://days.pravoslavie.ru/bible/z_2-tim_3_10_15.html#z\">2 Тим., 296 зач., III, 10-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_25_1_13.html#z\">Мф., 104 зач., XXV, 1-13.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18185.htm\" target=\"_blank\" title=\"Библия\">Лк. 4, 1-15</a>). Диавол приступает с искушением к Богочеловеку - кто же из людей бывает от того свободен? Тот, кто ходит по воле лукавого; он не испытывает нападений, а только направляем бывает все на большее и большее зло; коль же скоро кто начинает приходить в себя и задумывает начать новую жизнь по воле Божией, тотчас приходит в движение вся область сатанинская: кто с чем спешит, чтобы рассеять добрые мысли и начинания кающегося. Не успеют отклонить, - стараются помешать доброму покаянию и исповеди; здесь не успеют, - ухитряются посеять плевелы среди плодов покаяния и трудов в очищении сердца; не успевают худа внушить, - покушаются добро покривить; внутренне бывают отражаемы - внешне нападают, и так до конца жизни. Даже умереть спокойно не дают; и по смерти гонятся за душою, пока не минует она воздушные пространства, где они витают и держат притоны. \"Как же, - ведь это безотрадно и страшно\"! Для верующего ничего тут нет страшного, потому что бесы только хлопочут около богобоязливого, а силы никакой не имеют. Трезвенный молитвенник стрелы из себя на них пускает, и они далеко держатся от него, не смея подступить и боясь испытанного поражения. Если же успевают в чем, то по нашей оплошности. Ослабеем вниманием или позволим себе увлечься призраками их, - они тут как тут, и начнут тревожить смелее. Не опомнись во время - закружат, а опомнится душа, опять отскочут, и издали подсматривают, нельзя ли опять как-нибудь подойти. Итак, трезвись, бодрствуй, молись, и враги ничего тебе не сделают.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

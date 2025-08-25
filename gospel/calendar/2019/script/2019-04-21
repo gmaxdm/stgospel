@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("21 апреля 2020 г. ( 8 апреля ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Светлая седмица - сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/2858.html\" target=\"_blank\" title=\"Иверская икона Божией Матери\">Иверской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2858_53.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. Апп. от 70 <a  href=\"http://days.pravoslavie.ru/name/1871.html\" target=\"_blank\" title=\"Апостол от 70-ти Родион\">Иродиона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1871_1999.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/46.html\" target=\"_blank\" title=\"Апостол Агав\">Агава</a> (<a  href=\"http://days.pravoslavie.ru/images/ii46_4182.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/282.html\" target=\"_blank\" title=\"Святитель Асинкрит, епископ Гирканский, апостол от 70-ти, сщмч.\">Асинкрита</a> (<a  href=\"http://days.pravoslavie.ru/images/ii282_4184.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1886.html\" target=\"_blank\" title=\"Святитель Руф, епископ Фивский, апостол от 70-ти, сщмч.\">Руфа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1886_4188.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2313.html\" target=\"_blank\" title=\"Святитель Флегонт, епископ Марафонский, апостол от 70-ти, сщмч.\">Флегонта</a>, <a  href=\"http://days.pravoslavie.ru/name/791.html\" target=\"_blank\" title=\"Апостол Ерм\">Ерма</a> и иже с ними. Мч. <a  href=\"http://days.pravoslavie.ru/name/1706.html\" target=\"_blank\" title=\"Павсилип, мч.\">Павсилипа</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/1192.html\" target=\"_blank\" title=\"Святитель Келестин I Римский, папа\">Келестина</a>, папы Римского. Свт. <a  href=\"http://days.pravoslavie.ru/name/1658.html\" target=\"_blank\" title=\"Святитель Нифонт Печерский, Новгородский, епископ\">Нифонта</a>, еп. Новгородского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1888.html\" target=\"_blank\" title=\"Преподобный Руф, затворник Печерский\">Руфа</a>, затворника Печерского. Преподобномучеников 600  отцев <a  href=\"http://days.pravoslavie.ru/name/6988.html\" target=\"_blank\" title=\"Преподобномученики отцы Давидо-Гареджийские\">Давидо-Гареджийских</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6988_3689.html\" target=\"_blank\" >икона</a>) (Груз.). Мчч. <a  href=\"http://days.pravoslavie.ru/name/14996.html\" target=\"_blank\" title=\"Христодул Патрский, Ахайский, мч.\">Христодула</a> и <a  href=\"http://days.pravoslavie.ru/name/14997.html\" target=\"_blank\" title=\"Анастасия Патрская, Ахайская, мц.\">Анастасии</a> Патрских, убиенных в Ахаии. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9401.html\" target=\"_blank\" title=\"Сергий (Родаковский), протоиерей, сщмч.\">Сергия</a> пресвитера. <a  href=\"http://days.pravoslavie.ru/name/2935.html\" target=\"_blank\" title=\"Икона Божией Матери Одигитрия, именуемая Шуйская\">Шуйской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2935_1287.html\" target=\"_blank\" >икона</a>)  иконы Божией Матери \"Одигитрия\" . ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_2_14_21.html#z\">Деян., 4 зач., II, 14-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_24_12_35.html#z\">Лк., 113 зач., XXIV, 12-35.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17820.htm\" target=\"_blank\" title=\"Библия\">Дея. 2, 14-21</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17821.htm\" target=\"_blank\" title=\"Библия\">Лк. 24, 12-35</a>). Тогда иудеи свет Воскресения Христова покушались затмить легким туманом лжи: \"ученики украли\". Эту ничтожность легко было преодолеть, и истина восторжествовала. Но и по сие время враг не перестает туманить перед Солнцем Воскресения, надеясь затмить его. Никто да не смущается! От отца лжи чего ожидать, кроме лжи? Он многих из своих клевретов научил целые книги писать против Воскресения. Этот книжный туман книгами и рассеян. Не бери худой книги и не отуманишься, а случится нечаянно напасть на такую, возьми в противоядие книгу добрую и освежишь голову и грудь. Бывает другой туман от врага - в помыслах. Но и этот тотчас рассеется, как дым от ветра, от здравого рассуждения христианского. Пройди рассуждением все совершившееся и увидишь ясно как день, что всему этому совершиться иначе нельзя было, как силою Воскресения Христова. Это убеждение будет для тебя потом твердынею, установившись на которой легко станешь отражать и поражать врагов истины.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

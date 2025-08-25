@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("27 июня 2020 г. ( 14 июня ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/764.html\" target=\"_blank\" title=\"Пророк Елисей\">Елисея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii764_549.html\" target=\"_blank\" >икона</a>). Свт. <a  href=\"http://days.pravoslavie.ru/name/1524.html\" target=\"_blank\" title=\"Святитель Мефодий Константинопольский, патриарх\">Мефодия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1524_4310.html\" target=\"_blank\" >икона</a>), патриарха Константинопольского. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/1581.html\" target=\"_blank\" title=\"Мстислав (в крещении Георгий) Храбрый, Новгородский, князь\">Мстислава</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1581_980.html\" target=\"_blank\" >икона</a>)  Храброго, во св. Крещении Георгия, Новгородского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1527.html\" target=\"_blank\" title=\"Мефодий Пешношский, игумен\">Мефодия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1527_3460.html\" target=\"_blank\" >икона</a>), игумена Пешношского. Прп. <a  href=\"http://days.pravoslavie.ru/name/765.html\" target=\"_blank\" title=\"Преподобный Елисей Сумский\">Елисея</a> Сумского. <a  href=\"http://days.pravoslavie.ru/name/14463.html\" target=\"_blank\" title=\"Собор Дивеевских святых\">Собор</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14463_3480.html\" target=\"_blank\" >икона</a>) Дивеевских святых. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13726.html\" target=\"_blank\" title=\"Иосиф (Сиков), иерей, сщмч.\">Иосифа</a> пресвитера. Обретение мощей сщмч. <a  href=\"http://days.pravoslavie.ru/name/430.html\" target=\"_blank\" title=\"Священномученик Владимир Киевский и Галицкий\">Владимира</a> (<a  href=\"http://days.pravoslavie.ru/images/ii430_27.html\" target=\"_blank\" >икона</a>), митр. Киевского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/11398.html\" target=\"_blank\" title=\"Александр (Парусников), протоиерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/14273.html\" target=\"_blank\" title=\"Павел (Иванов), иерей, сщмч.\">Павла</a>  пресвитеров и <a  href=\"http://days.pravoslavie.ru/name/11400.html\" target=\"_blank\" title=\"Николай (Запольский), диакон, сщмч.\">Николая</a> диакона. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Прор.: <a href=\"http://days.pravoslavie.ru/bible/z_iak_5_10_20.html#z\">Иак., 57 зач., V, 10-20.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_4_22_30.html#z\">Лк., 14 зач., IV, 22-30</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_rim_3_28_0_4_0_3.html#z\">Рим., 85 зач., III, 28 - IV, 3.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_7_24_0_8_0_4.html#z\">Мф., 24 зач., VII, 24 - VIII, 4.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба прп. Мефодия Пешношского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30,</a> а на литургии - чтения преподобного: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23,</a> и дня. Если совершается полиелейная служба сщмч. Владимира, митрополита Киевского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_32_40.html#z\">Лк., 67 зач., XII, 32-40,</a> а на литургии - чтения священномученика: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_7_16.html#z\">Евр., 334 зач., XIII, 7-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16,</a> и дня. </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17968.htm\" target=\"_blank\" title=\"Библия\">Рим. З, 28-4, З</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17969.htm\" target=\"_blank\" title=\"Библия\">Мф. 7, 24-8, 4</a>). Нынешнее Евангелие говорит о том, что слушающий слова Господни и исполняющий их подобен строящему дом на камне, а слушающий и не исполняющий - подобен строящему дом на песке. Заучи это всякий и почаще повторяй; истина же в нем содержащаяся, всякому понятна и ясна наглядно. И собственных опытов всякий имеет под руками в этом роде множество. Мысли, например, пока еще думаешь о чем, бывают неустойчивы и мятутся; когда же изложишь их на бумаге, они получают окреплость и неподвижность; предприятие какое-нибудь все еще бывает неверно и меняется в частностях, пока не начато, а когда пустишь его в ход, всем пополнительным соображениям конец. Так и нравственные правила пока не исполнены, они как будто чужие, вне нас и непрочны, а когда исполняешь их, они входят внутрь, оседают в сердце и полагают там основу характеру - доброму или злому. \"Итак блюдите, как опасно ходите\"!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

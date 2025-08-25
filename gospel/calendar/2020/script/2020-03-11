@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("11 марта 2020 г. ( 27 февраля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1843.html\" target=\"_blank\" title=\"Преподобный Прокопий Декаполит\">Прокопия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1843_4586.html\" target=\"_blank\" >икона</a>) Декаполита, исповедника. Прп. <a  href=\"http://days.pravoslavie.ru/name/2158.html\" target=\"_blank\" title=\"Фалалей Сирийский, отшельник\">Фалалея</a> Сирийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2113.html\" target=\"_blank\" title=\"Преподобный Тит, пресвитер Печерский\">Тита</a>, пресвитера Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2112.html\" target=\"_blank\" title=\"Тит Печерский, воин\">Тита</a> Печерского, бывшего воина. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14412.html\" target=\"_blank\" title=\"Сергий (Увицкий), иерей, сщмч.\">Сергия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14230.html\" target=\"_blank\" title=\"Петр (Успенский), иерей, сщмч.\">Петра</a> пресвитера, мч. <a  href=\"http://days.pravoslavie.ru/name/14231.html\" target=\"_blank\" title=\"Михаил (Марков), псаломщик, мч.\">Михаила</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_5_16_25.html#z\">Ис. V, 16-25.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_4_16_26.html#z\">Быт. IV, 16-26.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_5_15_0_6_0_3.html#z\">Притч. V, 15 - VI, 3.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("Когда Моисей и Аарон начали ходатайствовать о народе перед фараоном, чтоб он отпустил его, ответом на это было усиление работы угнетенных израильтян до того, что они подняли ропот на ходатаев своих: \"вы сделали нас ненавистными в глазах фараона\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18484.htm\" target=\"_blank\" title=\"Библия\">Исх. 5, 21</a>). Точь в точь то же испытывает душа кающегося грешника. Когда страх Божий и совесть, эти внутренние Моисей и Аарон, начнут воодушевлять душу, чтоб она поднялась, наконец, на ноги и стряхнула иго рабства греховного, - радость проходит по всем ее составам. Но и враг не дремлет, и взгромождает в ее помыслах горы препятствий со стороны непреодолимости греха, и наводит со всех сторон страхи, - страх за свое благосостояние, за внешние отношения, за вес свой, даже за жизнь. И бывает, что иной начавши только, тотчас и останавливается. Воодушевись, брат! \"Господь Саваоф превознесется в суде, и Бог святый явит святость Свою в правде\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18485.htm\" target=\"_blank\" title=\"Библия\">Ис. 5, 16</a>). Бог сильнее врага. Возопий к Нему, - и услышишь то же, что услышал Моисей тогда: \"теперь увидишь ты, что Я сделаю с фараоном\".  Враг не имеет власти над душою; он только может напугать ее призрачными ужасами. Не поддавайся, претерпи, иди вперед мужественно, говоря в себе: хоть смерть, а уж не брошу, и смело пойду, куда зовет меня Господь духом покаяния, который теперь действует во мне.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

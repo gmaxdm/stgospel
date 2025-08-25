@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("23 сентября 2020 г. ( 10 сентября ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 16-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мцц. <a  href=\"http://days.pravoslavie.ru/name/2618.html\" target=\"_blank\" title=\"Минодора Вифинская, мц.\">Минодоры</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2618_3527.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2620.html\" target=\"_blank\" title=\"Митродора Вифинская, мц.\">Митродоры</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2620_3527.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2629.html\" target=\"_blank\" title=\"Нимфодора Вифинская, мц.\">Нимфодоры</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2629_3527.html\" target=\"_blank\" >икона</a>). Апп. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/244.html\" target=\"_blank\" title=\"Апостол от 70-ти Аполлос Александриец\">Апеллия</a>, <a  href=\"http://days.pravoslavie.ru/name/1388.html\" target=\"_blank\" title=\"Святитель Лукий (Лука), епископ Лаодикийский, апостол от 70-ти\">Лукия</a> и <a  href=\"http://days.pravoslavie.ru/name/1254.html\" target=\"_blank\" title=\"Климент, апостол от 70-ти, сщмч.\">Климента</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/351.html\" target=\"_blank\" title=\"Варипсав, мч.\">Варипсава</a>. Блгв. царицы греческой <a  href=\"http://days.pravoslavie.ru/name/2655.html\" target=\"_blank\" title=\"Пульхерия Греческая, царица\">Пульхерии</a>. Свтт. <a  href=\"http://days.pravoslavie.ru/name/1782.html\" target=\"_blank\" title=\"Святитель Петр Никейский, епископ\">Петра</a> и <a  href=\"http://days.pravoslavie.ru/name/1692.html\" target=\"_blank\" title=\"Святитель Павел Никейский, епископ, исповедник\">Павла</a>, епископов Никейских. Прп. <a  href=\"http://days.pravoslavie.ru/name/1695.html\" target=\"_blank\" title=\"Преподобный Павел Послушливый\">Павла</a> Послушливого, Печерского. Прп. кн. Андрея, в иночестве <a  href=\"http://days.pravoslavie.ru/name/1033.html\" target=\"_blank\" title=\"Преподобный Иоасаф Каменский\">Иоасафа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1033_3528.html\" target=\"_blank\" >икона</a>), Спасокубенского. <a  href=\"http://days.pravoslavie.ru/name/14688.html\" target=\"_blank\" title=\"Собор Липецких святых\">Собор</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14688_4603.html\" target=\"_blank\" >икона</a>) Липецких святых. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9655.html\" target=\"_blank\" title=\"Исмаил (Кудрявцев), иерей, сщмч.\">Исмаила</a>, <a  href=\"http://days.pravoslavie.ru/name/9567.html\" target=\"_blank\" title=\"Евгений (Попов), иерей, сщмч.\">Евгения</a>, <a  href=\"http://days.pravoslavie.ru/name/9641.html\" target=\"_blank\" title=\"Иоанн (Софронов), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9657.html\" target=\"_blank\" title=\"Константин (Колпецкий), иерей, сщмч.\">Константина</a>, <a  href=\"http://days.pravoslavie.ru/name/9761.html\" target=\"_blank\" title=\"Петр (Григорьев), иерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/9499.html\" target=\"_blank\" title=\"Василий (Малинин), иерей, сщмч.\">Василия</a>,  <a  href=\"http://days.pravoslavie.ru/name/9552.html\" target=\"_blank\" title=\"Глеб (Апухтин), иерей, сщмч.\">Глеба</a>,  <a  href=\"http://days.pravoslavie.ru/name/12287.html\" target=\"_blank\" title=\"Василий (Максимов), протоиерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/14426.html\" target=\"_blank\" title=\"Иоанн (Попов), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/14425.html\" target=\"_blank\" title=\"Петр (Юрков), иерей, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/12291.html\" target=\"_blank\" title=\"Николай (Павлинов), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/12293.html\" target=\"_blank\" title=\"Палладий (Попов), иерей, сщмч.\">Палладия</a> пресвитеров и прмчч. <a  href=\"http://days.pravoslavie.ru/name/12295.html\" target=\"_blank\" title=\"Мелетий (Федюнев), иеромонах, сщмч.\">Мелетия</a> и <a  href=\"http://days.pravoslavie.ru/name/13783.html\" target=\"_blank\" title=\"Гавриил (Яцик), архимандрит, прмч.\">Гавриила</a>, мч. <a  href=\"http://days.pravoslavie.ru/name/14320.html\" target=\"_blank\" title=\"Симеон (Туркин), мч.\">Симеона</a>, мц. <a  href=\"http://days.pravoslavie.ru/name/13784.html\" target=\"_blank\" title=\"Татиана (Гримблит), мц.\">Татианы</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9158.html\" target=\"_blank\" title=\"Святитель Уар (Шмарин), епископ Липецкий, сщмч.\">Уара</a>, еп. Липецкого. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_gal_6_2_10.html#z\">Гал., 214 зач., VI, 2-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_7_14_24.html#z\">Мк., 29 зач., VII, 14-24.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18156.htm\" target=\"_blank\" title=\"Библия\">Гал. 6, 2-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18157.htm\" target=\"_blank\" title=\"Библия\">Мк. 7, 14-24</a>). \"Извнутрь, из сердца человеческого, исходят злые помыслы, прелюбодеяния, любодеяния, убийства, кражи, лихоимство, злоба, коварство, непотребство, завистливое око, богохульство, гордость, безумство\". Тут перечислены ходячие грехи, но и все другие, большие и малые, исходят из сердца, и вид в каком они исходят - помышление злое. Первое семя зла впадает на мысль сделать то и то. Отчего и как впадает? Часть этих впадений можно объяснить известными законами сочетаний и сцеплений идей и образов, но только часть. Другая значительнейшая часть происходит от самодвижного раздражения страстей. Когда страсть живет в сердце, то не может не потребовать удовлетворения. Это требование обнаруживается позывом на то и другое; с позывом же соединен предмет тот или другой. Отсюда мысль: \"а вот что надо сделать\". Тут то же происходит, что, например, при голоде: почувствовавший голод, чувствует позыв на пищу; с позывом вспадает на мысль и самая пища; отсюда - достать то или это и съесть. Третья, может быть, более объемистая часть исходит от нечистых сил. Ими переполнен воздух, и они стаями шныряют около людей, и всякий по роду своему рассевает вокруг себя воздействие на соприкосновенные лица. Злое летит от них, как искры от раскаленного железа. Где удобоприемлемость там внедряется искра, а с нею и мысль о злом деле. Этим, а не другим чем либо, можно объяснить неизвестно почему зарождающиеся помышления злые, среди занятий решительно не сродных с ними. Но эта разность причин не делает разности в том, как поступать с помышлениями злыми. Закон один: пришло злое помышление - отбрось и делу конец. Не отбросишь в первую минуту, во вторую труднее будет, в третью еще труднее, а тут и не заметишь, как родится сочувствие, желание и решение и средства явятся. . . вот грех и под руками. Первое противление злым помышлениям - трезвение и бодрствование с молитвою.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

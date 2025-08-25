@@ -1,0 +1,21 @@
+{% extends 'wrapper.html' %}
+{% block title %}Создание сборника священного писания{% endblock %}
+{% block main %}
+    <div class="main__centered">
+        <h3>Создание нового сборника Священного Писания</h3>
+    </div>
+    <p>Сборник может включать в себя несколько книг, отдельные главы различных кних и отдельные стихи.</p>
+    <p>Созданный сборник будет доступен только вам. Он может быть использован в создаваемых вами чтениях.</p>
+    <p>Назовите ваш новый сборник:</p>
+    <form class="lg-center" name="fnew" action="{% url 'volume-create' %}" method="POST">
+        {% csrf_token %}
+    <dl class="row">
+        <dt class="col-sm-5">Название сборника</dt>
+        <dd class="col-sm-7">
+            <input class="form-control" type="text" placeholder="введите название" name="title" required>&nbsp;
+        </dd>
+    </dl>
+    <p><small class="text-muted">Название сборника потом можно изменить.</small></p>
+    <p class="text-right"><input type="submit" name="fsave" value="Создать"></p>
+    </form>
+{% endblock %}

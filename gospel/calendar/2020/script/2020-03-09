@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("9 марта 2020 г. ( 25 февраля ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/2086.html\" target=\"_blank\" title=\"Святитель Тарасий, патриарх Константинопольский\">Тарасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2086_3179.html\" target=\"_blank\" >икона</a>), Патриарха Константинопольского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9125.html\" target=\"_blank\" title=\"Святитель Сильвестр (Ольшевский), архиепископ Омский, сщмч.\">Сильвестра</a>, архиеп. Омского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14227.html\" target=\"_blank\" title=\"Александр (Виноградов), иерей, сщмч.\">Александра</a> пресвитера, прмц. <a  href=\"http://days.pravoslavie.ru/name/14228.html\" target=\"_blank\" title=\"Мстислава (Фокина), прмц.\">Мстиславы</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14505.html\" target=\"_blank\" title=\"Николай (Троицкий), протоиерей, сщмч.\">Николая</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_4_2_0_5_0_7.html#z\">Ис. IV, 2 - V, 7.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_3_21_0_4_0_7.html#z\">Быт. III, 21 - IV, 7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_3_34_0_4_0_22.html#z\">Притч. III, 34 - IV, 22.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Больше всего хранимого храни сердце твое; потому что из него источники жизни\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18481.htm\" target=\"_blank\" title=\"Библия\">Прит. 4, 23</a>). Поговевши, исповедавшись и причастившись св. Таин, христианин возобновляет в себе благодатные источники, открытые в нас св. Крещением, которые потом столько раз были засоряемы нерадением и падениями, и столько раз очищаемы покаянием. Теперь снова очищены они после последних падений. Будем же хранить их, по крайней мере с этого времени, от засорения вновь невниманием, рассеянностью и небрежением о тех действиях, которыми поддерживается чистота и исправное течение вод их. Продолжим пощение, не дадим воли чувствам, не прекратим усердных молитв и слез, не забудем дел любви, взыщем слышания слова Божия, более же всего да беседуем с Господом, Который в нас, и этою беседою да поддерживаем в себе страх Божий и ревность к богоугождению, в которых собственно источник нашей жизни духовной.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

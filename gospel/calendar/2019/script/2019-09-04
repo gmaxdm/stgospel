@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("4 сентября 2020 г. ( 22 августа ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 13-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/63.html\" target=\"_blank\" title=\"Агафоник Никомидийский, Силиврийский, мч.\">Агафоника</a> (<a  href=\"http://days.pravoslavie.ru/images/ii63_1624.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/859.html\" target=\"_blank\" title=\"Зотик Потамский (Фракийский), мч.\">Зотика</a>, <a  href=\"http://days.pravoslavie.ru/name/2246.html\" target=\"_blank\" title=\"Феопрепий (Боголеп) Потамский (Фракийский), мч.\">Феопрепия</a> (Боголепа), <a  href=\"http://days.pravoslavie.ru/name/100.html\" target=\"_blank\" title=\"Акиндин Потамский (Фракийский), мч.\">Акиндина</a>, <a  href=\"http://days.pravoslavie.ru/name/1948.html\" target=\"_blank\" title=\"Севериан Халкидонский, мч.\">Севериана</a> и прочих. Прп. <a  href=\"http://days.pravoslavie.ru/name/7003.html\" target=\"_blank\" title=\"Исаакий I Оптинский, прп.\">Исаакия</a> I Оптинского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/521.html\" target=\"_blank\" title=\"Святитель Горазд Богемский и Мораво-Силезский, епископ, сщмч.\">Горазда</a> (<a  href=\"http://days.pravoslavie.ru/images/ii521_4583.html\" target=\"_blank\" >икона</a>), еп. Богемского и Мораво-Силезского (Серб.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/309.html\" target=\"_blank\" title=\"Святитель Афанасий Тарсийский (Киликийский), епископ Тарса Киликийского, сщмч.\">Афанасия</a> еп. Тарса Киликийского, прп. <a  href=\"http://days.pravoslavie.ru/name/2408.html\" target=\"_blank\" title=\"Анфуса Селевкийская, прп.\">Анфусы</a> и слуг ее, мчч. <a  href=\"http://days.pravoslavie.ru/name/2343.html\" target=\"_blank\" title=\"Харисим Тарсийский (Киликийский), мч.\">Харисима</a> и <a  href=\"http://days.pravoslavie.ru/name/1597.html\" target=\"_blank\" title=\"Неофит Тарсийский (Киликийский), мч.\">Неофита</a>. Мц. <a  href=\"http://days.pravoslavie.ru/name/2470.html\" target=\"_blank\" title=\"Евлалия Барселонская, дева, мц.\">Евлалии</a> девы. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9148.html\" target=\"_blank\" title=\"Святитель Макарий (Гневушев), епископ Орловский, сщмч.\">Макария</a>, еп. Орловского, <a  href=\"http://days.pravoslavie.ru/name/9599.html\" target=\"_blank\" title=\"Иоанн (Бояршинов), иерей, сщмч.\">Иоанна</a> и <a  href=\"http://days.pravoslavie.ru/name/9464.html\" target=\"_blank\" title=\"Алексий (Наумов), иерей, сщмч.\">Алексия</a> пресвитеров. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9159.html\" target=\"_blank\" title=\"Святитель Феодор (Смирнов), епископ Пензенский, сщмч.\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9159_3023.html\" target=\"_blank\" >икона</a>), еп. Пензенского и с ним <a  href=\"http://days.pravoslavie.ru/name/9508.html\" target=\"_blank\" title=\"Василий (Смирнов), иерей, сщмч.\">Василия</a> и <a  href=\"http://days.pravoslavie.ru/name/9547.html\" target=\"_blank\" title=\"Гавриил (Архангельский), иерей, сщмч.\">Гавриила</a> пресвитеров. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9144.html\" target=\"_blank\" title=\"Святитель Иоанн (Троянский), епископ Великолукский, сщмч.\">Иоанна</a>, еп. Великолукского, <a  href=\"http://days.pravoslavie.ru/name/9105.html\" target=\"_blank\" title=\"Святитель Алексий (Орлов), архиепископ Омский, сщмч.\">Алексия</a>, архиеп. Омского, <a  href=\"http://days.pravoslavie.ru/name/9445.html\" target=\"_blank\" title=\"Александр (Ратьковский), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9686.html\" target=\"_blank\" title=\"Михаил (Люберцев), иерей, сщмч.\">Михаила</a> и <a  href=\"http://days.pravoslavie.ru/name/9817.html\" target=\"_blank\" title=\"Феодор (Маляровский), иерей, сщмч.\">Феодора</a> пресвитеров, прмчч. <a  href=\"http://days.pravoslavie.ru/name/9213.html\" target=\"_blank\" title=\"Иларион (Цуриков), иеромонах, сщмч.\">Илариона</a>, <a  href=\"http://days.pravoslavie.ru/name/9215.html\" target=\"_blank\" title=\"Иоанн (Лаба), иеромонах, сщмч.\">Иоанна</a> и <a  href=\"http://days.pravoslavie.ru/name/9211.html\" target=\"_blank\" title=\"Иерофей (Глазков), иеромонах, сщмч.\">Иерофея</a>. <a  href=\"http://days.pravoslavie.ru/name/2838.html\" target=\"_blank\" title=\"Грузинская\">Грузинской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2838_165.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-kor_11_5_21.html#z\">2 Кор., 192 зач., XI, 5-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_4_1_9.html#z\">Мк., 15 зач., IV, 1-9.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18118.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 11, 5-21</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18119.htm\" target=\"_blank\" title=\"Библия\">Мк. 4, 1-9</a>). \"Вот, вышел сеятель сеять\". С тех пор, как вышел этот сеятель на сеяние, он не перестает сеять. Сначала сам лично сеял, потом через апостолов, а наконец через Божественные писания и богомудрых учителей. И доселе всюду сеется слово истины Божией. Будь только готов явить себя благою землею, непременно засеменишься; засеменное же Бог возрастит. Как же представить из себя благую землю? Вниманием и изучением слова Божия, сочувствием и любовью к нему и готовностью тотчас приводить в дело то, что узнаешь. При таком настроении, ни одно слово не ляжет поверх души, а всякое войдет внутрь. Сочетавшись там с родными ему стихиями духа, оно пустит корни и даст росток. Питаясь потом - свыше наитиями духовными, а снизу желаниями благими и трудами, оно возрастет в древо, даст цвет и плод. Сам Бог устроил так вокруг нас, и потому нельзя не удивляться нашему бесплодию. А все от невнимания и нерадения.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

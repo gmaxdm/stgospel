@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("22 ноября 2020 г. ( 9 ноября ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 24-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/1669.html\" target=\"_blank\" title=\"Онисифор, мч.\">Онисифора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1669_3563.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1828.html\" target=\"_blank\" title=\"Порфирий, мч.\">Порфирия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1828_3564.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/2613.html\" target=\"_blank\" title=\"Матрона Константинопольская, прп.\">Матроны</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/2725.html\" target=\"_blank\" title=\"Феоктиста Паросская, прп.\">Феоктисты</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/128.html\" target=\"_blank\" title=\"Мученик Александр Солунский\">Александра</a> Солунского. Мч. <a  href=\"http://days.pravoslavie.ru/name/208.html\" target=\"_blank\" title=\"Антоний Апамейский, камнесечец, мч.\">Антония</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/980.html\" target=\"_blank\" title=\"Иоанн Колов, Младший, Скитский, отшельник\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii980_3679.html\" target=\"_blank\" >икона</a>) Колова. Прпп. <a  href=\"http://days.pravoslavie.ru/name/2475.html\" target=\"_blank\" title=\"Евстолия Константинопольская, прп.\">Евстолии</a> и <a  href=\"http://days.pravoslavie.ru/name/2675.html\" target=\"_blank\" title=\"Сосипатра (Сопатра) Константинопольская, прп.\">Сосипатры</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1670.html\" target=\"_blank\" title=\"Онисифор Печерский, иеромонах, исповедник\">Онисифора</a> Печерского. Свт. <a  href=\"http://days.pravoslavie.ru/name/12956.html\" target=\"_blank\" title=\"Святитель Нектарий Эгинский, Пентапольский, Чудотворец, епископ\">Нектария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii12956_1506.html\" target=\"_blank\" >икона</a>), митр. Пентапольского, Эгинского чудотворца. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/14347.html\" target=\"_blank\" title=\"Святитель Парфений (Брянских), епископ Ананьевский, сщмч.\">Парфения</a>, еп. Ананьевского, <a  href=\"http://days.pravoslavie.ru/name/9659.html\" target=\"_blank\" title=\"Константин (Немешаев), иерей, сщмч.\">Константина</a>,  <a  href=\"http://days.pravoslavie.ru/name/9315.html\" target=\"_blank\" title=\"Димитрий (Русинов), протоиерей, сщмч.\">Димитрия</a>, <a  href=\"http://days.pravoslavie.ru/name/9362.html\" target=\"_blank\" title=\"Нестор (Панин), протоиерей, сщмч.\">Нестора</a>, <a  href=\"http://days.pravoslavie.ru/name/9408.html\" target=\"_blank\" title=\"Феодор (Чичканов), протоиерей, сщмч.\">Феодора</a>, <a  href=\"http://days.pravoslavie.ru/name/9662.html\" target=\"_blank\" title=\"Константин (Черепанов), иерей, сщмч.\">Константина</a>, <a  href=\"http://days.pravoslavie.ru/name/9517.html\" target=\"_blank\" title=\"Виктор (Климов), иерей, сщмч.\">Виктора</a>, <a  href=\"http://days.pravoslavie.ru/name/13848.html\" target=\"_blank\" title=\"Илия (Рылько), протоиерей, сщмч.\">Илии</a>, <a  href=\"http://days.pravoslavie.ru/name/14346.html\" target=\"_blank\" title=\"Павел (Ансимов), протоиерей, сщмч.\">Павла</a>  пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/12950.html\" target=\"_blank\" title=\"Иосиф (Сченснович), диакон, сщмч.\">Иосифа</a> диакона  и прмч. <a  href=\"http://days.pravoslavie.ru/name/9193.html\" target=\"_blank\" title=\"Алексий (Задворнов), иеромонах, прмч.\">Алексия</a>. Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2970.html\" target=\"_blank\" title=\"\"Скоропослушница\"\">\"Скоропослушница\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2970_210.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 2-е, <a href=\"http://days.pravoslavie.ru/bible/z_mk_16_1_8.html#z\">Мк., 70 зач., XVI, 1-8.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_ef_2_14_22.html#z\">Еф., 221 зач., II, 14-22.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_8_41_56.html#z\">Лк., 39 зач., VIII, 41-56.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18284.htm\" target=\"_blank\" title=\"Библия\">Еф. 2, 14-22</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18285.htm\" target=\"_blank\" title=\"Библия\">Лк. 8, 41-56</a>). Иаир гласно, при всех, упав к ногам Спасителя, молил Господа об исцелении дочери своей, и был услышан. Господь, ничего не сказав, тотчас встал и пошел к нему. На пути к Иаиру была исцелена кровоточивая жена, конечно, тоже не без молитвы с ее стороны, хоть она и не взывала словом и не падала ниц к ногам Господа: у ней была сердечная молитва веры. Господь услышал ее и дал исцеление. Тут все совершалось сокровенно. Кровоточивая сердцем обратилась к Господу; Господь слышал этот вопль-сердца и удовлетворил прошение. У этой жены и у Иаира молитва, по существу, одна, хотя и можно различать в них некоторые степени. Такие-то молитвы, полные веры, упования и преданности никогда не бывают не услышаны. Говорят иногда: \"молюсь, молюсь, а молитва моя все-таки не слышится\". Но потрудись взойти в меру молитвы неотказываемой, ты и увидишь, почему она не услышана. Если ты будешь в молитвенном ли положении, как Иаир, или в простом обычном, как все окружающие, подобно кровоточивой, когда подвигнется в сердце твоем настоящая молитва, она несомненно войдет к Господу и преклонит Его на милость. Все дело в том, как дойти до такой молитвы. Трудись и дойдешь. Все чины молитвенные имеют в предмете вознести молитвенников в такую меру молитвы, и все, которые разумно проходят этот молитвенный курс, достигают цели своей.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

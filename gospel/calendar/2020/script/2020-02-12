@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("12 февраля 2020 г. ( 30 января ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6896.html\" target=\"_blank\" title=\"Собор вселенских учителей и святителей Василия Великого, Григория Богослова и Иоанна Златоустого\">Собор Вселенских учителей и святителей</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6896_3163.html\" target=\"_blank\" >икона</a>) <a  href=\"http://days.pravoslavie.ru/name/373.html\" target=\"_blank\" title=\"Святитель Василий Великий\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii373_8.html\" target=\"_blank\" >икона</a>) Великого, <a  href=\"http://days.pravoslavie.ru/name/535.html\" target=\"_blank\" title=\"Святитель Григорий Богослов, архиепископ Константинопольский\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii535_8.html\" target=\"_blank\" >икона</a>) Богослова и <a  href=\"http://days.pravoslavie.ru/name/978.html\" target=\"_blank\" title=\"Святитель Иоанн Златоуст\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii978_8.html\" target=\"_blank\" >икона</a>) Златоустого. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1076.html\" target=\"_blank\" title=\"Святитель Ипполит Остинский, Римский, епископ, сщмч.\">Ипполита</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1076_1844.html\" target=\"_blank\" >икона</a>), папы Римского и с ним мчч. <a  href=\"http://days.pravoslavie.ru/name/1195.html\" target=\"_blank\" title=\"Кенсорин Римский, мч.\">Кенсорина</a>, <a  href=\"http://days.pravoslavie.ru/name/1913.html\" target=\"_blank\" title=\"Савин Римский, мч.\">Савина</a>, <a  href=\"http://days.pravoslavie.ru/name/2753.html\" target=\"_blank\" title=\"Хрисия Римская, дева, мц.\">Хрисии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2753_2284.html\" target=\"_blank\" >икона</a>) девы и прочих 20-ти мучеников. Блж. <a  href=\"http://days.pravoslavie.ru/name/14212.html\" target=\"_blank\" title=\"Пелагия (Серебренникова) Дивеевская, Христа ради юродивая\">Пелагии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14212_3164.html\" target=\"_blank\" >икона</a>) Дивеевской. Прп. <a  href=\"http://days.pravoslavie.ru/name/836.html\" target=\"_blank\" title=\"Зинон Каппадокийский, прп.\">Зинона</a>, ученика свт. <a  href=\"http://days.pravoslavie.ru/name/373.html\" target=\"_blank\" title=\"Святитель Василий Великий\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii373_8.html\" target=\"_blank\" >икона</a>) Великого. Мч. <a  href=\"http://days.pravoslavie.ru/name/2265.html\" target=\"_blank\" title=\"Феофил Новый, Константинопольский, мч.\">Феофила</a> Нового. Блгв. <a  href=\"http://days.pravoslavie.ru/name/1770.html\" target=\"_blank\" title=\"Петр Болгарский, царь\">Петра</a>, царя Болгарского. Прп. <a  href=\"http://days.pravoslavie.ru/name/842.html\" target=\"_blank\" title=\"Преподобный Зинон, постник Печерский\">Зинона</a>, постника Печерского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9543.html\" target=\"_blank\" title=\"Владимир (Хрищенович), иерей, сщмч.\">Владимира</a> пресвитера. Мч. <a  href=\"http://days.pravoslavie.ru/name/10036.html\" target=\"_blank\" title=\"Стефан (Наливайко), мч.\">Стефана</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("~~~~~~ ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

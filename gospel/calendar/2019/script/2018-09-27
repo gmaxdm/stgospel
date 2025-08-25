@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("27 сентября 2020 г. ( 14 сентября ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 16-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Строгий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/3046.html\" target=\"_blank\" title=\"Воздвижение Креста Господня\">Воздвижение Честного и Животворящего Креста Господня.</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii3046_219.html\" target=\"_blank\" >икона</a>)</span></span><br> Преставление свт. <a  href=\"http://days.pravoslavie.ru/name/978.html\" target=\"_blank\" title=\"Святитель Иоанн Златоуст\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii978_8.html\" target=\"_blank\" >икона</a>) Златоуста. <a  href=\"http://days.pravoslavie.ru/name/2894.html\" target=\"_blank\" title=\"Леснинская\">Леснинской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2894_2418.html\" target=\"_blank\" >икона</a>)  иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_12_28_36.html#z\">Ин., 42 зач. (от&nbsp;полу&#769;), XII, 28-36.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_1_18_24.html#z\">1 Кор., 125 зач., I, 18-24.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_19_6_11_19_13_20_19_25_28_19_30_35.html#z\">Ин., 60 зач., XIX, 6-11, 13-20, 25-28, 30-35.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("Среди Великого поста предлагается поклонению Честный Крест, чтобы воодушевить постных тружеников к терпеливому несению поднятого ими ига до конца; а в сентябре для чего это делается? Так случилось? Но у промыслительной Премудрости, все устраивающей, нет случаев. Вот это для чего: в сентябре убираются с поля, по крайней мере у нас. Итак, чтоб одни из христиан в чувстве довольства не сказали: \"душа! много добра лежит у тебя на многие годы: покойся, ешь, пей, веселись!\", а другие от скудости не пали в духе, представляется очам всех воздвигаемый крест, напоминая первым, что опора благобытия не имение, а христианское внутреннее крестоношение, когда внешнее, по благости Божией, слагается, внушая вторым в терпении стяжать души свои, воодушевляя на то уверенностью, что со креста идут прямо в рай; посему, одни да терпят, чая, что идут углажденным путем в Царство Небесное, а другие да вкушают внешних утешений со страхом, как бы не заключить себе вход на небо.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

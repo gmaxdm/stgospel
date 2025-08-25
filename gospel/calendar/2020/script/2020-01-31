@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("31 января 2020 г. ( 18 января ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 33-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свтт. <a  href=\"http://days.pravoslavie.ru/name/295.html\" target=\"_blank\" title=\"Святитель Афанасий Великий, архиепископ Александрийский\">Афанасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii295_39.html\" target=\"_blank\" >икона</a>)  и <a  href=\"http://days.pravoslavie.ru/name/1221.html\" target=\"_blank\" title=\"Святитель Кирилл Александрийский\">Кирилла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1221_185.html\" target=\"_blank\" >икона</a>), архиепископов Александрийских. Прпп. схимонаха <a  href=\"http://days.pravoslavie.ru/name/1230.html\" target=\"_blank\" title=\"Кирилл Радонежский, схимонах\">Кирилла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1230_883.html\" target=\"_blank\" >икона</a>) и схимонахини <a  href=\"http://days.pravoslavie.ru/name/2601.html\" target=\"_blank\" title=\"Преподобная Мария Радонежская\">Марии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2601_883.html\" target=\"_blank\" >икона</a>),  родителей прп. <a  href=\"http://days.pravoslavie.ru/name/1974.html\" target=\"_blank\" title=\"Преподобный Сергий Радонежский\">Сергия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1974_159.html\" target=\"_blank\" >икона</a>) Радонежского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1480.html\" target=\"_blank\" title=\"Преподобный Маркиан Кирский\">Маркиана</a> Кирского. Прп. <a  href=\"http://days.pravoslavie.ru/name/308.html\" target=\"_blank\" title=\"Преподобный Афанасий Сяндемский, Вологодский\">Афанасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii308_1680.html\" target=\"_blank\" >икона</a>) Сяндемского, Вологодского. Прп. <a  href=\"http://days.pravoslavie.ru/name/301.html\" target=\"_blank\" title=\"Преподобный Афанасий Наволоцкий\">Афанасия</a> Наволоцкого. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9684.html\" target=\"_blank\" title=\"Михаил (Каргополов), иерей, сщмч.\">Михаила</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14404.html\" target=\"_blank\" title=\"Евгений (Исадский), иерей, сщмч.\">Евгения</a> пресвитера. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9293.html\" target=\"_blank\" title=\"Владимир (Зубкович), протоиерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/13572.html\" target=\"_blank\" title=\"Николай (Красовский), иерей, сщмч.\">Николая</a>,  <a  href=\"http://days.pravoslavie.ru/name/10798.html\" target=\"_blank\" title=\"Сергий (Лебедев), иерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/14208.html\" target=\"_blank\" title=\"Александр (Русинов), протоиерей, сщмч.\">Александра</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_1-pet_1_1_2_1_10_12_2_6_10.html#z\">1 Пет., 58 зач., I, 1-2, 10-12; II, 6-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_12_1_12.html#z\">Мк., 53 зач., XII, 1-12.</a> Свтт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_7_16.html#z\">Евр., 334 зач., XIII, 7-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.  </div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба прпп. Кирилла и Марии, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30,</a> а на литургии - чтения дня и преподобных: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18405.htm\" target=\"_blank\" title=\"Библия\">1 Пет. 1, 1-2, 10-12; 2, 6-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18406.htm\" target=\"_blank\" title=\"Библия\">Мк. 12, 1-12</a>). В день Богоявления показано действием, что домостроительство спасения нашего совершается Господом Иисусом Христом по благоволению Отца при общении Святого Духа. Ныне же словом Апостола внушается нам, что и спасение каждого по тому домостроительству бывает не иначе, как действом Пресвятой Троицы Отца и Сына и Св. Духа: \"по предведению Бога Отца, при освящении от Духа, к послушанию и окроплению Кровию Иисуса Христа\". Прозревая имеющего уверовать, Бог Отец сретает его благоволением Своим и призывает ко спасению благодатью Святого Духа. Дух Святый, призвав к вере и укрепив в ней, окропляет уверовавшего кровию Господа Спасителя в таинстве крещения и, получив через то вход в него, Сам вселяется в него и всячески содействует ему в устроении своего спасения. Да хвалим поем и величаем Троицу Пресвятую, благую содетельницу нашего спасения, и с своей стороны, \"прилагая к сему все старание\", поспешим благоукрасить себя всякими добродетелями, по образу Создавшего и Воссоздавшего нас, чтобы не оказаться \"без успеха и плода в познании Господа\" и не заградить себе \"вход в вечное Царство Господа нашего\", к которому призваны (<a  href=\"https://days.pravoslavie.ru/Bible/C18407.htm\" target=\"_blank\" title=\"Библия\">2 Пет. 1, 5, 8, 11</a>).<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

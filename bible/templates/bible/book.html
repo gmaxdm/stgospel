@@ -1,0 +1,19 @@
+{% extends 'wrapper.html' %}
+{% block description %}
+    <meta name="description" content="Библия. Синодальный перевод. {{ book.title }}. Соборное чтение Библии." />
+{% endblock %}
+{% block title %}{{ book.get_title }}{% endblock %}
+{% block main %}
+    <div class="">
+        <div class="text-right"><a href="{% url 'reading-new' %}?b={{ book.id }}">Начать чтение</a></div>
+        <h3>{{ book.get_title }}</h3>
+        {% if not book.is_canonical %}
+        <div class="text-muted"><small>Неканоническая книга. <a href="https://azbyka.ru/nekanonicheskie-knigi-biblii" target="_blank">Подробнее о неканонических книгах</a>.</small></div>
+        {% endif %}
+        <ul class="p-3">
+            {% for ch in chapters %}
+            <li><a href="{% url 'chapter' book.slug ch.num %}">{% if ch.num %}Глава {{ ch.num }}{% else %}Предисловие{% endif %}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

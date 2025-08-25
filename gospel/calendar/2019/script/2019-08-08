@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("8 августа 2020 г. ( 26 июля ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 9-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/807.html\" target=\"_blank\" title=\"Ермолай Никомидийский, иерей, сщмч.\">Ермолая</a> (<a  href=\"http://days.pravoslavie.ru/images/ii807_1777.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/801.html\" target=\"_blank\" title=\"Ермипп Никомидийский, иерей, сщмч.\">Ермиппа</a> и <a  href=\"http://days.pravoslavie.ru/name/806.html\" target=\"_blank\" title=\"Ермократ Никомидийский, иерей, сщмч.\">Ермократа</a>, иереев Никомидийских. Прмц. <a  href=\"http://days.pravoslavie.ru/name/2640.html\" target=\"_blank\" title=\"Преподобномученица Параскева Римская\">Параскевы</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1576.html\" target=\"_blank\" title=\"Преподобный Моисей Угрин, Печерский\">Моисея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1576_607.html\" target=\"_blank\" >икона</a>) Угрина, Печерского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14296.html\" target=\"_blank\" title=\"Сергий (Стрельников), протоиерей, сщмч.\">Сергия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_rim_14_6_9.html#z\">Рим., 113 зач., XIV, 6-9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_15_32_39.html#z\">Мф., 64 зач., XV, 32-39.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18062.htm\" target=\"_blank\" title=\"Библия\">Рим. 14, 6-9</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18063.htm\" target=\"_blank\" title=\"Библия\">Мф. 15, 32-39</a>). И в другой раз насытил Господь чудным насыщением сопровождавший Его народ, дабы показать, что Он готов всегда щедро наделять народ верующий. Он мог это делать и всякий раз, но не делал, чтоб не отучить от обычного образа жизни, Им же заведенного, утвержденного и поддерживаемого. Таково и общее Божие промышление. Главные всеобъемлющие действия промышления совершены вначале при устроении всех вещей; но устроив все и пустив в ход, Бог не связал Себя ничем, а оставил за Собою свободу привтекать, когда нужно, и чрезвычайною помощью. Он действует как хозяин в доме, который заводит порядки и, поддерживая их, не вяжет себя, однако, ими, а относится к ним властно, с хозяйственным благонамерением. Противники веры не понимают значения Божия, промышления и, расширяя его в мыслях своих далее должных пределов, и не видя осуществления своих соображений на деле, отвергают самое промышление. Того промышления, которого они требуют, точно нет; но несомненно есть такое, какое угодно учредить и содержать Самому Господу Богу.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

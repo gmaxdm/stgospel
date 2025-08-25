@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("26 августа 2020 г. ( 13 августа ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 12-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Успенский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14704.html\" target=\"_blank\" title=\"Отдание праздника Преображения Господня\">Отдание</a> праздника Преображения Господня. Преставление,  перенесение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/1426.html\" target=\"_blank\" title=\"Максим Исповедник, прп.\">Максима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1426_638.html\" target=\"_blank\" >икона</a>) Исповедника. Обретение мощей блж. <a  href=\"http://days.pravoslavie.ru/name/1430.html\" target=\"_blank\" title=\"Блаженный Максим, Христа ради юродивый, Московский чудотворец\">Максима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1430_1902.html\" target=\"_blank\" >икона</a>), Христа ради юродивого, Московского. Преставление, второе обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/2116.html\" target=\"_blank\" title=\"Святитель Тихон Задонский\">Тихона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2116_296.html\" target=\"_blank\" >икона</a>), еп. Воронежского, Задонского чудотворца. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1077.html\" target=\"_blank\" title=\"Ипполит Римский, мч.\">Ипполита</a>, <a  href=\"http://days.pravoslavie.ru/name/1090.html\" target=\"_blank\" title=\"Ириней Римский, мч.\">Иринея</a>, <a  href=\"http://days.pravoslavie.ru/name/44.html\" target=\"_blank\" title=\"Авундий Римский, мч.\">Авундия</a> и мц. <a  href=\"http://days.pravoslavie.ru/name/2564.html\" target=\"_blank\" title=\"Конкордия Римская, мц.\">Конкордии</a>, в Риме. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13762.html\" target=\"_blank\" title=\"Иоанн (Шишев), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13763.html\" target=\"_blank\" title=\"Иоасаф (Панов), иерей, сщмч.\">Иоасафа</a> и <a  href=\"http://days.pravoslavie.ru/name/13764.html\" target=\"_blank\" title=\"Константин (Попов), иерей, сщмч.\">Константина</a> пресвитеров. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9156.html\" target=\"_blank\" title=\"Святитель Серафим (Звездинский), епископ Дмитровский, сщмч.\">Серафима</a>, еп. Дмитровского, <a  href=\"http://days.pravoslavie.ru/name/9720.html\" target=\"_blank\" title=\"Николай (Орлов), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9579.html\" target=\"_blank\" title=\"Иаков (Архипов), иерей, сщмч.\">Иакова</a> пресвитеров и <a  href=\"http://days.pravoslavie.ru/name/9840.html\" target=\"_blank\" title=\"Алексий (Введенский), диакон, сщмч.\">Алексия</a> диакона. Мч. <a  href=\"http://days.pravoslavie.ru/name/9949.html\" target=\"_blank\" title=\"Василий (Александрии), мч.\">Василия</a>. <a  href=\"http://days.pravoslavie.ru/name/2905.html\" target=\"_blank\" title=\"Минская\">Минской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2905_2422.html\" target=\"_blank\" >икона</a>), и именуемых <a  href=\"http://days.pravoslavie.ru/name/2980.html\" target=\"_blank\" title=\"\"Страстная\"\">\"Страстна\'я\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2980_1175.html\" target=\"_blank\" >икона</a>) и \"<a  href=\"http://days.pravoslavie.ru/name/3000.html\" target=\"_blank\" title=\"\"Умягчение злых сердец\" (\"Семистрельная\")\">Семистрельная</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3000_1214.html\" target=\"_blank\" >икона</a>)\" икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_6_11_16.html#z\">2 Кор., 182 зач., VI, 11-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_1_23_28.html#z\">Мк., 4 зач., I, 23-28.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18098.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 6, 11-16</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18099.htm\" target=\"_blank\" title=\"Библия\">Мк. 1, 23-28</a>). Бес славил Спасителя, а Спаситель сказал ему: \"замолчи и выйди из него\". Бесы никогда ничего не говорят и не делают с доброю целью: всегда у них что-нибудь злое в виду. Так было и здесь. Господь, не обличая козней их, одним словом решил: замолчи и выйди. Не хотел Он долго вести речи с лукавым духом. Тут нам урок. Мало-мало что хорошенькое удастся кому сделать, тотчас подседает бес, и начинает трубить в уши: ты такой и такой. Не слушай и не входи в разговор с этим льстецом, а сразу наотрез скажи: \"замолчи и выйди\"; и след его провей воздыханием и самоукорением, и место его окади сокрушенною молитвою. Он хочет породить самомнение и самочувствие, и из них потом раздуть самовосхваление и тщеславие, - все такие помыслы и чувства, которые в духовной жизни то же, что воры в житейском быту. Как эти, забравшись в дом, обирают добро хозяйское, так и те своим укоренением в душе все доброе в ней уничтожают и вон извергают, так что ничего уже не остается, за что потом похвалил бы Господь.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("29 февраля 2020 г. ( 16 февраля ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица cырная (масленица) - сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Из трапезы исключается мясо. ");
+}
+
+function print_saints()
+{
+ daysd.write("Всех <a  href=\"http://days.pravoslavie.ru/name/6978.html\" target=\"_blank\" title=\"Собор всех преподобных отцев в подвиге просиявших\">преподобных отцев</a> в подвиге просиявших. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1722.html\" target=\"_blank\" title=\"Памфил Кесарийский (Палестинский), пресвитер, сщмч.\">Памфила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1722_4050.html\" target=\"_blank\" >икона</a>) пресвитера, <a  href=\"http://days.pravoslavie.ru/name/333.html\" target=\"_blank\" title=\"Валент Кесарийский (Палестинский), диакон, сщмч.\">Валента</a> диакона, <a  href=\"http://days.pravoslavie.ru/name/1683.html\" target=\"_blank\" title=\"Павел Кесарийский (Палестинский), мч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/1827.html\" target=\"_blank\" title=\"Порфирий Кесарийский (Палестинский), мч.\">Порфирия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1827_4051.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1955.html\" target=\"_blank\" title=\"Селевкий Кесарийский (Палестинский), мч.\">Селевкия</a>, <a  href=\"http://days.pravoslavie.ru/name/2225.html\" target=\"_blank\" title=\"Феодул Кесарийский (Палестинский), мч.\">Феодула</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2225_4051.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1140.html\" target=\"_blank\" title=\"Иулиан Кесарийский (Палестинский), мч.\">Иулиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1140_4051.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1920.html\" target=\"_blank\" title=\"Самуил Египтянин, Кесарийский (Палестинский), мч.\">Самуила</a>, <a  href=\"http://days.pravoslavie.ru/name/940.html\" target=\"_blank\" title=\"Илия Египтянин, Кесарийский (Палестинский), мч.\">Илии</a>, <a  href=\"http://days.pravoslavie.ru/name/578.html\" target=\"_blank\" title=\"Даниил Египтянин, Кесарийский (Палестинский), мч.\">Даниила</a>, <a  href=\"http://days.pravoslavie.ru/name/914.html\" target=\"_blank\" title=\"Иеремия Египтянин, Кесарийский (Палестинский), мч.\">Иеремии</a>, <a  href=\"http://days.pravoslavie.ru/name/1107.html\" target=\"_blank\" title=\"Исаия Египтянин, Кесарийский (Палестинский), мч.\">Исаии</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/13482.html\" target=\"_blank\" title=\"Святитель Макарий (Невский, Парвицкий), митрополит Московский и Коломенский\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13482_773.html\" target=\"_blank\" >икона</a>) митр. Московского и Коломенского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/14409.html\" target=\"_blank\" title=\"Мученики Персидские в Мартирополе\">Персидских</a> в Мартирополе. Прп. <a  href=\"http://days.pravoslavie.ru/name/1498.html\" target=\"_blank\" title=\"Святитель Маруф Мартиропольский (Тигритский), Месопотамский, епископ\">Маруфа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1498_4049.html\" target=\"_blank\" >икона</a>), еп. Месопотамского. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_rim_14_19_26.html#z\">Рим., 115 зач., XIV, 19-26.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_6_1_13.html#z\">Мф., 16 зач., VI, 1-13.</a> Прпп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18468.htm\" target=\"_blank\" title=\"Библия\">Гал. 5, 22-6, 2</a>). \"Те, которые Христовы, распяли плоть со страстями и похотями\". Ныне превратился этот порядок: распинают плоть, но не со страстьми и похотьми, а страстями и похотями. Сколько мучат ныне тело обжорством, пьянством, блудными делами, плясками и гуляньями! Самый бессердечный хозяин не мучит так свое ленивое животное. Если бы дать плоти нашей свободу и смысл, то первый голос ее был бы против госпожи своей - души, что она незаконно вмешалась в ее дела, внесла в нее страсти ей чуждые и, исполняя их в ней, мучит ее. В сущности потребности тела нашего просты и бесстрастны. Посмотрите на животных: не объедаются, лишнего не спят, удовлетворив плотской потребности в свое время, за тем целый год остаются спокойны. Это лишь душа, забыв свои лучшие стремления, настроила себе из простых потребностей тела множество противоестественных стремлений, ставших, по безмерности своей, противоестественными и телу. Всячески, однако, чтобы отсечь от души привитые ею к себе страсти плотские, необходимо распинать плоть, только совсем в противоположном смысле, то есть не давая ей вдоволь и потребного или удовлетворяя ее потребности несравненно в меньшей мере, чем сколько требует ее природа.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("2 января 2020 г. (20  декабря 2019 г. ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 29-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: горячая пища без масла. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14391.html\" target=\"_blank\" title=\"Предпразднство Рождества Христова\">Предпразднство</a> Рождества Христова. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/897.html\" target=\"_blank\" title=\"Священномученик Игнатий Богоносец\">Игнатия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii897_126.html\" target=\"_blank\" >икона</a>) Богоносца. Прав. <a  href=\"http://days.pravoslavie.ru/name/984.html\" target=\"_blank\" title=\"Иоанн Кронштадтский, протоиерей\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii984_236.html\" target=\"_blank\" >икона</a>) Кронштадского, чудотворца. Свт. <a  href=\"http://days.pravoslavie.ru/name/13474.html\" target=\"_blank\" title=\"Святитель Антоний (Смирницкий), митрополит Воронежский и Задонский\">Антония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13474_758.html\" target=\"_blank\" >икона</a>), архиеп. Воронежского. Свт. <a  href=\"http://days.pravoslavie.ru/name/2299.html\" target=\"_blank\" title=\"Святитель Филогоний Антиохийский, епископ\">Филогония</a>, еп. Антиохийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/584.html\" target=\"_blank\" title=\"Святитель Даниил Сербский\">Даниила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii584_1515.html\" target=\"_blank\" >икона</a>), архиеп. Сербского. Прп. <a  href=\"http://days.pravoslavie.ru/name/904.html\" target=\"_blank\" title=\"Игнатий Печерский, архимандрит\">Игнатия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii904_1785.html\" target=\"_blank\" >икона</a>), архим. Печерского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14982.html\" target=\"_blank\" title=\"Николай (Чернышев), протоиерей, сщмч.\">Николая</a> пресвитера и мц. <a  href=\"http://days.pravoslavie.ru/name/14983.html\" target=\"_blank\" title=\"Варвара (Чернышева), мц.\">Варвары</a>. <a  href=\"http://days.pravoslavie.ru/name/2921.html\" target=\"_blank\" title=\"Новодворская\">Новодворской</a> и Леньковской (Новгород-Северской), именуемой <a  href=\"http://days.pravoslavie.ru/name/2976.html\" target=\"_blank\" title=\"\"Спасительница утопающих\" (Леньковская, Новгород-Северская)\">\"Спасительница утопающих\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2976_2501.html\" target=\"_blank\" >икона</a>), икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_6_1_13.html#z\">Мф., 16 зач., VI, 1-13.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_1_6.html#z\">Евр., 315 зач., VII, 1-6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_10_17_27.html#z\">Мк., 45 зач., X, 17-27.</a> Прав.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_4_14_0_5_0_6.html#z\">Евр., 311 зач., IV, 14 - V, 6</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19.</a> Сщмч.: <a href=\"http://days.pravoslavie.ru/bible/z_mk_9_33_41.html#z\">Мк., 41 зач., IX, 33-41.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Апостольские чтения прав. Иоанна и сщмч. Игнатия совпадают. </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18381.htm\" target=\"_blank\" title=\"Библия\">Мр. 10, 17-27</a>). Некто обратился к Господу с вопросом: \"Учитель благий! что мне делать, чтобы наследовать жизнь вечную?\" Что вынудило этот вопрос? Разве не было писаний? Разве не читали всякую субботу закона для всех? Было все - и Писание, и толкователи его; но в обществе ходило кругом разномыслие и сбивало с толку. Фарисеи говорили одно, саддукеи - другое, ессеи - свое, самаряне - свое; в Галилее же, может быть, и языческие учения слышались, и всякий выставлял свое тоном убеждения. Ревнующий о спасении, естественно, приходил к вопросу: как же быть, чему следовать, чтоб не погубить души своей? Положение наше очень похоже на тогдашнее. Каких-каких у нас ни ходит учений и в школах, и в обществе, и в литературе! Индиферентисту это нипочем; а для кого не все одно, какому учению ни следовать, тому нельзя не поискать решения: как же быть? Итак, какое же решение на это? Такое же, какое дал Спаситель: веруй и живи, как Бог повелел, а людских толков не слушай; пусть говорят. И говор ученых похож на молву и моду: ныне одно, завтра другое, ты же внимай одному глаголу Божию, пребывающему во веки. Что Господь повелел, того никакое мудрование отменить не может. Все неотложно и надо все исполнять. Суд ведь будет по слову Господа, а не по умствованиям нашим.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

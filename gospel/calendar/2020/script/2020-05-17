@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("17 мая 2020 г. ( 4 мая ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/13533.html\" target=\"_blank\" title=\"Неделя о самаряныне\">Неделя 5-я по Пасхе, о самаряныне</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13533_3396.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мц. <a  href=\"http://days.pravoslavie.ru/name/2643.html\" target=\"_blank\" title=\"Мученица Пелагия Тарсийская\">Пелагии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2643_4245.html\" target=\"_blank\" >икона</a>), девы Тарсийской. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/789.html\" target=\"_blank\" title=\"Святитель Еразм Формийский (Кампанийский), епископ, исповедник\">Еразма</a>, еп. Формийского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/6735.html\" target=\"_blank\" title=\"Святитель Альвиан, епископ Анейский, сщмч.\">Альвиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6735_4251.html\" target=\"_blank\" >икона</a>), еп. Анейского, и учеников его. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1990.html\" target=\"_blank\" title=\"Священномученик Сильван, епископ Газский\">Сильвана</a>, еп. Газского, и с ним 40 мучеников. Прпп. <a  href=\"http://days.pravoslavie.ru/name/1611.html\" target=\"_blank\" title=\"Никита (Нифонт) Алфанов, Сокольницкий, Новгородский, прп.\">Никиты</a>, <a  href=\"http://days.pravoslavie.ru/name/1222.html\" target=\"_blank\" title=\"Кирилл Алфанов, Сокольницкий, Новгородский, прп.\">Кирилла</a>, <a  href=\"http://days.pravoslavie.ru/name/1620.html\" target=\"_blank\" title=\"Никифор Алфанов, Сокольницкий, Новгородский, прп.\">Никифора</a>, <a  href=\"http://days.pravoslavie.ru/name/1252.html\" target=\"_blank\" title=\"Климент Алфанов, Сокольницкий, Новгородский, прп.\">Климента</a> и <a  href=\"http://days.pravoslavie.ru/name/1100.html\" target=\"_blank\" title=\"Преподобный Исаакий Алфанов, Сокольницкий, Новгородский\">Исаакия</a>, братьев Алфановых (Сокольницких) в Новгороде. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14253.html\" target=\"_blank\" title=\"Иоанн (Васильев), иерей, сщмч.\">Иоанна</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14254.html\" target=\"_blank\" title=\"Николай (Тохтуев), протодиакон, сщмч.\">Николая</a> диакона. <a  href=\"http://days.pravoslavie.ru/name/2979.html\" target=\"_blank\" title=\"Старорусская\">Старорусской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2979_613.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 7-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_20_1_10.html#z\">Ин., 63 зач., XX, 1-10.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_11_19_26_11_29_30.html#z\">Деян., 28 зач., XI, 19-26, 29-30.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_4_5_42.html#z\">Ин., 12 зач., IV, 5-42.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17881.htm\" target=\"_blank\" title=\"Библия\">Дея. 11, 19-26, 29-30</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17882.htm\" target=\"_blank\" title=\"Библия\">Ин. 4, 5-42</a>). Сограждане самарянки, после того как Спаситель пробыл у них два дня, говорили ей: \"уже не по твоим речам веруем, ибо сами слышали и узнали, что Он истинно Спаситель мира, Христос\". И у всех так бывает. Сначала внешним словом призываются ко Господу или, как у нас теперь, путем рождения, а потом, когда вкусят делом, что есть жизнь в Господе, уже не по внешнему принадлежанию к обществу христианскому держатся Господа, а по внутреннему с ним сочетанию. Это и надобно всем рождающимся в обществах христианских поставить себе законом, то есть не ограничиваться одним внешним принадлежанием к Господу, но озаботиться внутренне сочетаться с Ним, чтобы потом постоянно уже носить свидетельство в себе того, что они стоят во истине. Что же для этого нужно? Надо воплотить в себе истину Христову. Истина же Христова - восстановление падшего. Итак, отложи ветхого человека, тлеющего в похотях прелестных, и облекись в нового, созданного по Богу в правде и преподобии истины, и будешь сам в себе ведать, что Господь Иисус Христос есть воистину Спас не миру только, но собственно и тебе.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

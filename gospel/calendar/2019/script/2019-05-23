@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("23 мая 2020 г. ( 10 мая ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апостола <a  href=\"http://days.pravoslavie.ru/name/2014.html\" target=\"_blank\" title=\"Симон Зилот, Кананит, апостол из 12-ти, сщмч.\">Симона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2014_1110.html\" target=\"_blank\" >икона</a>) Зилота. Мчч. <a  href=\"http://days.pravoslavie.ru/name/141.html\" target=\"_blank\" title=\"Алфий Бастийский, Месопольский, мч.\">Алфия</a>, <a  href=\"http://days.pravoslavie.ru/name/2282.html\" target=\"_blank\" title=\"Филадельф Бастийский, Месопольский, мч.\">Филадельфа</a>, <a  href=\"http://days.pravoslavie.ru/name/1206.html\" target=\"_blank\" title=\"Киприан (Кирин, Кирилл) Бастийский, Месопольский, мч.\">Киприана</a>, <a  href=\"http://days.pravoslavie.ru/name/1665.html\" target=\"_blank\" title=\"Онисим Бастийский, Римский, пресвитер, сщмч.\">Онисима</a>, <a  href=\"http://days.pravoslavie.ru/name/788.html\" target=\"_blank\" title=\"Еразм Римский, мч.\">Еразма</a> и иных. Мч. <a  href=\"http://days.pravoslavie.ru/name/1121.html\" target=\"_blank\" title=\"Исихий Антиохийский, мч.\">Исихия</a> Антиохийского. Прп <a  href=\"http://days.pravoslavie.ru/name/2524.html\" target=\"_blank\" title=\"Исидора Тавенская, Христа ради юродивая, прп.\">Исидоры</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2524_4240.html\" target=\"_blank\" >икона</a>), Христа ради юродивой. Блж. <a  href=\"http://days.pravoslavie.ru/name/2685.html\" target=\"_blank\" title=\"Блаженная Таисия Египетская\">Таисии</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/2016.html\" target=\"_blank\" title=\"Святитель Симон, епископ Владимирский и Суздальский\">Симона</a>, еп. Владимирского и Суздальского, Печерского. Блж. <a  href=\"http://days.pravoslavie.ru/name/6879.html\" target=\"_blank\" title=\"Блаженный Симон Юрьевецкий\">Симона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6879_1112.html\" target=\"_blank\" >икона</a>), Христа ради Юродивого, Юрьевецкого. <a  href=\"http://days.pravoslavie.ru/name/2878.html\" target=\"_blank\" title=\"Киево-Братская\">Киево-Братской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2878_3524.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_15_35_41.html#z\">Деян., 37 зач., XV, 35-41.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_27_38.html#z\">Ин., 38 зач., X, 27-38.</a> Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_4_9_16.html#z\">1 Кор., 131 зач., IV, 9-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_13_54_58.html#z\">Мф., 56 зач., XIII, 54-58.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17894.htm\" target=\"_blank\" title=\"Библия\">Дея. 15, 35-41</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17895.htm\" target=\"_blank\" title=\"Библия\">Ин. 10, 27-38</a>). \"Когда не верите Мне, верьте делам Моим\", говорит Господь. Дела Господни явны были всем, и Он мог указать на них гласно. Это - исцеление разных болезней, изгнание бесов, власть над природою, ведение сердечных помышлений, проречение будущего, сила слова и господство над душами. Все они доказывали ясно, что Иисус Христос от Бога, и что слово Его - истина. Для нас к тем делам присоединилось еще - дивная смерть, воскресение, вознесение, сошествие Святого Духа, основание Церкви, дивные дары духовные в верующих, победа над язычеством и благодатные силы, доселе не престающие действовать в Церкви Божией. Все это дела Господа. Всякому неверу можно сказать: если не веришь слову, поверь делам этим, громко свидетельствующим о Божестве Господа нашего Иисуса Христа, и поверив, прими всю Его истину. Но чем тогда отвечали иудеи Господу? - опять \"искали схватить Его\". Что нынешние неверы? Сидят и сплетают ложь на ложь, чтобы \"схватить\" не Господа - ибо это не по силам их - а тех, которые просты в вере и не могут распутать их хитросплетений.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

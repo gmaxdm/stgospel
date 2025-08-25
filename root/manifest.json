@@ -1,0 +1,16 @@
+{
+    "short_name": "St Gospel",
+    "name": "Bible reading in a groups of agreement",
+    "icons": [{
+        "src": "/static/images/touch/ic_bible_96.png",
+        "type": "images/png",
+        "sizes": "96x96"
+        }, {
+        "src": "/static/images/touch/ic_bible_128.png",
+        "type": "images/png",
+        "sizes": "128x128"
+    }],
+    "start_url": "/?utm_source=homescreen",
+    "background_color": "#FFFFFF",
+    "display": "standalone"
+}

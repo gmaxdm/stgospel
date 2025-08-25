@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("13 июня 2020 г. ( 31 мая ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 1-я по Пятидесятнице (сплошная). ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14696.html\" target=\"_blank\" title=\"Отдание Пятидесятницы\">Отдание</a> праздника Пятидесятницы. Ап. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/791.html\" target=\"_blank\" title=\"Апостол Ерм\">Ерма</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/798.html\" target=\"_blank\" title=\"Ермий Команский, мч.\">Ермия</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/2302.html\" target=\"_blank\" title=\"Философ Александрийский, мч.\">Философа</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9413.html\" target=\"_blank\" title=\"Философ (Орнатский), протоиерей, сщмч.\">Философа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9413_4547.html\" target=\"_blank\" >икона</a>) пресвитера и сыновей его мчч. <a  href=\"http://days.pravoslavie.ru/name/9947.html\" target=\"_blank\" title=\"Борис (Орнатский), мч.\">Бориса</a> и <a  href=\"http://days.pravoslavie.ru/name/10005.html\" target=\"_blank\" title=\"Николай (Орнатский), мч.\">Николая</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_rim_1_7_12.html#z\">Рим., 79 зач. (от&nbsp;полу&#769;), I, 7-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_42_48.html#z\">Мф., 15 зач., V, 42-48.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17940.htm\" target=\"_blank\" title=\"Библия\">Рим. 1, 7-12</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17941.htm\" target=\"_blank\" title=\"Библия\">Мф. 5, 42-48</a>). \"Любите врагов ваших, благословляйте проклинающих вас, благотворите ненавидящим вас и молитесь за обижающих вас и гонящих вас\". Без любви никого нет на свете: любят родителей и родных, любят благодетелей и покровителей. Но чувство любви к родителям, родным, покровителям и благодетелям естественно, и строится само собой в сердце; оттого и цены ей не дает Господь. Настоящая же христианская любовь проверяется отношением к недругам. Не только какая-нибудь легкая и случайная неприятность не должна погашать нашей любви к другим, но даже напасть и гонение, бедствия и лишения, намеренно вражески причиняемые. Мы должны не только благословлять этих людей, но еще благотворить им м молиться за них. Присмотрись, есть ли в тебе такое расположение к недругам твоим, и по тому суди, есть ли в тебе христианская любовь, без которой нет спасения?<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

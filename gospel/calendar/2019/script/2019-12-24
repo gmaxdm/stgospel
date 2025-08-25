@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("24 декабря 2020 г. ( 11 декабря ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 29-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/585.html\" target=\"_blank\" title=\"Преподобный Даниил Столпник\">Даниила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii585_1752.html\" target=\"_blank\" >икона</a>) Столпника. Мчч. <a  href=\"http://days.pravoslavie.ru/name/93.html\" target=\"_blank\" title=\"Акепсий Арбесский (Персидский), мч.\">Акепсия</a> и <a  href=\"http://days.pravoslavie.ru/name/6604.html\" target=\"_blank\" title=\"Аифал Арбесский (Персидский), мч.\">Аифала</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/1541.html\" target=\"_blank\" title=\"Миракс Египтянин, мч.\">Миракса</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1378.html\" target=\"_blank\" title=\"Лука Столпник, Халкидонский, иеромонах\">Луки</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1378_3875.html\" target=\"_blank\" >икона</a>) Столпника. Прп. <a  href=\"http://days.pravoslavie.ru/name/1647.html\" target=\"_blank\" title=\"Никон Сухой, Печерский\">Никона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1647_3586.html\" target=\"_blank\" >икона</a>) Сухого, Печерского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9160.html\" target=\"_blank\" title=\"Святитель Феофан (Ильминский), епископ Соликамский, сщмч.\">Феофана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9160_3585.html\" target=\"_blank\" >икона</a>), еп. Соликамского, и с ним двух священномучеников и пяти мучеников. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13298.html\" target=\"_blank\" title=\"Николай (Виноградов) (другой), протоиерей, сщмч.\">Николая</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9597.html\" target=\"_blank\" title=\"Иоанн (Богоявленский), иерей, сщмч.\">Иоанна</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_7_1_6.html#z\">Евр., 315 зач., VII, 1-6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_28_33.html#z\">Лк., 107 зач., XXI, 28-33.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18351.htm\" target=\"_blank\" title=\"Библия\">Евр. 7, 1-6</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18352.htm\" target=\"_blank\" title=\"Библия\">Лк. 21, 28-33</a>). \"Смотрите же за собою. чтобы сердца ваши не отягчались объядением и пьянством и заботами житейскими, и чтобы день тот не постиг вас внезапно\". \"День тот\", то есть последний день мира или каждого из нас, приходит как тать, и захватывает как сеть; потому и предписывает Господь: \"итак бодрствуйте на всякое время и молитесь\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18353.htm\" target=\"_blank\" title=\"Библия\">Лк. 21, 36</a>). А так как сытость и многозаботливость - первые враги бдения и молитвы, то наперед еще указано, чтоб не допускать себя до отяжеления пищею, питьем и печалями житейскими. Кто поел, попил, повеселился, спать - выспался и опять за то же, у того какому быть бдению? Кто и день и ночь занят одним житейским, тому до молитвы ли? \"Что же, скажешь, делать? Без пищи нельзя; и ее надо добыть. Вот и забота\". Да Господь не сказал: не работай, не ешь, не пей, \"да не отяготится\" сердце ваше этим. Руками работай, а сердце держи свободным; есть - ешь, но не обременяй себя пищею; и вина выпей, когда нужно, но не допускай до возмущения головы и сердца. Раздели внешнее твое от внутреннего и последнее поставь делом жизни твоей, а первое приделком: там будь вниманием и сердцем, а здесь только телом, руками, ногами и глазами: \"бодрствуйте на всякое время и молитесь\", да сподобишься небоязненно стать перед Сыном Человеческим. Чтобы сподобиться этого, надо здесь еще, в жизни своей, установиться перед Господом, а для этого одно средство - бодренная молитва в сердце совершаемая умом. Кто так настроится - на того не найдет \"день той\" внезапно.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

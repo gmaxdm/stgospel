@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("11 октября 2020 г. ( 28 сентября ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 18-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/2344.html\" target=\"_blank\" title=\"Святитель Харитон Исповедник, Иконийский, епископ\">Харитона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2344_1269.html\" target=\"_blank\" >икона</a>) Исповедника. Прпп. схимонаха <a  href=\"http://days.pravoslavie.ru/name/1230.html\" target=\"_blank\" title=\"Кирилл Радонежский, схимонах\">Кирилла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1230_883.html\" target=\"_blank\" >икона</a>) и схимонахини <a  href=\"http://days.pravoslavie.ru/name/2601.html\" target=\"_blank\" title=\"Преподобная Мария Радонежская\">Марии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2601_883.html\" target=\"_blank\" >икона</a>), родителей прп. <a  href=\"http://days.pravoslavie.ru/name/1974.html\" target=\"_blank\" title=\"Преподобный Сергий Радонежский\">Сергия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1974_159.html\" target=\"_blank\" >икона</a>) Радонежского. Прор. <a  href=\"http://days.pravoslavie.ru/name/364.html\" target=\"_blank\" title=\"Пророк Варух\">Варуха</a> (<a  href=\"http://days.pravoslavie.ru/images/ii364_4243.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/109.html\" target=\"_blank\" title=\"Мученик Александр Калутинский\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/138.html\" target=\"_blank\" title=\"Алфей Калутинский (Калитский), мч.\">Алфея</a>, <a  href=\"http://days.pravoslavie.ru/name/849.html\" target=\"_blank\" title=\"Мученик Зосима Калутинский (Калитский)\">Зосимы</a>, <a  href=\"http://days.pravoslavie.ru/name/1461.html\" target=\"_blank\" title=\"Марк Клавдиопольский, мч.\">Марка</a> пастыря, <a  href=\"http://days.pravoslavie.ru/name/1641.html\" target=\"_blank\" title=\"Никон Клавдиопольский, мч.\">Никона</a>, <a  href=\"http://days.pravoslavie.ru/name/1593.html\" target=\"_blank\" title=\"Неон Клавдиопольский, мч.\">Неона</a>, <a  href=\"http://days.pravoslavie.ru/name/937.html\" target=\"_blank\" title=\"Илиодор Клавдиопольский, мч.\">Илиодора</a> и прочих. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/441.html\" target=\"_blank\" title=\"Благоверный князь Вячеслав Чешский\">Вячеслава</a> (<a  href=\"http://days.pravoslavie.ru/images/ii441_70.html\" target=\"_blank\" >икона</a>) Чешского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2347.html\" target=\"_blank\" title=\"Харитон Сянжемский, Простой, игумен\">Харитона</a> Сянжемского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1094.html\" target=\"_blank\" title=\"Иродион (Родион) Илоезерский, схимонах\">Иродиона</a> Илоезерского. <a  href=\"http://days.pravoslavie.ru/name/6900.html\" target=\"_blank\" title=\"Собор преподобных отцев Киево-Печерских, в Ближних пещерах (прп. Антония) почивающих\">Собор</a> преподобных отцев Киево-Печерских, в Ближних пещерах (прп. Антония) почивающих. <a  href=\"http://days.pravoslavie.ru/name/15003.html\" target=\"_blank\" title=\"Собор святых, в земле Испанской и Португальской просиявших\">Собор</a> святых, в земле Испанской и Португальской просиявших. Обретение мощей прмц. вел. кн. <a  href=\"http://days.pravoslavie.ru/name/2500.html\" target=\"_blank\" title=\"Святая преподобномученица великая княгиня Елисавета\">Елисаветы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2500_25.html\" target=\"_blank\" >икона</a>). Мц. <a  href=\"http://days.pravoslavie.ru/name/10054.html\" target=\"_blank\" title=\"Анна (Лыкошина), мц.\">Анны</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/13807.html\" target=\"_blank\" title=\"Иларион (Громов), иеромонах, прмч.\">Илариона</a>, прмц. <a  href=\"http://days.pravoslavie.ru/name/13808.html\" target=\"_blank\" title=\"Михаила (Иванова), схимонахиня, прмц.\">Михаилы</a>. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14334.html\" target=\"_blank\" title=\"Татиана (Чекмазова), послушница, прмц.\">Татианы</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - Ев. 7-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_20_1_10.html#z\">Ин., 63 зач., XX, 1-10.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_9_6_11.html#z\">2 Кор., 188 зач., IX, 6-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_5_1_11.html#z\">Лк., 17 зач., V, 1-11.</a> Прп. Харитона: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_4_6_15.html#z\">2 Кор., 176 зач., IV, 6-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба прпп. Кирилла и Марии, то на литургии - чтения дня и преподобных: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a> Если совершается полиелейная служба прмц. вел. кн. Елисаветы, то на литургии - чтения дня и преподобномученицы: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_6_1_10.html#z\">2 Кор., 181 зач., VI, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_36_50.html#z\">Лк., 33 зач., VII, 36-50.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18194.htm\" target=\"_blank\" title=\"Библия\">Лк. 5, 1-11</a>). Целую ночь трудились рыбари и ничего не поймали; но когда Господь вошел в их лодку и, после проповеди, велел забросить мрежу, поймалось столько, что вытащить не могли и мрежа прорвалась. Это образ всякого труда без помощи Божией, и труда с помощью Божией. Пока один человек трудится, и одними своими силами хочет чего достигнуть - все из рук валится; когда приближится к нему Господь, - откуда потечет добро за добром. В духовно-нравственном отношении невозможность успеха без Господа осязательно видна: \"без Мене не можете творити ничесоже \", сказал Господь. И этот закон действует во всяком. Как ветка, если не сращена с деревом, не только плода не приносит, но иссыхая и живность теряет, так и люди, если не состоят в живом общении с Господом, плодов правды, ценных для жизни вечной, приносить не могут. Добро какое и бывает в них иногда, только на вид добро, а в существе недоброкачественно; как лесное яблоко и красно бывает с виду, а попробуй - кисло. И во внешнем, житейском отношении тоже осязательно видно: бьется, бьется иной, и все не в прок. Когда же низойдет благословение Божие, - откуда что берется. Внимательные к себе и к путям жизни опытно знают эти истины.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

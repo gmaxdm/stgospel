@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("21 января 2020 г. ( 8 января ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 32-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Попразднство Богоявления. Прп. <a  href=\"http://days.pravoslavie.ru/name/499.html\" target=\"_blank\" title=\"Георгий Хозевит, прп.\">Георгия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii499_3145.html\" target=\"_blank\" >икона</a>) Хозевита. Прп. <a  href=\"http://days.pravoslavie.ru/name/2453.html\" target=\"_blank\" title=\"Домника Константинопольская, игумения\">Домники</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2453_3939.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/777.html\" target=\"_blank\" title=\"Святитель Емилиан Кизический, епископ, исповедник\">Емилиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii777_4429.html\" target=\"_blank\" >икона</a>) исп. Прп. <a  href=\"http://days.pravoslavie.ru/name/547.html\" target=\"_blank\" title=\"Григорий Печерский, прмч.\">Григория</a>, чудотворца Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/545.html\" target=\"_blank\" title=\"Преподобный Григорий Киево-Печерский, затворник\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii545_1743.html\" target=\"_blank\" >икона</a>), затворника Печерского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1119.html\" target=\"_blank\" title=\"Священномученик Исидор Юрьевский, пресвитер\">Исидора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1119_859.html\" target=\"_blank\" >икона</a>) пресвитера и с ним 72-х в Юрьеве Лифляндском пострадавших. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1176.html\" target=\"_blank\" title=\"Картерий Кесарийский (Каппадокийский), пресвитер, сщмч.\">Картерия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1176_3937.html\" target=\"_blank\" >икона</a>), пресвитера Кесарии Капподакийской. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1137.html\" target=\"_blank\" title=\"Иулиан Египетский, игумен, сщмч.\">Иулиана</a>, <a  href=\"http://days.pravoslavie.ru/name/1193.html\" target=\"_blank\" title=\"Келсий Египетский, мч.\">Келсия</a>, <a  href=\"http://days.pravoslavie.ru/name/212.html\" target=\"_blank\" title=\"Антоний Египетский, пресвитер, сщмч.\">Антония</a>, <a  href=\"http://days.pravoslavie.ru/name/163.html\" target=\"_blank\" title=\"Анастасий Египетский, прмч.\">Анастасия</a>, мцц. <a  href=\"http://days.pravoslavie.ru/name/2428.html\" target=\"_blank\" title=\"Василисса Египетская, игумения, прмц.\">Василиссы</a> и <a  href=\"http://days.pravoslavie.ru/name/2589.html\" target=\"_blank\" title=\"Марионилла Египетская, мц.\">Мариониллы</a>, семи отроков и 20-ти воинов. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2261.html\" target=\"_blank\" title=\"Феофил Ливийский, диакон, сщмч.\">Феофила</a> диакона и <a  href=\"http://days.pravoslavie.ru/name/768.html\" target=\"_blank\" title=\"Елладий Ливийский, мч.\">Елладия</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/939.html\" target=\"_blank\" title=\"Илия Египетский, пустынник\">Илии</a> Египетского. Мч. <a  href=\"http://days.pravoslavie.ru/name/1.html\" target=\"_blank\" title=\"Або Тбилисский, прп.\">Або</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1_3935.html\" target=\"_blank\" >икона</a>) Тбилисского (Груз.). Прп. <a  href=\"http://days.pravoslavie.ru/name/1711.html\" target=\"_blank\" title=\"Паисий Угличский, игумен\">Паисия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1711_1972.html\" target=\"_blank\" >икона</a>) Угличского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9520.html\" target=\"_blank\" title=\"Виктор (Усов), иерей, сщмч.\">Виктора</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9562.html\" target=\"_blank\" title=\"Димитрий (Плышевский), иерей, сщмч.\">Димитрия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13632.html\" target=\"_blank\" title=\"Владимир (Пастернацкий), протоиерей, сщмч.\">Владимира</a> пресвитера. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14403.html\" target=\"_blank\" title=\"Пафнутий (Костин), прмч.\">Пафнутия</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/13633.html\" target=\"_blank\" title=\"Михаил (Новоселов), мч.\">Михаила</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13630.html\" target=\"_blank\" title=\"Василий (Архангельский), иерей, сщмч.\">Василия</a> пресвитера. Мч. <a  href=\"http://days.pravoslavie.ru/name/13631.html\" target=\"_blank\" title=\"Иоанн (Малышев), мч.\">Иоанна</a>. Св. <a  href=\"http://days.pravoslavie.ru/name/9693.html\" target=\"_blank\" title=\"Михаил (Розов), иерей, исп.\">Михаила</a> исп., пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_12_25_26_13_22_25.html#z\">Евр., 333 зач., XII, 25-26; XIII, 22-25.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_10_2_12.html#z\">Мк., 43 зач., X, 2-12.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("1 сентября 2020 г. ( 19 августа ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 13-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/190.html\" target=\"_blank\" title=\"Мученик Андрей Стратилат\">Андрея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii190_405.html\" target=\"_blank\" >икона</a>) Стратилата и с ним 2593 мучеников. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2105.html\" target=\"_blank\" title=\"Тимофей Палестинский, мч.\">Тимофея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2105_3746.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/50.html\" target=\"_blank\" title=\"Агапий Кесарийский (Палестинский), мч.\">Агапия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii50_3746.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2698.html\" target=\"_blank\" title=\"Фекла Газская, мц.\">Феклы</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/1800.html\" target=\"_blank\" title=\"Святитель Питирим, епископ Великопермский\">Питирима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1800_3162.html\" target=\"_blank\" >икона</a>), еп. Великопермского. Св. <a  href=\"http://days.pravoslavie.ru/name/9711.html\" target=\"_blank\" title=\"Николай (Лебедев), иерей, сщмч.\">Николая</a> исп., пресвитера. <a  href=\"http://days.pravoslavie.ru/name/2844.html\" target=\"_blank\" title=\"Донская\">Донской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2844_523.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_2-kor_8_16_0_9_0_5.html#z\">2 Кор., 187 зач., VIII, 16 - IX, 5.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_3_13_19.html#z\">Мк., 12 зач., III, 13-19.</a> Мч.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба в честь Донской иконы Божией Матери, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56,</a> а на литургии - чтения дня и Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18113.htm\" target=\"_blank\" title=\"Библия\">Мк. 3, 13-19</a>). Избрал Господь апостолов, \"чтобы с Ним были и чтобы посылать их на проповедь, и чтобы они имели власть исцелять от болезней и изгонять бесов\". И всякий христианин избран, и избран на подобные же дела, именно: быть с Господом непрестанною памятью о Нем и сознанием Его вездеприсутствия, проповеданием и исполнением Его заповедей и готовностью исповедать веру свою в Него. В том кругу, где совершается такое исповедание, оно будет громкою проповедью для слышащих. Всякий христианин имеет власть целить недуги, не чужие, а свои и не телесные, а душевные, т. е. грехи и греховные привычки; изгонять бесов, отбрасывая злые помыслы, ими всеваемые, и погашая возбуждение страстей, ими разжигаемых. Делай так и будешь апостолом, исполнителем того, на что ты избран Господом, совершителем своего посланничества. Когда преуспеешь первоначально во всем этом, тогда, может быть, Господь назначит тебе и особое посольство - спасать других, после того, как спасешь себя, и помогать искушаемым, после того, как сам пройдешь все искушения, все опыты в добре и зле. Но твое дело - над собою трудиться: на то уж ты избран; прочее же в руках Божиих. Смиряющийся возносим бывает.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

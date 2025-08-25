@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("22 декабря 2020 г. ( 9 декабря ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 29-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Зачатие праведною <a  href=\"http://days.pravoslavie.ru/name/2394.html\" target=\"_blank\" title=\"Анна, мать Пресвятой Богородицы\">Анною</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2394_107.html\" target=\"_blank\" >икона</a>) Пресвятой Богородицы. Пророчицы <a  href=\"http://days.pravoslavie.ru/name/2397.html\" target=\"_blank\" title=\"Святая Анна Пророчица, мать пророка Самуила\">Анны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2397_1100.html\" target=\"_blank\" >икона</a>), матери прор. <a  href=\"http://days.pravoslavie.ru/name/1921.html\" target=\"_blank\" title=\"Пророк Самуил\">Самуила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1921_1079.html\" target=\"_blank\" >икона</a>). Свт. <a  href=\"http://days.pravoslavie.ru/name/2044.html\" target=\"_blank\" title=\"Святитель Софроний Кипрский, архиепископ\">Софрония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2044_3871.html\" target=\"_blank\" >икона</a>), архиеп. Кипрского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2061.html\" target=\"_blank\" title=\"Стефан Новосиятель, Константинопольский, прп.\">Стефана</a> Новосиятеля. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9527.html\" target=\"_blank\" title=\"Владимир (Виноградов), иерей, сщмч.\">Владимира</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9292.html\" target=\"_blank\" title=\"Владимир (Джуринский), протоиерей, сщмч.\">Владимира</a> пресвитера и мц. <a  href=\"http://days.pravoslavie.ru/name/10072.html\" target=\"_blank\" title=\"Евфросиния (Джуринская), мц.\">Евфросинии</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9288.html\" target=\"_blank\" title=\"Василий (Ягодин), протоиерей, сщмч.\">Василия</a> и <a  href=\"http://days.pravoslavie.ru/name/9420.html\" target=\"_blank\" title=\"Александр (Буравцев), иерей, сщмч.\">Александра</a> пресвитеров. Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2917.html\" target=\"_blank\" title=\"\"Нечаянная Радость\"\">\"Нечаянная Радость\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2917_2436.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_4_1_13.html#z\">Евр., 310 зач., IV, 1-13.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a> Прав. Анны: <a href=\"http://days.pravoslavie.ru/bible/z_gal_4_22_31.html#z\">Гал., 210 зач. (от&nbsp;полу&#769;), IV, 22-31.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_8_16_21.html#z\">Лк., 36 зач., VIII, 16-21.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18348.htm\" target=\"_blank\" title=\"Библия\">Лк. 21, 12-19</a>). \"И будете ненавидимы всеми за имя Мое\". Кто вдохнет в себя хоть мало духа мира, тот становится холодным к христианству и его требованиям. Равнодушие это переходит в неприязнь, когда долго в нем остаются не опамятываясь, и особенно когда при этом захватят откуда-либо частицу превратных учений. Дух мира с превратными учениями - дух неприязненный Христу: он антихристов; расширение его - расширение враждебных отношений к христианскому исповеданию и христианским порядкам жизни. Кажется, вокруг нас деется что-то подобное. Пока ходит повсюду только худое рыкание; но не дивно, что скоро начнется и прореченное Господом: \"возложат на вас руки. . . и будут гнать вас . . . преданы будете. . . и умертвят вас\". Дух антихристовский всегда один; что было вначале, то будет и теперь, в другой, может быть, форме, но в том же значении. Как же быть? \"Терпением вашим спасайте души ваши\". Терпи, с твердым словом исповедания истины в устах и в сердце.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

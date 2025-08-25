@@ -1,0 +1,84 @@
+{% extends 'wrapper.html' %}
+{% load static i18n %}
+{% block title %}{% trans "Форум" %}{% endblock %}
+{% block main %}
+
+{% url "register" as register_url %}
+{% url "login" as login_url %}
+
+<div id="forum">
+<div class="">
+    <div class="my-4"><a href="{% url "forum-index" %}">{% trans "Forums" %}</a></div>
+    <div class="mb-5">
+    <table class="forum-table table table-responsive-sm table-hover"> 
+        <tr>
+            <th></th>
+            <th class="topic">{% trans "Topic" %}</th>
+            <th>{% trans "Posts" %}</th>
+            <th>{% trans "Visits" %}</th>
+            <th>{% trans "Creator" %}</th>
+            <th>{% trans "Last Post" %}</th>
+        </tr>
+        {% for topic in topics %}
+        <tr>
+            <td class="img"><img src="{{ topic.forum.img128 }}" width="64" /></td>
+            <td class="topic">
+                <div><a href="{% url "forum-topic" topic.forum.slug topic.slug %}">{{ topic.title }}</a></div>
+                <div class="forum-category">{{ topic.forum.category.title }} &rarr; <a href="{% url 'forum-view' topic.forum.slug %}">{{ topic.forum.title }}</a></div>
+            </td>
+            <td>{{ topic.posts }}</td>
+            <td>{{ topic.visits }}</td>
+            <td>{{ topic.creator }}</td>
+            <td>
+                <div class="posts">
+                    <div>
+                        <span class="user-name">{{ topic.last_post.user }}</span>
+                        <span class="post-date">{{ topic.last_post.cdate }}</span>
+                    </div>
+                    <div class="post-review">
+                    {% if topic.last_post.deleted %}
+                        <em>{% trans "Post was deleted." %}</em>
+                    {% else %}
+                        {{ topic.last_post.body|striptags|truncatechars:50 }}
+                    {% endif %}
+                    </div>
+                </div>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    </div>
+</div>
+
+<h1>{% trans "New topic" %}</h1>
+{% if user.is_authenticated %}
+<div class="">
+{% if forums %}
+    <form action="{% url 'forum-topic-new' %}" method="POST">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="in-title">{% trans "Title" %}</label>
+            <input id="in-title" class="form-control" name="title" value="" required/>
+        </div>
+        <div class="form-group">
+            <label for="in-forum">{% trans "Please select Forum" %}</label>
+            <select id="in-forum" class="form-control" name="forum">
+                {% for forum in forums %}
+                <option value="{{ forum.id }}">{{ forum.title }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="text-right p-1"><input type="submit" value="{% trans 'Create' %}" /></div>
+    </form>
+{% endif %}
+</div>
+{% else %}
+<div class="">
+    {% blocktranslate %}
+    <p>Пожалуйста, <a href="{{ register_url }}">зарегистрируйтесь</a> или <a href="{{ login_url }}">войдите</a>, чтобы создать новую тему.</p>
+    {% endblocktranslate %}
+</div>
+{% endif %}
+
+</div>
+{% endblock %}

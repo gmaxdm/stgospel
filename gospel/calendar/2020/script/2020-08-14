@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("14 августа 2020 г. ( 1 августа ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 10-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Начало Успенского поста. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6928.html\" target=\"_blank\" title=\"Происхождение (изнесение) честных древ Животворящего Креста Господня\">Происхождение (изнесение) честных древ Животворящего Креста Господня</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6928_3507.html\" target=\"_blank\" >икона</a>). <a  href=\"http://days.pravoslavie.ru/name/10143.html\" target=\"_blank\" title=\"Празднество Всемилостивому Спасу и Пресвятой Богородице\">Празднество</a> Всемилостивому Спасу и Пресвятой Богородице. Семи мучеников Маккавеев: <a  href=\"http://days.pravoslavie.ru/name/24.html\" target=\"_blank\" title=\"Мученик Авим Маккавей\">Авима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii24_4408.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/226.html\" target=\"_blank\" title=\"Мученик Антонин Маккавей\">Антонина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii226_4407.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/554.html\" target=\"_blank\" title=\"Мученик Гурий Маккавей\">Гурия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii554_4407.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/755.html\" target=\"_blank\" title=\"Мученик Елеазар Маккавей\">Елеазара</a> (<a  href=\"http://days.pravoslavie.ru/images/ii755_4407.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/705.html\" target=\"_blank\" title=\"Мученик Евсевон Маккавей\">Евсевона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii705_4407.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/135.html\" target=\"_blank\" title=\"Мученик Алим Маккавей\">Алима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii135_4407.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1470.html\" target=\"_blank\" title=\"Мученик Маркелл Маккавей\">Маркелла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1470_4407.html\" target=\"_blank\" >икона</a>), матери их <a  href=\"http://days.pravoslavie.ru/name/2671.html\" target=\"_blank\" title=\"Мученица Соломония Маккавей\">Соломонии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2671_2259.html\" target=\"_blank\" >икона</a>) и учителя их <a  href=\"http://days.pravoslavie.ru/name/754.html\" target=\"_blank\" title=\"Мученик Елеазар Иерусалимский\">Елеазара</a>. Мчч. в Пергии Памфилийской: <a  href=\"http://days.pravoslavie.ru/name/1352.html\" target=\"_blank\" title=\"Леонтий Пергийский (Памфилийский), мч.\">Леонтия</a>, <a  href=\"http://days.pravoslavie.ru/name/291.html\" target=\"_blank\" title=\"Аттий Пергийский (Памфилийский), мч.\">Аттия</a>, <a  href=\"http://days.pravoslavie.ru/name/117.html\" target=\"_blank\" title=\"Александр Пергийский (Памфилийский), земледелец, мч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/1201.html\" target=\"_blank\" title=\"Киндей Пергийский (Памфилийский), мч.\">Киндея</a>, <a  href=\"http://days.pravoslavie.ru/name/1540.html\" target=\"_blank\" title=\"Минсифей Пергийский (Памфилийский), мч.\">Минсифея</a>, <a  href=\"http://days.pravoslavie.ru/name/1218.html\" target=\"_blank\" title=\"Кириак Пергийский (Памфилийский), мч.\">Кириака</a>, <a  href=\"http://days.pravoslavie.ru/name/1539.html\" target=\"_blank\" title=\"Минеон Пергийский (Памфилийский), мч.\">Минеона</a>, <a  href=\"http://days.pravoslavie.ru/name/1188.html\" target=\"_blank\" title=\"Катун Пергийский (Памфилийский), мч.\">Катуна</a> и <a  href=\"http://days.pravoslavie.ru/name/6603.html\" target=\"_blank\" title=\"Евклей, мч.\">Евклея</a>. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/6957.html\" target=\"_blank\" title=\"София Суздальская, прп.\">Софии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6957_3509.html\" target=\"_blank\" >икона</a>) Суздальской. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9313.html\" target=\"_blank\" title=\"Димитрий (Павский), протоиерей, сщмч.\">Димитрия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Креста: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_1_18_24.html#z\">1 Кор., 125 зач., I, 18-24.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_19_6_11_19_13_20_19_25_28_19_30_35.html#z\">Ин., 60 зач., XIX, 6-11, 13-20, 25-28, 30-35.</a> Мчч.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_11_33_0_12_0_2.html#z\">Евр., 330 зач., XI, 33 - XII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_32_36_11_1_1.html#z\">Мф., 38 зач., X, 32-36; XI, 1.</a> На водоосвящении: <a href=\"http://days.pravoslavie.ru/bible/z_evr_2_11_18.html#z\">Евр., 306 зач., II, 11-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_5_1_4.html#z\">Ин., 14 зач., V, 1-4.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

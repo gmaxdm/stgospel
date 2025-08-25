@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("19 июня 2020 г. ( 6 июня ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/424.html\" target=\"_blank\" title=\"Виссарион Египетский, пустынник\">Виссариона</a>, чудотворца Египетского. Прп. <a  href=\"http://days.pravoslavie.ru/name/930.html\" target=\"_blank\" title=\"Иларион Новый, Далматский, игумен, исповедник\">Илариона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii930_1000.html\" target=\"_blank\" >икона</a>) Нового, из обители Далматской. Прп. <a  href=\"http://days.pravoslavie.ru/name/357.html\" target=\"_blank\" title=\"Преподобный Варлаам Хутынский\">Варлаама</a> (<a  href=\"http://days.pravoslavie.ru/images/ii357_438.html\" target=\"_blank\" >икона</a>) Хутынского. Прмцц. дев <a  href=\"http://days.pravoslavie.ru/name/2414.html\" target=\"_blank\" title=\"Архелая Салернская, дева, прмц.\">Архелаи</a>, <a  href=\"http://days.pravoslavie.ru/name/2702.html\" target=\"_blank\" title=\"Фекла Салернская, дева, прмц.\">Феклы</a> и <a  href=\"http://days.pravoslavie.ru/name/2674.html\" target=\"_blank\" title=\"Сосанна (Сусанна) Салернская, дева, прмц.\">Сосанны</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/1040.html\" target=\"_blank\" title=\"Святитель Иона, епископ Великопермский\">Ионы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1040_3162.html\" target=\"_blank\" >икона</a>), еп. Великопермского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1711.html\" target=\"_blank\" title=\"Паисий Угличский, игумен\">Паисия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1711_1972.html\" target=\"_blank\" >икона</a>) Угличского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1041.html\" target=\"_blank\" title=\"Иона Климецкий (Клименецкий), Олонецкий, прп.\">Ионы</a> Климецкого. Прп. <a  href=\"http://days.pravoslavie.ru/name/14271.html\" target=\"_blank\" title=\"Рафаил (Шейченко), иеромонах, исповедник\">Рафаила</a> исп. <a  href=\"http://days.pravoslavie.ru/name/2944.html\" target=\"_blank\" title=\"Пименовская\">Пименовской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2944_2458.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. <a  href=\"http://days.pravoslavie.ru/name/2986.html\" target=\"_blank\" title=\"Табынская\">Табынской</a> и \"Знамение\" <a  href=\"http://days.pravoslavie.ru/name/2855.html\" target=\"_blank\" title=\"Знамение Курская-Коренная\">Курской-Коренной</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2855_2365.html\" target=\"_blank\" >икона</a>) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_rim_5_17_0_6_0_2.html#z\">Рим., 90 зач., V, 17 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_9_14_17.html#z\">Мф., 31 зач., IX, 14-17.</a> Прп. Варлаама: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17952.htm\" target=\"_blank\" title=\"Библия\">Рим. 5, 17-6, 2</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17953.htm\" target=\"_blank\" title=\"Библия\">Мф. 9, 14-17</a>). Спрашивали Господа: почему ученики Его не постятся? Он отвечал: потому что еще не пришло для них время. Потом приточною речью показал, что, вообще, строгость внешнего подвижничества должна соответствовать обновлению внутренних сил духа. Прежде возгрей дух ревности, а потом налагай на себя и строгости, ибо в таком случае есть в тебе внутренняя новая сила, способная с пользою выдержать их. Если же, не имея этой ревности, возмешься за строгости, увлекаясь или только примером других, или показностью подвижничества, то не на пользу это будет. Немного еще продержишься в этой строгости, а потом ослабеешь и бросишь. И будет тебе еще хуже, чем было прежде. Строгость без внутреннего духа - то же что заплата из сырцового полотна на ветхой одежде, или вино новое в старых мехах. Заплата отпадет, и дыра делается еще больше, а вино прорывает мех, и само пропадает и мех делает негожим. Это, впрочем, не значит, что строгости не годны, а внушается только, что надо начинать их в порядке. Надобно сделать, чтобы потребность их шла извнутрь, чтоб они удовлетворяли сердцу, а не теснили только совне, как гнет.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

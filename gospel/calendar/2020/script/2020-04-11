@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("11 апреля 2020 г. ( 29 марта ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я Великого поста (седмица ваий). <a  href=\"http://days.pravoslavie.ru/name/13546.html\" target=\"_blank\" title=\"Лазарева Суббота\">Лазарева Суббота</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13546_3412.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. На трапезе разрешается вкушение рыбной икры. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыбная икра. ");
+}
+
+function print_saints()
+{
+ daysd.write("Воскрешение праведного <a  href=\"http://days.pravoslavie.ru/name/1328.html\" target=\"_blank\" title=\"Святитель Лазарь Четверодневный, Китийский, епископ\">Лазаря</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1328_72.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/1457.html\" target=\"_blank\" title=\"Святитель Марк Арефусийский, епископ, исповедник\">Марка</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1457_4150.html\" target=\"_blank\" >икона</a>), еп. Арефусийского, <a  href=\"http://days.pravoslavie.ru/name/1227.html\" target=\"_blank\" title=\"Кирилл Илиопольский, диакон, сщмч.\">Кирилла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1227_868.html\" target=\"_blank\" >икона</a>) диакона и иных многих. Прп. <a  href=\"http://days.pravoslavie.ru/name/975.html\" target=\"_blank\" title=\"Иоанн Египетский, пустынник\">Иоанна</a> пустынника. Свт. <a  href=\"http://days.pravoslavie.ru/name/710.html\" target=\"_blank\" title=\"Святитель Евстафий Кийский (Вифинский), епископ, исповедник\">Евстафия</a> исп., еп. Вифинийского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/6680.html\" target=\"_blank\" title=\"Преподобный Марк Псково-Печерский\">Марка</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6680_2892.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/6681.html\" target=\"_blank\" title=\"Иона Псково-Печерский, прп.\">Ионы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6681_2892.html\" target=\"_blank\" >икона</a>), Псково-Печерских. Св. <a  href=\"http://days.pravoslavie.ru/name/14241.html\" target=\"_blank\" title=\"Михаил (Викторов), протоиерей, исповедник\">Михаила</a>, исповедника, пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_12_28_0_13_0_8.html#z\">Евр., 333 зач. (от&nbsp;полу&#769;), XII, 28 - XIII, 8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_11_1_45.html#z\">Ин., 39 зач., XI, 1-45.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17809.htm\" target=\"_blank\" title=\"Библия\">Евр. 12, 28-13, 8</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17810.htm\" target=\"_blank\" title=\"Библия\">Ин. 11, 1-45</a>). У кого есть Марфа трудолюбивая - всестороннее доброделание, и Мария, сидящая при ногах Иисусовых, - внимательное и теплое ко Господу обращение всем сердцем, к тому Сам приидет Господь, и воскресит Лазаря его - дух, и разрешит его от всех уз душевно-телесности. Тогда начнется у него истинно новая жизнь, в теле безтелесная и на земле неземная. Это будет истинное воскресение в духе прежде будущего воскресения и с телом.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

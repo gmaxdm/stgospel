@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("5 декабря 2020 г. ( 22 ноября ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 26-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Попразднство Введения во храм Пресвятой Богородицы. Апп. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/2288.html\" target=\"_blank\" title=\"Апостол от 70-ти Филимон\">Филимона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2288_3570.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/279.html\" target=\"_blank\" title=\"Апостол от 70-ти Архипп\">Архиппа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii279_3570.html\" target=\"_blank\" >икона</a>) и мц. равноап. <a  href=\"http://days.pravoslavie.ru/name/2411.html\" target=\"_blank\" title=\"Равноапостольная Апфия\">Апфии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2411_3570.html\" target=\"_blank\" >икона</a>). Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/1562.html\" target=\"_blank\" title=\"Святой благоверный князь Михаил Тверской\">Михаила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1562_968.html\" target=\"_blank\" >икона</a>) Тверского. Мц. <a  href=\"http://days.pravoslavie.ru/name/2551.html\" target=\"_blank\" title=\"Кикилия (Цецилия) Римская, мц.\">Кикилии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2551_2201.html\" target=\"_blank\" >икона</a>) (Цецилии) и мчч. <a  href=\"http://days.pravoslavie.ru/name/339.html\" target=\"_blank\" title=\"Валериан Римский, мч.\">Валериана</a>, <a  href=\"http://days.pravoslavie.ru/name/2096.html\" target=\"_blank\" title=\"Тивуртий Римский, мч.\">Тивуртия</a> и <a  href=\"http://days.pravoslavie.ru/name/1434.html\" target=\"_blank\" title=\"Максим Римский, мч.\">Максима</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/1518.html\" target=\"_blank\" title=\"Менигн, белильник, мч.\">Менигна</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/1845.html\" target=\"_blank\" title=\"Прокопий Кесарийский (Палестинский), мч.\">Прокопия</a> чтеца. Прп. <a  href=\"http://days.pravoslavie.ru/name/47.html\" target=\"_blank\" title=\"Агавва Исмаильтянин, Сирийский, прп.\">Агаввы</a> исмаильтянина. Прав. <a  href=\"http://days.pravoslavie.ru/name/1549.html\" target=\"_blank\" title=\"Михаил Болгарский, воин\">Михаила</a> воина, болгарина. Блгв. <a  href=\"http://days.pravoslavie.ru/name/2364.html\" target=\"_blank\" title=\"Святой благоверный князь Ярополк Изяславич\">Ярополка</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2364_1294.html\" target=\"_blank\" >икона</a>), во св. Крещении Петра, кн. Владимиро-Волынского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9538.html\" target=\"_blank\" title=\"Владимир (Рясенский), иерей, сщмч.\">Владимира</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13865.html\" target=\"_blank\" title=\"Святитель Иоасаф (Жевахов), епископ Могилевский, сщмч.\">Иоасафа</a>, еп. Могилевского, сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9595.html\" target=\"_blank\" title=\"Иоанн (Баранов), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9485.html\" target=\"_blank\" title=\"Василий (Бова), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9747.html\" target=\"_blank\" title=\"Павел (Евдокимов), иерей, сщмч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/9584.html\" target=\"_blank\" title=\"Иаков (Соколов), иерей, сщмч.\">Иакова</a>, <a  href=\"http://days.pravoslavie.ru/name/9815.html\" target=\"_blank\" title=\"Феодор (Гусев), иерей, сщмч.\">Феодора</a>, <a  href=\"http://days.pravoslavie.ru/name/9638.html\" target=\"_blank\" title=\"Иоанн (Смирнов), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9323.html\" target=\"_blank\" title=\"Илия (Громогласов), протоиерей, сщмч.\">Илии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9323_1794.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/9269.html\" target=\"_blank\" title=\"Алексий (Бенеманский), протоиерей, сщмч.\">Алексия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9269_1645.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/9479.html\" target=\"_blank\" title=\"Афанасий (Милов), иерей, сщмч.\">Афанасия</a> пресвитера и прмчч. <a  href=\"http://days.pravoslavie.ru/name/9207.html\" target=\"_blank\" title=\"Герасим (Мочалов), иеромонах, сщмч.\">Герасима</a>, <a  href=\"http://days.pravoslavie.ru/name/14486.html\" target=\"_blank\" title=\"Евтихий (Диденко), инок, прмч.\">Евтихия</a>, <a  href=\"http://days.pravoslavie.ru/name/14487.html\" target=\"_blank\" title=\"Авенир (Синицын), инок, прмч.\">Авенира</a>, <a  href=\"http://days.pravoslavie.ru/name/14488.html\" target=\"_blank\" title=\"Савва (Суслов), инок, прмч.\">Саввы</a>, <a  href=\"http://days.pravoslavie.ru/name/14489.html\" target=\"_blank\" title=\"Марк (Махров), инок, прмч.\">Марка</a> и мч. <a  href=\"http://days.pravoslavie.ru/name/14490.html\" target=\"_blank\" title=\"Борис (Козлов), мч.\">Бориса</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/9903.html\" target=\"_blank\" title=\"Параскева (Матиешина), инокиня, исп.\">Параскевы</a> исп. ");
+}
+
+function print_chten()
+{
+ daysd.write("Апп.: последи\' 302 зач., <a href=\"http://days.pravoslavie.ru/bible/z_flm_1_1_25.html#z\">Флм., I, 1-25.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_1_15.html#z\">Лк., 50 зач., X, 1-15.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_3_8_12.html#z\">Гал., 205 зач., III, 8-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_9_57_62.html#z\">Лк., 49 зач., IX, 57-62.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18312.htm\" target=\"_blank\" title=\"Библия\">Гал. 3, 8-12</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18313.htm\" target=\"_blank\" title=\"Библия\">Лк. 9, 57-62</a>). \"Никто возложивший руку свою на плуг и озирающийся назад, не благонадежен для Царствия Божия\". То есть, кто думает спасаться, а между тем оглядывается и на то, что должно бросить для спасения, тот не спасается, не идет, не направляется в Царствие Божие. Надобно уже окончательно порешить со всем тем, что несовместно с делом спасения. Задумавшие спасаться и сами это видят, но расставанье с некоторыми привязанностями отлагают все до завтра. Вдруг порвать все - представляется слишком большой жертвой. Хотят отрешаться исподволь, чтоб и другим не бросалось в глаза, - и всегда почти проигрывают. Заводят порядки спасительные, а сердечные расположения оставляют прежними. На первых порах несообразность очень резка: но \"завтра\" и обещаемое изменение их заграждает уста совести. Таким образом, все завтра да завтра, - совесть устает толковать все одно и то же и, наконец, замолкает. А тут начинают приходить мысли, что и так можно оставить. Мысли эти крепнут, а затем и навсегда устанавливаются. Образуется лицо внешне исправное, но с внутреннею неисправностью. Это раскрашенный гроб перед очами Божиими. Главное то беда, что обращение таковых бывает также трудно, как и тех, которые ожестели в грехах открытых, если еще не труднее. . . А думается, что все ничего.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

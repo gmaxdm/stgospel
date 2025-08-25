@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("19 мая 2020 г. ( 6 мая ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прав. <a  href=\"http://days.pravoslavie.ru/name/1035.html\" target=\"_blank\" title=\"Праведный Иов Многострадальный\">Иова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1035_843.html\" target=\"_blank\" >икона</a>) Многострадального. Мчч. <a  href=\"http://days.pravoslavie.ru/name/350.html\" target=\"_blank\" title=\"Варвар Фракийский, мч.\">Варвара</a> воина, <a  href=\"http://days.pravoslavie.ru/name/332.html\" target=\"_blank\" title=\"Вакх Фракийский, мч.\">Вакха</a>, <a  href=\"http://days.pravoslavie.ru/name/1155.html\" target=\"_blank\" title=\"Каллимах Фракийский, мч.\">Каллимаха</a> и <a  href=\"http://days.pravoslavie.ru/name/633.html\" target=\"_blank\" title=\"Дионисий Фракийский, мч.\">Дионисия</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1565.html\" target=\"_blank\" title=\"Преподобный Михей Радонежский\">Михея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1565_972.html\" target=\"_blank\" >икона</a>) Радонежского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1037.html\" target=\"_blank\" title=\"Преподобный Иов, игумен Почаевский\">Иова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1037_242.html\" target=\"_blank\" >икона</a>) Почаевского. Мч. <a  href=\"http://days.pravoslavie.ru/name/349.html\" target=\"_blank\" title=\"Варвар Луканский, мч.\">Варвара</a> (<a  href=\"http://days.pravoslavie.ru/images/ii349_3050.html\" target=\"_blank\" >икона</a>), бывшего разбойника. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_12_25_0_13_0_12.html#z\">Деян., 31 зач., XII, 25 - XIII, 12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_8_51_59.html#z\">Ин., 33 зач., VIII, 51-59.</a> Прав.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17885.htm\" target=\"_blank\" title=\"Библия\">Дея. 12, 25-13, 12</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17886.htm\" target=\"_blank\" title=\"Библия\">Ин. 8, 51-59</a>). Иудеи рассердились на Господа за обличение и взяли камни, \"чтобы бросить на Него\". Но Господь прошел \"посреди них и пошел далее\". Господу ничего не сделали, а себя сгубили, ибо следствие их неверия был страшный приговор Господа: \"вот оставляется дом ваш пуст\", и еще: \"прейдем отсюда\". И перешел Господь в другое место и избрал другие народы в жилище Себе, вместо возлюбленного Израиля. Вот и теперь, ничтожные люди в самообольщении гордого ума, не вмещающего истины Христовой, берут камни противления Господу и бросают в Него. Ему-то они не вредят, потому что Он все же Господь, и истина Его - непреложная истина, а себя губят. Господь мимо ходит, оставляя такие лица их суемудрию, которое и кружит их, как вихрь слабые пылинки. Но когда целый народ увлекается мудрованием ложным, то весь народ предоставляется, подобно иудеям, своей участи. Разумейте языцы , и покоряйтесь Господу!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

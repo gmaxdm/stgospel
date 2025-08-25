@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("25 апреля 2020 г. ( 12 апреля ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Светлая седмица - сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/382.html\" target=\"_blank\" title=\"Святитель Василий Парийский, епископ, исповедник\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii382_96.html\" target=\"_blank\" >икона</a>) исп., еп. Парийского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/834.html\" target=\"_blank\" title=\"Святитель Зинон Веронийский, епископ, исповедник\">Зинона</a>, еп. Веронийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1098.html\" target=\"_blank\" title=\"Преподобный Исаак Сирин, Сполетский, Италийский\">Исаака</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1098_82.html\" target=\"_blank\" >икона</a>) Сирина в Сполете Италийском. Прмчч. <a  href=\"http://days.pravoslavie.ru/name/1536.html\" target=\"_blank\" title=\"Мина Палестинский, прмч.\">Мины</a>, <a  href=\"http://days.pravoslavie.ru/name/561.html\" target=\"_blank\" title=\"Давид Палестинский, прмч.\">Давида</a> и <a  href=\"http://days.pravoslavie.ru/name/997.html\" target=\"_blank\" title=\"Иоанн Палестинский, прмч.\">Иоанна</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/2407.html\" target=\"_blank\" title=\"Анфуса Омонийская, игумения, дева\">Анфусы</a> девы. Прп. <a  href=\"http://days.pravoslavie.ru/name/2422.html\" target=\"_blank\" title=\"Афанасия Эгинская, игумения\">Афанасии</a> игумении. Прмч. <a  href=\"http://days.pravoslavie.ru/name/13713.html\" target=\"_blank\" title=\"Сергий (Крестников), прмч.\">Сергия</a>. <a  href=\"http://days.pravoslavie.ru/name/2912.html\" target=\"_blank\" title=\"Муромская\">Муромской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2912_2428.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2779.html\" target=\"_blank\" title=\"Белыничская\">Белыничской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2779_3081.html\" target=\"_blank\" >икона</a>) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_3_11_16.html#z\">Деян., 8 зач., III, 11-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_3_22_33.html#z\">Ин., 11 зач., III, 22-33.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17830.htm\" target=\"_blank\" title=\"Библия\">Дея. З, 11-16</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17831.htm\" target=\"_blank\" title=\"Библия\">Ин. З, 22-33</a>). Две у нас жизни, плотская и духовная. Дух наш как будто погребен во плоти. Когда, оживши благодатию Божьею, начнет он извлекать себя из сорастворения с плотью и являться в духовной чистоте своей, тогда он воскресает или воскрешает себя часть за частью. Когда же он всего себя исторгнет из этой связности, тогда исходит как из гроба, в обновленной жизни, и, таким образом, дух становится, сам по себе, жив и действен; а гроб плоти, сам по себе, мертв и бездействен, хотя то и другое в одном и том же лице. И вот тайна того, что говорит апостол: \"где Дух Господень, там свобода\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17832.htm\" target=\"_blank\" title=\"Библия\">2 Кор. З, 17</a>). Это - свобода от облежащего нетленный дух наш тления или от страстей, растлевающих естество наше. Этот дух, вступивший в свободу чад Божиих, то же, что привлекательно разцвеченный мотылек, выпорхнувший из своего клубочка. Вот его радужное разцвечение: любовь, радость, мир, долготерпение, благость, милосердие, вера, кротость, воздержание (<a  href=\"https://days.pravoslavie.ru/Bible/C17833.htm\" target=\"_blank\" title=\"Библия\">Гал. 5, 22</a>). Неужели подобная красота совершенства не сильна возбудить в нас соревнования?<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

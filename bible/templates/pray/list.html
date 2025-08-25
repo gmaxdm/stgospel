@@ -1,0 +1,14 @@
+{% extends 'wrapper.html' %}
+{% block title %}Молитвы{% endblock %}
+{% block main %}
+    <div class="">
+        <h1>Молитвы</h1>
+        <ul class="p-3">
+            {% for pray in object_list %}
+            <li>
+                <a href="{% url 'pray' pray.slug %}">{{ pray.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

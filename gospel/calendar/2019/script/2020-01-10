@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("10 января 2020 г. (28  декабря 2019 г. ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 30-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6938.html\" target=\"_blank\" title=\"Мученики 20000, в Никомидии в церкви сожженные\">Мучеников 20000</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6938_3910.html\" target=\"_blank\" >икона</a>), в Никомидии в церкви сожженных, и прочих, тамо же вне церкви пострадавших: <a  href=\"http://days.pravoslavie.ru/name/519.html\" target=\"_blank\" title=\"Гликерий Никомидийский, пресвитер, сщмч.\">Гликерия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii519_3910.html\" target=\"_blank\" >икона</a>) пресвитера, <a  href=\"http://days.pravoslavie.ru/name/839.html\" target=\"_blank\" title=\"Зинон Никомидийский, военачальник, мч.\">Зинона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii839_3910.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2264.html\" target=\"_blank\" title=\"Священномученик Феофил Никомидийский\">Феофила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2264_3910.html\" target=\"_blank\" >икона</a>) диакона, <a  href=\"http://days.pravoslavie.ru/name/652.html\" target=\"_blank\" title=\"Мученик Дорофей Никомидийский\">Дорофея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii652_3910.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1450.html\" target=\"_blank\" title=\"Мученик Мардоний Никомидийский\">Мардония</a>, <a  href=\"http://days.pravoslavie.ru/name/1529.html\" target=\"_blank\" title=\"Мигдоний Никомидийский, диакон, сщмч.\">Мигдония</a> диакона, <a  href=\"http://days.pravoslavie.ru/name/948.html\" target=\"_blank\" title=\"Мученик Индис Никомидийский\">Индиса</a>, <a  href=\"http://days.pravoslavie.ru/name/524.html\" target=\"_blank\" title=\"Мученик Горгоний Никомидийский\">Горгония</a>, <a  href=\"http://days.pravoslavie.ru/name/1783.html\" target=\"_blank\" title=\"Мученик Петр Никомидийский\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/736.html\" target=\"_blank\" title=\"Мученик Евфимий Никомидийский\">Евфимия</a>, мцц. <a  href=\"http://days.pravoslavie.ru/name/2368.html\" target=\"_blank\" title=\"Агафия Никомидийская, игумения, прмц.\">Агафии</a>, <a  href=\"http://days.pravoslavie.ru/name/2451.html\" target=\"_blank\" title=\"Домна Никомидийская, мц.\">Домны</a>, <a  href=\"http://days.pravoslavie.ru/name/2729.html\" target=\"_blank\" title=\"Феофила Никомидийская, мц.\">Феофилы</a> и иных. Ап. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/1610.html\" target=\"_blank\" title=\"Никанор, апостол от 70-ти, сщмч.\">Никанора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1610_320.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/902.html\" target=\"_blank\" title=\"Преподобный Игнатии Ломский, Ярославский\">Игнатия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii902_232.html\" target=\"_blank\" >икона</a>) Ломского, Ярославского.  Прп. <a  href=\"http://days.pravoslavie.ru/name/14529.html\" target=\"_blank\" title=\"Корнилий Крыпецкий, прп.\">Корнилия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14529_3608.html\" target=\"_blank\" >икона</a>) Крыпецкого. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9151.html\" target=\"_blank\" title=\"Святитель Никодим (Кононов), епископ Белгородский, сщмч.\">Никодима</a>, еп. Белгородского и <a  href=\"http://days.pravoslavie.ru/name/9842.html\" target=\"_blank\" title=\"Аркадий (Решетников), диакон, сщмч.\">Аркадия</a> диакона. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9256.html\" target=\"_blank\" title=\"Александр (Дагаев), протоиерей, сщмч.\">Александра</a> пресвитера. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/14377.html\" target=\"_blank\" title=\"Феоктист (Хоперсков), протоиерей, сщмч.\">Феоктиста</a>, <a  href=\"http://days.pravoslavie.ru/name/14378.html\" target=\"_blank\" title=\"Леонид (Викторов), протоиерей, сщмч.\">Леонида</a>, <a  href=\"http://days.pravoslavie.ru/name/14446.html\" target=\"_blank\" title=\"Николай (Родимов), протоиерей, сщмч.\">Николая</a> пресвитеров. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13406.html\" target=\"_blank\" title=\"Арефа (Насонов), иерей, сщмч.\">Арефы</a> и <a  href=\"http://days.pravoslavie.ru/name/13908.html\" target=\"_blank\" title=\"Александр (Цицеронов), иерей, сщмч.\">Александра</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_11_8_8_11_11_16.html#z\">Евр., 327 зач., XI, 8, 11-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_12_1_12.html#z\">Мк., 53 зач., XII, 1-12.</a> Мчч.: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_3_9.html#z\">Рим., 96 зач. (от&nbsp;полу&#769;), VIII, 3-9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_19_21.html#z\">Лк., 51 зач. (от&nbsp;полу&#769;), X, 19-21.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18326.htm\" target=\"_blank\" title=\"Библия\">Гал. 5, 22-6, 2</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18327.htm\" target=\"_blank\" title=\"Библия\">Лк. 10, 19-21</a>). \"Славлю Тебя, Отче, Господи неба и земли, что Ты утаил сие от мудрых и разумных и открыл младенцам. Ей, Отче, ибо таково было Твое благоволение\". Вот суд над человеческой мудростью и разумностью. И он видимо исполняется. Откровение теперь перед глазами в Божеских писаниях, и разумники читают его, но не понимают. Дивиться надобно: писано просто, а им все представляется там не так, как написано; словно ослепило их. Младенцы видят и понимают; а для них открытое сокрыто. Такой порядок угодно было учредить Отцу Небесному; стало быть, и нечего спорить. Если бы совсем не было открыто существенно нужное, ну тогда разумники могли бы еще возражать; а то открыто - приходи и бери, затем открыто, чтоб ты брал: стань только младенцем. \"Как - я?. . . Ни за что!\" Ну, как хочешь; и оставайся себе премудрым и разумным, ничего, однако же, существенно нужного не понимающим и не вмещающим в своей голове, блуждающим среди призраков и иллюзий, порождаемых твоим умничанием и держащих тебя в полном ослеплении, по которому ты думаешь, что ты зрячий, а ты слеп, \"мжай\", то есть кое-что видишь, как сквозь густую мглу. Но это не указывает тебе настоящей дороги и не ведет к цели, а только держит в неисходном кругу самопрельщения. Избави нас, Господи, от такого страшного состояния!. . .<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

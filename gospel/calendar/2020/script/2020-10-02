@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("2 октября 2020 г. ( 19 сентября ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 17-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/2133.html\" target=\"_blank\" title=\"Трофим Синадский (Фригийский), мч.\">Трофима</a>, <a  href=\"http://days.pravoslavie.ru/name/1906.html\" target=\"_blank\" title=\"Савватий Антиохийский, мч.\">Савватия</a> и <a  href=\"http://days.pravoslavie.ru/name/649.html\" target=\"_blank\" title=\"Доримедонт Синадский (Фригийский), мч.\">Доримедонта</a>. Блгвв. князей <a  href=\"http://days.pravoslavie.ru/name/2197.html\" target=\"_blank\" title=\"Святой благоверный князь Феодор, Смоленский и Ярославский\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2197_1229.html\" target=\"_blank\" >икона</a>) Смоленского и чад его <a  href=\"http://days.pravoslavie.ru/name/565.html\" target=\"_blank\" title=\"Давид Ярославский, князь\">Давида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii565_1229.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1279.html\" target=\"_blank\" title=\"Святой благоверный князь Константин Ярославский\">Константина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1279_1229.html\" target=\"_blank\" >икона</a>), Ярославских чудотворцев. Прп. <a  href=\"http://days.pravoslavie.ru/name/10111.html\" target=\"_blank\" title=\"Алексий (Соловьев) Зосимовский, иеросхимонах Зосимовой пустыни, прп.\">Алексия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10111_4612.html\" target=\"_blank\" >икона</a>) Зосимовсого. Мч. <a  href=\"http://days.pravoslavie.ru/name/850.html\" target=\"_blank\" title=\"Зосима Киликийский\">Зосимы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii850_3926.html\" target=\"_blank\" >икона</a>) пустынника. Блгв. вел. кн. <a  href=\"http://days.pravoslavie.ru/name/907.html\" target=\"_blank\" title=\"Святой благоверный князь Игорь Ольгович\">Игоря</a> (<a  href=\"http://days.pravoslavie.ru/images/ii907_584.html\" target=\"_blank\" >икона</a>) Черниговского и Киевского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9343.html\" target=\"_blank\" title=\"Константин (Голубев), протоиерей, сщмч.\">Константина</a> и с ним двух мучеников. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13799.html\" target=\"_blank\" title=\"Николай, протоиерей, сщмч.\">Николая</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9342.html\" target=\"_blank\" title=\"Константин (Богословский), протоиерей, сщмч.\">Константина</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13798.html\" target=\"_blank\" title=\"Нил (Смирнов), протоиерей, сщмч.\">Нила</a> пресвитера, прмц. <a  href=\"http://days.pravoslavie.ru/name/14427.html\" target=\"_blank\" title=\"Мария (Мамонтова-Шашина), прмц.\">Марии</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/12429.html\" target=\"_blank\" title=\"Никандр (Гривский), иерей, сщмч.\">Никандра</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_ef_4_17_25.html#z\">Еф., 226 зач., IV, 17-25.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_12_1_12.html#z\">Мк., 53 зач., XII, 1-12.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18175.htm\" target=\"_blank\" title=\"Библия\">Мк. 12, 1-12</a>). В притче о винограднике изображена Церковь ветхозаветная и Божие о ней попечение. Новозаветная Церковь наследовала ветхозаветную, потому и к ней может относиться притча эта, а так как каждый христианин тоже церковь Бога жива, то и к нему. Последняя для нас нужнее. Что здесь виноградник? Душа, получившая отпущение грехов, благодать возрождения, дар Святого Духа, как залог наследия вечного царствия, слово Божие, св. таинства, ангела-хранителя. Кто делатели? Сознание и свобода. Они получают дары и дают обязательство возделывать их и плодоносить Господу. Кто неисправные делатели? Те, которые преимуществами христианскими хотят пользоваться и пользуются, сколько это уместно во внешнем порядке жизни, а достойных Господу плодов духовных не приносят. Кто послы от Господа? Совесть со страхом Божиим, слово Божие, учители и пастыри, которыми хочет Господь вразумить неисправимых. Нехотящие исправиться не внимают им; иные гонят их и стараются заглушить их голос; иные же доходят до того, что и против Самого Господа начинают враждовать, когда веру в Него отвергают в разных видах. Конец: \"злые зле погибнут\".<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

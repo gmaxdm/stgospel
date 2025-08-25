@@ -1,0 +1,26 @@
+{% extends 'wrapper.html' %}
+{% block title %}Обратная связь{% endblock %}
+{% block main %}
+    <h2>Обратная связь</h2>
+    {% for message in messages %}
+        <div class="alert alert-success" role="alert">{{ message }}</div>
+    {% endfor %}
+    <div class="mt-3 mb-3 text-right">
+        <p class"lead">Ваш отзыв очень важен для нас. Он позволит еще больше улучшить сайт и сделать его ближе к пользователям!</p>
+        <form id="fback" name="finv" action="{% url 'feedback' %}" method="POST">
+        {% csrf_token %}
+        <textarea id="feedback" style="width: 80%;" rows="5" name="msg" required></textarea>
+        </form>
+        <p class=""><button id="submit">Оставить отзыв</button></p>
+    </div>
+    <script type="text/javascript">
+        $(function() {
+            $("#submit").click(function(e) {
+                e.preventDefault();
+                if($("#feedback").val().length) {
+                    $("#fback").submit();
+                }
+            });
+        });
+    </script>
+{% endblock %}

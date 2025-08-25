@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("7 мая 2020 г. ( 24 апреля ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/1905.html\" target=\"_blank\" title=\"Савва Стратилат, Римский, мч.\">Саввы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1905_2010.html\" target=\"_blank\" >икона</a>) Стратилата и с ним 70-ти воинов. Мч. <a  href=\"http://days.pravoslavie.ru/name/14895.html\" target=\"_blank\" title=\"Александр Лионский, мч.\">Александра</a> Лионского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1742.html\" target=\"_blank\" title=\"Пасикрат Доростольский, мч.\">Пасикрата</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1742_4228.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/335.html\" target=\"_blank\" title=\"Валентин Доростольский, мч.\">Валентина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii335_1690.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/699.html\" target=\"_blank\" title=\"Евсевий Никомидийский, мч.\">Евсевия</a>, <a  href=\"http://days.pravoslavie.ru/name/1595.html\" target=\"_blank\" title=\"Неон Никомидийский, мч.\">Неона</a>, <a  href=\"http://days.pravoslavie.ru/name/1350.html\" target=\"_blank\" title=\"Леонтий Никомидийский, мч.\">Леонтия</a>, <a  href=\"http://days.pravoslavie.ru/name/1365.html\" target=\"_blank\" title=\"Лонгин Никомидийский, мч.\">Лонгина</a> и иных. Прп. <a  href=\"http://days.pravoslavie.ru/name/2326.html\" target=\"_blank\" title=\"Фома Сирийский, Христа ради юродивый, прп.\">Фомы</a> юродивого. Прп. <a  href=\"http://days.pravoslavie.ru/name/2498.html\" target=\"_blank\" title=\"Елисавета Константинопольская, игумения\">Елисаветы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2498_548.html\" target=\"_blank\" >икона</a>) чудотворицы. Прп. <a  href=\"http://days.pravoslavie.ru/name/1900.html\" target=\"_blank\" title=\"Савва Печерский\">Саввы</a> Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/133.html\" target=\"_blank\" title=\"Преподобный Алексий, затворник Печерский\">Алексия</a>, затворника Печерского. Свт. <a  href=\"http://days.pravoslavie.ru/name/14950.html\" target=\"_blank\" title=\"Святитель Симеон, митрополит Трансильванский\">Симеона</a> Трансильванского (Рум.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14508.html\" target=\"_blank\" title=\"Бранко (Добросавлевич), иерей, сщмч.\">Бранко</a> пресвитера. Мч. <a  href=\"http://days.pravoslavie.ru/name/13715.html\" target=\"_blank\" title=\"Сергий (Архангельский), псаломщик, мч.\">Сергия</a>. <a  href=\"http://days.pravoslavie.ru/name/2911.html\" target=\"_blank\" title=\"Молченская\">Молченской</a>  иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_8_26_39.html#z\">Деян., 20 зач., VIII, 26-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_6_40_44.html#z\">Ин., 22 зач., VI, 40-44.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17860.htm\" target=\"_blank\" title=\"Библия\">Дея. 8, 26-39</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17861.htm\" target=\"_blank\" title=\"Библия\">Ин. 6, 40-44</a>). Св. Филипп спрашивает каженика : \"разумеешь ли, что читаешь?\" Тот ответил: \"как могу разуметь, если кто не наставит меня?\" Как часто испытывают то же читающие слово Божие и отеческие писания! Читаемое не вмещается в голове; ум не может внять тому и обнять то, словно речь идет о чем то чуждом ему, о предметах из неведомой области. Вот тут и нужен толкователь знакомый с тем, о чем слово. У св. Филиппа был тот же дух, который давал и пророчества, и ему нетрудно было растолковать, что затрудняло каженика. Так и для нас теперь: надо найти человека, который стоял бы на той степени жизни и ведения, какой касается затрудняющее нас писание, и он растолкует то без затруднения, потому что кругозоры духовные у каждой степени свои. Стоящий на низшей степени не все видит, что видит стоящий на высшей, и только может гадать о том. Случись, что невместимое для нас писание касается предметов высшей степени, а встреченный нами толковник стоит на низшей; то он нам не разъяснит того как следует, а будет все применять к своему кругозору, и дело останется для нас по прежнему темным. Дивиться надобно, как берутся толковать о предметах Писания люди, совсем чуждые той области, к которой принадлежат те предметы. И выходит у них все не как следует; выситься же своими толкованиями они не забывают.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

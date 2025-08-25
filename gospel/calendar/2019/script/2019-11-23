@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("23 ноября 2020 г. ( 10 ноября ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 25-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апп. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/790.html\" target=\"_blank\" title=\"Святитель Ераст, епископ Панеадский, апостол от 70-ти\">Ераста</a> (<a  href=\"http://days.pravoslavie.ru/images/ii790_3809.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1660.html\" target=\"_blank\" title=\"Святой Олимп (Олимпан), апостол от 70-ти\">Олимпа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1660_3809.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1871.html\" target=\"_blank\" title=\"Апостол от 70-ти Родион\">Родиона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1871_1999.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2036.html\" target=\"_blank\" title=\"Апостол от 70-ти Сосипатр\">Сосипатра</a>, <a  href=\"http://days.pravoslavie.ru/name/1314.html\" target=\"_blank\" title=\"Святитель Куарт (Кварт), епископ Беритский (Бейрутский), апостол от 70-ти\">Куарта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1314_3809.html\" target=\"_blank\" >икона</a>) (Кварта) и <a  href=\"http://days.pravoslavie.ru/name/2095.html\" target=\"_blank\" title=\"Апостол от 70-ти Тертий\">Тертия</a>. Колесование вмч. <a  href=\"http://days.pravoslavie.ru/name/497.html\" target=\"_blank\" title=\"Великомученик Георгий Победоносец\">Георгия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii497_116.html\" target=\"_blank\" >икона</a>) (Груз.). Мч. <a  href=\"http://days.pravoslavie.ru/name/1678.html\" target=\"_blank\" title=\"Орест Тианский (Каппадокийский), мч.\">Ореста</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1678_3567.html\" target=\"_blank\" >икона</a>) врача. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1531.html\" target=\"_blank\" title=\"Святитель Милий Персидский, Сузский, епископ, сщмч.\">Милия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1531_3811.html\" target=\"_blank\" >икона</a>), еп. Персидского, и двух учеников его. Мч. <a  href=\"http://days.pravoslavie.ru/name/1272.html\" target=\"_blank\" title=\"Константин Грузинский, князь, мч.\">Константина</a>, кн. Грузинского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2248.html\" target=\"_blank\" title=\"Феостирикт (Стирикт) Олимпийский (в Символах), прп.\">Феостирикта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2248_4056.html\" target=\"_blank\" >икона</a>), иже в Символех. Прмч. <a  href=\"http://days.pravoslavie.ru/name/9236.html\" target=\"_blank\" title=\"Нифонт (Выблов), иеромонах, сщмч.\">Нифонта</a> и мч. <a  href=\"http://days.pravoslavie.ru/name/9930.html\" target=\"_blank\" title=\"Александр (Медем), мч.\">Александра</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9122.html\" target=\"_blank\" title=\"Святитель Прокопий (Титов), архиепископ Херсонский, сщмч.\">Прокопия</a>, архиеп. Одесского, <a  href=\"http://days.pravoslavie.ru/name/9565.html\" target=\"_blank\" title=\"Дионисий (Щегопев), иерей, сщмч.\">Дионисия</a>, <a  href=\"http://days.pravoslavie.ru/name/9336.html\" target=\"_blank\" title=\"Иоанн (Сперанский), протоиерей, сщмч.\">Иоанна</a> и <a  href=\"http://days.pravoslavie.ru/name/12970.html\" target=\"_blank\" title=\"Петр (Павлушков), протоиерей, сщмч.\">Петра</a> пресвитеров. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9100.html\" target=\"_blank\" title=\"Святитель Августин (Беляев), архиепископ Калужский, сщмч.\">Августина</a>, архиеп. Калужского, и с ним <a  href=\"http://days.pravoslavie.ru/name/9636.html\" target=\"_blank\" title=\"Иоанн (Скадовский), иерей, сщмч.\">Иоанна</a> пресвитера, прмч. <a  href=\"http://days.pravoslavie.ru/name/9173.html\" target=\"_blank\" title=\"Иоанникий (Дмитриев), архимандрит, сщмч.\">Иоанникия</a> и <a  href=\"http://days.pravoslavie.ru/name/14433.html\" target=\"_blank\" title=\"Серафим (Гущин), прмч.\">Серафима</a>, мчч. <a  href=\"http://days.pravoslavie.ru/name/9933.html\" target=\"_blank\" title=\"Алексий (Горбачев), мч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/9944.html\" target=\"_blank\" title=\"Аполлон (Бабичев), мч.\">Аполлона</a>, <a  href=\"http://days.pravoslavie.ru/name/9995.html\" target=\"_blank\" title=\"Михаил (Арефьев), мч.\">Михаила</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/10008.html\" target=\"_blank\" title=\"Николай (Смирнов), мч.\">Николая</a> и мц. <a  href=\"http://days.pravoslavie.ru/name/10055.html\" target=\"_blank\" title=\"Анна (Остроглазова), мц.\">Анны</a> и св. <a  href=\"http://days.pravoslavie.ru/name/9843.html\" target=\"_blank\" title=\"Борис (Семенов), диакон, исповедник\">Бориса</a>  исп., диакона. Мцц. <a  href=\"http://days.pravoslavie.ru/name/10098.html\" target=\"_blank\" title=\"Ольга (Масленникова), мц.\">Ольги</a> и <a  href=\"http://days.pravoslavie.ru/name/10103.html\" target=\"_blank\" title=\"Феоктиста (Ченцова), мц.\">Феоктисты</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-sol_1_1_10.html#z\">2 Сол., 274 зач., I, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_13_15_12_22_31.html#z\">Лк., 65 зач., XII, 13-15, 22-31.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18286.htm\" target=\"_blank\" title=\"Библия\">2 Фес. 1, 1-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18287.htm\" target=\"_blank\" title=\"Библия\">Лк. 12, 13-15. 22-31</a>). \"Кто поставил Меня судить или делить вас?\" - сказал Господь просившему о разделе с братом своим. Потом прибавил: \"не заботьтесь\", что есть и пить и во что одеться. Прежде же учил: оставите мертвых погребать своих мертвецов; в другой раз внушал, что лучше не жениться. Значит, внимание и сердце христиан, отклоняющиеся от всего житейского, и свобода от молв и уз житейских составляют одну из черт духа христианства. То, что Господь благословляет брак и утверждает его неразрывность, что восстанавливает силу заповеди, определяющей отношения родителей и детей, и оставляет свое значение за гражданскою властью и гражданскими порядками, не изглаживает этой черты и не дает христианам права уклоняться от хранения ее и водружения в сердце. Сопоставь то и другое, и увидишь, что на тебе лежит обязанность, при всем житейском строе, держать сердце свое безжитейским. Как же это? Реши сам своею жизнью; в этом вся практическая мудрость. Господь руководит к решению сего следующим правилом: \"ищите прежде Царствия Божия\". Обрати всю заботу на то, чтоб воцарился Бог в тебе, и все житейское потеряет для тебя вяжущее и тяготящее обаяние. Тогда будешь вести дела свои внешне, а внутренним твоим, твоим сердцем, будет обладать иное что-то. Но если, вследствие этого, родится решимость пресечь и это внешнее отношение к житейскому, - не будешь в убытке: станешь ближе к цели, которую даст тебе вера Христова.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

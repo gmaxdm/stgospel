@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("14 июня 2020 г. ( 1 июня ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6946.html\" target=\"_blank\" title=\"Всех Святых\">Неделя 1-я по Пятидесятнице, Всех святых</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6946_462.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_post()
+{
+ daysd.write("Заговенье на Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/1152.html\" target=\"_blank\" title=\"Иустин Философ, Великий, Римский, мч.\">Иустина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1152_865.html\" target=\"_blank\" >икона</a>) Философа и другого <a  href=\"http://days.pravoslavie.ru/name/1151.html\" target=\"_blank\" title=\"Иустин Римский, мч.\">Иустина</a> и с ними <a  href=\"http://days.pravoslavie.ru/name/2346.html\" target=\"_blank\" title=\"Харитон Римский, мч.\">Харитона</a>, <a  href=\"http://days.pravoslavie.ru/name/2746.html\" target=\"_blank\" title=\"Харита Римская, мц.\">Хариты</a>, <a  href=\"http://days.pravoslavie.ru/name/677.html\" target=\"_blank\" title=\"Евелпист Римский, мч.\">Евелписта</a>, <a  href=\"http://days.pravoslavie.ru/name/910.html\" target=\"_blank\" title=\"Иеракс Римский, мч.\">Иеракса</a>, <a  href=\"http://days.pravoslavie.ru/name/1760.html\" target=\"_blank\" title=\"Пеон Римский, мч.\">Пеона</a> и <a  href=\"http://days.pravoslavie.ru/name/338.html\" target=\"_blank\" title=\"Валериан Римский, мч.\">Валериана</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/620.html\" target=\"_blank\" title=\"Дионисий Глушицкий, игумен\">Дионисия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii620_521.html\" target=\"_blank\" >икона</a>), игумена Глушицкого. Прав. <a  href=\"http://days.pravoslavie.ru/name/984.html\" target=\"_blank\" title=\"Иоанн Кронштадтский, протоиерей\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii984_236.html\" target=\"_blank\" >икона</a>) Кронштадтского. Прп. <a  href=\"http://days.pravoslavie.ru/name/53.html\" target=\"_blank\" title=\"Преподобный Агапит Печерский, врач безмездный\">Агапита</a> (<a  href=\"http://days.pravoslavie.ru/images/ii53_569.html\" target=\"_blank\" >икона</a>) Печерского, врача безмездного. Прп. <a  href=\"http://days.pravoslavie.ru/name/13516.html\" target=\"_blank\" title=\"Иустин (Попович) Челийский\">Иустина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13516_819.html\" target=\"_blank\" >икона</a>) Поповича, Челийского (Серб.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13720.html\" target=\"_blank\" title=\"Василий (Преображенский), иерей, сщмч.\">Василия</a> пресвитера, мц. <a  href=\"http://days.pravoslavie.ru/name/10060.html\" target=\"_blank\" title=\"Вера (Самсонова), ктитор, мц.\">Веры</a>. Икон Божией Матери: <a  href=\"http://days.pravoslavie.ru/name/3000.html\" target=\"_blank\" title=\"\"Умягчение злых сердец\" (\"Семистрельная\")\"> \'\'Умягчение злых сердец\'\'</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3000_1214.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2915.html\" target=\"_blank\" title=\"\"Нерушимая Стена\"\">\'\'Нерушимая стена\'\'</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2915_2509.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 1-е, <a href=\"http://days.pravoslavie.ru/bible/z_mf_28_16_20.html#z\">Мф., 116 зач., XXVIII, 16-20.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_evr_11_33_0_12_0_2.html#z\">Евр., 330 зач., XI, 33 - XII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_32_33_10_37_38_19_27_30.html#z\">Мф., 38 зач., X, 32-33, 37-38; XIX, 27-30.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17942.htm\" target=\"_blank\" title=\"Библия\">Евр. 11, 33-12, 2</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17943.htm\" target=\"_blank\" title=\"Библия\">Мф. 10, 32-33, 37-38; 19, 27-30</a>). Святая Церковь всякий день творит память святых. Но так как были угодники Божии, безвестно подвизавшиеся, не явленные Церкви, то, чтобы не оставить и их без чествования, св. Церковь установила день, в который прославляет всех от века угодивших Богу, чтобы не осталось никого не прославляемого ею. Творить же это тотчас после сошествия Святого Духа узаконила она потому, что все святые соделались и соделываются святыми благодатью Святого Духа: благодать Святого Духа приносит покаяние и оставление грехов, она же вводит в борьбу со страстями и похотями и венчает этот подвиг чистотою и бесстрастием. И таким образом является новая тварь, годная для нового неба и новой земли. Поревнуем же и мы идти вслед святых Божиих. Как это делать - учит нынешнее Евангелие: оно требует небоязненного исповедания веры в Господа, преимущественной любви к Нему, поднятия креста самоотвержения и сердечного от всего отрешения. Положим же начало по этому указанию.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

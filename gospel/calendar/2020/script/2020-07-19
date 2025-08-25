@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("19 июля 2020 г. ( 6 июля ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 6-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/2027.html\" target=\"_blank\" title=\"Сисой Великий, прп.\">Сисоя</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2027_78.html\" target=\"_blank\" >икона</a>) Великого. <a  href=\"http://days.pravoslavie.ru/name/6917.html\" target=\"_blank\" title=\"Собор Радонежских святых\">Собор Радонежских святых</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6917_1055.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/1455.html\" target=\"_blank\" title=\"Марин Персиянин, Римский, мч.\">Марина</a>, <a  href=\"http://days.pravoslavie.ru/name/2609.html\" target=\"_blank\" title=\"Марфа Персиянка, Римская, мц.\">Марфы</a>, <a  href=\"http://days.pravoslavie.ru/name/11.html\" target=\"_blank\" title=\"Авдифакс Персиянин, Римский, мч.\">Авдифакса</a>, <a  href=\"http://days.pravoslavie.ru/name/2.html\" target=\"_blank\" title=\"Аввакум Персиянин, Римский, мч.\">Аввакума</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2_1617.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1236.html\" target=\"_blank\" title=\"Кирин Римлянин, мч.\">Кирина</a>, <a  href=\"http://days.pravoslavie.ru/name/337.html\" target=\"_blank\" title=\"Валентин Римлянин, пресвитер, сщмч.\">Валентина</a> пресвитера, <a  href=\"http://days.pravoslavie.ru/name/286.html\" target=\"_blank\" title=\"Астерий Римлянин, мч.\">Астерия</a> и иных многих в Риме. Мч. <a  href=\"http://days.pravoslavie.ru/name/1261.html\" target=\"_blank\" title=\"Коинт (Квинт) Фригийский, мч.\">Коинта</a> Фригийского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1106.html\" target=\"_blank\" title=\"Исавр Афинянин, Аполлониадский (Македонский), диакон, сщмч.\">Исавра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1106_4319.html\" target=\"_blank\" >икона</a>) диакона, <a  href=\"http://days.pravoslavie.ru/name/950.html\" target=\"_blank\" title=\"Иннокентий Афинянин, Аполлониадский (Македонский), мч.\">Иннокентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii950_4319.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2286.html\" target=\"_blank\" title=\"Филикс Афинянин, Аполлониадский (Македонский), мч.\">Филикса</a>, <a  href=\"http://days.pravoslavie.ru/name/797.html\" target=\"_blank\" title=\"Ермий Афинянин, Апполониадский (Македонский), мч.\">Ермия</a>, <a  href=\"http://days.pravoslavie.ru/name/372.html\" target=\"_blank\" title=\"Василий Афинянин, Аполлониадский (Македонский), мч.\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii372_4319.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1761.html\" target=\"_blank\" title=\"Перегрин Афинянин, Аполлониадский (Македонский), мч.\">Перегрина</a>, <a  href=\"http://days.pravoslavie.ru/name/1885.html\" target=\"_blank\" title=\"Руф Аполлониадский (Македонский), мч.\">Руфа</a> и <a  href=\"http://days.pravoslavie.ru/name/1889.html\" target=\"_blank\" title=\"Руфин Аполлониадский (Македонский), мч.\">Руфина</a> Македонских. Мц. <a  href=\"http://days.pravoslavie.ru/name/2574.html\" target=\"_blank\" title=\"Лукия Каппадокианка, Римская, дева, мц.\">Лукии</a> девы и с нею мчч. <a  href=\"http://days.pravoslavie.ru/name/1869.html\" target=\"_blank\" title=\"Рикс (Авций) Сицилийский, Римский, царь, мч.\">Рикса</a>, <a  href=\"http://days.pravoslavie.ru/name/220.html\" target=\"_blank\" title=\"Антоний Римский, мч.\">Антония</a>, <a  href=\"http://days.pravoslavie.ru/name/1386.html\" target=\"_blank\" title=\"Лукиан Римский, мч.\">Лукиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1386_4368.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1115.html\" target=\"_blank\" title=\"Исидор Римский, мч.\">Исидора</a>, <a  href=\"http://days.pravoslavie.ru/name/616.html\" target=\"_blank\" title=\"Дион Римский, мч.\">Диона</a>, <a  href=\"http://days.pravoslavie.ru/name/610.html\" target=\"_blank\" title=\"Диодор (Диор) Римский, мч.\">Диодора</a>, <a  href=\"http://days.pravoslavie.ru/name/1316.html\" target=\"_blank\" title=\"Кутоний Римский, мч.\">Кутония</a>, <a  href=\"http://days.pravoslavie.ru/name/260.html\" target=\"_blank\" title=\"Аронос (Орион) Римский, мч.\">Ароноса</a>(Ориона), <a  href=\"http://days.pravoslavie.ru/name/1170.html\" target=\"_blank\" title=\"Капик Римский, мч.\">Капика</a> и <a  href=\"http://days.pravoslavie.ru/name/1934.html\" target=\"_blank\" title=\"Сатур Римский, мч.\">Сатура</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/2029.html\" target=\"_blank\" title=\"Преподобный Сисой, схимник Печерский\">Сисоя</a>, схимника Печерского. Перенесение мощей свт.  <a  href=\"http://days.pravoslavie.ru/name/270.html\" target=\"_blank\" title=\"Святитель Арсений, епископ Тверской\">Арсения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii270_421.html\" target=\"_blank\" >икона</a>), еп. Тверского. Обретение мощей прав. девы <a  href=\"http://days.pravoslavie.ru/name/2531.html\" target=\"_blank\" title=\"Святая праведная дева Иулиания, княжна Ольшанская\">Иулиании</a>, кн. Ольшанской. Прпп. <a  href=\"http://days.pravoslavie.ru/name/2120.html\" target=\"_blank\" title=\"Тихон Соколовский, прп.\">Тихона</a>, <a  href=\"http://days.pravoslavie.ru/name/388.html\" target=\"_blank\" title=\"Василий Соколовский, прп.\">Василия</a> и <a  href=\"http://days.pravoslavie.ru/name/1646.html\" target=\"_blank\" title=\"Никон Соколовский, прп.\">Никона</a> Соколовских. <a  href=\"http://days.pravoslavie.ru/name/6918.html\" target=\"_blank\" title=\"Собор Тверских святых\">Собор Тверских святых</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14289.html\" target=\"_blank\" title=\"Евфимий (Любовичев), иеромонах, прмч.\">Евфимия</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/9249.html\" target=\"_blank\" title=\"Феодор (Богоявленский), иеромонах, сщмч.\">Феодора</a>. <a  href=\"http://days.pravoslavie.ru/name/2866.html\" target=\"_blank\" title=\"Казанская (Богородско-Уфимская)\">Богородско-Уфимской</a> иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 6-е, <a href=\"http://days.pravoslavie.ru/bible/z_lk_24_36_53.html#z\">Лк., 114 зач., XXIV, 36-53.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_12_6_14.html#z\">Рим., 110 зач., XII, 6-14.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_9_1_8.html#z\">Мф., 29 зач., IX, 1-8.</a> Прп. Афанасия: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18014.htm\" target=\"_blank\" title=\"Библия\">Рим. 12, 6-14</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18015.htm\" target=\"_blank\" title=\"Библия\">Мф. 9, 1-8</a>). Господь прощает грехи расслабленному. Радоваться бы; но лукавый ум ученых книжников говорит: \"сей хулит\". Даже когда последовало чудо исцеления расслабленного в подтверждение той утешительной для нас истины, что \"Сын Человеческий имеет власть на земле прощать грехи\", - и тогда народ прославил Бога, а о книжниках ничего не сказано, верно потому что они и при этом сплетали какие-либо лукавые вопросы. Ум без веры каверзник; то и дело кует лукавые подозрения и сплетает хулы на всю область веры. Чудесам то не верит, то требует осязательнейшего чуда. Но когда оно дано бывает и обязывает к покорности вере, он не стыдится уклоняться, извращая или криво толкуя чудные действия Божии. Также относится он и к доказательствам истины Божией. И опытные, и умственные доказательства представляют ему в достаточном числе и силе: он и их покрывает сомнением. Разбери все его предъявления, и увидишь, что все в них одно лукавство, хоть на его языке это слывет умностью, так что невольно приходишь к заключению, что умность и лукавство одно и то же. В области веры апостол говорит: \"Мы ум Христов имеем\". Чей же ум вне области веры? Лукавого. Оттого и отличительною чертою его стало лукавство.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

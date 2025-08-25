@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("13 апреля 2020 г. ( 31 марта ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Страстная седмица. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><a  href=\"http://days.pravoslavie.ru/name/6750.html\" target=\"_blank\" title=\"Великий Понедельник\">Великий Понедельник</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6750_4474.html\" target=\"_blank\" >икона</a>)</span><br> Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1068.html\" target=\"_blank\" title=\"Святитель Ипатий Гангрский, епископ, сщмч.\">Ипатия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1068_852.html\" target=\"_blank\" >икона</a>), еп. Гангрского. Свт. <a  href=\"http://days.pravoslavie.ru/name/1042.html\" target=\"_blank\" title=\"Святитель Иона, митрополит Московский и всея Руси\">Ионы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1042_355.html\" target=\"_blank\" >икона</a>), митр. Московского и всея России, чудотворца. Свт. <a  href=\"http://days.pravoslavie.ru/name/953.html\" target=\"_blank\" title=\"Святитель Иннокентий, митрополит Московский и Коломенский\">Иннокентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii953_74.html\" target=\"_blank\" >икона</a>), митр. Московского. Прп. <a  href=\"http://days.pravoslavie.ru/name/241.html\" target=\"_blank\" title=\"Аполлоний Египетский, Фиваидский, пустынник\">Аполлония</a>, пустынника Египетского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/5.html\" target=\"_blank\" title=\"Святитель Авда Персидский, епископ, сщмч.\">Авды</a>, еп. Персидского, и <a  href=\"http://days.pravoslavie.ru/name/406.html\" target=\"_blank\" title=\"Священномученик Вениамин Персидский\">Вениамина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii406_3761.html\" target=\"_blank\" >икона</a>) диакона. Прп. <a  href=\"http://days.pravoslavie.ru/name/6605.html\" target=\"_blank\" title=\"Преподобный Ипатий, игумен Руфианский\">Ипатия</a>, игумена Руфианского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1071.html\" target=\"_blank\" title=\"Преподобный Ипатий Печерский, целебник\">Ипатия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1071_356.html\" target=\"_blank\" >икона</a>) целебника, Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/13492.html\" target=\"_blank\" title=\"Филарет (Данилевский) Глинский, игумен, прп.\">Филарета</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13492_800.html\" target=\"_blank\" >икона</a>) Глинского.  Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9596.html\" target=\"_blank\" title=\"Иоанн (Блюмович), иерей, сщмч.\">Иоанна</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_21_18_43.html#z\">Мф., 84 зач., XXI, 18-43.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_24_3_35.html#z\">Мф., 98 зач., XXIV, 3-35.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17813.htm\" target=\"_blank\" title=\"Библия\">Мф. 24, 3-35</a>). Господь идет на вольную страсть. Надобно и нам сшествовать Ему. Это долг всякого, кто исповедует, что силою страстей Христовых стал он тем, чем теперь есть, и кто надеется еще получить нечто столь великое и славное, что и на ум то никому придти не может. Как же сшествовать? Размышлением, сочувствием. Иди мыслью вслед страждущего Господа, и размышлением своим извлекай из всего такие представления, которые могли бы поражать сердце и вводить его в чувство страданий, перенесенных Господом. Чтобы последнее совершилось успешнее, надо себя самого сделать страдающим через чувствительное умаление пищи и сна, и увеличение труда стояний и коленопреклонений. Исполни все, что делает св. Церковь, и будешь добрым сшественником Господу на страдания.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

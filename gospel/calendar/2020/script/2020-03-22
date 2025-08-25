@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("22 марта 2020 г. ( 9 марта ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/13521.html\" target=\"_blank\" title=\"Неделя Крестопоклонная\">Неделя 3-я Великого поста, Крестопоклонная</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13521_900.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6972.html\" target=\"_blank\" title=\"Сорок мучеников Севастийских\">40 мучеников</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6972_629.html\" target=\"_blank\" >икона</a>), в Севастийском озере мучившихся: <a  href=\"http://days.pravoslavie.ru/name/1238.html\" target=\"_blank\" title=\"Мученик Кирион Севастийский\">Кириона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1238_4116.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1165.html\" target=\"_blank\" title=\"Мученик Кандид Севастийский\">Кандида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1165_4116.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/645.html\" target=\"_blank\" title=\"Мученик Домн Севастийский\">Домна</a>, <a  href=\"http://days.pravoslavie.ru/name/1125.html\" target=\"_blank\" title=\"Мученик Исихий Севастийский\">Исихия</a>, <a  href=\"http://days.pravoslavie.ru/name/1084.html\" target=\"_blank\" title=\"Мученик Ираклий Севастийский\">Ираклия</a>, <a  href=\"http://days.pravoslavie.ru/name/2031.html\" target=\"_blank\" title=\"Мученик Смарагд Севастийский\">Смарагда</a>, <a  href=\"http://days.pravoslavie.ru/name/689.html\" target=\"_blank\" title=\"Мученик Евноик Севастийский\">Евноика</a>, <a  href=\"http://days.pravoslavie.ru/name/334.html\" target=\"_blank\" title=\"Мученик Валент Севастийский\">Уалента</a> (Валента), <a  href=\"http://days.pravoslavie.ru/name/412.html\" target=\"_blank\" title=\"Мученик Вивиан Севастийский\">Вивиана</a>, <a  href=\"http://days.pravoslavie.ru/name/1249.html\" target=\"_blank\" title=\"Мученик Клавдий Севастийский\">Клавдия</a>, <a  href=\"http://days.pravoslavie.ru/name/1833.html\" target=\"_blank\" title=\"Мученик Приск Севастийский\">Приска</a>, <a  href=\"http://days.pravoslavie.ru/name/2229.html\" target=\"_blank\" title=\"Мученик Феодул Севастийский\">Феодула</a>, <a  href=\"http://days.pravoslavie.ru/name/731.html\" target=\"_blank\" title=\"Мученик Евтихий Севастийский\">Евтихия</a>, <a  href=\"http://days.pravoslavie.ru/name/1014.html\" target=\"_blank\" title=\"Мученик Иоанн Севастийский\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/1311.html\" target=\"_blank\" title=\"Мученик Ксанфий Севастийский\">Ксанфия</a>, <a  href=\"http://days.pravoslavie.ru/name/935.html\" target=\"_blank\" title=\"Мученик Илиан Севастийский\">Илиана</a>, <a  href=\"http://days.pravoslavie.ru/name/2025.html\" target=\"_blank\" title=\"Мученик Сисиний Севастийский\">Сисиния</a>, <a  href=\"http://days.pravoslavie.ru/name/176.html\" target=\"_blank\" title=\"Мученик Ангий Севастийский\">Ангия</a>, <a  href=\"http://days.pravoslavie.ru/name/78.html\" target=\"_blank\" title=\"Мученик Аетий Севастийский\">Аетия</a>, <a  href=\"http://days.pravoslavie.ru/name/2312.html\" target=\"_blank\" title=\"Мученик Флавий Севастийский\">Флавия</a>, <a  href=\"http://days.pravoslavie.ru/name/91.html\" target=\"_blank\" title=\"Мученик Акакий Севастийский\">Акакия</a>, <a  href=\"http://days.pravoslavie.ru/name/750.html\" target=\"_blank\" title=\"Мученик Екдикий Севастийский\">Екдикия</a> (Екдикта), <a  href=\"http://days.pravoslavie.ru/name/1361.html\" target=\"_blank\" title=\"Мученик Лисимах Севастийский\">Лисимаха</a>, <a  href=\"http://days.pravoslavie.ru/name/126.html\" target=\"_blank\" title=\"Мученик Александр Севастийский\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/936.html\" target=\"_blank\" title=\"Мученик Илий Севастийский\">Илия</a>, <a  href=\"http://days.pravoslavie.ru/name/525.html\" target=\"_blank\" title=\"Мученик Горгоний Севастийский\">Горгония</a>, <a  href=\"http://days.pravoslavie.ru/name/2271.html\" target=\"_blank\" title=\"Мученик Феофил Севастийский\">Феофила</a>, <a  href=\"http://days.pravoslavie.ru/name/642.html\" target=\"_blank\" title=\"Мученик Дометиан Севастийский\">Дометиана</a>, <a  href=\"http://days.pravoslavie.ru/name/459.html\" target=\"_blank\" title=\"Мученик Гаий Севастийский\">Гаия</a>, <a  href=\"http://days.pravoslavie.ru/name/1355.html\" target=\"_blank\" title=\"Мученик Леонтий Севастийский\">Леонтия</a>, <a  href=\"http://days.pravoslavie.ru/name/306.html\" target=\"_blank\" title=\"Мученик Афанасий Севастийский\">Афанасия</a>, <a  href=\"http://days.pravoslavie.ru/name/1231.html\" target=\"_blank\" title=\"Мученик Кирилл Севастийский\">Кирилла</a>, <a  href=\"http://days.pravoslavie.ru/name/1915.html\" target=\"_blank\" title=\"Мученик Сакердон Севастийский\">Сакердона</a>, <a  href=\"http://days.pravoslavie.ru/name/1637.html\" target=\"_blank\" title=\"Мученик Николай Севастийский\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/343.html\" target=\"_blank\" title=\"Мученик Валерий Севастийский\">Уалерия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii343_1691.html\" target=\"_blank\" >икона</a>) (Валерия), <a  href=\"http://days.pravoslavie.ru/name/2300.html\" target=\"_blank\" title=\"Мученик Филоктимон Севастийский\">Филоктимона</a>, <a  href=\"http://days.pravoslavie.ru/name/1946.html\" target=\"_blank\" title=\"Мученик Севериан Севастийский\">Севериана</a>, <a  href=\"http://days.pravoslavie.ru/name/2356.html\" target=\"_blank\" title=\"Мученик Худион Севастийский\">Худиона</a>, <a  href=\"http://days.pravoslavie.ru/name/1512.html\" target=\"_blank\" title=\"Мученик Мелитон Севастийский\">Мелитона</a> и <a  href=\"http://days.pravoslavie.ru/name/67.html\" target=\"_blank\" title=\"Мученик Аглаий Севастийский\">Аглаия</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/2143.html\" target=\"_blank\" title=\"Урпасиан Никомидийский, мч.\">Урпасиана</a>. Св. <a  href=\"http://days.pravoslavie.ru/name/1197.html\" target=\"_blank\" title=\"Кесарий Назианзин, врач\">Кесария</a>, брата свт. <a  href=\"http://days.pravoslavie.ru/name/535.html\" target=\"_blank\" title=\"Святитель Григорий Богослов, архиепископ Константинопольский\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii535_8.html\" target=\"_blank\" >икона</a>) Богослова. Прав. <a  href=\"http://days.pravoslavie.ru/name/2087.html\" target=\"_blank\" title=\"Тарасий Ликаонийский\">Тарасия</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9688.html\" target=\"_blank\" title=\"Михаил (Маслов), иерей, сщмч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/10792.html\" target=\"_blank\" title=\"Алексий (Смирнов), иерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/10794.html\" target=\"_blank\" title=\"Димитрий (Гливенко), сщмч.\">Димитрия</a>, <a  href=\"http://days.pravoslavie.ru/name/10798.html\" target=\"_blank\" title=\"Сергий (Лебедев), иерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/10800.html\" target=\"_blank\" title=\"Сергий (Цветков), иерей, сщмч.\">Сергия</a> пресвитеров и <a  href=\"http://days.pravoslavie.ru/name/9836.html\" target=\"_blank\" title=\"Николай (Горюнов), протодиакон, сщмч.\">Николая</a> диакона, прмч. <a  href=\"http://days.pravoslavie.ru/name/9219.html\" target=\"_blank\" title=\"Иоасаф (Шахов), иеромонах, сщмч.\">Иоасафа</a> и прмцц. <a  href=\"http://days.pravoslavie.ru/name/9923.html\" target=\"_blank\" title=\"Наталия (Ульянова), послушница, прмц.\">Наталии</a> и <a  href=\"http://days.pravoslavie.ru/name/13700.html\" target=\"_blank\" title=\"Александра (Самойлова), прмц.\">Александры</a>. Албазинской иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2972.html\" target=\"_blank\" title=\"\"Слово плоть бысть\" Албазинская (\"Знамение\")\">\"Слово плоть бысть\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2972_1116.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 7-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_20_1_10.html#z\">Ин., 63 зач., XX, 1-10.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_evr_4_14_0_5_0_6.html#z\">Евр., 311 зач., IV, 14 - V, 6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_8_34_0_9_0_1.html#z\">Мк., 37 зач., VIII, 34 - IX, 1.</a> Мчч.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_12_1_10.html#z\">Евр., 331 зач., XII, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_20_1_16.html#z\">Мф., 80 зач., XX, 1-16.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18506.htm\" target=\"_blank\" title=\"Библия\">Ев. 4, 14-5, 6</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18507.htm\" target=\"_blank\" title=\"Библия\">Мк. 8, 34-9, 1</a>). \"Кто хочет идти за Мною, отвергнись себя и возьми крест свой и следуй за Мною\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18508.htm\" target=\"_blank\" title=\"Библия\">Мк. 8, 34</a>). За Господом крестоносцем нельзя идти без креста; и все идущие за Ним, непременно идут с крестом. Что же такое этот крест? Всякого рода неудобства, тяготы и прискорбности, налегающие и извне, и извнутрь, на пути добросовестного исполнения заповедей Господних в жизни по духу Его предписаний и требований. Такой крест так срощен с христианином, что где христианин, там и крест этот, а где нет этого креста, там нет и христианина. Всесторонняя льготность и жизнь в утехах не к лицу христианину истинному. Задача его себя очистить и исправить. Он, как больной, которому надо делать то прижигания, то отрезания, а этому как быть без боли? Он хочет вырваться из плена врага сильного, - а этому как быть без борьбы и ран? Он должен идти наперекор всем окружающим его порядкам, а это как выдержать без неудобства и стеснений. Радуйся же, чувствуя на себе крест, ибо это знак, что ты идешь вслед Господа, путем спасения, в рай. Потерпи немного. Вот - вот конец и венцы!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

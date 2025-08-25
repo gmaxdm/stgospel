@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("15 августа 2020 г. ( 2 августа ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 10-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Успенский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Перенесение из Иерусалима в Константинополь мощей первомч. архидиакона <a  href=\"http://days.pravoslavie.ru/name/2051.html\" target=\"_blank\" title=\"Первомученик и архидиакон Стефан\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2051_373.html\" target=\"_blank\" >икона</a>) и обретение мощей правв. <a  href=\"http://days.pravoslavie.ru/name/1632.html\" target=\"_blank\" title=\"Никодим\">Никодима</a>, <a  href=\"http://days.pravoslavie.ru/name/464.html\" target=\"_blank\" title=\"Гамалиил\">Гамалиила</a> и сына его <a  href=\"http://days.pravoslavie.ru/name/20.html\" target=\"_blank\" title=\"Авив Иерусалимский\">Авива</a>. Блж. <a  href=\"http://days.pravoslavie.ru/name/379.html\" target=\"_blank\" title=\"Блаженный Василий, Московский чудотворец\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii379_175.html\" target=\"_blank\" >икона</a>), Христа ради юродивого, Московского чудотворца. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2066.html\" target=\"_blank\" title=\"Святитель Стефан I Римский, папа, сщмч.\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2066_2055.html\" target=\"_blank\" >икона</a>), папы Римского, и иже с ним. Блж. <a  href=\"http://days.pravoslavie.ru/name/389.html\" target=\"_blank\" title=\"Блаженный Василий Каменский (Спасо-Кубенский)\">Василия</a> Спасо-Кубенского. Мч. <a  href=\"http://days.pravoslavie.ru/name/9946.html\" target=\"_blank\" title=\"Афанасий (Жуланов), мч.\">Афанасия</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/11849.html\" target=\"_blank\" title=\"Платон (Колегов), иеромонах, сщмч.\">Платона</a>. <a  href=\"http://days.pravoslavie.ru/name/14684.html\" target=\"_blank\" title=\"Ачаирская\">Ачаирской</a> иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Блж.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Первомч.: <a href=\"http://days.pravoslavie.ru/bible/z_deqn_6_8_0_7_0_5_7_47_60.html#z\">Деян., 17 зач., VI, 8 - VII, 5, 47-60.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_21_33_42.html#z\">Мф., 87 зач., XXI, 33-42.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_rim_15_30_33.html#z\">Рим., 119 зач., XV, 30-33.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_17_24_0_18_0_4.html#z\">Мф., 73 зач., XVII, 24 - XVIII, 4.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18076.htm\" target=\"_blank\" title=\"Библия\">Рим. 15, 30-33</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18077.htm\" target=\"_blank\" title=\"Библия\">Мф. 17, 24-18, 4</a>). Господь платит требуемую подать церковную и все другие порядки, и церковные и гражданские, Он исполнял и апостолов так научил, и апостолы потом предали тот же закон и всем христианам. Только дух жизни принимался новый; внешнее же все оставалось как было, исключая того, что явно противно было воле Божией, как, например, участие в идольских жертвах и т. п. Потом христианство взяло верх, вытеснило все порядки прежние и водворило свои. Следовало бы ожидать, что таким образом духу христианскому удобнее будет развиваться и крепнуть. Так оно и было, но не у всех. Большая часть, освоившись с внешними христианскими порядками на них и останавливалась, не заботясь о духе жизни. Так это и доселе ведется. Из всей суммы христиан кто-то окажется христианином и в духе. Что же прочие? \"Имя носят, как живые, но вот - мертвые\". Когда апостолы проповедовали Евангелие, то слово их избирало часть Божию из среды всего языческого мира: ныне Господь, через то же слово, выбирает часть свою из среды христианского мира. \"Читающий да разумеет\", и да восприимет заботу узнать наверно, состоит ли он на части Господней, и если не найдет удостоверения в том, да попечется присвоиться Господу, ибо в этом одном спасение.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

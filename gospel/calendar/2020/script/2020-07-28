@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("28 июля 2020 г. ( 15 июля ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 8-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/1220.html\" target=\"_blank\" title=\"Кирик Тарсийский, младенец, мч.\">Кирика</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1220_863.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2535.html\" target=\"_blank\" title=\"Иулитта Тарсийская, мц.\">Иулитты</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2535_862.html\" target=\"_blank\" >икона</a>). <span style=\'color:#b33\'>Равноап. вел. кн. <a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/431.html\" target=\"_blank\" title=\"Святой равноапостольный великий князь Владимир\">Владимира</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii431_111.html\" target=\"_blank\" >икона</a>), во св. Крещении Василия.</span> Собор <a  href=\"http://days.pravoslavie.ru/name/14702.html\" target=\"_blank\" title=\"Собор Киевских святых\">Киевских святых</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/42.html\" target=\"_blank\" title=\"Авудим Тенедосский, мч.\">Авудима</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13750.html\" target=\"_blank\" title=\"Петр (Троицкий), диакон, сщмч.\">Петра</a> диакона. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16,</a> или <a href=\"http://days.pravoslavie.ru/bible/z_mf_13_44_54.html#z\">Мф., 55 зач., XIII, 44-54.</a> Лит. - Равноап.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_1_11_19.html#z\">Гал., 200 зач., I, 11-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

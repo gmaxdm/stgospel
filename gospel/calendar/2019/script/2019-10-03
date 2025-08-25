@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("3 октября 2020 г. ( 20 сентября ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 17-я по Пятидесятнице. Суббота по Воздвижении. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмч. <a  href=\"http://days.pravoslavie.ru/name/713.html\" target=\"_blank\" title=\"Евстафий Плакида. Римский, полководец, вмч.\">Евстафия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii713_527.html\" target=\"_blank\" >икона</a>) Плакиды, жены его <a  href=\"http://days.pravoslavie.ru/name/2727.html\" target=\"_blank\" title=\"Феопистия Римская, мц.\">Феопистии</a> и чад их <a  href=\"http://days.pravoslavie.ru/name/51.html\" target=\"_blank\" title=\"Агапий Римский, мч.\">Агапия</a> и <a  href=\"http://days.pravoslavie.ru/name/2244.html\" target=\"_blank\" title=\"Феопист Римский, мч.\">Феописта</a>. Мчч. и испп. <a  href=\"http://days.pravoslavie.ru/name/1550.html\" target=\"_blank\" title=\"Святой благоверный князь Михаил Черниговский\">Михаила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1550_259.html\" target=\"_blank\" >икона</a>), кн. Черниговского, и болярина его <a  href=\"http://days.pravoslavie.ru/name/2205.html\" target=\"_blank\" title=\"Мученик Феодор Черниговский\">Феодора</a>, чудотворцев. Прп. и блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/1659.html\" target=\"_blank\" title=\"Благоверный князь Олег Брянский\">Олега</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1659_1965.html\" target=\"_blank\" >икона</a>) Брянского. <a  href=\"http://days.pravoslavie.ru/name/13800.html\" target=\"_blank\" title=\"Собор Брянских святых\">Собор Брянских святых</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9409.html\" target=\"_blank\" title=\"Феоктист (Смельницкий), протоиерей, сщмч.\">Феоктиста</a> и <a  href=\"http://days.pravoslavie.ru/name/9454.html\" target=\"_blank\" title=\"Александр (Тетюев), иерей, сщмч.\">Александра</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Субботы по Воздвижении: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_1_26_29.html#z\">1 Кор., 125 зач. (от&nbsp;полу&#769;), I, 26-29.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_8_21_30.html#z\">Ин., 30 зач., VIII, 21-30.</a> Ряд. (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_14_20_25.html#z\">1 Кор., 156 зач., XIV, 20-25.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_25_1_13.html#z\">Мф., 104 зач., XXV, 1-13.</a> Вмч.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается славословная служба мчч. Михаила и Феодора вместе со службой великомученика Ефстафия, то на литургии - чтения субботы по Воздвижении, дня (под зачало) и святых: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18177.htm\" target=\"_blank\" title=\"Библия\">Мф. 25, 1-13</a>). Читается притча о десяти девах. Св. Макарий так изображает смысл ее: \"мудрые пять дев трезвясь, поспешив к необычайному для своего естества, взяв елей в сосуде сердца своего, то есть подаваемую свыше благодать Духа, возмогли войти с Женихом в небесный чертог. Другие же юродивые девы, оставшиеся при собственном своем естестве, не трезвились, не постарались, пока были еще во плоти, взять в сосуды свои елей радости, но, по нерадению или по самомнению о своей праведности, предались как бы сну; за это и не допущены в чертог царства, не возмогши благоугодить небесному Жениху. Удерживаясь мирскими узами и земною как бы любовью, не посвятили они небесному Жениху всей любви своей и приверженности и не принесли с собою елея. А души, взыскавшие необычайного для естества святыни Духа, всею любовью привязаны к Господу, с Ним ходят от всего отвращаясь, к Нему устремляют молитвы и помышления, за что и сподобились приять елей небесной благодати. Души же, оставшиеся в естестве своем, по земле пресмыкаются помыслом, о земле помышляют и ум их на земле имеет жительство. Сами о себе думают они, что принадлежат Жениху и украшены плотскими оправданиями, но, не приняв елея радости, не возродились они Духом свыше\".<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

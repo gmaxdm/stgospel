@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("9 августа 2020 г. ( 27 июля ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 9-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмч. и целителя <a  href=\"http://days.pravoslavie.ru/name/1727.html\" target=\"_blank\" title=\"Великомученик и целитель Пантелеимон\">Пантелеимона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1727_269.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/506.html\" target=\"_blank\" title=\"Преподобный Герман Аляскинский\">Германа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii506_88.html\" target=\"_blank\" >икона</a>) Аляскинского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2402.html\" target=\"_blank\" title=\"Анфиса Мантинейская, игумения, исповедница\">Анфисы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2402_4566.html\" target=\"_blank\" >икона</a>) исп.,  игумении и 90 сестер ее. Равноапп. <a  href=\"http://days.pravoslavie.ru/name/1255.html\" target=\"_blank\" title=\"Равноапостольный Климент Охридский\">Климента</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1255_248.html\" target=\"_blank\" >икона</a>), еп. Охридского, <a  href=\"http://days.pravoslavie.ru/name/1586.html\" target=\"_blank\" title=\"Святой равноапостольный Наум Охридский\">Наума</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1586_983.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1899.html\" target=\"_blank\" title=\"Савва Охридский, исповедник, равноапостольный\">Саввы</a>, <a  href=\"http://days.pravoslavie.ru/name/522.html\" target=\"_blank\" title=\"Святитель Горазд Охридский, епископ, равноапостольный, исповедник\">Горазда</a> и <a  href=\"http://days.pravoslavie.ru/name/175.html\" target=\"_blank\" title=\"Ангеляр Охридский, равноапостольный\">Ангеляра</a>. Блж. <a  href=\"http://days.pravoslavie.ru/name/1634.html\" target=\"_blank\" title=\"Блаженный Николай Кочанов\">Николая</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1634_321.html\" target=\"_blank\" >икона</a>) Кочанова, Христа ради юродивого, Новгородского. Свт. <a  href=\"http://days.pravoslavie.ru/name/11767.html\" target=\"_blank\" title=\"Святитель Иоасаф (Скрипицын), митрополит Московский и всея Руси\">Иоасафа</a>, митр. Московского и всея Руси. <a  href=\"http://days.pravoslavie.ru/name/6914.html\" target=\"_blank\" title=\"Собор Смоленских святых\">Собор Смоленских святых</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9128.html\" target=\"_blank\" title=\"Святитель Амвросий (Гудко), епископ Сарапульский, сщмч.\">Амвросия</a>, еп. Сарапульского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13755.html\" target=\"_blank\" title=\"Платон (Горных), иерей, сщмч.\">Платона</a> и <a  href=\"http://days.pravoslavie.ru/name/14297.html\" target=\"_blank\" title=\"Пантелеимон (Богоявленский), иерей, сщмч.\">Пантелеимона</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13756.html\" target=\"_blank\" title=\"Иоанн (Соловьев), иерей, сщмч.\">Иоанна</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 9-е, <a href=\"http://days.pravoslavie.ru/bible/z_in_20_19_31.html#z\">Ин., 65 зач., XX, 19-31.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_3_9_17.html#z\">1 Кор., 128 зач., III, 9-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_14_22_34.html#z\">Мф., 59 зач., XIV, 22-34.</a> Вмч.: <a href=\"http://days.pravoslavie.ru/bible/z_2-tim_2_1_10.html#z\">2 Тим., 292 зач., II, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_15_17_0_16_0_2.html#z\">Ин., 52 зач., XV, 17 - XVI, 2.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18064.htm\" target=\"_blank\" title=\"Библия\">1 Кор. З, 9-17</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18065.htm\" target=\"_blank\" title=\"Библия\">Мф. 14, 22-34</a>). Св. апостол Петр, с позволения Господня, сходит с корабля и идет по воде; потом уступает движению страха и начинает тонуть. То, что он решился на такое необычайное дело, уповая на Господа, не представляет ничего укорительного, ибо иначе Господь не позволил бы ему того; укорительно то, что он не выдержал первого строя душевного. Его исполнило воодушевленное упование на Господа, что Он все может, и это дало ему дерзновение ввериться волнам. Сделано уже несколько шагов по этому новому пути: надлежало только крепче стать в уповании, взирая на Господа, Который близ, и на опыт хождения Его силою, а он вдался в человеческие помышления: \"силен ветер, велики волны, вода не тверда\"; это и расшатало и ослабило в нем крепость веры и упования. Оторвался он по этой причине от руки Господа и, оставшись преданным действию законов естества, начал тонуть. Господь укорил его: \"маловерный! зачем ты усомнился?\", показывая, что в этом вся причина беды. Вот урок всем, которые предпринимают что-либо, великое или малое, в видах угождения Господу! Хранить первый строй веры и упования, от которых рождается великая добродетель - терпение в доброделании, служащее основой жизни богоугодной. Пока хранятся эти расположения, до тех пор воодушевление на труды в начатом пути не отходят, и препятствия, как бы велики они ни были, не замечаются. Когда же они ослабеют, тотчас наполнят душу человеческие соображения о человеческих способах к сохранению жизни и ведению начатых дел. А так как эти последние всегда оказываются бессильными, то в душу входит страх, как быть; отсюда колебания продолжать ли, а наконец и совсем возвращение вспять. Надо так: начал - держись; мысли смущающие гони, а дерзай о Господе, Который близ.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

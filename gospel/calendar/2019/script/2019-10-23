@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("23 октября 2020 г. ( 10 октября ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 20-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/681.html\" target=\"_blank\" title=\"Евлампий Никомидийский, мч.\">Евлампия</a> и <a  href=\"http://days.pravoslavie.ru/name/2471.html\" target=\"_blank\" title=\"Евлампия Никомидийская, мц.\">Евлампии</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/143.html\" target=\"_blank\" title=\"Амвросий Оптинский, прп.\">Амвросия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii143_202.html\" target=\"_blank\" >икона</a>)  Оптинского. Свт. <a  href=\"http://days.pravoslavie.ru/name/7007.html\" target=\"_blank\" title=\"Святитель Иннокентий (Смирнов), епископ Пензенский\">Иннокентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii7007_1799.html\" target=\"_blank\" >икона</a>), епископа Пензенского. Мч. <a  href=\"http://days.pravoslavie.ru/name/2250.html\" target=\"_blank\" title=\"Феотекн Антиохийский, мч.\">Феотекна</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/395.html\" target=\"_blank\" title=\"Вассиан (Василий) Константинопольский, чудотворец, игумен, прп.\">Вассиана</a>, чудотворца. Прп. <a  href=\"http://days.pravoslavie.ru/name/2272.html\" target=\"_blank\" title=\"Феофил Тивериопольский, Константинопольский, исповедник, прп.\">Феофила</a> исп. Блж. <a  href=\"http://days.pravoslavie.ru/name/191.html\" target=\"_blank\" title=\"Андрей Тотемский, Христа ради юродивый\">Андрея</a>, Христа ради юродивого, Тотемского. <a  href=\"http://days.pravoslavie.ru/name/6903.html\" target=\"_blank\" title=\"Собор Волынских святых\">Собор</a> Волынских святых. Свт. <a  href=\"http://days.pravoslavie.ru/name/155.html\" target=\"_blank\" title=\"Святитель Амфилохий Владимиро-Волынский\">Амфилохия</a>, еп. Владимиро-Волынского. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_flp_3_8_19.html#z\">Флп., 245 зач., III, 8-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_31_35.html#z\">Лк., 32 зач., VII, 31-35.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18219.htm\" target=\"_blank\" title=\"Библия\">Лк. 7, 31-35</a>). \"С кем сравню людей рода сего?\", т. е. неверов? Если Господь делает этот вопрос как-будто в недоумении, не тем ли более прилично нам недоумевать о явлениях неверия? Казалось бы, как идти против всесторонней очевидности? - и однако же идут. Что сатана противится - это не дивно; его имя такое: противник истины и добра; ясно видит, что Бог есть, что Он будет судить его и осудит, что казнь ему уже уготована, а все идет наперекор, и не для чего другого, как только на зло и, следовательно, на большую себе пагубу. Уж не этот ли дух богоборства владеет и неверами? По крайней мере, по тем понятиям какие имеем мы о душе и ее действиях, неверие, при очевидности оснований веры, необъяснимо, равно как необъяснимо и рабство грешника греху, когда он узнает ясно, что грех губит его. И какое еще противоречие! Только неверы и страстолюбцы отвергают бытие сатаны и нечистых духов. Те, которым бы больше всего надо было бы стоять за них, совсем отступаются от них. Не от них ли самих и наука-то эта? Темные тьму любят и научают говорить, что их нет и что в нравственном мире строится само собою. без их козней и коварства.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

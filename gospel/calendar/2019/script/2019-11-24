@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("24 ноября 2020 г. ( 11 ноября ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 25-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмч. <a  href=\"http://days.pravoslavie.ru/name/1535.html\" target=\"_blank\" title=\"Мина Котуанский (Фригийский), вмч.\">Мины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1535_605.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/414.html\" target=\"_blank\" title=\"Виктор Дамасский, мч.\">Виктора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii414_1709.html\" target=\"_blank\" >икона</a>) и мц. <a  href=\"http://days.pravoslavie.ru/name/2679.html\" target=\"_blank\" title=\"Стефанида Дамасская, мц.\">Стефаниды</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2679_3018.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/413.html\" target=\"_blank\" title=\"Викентий Августопольский (Сарагосский), Валенсийский, диакон, сщмч.\">Викентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii413_1707.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/2202.html\" target=\"_blank\" title=\"Преподобный Феодор Студит\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2202_2085.html\" target=\"_blank\" >икона</a>) Студита, исп. Блж. <a  href=\"http://days.pravoslavie.ru/name/1430.html\" target=\"_blank\" title=\"Блаженный Максим, Христа ради юродивый, Московский чудотворец\">Максима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1430_1902.html\" target=\"_blank\" >икона</a>), Христа ради юродивого, Московского чудотворца. Мч. <a  href=\"http://days.pravoslavie.ru/name/2073.html\" target=\"_blank\" title=\"Стефан Урош III, Дечанский, Сербский, король, вмч.\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2073_649.html\" target=\"_blank\" >икона</a>) Дечанского (Серб.). Прп. <a  href=\"http://days.pravoslavie.ru/name/1494.html\" target=\"_blank\" title=\"Преподобный Мартирий Зеленецкий\">Мартирия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1494_945.html\" target=\"_blank\" >икона</a>) Зеленецкого. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13849.html\" target=\"_blank\" title=\"Евгений (Васильев), иерей, сщмч.\">Евгения</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_2-sol_1_10_0_2_0_2.html#z\">2 Сол., 274 зач. (от&nbsp;полу&#769;), I, 10 - II, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_42_48.html#z\">Лк., 68 зач., XII, 42-48.</a> Мчч.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_32_33_10_37_38_19_27_30.html#z\">Мф., 38 зач., X, 32-33, 37-38; XIX, 27-30.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается служба блж. Максима, то на литургии - чтения дня и блаженного: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18288.htm\" target=\"_blank\" title=\"Библия\">2 Фес. 1, 10-2, 2</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18289.htm\" target=\"_blank\" title=\"Библия\">Лк. 12, 42-48</a>). Притча о приставнике указывает на то, как должен держать себя христианин в отношении к житейскому. Приставник и старательно ведет дело, но сердцем ни к чему не привязывается, свободен от всяких уз, ко всему относится внешне. Так и христианину надо поставить себя ко всему житейскому. Но возможно ли это? Возможно. Как есть внешнее благочестие без внутреннего, так возможна и житейскость только внешняя без внутренних уз. Но в таком случае, все между нами обратится в одну форму безжизненную, от всего будет веять холодом, как от мраморной статуи? - Нет, тогда среди житейского разовьется другая жизнь, которая привлекательнее самой полной житейскости. Житейское, как житейское, действительно, останется формою, а то, чем будет согреваться сердце, станет исходить из другого источника и всякий, пьющий из этого источника, уже не будет испытывать жажды. Но в таком случае лучше все бросить? - Зачем же? Ведь и бросив все внешне, можно быть связанным в сердце, и не бросив можно быть свободным от уз. Конечно, тому удобнее совладать с своим сердцем, кто внешне отрешится от всего. Избери же, что тебе удобнее; только настройся так, как заповедует Господь.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

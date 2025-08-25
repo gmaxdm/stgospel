@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("2 мая 2020 г. ( 19 апреля ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/995.html\" target=\"_blank\" title=\"Иоанн Палеолаврит, Ветхопещерник, иеромонах\">Иоанна</a> Ветхопещерника. Блж. <a  href=\"http://days.pravoslavie.ru/name/12726.html\" target=\"_blank\" title=\"Матрона (Никонова) Московская, блаженная\">Матроны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii12726_637.html\" target=\"_blank\" >икона</a>) Московской. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2240.html\" target=\"_blank\" title=\"Феона Никомидийский, воин, мч.\">Феоны</a>, <a  href=\"http://days.pravoslavie.ru/name/2354.html\" target=\"_blank\" title=\"Христофор Никомидийский, мч.\">Христофора</a> и <a  href=\"http://days.pravoslavie.ru/name/227.html\" target=\"_blank\" title=\"Антонин Никомидийский, мч.\">Антонина</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/486.html\" target=\"_blank\" title=\"Святитель Георгий Антиохийский (Писидийский), епископ, исповедник\">Георгия</a> исп., еп. Антиохии Писидийской. Свт. <a  href=\"http://days.pravoslavie.ru/name/2126.html\" target=\"_blank\" title=\"Святитель Трифон Константинопольский, патриарх\">Трифона</a>, патриарха Константинопольского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1753.html\" target=\"_blank\" title=\"Святитель Пафнутий Иерусалимский, епископ, сщмч.\">Пафнутия</a>, еп. Иерусалимского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1623.html\" target=\"_blank\" title=\"Никифор Катавадский, игумен\">Никифора</a> игумена. Свт. <a  href=\"http://days.pravoslavie.ru/name/9139.html\" target=\"_blank\" title=\"Святитель Виктор (Островидов), епископ Глазовский, исп.\">Виктора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9139_3051.html\" target=\"_blank\" >икона</a>) исп., еп. Глазовского. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_25_1_13.html#z\">Мф., 104 зач., XXV, 1-13.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_5_21_33.html#z\">Деян., 15 зач., V, 21-33.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_6_14_27.html#z\">Ин., 19 зач., VI, 14-27.</a> Блж.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_3_23_29.html#z\">Гал., 208 зач., III, 23-29.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_36_50.html#z\">Лк., 33 зач., VII, 36-50.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17847.htm\" target=\"_blank\" title=\"Библия\">Дея. 5, 21-33</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17848.htm\" target=\"_blank\" title=\"Библия\">Ин. 6, 14-27</a>). Что прежде Петр и Иоанн говорили властям, то же потом сказали им и все апостолы: \"должно повиноваться больше Богу, нежели человекам; Бог отцов наших воскресил Иисуса, которого вы умертвили, повесивши на древе; Его возвысил Бог десницею Своею в Начальника и Спасителя, дабы дать Израилю покаяние и прощение грехов; свидетели Ему в сем мы и Дух Святый, которого Бог дал повинующимся Ему\". Какая искренность, полнота, определенность и ясность исповедания! Бог так устроил, чтобы Распятому быть Спасителем нашим через оставление грехов в покаянии. Свидетели - апостолы очевидцы и Дух Святый, явно действовавший в них и во всех верующих. Те же свидетели и до наших дней пребывают в силе. Что св. апостолы говорят, это то же, как бы мы сами видели и слышали то своими очами и ушами. И Дух благодати действует непрерывно в св. Церкви, в чудотворениях, в обращении грешников и, особенно, в претворении прилежно работающих Господу, в их освящении и исполнении очевидными благодатными дарами. Последнее придает большую силу первому, и оба вместе сильны образовать крепкое убеждение в истине Христовой, во всех душах истинолюбивых. Благодарение Богу истины, истину Свою так ясно нам являющему!. .<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

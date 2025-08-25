@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("14 ноября 2020 г. ( 1 ноября ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 23-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Бессребреников и чудотворцев <a  href=\"http://days.pravoslavie.ru/name/1294.html\" target=\"_blank\" title=\"Святой бессребренник Косма Азийский\">Космы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1294_187.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/570.html\" target=\"_blank\" title=\"Святой бессребренник Дамиан Азийский\">Дамиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii570_187.html\" target=\"_blank\" >икона</a>) Азийских и матери их прп. <a  href=\"http://days.pravoslavie.ru/name/2716.html\" target=\"_blank\" title=\"Феодотия Азийская\">Феодотии</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/961.html\" target=\"_blank\" title=\"Иоанн Бет-Селевкийский (Персидский), сщмч.\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii961_3831.html\" target=\"_blank\" >икона</a>) епископа и <a  href=\"http://days.pravoslavie.ru/name/882.html\" target=\"_blank\" title=\"Иаков Ревнитель, Персидский, пресвитер, сщмч.\">Иакова</a> пресвитера, в Персии пострадавших. Мцц. <a  href=\"http://days.pravoslavie.ru/name/2557.html\" target=\"_blank\" title=\"Кириена Тарсийская, мц.\">Кириены</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2557_2206.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2533.html\" target=\"_blank\" title=\"Иулиания Россонская, мц.\">Иулиании</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/800.html\" target=\"_blank\" title=\"Ерминингельд Готфский, царевич, мч.\">Ерминингельда</a>, царевича Готфского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1196.html\" target=\"_blank\" title=\"Кесарий Дамасский, мч.\">Кесария</a>, <a  href=\"http://days.pravoslavie.ru/name/587.html\" target=\"_blank\" title=\"Дасий Дамасский, мч.\">Дасия</a> и с ними пяти. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9449.html\" target=\"_blank\" title=\"Александр (Смирнов), иерей, сщмч.\">Александра</a> и <a  href=\"http://days.pravoslavie.ru/name/9819.html\" target=\"_blank\" title=\"Феодор (Ремизов), иерей, сщмч.\">Феодора</a> пресвитеров. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9267.html\" target=\"_blank\" title=\"Александр (Шалай), протоиерей, сщмч.\">Александра</a> и <a  href=\"http://days.pravoslavie.ru/name/9561.html\" target=\"_blank\" title=\"Димитрий (Овечкин), иерей, сщмч.\">Димитрия</a> пресвитеров, мц. <a  href=\"http://days.pravoslavie.ru/name/10074.html\" target=\"_blank\" title=\"Елисавета (Самовская), мц.\">Елисаветы</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/13842.html\" target=\"_blank\" title=\"Петр (Игнатов), мч.\">Петра</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Бессребреников: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_12_27_0_13_0_8.html#z\">1 Кор., 153 зач., XII, 27 - XIII, 8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_1_1_10_5_8.html#z\">Мф., 34 зач. (от&nbsp;полу&#769;), X, 1, 5-8.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_8_1_5.html#z\">2 Кор., 185 зач., VIII, 1-5.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_8_16_21.html#z\">Лк., 36 зач., VIII, 16-21.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18267.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 8, 1-5</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18268.htm\" target=\"_blank\" title=\"Библия\">Лк. 8, 16-21</a>). \"Нет ничего тайного, что не сделалось бы явным, ни сокровенного, что не сделалось бы известным и не обнаружилось бы\". Стало быть, как бы мы ни прятались с своими худыми делами, им независимо от нас ведется запись, которая в свое время и предъявлена будет. Что же это за хартия, на которой пишется эта запись? Совесть наша. Заставляем мы ее иногда молчать - она и молчит. Но хоть и молчит, а свое дело делает, ведет самую точную летопись делам нашим. Как же быть, если там записано много худого? Надо изгладить написанное. Чем? Слезами покаяния. Эти слезы все смоют и следа никакого не останется от того худого, что было записано. Если же не смоем, то на суде придется самим перечитать все написанное. А так как тогда правда будет властною в сознании, то сами же и суд себе произнесем, а Господь утвердит его. Тогда будет решение безапелляционное, потому что всякий сам себя осудит, до других же и дела никому не будет. И все это совершится во мгновение ока: взглянешь и увидишь, что ты такое; и от Господа вездесущего тотчас же услышишь подтверждение суда; а затем всему конец. . .<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

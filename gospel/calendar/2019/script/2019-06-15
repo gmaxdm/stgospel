@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("15 июня 2020 г. ( 2 июня ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Начало Петрова поста. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/1625.html\" target=\"_blank\" title=\"Святитель Никифор,  I Патриарх Константинопольский\">Никифора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1625_3188.html\" target=\"_blank\" >икона</a>) исп., патриарха Константинопольского. Вмч. <a  href=\"http://days.pravoslavie.ru/name/991.html\" target=\"_blank\" title=\"Великомученик Иоанн Новый, Сочавский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii991_1330.html\" target=\"_blank\" >икона</a>) Нового, Сочавского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14891.html\" target=\"_blank\" title=\"Святитель Пофин епископ Лионский, епископ Лионский, сщмч.\">Пофина</a>, епископа Лионского и с ним пострадавших Мц. <a  href=\"http://days.pravoslavie.ru/name/14892.html\" target=\"_blank\" title=\"Бландина Лионская, мц.\">Бландины</a> и мч. <a  href=\"http://days.pravoslavie.ru/name/14893.html\" target=\"_blank\" title=\"Понтик Лионский, мч.\">Понтика</a> Лионских. Обретение мощей прав. <a  href=\"http://days.pravoslavie.ru/name/2526.html\" target=\"_blank\" title=\"Благоверная Иулиания, княгиня Вяземская и Новоторжская\">Иулиании</a>, кн. Вяземской, Новоторжской. <a  href=\"http://days.pravoslavie.ru/name/2878.html\" target=\"_blank\" title=\"Киево-Братская\">Киево-Братской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2878_3524.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_rim_2_28_0_3_0_18.html#z\">Рим., 83 зач., II, 28 - III, 18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_6_31_34_7_9_11.html#z\">Мф., 19 зач., VI, 31-34; VII, 9-11.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17944.htm\" target=\"_blank\" title=\"Библия\">Рим. 2, 28-3, 18</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17945.htm\" target=\"_blank\" title=\"Библия\">Мф. 6, 31-34; 7, 9-11</a>). \"Не заботьтесь\". Как же жить то? Надо есть, пить, одеваться. Но Спаситель не говорит: ничего не делайте, а не заботьтесь. Не томите себя этою заботою, которая съедает вас и день и ночь и не дает вам покоя ни на минуту. Забота такая - болезнь греховная. Она показывает, что человек на себя оперся, а Бога забыл, что упование на Промысл Божий потерял, все хочет у себя устроить одними своими трудами, добыть все нужное и добытое сохранить своими способами. Сцепился он сердцем с тем, что имеет, и на нем почивать думает, как на прочной основе. Любоимание связало его, и он только и думает, чтоб побольше забрать в свои руки. Мамон этот стал ему вместо Бога. А ты трудиться - трудись, а заботою злою себя не томи. Жди успеха всякого от Бога и в Его руки предай участь свою. Все добываемое принимай, как дар от руки Господа, и в крепком уповании ожидай от Него продолжения щедродательности. Знай, что одна минута - и может ничего не остаться от всего, что имеет многоимущий, если захочет Бог. Все тление и прах. Стоит ли из-за этого томить себя? Итак, не заботьтесь!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

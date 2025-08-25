@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("4 августа 2020 г. ( 22 июля ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 9-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мироносицы равноап. <a  href=\"http://days.pravoslavie.ru/name/2598.html\" target=\"_blank\" title=\"Святая равноапостольная Мария Магдалина\">Марии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2598_256.html\" target=\"_blank\" >икона</a>) Магдалины. Перенесение мощей сщмч. <a  href=\"http://days.pravoslavie.ru/name/2321.html\" target=\"_blank\" title=\"Священномученик Фока Синопский\">Фоки</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2321_1262.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1287.html\" target=\"_blank\" title=\"Корнилий Переяславский, прп.\">Корнилия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1287_3504.html\" target=\"_blank\" >икона</a>) Переяславского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9690.html\" target=\"_blank\" title=\"Михаил (Накаряков), иерей, сщмч.\">Михаила</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9460.html\" target=\"_blank\" title=\"Алексий (Ильинский), иерей, сщмч.\">Алексия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-kor_12_12_26.html#z\">1 Кор., 152 зач., XII, 12-26.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_18_18_22_19_1_2_19_13_15.html#z\">Мф., 76 зач., XVIII, 18-22; XIX, 1-2, 13-15.</a> Равноап.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_9_2_12.html#z\">1 Кор., 141 зач., IX, 2-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_8_1_3.html#z\">Лк., 34 зач., VIII, 1-3.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18051.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 12, 12-26</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18052.htm\" target=\"_blank\" title=\"Библия\">Мф. 18, 18-22. 19, 1-2. 13-15</a>). Желая знать сколько раз должно прощать брату, св. Петр спросил, предрешая: \"прощать ли до семи раз?\" И сказав это думал, что назначил самую большую меру. Как коротко терпение человеческое! Господь же, применяя Свое долготерпение к нашим немощам, определил: \"не говорю тебе до семи, но до семижды семидесяти раз\". Это то же что сказать: всегда прощай, и не думай не прощать. Всепрощение и будет отличительною чертою христианского духа, как всепрощение - источник и постоянная поддержка жизни в нас о Господе, от лица Божия. Всегдашнее прощение всем всего есть внешняя одежда христианской любви, которая по апостолу \"долготерпит, милосердствует, не раздражается, все покрывает\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18053.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 13, 4-7</a>). Оно же самое верное ручательство за прощение и на последнем суде, ибо если мы отпустим, отпустит и нам Отец наш небесный (<a  href=\"https://days.pravoslavie.ru/Bible/C18054.htm\" target=\"_blank\" title=\"Библия\">Мф. 6, 14</a>). Таким образом, если хочешь в рай - прощай всем, искренно, от души, чтоб и тени не оставалось неприязненности.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

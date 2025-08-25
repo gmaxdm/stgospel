@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("11 июля 2020 г. ( 28 июня ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write(" Перенесение мощей мчч. бессребреников и чудотворцев <a  href=\"http://days.pravoslavie.ru/name/1211.html\" target=\"_blank\" title=\"Мученик Кир Александрийский\">Кира</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1211_3165.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/959.html\" target=\"_blank\" title=\"Мученик Иоанн Александрийский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii959_3165.html\" target=\"_blank\" >икона</a>). Прпп. <a  href=\"http://days.pravoslavie.ru/name/1970.html\" target=\"_blank\" title=\"Сергий Валаамский, прп.\">Сергия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1970_287.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/507.html\" target=\"_blank\" title=\"Герман Валаамский, прп.\">Германа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii507_287.html\" target=\"_blank\" >икона</a>), Валаамских чудотворцев. Прп. <a  href=\"http://days.pravoslavie.ru/name/1313.html\" target=\"_blank\" title=\"Ксенофонт Робейский, игумен\">Ксенофонта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1313_3260.html\" target=\"_blank\" >икона</a>) Робейского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1688.html\" target=\"_blank\" title=\"Павел Коринфянин, прп.\">Павла</a> врача. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13739.html\" target=\"_blank\" title=\"Василий (Ситников), диакон, сщмч.\">Василия</a> диакона. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14280.html\" target=\"_blank\" title=\"Севастиана (Агеева-Зуева), прмц.\">Севастианы</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13740.html\" target=\"_blank\" title=\"Григорий (Самарин), диакон, сщмч.\">Григория</a> диакона. Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2994.html\" target=\"_blank\" title=\"Икона Божией Матери, именуемая \"Троеручица\"\">\"Троеручица\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2994_298.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. Лит. - Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_14_21.html#z\">Рим., 97 зач., VIII, 14-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_9_9_13.html#z\">Мф., 30 зач., IX, 9-13.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба прпп. Сергия и Германа, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30,</a> а на литургии - чтения преподобных: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23,</a> и дня. </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17997.htm\" target=\"_blank\" title=\"Библия\">Рим. 8, 14-21</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17998.htm\" target=\"_blank\" title=\"Библия\">Мф. 9, 9-13</a>). У кого пробуждены духовные потребности, под действием страха Божия и требований совести, у того образуется своего рода чувство, которым он угадывает смысл речей, относящихся к предметам духовной области, хотя бы они облечены были в приточную форму. Для таковых притча не прикрывает истины, а еще яснее ее раскрывает. У кого же нет такого внутреннего строя, тот слыша о духовных предметах речь приточную, ничего не понимает в ней. Но если б и не в приточной форме предложить ему слово об этих предметах, и тогда понял бы он только слова, а сущности дела не уразумел бы: она шла бы наперекор всем его понятиям и представилась бы ему несообразностью, над которой не замедлил бы он и поглумиться. В этом именно и поставил Господь причину, почему Он говорит к народу в притчах. У кого есть задаток духовности, тот поймет и притчу, а у кого нет, тому хоть не говори. \"Потому что видя не видят, и слыша не слышат, и не разумеют. . . Ибо огрубело сердце людей сих\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17999.htm\" target=\"_blank\" title=\"Библия\">Мф. 13, 12-15</a>). Между тем способных прозревать прикровенную истину притча не лишила должного назидания: \"Кто имеет, тому дано будет и приумножится\".<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

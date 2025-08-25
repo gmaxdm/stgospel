@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("5 июля 2020 г. ( 22 июня ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 4-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/701.html\" target=\"_blank\" title=\"Евсевий Самосатский, сщмч.\">Евсевия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii701_3492.html\" target=\"_blank\" >икона</a>), еп. Самосатского. Мч. <a  href=\"http://days.pravoslavie.ru/name/14768.html\" target=\"_blank\" title=\"Албан Первомученик Британский, мч.\">Албана</a> Британского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/844.html\" target=\"_blank\" title=\"Зинон Филадельфийский (Аравийский), мч.\">Зинона</a> и <a  href=\"http://days.pravoslavie.ru/name/829.html\" target=\"_blank\" title=\"Зина Филадельфийский (Аравийский), мч.\">Зины</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/462.html\" target=\"_blank\" title=\"Галактион, мч.\">Галактиона</a> и <a  href=\"http://days.pravoslavie.ru/name/2529.html\" target=\"_blank\" title=\"Иулиания, мц.\">Иулиании</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/14467.html\" target=\"_blank\" title=\"Григорий\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14467_3493.html\" target=\"_blank\" >икона</a>), митр. Валашского (Рум.). Собор  преподобных отцев <a  href=\"http://days.pravoslavie.ru/name/6924.html\" target=\"_blank\" title=\"Собор преподобных отцев Псково-Печерских\">Псково-Печерских</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6924_3339.html\" target=\"_blank\" >икона</a>). Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/14466.html\" target=\"_blank\" title=\"Феодор (Смирнов), диакон, сщмч.\">Феодора</a> и <a  href=\"http://days.pravoslavie.ru/name/14465.html\" target=\"_blank\" title=\"Гавриил (Архангельский), диакон, сщмч.\">Гавриила</a> диаконов. <a  href=\"http://days.pravoslavie.ru/name/14277.html\" target=\"_blank\" title=\"Казанская Коробейниковская\">Коробейниковской-Казанской</a> иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - Ев. 4-е, <a href=\"http://days.pravoslavie.ru/bible/z_lk_24_1_12.html#z\">Лк., 112 зач., XXIV, 1-12.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_6_18_23.html#z\">Рим., 93 зач., VI, 18-23.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_8_5_13.html#z\">Мф., 25 зач., VIII, 5-13</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба в честь Собора преподобных отцов Псково-Печерских, то на литургии - чтения дня и преподобных: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17985.htm\" target=\"_blank\" title=\"Библия\">Рим. 6, 18-23</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17986.htm\" target=\"_blank\" title=\"Библия\">Мф. 8, 5-13</a>). Какова вера сотника! Удивила Самого Господа. Сущность ее в том, что он исповедал Господа Богом всяческих, всемощным владыкою и повелителем всего сущего; потому-то и просил: только скажи слово и исцелеет отрок мой. Верую, что все Тебе подвластно и все слушается мановения Твоего. Такой же веры и от всех требовал Господь; такая же требуется и от нас. В ком есть такая вера, тот ни в чем не имеет недостатка и что ни попросит, все получает. Так обетовал Сам Господь. О, когда бы и нам попасть хоть на след такой веры! Но и она есть дар, и дара этого тоже надо просить и просить с верою. Будем же просить ее, по крайней мере с чувством нужды в ней, просить постоянно, притрудно, помогая в то же время раскрытию ее в нас соответственными размышлениями, а более всего покорностью заповедям Божиим.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

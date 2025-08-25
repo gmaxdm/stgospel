@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("28 июня 2020 г. ( 15 июня ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 3-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/149.html\" target=\"_blank\" title=\"Пророк Амос\">Амоса</a> (<a  href=\"http://days.pravoslavie.ru/images/ii149_396.html\" target=\"_blank\" >икона</a>). Свт. <a  href=\"http://days.pravoslavie.ru/name/1042.html\" target=\"_blank\" title=\"Святитель Иона, митрополит Московский и всея Руси\">Ионы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1042_355.html\" target=\"_blank\" >икона</a>), митр. Московского, всея России чудотворца. Мчч. <a  href=\"http://days.pravoslavie.ru/name/425.html\" target=\"_blank\" title=\"Вит Римский, мч.\">Вита</a> (<a  href=\"http://days.pravoslavie.ru/images/ii425_3626.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1567.html\" target=\"_blank\" title=\"Модест Римский, Пестун, мч.\">Модеста</a> и <a  href=\"http://days.pravoslavie.ru/name/2565.html\" target=\"_blank\" title=\"Крискентия Римская, Питательница, мц.\">Крискентии</a> питательницы. Мч. <a  href=\"http://days.pravoslavie.ru/name/659.html\" target=\"_blank\" title=\"Дула Киликийский, мч.\">Дулы</a> Киликийского.  <a  href=\"http://days.pravoslavie.ru/name/919.html\" target=\"_blank\" title=\"Иероним Стридонский, Блаженный, прп.\">Иеронима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii919_3481.html\" target=\"_blank\" >икона</a>) Блаженного,Стридонского.  <a  href=\"http://days.pravoslavie.ru/name/4.html\" target=\"_blank\" title=\"Святитель Августин Блаженный, епископ Иппонийский\">Августина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii4_4463.html\" target=\"_blank\" >икона</a>) Блаженного, еп. Иппонийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/1553.html\" target=\"_blank\" title=\"Святитель Михаил, первый митрополит Киевский\">Михаила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1553_141.html\" target=\"_blank\" >икона</a>), первого митр. Киевского. Мч. <a  href=\"http://days.pravoslavie.ru/name/1327.html\" target=\"_blank\" title=\"Святой мученик Лазарь, князь Сербский\">Лазаря</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1327_639.html\" target=\"_blank\" >икона</a>), блгв. кн. Сербского . Перенесение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/2200.html\" target=\"_blank\" title=\"Святитель Феодор Сикеот\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2200_4215.html\" target=\"_blank\" >икона</a>) Сикеота, еп. Анастасиупольского. Обретение мощей прмчч. <a  href=\"http://days.pravoslavie.ru/name/529.html\" target=\"_blank\" title=\"Григорий Авнежский, игумен, сщмч.\">Григория</a> и <a  href=\"http://days.pravoslavie.ru/name/1178.html\" target=\"_blank\" title=\"Кассиан Авнежский, келарь, прмч.\">Кассиана</a> Авнежских. Свт. <a  href=\"http://days.pravoslavie.ru/name/816.html\" target=\"_blank\" title=\"Святитель Ефрем II Сербский, патриарх\">Ефрема</a> II, патриарха Сербского. Прп. <a  href=\"http://days.pravoslavie.ru/name/660.html\" target=\"_blank\" title=\"Дула Египетский, прп., страстотерпец\">Дулы</a> страстотерпца, Египетского. <a  href=\"http://days.pravoslavie.ru/name/6892.html\" target=\"_blank\" title=\"Празднество в Вологде всем преподобным отцам Вологодским\">Празднество в Вологде</a> всем преподобным отцам Вологодским. <a  href=\"http://days.pravoslavie.ru/name/6895.html\" target=\"_blank\" title=\"Собор Псковских святых\">Собор Псковских святых</a>. <a  href=\"http://days.pravoslavie.ru/name/6893.html\" target=\"_blank\" title=\"Собор Новгородских святых\">Собор Новгородских святых</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6893_1300.html\" target=\"_blank\" >икона</a>). <a  href=\"http://days.pravoslavie.ru/name/6894.html\" target=\"_blank\" title=\"Собор Белорусских святых\">Собор Белорусских святых</a>. <a  href=\"http://days.pravoslavie.ru/name/8076.html\" target=\"_blank\" title=\"Собор Санкт-Петербургских святых\">Собор Санкт-Петербургских святых</a>. <a  href=\"http://days.pravoslavie.ru/name/15000.html\" target=\"_blank\" title=\"Собор святых Удмуртской земли\">Собор святых Удмуртской земли.</a> Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9470.html\" target=\"_blank\" title=\"Амос (Иванов), иерей, сщмч.\">Амоса</a> пресвитера. <a  href=\"http://days.pravoslavie.ru/name/2926.html\" target=\"_blank\" title=\"Воронинская\">Воронинской</a> иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - Ев. 3-е, <a href=\"http://days.pravoslavie.ru/bible/z_mk_16_9_20.html#z\">Мк., 71 зач., XVI, 9-20.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_5_1_10.html#z\">Рим., 88 зач., V, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_6_22_33.html#z\">Мф., 18 зач., VI, 22-33.</a> Свт. Ионы: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Чтения свт. Ионы читаются, если ему совершается служба. Если совершается полиелейная служба свт. Михаила, то на литургии - чтения дня и свт. Михаила: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17970.htm\" target=\"_blank\" title=\"Библия\">Рим. 5, 1-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17971.htm\" target=\"_blank\" title=\"Библия\">Мф. 6, 22-33</a>). \"Если око твое будет чисто, то все тело твое будет светло; если же око твое будет худо, то все тело твое будет темно\". Оком называется здесь ум, а телом весь состав души. Таким образом, когда ум прост, тогда в душе светло; когда же ум лукав, тогда в душе темно. Что такое ум простой и ум лукавый? Ум простой тот, который принимает все, как написано в слове Божием, и несомненно убежден, что все так и есть, как написано: никакого хитроумия, никаких колебаний и раздумья нет в нем. Ум лукавый тот, который приступает к слову Божию с лукавством, хитрым совопросничеством и подъискиваниями. Он не может прямо верить, но подводит слово Божие под свои умствования. Он приступает к нему не как ученик, а как судия и критик, чтоб попытать, что-то оно говорит, и потом или поглумиться, или свысока сказать: \"да, это не худо\". У такого ума нет твердых положений, потому что слову Божию, очевидно, он не верит, а свои умствования всегда неустойчивы: ныне так, завтра иначе. Оттого у него одни колебания, недоумения, вопросы без ответов; все вещи у него не на своем месте, и ходит он впотьмах, ощупью. Простой же ум все ясно видит: всякая вещь у него имеет свой определенный характер, словом Божиим определенный, потому всякой вещи у него свое место, и он точно знает как себя в отношении к чему держать, ходит, значит, по дорогам открытым, видным, с полною уверенностью, что они ведут к настоящей цели.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

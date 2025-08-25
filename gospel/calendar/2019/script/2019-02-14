@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("14 февраля 2020 г. ( 1 февраля ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14394.html\" target=\"_blank\" title=\"Предпразднство Сретения Господня\">Предпразднство</a> Сретения Господня. Мч. <a  href=\"http://days.pravoslavie.ru/name/2124.html\" target=\"_blank\" title=\"Святой мученик Трифон\">Трифона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2124_34.html\" target=\"_blank\" >икона</a>). Мц. <a  href=\"http://days.pravoslavie.ru/name/2644.html\" target=\"_blank\" title=\"Перпетуя Карфагенская, мц.\">Перпетуи</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2644_4000.html\" target=\"_blank\" >икона</a>), мчч. <a  href=\"http://days.pravoslavie.ru/name/1926.html\" target=\"_blank\" title=\"Сатир (Сатур) Карфагенский, мч.\">Сатира</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1926_4000.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1868.html\" target=\"_blank\" title=\"Ревокат Карфагенский, мч.\">Ревоката</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1868_4000.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1929.html\" target=\"_blank\" title=\"Саторнил (Сатурнил, Саторнин) Карфагенский, мч.\">Саторнила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1929_4000.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1952.html\" target=\"_blank\" title=\"Секунд Карфагенский, мч.\">Секунда</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1952_4000.html\" target=\"_blank\" >икона</a>) и мц. <a  href=\"http://days.pravoslavie.ru/name/2736.html\" target=\"_blank\" title=\"Филицитата Карфагенская, мц.\">Филицитаты</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2736_4000.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1772.html\" target=\"_blank\" title=\"Петр Галатийский, Антиохийский, Молчальник, прп.\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1772_3572.html\" target=\"_blank\" >икона</a>) Галатийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/402.html\" target=\"_blank\" title=\"Вендимиан Вифинийский, пустынник\">Вендимиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii402_3999.html\" target=\"_blank\" >икона</a>), пустынника Вифинийского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9376.html\" target=\"_blank\" title=\"Николай (Мезенцев), протоиерей, сщмч.\">Николая</a>  пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-in_2_7_17.html#z\">1 Ин., 70 зач., II, 7-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_14_3_9.html#z\">Мк., 63 зач., XIV, 3-9,</a> и за субботу (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_2-tim_3_1_9.html#z\">2 Тим., 295 зач., III, 1-9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_20_45_0_21_0_4.html#z\">Лк., 103 зач., XX, 45 - XXI, 4.</a> Мч.: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_28_39.html#z\">Рим., 99 зач., VIII, 28-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_19_21.html#z\">Лк., 51 зач. (от&nbsp;полу&#769;), X, 19-21.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18438.htm\" target=\"_blank\" title=\"Библия\">1 Ин. 2, 7-17</a>). \"Мир проходит и похоть его\". Кто этого не видит? Все течет вокруг нас, - вещи, лица, события; и мы сами течем. Течет и похоть мирская: едва вскусим сладости от удовлетворения ее, как исчезает и та и другая; гонимся за другою, - и с тою то же; гонимся за третьею, - опять то же. И ничто не стоит, все приходит и отходит. Что же? Неужели нет ничего постоянного?! Есть, говорит тут же Апостол: \"исполняющий волю Божию пребывает во век\". Мир, столь текучий, как стоит? - Хочет Бог, и он стоит. Воля Божия есть неколебимая и несокрушимая его основа. Так и из людей, кто станет твердо в воле Божией, тотчас делается стойким и твердым. Мятутся мысли, пока кто гоняется за преходящим. Но коль скоро кто образумится и возвратится на путь воли Божией, мысли и начинания начинают улегаться. Когда же, наконец, успеет он приобрести навык в этом образе жизни, все у него, и внутри, и вне, приходит в покойный строй и безмятежный порядок. Начавшись здесь, этот мир глубокий, и безмятежие невозмутимое, перейдет и в другую жизнь, и там пребудет во веки. Вот что есть среди общего течения вокруг нас, не текучего и постоянного в нас! - Хождение в воле Божией.<br>(<a  href=\"https://days.pravoslavie.ru/Bible/C18440.htm\" target=\"_blank\" title=\"Библия\">2 Тим. 3, 1-9</a>). Кто такие \"имеющие вид благочестия, силы же его отрекшиеся\"? И кто другие \"всегда учащиеся и никогда не могущие дойти до познания истины\"? Первые те, которые держат все внешние порядки, в которых выражается благочестная жизнь; но не имеют столько крепкой воли, чтоб и внутренние свои расположения держать так, как требует истинное благочестие. Идут в храм охотно, и там стоят охотно. Но не делают напряжения, чтоб и умом своим стоять перед Богом неотходно и благоговейно припадать к Нему, а помолившись немного, выпускают бразды правления ума, и он парит, обтекая весь мир. И выходит, что тогда как по внешнему их положению они в храме, по внутреннему состоянию их нет там: остался у них один образ благочестия, а силы его нет. Так и о всем другом разумевай. Вторые это те, которые, вступив в область веры, только и делают, что вопросы изобретают, - что то, что это, почему так, почему этак. Люди, страждущие пустой пытливостью. За истиною не гонятся, а лишь бы пытать и пытать. И решение нашедши вопросам, недолго останавливаются на нем, а скоро чувствуют нужду приискивать другое решение. И так кружатся день и ночь, пытая и пытая, и никогда вполне не удовлетворяясь допытанным. Иной за удовольствиями гоняется, а они за удовлетворением пытливости своей.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

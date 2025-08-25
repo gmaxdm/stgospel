@@ -1,0 +1,131 @@
+.forum-table {
+    width: 100%;
+    font-size: 16px;
+
+    & a {
+        text-decoration: none;
+    }
+
+    & tr:nth-child(1) {
+    }
+
+    & td, th {
+        padding: 10px;
+        text-align: left;
+        font-weight: 400;
+        vertical-align: middle;
+    }
+
+    & th {
+        font-weight: bold;
+        color: #044a7e;
+    }
+
+    & .img {
+        padding-left: 20px;
+    }
+
+    & .topic {
+        width: 45%;
+        position: relative;
+
+        & .forum-category {
+            font-size: 13px;
+            opacity: 0.5;
+            margin-top: 5px;
+        }
+    }
+}
+
+.posts {
+    & .post-message {
+        margin: 20px;
+        overflow-x: auto;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+
+        & p {
+            margin: 10px auto;
+        }
+
+        & blockquote {
+            font-style: italic;
+            color: #777;
+            border-left: 3px solid #888;
+            padding-left: 10px;
+            margin: 20px;
+        }
+
+        & ol {
+            display: block;
+            list-style-type: decimal;
+            margin-left: 2em;
+            margin-top: 5px;
+            margin-bottom: 5px;
+
+            & li {
+                display: list-item;
+                text-align: -webkit-match-parent;
+                margin: 5px auto;
+            }
+        }
+
+        & ul {
+            display: block;
+            list-style-type: disc;
+            margin-left: 2em;
+            margin-top: 5px;
+            margin-bottom: 5px;
+
+            & li {
+                display: list-item;
+                text-align: -webkit-match-parent;
+                margin: 5px auto;
+            }
+        }
+
+        & table {
+            margin: 20px 10px;
+        }
+    }
+
+    & .user-name {
+        color: #855e35;
+        font-weight: bold;
+    }
+
+    & .post-date, .post-mod, .post-review {
+        padding-left: 10px;
+        font-size: 70%;
+    }
+
+    & .post-mod {
+        color: #ce4c33;
+    }
+
+    & .post-like {
+        background-image: url('../static/images/thumbs_up_32.png');
+        background-color: transparent;
+        width: 32px;
+        height: 32px;
+        margin-right: 32px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    & .post-like span {
+        font-weight: bold;
+        display: inline-block;
+        padding-left: 37px;
+    }
+}
+
+.new-forum-post {
+    & dt {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    & dd textarea {
+        width: 99%;
+    }
+}

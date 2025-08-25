@@ -1,0 +1,46 @@
+{% extends 'wrapper.html' %}
+{% block title %}Псалтирь на церковнославянском{% endblock %}
+{% block main %}
+<script>
+    $(function() {
+        $("#bf-sw").click(function(e) {
+            e.preventDefault();
+            $("#sp-bf-sw").text(function(i, text) {
+                return text === "включить" ? "выключить" : "включить";
+            });
+            $("#l-content").toggleClass("display-4-1");
+            $("h3, h4, h5, h6").toggleClass("display-3-1");
+        });
+    });
+</script>
+<p class="text-right d-print-none">
+    <i class="fas fa-font"></i> <a href="#" id="bf-sw"><span id="sp-bf-sw">включить</span> крупный шрифт</a>
+</p>
+<div id="l-content" class="m-3">
+    <h1>Псалтирь на церковнославянском</h1>
+    <ul class="list-unstyled">
+    <li><a href="{% url 'psalter-begin' %}">Молитвы перед началом чтения Псалтири</a></li>
+    <li><a href="{% url 'kathisma' 1 %}">Кафисма 1</a><small class="pl-2 text-muted"><i>Псалмы 1-8</i></small></li>
+    <li><a href="{% url 'kathisma' 2 %}">Кафисма 2</a><small class="pl-2 text-muted"><i>Псалмы 9-16</i></small></li>
+    <li><a href="{% url 'kathisma' 3 %}">Кафисма 3</a><small class="pl-2 text-muted"><i>Псалмы 17-23</i></small></li>
+    <li><a href="{% url 'kathisma' 4 %}">Кафисма 4</a><small class="pl-2 text-muted"><i>Псалмы 24-31</i></small></li>
+    <li><a href="{% url 'kathisma' 5 %}">Кафисма 5</a><small class="pl-2 text-muted"><i>Псалмы 32-36</i></small></li>
+    <li><a href="{% url 'kathisma' 6 %}">Кафисма 6</a><small class="pl-2 text-muted"><i>Псалмы 37-45</i></small></li>
+    <li><a href="{% url 'kathisma' 7 %}">Кафисма 7</a><small class="pl-2 text-muted"><i>Псалмы 46-54</i></small></li>
+    <li><a href="{% url 'kathisma' 8 %}">Кафисма 8</a><small class="pl-2 text-muted"><i>Псалмы 55-63</i></small></li>
+    <li><a href="{% url 'kathisma' 9 %}">Кафисма 9</a><small class="pl-2 text-muted"><i>Псалмы 64-69</i></small></li>
+    <li><a href="{% url 'kathisma' 10 %}">Кафисма 10</a><small class="pl-2 text-muted"><i>Псалмы 70-76</i></small></li>
+    <li><a href="{% url 'kathisma' 11 %}">Кафисма 11</a><small class="pl-2 text-muted"><i>Псалмы 77-84</i></small></li>
+    <li><a href="{% url 'kathisma' 12 %}">Кафисма 12</a><small class="pl-2 text-muted"><i>Псалмы 85-90</i></small></li>
+    <li><a href="{% url 'kathisma' 13 %}">Кафисма 13</a><small class="pl-2 text-muted"><i>Псалмы 91-100</i></small></li>
+    <li><a href="{% url 'kathisma' 14 %}">Кафисма 14</a><small class="pl-2 text-muted"><i>Псалмы 101-104</i></small></li>
+    <li><a href="{% url 'kathisma' 15 %}">Кафисма 15</a><small class="pl-2 text-muted"><i>Псалмы 105-108</i></small></li>
+    <li><a href="{% url 'kathisma' 16 %}">Кафисма 16</a><small class="pl-2 text-muted"><i>Псалмы 109-117</i></small></li>
+    <li><a href="{% url 'kathisma' 17 %}">Кафисма 17</a><small class="pl-2 text-muted"><i>Псалом 118</i></small></li>
+    <li><a href="{% url 'kathisma' 18 %}">Кафисма 18</a><small class="pl-2 text-muted"><i>Псалмы 119-133</i></small></li>
+    <li><a href="{% url 'kathisma' 19 %}">Кафисма 19</a><small class="pl-2 text-muted"><i>Псалмы 134-142</i></small></li>
+    <li><a href="{% url 'kathisma' 20 %}">Кафисма 20</a><small class="pl-2 text-muted"><i>Псалмы 143-150</i></small></li>
+    <li><a href="{% url 'psalter-end' %}">Молитвы по прочтении нескольких кафисм или всей Псалтири</a></li>
+    </ul>
+</div>
+{% endblock %}

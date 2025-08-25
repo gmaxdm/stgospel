@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("13 июля 2020 г. ( 30 июня ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6909.html\" target=\"_blank\" title=\"Собор славных и всехвальных 12-ти апостолов\">Собор славных и всехвальных 12-ти апостолов</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6909_1119.html\" target=\"_blank\" >икона</a>): <a  href=\"http://days.pravoslavie.ru/name/1785.html\" target=\"_blank\" title=\"Апостол Петр\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1785_15.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/186.html\" target=\"_blank\" title=\"Апостол Андрей Первозванный\">Андрея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii186_106.html\" target=\"_blank\" >икона</a>), брата его, <a  href=\"http://days.pravoslavie.ru/name/872.html\" target=\"_blank\" title=\"Апостол Иаков Зеведеев\">Иакова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii872_579.html\" target=\"_blank\" >икона</a>) Зеведеева, <a  href=\"http://days.pravoslavie.ru/name/962.html\" target=\"_blank\" title=\"Апостол и евангелист Иоанн Богослов\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii962_183.html\" target=\"_blank\" >икона</a>), брата его, <a  href=\"http://days.pravoslavie.ru/name/2291.html\" target=\"_blank\" title=\"Филипп, апостол из 12-ти\">Филиппа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2291_1239.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/365.html\" target=\"_blank\" title=\"Апостол Варфоломей\">Варфоломея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii365_440.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2323.html\" target=\"_blank\" title=\"Апостол Фома\">Фомы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2323_4515.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1500.html\" target=\"_blank\" title=\"Апостол Матфей\">Матфея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1500_948.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/867.html\" target=\"_blank\" title=\"Апостол Иаков Алфеев\">Иакова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii867_576.html\" target=\"_blank\" >икона</a>) Алфеева, <a  href=\"http://days.pravoslavie.ru/name/1132.html\" target=\"_blank\" title=\"Иуда Иаковлев (Леввей, Фаддей), апостол из 12-ти\">Иуды</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1132_1852.html\" target=\"_blank\" >икона</a>) Иаковля, или Фаддея, <a  href=\"http://days.pravoslavie.ru/name/2014.html\" target=\"_blank\" title=\"Симон Зилот, Кананит, апостол из 12-ти, сщмч.\">Симона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2014_1110.html\" target=\"_blank\" >икона</a>) Зилота и <a  href=\"http://days.pravoslavie.ru/name/1503.html\" target=\"_blank\" title=\"Апостол Матфий\">Матфия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1503_952.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1784.html\" target=\"_blank\" title=\"Преподобный Петр, царевич Ордынский\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1784_4560.html\" target=\"_blank\" >икона</a>), царевича Ордынского (Ростовского). Прославление свт. <a  href=\"http://days.pravoslavie.ru/name/2043.html\" target=\"_blank\" title=\"Святитель Софроний, епископ Иркутский\">Софрония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2043_372.html\" target=\"_blank\" >икона</a>), еп. Иркутского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9807.html\" target=\"_blank\" title=\"Тимофей (Петропавловский), иерей, сщмч.\">Тимофея</a> пресвитера.  Прмч. <a  href=\"http://days.pravoslavie.ru/name/11414.html\" target=\"_blank\" title=\"Никандр (Прусак), иеромонах, прмч.\">Никандра</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/9185.html\" target=\"_blank\" title=\"Феоген (Козырев), архимандрит, сщмч.\">Феогена</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/14282.html\" target=\"_blank\" title=\"Иоанн (Демидов), мч.\">Иоанна</a>. <a  href=\"http://days.pravoslavie.ru/name/2775.html\" target=\"_blank\" title=\"Балыкинская\">Балыкинской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2775_430.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2836.html\" target=\"_blank\" title=\"Горбаневская\">Горбаневской</a> икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_rim_16_17_24.html#z\">Рим., 121 зач., XVI, 17-24.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_13_10_23.html#z\">Мф., 51 зач., XIII, 10-23.</a> Апп.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_4_9_16.html#z\">1 Кор., 131 зач., IV, 9-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_3_13_19.html#z\">Мк., 12 зач., III, 13-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18002.htm\" target=\"_blank\" title=\"Библия\">Рим. 16, 17-24</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18003.htm\" target=\"_blank\" title=\"Библия\">Мф. 13, 10-23</a>). Отчего многие не разумеют бесед о духовных вещах? По причине отолстения сердца. Когда сердце полно пристрастий к земным вещам, тогда оно грубеет, как сказано: \"уты, утолсте, расшире\". В этом виде оно, как тяжелая гиря, вниз тянет и приковывает к земле всю душу и с ее умом. Тогда вращаясь все в кругу низких предметов, и оно становится низкомыслящим и не может воспарять горе, как обремененная пищею птица. Вращаясь же не видит горнего, и весь склад его противен ему. . . То совсем безвестная для него страна. В сумме своих понятий и опытов не имеет он ничего, к чему мог применить тамошнее, чтобы увидеть его хоть зерцалом в гадании. Оттого ни сам рассуждать о том не берется, ни других рассуждающих слушать охоты не имеет, и книг, в которых пишется о том, в руки не возьмет. Не оттого ли у многих вы встретите иногда не один журнал светский, а духовного ни одного, ни одной духовной книги, даже Евангелия?<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

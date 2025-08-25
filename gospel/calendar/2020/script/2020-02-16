@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("16 февраля 2020 г. ( 3 февраля ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 35-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Попразднство Сретения Господня. Правв. <a  href=\"http://days.pravoslavie.ru/name/1998.html\" target=\"_blank\" title=\"Святой праведный Симеон Богоприимец\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1998_60.html\" target=\"_blank\" >икона</a>) Богоприимца и <a  href=\"http://days.pravoslavie.ru/name/2396.html\" target=\"_blank\" title=\"Праведная Анна Пророчица\">Анны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2396_2134.html\" target=\"_blank\" >икона</a>) пророчицы. Равноап. <a  href=\"http://days.pravoslavie.ru/name/1640.html\" target=\"_blank\" title=\"Святой равноапостольный Николай, архиепископ Японский\">Николая</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1640_40.html\" target=\"_blank\" >икона</a>), архиеп. Японского. Прор. <a  href=\"http://days.pravoslavie.ru/name/82.html\" target=\"_blank\" title=\"Азария, пророк\">Азарии</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1732.html\" target=\"_blank\" title=\"Папий Пергийский (Памфилийский), мч.\">Папия</a>, <a  href=\"http://days.pravoslavie.ru/name/609.html\" target=\"_blank\" title=\"Диодор Пергийский (Памфилийский), мч.\">Диодора</a>, <a  href=\"http://days.pravoslavie.ru/name/1241.html\" target=\"_blank\" title=\"Клавдиан Пергийский (Памфилийский), мч.\">Клавдиана</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/434.html\" target=\"_blank\" title=\"Власий (Вукол) Кесарийский (Капподакийский), исповедник\">Власия</a> Кесарийского, пастуха. Мчч. <a  href=\"http://days.pravoslavie.ru/name/72.html\" target=\"_blank\" title=\"Адриан Ванейский, Кесарийский (Палестинский), мч.\">Адриана</a> и <a  href=\"http://days.pravoslavie.ru/name/666.html\" target=\"_blank\" title=\"Еввул Ванейский, Кесарийский (Палестинский), мч.\">Еввула</a>. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/1880.html\" target=\"_blank\" title=\"Благоверный князь Роман Угличский\">Романа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1880_179.html\" target=\"_blank\" >икона</a>) Угличского. Свт. <a  href=\"http://days.pravoslavie.ru/name/2009.html\" target=\"_blank\" title=\"Святитель Симеон, епископ Тверской\">Симеона</a>, еп. Полоцкого, еп. Тверского. Свт. <a  href=\"http://days.pravoslavie.ru/name/14755.html\" target=\"_blank\" title=\"Святитель Игнатий Мариупольский, митрополит Готии и Кафы\">Игнатия</a> Мариупольского. <a  href=\"http://days.pravoslavie.ru/name/14791.html\" target=\"_blank\" title=\"Собор святых Пермской митрополии\">Собор</a> святых Пермской митрополии. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9647.html\" target=\"_blank\" title=\"Иоанн (Томилов), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9806.html\" target=\"_blank\" title=\"Тимофей (Изотов), иерей, сщмч.\">Тимофея</a>, <a  href=\"http://days.pravoslavie.ru/name/13640.html\" target=\"_blank\" title=\"Адриан (Троицкий), протоиерей, сщмч.\">Адриана</a>, <a  href=\"http://days.pravoslavie.ru/name/14213.html\" target=\"_blank\" title=\"Василий (Залесский), протоиерей, сщмч.\">Василия</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/9201.html\" target=\"_blank\" title=\"Владимир (Загреба), иеромонах, сщмч.\">Владимира</a>, мч. <a  href=\"http://days.pravoslavie.ru/name/14214.html\" target=\"_blank\" title=\"Михаил (Агаев), мч.\">Михаила</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 2-е, <a href=\"http://days.pravoslavie.ru/bible/z_mk_16_1_8.html#z\">Мк., 70 зач., XVI, 1-8.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_6_12_20.html#z\">1 Кор., 135 зач., VI, 12-20.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_15_11_32.html#z\">Лк., 79 зач., XV, 11-32.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18443.htm\" target=\"_blank\" title=\"Библия\">Лк. 15, 11-32</a>). О чем ни говорит нам неделя блудного! Говорит и о нашем покое и довольстве в доме Отца Небесного, и о безумном нашем порыве из под блюстительства Отчего на свободу необузданную, и о богатстве наследия присвоенного нам, несмотря на непокорность, и о безрассудной растрате его на всякие непотребства, и о крайнем следствие того, - обеднении нашем. Но говорит затем и о том, как кто опомнивается и, в себя пришед, замышляет и решается возвратиться к Отцу многомилостивому, как возвращается, как любовно принимается и восстанавливается в первое состояние. И кто здесь ни найдет благопотребного для себя урока? В доме ли отчем пребываешь, не рвись вон на свободу. Видишь, чем кончился подобный опыт! Убежал ли и проматываешься, остановись поскорей. Промотал ли все и бедствуешь, решайся поскорей возвратиться, и возвратись. Там ждет тебя вся снисходительность, прежняя любовь и довольство. Последний шаг самый нужный. Но распространяться насчет его нечего. Все сказано коротко и ясно. Опомнись, решись возвратиться, встань и спеши ко Отцу. Объятия Его отверсты и готовы принять тебя.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("18 сентября 2020 г. ( 5 сентября ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 15-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/823.html\" target=\"_blank\" title=\"Захария Праведный, пророк\">Захарии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii823_560.html\" target=\"_blank\" >икона</a>) и прав. <a  href=\"http://days.pravoslavie.ru/name/2499.html\" target=\"_blank\" title=\"Елисавета Праведная, Палестинская\">Елисаветы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2499_350.html\" target=\"_blank\" >икона</a>), родителей св. <a  href=\"http://days.pravoslavie.ru/name/1007.html\" target=\"_blank\" title=\"Пророк, Предтеча и Креститель Господень Иоанн\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1007_11.html\" target=\"_blank\" >икона</a>) Предтечи. Прмч. <a  href=\"http://days.pravoslavie.ru/name/294.html\" target=\"_blank\" title=\"Афанасий Брестский\">Афанасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii294_309.html\" target=\"_blank\" >икона</a>) Брестского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2310.html\" target=\"_blank\" title=\"Фифаил, мч.\">Фифаила</a> и сестры его <a  href=\"http://days.pravoslavie.ru/name/2733.html\" target=\"_blank\" title=\"Фивея (Вивея), мц.\">Фивеи</a> (Вивеи). Мц. <a  href=\"http://days.pravoslavie.ru/name/2656.html\" target=\"_blank\" title=\"Мученица Ираида Александрийская\">Раисы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2656_2257.html\" target=\"_blank\" >икона</a>) (Ираиды). Мчч. <a  href=\"http://days.pravoslavie.ru/name/1131.html\" target=\"_blank\" title=\"Мученик Иувентин Антиохийский\">Иувентина</a> и <a  href=\"http://days.pravoslavie.ru/name/1422.html\" target=\"_blank\" title=\"Мученик Максим Антиохийский\">Максима</a> воинов. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2140.html\" target=\"_blank\" title=\"Урван Константинопольский, Никомидийский, мч.\">Урвана</a>, <a  href=\"http://days.pravoslavie.ru/name/2186.html\" target=\"_blank\" title=\"Феодор Константинопольский, Никомидийский, мч.\">Феодора</a> и <a  href=\"http://days.pravoslavie.ru/name/1504.html\" target=\"_blank\" title=\"Медимн Константинопольский, Никомидийский, мч.\">Медимна</a> и с ними 77-ми мужей от церковного чина, в Никомидии пострадавших. Мч. <a  href=\"http://days.pravoslavie.ru/name/8.html\" target=\"_blank\" title=\"Авдий Персидский, мч.\">Авдия</a> (Авида) в Персии. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/518.html\" target=\"_blank\" title=\"Благоверный князь Глеб\">Глеба</a> (<a  href=\"http://days.pravoslavie.ru/images/ii518_174.html\" target=\"_blank\" >икона</a>), во св. Крещении Давида. Мч. <a  href=\"http://days.pravoslavie.ru/name/1923.html\" target=\"_blank\" title=\"Сарвил, мч.\">Сарвила</a> (Gr. Cal). Мч.  <a  href=\"http://days.pravoslavie.ru/name/12261.html\" target=\"_blank\" title=\"Евфимий (Кочев), мч.\">Евфимия</a>. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/11831.html\" target=\"_blank\" title=\"Александр (Уродов), архимандрит, прп., исповедник\">Александра</a> исп. <a  href=\"http://days.pravoslavie.ru/name/14703.html\" target=\"_blank\" title=\"Оршанская\">Оршанской</a> иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_gal_4_8_21.html#z\">Гал., 210 зач., IV, 8-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_6_45_53.html#z\">Мк., 26 зач., VI, 45-53.</a> Прор.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_6_13_20.html#z\">Евр., 314 зач., VI, 13-20.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_23_29_39.html#z\">Мф., 96 зач., XXIII, 29-39.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18146.htm\" target=\"_blank\" title=\"Библия\">Гал. 4, 8-21</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18147.htm\" target=\"_blank\" title=\"Библия\">Мк. 6, 45-53</a>). \"Ободритесь; это Я, не бойтесь\". Вот опора упования нашего! Какая бы беда и скорбь ни была, вспомни, что Господь близ, и воодушевись мужественным терпением. Как тогда Он вдруг предстал апостолам, бедствовавшим на море, так и тебе, бедствующему, внезапно явит помощь Свою и заступление. Он везде есть и всегда готов с Своим покровом. Стань только и ты с Ним или перед Ним верою, молитвою, упованием и преданностью в волю Его святую. Произойдет сочетание духа с Господом, а отсюда уже всякое благо. Впрочем, это не то значит, чтоб уж тотчас пошло и достоинство, и слава, и честь, и тому подобное. Внешнее может оставаться как есть, а прибудет мужественное и благодушное пребывание в том порядке событий, какой Господу угодно будет определить для кого. А это и есть главное, чего искать должно всякому бедствующему. Счастье внутри, а не вне. Внутреннее же облаженствование всегда есть у того, кто в живом союзе с Господом.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

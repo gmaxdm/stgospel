@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("7 марта 2020 г. ( 23 февраля ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 1-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмч. <a  href=\"http://days.pravoslavie.ru/name/2203.html\" target=\"_blank\" title=\"Великомученик Феодор Тирон\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2203_1238.html\" target=\"_blank\" >икона</a>) Тирона. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1813.html\" target=\"_blank\" title=\"Святитель Поликарп Смирнский, епископ, сщмч.\">Поликарпа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1813_1992.html\" target=\"_blank\" >икона</a>), еп. Смирнского. Обретение мощей блж. <a  href=\"http://days.pravoslavie.ru/name/12726.html\" target=\"_blank\" title=\"Матрона (Никонова) Московская, блаженная\">Матроны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii12726_637.html\" target=\"_blank\" >икона</a>) Московской. Прп. <a  href=\"http://days.pravoslavie.ru/name/112.html\" target=\"_blank\" title=\"Преподобный Александр Константинопольский\">Александра</a> монаха, начальника обители \"Неусыпающих\". Прпп. <a  href=\"http://days.pravoslavie.ru/name/1017.html\" target=\"_blank\" title=\"Иоанн Сирийский, пустынник\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/204.html\" target=\"_blank\" title=\"Антиох Сирийский, пустынник\">Антиоха</a>, <a  href=\"http://days.pravoslavie.ru/name/230.html\" target=\"_blank\" title=\"Антонин Сирийский, пустынник\">Антонина</a>, <a  href=\"http://days.pravoslavie.ru/name/1574.html\" target=\"_blank\" title=\"Моисей Сирийский, пустынник\">Моисея</a>, <a  href=\"http://days.pravoslavie.ru/name/826.html\" target=\"_blank\" title=\"Зевин Сирийский, пустынник\">Зевина</a>, <a  href=\"http://days.pravoslavie.ru/name/1816.html\" target=\"_blank\" title=\"Полихроний Сирийский, пустынник\">Полихрония</a>, <a  href=\"http://days.pravoslavie.ru/name/1575.html\" target=\"_blank\" title=\"Моисей Сирийский, пустынник\">Моисея</a> другого и <a  href=\"http://days.pravoslavie.ru/name/6627.html\" target=\"_blank\" title=\"Дамиан Сирийский, пустынник\">Дамиана</a>, пустынников Сирийских. Прп. <a  href=\"http://days.pravoslavie.ru/name/1811.html\" target=\"_blank\" title=\"Преподобный Поликарп Брянский\">Поликарпа</a> Брянского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14974.html\" target=\"_blank\" title=\"Святитель Зиновий (Мажуга) Глинский, в схиме Серафим, митрополит Тетрицкаройский, прп.\">Зиновия</a> Глинского, митр. Тетрицкаройского, в схиме Серафима. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9466.html\" target=\"_blank\" title=\"Алексий (Никольский), иерей, сщмч.\">Алексия</a> , <a  href=\"http://days.pravoslavie.ru/name/9371.html\" target=\"_blank\" title=\"Николай (Дмитров), протоиерей, сщмч.\">Николая</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9371_1948.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/14226.html\" target=\"_blank\" title=\"Михаил (Ражкин), иерей, сщмч.\">Михаила</a>  пресвитеров и мч. <a  href=\"http://days.pravoslavie.ru/name/10028.html\" target=\"_blank\" title=\"Сергий (Бородавкин), мч.\">Сергия</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_evr_1_1_12.html#z\">Евр., 303 зач., I, 1-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_2_23_0_3_0_5.html#z\">Мк., 10 зач., II, 23 - III, 5.</a> Вмч.: <a href=\"http://days.pravoslavie.ru/bible/z_2-tim_2_1_10.html#z\">2 Тим., 292 зач., II, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_15_17_0_16_0_2.html#z\">Ин., 52 зач., XV, 17 - XVI, 2</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба в честь обретения мощей блж. Матроны Московской, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_25_1_13.html#z\">Мф., 104 зач., XXV, 1-13,</a> а на литургии - чтения дня, великомученика Феодора (под зачало) и блаженной: <a href=\"http://days.pravoslavie.ru/bible/z_gal_3_23_29.html#z\">Гал., 208 зач., III, 23-29.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_36_50.html#z\">Лк., 33 зач., VII, 36-50.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18475.htm\" target=\"_blank\" title=\"Библия\">Евр. 1, 1-12</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18476.htm\" target=\"_blank\" title=\"Библия\">Мк. 2, 23-3, 5</a>). Приступили к чаше Господней, были на вечери у Господа: слава Тебе, Боже! слава Тебе, Боже! слава Тебе, Боже! Великий ныне день у Господа! Преславное торжество на небе! Нет города, ни села, ни дома, где не было бы причастников. На всем пространстве России, по всему югу и востоку - сколько лиц, облеченных в белую одежду оправдания, вкусили жизни Божественной, и приискренне соединились с Господом! Обновилось тело Господне - тело Церкви, и облеклось в свойственную ей славу, скрытую от очей человеческих, но видную для очей ангельских. Поклонились ангелы Первородному, когда введен Он был во вселенную в силе Своей: ныне же поклонились Ему потому, что вселепная вводится опять к Нему Самому. Поклонились и воспели: \"Престол Твой. Боже, вовек; жезл правоты - жезл царства Твоего; Ты возлюбил правду, и возненавидел беззаконие\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18477.htm\" target=\"_blank\" title=\"Библия\">Пс. 44. 7-8</a>).<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

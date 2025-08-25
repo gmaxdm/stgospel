@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("27 мая 2020 г. ( 14 мая ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/1118.html\" target=\"_blank\" title=\"Исидор Хиосский, мч.\">Исидора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1118_4270.html\" target=\"_blank\" >икона</a>). <a  href=\"http://days.pravoslavie.ru/name/14693.html\" target=\"_blank\" title=\"Отдание праздника Пасхи\">Отдание</a> праздника Пасхи. Предпразднство Вознесения Господня. Блж. <a  href=\"http://days.pravoslavie.ru/name/1117.html\" target=\"_blank\" title=\"Исидор Твердислов, Ростовский, Христа ради юродивый\">Исидора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1117_4271.html\" target=\"_blank\" >икона</a>) Твердислова, Христа ради юродивого, Ростовского, чудотворца. Мч. <a  href=\"http://days.pravoslavie.ru/name/1421.html\" target=\"_blank\" title=\"Максим Азийский, мч.\">Максима</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1967.html\" target=\"_blank\" title=\"Серапион Синдонит, Египетский, прп.\">Серапиона</a> Синдонита. Прп. <a  href=\"http://days.pravoslavie.ru/name/1617.html\" target=\"_blank\" title=\"Святитель Никита Печерский, епископ Новгородский, затворник\">Никиты</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1617_3166.html\" target=\"_blank\" >икона</a>), затворника Печерского, еп. Новгородского. Свт. <a  href=\"http://days.pravoslavie.ru/name/1346.html\" target=\"_blank\" title=\"Святитель Леонтий Иерусалимский, патриарх\">Леонтия</a>, патриарха Иерусалимского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14460.html\" target=\"_blank\" title=\"Петр (Рождествин), протоиерей, сщмч.\">Петра</a> пресвитера. <a  href=\"http://days.pravoslavie.ru/name/11077.html\" target=\"_blank\" title=\"Теребенская\">Теребенской</a> , <a  href=\"http://days.pravoslavie.ru/name/3033.html\" target=\"_blank\" title=\"Ярославская Печерская\">Ярославской</a> (Печерской) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_18_22_28.html#z\">Деян., 41 зач., XVIII, 22-28.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_12_36_47.html#z\">Ин., 43 зач., XII, 36-47.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17902.htm\" target=\"_blank\" title=\"Библия\">Дея. 18, 22-28</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17903.htm\" target=\"_blank\" title=\"Библия\">Ин. 12, 36-47</a>). \"Господи, кто поверил слышанному от нас\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17904.htm\" target=\"_blank\" title=\"Библия\">Ис. 53, 1</a>), так жалуется, изумляясь, пророк Исаия. Прилично и ныне взывать: кто ныне искренно верует слову Твоему, Господи? Все почти расшатались. Язык у очень многих еще немотствует о вере; но сердца редко какие не уклонились инуде . Что за причина? Стал ощущаться интерес в неверии; развились потребность неверия, для прикрытия интересов сердца, несогласных с верою. Тут - корень зла. Не разум противник веры, а развратившееся сердце. Разум тут только тем виноват, что покоряется сердцу и принимается умствовать не по началам истины, а по желаниям сердца. При этом сильные доводы за истину кажутся ему ничтожными, а малость какая против нее вырастает с гору; и, вообще, в область умственную вносится смятение, слепящее ум. Он не видит, да и не может видеть, хоть не толкуй ему.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

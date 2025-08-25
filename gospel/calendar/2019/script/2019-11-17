@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("17 ноября 2020 г. ( 4 ноября ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 24-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1028.html\" target=\"_blank\" title=\"Иоанникий Великий, прп.\">Иоанникия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1028_3824.html\" target=\"_blank\" >икона</a>) Великого. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/1608.html\" target=\"_blank\" title=\"Святитель Никандр Мирский, епископ, сщмч.\">Никандра</a>, еп. Мирского, и <a  href=\"http://days.pravoslavie.ru/name/795.html\" target=\"_blank\" title=\"Ермей, пресвитер, сщмч.\">Ермея</a> пресвитера. Прп. <a  href=\"http://days.pravoslavie.ru/name/1520.html\" target=\"_blank\" title=\"Преподобный Меркурий Киево-Печерский\">Меркурия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1520_3560.html\" target=\"_blank\" >икона</a>) Печерского. Блж. <a  href=\"http://days.pravoslavie.ru/name/6879.html\" target=\"_blank\" title=\"Блаженный Симон Юрьевецкий\">Симона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6879_1112.html\" target=\"_blank\" >икона</a>), Христа ради юродивого, Юрьевецкого. Прп. <a  href=\"http://days.pravoslavie.ru/name/1604.html\" target=\"_blank\" title=\"Никандр Городноезерский, прп.\">Никандра</a> Городноезерского. Св. <a  href=\"http://days.pravoslavie.ru/name/13844.html\" target=\"_blank\" title=\"Николай (Виноградов), иерей, исповедник\">Николая</a> исп., пресвитера. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14522.html\" target=\"_blank\" title=\"Евгения (Лысова), инокиня, прмц.\">Евгении</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9441.html\" target=\"_blank\" title=\"Александр (Петропавловский), иерей, сщмч.\">Александра</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9654.html\" target=\"_blank\" title=\"Исмаил (Базилевский), иерей, сщмч.\">Исмаила</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-sol_3_9_13.html#z\">1 Сол., 268 зач., III, 9-13.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_11_34_41.html#z\">Лк., 60 зач., XI, 34-41.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18273.htm\" target=\"_blank\" title=\"Библия\">Фес. 3, 9-13</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18274.htm\" target=\"_blank\" title=\"Библия\">Лк. 11, 34-41</a>). \"Светильник тела есть око\"; а светильник душе ум. Как при неповрежденности ока телесного все вокруг нас, во внешнем быту нашем, видно для нас и мы знаем, как и куда идти и что делать, так при здравости ума видно бывает для нас все во внутреннем быту нашем, в нашем отношении к Богу и ближним и в том, как должно нам держать самих себя. Ум, высшая сторона души, совмещает чувство Божества, требования совести и чаяние лучшего, сравнительно со всем обладаемым нами и ведомым нам. Когда ум здрав, в душе царствует страх Божий, добросовестность и несвязанность ничем внешним, а когда он нездрав - Бог забыт, совесть хромает на обе ноги и душа вся погрязает в видимое и обладаемое. В последнем случае у человека темная ночь: понятия спутаны, в делах нестройность, в сердце безотрадная туга. Толкают его соприкосновенные обстоятельства и он влечется вслед их, как щепка по течению ручья. Не знает он, что доселе сделано, что он теперь и чем кончится путь его. Напротив, у кого ум здрав, тот, боясь Бога, ведет дела свои с осмотрительностью, слушает одного закона совести, дающего однообразный строй всей жизни его и не погружается в чувственное, воскрыляясь чаянием будущего всеблаженства. От этого у него взор на все течение жизни, со всеми ее прикосновенностями, ясен и для него светло все так, как бы светильник освещал кого сиянием (<a  href=\"https://days.pravoslavie.ru/Bible/C18275.htm\" target=\"_blank\" title=\"Библия\">Лк. 11, 36</a>).<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("10 августа 2020 г. ( 28 июля ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 10-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/2930.html\" target=\"_blank\" title=\"\"Одигитрия\" Смоленская\">Смоленской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2930_1117.html\" target=\"_blank\" >икона</a>) иконы Божией Матери, именуемой \"Одигитрия\" (Путеводительница). Апп. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/1855.html\" target=\"_blank\" title=\"Святитель Прохор, епископ Никомидийский, апостол от 70-ти, сщмч.\">Прохора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1855_183.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1610.html\" target=\"_blank\" title=\"Никанор, апостол от 70-ти, сщмч.\">Никанора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1610_320.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2100.html\" target=\"_blank\" title=\"Апостол Тимон\">Тимона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2100_3610.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1738.html\" target=\"_blank\" title=\"Пармен, апостол от 70-ти\">Пармена</a> диаконов. Свт. <a  href=\"http://days.pravoslavie.ru/name/1801.html\" target=\"_blank\" title=\"Святитель Питирим, епископ Тамбовский\">Питирима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1801_51.html\" target=\"_blank\" >икона</a>), еп. Тамбовского. <a  href=\"http://days.pravoslavie.ru/name/6913.html\" target=\"_blank\" title=\"Собор Тамбовских святых\">Собор</a> Тамбовских святых. Мч. <a  href=\"http://days.pravoslavie.ru/name/1136.html\" target=\"_blank\" title=\"Иулиан Далматский, Атинский, мч.\">Иулиана</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/707.html\" target=\"_blank\" title=\"Евстафий Анкирский, мч.\">Евстафия</a> Анкирского. Мч. <a  href=\"http://days.pravoslavie.ru/name/86.html\" target=\"_blank\" title=\"Акакий Апамейский, Милетский, мч.\">Акакия</a>, иже в Милете Карийском. Прп. <a  href=\"http://days.pravoslavie.ru/name/10140.html\" target=\"_blank\" title=\"Павел Ксиропотамский, прп.\">Павла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10140_1969.html\" target=\"_blank\" >икона</a>) Ксиропотамского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1571.html\" target=\"_blank\" title=\"Преподобный Моисей Печерский\">Моисея</a>, чудотворца Печерского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13757.html\" target=\"_blank\" title=\"Николай (Пономарев), диакон, сщмч.\">Николая</a> диакона. Прмч. <a  href=\"http://days.pravoslavie.ru/name/9200.html\" target=\"_blank\" title=\"Василий (Эрекаев), иеромонах, сщмч.\">Василия</a>, прмцц. <a  href=\"http://days.pravoslavie.ru/name/9884.html\" target=\"_blank\" title=\"Анастасия (Камаева), инокиня, прмц.\">Анастасии</a> и <a  href=\"http://days.pravoslavie.ru/name/9893.html\" target=\"_blank\" title=\"Елена (Асташикина), инокиня, прмц.\">Елены</a>, мчч. <a  href=\"http://days.pravoslavie.ru/name/9945.html\" target=\"_blank\" title=\"Арефа (Еремкин), мч.\">Арефы</a>, <a  href=\"http://days.pravoslavie.ru/name/9976.html\" target=\"_blank\" title=\"Иоанн (Ломакин), мч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9978.html\" target=\"_blank\" title=\"Иоанн (Милёшкин), мч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9981.html\" target=\"_blank\" title=\"Иоанн (Сельманов), мч.\">Иоанна</a> и мц. <a  href=\"http://days.pravoslavie.ru/name/10081.html\" target=\"_blank\" title=\"Мавра (Моисеева), мц.\">Мавры</a>. <a  href=\"http://days.pravoslavie.ru/name/2837.html\" target=\"_blank\" title=\"Гребневская\">Гребневской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2837_504.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2928.html\" target=\"_blank\" title=\"\"Одигитрия\" Костромская\">Костромской</a> и\"Умиление\"  <a  href=\"http://days.pravoslavie.ru/name/2998.html\" target=\"_blank\" title=\"\"Умиление\" Серафимо-Дивеевская\">Серафимо-Дивеевской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2998_783.html\" target=\"_blank\" >икона</a>) икон Божией Матери. Чтимые списки со Смоленской иконы Божией Матери: <a  href=\"http://days.pravoslavie.ru/name/2933.html\" target=\"_blank\" title=\"\"Одигитрия\" Устюженская\">Устюженская</a>, <a  href=\"http://days.pravoslavie.ru/name/2927.html\" target=\"_blank\" title=\"\"Одигитрия\" Выдропусская\">Выдропусская</a>, <a  href=\"http://days.pravoslavie.ru/name/2934.html\" target=\"_blank\" title=\"\"Одигитрия\" Христофоровская\">Христофоровская</a>, <a  href=\"http://days.pravoslavie.ru/name/2931.html\" target=\"_blank\" title=\"\"Одигитрия\" Супрасльская\">Супрасльская</a>, <a  href=\"http://days.pravoslavie.ru/name/6600.html\" target=\"_blank\" title=\"\"Одигитрия\" Югская\">Югская</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6600_1292.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2860.html\" target=\"_blank\" title=\"Игрицкая\">Игрицкая</a>, <a  href=\"http://days.pravoslavie.ru/name/2935.html\" target=\"_blank\" title=\"Икона Божией Матери Одигитрия, именуемая Шуйская\">Шуйская</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2935_1287.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2929.html\" target=\"_blank\" title=\"Икона Божией Матери Одигитрия Седмиезерная\">Седмиезерная</a>, <a  href=\"http://days.pravoslavie.ru/name/2932.html\" target=\"_blank\" title=\"\"Одигитрия\" Сергиевская (в Лавре)\">Сергиевская</a> (в Троице-Сергиевой Лавре). ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_15_12_19.html#z\">1 Кор., 159 зач., XV, 12-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_21_18_22.html#z\">Мф., 84 зач., XXI, 18-22.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18066.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 15, 12-19</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18067.htm\" target=\"_blank\" title=\"Библия\">Мф. 21, 18-22</a>). Господь осудил смоковницу на бесплодие за то, что по виду она так была покрыта листьями, что надлежало быть на ней и плодам, которых на деле не оказалось. В применении к жизни христианской, листья означают внешние дела благочестия и внешние подвиги, а плоды внутренние расположения. По закону так: первые должны исходить из последних; но по снисхождению к немощам - крайняя мера: последния должны развиваться вместе с первыми. Когда первые в силе, а последних нет и в зародыше, то отсюда выходит ложь жизни, которая выражается так: казаться, но не быть. Вначале, может быть, и не имеется это несчастное настроение в мысли, а потом оно является незаметно и устанавливает собой строй жизни. Кто наляжет слишком на внешность и пристрастится к ней, у того внимание к сердцу закрывается, чувства духовные глохнут и водворяется холодность. На этой степени жизнь духовная замирает; остается вид благочестия без его. Поведение совне исправно, а внутрь все навыворот. Следствием этого - бесплодие духовное: делаются дела, но они все, мертвые.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

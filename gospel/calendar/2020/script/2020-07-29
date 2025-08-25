@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("29 июля 2020 г. ( 16 июля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 8-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/310.html\" target=\"_blank\" title=\"Святитель Афиноген Пидахфойский, Севастийский, епископ, сщмч.\">Афиногена</a> (<a  href=\"http://days.pravoslavie.ru/images/ii310_4391.html\" target=\"_blank\" >икона</a>) епископа и десяти учеников его. Мч. <a  href=\"http://days.pravoslavie.ru/name/1684.html\" target=\"_blank\" title=\"Павел Кесарийский (Палестинский), мч.\">Павла</a> и мцц. <a  href=\"http://days.pravoslavie.ru/name/2376.html\" target=\"_blank\" title=\"Мученица Алевтина (Валентина) Кесарийская (Палестинская)\">Алевтины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2376_2121.html\" target=\"_blank\" >икона</a>) (Валентины) и <a  href=\"http://days.pravoslavie.ru/name/2750.html\" target=\"_blank\" title=\"Хиония Кесарийская (Палестинская), мц.\">Хионии</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/203.html\" target=\"_blank\" title=\"Антиох Севастийский, врач, мч.\">Антиоха</a> врача. Память святых отцов <a  href=\"http://days.pravoslavie.ru/name/10121.html\" target=\"_blank\" title=\"Четвертый Вселенский Собор\">IV Вселенского Собора</a>. Мц. <a  href=\"http://days.pravoslavie.ru/name/2537.html\" target=\"_blank\" title=\"Иулия Карфагенская, Корсиканская, дева, мц.\">Иулии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2537_643.html\" target=\"_blank\" >икона</a>) девы. Блж. <a  href=\"http://days.pravoslavie.ru/name/9926.html\" target=\"_blank\" title=\"Матрона (Белякова) Анемнясевская, исп.\">Матроны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9926_3616.html\" target=\"_blank\" >икона</a>) Анемнясевской, исп. Cщмч. <a  href=\"http://days.pravoslavie.ru/name/9112.html\" target=\"_blank\" title=\"Святитель Иаков (Маскаев), архиепископ Барнаульский, сщмч.\">Иакова</a>, архиеп. Барнаульского, и с ним сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9759.html\" target=\"_blank\" title=\"Петр (Гаврилов), иерей, сщмч.\">Петра</a> и <a  href=\"http://days.pravoslavie.ru/name/9621.html\" target=\"_blank\" title=\"Иоанн (Можирин), иерей, сщмч.\">Иоанна</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/9882.html\" target=\"_blank\" title=\"Феодор (Никитин), инок, прмч.\">Феодора</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14515.html\" target=\"_blank\" title=\"Ардалион (Пономарев), архимандрит, прмч.\">Ардалиона</a>. <a  href=\"http://days.pravoslavie.ru/name/3026.html\" target=\"_blank\" title=\"Чирская Псковская\">Чирской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3026_1280.html\" target=\"_blank\" >икона</a>) (Псковской) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-kor_10_12_22.html#z\">1 Кор., 145 зач., X, 12-22.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_16_20_24.html#z\">Мф., 68 зач., XVI, 20-24.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18038.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 10, 12-22</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18039.htm\" target=\"_blank\" title=\"Библия\">Мф. 16, 20-24</a>). Когда св. апостолы исповедали Спасителя Сыном Божиим, Он сказал: \"должно. . . пострадать. . . и быть убиту\". Дело созрело, оставалось только завершить его крестною смертью. То же бывает и в ходе нравственного преуспеяния христианина. Пока он в борьбе со страстьми, враг еще надеется как-нибудь искусить его, но когда страсти улягутся, и у врага не достает уже силы возбуждать их, тогда он воздвигает внешние искушения, всякого рода, - напраслины и притом самые чувствительные. Он метит заронить мысль: \"ну, из-за чего трудился и боролся? Никакого нет тебе от этого проку\". Но когда он заготовляет таким образом войну со вне, Господь труженику Своему ниспосылает дух терпения и, прежде чем враг успеет поднять какую-либо беду, заготовляет в сердце его воодушевленную готовность на всякого рода страдания и неприязни, и кознь врага не удается. Как Господь сказал о Себе: \"должно пострадать\", так и они испытывают некоторое жаждание прискорбности. И когда они наступают, то с радостью встречают их, пьют их, как жаждущий пьет прохладительную воду.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

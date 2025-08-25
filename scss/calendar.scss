@@ -1,0 +1,94 @@
+.calendar {
+    max-width: 480px; 
+    padding: 0 10px;
+
+    .col {
+        height: 64px;
+        width: 64px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+        @media (max-width: 420px) {
+            font-size: 10px;    
+            height: 32px;
+        }
+    }
+
+    .row.header {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+
+        .col {
+            height: auto;
+        }
+    }
+
+    .date {
+        height: 60px;
+        border: 1px solid #ccc;
+        position: relative;
+        padding-left: 5px;
+        font-size: 0.7rem;
+
+        a {
+            text-decoration: none;
+            color: #aaa;
+            display: block;
+            font-size: 0.7rem;
+        }
+
+        &.holyday {
+            background-color: #f9d1c6!important;
+        }
+
+        &.fast {
+            background-color: #ddd!important;
+        }
+        &.easter {
+            border: 2px solid red;
+        }
+        &.rip {
+            border: 2px solid #555;
+        }
+        &.carnival {
+            border: 2px solid #bdbd10;
+        }
+        & span.twelve {
+            font-weight: bold;
+            color: red;
+        }
+
+        &.sel, &.today {
+            font-size: 1.3rem;
+            @media (max-width: 420px) {
+                font-size: 1rem;
+            }
+        }
+        &.today {
+            font-weight: bold;
+        }
+
+        .trapeza-img-32 {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            opacity: 0.5;
+
+            @media (max-width: 420px) {
+                opacity: 0.2;
+            }
+        }
+
+        .link {
+            position: absolute;
+            bottom: 0;
+        }
+
+        @media (max-width: 420px) {
+            height: 32px;
+            width: 32px;
+            padding-left: 0;
+        }
+    }
+}
+

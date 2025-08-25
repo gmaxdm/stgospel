@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("22 августа 2020 г. ( 9 августа ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 11-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Успенский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апостола <a  href=\"http://days.pravoslavie.ru/name/1503.html\" target=\"_blank\" title=\"Апостол Матфий\">Матфия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1503_952.html\" target=\"_blank\" >икона</a>). <a  href=\"http://days.pravoslavie.ru/name/6922.html\" target=\"_blank\" title=\"Собор Соловецких святых\">Собор Соловецких святых</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6922_3115.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1858.html\" target=\"_blank\" title=\"Псой Египетский, прп.\">Псоя</a> Египетского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1141.html\" target=\"_blank\" title=\"Иулиан Константинопольский, мч.\">Иулиана</a>, <a  href=\"http://days.pravoslavie.ru/name/1481.html\" target=\"_blank\" title=\"Маркиан Константинопольский, мч.\">Маркиана</a>, <a  href=\"http://days.pravoslavie.ru/name/982.html\" target=\"_blank\" title=\"Иоанн Константинопольский, мч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/875.html\" target=\"_blank\" title=\"Иаков Константинопольский, мч.\">Иакова</a>, <a  href=\"http://days.pravoslavie.ru/name/130.html\" target=\"_blank\" title=\"Алексий Константинопольский, мч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/599.html\" target=\"_blank\" title=\"Димитрий Константинопольский, мч.\">Димитрия</a>, <a  href=\"http://days.pravoslavie.ru/name/2332.html\" target=\"_blank\" title=\"Фотий (Фока) Константинопольский, мч.\">Фотия</a>, <a  href=\"http://days.pravoslavie.ru/name/1777.html\" target=\"_blank\" title=\"Петр Константинопольский, мч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/1348.html\" target=\"_blank\" title=\"Леонтий Константинопольский, мч.\">Леонтия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1348_4430.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2597.html\" target=\"_blank\" title=\"Мария Константинопольская, патрицианка, мц.\">Марии</a> патрикии, протоспафария <a  href=\"http://days.pravoslavie.ru/name/10148.html\" target=\"_blank\" title=\"Григорий, протоспафарий, мч.\">Григория</a>  и двух юношей, за икону Христа пострадавших. Мч. <a  href=\"http://days.pravoslavie.ru/name/207.html\" target=\"_blank\" title=\"Антоний Александрийский, мч.\">Антония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii207_3513.html\" target=\"_blank\" >икона</a>) Александрийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/13455.html\" target=\"_blank\" title=\"Святитель Филарет (Гумилевский), архиепископ Черниговский и Нежинский\">Филарета</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13455_670.html\" target=\"_blank\" >икона</a>), архиеп. Черниговского. Прмц. <a  href=\"http://days.pravoslavie.ru/name/9865.html\" target=\"_blank\" title=\"Маргарита (Гунаронуло), игумения, прмц.\">Маргариты</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25.</a> Лит. - Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_deqn_1_12_17_1_21_26.html#z\">Деян., 2 зач., I, 12-17, 21-26.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_9_1_6.html#z\">Лк., 40 зач., IX, 1-6.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_1_3_9.html#z\">1 Кор., 123 зач., I, 3-9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_19_3_12.html#z\">Мф., 78 зач., XIX, 3-12.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18090.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 1, 3-9</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18091.htm\" target=\"_blank\" title=\"Библия\">Мф. 19, 3-12</a>). Господь говорит, что брачный союз первоначально Сам Бог благословил, и вложил закон этот в естество наше; о тех же, кои хотят не жениться сказал: \"Кто может вместить, да вместит\". Ясно, что хоть и признал Он брак законом естественным, но не настолько необходимым и неизбежным, чтоб не было места безбрачию. И последнее Он разрешает, но ограждает условием, которое сближает его с законом естества. Скопец от рождения - безбрачен по закону естественному; но и тот, кто своим произволением поставляет себя в такое состояние, в каком естественный скопец находится по рождению без участия воли - становится на одной с ним линии в отношении к естественным потребностям. Следовательно, в этом отношении как первый, так и второй - естественные безбрачники. Отчего же духовное скопчество или безбрачие произвольное считают неестественным? Оттого, что не понимают естества. У них только то и естественно, что естественно телу, а что естественно духу и что вследствие воздействия его на тело становится естественным, того они не хотят считать естественным. И добро бы это были люди все из числа материалистов, а то нет: поговори с ними о чем-нибудь другом, резонно рассуждают.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

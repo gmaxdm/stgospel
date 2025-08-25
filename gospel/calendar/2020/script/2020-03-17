@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("17 марта 2020 г. ( 4 марта ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/504.html\" target=\"_blank\" title=\"Преподобный Герасим Иорданский\">Герасима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii504_120.html\" target=\"_blank\" >икона</a>), иже на Иордане. Прп. <a  href=\"http://days.pravoslavie.ru/name/503.html\" target=\"_blank\" title=\"Преподобный Герасим Вологодский\">Герасима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii503_498.html\" target=\"_blank\" >икона</a>) Вологодского. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/579.html\" target=\"_blank\" title=\"Святой благоверный князь Даниил Московский\">Даниила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii579_65.html\" target=\"_blank\" >икона</a>) Московского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1699.html\" target=\"_blank\" title=\"Павел Птолемаидский, мч.\">Павла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1699_4108.html\" target=\"_blank\" >икона</a>), сестры его <a  href=\"http://days.pravoslavie.ru/name/2532.html\" target=\"_blank\" title=\"Иулиания Птолемаидская, мц.\">Иулиании</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2532_4108.html\" target=\"_blank\" >икона</a>) и с ними <a  href=\"http://days.pravoslavie.ru/name/13967.html\" target=\"_blank\" title=\"Кодрат (Квадрат), мч.\">Кодрата</a>, <a  href=\"http://days.pravoslavie.ru/name/13968.html\" target=\"_blank\" title=\"Акакий, мч.\">Акакия</a> и <a  href=\"http://days.pravoslavie.ru/name/13969.html\" target=\"_blank\" title=\"Стратоник, мч.\">Стратоника</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/873.html\" target=\"_blank\" title=\"Иаков Кармильский (Палестинский), постник, отшельник\">Иакова</a> постника. Перенесение мощей блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/441.html\" target=\"_blank\" title=\"Благоверный князь Вячеслав Чешский\">Вячеслава</a> (<a  href=\"http://days.pravoslavie.ru/images/ii441_70.html\" target=\"_blank\" >икона</a>) Чешского. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/386.html\" target=\"_blank\" title=\"Святой благоверный князь Василий (Василько) Ростовский\">Василия</a> (Василько) Ростовского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1034.html\" target=\"_blank\" title=\"Иоасаф Снетогорский, Псковский, прмч.\">Иоасафа</a> Снетногорского, Псковского. Свт. <a  href=\"http://days.pravoslavie.ru/name/540.html\" target=\"_blank\" title=\"Святитель Григорий Кипрский, епископ\">Григория</a>, еп. Констанции Кипрской. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13693.html\" target=\"_blank\" title=\"Александр (Лихарев), иерей, сщмч.\">Александра</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_9_9_0_10_0_4.html#z\">Ис. IX, 9 - X, 4.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_7_1_5.html#z\">Быт. VII, 1-5.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_8_32_0_9_0_11.html#z\">Притч. VIII, 32 - IX, 11.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Премудрость\", Бог-Слово, \"построила себе дом\", св. Церковь, и в нем \"приготовила трапезу\", - слово Божие и св. таинства, особенно же таинство Тела и Крови. И послала слуг своих, св. апостолов и их преемников, звать всех к себе на вечерю (<a  href=\"https://days.pravoslavie.ru/Bible/C18498.htm\" target=\"_blank\" title=\"Библия\">Прит. 9, 1-8</a>). Много уже созвано, но и еще продолжается звание, да наполнится весь дом. И вечеряние идет безостановочно. Слава Господу, столько к нам милосердому! Пойдемте же все! Войдем внутрь, никто не оставайся за дверью. В эти дни поста особенно усилено звание, и обильно вечеряние. Но тем непростительнее лишиться вечери. Заруби всякий на памяти своей следующие слова Премудрости: \"согрешающий против Меня наносит вред душе своей\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18499.htm\" target=\"_blank\" title=\"Библия\">Прит. 8, 36</a>), и пожалей себя.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

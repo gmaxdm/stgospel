@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("15 ноября 2020 г. ( 2 ноября ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 23-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/99.html\" target=\"_blank\" title=\"Акиндин Персидский, мч.\">Акиндина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii99_3817.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1789.html\" target=\"_blank\" title=\"Пигасий Персидский, мч.\">Пигасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1789_1979.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/314.html\" target=\"_blank\" title=\"Аффоний Персидский, мч.\">Аффония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii314_1682.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/774.html\" target=\"_blank\" title=\"Елпидифор Персидский, мч.\">Елпидифора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii774_1774.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/198.html\" target=\"_blank\" title=\"Анемподист Персидский, мч.\">Анемподиста</a> (<a  href=\"http://days.pravoslavie.ru/images/ii198_3820.html\" target=\"_blank\" >икона</a>) и иже с ними. Прп. <a  href=\"http://days.pravoslavie.ru/name/1480.html\" target=\"_blank\" title=\"Преподобный Маркиан Кирский\">Маркиана</a> Киринейского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9664.html\" target=\"_blank\" title=\"Константин (Юрганов), иерей, сщмч.\">Константина</a> и <a  href=\"http://days.pravoslavie.ru/name/9471.html\" target=\"_blank\" title=\"Анания (Аристов), иерей, сщмч.\">Анании</a> пресвитеров. <a  href=\"http://days.pravoslavie.ru/name/2935.html\" target=\"_blank\" title=\"Икона Божией Матери Одигитрия, именуемая Шуйская\">Шуйской-Смоленской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2935_1287.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 1-е, <a href=\"http://days.pravoslavie.ru/bible/z_mf_28_16_20.html#z\">Мф., 116 зач., XXVIII, 16-20.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_ef_2_4_10.html#z\">Еф., 220 зач., II, 4-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_8_26_39.html#z\">Лк., 38 зач., VIII, 26-39.</a> Мчч.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18269.htm\" target=\"_blank\" title=\"Библия\">Еф. 2, 4-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18270.htm\" target=\"_blank\" title=\"Библия\">Лк. 8, 26-39</a>). Гадаринский бесноватый по исцелении своем прилепляется к Господу и желает быть с Ним всегда; затем, услышав волю Его, идет и проповедует о благодеянии, им полученном, по всему городу. Благодетель привлекает, воля Его становится законом для облагодетельствованного, и язык не может удержаться, чтоб не возвещать о том, что получено от Него. Если бы мы не имели в памяти всех благ, полученных и получаемых от Господа, то не было бы между нами неблагодарных, не было бы нарушителей святой воли Его, не было бы таких, которые не любили бы Его более всего. В крещении мы избавлены от прародительского греха и всей погибельности его; в покаянии постоянно омываемся от грехов, непрестанно прилипающих к нам. Промышлением Божиим охраняемся от бед, нередко невидимых для нас самих, и получаем направление жизни наиболее безопасное для нас и благоприятное целям нашим; да и все, что имеем, все от Господа. Потому-то нам следует вседушно принадлежать Господу, во всем исполнять волю Его и прославлять имя Его пресвятое, а наипаче жизнью и делами, чтоб не быть хуже гадаринского бесноватого, который сразу оказался настолько мудрым, что стал достойным примером подражания для всех.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

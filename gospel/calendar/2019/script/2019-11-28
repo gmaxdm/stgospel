@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("28 ноября 2020 г. ( 15 ноября ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 25-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Начало Рождественского поста. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мучеников и исповедников <a  href=\"http://days.pravoslavie.ru/name/552.html\" target=\"_blank\" title=\"Мученик Гурий\">Гурия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii552_1749.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1918.html\" target=\"_blank\" title=\"Мученик Самон Едесский\">Самона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1918_1077.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/19.html\" target=\"_blank\" title=\"Мученик Авив Едесский\">Авива</a> (<a  href=\"http://days.pravoslavie.ru/images/ii19_3857.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1708.html\" target=\"_blank\" title=\"Паисий Величковский, прп.\">Паисия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1708_268.html\" target=\"_blank\" >икона</a>) Величковского. Мч. <a  href=\"http://days.pravoslavie.ru/name/597.html\" target=\"_blank\" title=\"Димитрий Дабудский, мч.\">Димитрия</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/771.html\" target=\"_blank\" title=\"Елпидий, мч.\">Елпидия</a>, <a  href=\"http://days.pravoslavie.ru/name/1471.html\" target=\"_blank\" title=\"Маркелл, мч.\">Маркелла</a> и <a  href=\"http://days.pravoslavie.ru/name/715.html\" target=\"_blank\" title=\"Евстохий, мч.\">Евстохия</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9739.html\" target=\"_blank\" title=\"Николай (Щербаков), иерей, сщмч.\">Николая</a> и <a  href=\"http://days.pravoslavie.ru/name/9767.html\" target=\"_blank\" title=\"Петр (Конардов), иерей, сщмч.\">Петра</a> пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/9847.html\" target=\"_blank\" title=\"Григорий (Долинин), диакон, сщмч.\">Григория</a> и <a  href=\"http://days.pravoslavie.ru/name/9835.html\" target=\"_blank\" title=\"Никита (Алмазов), протодиакон, сщмч.\">Никиты</a> диаконов. <a  href=\"http://days.pravoslavie.ru/name/2890.html\" target=\"_blank\" title=\"Купятицкая\">Купятицкой</a> иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Мчч.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_8_12.html#z\">Лк., 64 зач., XII, 8-12.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_1_3_10.html#z\">Гал., 199 зач., I, 3-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_9_37_43.html#z\">Лк., 46 зач., IX, 37-43.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18297.htm\" target=\"_blank\" title=\"Библия\">Гал. 1, 3-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18298.htm\" target=\"_blank\" title=\"Библия\">Лк. 9, 37-43</a>). По отшествии с горы Преображения, Господь исцеляет бесноватого юношу. Исцелению предшествовал укор в неверии, как причине, по которой бедствовавший не был исцелен учениками. Чье бы ни было это неверие - отца ли, который привел сына, собравшегося ли народа, или, может быть, и апостолов - видно только, что неверие затворяет двери милостивого заступления Божия и помощи, а вера отверзает ее. Господь и сказал отцу: сколько можешь веровать, на столько и получишь. Вера не дело одной мысли и ума, когда относится к лицу, а обнимает все существо человека. Она заключает взаимные обязательства верующего и Того, Кому он верует, хоть бы они не были выражаемы буквально. Кто верует, тот на того во всем полагается и отказа себе от него ни в чем не ожидает; потому обращается к нему с нераздвоенною мыслью, как к отцу, идет к нему, как в свою сокровищницу, в уверенности, что не возвратится тощ. Такое расположение склоняет без слов и того, к кому оно имеется. Так бывает между людьми. Но в истинном виде является сила расположений, когда они обращены ко Господу, всемогущему, всеведущему и хотящему подать нам всякое благо; и истинно верующий никогда не бывает обманутым в своих ожиданиях. Если мы чего не имеем и, прося того, не получаем, то это потому, что нет у нас должной веры. Прежде всего надо взыскать и водворить в сердце полную веру в Господа, взыскать и вымолить ее у Него, ибо и она не от нас, а Божий дар. Отец юноши на требование веры молился: \"верую, Господи, помоги моему неверию\". Веровал слабо, колеблясь, и молился об утверждении веры. А кто похвалится совершенством веры и кому, следовательно, не нужно молиться: \"помоги, Господи, моему неверию\"? Когда бы вера была в силе у нас, то и мысли были бы чисты, и чувства святы, и дела богоугодны. Тогда Господь внимал бы нам, как отец детям; и что ни вспало бы нам на сердце, - а вспасть могло бы при этом только одно приятное Господу, - все то получали бы мы без отказа и отсрочки.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

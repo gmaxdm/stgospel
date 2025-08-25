@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("20 октября 2020 г. ( 7 октября ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 20-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/1975.html\" target=\"_blank\" title=\"Сергий Римлянин, Росафский, мч.\">Сергия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1975_3750.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/331.html\" target=\"_blank\" title=\"Вакх Римлянин, мч.\">Вакха</a> (<a  href=\"http://days.pravoslavie.ru/images/ii331_1689.html\" target=\"_blank\" >икона</a>). Свт. <a  href=\"http://days.pravoslavie.ru/name/13624.html\" target=\"_blank\" title=\"Святитель Иона Ханькоуский, Чудотворец, епископ Маньчжурский\">Ионы</a>, еп. Ханькоуского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1146.html\" target=\"_blank\" title=\"Иулиан Терракинский, пресвитер, сщмч.\">Иулиана</a> пресвитера и <a  href=\"http://days.pravoslavie.ru/name/1198.html\" target=\"_blank\" title=\"Кесарий Терракинский, диакон, сщмч.\">Кесария</a> диакона. Мц. <a  href=\"http://days.pravoslavie.ru/name/2643.html\" target=\"_blank\" title=\"Мученица Пелагия Тарсийская\">Пелагии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2643_4245.html\" target=\"_blank\" >икона</a>) Тарсийской. Мч. <a  href=\"http://days.pravoslavie.ru/name/1815.html\" target=\"_blank\" title=\"Полихроний, пресвитер, сщмч.\">Полихрония</a> пресвитера. Прп. <a  href=\"http://days.pravoslavie.ru/name/1973.html\" target=\"_blank\" title=\"Сергий Печерский, Послушливый\">Сергия</a> Послушливого, Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1971.html\" target=\"_blank\" title=\"Преподобный Сергий Обнорский\">Сергия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1971_1093.html\" target=\"_blank\" >икона</a>) Нуромского (Вологодского). Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/1490.html\" target=\"_blank\" title=\"Мартиниан Белозерский, игумен\">Мартиниана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1490_1909.html\" target=\"_blank\" >икона</a>) Белоезерского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9372.html\" target=\"_blank\" title=\"Николай (Казанский), протоиерей, сщмч.\">Николая</a> пресвитера. Иконы Божией Матери Псково-Печерской, именуемой <a  href=\"http://days.pravoslavie.ru/name/2997.html\" target=\"_blank\" title=\"Псково-Печерская икона Божией Матери \"Умиление\"\">\"Умиление\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2997_2977.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_flp_2_16_23.html#z\">Флп., 242 зач., II, 16-23.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_37_45.html#z\">Лк., 27 зач., VI, 37-45.</a> Мчч.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_11_33_0_12_0_2.html#z\">Евр., 330 зач., XI, 33 - XII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18213.htm\" target=\"_blank\" title=\"Библия\">Лк. 6, 37-45</a>). Не суди, отпускай, давай. . . по-видимому, все трата одна, а прибыли никакой. А между тем вот что обещается: не будешь осуждать, и тебя не осудят; будешь отпускать, и тебе отпустят; будешь давать, и тебе дано будет. Теперь эта прибыль не видна; но она прибудет несомненно тому, кто от сердца сделает указанные затраты, - прибудет именно в ту пору, когда больше всего будет чувствоваться нужда в неосуждении и прощении. Как обрадуется тот, кто вдруг сподобится получить такие блага, как будто ни за что! И наоборот, как будет скорбеть и горевать тот, кто в свое время не умел прибыльно распорядиться своим достоянием! Все бы отпустил и все бы роздал, да поздно: всему время. Не все гоняться за такою прибылью, которая прямо идет в руки, почти вслед за тратою. Брось, по русскому присловью, хлеб-соль назади, - он очутится впереди. Образ действий в показанных случаях действительно похож на бросание; но только тут бросается не на попрание, а в руки Божии. В этих руках и хранение верно, и получение из них несомненно. Приложи только веру и упование.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

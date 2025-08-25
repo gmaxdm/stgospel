@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("18 апреля 2020 г. ( 5 апреля ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Страстная седмица. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><a  href=\"http://days.pravoslavie.ru/name/6754.html\" target=\"_blank\" title=\"Великая Суббота\">Великая Суббота</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6754_1187.html\" target=\"_blank\" >икона</a>)</span><br> Перенесение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/1036.html\" target=\"_blank\" title=\"Святитель Иов Московский и всея Руси, патриарх\">Иова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1036_262.html\" target=\"_blank\" >икона</a>), патриарха Московского и всея Руси. Мчч. <a  href=\"http://days.pravoslavie.ru/name/64.html\" target=\"_blank\" title=\"Агафопод Солунский (Фессалоникийский), диакон, сщмч.\">Агафопода</a> диакона, <a  href=\"http://days.pravoslavie.ru/name/2232.html\" target=\"_blank\" title=\"Феодул Солунский (Фессалоникийский), мч.\">Феодула</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2232_4169.html\" target=\"_blank\" >икона</a>) чтеца и иже с ними. Прп. <a  href=\"http://days.pravoslavie.ru/name/1861.html\" target=\"_blank\" title=\"Пуплий Египетский, прп.\">Пуплия</a> Египетского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/2242.html\" target=\"_blank\" title=\"Феона, прп.\">Феоны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2242_4171.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2010.html\" target=\"_blank\" title=\"Симеон, прп.\">Симеона</a> и <a  href=\"http://days.pravoslavie.ru/name/2327.html\" target=\"_blank\" title=\"Форвин, прп.\">Форвина</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1458.html\" target=\"_blank\" title=\"Марк Афинянин, Фраческий, прп.\">Марка</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1458_4627.html\" target=\"_blank\" >икона</a>) Афинского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1804.html\" target=\"_blank\" title=\"Платон Студийский, игумен, исповедник\">Платона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1804_4168.html\" target=\"_blank\" >икона</a>), исп. Студийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2711.html\" target=\"_blank\" title=\"Феодора Солунская (Фессалоникийская), прп.\">Феодоры</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2711_4176.html\" target=\"_blank\" >икона</a>) Солунской. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14243.html\" target=\"_blank\" title=\"Алексий (Кротенков), иерей, сщмч.\">Алексия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9382.html\" target=\"_blank\" title=\"Николай (Симо), протоиерей, сщмч.\">Николая</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ап. составной: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_5_6_8.html#z\">1 Кор., 133 зач., V, 6-8;</a> <a href=\"http://days.pravoslavie.ru/bible/z_gal_3_13_14.html#z\">Гал., 206 зач., III, 13-14.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_27_62_66.html#z\">Мф., 114 зач., XXVII, 62-66.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_6_3_11.html#z\">Рим., 91 зач., VI, 3-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_28_1_20.html#z\">Мф., 115 зач., XXVIII, 1-20.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17816.htm\" target=\"_blank\" title=\"Библия\">Рим. 6, 3-11</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17817.htm\" target=\"_blank\" title=\"Библия\">Мф. 28, 1-20</a>). Господь спит во гробе телом, душею же сошел Он в ад и находящимся там душам проповедал спасение. Все святые ветхозаветные были не в раю, хоть и пребывали в утешительной вере, что введены будут туда, как только придет на землю Обетованный, верою в Которого жили они. Его пришествие и там предвозвестил Предтеча. Когда же снисшел Господь, - все веровавшие прилепились к Нему и Им возведены в рай. Но и этот рай только преддверие настоящего рая, имеющего открыться после всеобщего воскресения и суда. В нем и все новозаветные святые хотя блаженствуют, но ожидают еще большого совершеннейшего блаженства в будущем веке, при новом небе и новой земле, когда будет Бог всяческая во всех.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

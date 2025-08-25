@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("10 июня 2020 г. ( 28 мая ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 1-я по Пятидесятнице (сплошная). ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1619.html\" target=\"_blank\" title=\"Святитель Никита Халкидонский, епископ, исповедник\">Никиты</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1619_4332.html\" target=\"_blank\" >икона</a>) исп., еп. Халкидонского. Свт. <a  href=\"http://days.pravoslavie.ru/name/905.html\" target=\"_blank\" title=\"Святитель Игнатий Ростовский, епископ\">Игнатия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii905_581.html\" target=\"_blank\" >икона</a>), еп. Ростовского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14263.html\" target=\"_blank\" title=\"Елена (Мантурова) Дивеевская, прп.\">Елены</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14263_3485.html\" target=\"_blank\" >икона</a>) Дивеевской. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/727.html\" target=\"_blank\" title=\"Святитель Евтихий Мелитинский, епископ, сщмч.\">Евтихия</a>, еп. Мелитинского. Мц. <a  href=\"http://days.pravoslavie.ru/name/2496.html\" target=\"_blank\" title=\"Еликонида Солунская (Фессалоникийская), Коринфская, мц.\">Еликониды</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/14903.html\" target=\"_blank\" title=\"Святитель Герман епископ Парижский, епископ Парижский\">Германа</a>, епископа Парижского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/767.html\" target=\"_blank\" title=\"Святитель Елладий Восточный, епископ, сщмч.\">Елладия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii767_4288.html\" target=\"_blank\" >икона</a>), епископа. Свт. <a  href=\"http://days.pravoslavie.ru/name/14262.html\" target=\"_blank\" title=\"Святитель Геронтий, митрополит Московский и всея Руси\">Геронтия</a>, митрополита Московского и всея Руси. Прмч. <a  href=\"http://days.pravoslavie.ru/name/11197.html\" target=\"_blank\" title=\"Макарий (Моржов), иеромонах, сщмч.\">Макария</a>, <a  href=\"http://days.pravoslavie.ru/name/14264.html\" target=\"_blank\" title=\"Дионисий (Петушков), иеросхимонах, прмч.\">Дионисия</a>, сщмч. <a  href=\"http://days.pravoslavie.ru/name/14265.html\" target=\"_blank\" title=\"Николай (Аристов), диакон, сщмч.\">Николая</a> диакона, мчч. <a  href=\"http://days.pravoslavie.ru/name/14266.html\" target=\"_blank\" title=\"Игнатий (Марков), мч.\">Игнатия</a> и <a  href=\"http://days.pravoslavie.ru/name/14267.html\" target=\"_blank\" title=\"Петр (Юдин), мч.\">Петра</a> . Прп. <a  href=\"http://days.pravoslavie.ru/name/9867.html\" target=\"_blank\" title=\"Ираклий (Мотях), схимонах, исповедник, прп.\">Ираклия</a>, исп.. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14461.html\" target=\"_blank\" title=\"Гермогена (Кадомцева), инокиня, прмц.\">Гермогены</a>. <a  href=\"http://days.pravoslavie.ru/name/2919.html\" target=\"_blank\" title=\"Никейская\">Никейской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2919_3486.html\" target=\"_blank\" >икона</a>)  и <a  href=\"http://days.pravoslavie.ru/name/2832.html\" target=\"_blank\" title=\"Галичская (Чухломская)\">Чухломской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2832_3487.html\" target=\"_blank\" >икона</a>) (Галичской) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_rim_1_18_27.html#z\">Рим., 80 зач., I, 18-27.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_20_26.html#z\">Мф., 12 зач., V, 20-26.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17934.htm\" target=\"_blank\" title=\"Библия\">Рим. 1, 18-27</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17935.htm\" target=\"_blank\" title=\"Библия\">Мф. 5, 20-26</a>). \"Если праведность ваша не превзойдет праведности книжников и фарисеев, то вы не войдете в Царство Небесное\". Черта книжников: знание закона без заботы о жизни по закону. Черта фарисеев: исправность внешнего поведения без особенной заботы об исправности сердечных чувств и помышлений. Тот и другой нравственный строй суждены быть вне Царствия Небесного. Возьми же отсюда всякий потребный себе урок. Узнавать закон евангельский - узнавай; но с тем, чтобы по знанию и жизнь учреждать. В поведении старайся быть исправным, но тут же исправными держи и внутренние чувства и расположения. Узнал что - не останавливайся на этом знании, а иди дальше и сделай вывод, к чему, в каком случае обязывает тебя такое знание, да и положи по тому неотложно действовать. В поведении же так поступай, чтобы не чувства и расположения шли за внешними делами, а внешние дела были вызываемы чувствами и расположениями, и служили им точным выражением. Устроясь таким образом, будешь выше книжников и фарисеев, и дверь Царствия не будет затворена перед тобою.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

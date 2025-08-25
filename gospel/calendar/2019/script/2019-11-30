@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("30 ноября 2020 г. ( 17 ноября ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 26-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: горячая пища без масла. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/551.html\" target=\"_blank\" title=\"Святитель Григорий Чудотворец, Неокесарийский\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii551_506.html\" target=\"_blank\" >икона</a>) чудотворца, еп. Неокесарийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1644.html\" target=\"_blank\" title=\"Преподобный Никон, игумен Радонежский\">Никона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1644_1956.html\" target=\"_blank\" >икона</a>), игумена Радонежского, ученика прп. <a  href=\"http://days.pravoslavie.ru/name/1974.html\" target=\"_blank\" title=\"Преподобный Сергий Радонежский\">Сергия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1974_159.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/14539.html\" target=\"_blank\" title=\"Ацискл Кордубский, мч.\">Ацискла</a> и <a  href=\"http://days.pravoslavie.ru/name/14540.html\" target=\"_blank\" title=\"Виктория Кордубская, мц.\">Виктории</a>, Кордубских. Прп. <a  href=\"http://days.pravoslavie.ru/name/1325.html\" target=\"_blank\" title=\"Лазарь Константинопольский, иеромонах, иконописец, исповедник\">Лазаря</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1325_3819.html\" target=\"_blank\" >икона</a>) иконописца. Мч. <a  href=\"http://days.pravoslavie.ru/name/520.html\" target=\"_blank\" title=\"Гоброн (в крещении Михаил) Кахетинский, князь, мч.\">Гоброна</a>, во св. Крещении Михаила, и с ним 133-х воинов (Груз.). Прп. <a  href=\"http://days.pravoslavie.ru/name/14811.html\" target=\"_blank\" title=\"Севастиан (Дабович) Джексонский, архимандрит, прп.\">Севастиана</a> Джексонского (Серб.). ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-tim_1_1_7.html#z\">1 Тим., 278 зач., I, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_14_12_15.html#z\">Лк., 75 зач., XIV, 12-15.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_12_7_11.html#z\">1 Кор., 151 зач., XII, 7-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_1_1_10_5_8.html#z\">Мф., 34 зач. (от&nbsp;полу&#769;), X, 1, 5-8.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18301.htm\" target=\"_blank\" title=\"Библия\">1 Тим. 1, 1-7</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18302.htm\" target=\"_blank\" title=\"Библия\">Лк. 14, 12-15</a>). В указании кого звать на обед или вечерю, позаимствуй себе правило: не делать ничего для ближних в видах воздаяния от них здесь. Но это не значит, что ты будешь тратиться понапрасну. В свое время все тебе воздано будет. В нагорной беседе о всех богоугодных делах - молитве, посте, милостыне - Господь заповедал творить их тайно, почему? Потому что Отец Небесный поступающим так воздаст явно. Стало быть, всеми трудами жизни своей христианин должен заготовлять себе будущее блаженство, строить себе вечный дом и предпосылать туда провиант на всю вечность. Такой образ действования - не интересанство, потому что собственно интересы ограничиваются здешнею жизнью, а такая жизнь идет в ущерб этим интересам. К тому же, жить так нельзя без веры, упования и любви к Господу. Действование по заповедям в чаянии воздаяния - также отрешенное действование. Между тем, оно ближе и внятнее сердцу, чем что-либо другое, слишком идеальное, как, например, делать добро ради добра. Этого последнего нигде в Писании не найдете. Высшее здесь побуждение: делай все ради Господа и не бойся потерь.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

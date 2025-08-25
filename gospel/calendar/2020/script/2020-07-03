@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("3 июля 2020 г. ( 20 июня ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1526.html\" target=\"_blank\" title=\"Святитель Мефодий Патарский, Олимпийский, епископ, сщмч.\">Мефодия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1526_956.html\" target=\"_blank\" >икона</a>), еп. Патарского. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/517.html\" target=\"_blank\" title=\"Глеб Владимирский, князь\">Глеба</a> Владимирского (сына св. <a  href=\"http://days.pravoslavie.ru/name/177.html\" target=\"_blank\" title=\"Святой благоверный князь Андрей Боголюбский\">Андрея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii177_105.html\" target=\"_blank\" >икона</a>) Боголюбского). Мч. <a  href=\"http://days.pravoslavie.ru/name/949.html\" target=\"_blank\" title=\"Мученик Инна\">Инны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii949_1797.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1795.html\" target=\"_blank\" title=\"Мученик Пинна\">Пинны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1795_3973.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1870.html\" target=\"_blank\" title=\"Мученик Римма\">Риммы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1870_1998.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/256.html\" target=\"_blank\" title=\"Аристоклий Саламинский (Кипрский), пресвитер, сщмч.\">Аристоклия</a> пресвитера, <a  href=\"http://days.pravoslavie.ru/name/594.html\" target=\"_blank\" title=\"Димитриан (Димитрий) Саламинский (Кипрский), диакон, сщмч.\">Димитриана</a> диакона и <a  href=\"http://days.pravoslavie.ru/name/305.html\" target=\"_blank\" title=\"Афанасий Саламинский (Кипрский), мч.\">Афанасия</a> чтеца. Свт. <a  href=\"http://days.pravoslavie.ru/name/1336.html\" target=\"_blank\" title=\"Святитель Левкий Александрийский, Врунтисиопольский, епископ, исповедник\">Левкия</a> исп., еп. Врунтисиопольского. Свт. <a  href=\"http://days.pravoslavie.ru/name/1537.html\" target=\"_blank\" title=\"Святитель Мина Полоцкий, епископ\">Мины</a>, еп. Полоцкого. Прав. <a  href=\"http://days.pravoslavie.ru/name/14533.html\" target=\"_blank\" title=\"Николай Кавасила\">Николая</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14533_4326.html\" target=\"_blank\" >икона</a>) Кавасилы (Эллад.). Перенесение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/553.html\" target=\"_blank\" title=\"Святитель Гурий, архиепископ Казанский\">Гурия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii553_367.html\" target=\"_blank\" >икона</a>), архиеп. Казанского. <a  href=\"http://days.pravoslavie.ru/name/2909.html\" target=\"_blank\" title=\"Моденская (Косинская)\">Моденской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2909_2426.html\" target=\"_blank\" >икона</a>) (Косинской) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_rim_11_25_36.html#z\">Рим., 107 зач., XI, 25-36.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_12_1_8.html#z\">Мф., 44 зач., XII, 1-8.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17980.htm\" target=\"_blank\" title=\"Библия\">Рим. 11, 25-36</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17981.htm\" target=\"_blank\" title=\"Библия\">Мф. 12, 1-8</a>). \"Если бы вы знали, что значит: милости хочу, а не жертвы, то не осудили бы невиновных\". Итак, чтобы избавиться от греха осуждения, надо возыметь милостивое сердце. Милостивое сердце не только не осудит кажущегося нарушения закона, но и очевидного для всех. Вместо суда оно восприимет сожаление и скорее будет готово плакать, чем укорять. Действительно, грех осуждения - плод немилостивого сердца, злорадного, находящего услаждение в унижении ближнего, в очернении его имени, в попрании его чести. Дело это - дело человекоубийственное и творится по духу того, кто есть человекоубийца искони. Там бывает много и клеветничества, которое из того же источника, ибо диавол потому и диавол, что клевещет и всюду распространяет клеветливость. Поспеши возбудить в себе жалость всякий раз, как придет злой позыв к осуждению. С жалостливым же сердцем обратись потом с молитвою к Господу, чтоб Он всех нас помиловал, не того только, кого хотелось осудить, но и нас, и может быть больше нас, чем того, - и замрет злой позыв.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

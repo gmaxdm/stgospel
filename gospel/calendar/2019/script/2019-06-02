@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("2 июня 2020 г. ( 20 мая ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 7-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/2159.html\" target=\"_blank\" title=\"Фалалей Эгейский, мч.\">Фалалея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2159_2078.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/129.html\" target=\"_blank\" title=\"Александр Эгейский, мч.\">Александра</a> и <a  href=\"http://days.pravoslavie.ru/name/288.html\" target=\"_blank\" title=\"Астерий Эгейский, мч.\">Астерия</a>. Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/131.html\" target=\"_blank\" title=\"Алексий, митрополит Московский и всея Руси\">Алексия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii131_46.html\" target=\"_blank\" >икона</a>), митр. Московского, всея России чудотворца. Мч. <a  href=\"http://days.pravoslavie.ru/name/283.html\" target=\"_blank\" title=\"Аскалон Антиохийский, мч.\">Аскалона</a>. Прпп. <a  href=\"http://days.pravoslavie.ru/name/6889.html\" target=\"_blank\" title=\"Завулон, прп.\">Завулона</a> и <a  href=\"http://days.pravoslavie.ru/name/6890.html\" target=\"_blank\" title=\"Сосанна, прп.\">Сосанны</a>, родителей равноапостольной <a  href=\"http://days.pravoslavie.ru/name/2630.html\" target=\"_blank\" title=\"Равноапостольная Нина, просветительница Грузии\">Нины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2630_20.html\" target=\"_blank\" >икона</a>). Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/638.html\" target=\"_blank\" title=\"Довмонт (в крещении Тимофей) Псковский, князь\">Довмонта</a> (<a  href=\"http://days.pravoslavie.ru/images/ii638_522.html\" target=\"_blank\" >икона</a>), во св. Крещении Тимофея, Псковского. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_21_26_32.html#z\">Деян., 46 зач., XXI, 26-32.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_16_2_13.html#z\">Ин., 53 зач., XVI, 2-13.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17916.htm\" target=\"_blank\" title=\"Библия\">Дея. 21, 26-32</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17917.htm\" target=\"_blank\" title=\"Библия\">Ин. 16, 2-13</a>). \"Когда же прийдет Он, Дух истины, то наставит вас на всякую истину\". Почему же в логиках не упоминается об этом источнике познания? Не удивительно, что в языческих логиках нет этого пункта, но почему нет его в христианских? Неужели христианин, когда начинает умствовать, должен перестать быть христианином и забыть о всех данных ему обетованиях, верных и несомненных? О том, как видеть и слышать много толкуют; о том, как из увиденного и услышанного делать обобщения и наведения, тоже достаточно учат; когда дойдет дело до того, как разгадать значение всего, - тут питомец логики оставляется на произвол своей догадливости. Отчего не внушить ему: ты имеешь вещания духа истины - им следуй; они решают значение всего сущего и бывающего непререкаемым образом, ибо исходят от Бога, в Котором источник и самого бытия. Не оттого ли, что забывают внушать это, догадливость так расплодилась, что ныне все книги (о мире Божием) переполнены одними догадками? И добро бы они хоть сколько-нибудь были стоящи, а то сразу видно, что они плод детского воображения.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

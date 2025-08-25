@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("13 декабря 2020 г. ( 30 ноября ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 27-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'color:#b33\'>Апостола <a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/186.html\" target=\"_blank\" title=\"Апостол Андрей Первозванный\">Андрея</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii186_106.html\" target=\"_blank\" >икона</a>) Первозванного.</span> Свт. <a  href=\"http://days.pravoslavie.ru/name/2339.html\" target=\"_blank\" title=\"Святитель Фрументий Индийский (Эфиопский), архиепископ\">Фрументия</a>, архиеп. Индийского (Ефиопского). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13883.html\" target=\"_blank\" title=\"Иоанн (Честнов), иерей, сщмч.\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13883_4352.html\" target=\"_blank\" >икона</a>) пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 5-е, <a href=\"http://days.pravoslavie.ru/bible/z_lk_24_12_35.html#z\">Лк., 113 зач., XXIV, 12-35.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_13_10_17.html#z\">Лк., 71 зач., XIII, 10-17.</a> Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_4_9_16.html#z\">1 Кор., 131 зач., IV, 9-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_1_35_51.html#z\">Ин., 4 зач., I, 35-51.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

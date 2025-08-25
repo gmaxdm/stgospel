@@ -1,0 +1,52 @@
+{% extends 'wrapper.html' %}
+{% block description %}
+    <meta name="description" content="Библия. Синодальный перевод. {{ volume.title }}. {% for book in books|slice:":3" %}{{ book.book.title }}. {% endfor %}{% if books|length > 3 %}И другие... {% endif %}Соборное чтение Библии." />
+{% endblock %}
+{% block title %}{{ volume.title }}{% endblock %}
+{% block main %}
+    <div class="">
+        <div class="text-right"><a href="{% url 'reading-new' %}?v={{ volume.id }}">Начать чтение</a></div>
+        <h3 class="mb-4">{{ volume.title }}</h3>
+        {% if books %}
+        <ul class="p-3">
+        {% for book in books %}
+            <li><a href="{% url 'book' book.book.slug %}">{{ book.book.get_title }}</a></li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if ch_col %}
+        <div class="clearfix">
+        {% for vl in ch_col.values %}
+            <div class="card m-1">
+                {% if vl.title %}
+                    <h5 class="card-header">{{ vl.title }}</h5>
+                {% endif %}
+                <div class="card-body">
+                    <ol>
+                    {% for ch in vl.chapters %}
+                    <li class="card-text">
+                        {% if ch.lines %}
+                            <a href="{{ ch.lines_url }}">Глава {{ ch.num }}: {{ ch.lines }}</a> ({{ ch.book_title }})
+                        {% else %}
+                            <a href="{% url 'volume-chapter' vl.id ch.id %}">Глава {{ ch.num }}</a> ({{ ch.book_title }})
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                    </ol>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+        {% endif %}
+
+        {% for vl in ln_col.values %}
+            {% if vl.title %}<h3>{{ vl.title }}</h3>{% endif %}
+            <ul class="list-unstyled">
+            {% for l in vl.lines %}
+                <li>{% if l.num %}<strong class="text-danger">{{ l.num }}</strong> {% endif %}{{ l.text }}</li>
+            {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
+{% endblock %}

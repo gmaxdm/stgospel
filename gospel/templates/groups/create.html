@@ -1,0 +1,86 @@
+{% extends 'wrapper.html' %}
+{% block title %}Создание нового чтения{% endblock %}
+{% block main %}
+    <div class="main__centered">
+        <h3>Создание нового чтения</h3>
+    </div>
+    {% if form.errors %}
+        {% for f, errs in form.errors.items %}
+        <ul>
+            {% for err in errs %}
+                <li class="alert alert-danger">{{ err }}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    {% endif %}
+    <form class="lg-center" name="fnew" action="{% url 'group-create' %}" method="POST">
+        {% csrf_token %}
+    <dl class="row">
+        <dt class="col-sm-5">Название чтения</dt>
+        <dd class="col-sm-7">
+            <input class="form-control" type="text" value="{{ form.data.name }}" placeholder="введите название" name="name" required>
+        </dd>
+    </dl>
+    <p><small class="text-muted">Название чтения потом можно будет изменить.</small></p>
+
+    <div id="group-create"></div>
+
+    {% if 0 %}
+    <dl class="row">
+        <dt class="col-sm-5">Начало чтения</dt>
+        <dd class="col-sm-7">{{ form.data.start_idx|default:1 }}</dd>
+        <dt class="col-sm-5">
+            Количество глав в день<br>
+            <small class="text-muted">применимо только для собрания книг</small>
+        </dt>
+        <dd class="col-sm-7">
+            <input type="text" id="chpd" name="chpd" value="{{ form.data.chpd|default:1 }}">
+        </dd>
+        <dt class="col-sm-5">
+            Количество имен в списке<br>
+            <small class="text-muted">0 - неограниченное количество</small>
+        </dt>
+        <dd class="col-sm-7">
+            <input type="text" id="names_cnt" name="names_cnt" value="{{ form.data.names_cnt|default:0 }}">
+        </dd>
+        <dt class="col-sm-5"><label for="start">Дата начала чтения</label></dt>
+        <dd class="col-sm-7">
+            <input type="text" id="start" name="start" value="{{ form.data.start }}" required>
+        </dd>
+        <dt class="col-sm-5">
+            <label for="end">Дата завершения чтения</label><br>
+            <small class="text-muted">не заполняйте, если желаете читать неограниченное время</small>
+        </dt>
+        <dd class="col-sm-7">
+            <input type="text" id="end" name="end" value="{{ form.data.end }}">
+        </dd>
+    </dl>
+    {% endif %}
+    <p class="text-right"><input type="submit" name="fsave" value="Создать"></p>
+    </form>
+    <script type="text/javascript">
+        var FORM_DATA = {
+            start_idx: {{ form.data.start_idx|default:1 }},
+            chpd: {{ form.data.chpd|default:1 }},
+            names_cnt: {{ form.data.names_cnt|default:0 }},
+            start: "{{ form.data.start }}",
+            end: "{{ form.data.end }}",
+        };
+        $(function() {
+            var from = $("#start").datepicker({
+                    dateFormat: DATE_FORMAT
+                }).on( "change", function() {
+                    to.datepicker("option", "minDate", getDate(this.value));
+                }),
+                to = $("#end").datepicker({
+                    dateFormat: DATE_FORMAT
+                }).on("change", function() {
+                    from.datepicker("option", "maxDate", getDate(this.value));
+                });
+            $("#chpd").spinner({
+                min: 1,
+                max: 10
+            });
+        });
+    </script>
+{% endblock %}

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("29 декабря 2020 г. ( 16 декабря ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 30-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/66.html\" target=\"_blank\" title=\"Аггей, пророк, из 12 малых пророков\">Аггея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii66_384.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/1456.html\" target=\"_blank\" title=\"Марин Римский, мч.\">Марина</a>. Блж. царицы <a  href=\"http://days.pravoslavie.ru/name/2728.html\" target=\"_blank\" title=\"Феофания Византийская, императрица\">Феофании</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2728_1254.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/6957.html\" target=\"_blank\" title=\"София Суздальская, прп.\">Софии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6957_3509.html\" target=\"_blank\" >икона</a>) Суздальской. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9524.html\" target=\"_blank\" title=\"Владимир (Алексеев), иерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/9741.html\" target=\"_blank\" title=\"Павел (Аношкин), иерей, сщмч.\">Павла</a> пресвитеров и <a  href=\"http://days.pravoslavie.ru/name/9848.html\" target=\"_blank\" title=\"Григорий (Смирнов), диакон, сщмч.\">Григория</a> диакона. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9132.html\" target=\"_blank\" title=\"Святитель Аркадий (Остальский), епископ Бежецкий, сщмч.\">Аркадия</a>, еп. Бежецкого, <a  href=\"http://days.pravoslavie.ru/name/9591.html\" target=\"_blank\" title=\"Илия (Чередеев), иерей, сщмч.\">Илии</a>, <a  href=\"http://days.pravoslavie.ru/name/9751.html\" target=\"_blank\" title=\"Павел (Фаворитов), иерей, сщмч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/9822.html\" target=\"_blank\" title=\"Феодосий (Болдырев), иерей, сщмч.\">Феодосия</a>, <a  href=\"http://days.pravoslavie.ru/name/9529.html\" target=\"_blank\" title=\"Владимир (Дамаскин), иерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/9258.html\" target=\"_blank\" title=\"Александр (Колоколов), протоиерей, сщмч.\">Александра</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/9224.html\" target=\"_blank\" title=\"Макарий (Смирнов), иеромонах, сщмч.\">Макария</a>. Сщмч.  <a  href=\"http://days.pravoslavie.ru/name/9764.html\" target=\"_blank\" title=\"Петр (Зиновьев), иерей, сщмч.\">Петра</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_9_8_10_9_15_23.html#z\">Евр., 321 зач., IX, 8-10, 15-23.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_8_22_26.html#z\">Мк., 34 зач., VIII, 22-26.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18362.htm\" target=\"_blank\" title=\"Библия\">Евр. 9, 8-10. 15-23</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18363.htm\" target=\"_blank\" title=\"Библия\">Мк. 8, 22-26</a>). Вифсаидского слепого Господь не вдруг исцелил, но сначала не полно, а потом полно, так что он стал видеть все ясно. Для чего Господь так сделал, Ему Единому ведомо. Мы же возьмем отсюда следующую мысль: если считалось нужным исцелить телесное зрение постепенно, то тем более такая постепенность необходима в просветлении очей ума нашего. Так оно и было. В патриархальный период, богооткровенное ведение было не сложно; в период подзаконный оно стало сложнее и подробнее; в наш христианский период оно еще подробнее и возвышеннее; но конец ли? На земле высшего не ожидай, а на том свете будет. Два св. Апостола удостоверяют нас в этом, св. Иоанн и св. Павел. Ныне видим все как сквозь тусклое стекло, а тогда все увидим ясно. Но и там будут степени умственного просветления, ибо область ведения Божия безпредельна. На земле же откровение Божие уже завершено; нечего и мечтать о высшем; все имеем, что нужно; усвой и живи тем. Христианское откровение впереди не обещает нового откровения, но только то, что Евангелие будет узнано во всем мире и что эта повсюдность и всеобщность ведения Евангелия есть предел бытию настоящего порядка вещей. Тогда вера ослабеет, любовь иссякнет, жизнь станет тугою, - и благость Божия положит конец миру.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

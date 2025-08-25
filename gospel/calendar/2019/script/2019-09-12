@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("12 сентября 2020 г. ( 30 августа ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 14-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свтт. <a  href=\"http://days.pravoslavie.ru/name/111.html\" target=\"_blank\" title=\"Святитель Александр Константинопольский, патриарх\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii111_1633.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1005.html\" target=\"_blank\" title=\"Иоанн IV Постник, Патриарх Константинопольский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1005_1821.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1693.html\" target=\"_blank\" title=\"Святитель Павел Новый, Константинопольский, патриарх\">Павла</a> Нового, патриархов Константинопольских. Прп. <a  href=\"http://days.pravoslavie.ru/name/125.html\" target=\"_blank\" title=\"Преподобный Александр Свирский\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii125_1636.html\" target=\"_blank\" >икона</a>) Свирского. Перенесение мощей блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/114.html\" target=\"_blank\" title=\"Святой благоверный князь Александр Невский\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii114_30.html\" target=\"_blank\" >икона</a>) Невского. Обретение мощей блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/579.html\" target=\"_blank\" title=\"Святой благоверный князь Даниил Московский\">Даниила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii579_65.html\" target=\"_blank\" >икона</a>) Московского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2355.html\" target=\"_blank\" title=\"Христофор Римлянин, Палестинский, прп.\">Христофора</a> Римлянина. Прп. <a  href=\"http://days.pravoslavie.ru/name/2161.html\" target=\"_blank\" title=\"Фантин Солунский (Фессалоникийский), прп.\">Фантина</a> чудотворца, в Солуни. <a  href=\"http://days.pravoslavie.ru/name/6930.html\" target=\"_blank\" title=\"Собор Сербских Святителей\">Собор</a> святителей Сербских: <a  href=\"http://days.pravoslavie.ru/name/1901.html\" target=\"_blank\" title=\"Святитель Савва, первый архиепископ Сербский\">Саввы I</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1901_542.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/269.html\" target=\"_blank\" title=\"Святитель Арсений, архиепископ Сербский\">Арсения I</a> (<a  href=\"http://days.pravoslavie.ru/images/ii269_420.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1902.html\" target=\"_blank\" title=\"Святитель Савва II Сербский, архиепископ\">Саввы II</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1902_2774.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/714.html\" target=\"_blank\" title=\"Святитель Евстафий, архиепископ Сербский\">Евстафия I</a>, <a  href=\"http://days.pravoslavie.ru/name/885.html\" target=\"_blank\" title=\"Святитель Иаков Сербский, архиепископ\">Иакова</a>, <a  href=\"http://days.pravoslavie.ru/name/1631.html\" target=\"_blank\" title=\"Святитель Никодим Сербский, архиепископ\">Никодима</a>, <a  href=\"http://days.pravoslavie.ru/name/584.html\" target=\"_blank\" title=\"Святитель Даниил Сербский\">Даниила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii584_1515.html\" target=\"_blank\" >икона</a>) архиепископов; <a  href=\"http://days.pravoslavie.ru/name/1030.html\" target=\"_blank\" title=\"Святитель Иоанникий II Сербский, патриарх\">Иоанникия II</a>, <a  href=\"http://days.pravoslavie.ru/name/816.html\" target=\"_blank\" title=\"Святитель Ефрем II Сербский, патриарх\">Ефрема II</a>, <a  href=\"http://days.pravoslavie.ru/name/2048.html\" target=\"_blank\" title=\"Святитель Спиридон Сербский, патриарх, песнописец\">Спиридона</a>, <a  href=\"http://days.pravoslavie.ru/name/1414.html\" target=\"_blank\" title=\"Святитель Макарий Сербский, патриарх\">Макария</a>, <a  href=\"http://days.pravoslavie.ru/name/452.html\" target=\"_blank\" title=\"Святитель Гавриил I, Патриарх Сербский\">Гавриила I</a>, патриархов, и <a  href=\"http://days.pravoslavie.ru/name/548.html\" target=\"_blank\" title=\"Святитель Григорий Сербский, епископ\">Григория</a> епископа. Свт. <a  href=\"http://days.pravoslavie.ru/name/14958.html\" target=\"_blank\" title=\"Святитель Варлаам, митрополит Молдавский\">Варлаама</a>, митр. Молдавского (Рум.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9777.html\" target=\"_blank\" title=\"Петр (Решетников), иерей, сщмч.\">Петра</a> пресвитера. Прмч. <a  href=\"http://days.pravoslavie.ru/name/13751.html\" target=\"_blank\" title=\"Аполлинарий (Мосалитинов), иеромонах, прмч.\">Аполлинария</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/12169.html\" target=\"_blank\" title=\"Павел (Малиновский), иерей, сщмч.\">Павла</a> пресвитера и прмц. <a  href=\"http://days.pravoslavie.ru/name/12171.html\" target=\"_blank\" title=\"Елисавета (Ярыгина), прмц.\">Елисаветы</a> и мч. <a  href=\"http://days.pravoslavie.ru/name/13771.html\" target=\"_blank\" title=\"Феодор (Иванов), мч.\">Феодора</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/9162.html\" target=\"_blank\" title=\"Игнатий (Лебедев), схиархимандрит, сщмч.\">Игнатия</a>. Св. <a  href=\"http://days.pravoslavie.ru/name/9392.html\" target=\"_blank\" title=\"Петр (Чельцов), протоиерей, исп.\">Петра</a> исп., пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. Лит. - Блгв. кн. Александра: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_4_1_5.html#z\">1 Кор., 130 зач., IV, 1-5.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_23_1_12.html#z\">Мф., 93 зач., XXIII, 1-12.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба блгв. кн. Даниила, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19,</a> а на литургии - чтения блгв. кн. Даниила: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_6_1_10.html#z\">2 Кор., 181 зач., VI, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23,</a> и дня. </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18134.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 4, 1-5</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18135.htm\" target=\"_blank\" title=\"Библия\">Мф. 23, 1-12</a>). \"Больший из вас да будет вам слуга\". Большество измеряется, по слову Господа, не родом, не властью, не мерою способностей и способов, а умением устраивать благо для других. Кто неутомимее и шире действует в этом роде, тот и больший. Как в семье набольший, становясь набольшим, берет к сердцу заботу о всем семействе и в том честь и преимущество свое поставляет, чтоб всех упокоить, сделать так, чтоб всем было хорошо: так и в обществе христианском, хотящий быть набольшим должен принять на себя полное попечение о христианском удобстве всех в том круге, в котором находится, и в том роде деятельности, какую он себе избрал. Лучше же: брось всякую мысль о большестве, а прими сердечную заботу о том, чтобы сколько можно более послужить во благо окружающих тебя, и будешь больший перед очами Божиими, а может быть, и в сознании людей. Когда бы все набольшие сделали этот закон Христов законом своей совести, какое пошло бы тотчас благоденствие и довольство среди нас! Но то горе, что большество скоро у нас обращается на служение себе и своим интересам и сопровождается всегда почти требованием услуг себе, вместо служения другим; совесть же успокаивается исправностью ведения официальных дел. Оттого много набольших, а благо не спеется среди нас, и все добрые учреждения не приносят того добра, какое от них ожидается.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("23 января 2020 г. ( 10 января ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 32-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Попразднство Богоявления. Свт. <a  href=\"http://days.pravoslavie.ru/name/541.html\" target=\"_blank\" title=\"Святитель Григорий Нисский, епископ\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii541_32.html\" target=\"_blank\" >икона</a>), еп. Нисского. Прп. <a  href=\"http://days.pravoslavie.ru/name/641.html\" target=\"_blank\" title=\"Святитель Дометиан Мелитинский, епископ\">Дометиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii641_3942.html\" target=\"_blank\" >икона</a>), еп. Мелитинского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1483.html\" target=\"_blank\" title=\"Маркиан Константинопольский, пресвитер\">Маркиана</a> пресвитера. Прп. <a  href=\"http://days.pravoslavie.ru/name/1685.html\" target=\"_blank\" title=\"Преподобный Павел Комельский (Обнорский)\">Павла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1685_3149.html\" target=\"_blank\" >икона</a>) Комельского (Обнорского). Свт. <a  href=\"http://days.pravoslavie.ru/name/2253.html\" target=\"_blank\" title=\"Святитель Феофан Затворник, Вышенский, епископ\">Феофана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2253_683.html\" target=\"_blank\" >икона</a>), Затворника Вышенского. Прп. <a  href=\"http://days.pravoslavie.ru/name/10107.html\" target=\"_blank\" title=\"Антипа Варлаамский (Афонский), прп.\">Антипы</a> Валаамского (Афонского). Блж. <a  href=\"http://days.pravoslavie.ru/name/2723.html\" target=\"_blank\" title=\"Феосевия (Феозва), диакониса\">Феозвы</a> диаконисы, сестры свт. <a  href=\"http://days.pravoslavie.ru/name/541.html\" target=\"_blank\" title=\"Святитель Григорий Нисский, епископ\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii541_32.html\" target=\"_blank\" >икона</a>) Нисского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1412.html\" target=\"_blank\" title=\"Преподобный Макарий Писемский\">Макария</a> Писемского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9576.html\" target=\"_blank\" title=\"Зиновий (Сутормин), иерей, сщмч.\">Зиновия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13634.html\" target=\"_blank\" title=\"Петр (Успенский), протоиерей, сщмч.\">Петра</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9095.html\" target=\"_blank\" title=\"Святитель Анатолий (Грисюк), митрополит Одесский, сщмч.\">Анатолия</a>, митр. Одесского. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_iak_1_19_27.html#z\">Иак., 51 зач., I, 19-27.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_10_17_27.html#z\">Мк., 45 зач., X, 17-27.</a> Свт. Феофана: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> Свт. Григория: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_12_7_11.html#z\">1 Кор., 151 зач., XII, 7-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_1_8.html#z\">Мф., 34 зач. (от&nbsp;полу&#769;), X, 1-8.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18381.htm\" target=\"_blank\" title=\"Библия\">Мр. 10, 17-27</a>). Некто обратился к Господу с вопросом: \"Учитель благий! что мне делать, чтобы наследовать жизнь вечную?\" Что вынудило этот вопрос? Разве не было писаний? Разве не читали всякую субботу закона для всех? Было все - и Писание, и толкователи его; но в обществе ходило кругом разномыслие и сбивало с толку. Фарисеи говорили одно, саддукеи - другое, ессеи - свое, самаряне - свое; в Галилее же, может быть, и языческие учения слышались, и всякий выставлял свое тоном убеждения. Ревнующий о спасении, естественно, приходил к вопросу: как же быть, чему следовать, чтоб не погубить души своей? Положение наше очень похоже на тогдашнее. Каких-каких у нас ни ходит учений и в школах, и в обществе, и в литературе! Индиферентисту это нипочем; а для кого не все одно, какому учению ни следовать, тому нельзя не поискать решения: как же быть? Итак, какое же решение на это? Такое же, какое дал Спаситель: веруй и живи, как Бог повелел, а людских толков не слушай; пусть говорят. И говор ученых похож на молву и моду: ныне одно, завтра другое, ты же внимай одному глаголу Божию, пребывающему во веки. Что Господь повелел, того никакое мудрование отменить не может. Все неотложно и надо все исполнять. Суд ведь будет по слову Господа, а не по умствованиям нашим.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

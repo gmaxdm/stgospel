@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("9 июля 2020 г. ( 26 июня ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/2989.html\" target=\"_blank\" title=\"Тихвинская\">Тихвинской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2989_108.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. Прп. <a  href=\"http://days.pravoslavie.ru/name/563.html\" target=\"_blank\" title=\"Давид Солунский (Фессалоникийский)\">Давида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii563_4335.html\" target=\"_blank\" >икона</a>) Солунского. Прп. <a  href=\"http://days.pravoslavie.ru/name/971.html\" target=\"_blank\" title=\"Святитель Иоанн Готфский, епископ\">Иоанна</a>, еп. Готфского. Свт. <a  href=\"http://days.pravoslavie.ru/name/631.html\" target=\"_blank\" title=\"Святитель Дионисий, архиепископ Суздальский\">Дионисия</a>, архиеп. Суздальского. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/2117.html\" target=\"_blank\" title=\"Преподобный Тихон Луховский, Костромской\">Тихона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2117_2068.html\" target=\"_blank\" >икона</a>) Луховского, Костромского. Перенесение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/1653.html\" target=\"_blank\" title=\"Преподобный Нил Столобенский\">Нила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1653_265.html\" target=\"_blank\" >икона</a>) Столобенского.  Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9551.html\" target=\"_blank\" title=\"Георгий (Степанюк), иерей, сщмч.\">Георгия</a> пресвитера. <a  href=\"http://days.pravoslavie.ru/name/2895.html\" target=\"_blank\" title=\"Лиддская (Римская)\">Лиддской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2895_916.html\" target=\"_blank\" >икона</a>) (Римской), <a  href=\"http://days.pravoslavie.ru/name/2923.html\" target=\"_blank\" title=\"Нямецкая\">Нямецкой</a>, <a  href=\"http://days.pravoslavie.ru/name/2929.html\" target=\"_blank\" title=\"Икона Божией Матери Одигитрия Седмиезерная\">Седмиезерной</a> икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_15_17_29.html#z\">Рим., 118 зач., XV, 17-29.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_12_46_0_13_0_3.html#z\">Мф., 49 зач., XII, 46 - XIII, 3.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17993.htm\" target=\"_blank\" title=\"Библия\">Рим. 15, 17-29</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17994.htm\" target=\"_blank\" title=\"Библия\">Мф. 12, 46-13, 3</a>). \"Ибо кто будет исполнять волю Отца Моего Небесного, тот Мне брат, и сестра, и матерь\". Господь дает этим разуметь, что духовное родство, которое Он пришел насадить и возрастить на земле, не то, что родство плотское, хотя по форме отношений, оно одинаково с плотским. И в нем есть отцы и матери, - это те, которые рождают словом истины или благовествованием, как говорит апостол Павел. И в нем есть братья и сестры, - это те, которые от одного рождены духовно и растут в едином духе. Родственное сочетание здесь зиждется действием благодати. Но оно не внешне, не поверхностно, а также глубоко и жизненно, как и плотское, только место имеет в другой области - высшей, важнейшей. Потому-то и преобладает над плотским, и когда требует нужда, приносит его в жертву своим духовным интересам, без жаления, в полной уверенности, что это жертва Богу угодная и Им требуемая.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

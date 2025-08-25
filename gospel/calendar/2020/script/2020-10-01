@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("1 октября 2020 г. ( 18 сентября ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 17-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/687.html\" target=\"_blank\" title=\"Святитель Евмений Гортинский, епископ\">Евмения</a>, еп. Гортинского. Прославление прп. <a  href=\"http://days.pravoslavie.ru/name/2490.html\" target=\"_blank\" title=\"Преподобная Евфросиния Суздальская\">Евфросинии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2490_2167.html\" target=\"_blank\" >икона</a>) Суздальской, в миру Феодулии. Прп. <a  href=\"http://days.pravoslavie.ru/name/7006.html\" target=\"_blank\" title=\"Иларион Оптинский, прп.\">Илариона</a> Оптинского. Мц. <a  href=\"http://days.pravoslavie.ru/name/2412.html\" target=\"_blank\" title=\"Ариадна Промисская (Фригийская), мц.\">Ариадны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2412_3917.html\" target=\"_blank\" >икона</a>). Мцц. <a  href=\"http://days.pravoslavie.ru/name/2676.html\" target=\"_blank\" title=\"София Египетская, мц.\">Софии</a> и <a  href=\"http://days.pravoslavie.ru/name/2520.html\" target=\"_blank\" title=\"Ирина Египетская, мц.\">Ирины</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/1183.html\" target=\"_blank\" title=\"Кастор, мч.\">Кастора</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/320.html\" target=\"_blank\" title=\"Бидзина Ксанский, князь, мч.\">Бидзины</a>, <a  href=\"http://days.pravoslavie.ru/name/2358.html\" target=\"_blank\" title=\"Шалва Ксанский, князь, мч.\">Шалвы</a> и <a  href=\"http://days.pravoslavie.ru/name/2360.html\" target=\"_blank\" title=\"Элизбар Ксанский, князь, мч.\">Элизбара</a>, князей Ксанских (Груз.). Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13795.html\" target=\"_blank\" title=\"Алексий (Кузнецов), иерей, сщмч.\">Алексия</a> и <a  href=\"http://days.pravoslavie.ru/name/13796.html\" target=\"_blank\" title=\"Петр (Дьяконов), иерей, сщмч.\">Петра</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9129.html\" target=\"_blank\" title=\"Святитель Амфилохий (Скворцов), епископ Енисейский, сщмч.\">Амфилохия</a>, еп. Красноярского, <a  href=\"http://days.pravoslavie.ru/name/9325.html\" target=\"_blank\" title=\"Иоанн (Васильев), протоиерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9480.html\" target=\"_blank\" title=\"Борис (Боголепов), иерей, сщмч.\">Бориса</a>, <a  href=\"http://days.pravoslavie.ru/name/9694.html\" target=\"_blank\" title=\"Михаил (Скобелев), иерей, сщмч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/9544.html\" target=\"_blank\" title=\"Владимир (Чекалов), иерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/12369.html\" target=\"_blank\" title=\"Вениамин (Благонадеждин), иерей, сщмч.\">Вениамина</a>, <a  href=\"http://days.pravoslavie.ru/name/13797.html\" target=\"_blank\" title=\"Константин (Твердислов), иерей, сщмч.\">Константина</a> пресвитеров и мч. <a  href=\"http://days.pravoslavie.ru/name/10029.html\" target=\"_blank\" title=\"Сергий (Ведерников), мч.\">Сергия</a>. <a  href=\"http://days.pravoslavie.ru/name/14921.html\" target=\"_blank\" title=\"Собор новомучеников и исповедников земли Владимирской\">Собор</a> новомучеников и исповедников земли Владимирской. <a  href=\"http://days.pravoslavie.ru/name/2911.html\" target=\"_blank\" title=\"Молченская\">Молченской</a>, именуемой <a  href=\"http://days.pravoslavie.ru/name/3019.html\" target=\"_blank\" title=\"Целительница\">\"Целительница\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3019_1276.html\" target=\"_blank\" >икона</a>), и <a  href=\"http://days.pravoslavie.ru/name/2979.html\" target=\"_blank\" title=\"Старорусская\">Старорусской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2979_613.html\" target=\"_blank\" >икона</a>) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_ef_4_14_19.html#z\">Еф., 225 зач., IV, 14-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_11_27_33.html#z\">Мк., 52 зач., XI, 27-33.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18173.htm\" target=\"_blank\" title=\"Библия\">Мк. 11, 27-33</a>). Спаситель доказывает Свое небесное посланничество свидетельством Иоанна Предтечи, - молчат, ибо нечего было сказать против, а все не веруют. В другой раз делами Своими то же доказывал, - придумали изворот: \"о князе бесовском\". Но когда этот изворот был выставлен совершенно неуместным, - тоже замолчали, а все-таки не уверовали. Так и всегда неверы не верят, что им ни говори и как убедительно ни доказывай истину: ничего не могут сказать против, а все не веруют. Сказать бы: ум у них параличем разбит, так ведь о прочих предметах они рассуждают здраво. Только когда о вере зайдет речь, начинают путаться в понятиях и словах. Путаются также, когда выставляют воззрения свои в замену положений веры, от Бога данных. Тут у них сомнение возводится в такую опору, что твой крепкий утес. Прослушайте всю их теорию - дитя разберет, что это сеть паутинная, а они того не видят. Непостижимое ослепление! Упорство неверов можно еще объяснить нехотением верить, но откуда само нехотение? И отчего оно берет в этом случае такую власть, что заставляет человека умного сознательно держаться нелогичного образа мыслей? Тут тьма - уж не от отца ли она тьмы?<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

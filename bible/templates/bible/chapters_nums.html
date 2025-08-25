@@ -1,0 +1,9 @@
+<div class="mb-3 text-right">
+    {% for n in chapters %}
+        {% if n == num %}
+        <span class="badge badge-secondary">{% if n %}{{ n }}{% else %}Предисловие{% endif %}</span>
+        {% else %}
+        <a href="{% url 'chapter' book.slug n %}">{% if n %}{{ n }}{% else %}Предисловие{% endif %}</a>
+        {% endif %}
+    {% endfor %}
+</div>

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("5 февраля 2020 г. ( 23 января ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 34-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1253.html\" target=\"_blank\" title=\"Священномученик Климент Анкирский\">Климента</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1253_3241.html\" target=\"_blank\" >икона</a>), еп. Анкирского, и мч. <a  href=\"http://days.pravoslavie.ru/name/57.html\" target=\"_blank\" title=\"Агафангел Римлянин, мч.\">Агафангела</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1396.html\" target=\"_blank\" title=\"Мавсима Сирин, иерей\">Мавсимы</a> Сирина. Прп. <a  href=\"http://days.pravoslavie.ru/name/1916.html\" target=\"_blank\" title=\"Саламан Персиянин, Молчальник, прп.\">Саламана</a> молчальника. Свт. <a  href=\"http://days.pravoslavie.ru/name/1703.html\" target=\"_blank\" title=\"Святитель Павлин Милостивый, Ноланский, епископ\">Павлина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1703_3242.html\" target=\"_blank\" >икона</a>) Милостивого, еп. Ноланского. Воспоминание  <a  href=\"http://days.pravoslavie.ru/name/6923.html\" target=\"_blank\" title=\"Шестой Вселенский Собор\">VI Вселенского Собора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6923_4594.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/470.html\" target=\"_blank\" title=\"Преподобный Геннадий Костромской и Любимоградский\">Геннадия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii470_115.html\" target=\"_blank\" >икона</a>) Костромского и Любимоградского. Перенесение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/2237.html\" target=\"_blank\" title=\"Святитель Феоктист Новгородский, архиепископ\">Феоктиста</a>, архиеп. Новгородского. <a  href=\"http://days.pravoslavie.ru/name/6897.html\" target=\"_blank\" title=\"Собор Костромских святых\">Собор Костромских святых</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6897_899.html\" target=\"_blank\" >икона</a>). Прмч. <a  href=\"http://days.pravoslavie.ru/name/13637.html\" target=\"_blank\" title=\"Серафим (Булашов), игумен, прмч.\">Серафима</a>, прмц. <a  href=\"http://days.pravoslavie.ru/name/9922.html\" target=\"_blank\" title=\"Евдокия (Кузьминова), послушница, прмц.\">Евдокии</a> и <a  href=\"http://days.pravoslavie.ru/name/10354.html\" target=\"_blank\" title=\"Екатерина (Черкасова), прмц.\">Екатерины</a>.  Мц. <a  href=\"http://days.pravoslavie.ru/name/10356.html\" target=\"_blank\" title=\"Милица (Кувшинова), мц.\">Милицы</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-pet_4_1_11.html#z\">1 Пет., 61 зач., IV, 1-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_12_28_37.html#z\">Мк., 56 зач., XII, 28-37.</a> Сщмч.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_7_16.html#z\">Евр., 334 зач., XIII, 7-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18419.htm\" target=\"_blank\" title=\"Библия\">1 Пет. 4, 1-11</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18420.htm\" target=\"_blank\" title=\"Библия\">Мк. 12, 28-37</a>). Один законник спрашивал Господа: \"какая первая из всех заповедей?\" Господь ответил: \"возлюби Господа Бога твоего всем сердцем твоим, и всею душою твоею, и всем разумением твоим, и всею крепостию твоею: вот первая заповедь. Вторая подобная ей: возлюби ближнего твоего, как самого себя. Иной большей этих заповеди нет\". И это идет к дополнению изображения сокровенного сердца человека. Священие Господа есть дух его, а любовь душа, прочие же все добродетели разные члены его то рука, то нога, то глаз, то ухо, то язык. Напоминание об этом очень благопотребно, потому что иногда случается, что, считая доброделание окончательными добродетелями, думают с ним одним обойтись, и о Господе не помышляя, и о любви забывая. Доброделание такое, без веры и желания Богу угодить, не свято бывает, как дом не освященный или комната без иконы; не имея же любви, оно подобно зданию, наполненному изваяниями безжизненными, и кроме того отдающемуся затхлостью и плесенью. Обращай на это внимание всякий и, взявшись созидать в себе нового человека, старайся поставить его перед Господом, не имеющим никакого порока.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

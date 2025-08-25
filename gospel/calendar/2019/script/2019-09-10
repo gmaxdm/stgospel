@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("10 сентября 2020 г. ( 28 августа ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 14-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1569.html\" target=\"_blank\" title=\"Преподобный Моисей Мурин\">Моисея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1569_1926.html\" target=\"_blank\" >икона</a>) Мурина. Прп. <a  href=\"http://days.pravoslavie.ru/name/1895.html\" target=\"_blank\" title=\"Преподобный Савва Крыпецкий\">Саввы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1895_542.html\" target=\"_blank\" >икона</a>) Крыпецкого, Псковского. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/1037.html\" target=\"_blank\" title=\"Преподобный Иов, игумен Почаевский\">Иова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1037_242.html\" target=\"_blank\" >икона</a>) Почаевского. <a  href=\"http://days.pravoslavie.ru/name/6921.html\" target=\"_blank\" title=\"Собор преподобных отцов Киево-Печерских, в Дальних пещерах\">Собор</a> преподобных отцов Киево-Печерских, в Дальних пещерах (прп. Феодосия) почивающих. Прав. <a  href=\"http://days.pravoslavie.ru/name/2396.html\" target=\"_blank\" title=\"Праведная Анна Пророчица\">Анны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2396_2134.html\" target=\"_blank\" >икона</a>) пророчицы, дщери Фануилевой, встретившей Господа Иисуса Христа в храме Иерусалимском. Мц. <a  href=\"http://days.pravoslavie.ru/name/2760.html\" target=\"_blank\" title=\"Шушаника (Сусанна) Ранская (грузинская), княгиня, вмц.\">Шушаники</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2760_4465.html\" target=\"_blank\" >икона</a>), кн. Ранской. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9270.html\" target=\"_blank\" title=\"Алексий (Будрин), протоиерей, сщмч.\">Алексия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13779.html\" target=\"_blank\" title=\"Александр (Медведев), диакон, сщмч.\">Александра</a> диакона. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14307.html\" target=\"_blank\" title=\"Николай (Георгиевский), протоиерей, сщмч.\">Николая</a> пресвитера. Прмчч. Казанских <a  href=\"http://days.pravoslavie.ru/name/9181.html\" target=\"_blank\" title=\"Сергий (Зайцев), архимандрит настоятель Успенского Зилантова м-ря, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/9222.html\" target=\"_blank\" title=\"Лаврентий (Никитин), иеромонах, сщмч.\">Лаврентия</a>, <a  href=\"http://days.pravoslavie.ru/name/9243.html\" target=\"_blank\" title=\"Серафим (Кузьмин), иеромонах, сщмч.\">Серафима</a>, <a  href=\"http://days.pravoslavie.ru/name/9833.html\" target=\"_blank\" title=\"Феодосий (Александров), иеродиакон, сщмч.\">Феодосия</a>, <a  href=\"http://days.pravoslavie.ru/name/9875.html\" target=\"_blank\" title=\"Леонтий (Карягин), инок, прмч.\">Леонтия</a>, <a  href=\"http://days.pravoslavie.ru/name/9880.html\" target=\"_blank\" title=\"Стефан, инок, прмч.\">Стефана</a>, <a  href=\"http://days.pravoslavie.ru/name/9911.html\" target=\"_blank\" title=\"Георгий (Тимофеев), послушник, прмч.\">Георгия</a>, <a  href=\"http://days.pravoslavie.ru/name/9914.html\" target=\"_blank\" title=\"Иларион (Правдин), послушник, прмч.\">Илариона</a>, <a  href=\"http://days.pravoslavie.ru/name/9915.html\" target=\"_blank\" title=\"Иоанн (Сретенский), послушник, прмч.\">Иоанна</a> и <a  href=\"http://days.pravoslavie.ru/name/9919.html\" target=\"_blank\" title=\"Сергий (Галин), послушник, прмч.\">Сергия</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9510.html\" target=\"_blank\" title=\"Василий (Сокольский), иерей, сщмч.\">Василия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_gal_1_1_10_1_20_0_2_0_5.html#z\">Гал., 198 зач., I, 1-10, 20 - II, 5.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_5_1_20.html#z\">Мк., 19 зач., V, 1-20,</a> и за пятницу: <a href=\"http://days.pravoslavie.ru/bible/z_gal_2_6_10.html#z\">Гал., 201 зач., II, 6-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_5_22_24_5_35_0_6_0_1.html#z\">Мк., 20 зач., V, 22-24, 35 - VI, 1.</a> Прпп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18130.htm\" target=\"_blank\" title=\"Библия\">Гал. 1, 1-10. 20-2, 5</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18131.htm\" target=\"_blank\" title=\"Библия\">Мк. 5, 1-20</a>). \"Легион имя мне, потому что нас много\". Духи не телесны, потому места собою не наполняют и не занимают, подобно телам. Этим объясняется физическая возможность пребывания многих духов в одном человеке. Возможность нравственная со стороны духов понятна из их безнравственности или отсутствия всяких нравственных начал, а со стороны человека - из многостороннего соприкосновения душевным строем своим к мрачной области нечистых сил. Но этим объясняется только возможность; действительность же вселения бесов подлежит условиям, которых определить не имеем возможности. Можем только сказать, что вселение духов не всегда бывает видимым, не всегда обнаруживается известными действиями бесноватых. Есть вселение духов необнаруживаемое, скрытное; есть также власть духов над умами, помимо тела, когда они водят их, как хотят, через страсти, в них действующие; люди же думают, что они все сами действуют, будучи посмешищем нечистых сил. Как же быть? Будь настоящим христианином, и никакая вражеская сила не одолеет тебя.<br>(<a  href=\"https://days.pravoslavie.ru/Bible/C18132.htm\" target=\"_blank\" title=\"Библия\">Гал. 2, 6-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18133.htm\" target=\"_blank\" title=\"Библия\">Мк. 5, 22-24. 35-6, 1</a>). Воскресив дочь Иаира, Господь \"строго приказал\" родителям ее, \"чтобы никто об этом не знал\". Этим нам указано: не ищи славы и уха твоего не изощряй на слышание похвал людских, хоть дела твои такого рода, что их укрыть нельзя. Делай, что заставляет тебя делать страх Божий и совесть, а к говору людскому будь таков, как бы совсем его не было. И за душою смотри: коль скоро она мало-мальски склоняется на эту сторону, возвращай ее к своему чину. Желание, чтоб люди узнали, вызывается желанием похвалы. Когда будет похвала, тогда цель является достигнутою; а это подрывает энергию и пресекает похвальную деятельность, следовательно, и продолжение похвалы. Выходит, что желающий. чтобы люди знали его добрые дела, - сам себе изменник. Что люди хвалят доброе, они дело делают - ибо что хорошо, того как не хвалить? - но ты этого не имей в мысли, и не ожидай, и не ищи. Поблажишь себе в этом - совсем испортишься. Одна поблажка повлечет к другой. Учащение дел одинаковых обратится в нрав, и будешь хвалолюбец. А когда дойдешь до этого, тогда уж не все дела твои будут похвальны, и хваление сократится. За недостатком стороннего хваления, начнется самовосхваление, которое Господь назвал трублением перед собою. Это еще хуже. Душа становится тогда мелочною, гоняется за одной мишурой, и истинного добра не жди уж от нее.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

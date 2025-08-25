@@ -1,0 +1,54 @@
+{% extends 'wrapper.html' %}
+{% block description %}
+<meta name="description" content="Библия. Синодальный перевод. {{ book.title }}. {{ query }} Чтение Евангелия на сегодня. Евангельское чтение на сегодня. Чтение Апостола на сегодня. Апостольское чтение на сегодня." />
+{% endblock %}
+{% block title %}{{ book.title }}. {{ query }}{% endblock %}
+{% block main %}
+    <div class="">
+        <h3 class="mb-3">{{ book.title }}</h3>
+        <div class="mb-3 text-right">
+            {% for n in chapters %}
+                <a href="{% url 'chapter' book.slug n %}">
+                    {% if n in nums %}
+                    <span class="badge badge-secondary">{{ n }}</span>
+                    {% else %}
+                    {{ n }}
+                    {% endif %}
+                </a>
+            {% endfor %}
+        </div>
+
+        {% for num, lines in nums.items %}
+            <h4 class="mb-3">Глава {{ num }}</h4>
+            <div class="chapter">
+                {% for l in lines %}
+                {% if full_text %}
+                    <p class="{% if l.selected %}font-weight-bold{% else %}text-muted{% endif %}">{% if l.num %}<strong class="{% if l.selected %}text-danger{% endif %}">{{ l.num }}</strong>{% endif %} {{ l.text }}</p>
+                {% else %}
+                    <p>{% if l.num %}<strong class="text-danger">{{ l.num }}</strong>{% endif %} {{ l.text }}</p>
+                {% endif %}
+                {% endfor %}
+            </div>
+        {% endfor %}
+
+        <div class="mb-3 text-right">
+            {% for n in chapters %}
+                <a href="{% url 'chapter' book.slug n %}">
+                    {% if n in nums %}
+                    <span class="badge badge-secondary">{{ n }}</span>
+                    {% else %}
+                    {{ n }}
+                    {% endif %}
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% if full_text %}
+    <script>
+        $(function() {
+            var f = $("p.font-weight-bold").get(0);
+            window.scrollTo($(f).position());
+        });
+    </script>
+    {% endif %}
+{% endblock %}

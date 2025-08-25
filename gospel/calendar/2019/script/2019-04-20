@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("20 апреля 2020 г. ( 7 апреля ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Светлая седмица - сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/493.html\" target=\"_blank\" title=\"Святитель Георгий Митиленский, митрополит, исповедник\">Георгия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii493_501.html\" target=\"_blank\" >икона</a>), исп., митр. Митиленского. Мч. <a  href=\"http://days.pravoslavie.ru/name/1161.html\" target=\"_blank\" title=\"Каллиопий Помпеопольский, мч.\">Каллиопия</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1890.html\" target=\"_blank\" title=\"Руфин, диакон, сщмч.\">Руфина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1890_4180.html\" target=\"_blank\" >икона</a>) диакона, <a  href=\"http://days.pravoslavie.ru/name/2374.html\" target=\"_blank\" title=\"Акилина Младшая, мц.\">Акилины</a> и с ними 200 воинов. Прп. <a  href=\"http://days.pravoslavie.ru/name/582.html\" target=\"_blank\" title=\"Преподобный Даниил Переяславский\">Даниила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii582_3440.html\" target=\"_blank\" >икона</a>) Переяславского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1967.html\" target=\"_blank\" title=\"Серапион Синдонит, Египетский, прп.\">Серапиона</a> монаха. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14452.html\" target=\"_blank\" title=\"Аркадий (Добронравов), протоиерей, сщмч.\">Аркадия</a> пресвитера. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14244.html\" target=\"_blank\" title=\"Евдокия (Павлова), послушница, прмц.\">Евдокии</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_1_12_17_1_21_26.html#z\">Деян., 2 зач., I, 12-17, 21-26.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_1_18_28.html#z\">Ин., 2 зач., I, 18-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17818.htm\" target=\"_blank\" title=\"Библия\">Дея. 1, 12-17; 21-26</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17819.htm\" target=\"_blank\" title=\"Библия\">Ин. 1, 18-28</a>). Благовествуя воплощение Господа, ангел говорит: \"радуйся благодатная\"! и, возвещая пастырям о рождении Христа Спасителя, тоже говорит: \"се благовествую вам радость велию \". Но, возвещая женам о Воскресении Господа, ангел говорит только: \"Его нет здесь, Он Воскрес!\" Не прибавляет \"радуйтеся\", ибо радость сама собою исполнит сердце, коль скоро придет удостоверение, что воистину Воскрес Господь. Тогда это удостоверение было осязательно: ангел предуготовил его, Господь явлением Своим завершил. И радость была у всех неистощимополная! Ныне у нас церковь, жилища и площади - все облечено в одежду радования, и все увлекаются общим потоком радости. Но ты подвигни несколько мысль свою отвлечься от внешнего и, собравшись в сердце, восставь истину Воскресения, во всей широте, глубине и высоте ее, чтобы не внешне только являться радующимся, но и в себе самом носить, исходящий извнутрь дух радости, как ключ светлой воды, бьющий из недр земли.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("29 августа 2020 г. ( 16 августа ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 12-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Попразднство Успения Пресвятой Богородицы. <a  href=\"http://days.pravoslavie.ru/name/6929.html\" target=\"_blank\" title=\"Перенесение из Едессы в Константинополь Нерукотворного Образа (Убруса) Господа Иисуса Христа\">Перенесение</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6929_3517.html\" target=\"_blank\" >икона</a>)  из Едессы в Константинополь Нерукотворного Образа (Убруса) Господа Иисуса Христа. Мч. <a  href=\"http://days.pravoslavie.ru/name/615.html\" target=\"_blank\" title=\"Диомид Тарсянин, Никейский, мч.\">Диомида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii615_1755.html\" target=\"_blank\" >икона</a>) врача. <a  href=\"http://days.pravoslavie.ru/name/12001.html\" target=\"_blank\" title=\"33-х Палестинских мученика\">Мчч. 33-х Палестинских</a> (Gr. Cal). Прп. <a  href=\"http://days.pravoslavie.ru/name/2349.html\" target=\"_blank\" title=\"Херимон Египетский, прп.\">Херимона</a> Египетского. Мч. вел. кн. <a  href=\"http://days.pravoslavie.ru/name/14957.html\" target=\"_blank\" title=\"Константин (Брынковяну), великий князь, мч.\">Константина</a> (Рум.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9451.html\" target=\"_blank\" title=\"Александр (Соколов), иерей, сщмч.\">Александра</a> пресвитера, прмц. <a  href=\"http://days.pravoslavie.ru/name/9886.html\" target=\"_blank\" title=\"Анна (Ежова), инокиня, прмц.\">Анны</a> и мч. <a  href=\"http://days.pravoslavie.ru/name/9972.html\" target=\"_blank\" title=\"Иаков (Гортинский), мч.\">Иакова</a>. <a  href=\"http://days.pravoslavie.ru/name/3011.html\" target=\"_blank\" title=\"Феодоровская\">Феодоровской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3011_69.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/14472.html\" target=\"_blank\" title=\"\"Торжество Пресвятой Богородицы\" (Порт-Артурская)\">\"Торжество Пресвятой Богородицы\"</a> (Порт-Артурской)  икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Образа: <a href=\"http://days.pravoslavie.ru/bible/z_kol_1_12_18.html#z\">Кол., 250 зач., I, 12-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_9_51_56_10_22_24.html#z\">Лк., 48 зач. (от&nbsp;полу&#769;), IX, 51-56; X, 22-24</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_1_26_29.html#z\">1 Кор., 125 зач. (от&nbsp;полу&#769;), I, 26-29.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_20_29_34.html#z\">Мф., 82 зач., XX, 29-34.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается бденная служба Перенесения Нерукотворенного Образа, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_lk_9_51_56_10_22_24.html#z\">Лк., 48 зач. (от&nbsp;полу&#769;), IX, 51-56; X, 22-24.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18105.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 1, 26-29</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18106.htm\" target=\"_blank\" title=\"Библия\">Мф. 20, 29-34</a>). Два слепца Иерихонские вопиют, и Господь возвращает им зрение. Но разве только эти одни слепцы были в местах тех? Конечно, нет. Отчего же эти получили прозрение, а другие нет? Оттого, что не вопияли: а не вопияли оттого, что не имели упования; упования же не имели оттого, что не угождали Богу; Богу не угождали оттого, что мало веровали. К кому придет настоящая вера, тот в ту же минуту начнет угождать Богу; а с угождением Богу начнет входить и упование; а от всего этого - молитва, вынуждающая всякую помощь свыше. Таким уж отказа не бывает. Да они и просить умеют, и верно знают, что просить должно, и меру прошения понимают, и неотступность терпеливую в молитве держат. Все это непременно надо, чтобы иметь успех; сама по себе молитва слабокрыла.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("1 июля 2020 г. ( 18 июня ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/1356.html\" target=\"_blank\" title=\"Леонтий Триполийский, военачальник, мч.\">Леонтия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1356_4322.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1073.html\" target=\"_blank\" title=\"Ипатий Триполийский, мч.\">Ипатия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1073_4322.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2233.html\" target=\"_blank\" title=\"Феодул Триполийский, мч.\">Феодула</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2233_4322.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1353.html\" target=\"_blank\" title=\"Леонтий Печерский, канонарх\">Леонтия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1353_3484.html\" target=\"_blank\" >икона</a>), канонарха Печерского. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14274.html\" target=\"_blank\" title=\"Никанор (Морозкин), архимандрит, прмч.\">Никанора</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9285.html\" target=\"_blank\" title=\"Василий (Смирнов), протоиерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9428.html\" target=\"_blank\" title=\"Александр (Крутицкий), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9496.html\" target=\"_blank\" title=\"Василий (Крылов), иерей, сщмч.\">Василия</a> и <a  href=\"http://days.pravoslavie.ru/name/9398.html\" target=\"_blank\" title=\"Сергий (Кротков), протоиерей, сщмч.\">Сергия</a> пресвитеров. Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/9139.html\" target=\"_blank\" title=\"Святитель Виктор (Островидов), епископ Глазовский, исп.\">Виктора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9139_3051.html\" target=\"_blank\" >икона</a>) исп., еп. Глазовского. <a  href=\"http://days.pravoslavie.ru/name/2788.html\" target=\"_blank\" title=\"Боголюбская\">Боголюбской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2788_162.html\" target=\"_blank\" >икона</a>) иконы Божией Матери, в Боголюбове, Владимирской обл. Чтимые списки с Боголюбской иконы Божией Матери: <a  href=\"http://days.pravoslavie.ru/name/2790.html\" target=\"_blank\" title=\"Боголюбская (Московская)\">Московская</a>, <a  href=\"http://days.pravoslavie.ru/name/2789.html\" target=\"_blank\" title=\"Боголюбская (Зимаровская)\">Зимаровская</a>. Сретение Пюхтицкой иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/14276.html\" target=\"_blank\" title=\"\"У Источника\" Пюхтицкая\">«У источника»</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14276_3489.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_11_2_12.html#z\">Рим., 105 зач., XI, 2-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_20_26.html#z\">Мф., 42 зач., XI, 20-26.</a> Богородицы (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a> Мч. Леонтия: <a href=\"http://days.pravoslavie.ru/bible/z_deqn_12_1_11.html#z\">Деян., 29 зач., XII, 1-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_15_17_0_16_0_2.html#z\">Ин., 52 зач., XV, 17 - XVI, 2.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17976.htm\" target=\"_blank\" title=\"Библия\">Рим. 11, 2-12</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17977.htm\" target=\"_blank\" title=\"Библия\">Мф. 11, 20-26</a>). Господь много энамений показал в Капернауме, Вифсаиде и Хоразине; между тем, число уверовавших не соответствовало силе знамений. Потому-то Он строго и обличил эти города и присудил, что в день суда отраднее будет Тиру и Сидону, Содому и Гоморре, нежели городам тем. По этому образцу надо нам судить и о себе. Сколько знамений показал Господь над Россией, избавляя ее от врагов сильнейших, и покоряя ей народы! Сколько даровал ей постоянных сокровищниц, источающих непрестанные знамения, - в св. мощах и чудотворных иконах, рассеянных по всей России! И, однако, во дни наши россияне начинают уклоняться от веры: одна часть совсем и всесторонне падает в неверие, другая отпадает в протестантство, третья тайком сплетает свои верования, в которых думает совместить и спиритизм и теологические бредни с Божественным Откровением. Зло растет, зловерие и неверие поднимают голову, вера и Православие слабеют. Неужели же мы не образумимся?. . . И будет, наконец, то же и у нас, что, напр. , у французов и других. . . А если это будет, что, думаете, будет нам за то в день судный после таких Божиих к нам милостей? Господи! Спаси и помилуй Русь православную от праведного Твоего и належащего прещения!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

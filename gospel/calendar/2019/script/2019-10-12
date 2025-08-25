@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("12 октября 2020 г. ( 29 сентября ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 19-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1217.html\" target=\"_blank\" title=\"Кириак Палестинский, отшельник\">Кириака</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1217_3067.html\" target=\"_blank\" >икона</a>) отшельника. Мчч. <a  href=\"http://days.pravoslavie.ru/name/568.html\" target=\"_blank\" title=\"Дада Персидский, мч.\">Дады</a>, <a  href=\"http://days.pravoslavie.ru/name/443.html\" target=\"_blank\" title=\"Гаведдай (Гавделас) Персидский, царевич, мч.\">Гаведдая</a> и <a  href=\"http://days.pravoslavie.ru/name/2541.html\" target=\"_blank\" title=\"Каздоя Персидская, царевна, мц.\">Каздои</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/2255.html\" target=\"_blank\" title=\"Феофан Милостивый, Газский\">Феофана</a> Милостивого. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/12489.html\" target=\"_blank\" title=\"Святитель Иоанн (Поммер), архиепископ Рижский, сщмч.\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii12489_1823.html\" target=\"_blank\" >икона</a>), архиеп. Рижского. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_flp_1_1_7.html#z\">Флп., 235 зач., I, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_4_37_44.html#z\">Лк., 16 зач., IV, 37-44.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18196.htm\" target=\"_blank\" title=\"Библия\">Лк. 4, 37-44</a>). \"И другим городам благовествовать Я должен Царствие Божие, ибо на то Я послан\". Это -  \"ибо на то Я послан\" - священству нашему надобно, принять себе в непреложный закон. И апостол заповедал им, в лице св. Тимофея: \"настой во время и не во время, обличай, запрещай, увещевай\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18197.htm\" target=\"_blank\" title=\"Библия\">11 Тим. 4, 2</a>). Истину на землю принес Господь и Дух Святый, исполнивший апостолов в день Пятидесятницы - и ходит она по земле. Проводники ее - уста Иереев Божиих. Кто из них затворяет уста свои, тот преграждает путь истине, просящейся в души верующих. Оттого и души верующих томятся, не получая истины, и сами иереи должны ощущать томление от истины, которая, не получая исхода, тяготит их. Облегчись же, иерей Божий, от этой тяготы, испусти потоки Божеских словес, в отраду себе и в оживление вверенных тебе душ. Когда же увидишь, что и у тебя самого нет истины, возьми ее: она - в святых писаниях; и, исполняясь ею, препровождай ее к детям твоим духовным: только не молчи. Проповедуй, ибо на это ты призван.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

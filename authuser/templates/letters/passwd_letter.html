@@ -1,0 +1,9 @@
+{% extends 'letters/letter_wrapper.html' %}
+{% load i18n %}
+{% block title %}{% trans 'Здравствуйте' %}, {{ first_name }} {{ last_name }}!{% endblock %}
+{% block main %}
+  <p>{% trans 'Ваш новый пароль:' %} {{ password }}</p>
+  <p>{% trans 'При желании Вы можете поменять его в' %} <a href="https://st-gospel.ru/profile/" style="color:#007bff;text-decoration:none;font-weight:bold;">{% trans 'Профиле' %}</a></p>
+  <br />
+  <p>{% trans 'Благодарим Вас!' %}</p>
+{% endblock %}

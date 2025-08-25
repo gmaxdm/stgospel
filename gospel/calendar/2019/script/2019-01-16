@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("16 января 2020 г. ( 3 января ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 31-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14398.html\" target=\"_blank\" title=\"Предпразднство Богоявления\">Предпразднство</a> Богоявления. Прор. <a  href=\"http://days.pravoslavie.ru/name/1440.html\" target=\"_blank\" title=\"Малахия, пророк, из 12 малых пророков\">Малахии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1440_934.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/528.html\" target=\"_blank\" title=\"Гордий Каппадокийский, сотник, мч.\">Гордия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii528_3923.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/13554.html\" target=\"_blank\" title=\"Геновефа (Женевьева) Парижская, прп.\">Женевьевы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13554_4633.html\" target=\"_blank\" >икона</a>) (Геновефы) Парижской. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14677.html\" target=\"_blank\" title=\"Василий (Холмогоров), протоиерей, сщмч.\">Василия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Мч.: <a href=\"http://days.pravoslavie.ru/bible/z_2-tim_2_1_10.html#z\">2 Тим., 292 зач., II, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22.</a> ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

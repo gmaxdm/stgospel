@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("15 апреля 2020 г. ( 2 апреля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Страстная седмица. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><a  href=\"http://days.pravoslavie.ru/name/6752.html\" target=\"_blank\" title=\"Великая Среда\">Великая Среда</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6752_4512.html\" target=\"_blank\" >икона</a>)</span><br> Прп. <a  href=\"http://days.pravoslavie.ru/name/2111.html\" target=\"_blank\" title=\"Тит Чудотворец, иеромонах\">Тита</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2111_3411.html\" target=\"_blank\" >икона</a>) чудотворца. Мчч. <a  href=\"http://days.pravoslavie.ru/name/151.html\" target=\"_blank\" title=\"Амфиан Патарский, Кесарийский (Александрийский), мч.\">Амфиана</a> и <a  href=\"http://days.pravoslavie.ru/name/749.html\" target=\"_blank\" title=\"Едесий Патарский, Александрийский, мч.\">Едесия</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/1810.html\" target=\"_blank\" title=\"Поликарп Александрийский, мч.\">Поликарпа</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_12_17_50.html#z\">Ин., 41 зач. (от&nbsp;полу&#769;), XII, 17-50.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_26_6_16.html#z\">Мф., 108 зач., XXVI, 6-16.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17815.htm\" target=\"_blank\" title=\"Библия\">Мф. 26, 6-16</a>). Умолк Господь в среду и четверг до вечера, чтобы в вечер этот излиться речью с учениками и к ученикам, - речью подобного которой ничего нет во всех писаниях не только человеческих, но и Божеских. Ныне, по указанию Церкви, слышим только из уст Господа, чтоб не мешали мазать Его миром, потому что это служило Ему приготовлением к смерти. У Него перед очами уже только смерть, - заключительное таинство Его пришествия на землю во спасение наше. Углубимся и мы в созерцание этой таинственной смерти, чтобы извлечь оттуда благонадежие спасения для душ наших, обремененных многими грехами, и не знающих, как обрести себе покой от томлений пробудившейся совести и сознания праведности суда Божия над нами, грозного и неумытного .<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("6 апреля 2020 г. ( 24 марта ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я Великого поста (седмица ваий). ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Предпразднство Благовещения Пресвятой Богородицы.  Прп. <a  href=\"http://days.pravoslavie.ru/name/821.html\" target=\"_blank\" title=\"Захария Отверстый, затворник\">Захарии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii821_4145.html\" target=\"_blank\" >икона</a>) монаха. Свт. <a  href=\"http://days.pravoslavie.ru/name/6673.html\" target=\"_blank\" title=\"Святитель Артемон, епископ Селевкийский\">Артемия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6673_3208.html\" target=\"_blank\" >икона</a>) (Артемона) еп. Солунского (Селевкийского). Прп. <a  href=\"http://days.pravoslavie.ru/name/874.html\" target=\"_blank\" title=\"Святитель Иаков Катанский (Сицилийский), епископ, исповедник\">Иакова</a> исп., еп. Прп. <a  href=\"http://days.pravoslavie.ru/name/822.html\" target=\"_blank\" title=\"Преподобный Захария Постник, Печерский\">Захарии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii822_623.html\" target=\"_blank\" >икона</a>), постника Печерского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2055.html\" target=\"_blank\" title=\"Мученик Стефан Казанский\">Стефана</a> и <a  href=\"http://days.pravoslavie.ru/name/1774.html\" target=\"_blank\" title=\"Петр Казанский, мч.\">Петра</a> Казанских.  Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14995.html\" target=\"_blank\" title=\"Александр (Флегинский), сщмч.\">Александра</a> пресвитера Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9534.html\" target=\"_blank\" title=\"Владимир (Панькин), иерей, сщмч.\">Владимира</a> пресвитера. Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2996.html\" target=\"_blank\" title=\"\"Тучная Гора\"\">\"Тучная Гора\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2996_2537.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_48_17_0_49_0_4.html#z\">Ис. XLVIII, 17 - XLIX, 4.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_27_1_41.html#z\">Быт. XXVII, 1-41.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_19_16_25.html#z\">Притч. XIX, 16-25.</a> Благовещения: <a href=\"http://days.pravoslavie.ru/bible/z_byt_28_10_17.html#z\">Быт. XXVIII, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_iez_43_27_0_44_0_4.html#z\">Иез. XLIII, 27 - XLIV, 4.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_9_1_11.html#z\">Притч. IX, 1-11.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("Так говорит Господь: \"Я Господь Бог твой, научающий тебя полезному, ведущий тебя по тому пути, по которому должно тебе идти. О, если бы ты внимал заповедям Моим! Тогда мир твой был бы как река, и правда твоя - как волны морские. И семя твое было бы как песок, и происходящие из чресл твоих - как песчинки; не изгладилось бы, не истребилось бы имя его предо Мною\". Под каким условием? \"Выходите из Вавилона\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17804.htm\" target=\"_blank\" title=\"Библия\">Ис. 48, 17-20</a>). Вавилон - это образ греховности всесторонней. Оставь грех, обратись ко Господу всем сердцем твоим, и Он не помянет беззаконий твоих, и предаст забвению все неправды твои. Опять поступишь в милость к Нему, - и тогда только ходи путем, которому учит Он тебя, и будет, как река мир твой внутренний, как песок - благопомышления сердца твоего, и как персть земли - плоды доброделания твоего.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

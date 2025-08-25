@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("4 мая 2020 г. ( 21 апреля ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/890.html\" target=\"_blank\" title=\"Святитель Ианнуарий Беневентский, Путеольский (Неапольский), епископ, сщмч.\">Ианнуария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii890_4213.html\" target=\"_blank\" >икона</a>) еп. и с ним мчч. <a  href=\"http://days.pravoslavie.ru/name/1849.html\" target=\"_blank\" title=\"Прокул (Прокл) Путеольский, диакон, сщмч.\">Прокула</a>, <a  href=\"http://days.pravoslavie.ru/name/2037.html\" target=\"_blank\" title=\"Соссий Путеольский, диакон, сщмч.\">Соссия</a> и <a  href=\"http://days.pravoslavie.ru/name/2151.html\" target=\"_blank\" title=\"Фавст Путеольский, диакон, сщмч.\">Фавста</a> диаконов, <a  href=\"http://days.pravoslavie.ru/name/637.html\" target=\"_blank\" title=\"Дисидерий Путеольский, мч.\">Дисидерия</a> чтеца, <a  href=\"http://days.pravoslavie.ru/name/730.html\" target=\"_blank\" title=\"Евтихий Путеольский, мч.\">Евтихия</a> и <a  href=\"http://days.pravoslavie.ru/name/101.html\" target=\"_blank\" title=\"Акутион Путеольский, мч.\">Акутиона</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/2194.html\" target=\"_blank\" title=\"Феодор Пергийский (Памфилийский), мч.\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2194_4203.html\" target=\"_blank\" >икона</a>), иже в Пергии, матери его <a  href=\"http://days.pravoslavie.ru/name/2734.html\" target=\"_blank\" title=\"Филиппия Пергийская (Памфилийская), мц.\">Филиппии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2734_4203.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/635.html\" target=\"_blank\" title=\"Диоскор Пергийский (Памфилийский), мч.\">Диоскора</a>, <a  href=\"http://days.pravoslavie.ru/name/2033.html\" target=\"_blank\" title=\"Сократ Пергийский (Памфилийский), мч.\">Сократа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2033_4203.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/627.html\" target=\"_blank\" title=\"Дионисий Пергийский (Памфилийский), мч.\">Дионисия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii627_4203.html\" target=\"_blank\" >икона</a>). Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/13619.html\" target=\"_blank\" title=\"Феодор Санаксарский, прп.\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13619_2084.html\" target=\"_blank\" >икона</a>) Санаксарского. Прав. <a  href=\"http://days.pravoslavie.ru/name/10108.html\" target=\"_blank\" title=\"Алексий (Гневушев) Бортсурманский, иерей\">Алексия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10108_4536.html\" target=\"_blank\" >икона</a>) Бортсурманского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1103.html\" target=\"_blank\" title=\"Исакий Никомидийский, мч.\">Исакия</a>, <a  href=\"http://days.pravoslavie.ru/name/245.html\" target=\"_blank\" title=\"Аполлос Никомидийский, мч.\">Аполлоса</a> и <a  href=\"http://days.pravoslavie.ru/name/1259.html\" target=\"_blank\" title=\"Кодрат (Кротат) Никомидийский, мч.\">Кодрата</a>. Свт <a  href=\"http://days.pravoslavie.ru/name/1437.html\" target=\"_blank\" title=\"Святитель Максимиан (Максим) Константинопольский, патриарх\">Максимиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1437_4214.html\" target=\"_blank\" >икона</a>), патриарха Константинопольского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9628.html\" target=\"_blank\" title=\"Иоанн (Пригоровский), иерей, сщмч.\">Иоанна</a> пресвитера. Св. <a  href=\"http://days.pravoslavie.ru/name/9721.html\" target=\"_blank\" title=\"Николай (Писаревский), иерей, исп.\">Николая</a> исп., пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14248.html\" target=\"_blank\" title=\"Алексий (Протопопов), иерей, сщмч.\">Алексия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_6_8_0_7_0_5_7_47_60.html#z\">Деян., 17 зач., VI, 8 - VII, 5, 47-60.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_4_46_54.html#z\">Ин., 13 зач., IV, 46-54.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17851.htm\" target=\"_blank\" title=\"Библия\">Дея. 6, 8-7, 5, 47-60</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17852.htm\" target=\"_blank\" title=\"Библия\">Ин. 4, 46-54</a>). Св. Стефан говорит: \"Всевышний не в рукотворенных храмах живет. . . Какой дом созиждете Мне, говорит Господь, или какое место для покоя Моего?\". Только нерукотворенный храм сердца боговместим, как сказал Господь: \"кто любит Меня, тот соблюдет слово Мое; и Отец Мой возлюбит его, и Мы придем к нему и обитель у него сотворим\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17853.htm\" target=\"_blank\" title=\"Библия\">Ин. 14, 23</a>). Как это совершается - непостижимо для нас; но оно так есть, ибо очевидно бывает, что тогда \"Бог производит в нас и хотение, и действие по Своему благоволению\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17854.htm\" target=\"_blank\" title=\"Библия\">Фил. 2, 13</a>). Не рассуждай и только отдай Господу сердце твое, а Он Сам устроит из него храм Себе, но отдай нераздельно. Если будут части неотданные, то из него нельзя будет устроить цельного храма, ибо одно будет гнило, другое разбито - и выйдет, если только выйдет, храм с дырами, или без крыши, или без дверей. А в таком жить нельзя; Господа в нем и не будет. Только казаться будет, что это храм, а на самом деле какое-то нагромождение.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

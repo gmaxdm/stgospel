@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("29 октября 2020 г. ( 16 октября ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 21-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/1368.html\" target=\"_blank\" title=\"Мученик Лонгин Сотник\">Лонгина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1368_360.html\" target=\"_blank\" >икона</a>) сотника, иже при Кресте Господни. Прп. <a  href=\"http://days.pravoslavie.ru/name/15004.html\" target=\"_blank\" title=\"Галл, прп.\">Галла</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1366.html\" target=\"_blank\" title=\"Преподобный Лонгин, вратарь Печерский\">Лонгина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1366_3545.html\" target=\"_blank\" >икона</a>), вратаря Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14400.html\" target=\"_blank\" title=\"Лонгин Яренгский, прп.\">Лонгина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14400_3546.html\" target=\"_blank\" >икона</a>) Яренгского. Св. <a  href=\"http://days.pravoslavie.ru/name/13831.html\" target=\"_blank\" title=\"Георгий (Троицкий), иерей, сщмч.\">Георгия</a> исп., пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9566.html\" target=\"_blank\" title=\"Евгений (Елховский), иерей, сщмч.\">Евгения</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13832.html\" target=\"_blank\" title=\"Алексий (Никонов), иерей, сщмч.\">Алексия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9609.html\" target=\"_blank\" title=\"Иоанн (Заседателев), иерей, сщмч.\">Иоанна</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_kol_1_24_29.html#z\">Кол., 252 зач., I, 24-29.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_9_7_11.html#z\">Лк., 41 зач., IX, 7-11.</a> Мч.: <a href=\"http://days.pravoslavie.ru/bible/z_2-tim_2_1_10.html#z\">2 Тим., 292 зач., II, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_27_33_54.html#z\">Мф., 113 зач., XXVII, 33-54.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18233.htm\" target=\"_blank\" title=\"Библия\">Лк. 9, 7-11</a>). Услышав о делах Христа Спасителя, Ирод говорил: \"Иоанна я обезглавил; кто же Этот?\" - и пожелал видеть Его. Желал видеть и искал случая к тому, но не удостоился, потому что искал не для веры и спасения, а из пустого любопытства. Пытливость - щекотание ума; не истина дорога ей, а новость и особенно эффектная. Оттого она нередко не довольствуется самою истиною, а среди нее ищет чего-либо особенного, а выдумав это особенное, она на нем и останавливается и других привлекает к тому. Истина тут становится назади, а впереди стоит своя выдумка. В наши дни такова замашка немецкого ума. Немцы помешались на том, чтобы выдумывать. Всю область истины Божией, как туманом, закрыли своими выдумками. Возьмите хоть догматы, хоть нравоучение, хоть историю, хоть слово Божие - все так загромождено выдумками, что до истины Божией и не доберешься. А между тем, они их интересуют, и тех, кто одного с ними настроения. Истина Божия проста; гордому ли уму заниматься ею? Он лучше свое выдумает. Это эффектно, хоть пусто и слабо, как сеть паутинная. Что это так, просмотрите нынешние теории мироздания: они походят на бред сонного или опьянелого. А уж как кажутся хороши изобретателям! Сколько тратится на это сил и времени - и все понапрасну! Дело совершилось просто: \"рече, и быша; повеле, и создашася \". Лучше этого решения никто не придумает.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

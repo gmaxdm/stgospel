@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("26 мая 2020 г. ( 13 мая ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мц. <a  href=\"http://days.pravoslavie.ru/name/2445.html\" target=\"_blank\" title=\"Мученица Гликерия Гераклейская\">Гликерии</a> девы и с нею мч. <a  href=\"http://days.pravoslavie.ru/name/1330.html\" target=\"_blank\" title=\"Лаодикий Гераклейский, мч.\">Лаодикия</a>, стража темничного. Мч. <a  href=\"http://days.pravoslavie.ru/name/121.html\" target=\"_blank\" title=\"Александр Римский, мч.\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii121_4082.html\" target=\"_blank\" >икона</a>) Римского. Свт. <a  href=\"http://days.pravoslavie.ru/name/1705.html\" target=\"_blank\" title=\"Святитель Павсикакий (Павсакий) Синадский (Фригийский), епископ\">Павсикакия</a>, еп. Синадского. Свв. <a  href=\"http://days.pravoslavie.ru/name/489.html\" target=\"_blank\" title=\"Георгий Константинопольский, исповедник\">Георгия</a> исп. с супругою <a  href=\"http://days.pravoslavie.ru/name/6947.html\" target=\"_blank\" title=\"Ирина Константинопольская\">Ириною</a> и чадами. Прп. <a  href=\"http://days.pravoslavie.ru/name/739.html\" target=\"_blank\" title=\"Евфимий Новый, Святогорец, Иверский (Афонский), прп.\">Евфимия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii739_4269.html\" target=\"_blank\" >икона</a>) Иверского, Святогорца (Груз.). Прав. <a  href=\"http://days.pravoslavie.ru/name/2446.html\" target=\"_blank\" title=\"Святая праведная Гликерия, дева Новгородская\">Гликерии</a> девы, Новгородской. Перенесение мощей прмч. <a  href=\"http://days.pravoslavie.ru/name/1405.html\" target=\"_blank\" title=\"Священномученик Макарий Каневский\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1405_253.html\" target=\"_blank\" >икона</a>)  Каневского, игумена Пинского, Переяславского чудотворца. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9286.html\" target=\"_blank\" title=\"Василий (Соколов), протоиерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9257.html\" target=\"_blank\" title=\"Александр (Заозерский), протоиерей, сщмч.\">Александра</a> и <a  href=\"http://days.pravoslavie.ru/name/9825.html\" target=\"_blank\" title=\"Христофор (Надеждин), иерей, сщмч.\">Христофора</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/9225.html\" target=\"_blank\" title=\"Макарий (Телегин), иеромонах, сщмч.\">Макария</a> и мч. <a  href=\"http://days.pravoslavie.ru/name/10032.html\" target=\"_blank\" title=\"Сергий (Тихомиров), мч.\">Сергия</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/10105.html\" target=\"_blank\" title=\"103 мученика Черкасских\">103 Черкасских</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_17_19_28.html#z\">Деян., 40 зач. (от&nbsp;полу&#769;), XVII, 19-28.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_12_19_36.html#z\">Ин., 42 зач., XII, 19-36.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17900.htm\" target=\"_blank\" title=\"Библия\">Дея. 17, 19-28</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17901.htm\" target=\"_blank\" title=\"Библия\">Ин. 12, 19-36</a>). \"Если пшеничное зерно, падши на землю, не умрет, то останется одно, а если умрет, то принесет много плода\". Итак, если хочешь быть плодоносным, - умри; умри настоящим образом, чтобы в сердце носить чувство, что ты уже умер. Как мертвый ни на что окружающее не отзывается, так делай и ты: хвалят - молчи, и бранят - молчи, и прибыль получишь - молчи; сыт - молчи, и голоден - молчи. Будь таков ко всему внешнему, внутренне же держи себя там, где бывает всякий умерший, - в другой жизни, перед лицом Бога всеправедного, готовясь услышать последний приговор. Какой же, скажете, плод от этого, когда тут, все замрет? Нет, не замрет, а явится энергия да еще какая. Одна минутка осталась, скажешь себе, - сейчас приговор; дай поспешу сделать что-нибудь, - и сделаешь. Так и в каждую минуту.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

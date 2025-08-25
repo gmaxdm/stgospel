@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("12 апреля 2020 г. ( 30 марта ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 6-я ваий (цветоносная, Вербное воскресенье). ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. На трапезе разрешается рыба. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/3036.html\" target=\"_blank\" title=\"Вход Господень в Иерусалим\">Вход Господень в Иерусалим.</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii3036_73.html\" target=\"_blank\" >икона</a>)</span></span><br> Прп. <a  href=\"http://days.pravoslavie.ru/name/986.html\" target=\"_blank\" title=\"Преподобный Иоанн Лествичник\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii986_66.html\" target=\"_blank\" >икона</a>) Лествичника. Свт. <a  href=\"http://days.pravoslavie.ru/name/2043.html\" target=\"_blank\" title=\"Святитель Софроний, епископ Иркутский\">Софрония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2043_372.html\" target=\"_blank\" >икона</a>), еп. Иркутского. Прор. <a  href=\"http://days.pravoslavie.ru/name/954.html\" target=\"_blank\" title=\"Пророк Иоад\">Иоада</a>. Апп. <a  href=\"http://days.pravoslavie.ru/name/2038.html\" target=\"_blank\" title=\"Апостол от 70-ти Сосфен\">Сосфена</a>, <a  href=\"http://days.pravoslavie.ru/name/244.html\" target=\"_blank\" title=\"Апостол от 70-ти Аполлос Александриец\">Аполлоса</a>, <a  href=\"http://days.pravoslavie.ru/name/1239.html\" target=\"_blank\" title=\"Апостол от 70-ти Кифа\">Кифы</a>, <a  href=\"http://days.pravoslavie.ru/name/1200.html\" target=\"_blank\" title=\"Апостол от 70-ти Кесарь\">Кесаря</a> и <a  href=\"http://days.pravoslavie.ru/name/780.html\" target=\"_blank\" title=\"Апостол от 70-ти Епафродит\">Епафродита</a>. Св. <a  href=\"http://days.pravoslavie.ru/name/2463.html\" target=\"_blank\" title=\"Еввула Никомидийская\">Еввулы</a>, матери вмч. Пантелеимона. Прп. <a  href=\"http://days.pravoslavie.ru/name/960.html\" target=\"_blank\" title=\"Иоанн Безмолвник, Савваит\">Иоанна</a> безмолвника. Прп. <a  href=\"http://days.pravoslavie.ru/name/853.html\" target=\"_blank\" title=\"Святитель Зосима Сиракузский, епископ\">Зосимы</a>, еп. Сиракузского. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_21_1_11_21_15_17.html#z\">Мф., 83 зач., XXI, 1-11, 15-17.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_flp_4_4_9.html#z\">Флп., 247 зач., IV, 4-9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_12_1_18.html#z\">Ин., 41 зач., XII, 1-18.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17811.htm\" target=\"_blank\" title=\"Библия\">Фил. 4, 4-9</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17812.htm\" target=\"_blank\" title=\"Библия\">Ин. 12, 1-18</a>). Кого не было при Сретении Господа, когда Он торжественно, как царь, входил в Иерусалим, и кто не взывал тогда: \"осанна Сыну Давидову\"! Но прошло только четыре дня, и тот же народ, тем же языком кричал: \"распни, распни Его\"! Дивное превращение! Но что дивиться? Не то же ли самое делаем и мы, когда по принятии св. таин Тела и Крови Господних, чуть только выходим из церкви, - забываем все, и свое благоговение и Божию к нам милость, и предаемся по прежнему делам самоугодническим, сначала маленьким, а потом и большим, и, может быть, еще прежде четырех дней, хоть не кричим другому: \"распни!\", а сами распинаем в себе Господа. И все это видит и терпит Господь! Слава долготерпению Твоему, Господи!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

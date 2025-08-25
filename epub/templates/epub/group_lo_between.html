@@ -1,0 +1,181 @@
+    <div>
+        <h2>{{ reading.title }}</h2>
+        {% for ch in reading.partition.0 %}
+        <div>
+        <h3>{{ ch.book }}</h3>
+        <h4>{% if ch.num %}Глава {{ ch.num }}{% else %}Предисловие{% endif %}</h4>
+        <div>
+            {% for ln in ch.lines %}
+            <p>{% if ln.num %}<strong class="text-danger">{{ ln.num }}</strong>{% endif %} {{ ln.text }}</p>
+            {% endfor %}
+        </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% if health %}
+    <h3>О Здравии</h3>
+    <p class="lead">Спаси, Господи, и помилуй раб Твоих</p>
+    {% for row in health %}
+        {% for div in row %}
+        {% if div.name or div.list %}
+        <div class="card border-light">
+            <h4 class="card-header">{{ div.name|default:" " }}</h4>
+            {% if div.list %}
+            <div class="card-body">
+                {% for name in div.list %}
+                {% if name.name %}
+                <p class="card-text">{{ name.name }}{% if name.till %} <small class="text-muted">до {{ name.till }}</small>{% endif %}</p>
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+        {% endfor %}
+    {% endfor %}
+    <p class="lead">словами Божественнаго Писания, чтомыми о спасении рабов Твоих. Попали, Господи, терние всех наших согрешений, и да вселится в нас благодать Твоя, опаляющая, очищающая, освящающая всего человека во имя Отца и Сына и Святаго Духа. Аминь.</p>
+    {% endif %}
+    {% if sick %}
+        <h3>О болящих</h3>
+        <h5>Тропарь, глас 4</h5>
+        <p class="lead">Ско́pый в заступле́нии Еди́н сый, Хpисте́,/ ско́pое свы́ше покажи́ посеще́ние стpа́ждущим pабо́м Твои́м,/ и изба́ви от неду́г и го́pьких боле́зней,/ и воздви́гни во е́же пе́ти Тя и сла́вити непpеста́нно,// моли́твами Богоpо́дицы, Еди́не Человеколю́бче.</p>
+        <h5>Кондак, глас 2</h5>
+        <p class="lead">На одре́ боле́зни лежа́щих и сме́ртною ра́ною уя́звленных,/ я́коже иногда́ воздви́гл еси́, Спа́се, Петро́ву те́щу,/ и рассла́бленнаго на одре́ носи́маго,/ си́це и ны́не, Милосе́рде, стра́ждущих посети́ и исцели́:/ Ты бо Еди́н еси́ неду́ги и боле́зни ро́да на́шего понесы́й,// и вся моги́й, я́ко Многоми́лостив.</p>
+        <h5>Молитва ко Господу</h5>
+        <p class="lead">
+            Влады́ко, Вседержи́телю, Святы́й Царю́, наказу́яй и не умерщвля́яй, утвержда́яй низпа́дающия и возводя́й низве́рженныя, теле́сныя челове́ков ско́рби исправля́яй, мо́лимся Тебе́, Бо́же наш, раб Твоих
+            {% for row in sick %}
+                {% for div in row %}
+                {% if div.list %}
+                    {% for name in div.list %}
+                    {% if name.name %}
+                    <span class="badge badge-light">{{ name.name }}{% if name.till %} <small class="text-muted">до {{ name.till }}</small>{% endif %}{% if not forloop.last %}, {% endif %}</span>
+                    {% endif %}
+                    {% endfor %}
+                    {% if not forloop.last %}, {% endif %}
+                {% endif %}
+                {% endfor %}
+            {% endfor %}
+            немощству́юща посети́ ми́лостию Твое́ю, прости́ им вся́кое согреше́ние во́льное и нево́льное. Ей, Го́споди, враче́бную Твою́ си́лу с Небесе́ низпосли́, прикосни́ся телеси́, угаси́ огне́вицу, укроти́ стра́сть и вся́кую не́мощь тая́щуюся, бу́ди врач рабам Твоим
+            {% for row in sick %}
+                {% for div in row %}
+                {% if div.list %}
+                    {% for name in div.list %}
+                    {% if name.name %}
+                    <span class="badge badge-light">{{ name.name }}{% if name.till %} <small class="text-muted">до {{ name.till }}</small>{% endif %}{% if not forloop.last %}, {% endif %}</span>
+                    {% endif %}
+                    {% endfor %}
+                    {% if not forloop.last %}, {% endif %}
+                {% endif %}
+                {% endfor %}
+            {% endfor %}
+            воздви́гни их от одра́ боле́зненнаго и от ло́жа озлобле́ния це́ла и всесоверше́нна, да́руй их Це́ркви Твое́й благоугожда́юща и творя́ща во́лю Твою́. Твое́ бо есть, е́же ми́ловати и спаса́ти ны, Бо́же наш, и Тебе́ сла́ву возсыла́ем, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́не и при́сно и во ве́ки веко́в. Ами́нь.
+        </p>
+    {% endif %}
+    {% if war %}
+        <h3>О примирении враждующих</h3>
+        <h5>Молитва о примирении враждующих</h5>
+        <p class="lead">
+            Благодарим Тя, Влады́ко Человеколю́бче, Царю́ веко́в и Пода́телю благи́х, разру́шивший вражды́ средосте́ния и мир пода́вший ро́ду челове́ческому, да́руй и ны́не мир рабо́м Твои́м
+            {% for row in war %}
+                {% for div in row %}
+                {% if div.list %}
+                    {% for name in div.list %}
+                    {% if name.name %}
+                    <span class="badge badge-light">{{ name.name }}{% if name.till %} <small class="text-muted">до {{ name.till }}</small>{% endif %}{% if not forloop.last %}, {% endif %}</span>
+                    {% endif %}
+                    {% endfor %}
+                    {% if not forloop.last %}, {% endif %}
+                {% endif %}
+                {% endfor %}
+            {% endfor %}
+            вкорени́ в них стра́х Твой и друг к дру́гу любо́вь утверди́: угаси́ вся́ку ра́спрю, отъими́ вся разногла́сия и собла́зны. Я́ко Ты еси́ мир наш и Тебе́ сла́ву возсыла́ем, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́не и при́сно и во ве́ки веко́в. Ами́нь.
+        </p>
+    {% endif %}
+    {% if army %}
+        <h3>О воинах</h3>
+        <p class="lead">
+        Господи Боже наш, послушавый Моисея, простерша к Тебе руце, и людей израилевых укрепивый на Амалика, ополчивый Иисуса Навина на брань, и повелевый солнцу стати: Ты и ныне, Владыко Господи, услыши нас молящихся Тебе: укрепи силою Твоею людей православных, благослови их дела, умножи славу их победами над противоборствующими Православной Церкви, утверди всесильною Твоею десницею, сохрани воинов православных 
+        {% for row in army %}
+            {% for div in row %}
+            {% if div.list %}
+                {% for name in div.list %}
+                {% if name.name %}
+                <span class="badge badge-light">{{ name.name }}{% if name.till %} <small class="text-muted">до {{ name.till }}</small>{% endif %}{% if not forloop.last %}, {% endif %}</span>
+                {% endif %}
+                {% endfor %}
+                {% if not forloop.last %}, {% endif %}
+            {% endif %}
+            {% endfor %}
+        {% endfor %}
+        , посли Ангела Твоего укрепляющаго их. Отыми от них всяк глад и пагубу, и избави их от огня и меча и нападения врагов, и от всякаго востания противнаго: подаждь им вся, яже ко спасению прошения, споспешествуя им во всем. Посли, Господи, невидимо десницу Твою, рабов Твоих заступающую во всем: яко Твоя держава, Царство и сила, от Тебе помощь вси приемлем, на Тя уповаем и Тебе славу возсылаем, Отцу и Сыну и Святому Духу, ныне и присно и во веки веков. Аминь.
+        </p>
+    {% endif %}
+    {% if reading.partition.1 %}
+    <div>
+        <h2>{{ reading.title }}</h2>
+        {% for ch in reading.partition.1 %}
+        <div>
+        <h3>{{ ch.book }}</h3>
+        <h4>{% if ch.num %}Глава {{ ch.num }}{% else %}Предисловие{% endif %}</h4>
+        <div>
+            {% for ln in ch.lines %}
+            <p>{% if ln.num %}<strong class="text-danger">{{ ln.num }}</strong>{% endif %} {{ ln.text }}</p>
+            {% endfor %}
+        </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% if rip %}
+    <h3>О Упокоении</h3>
+    <p class="lead">Упоко́й, Го́споди, ду́ши усо́пших раб Твои́х:</p>
+    {% for row in rip %}
+        {% for div in row %}
+        <div class="card border-light">
+            {% if div.list %}
+            <div class="card-body">
+                {% for name in div.list %}
+                {% if name.name %}
+                <p class="card-text">{{ name.name }}{% if name.till %} <small class="text-muted">до {{ name.till }}</small>{% endif %}</p>
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    {% endfor %}
+    <p class="lead">и всех правосла́вных христиа́н, и прости́ им вся согреше́ния во́льная и нево́льная, и да́руй им Ца́рствие Небе́сное.</p>
+    {% endif %}
+    {% if reading.partition.2 %}
+    <div>
+        <h2>{{ reading.title }}</h2>
+        {% for ch in reading.partition.2 %}
+        <div>
+        <h3>{{ ch.book }}</h3>
+        <h4>{% if ch.num %}Глава {{ ch.num }}{% else %}Предисловие{% endif %}</h4>
+        <div>
+            {% for ln in ch.lines %}
+            <p>{% if ln.num %}<strong class="text-danger">{{ ln.num }}</strong>{% endif %} {{ ln.text }}</p>
+            {% endfor %}
+        </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% if pray %}
+    <h3>Молитва по соглашению</h3>
+    <p class="lead">Господи Иисусе Христе; Сыне Божий, Ты бо рекл еси пречистыми усты Твоими: Аминь глаголю вам, яко аще два от вас совещается на земли о всяцей вещи, еяже аще просите, будет има от Отца Моего, Иже на небесех: идеже бо еста два или трие собрани во имя Мое, ту есмь посреди их. Непреложны словеса Твоя, Господи, милосердие Твое безприкладно и человеколюбию Твоему несть конца. Сего ради молим Тя: даруй нам, рабам Твоим зде предстоящим, согласившимся просить Тя
+        {% for row in pray %}
+            {% for div in row %}
+            {% if div.list %}
+                {% for name in div.list %}
+                {% if name.name %}
+                <span class="badge badge-light">{{ name.name }}{% if name.till %} <small class="text-muted">до {{ name.till }}</small>{% endif %}, </span>
+                {% endif %}
+                {% endfor %}
+            {% endif %}
+            {% endfor %}
+        {% endfor %}
+    исполнения нашего прошения. Но обаче не якоже мы хотим, но якоже Ты. Да будет во веки воля Твоя. Аминь.</p>
+    {% endif %}

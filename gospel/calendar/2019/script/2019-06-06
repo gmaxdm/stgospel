@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("6 июня 2020 г. ( 24 мая ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 7-я по Пасхе. <a  href=\"http://days.pravoslavie.ru/name/3568.html\" target=\"_blank\" title=\"Суббота Троицкая\">Троицкая родительская суббота</a>. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' >Прп. <a  href=\"http://days.pravoslavie.ru/name/2012.html\" target=\"_blank\" title=\"Преподобный Симеон Столпник, Дивногорец\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2012_1109.html\" target=\"_blank\" >икона</a>) столпника Дивногорца.</span><br> Прп. <a  href=\"http://days.pravoslavie.ru/name/1618.html\" target=\"_blank\" title=\"Никита Столпник, Переяславский, прп.\">Никиты</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1618_1938.html\" target=\"_blank\" >икона</a>), столпника Переяславльского. Блж. <a  href=\"http://days.pravoslavie.ru/name/2568.html\" target=\"_blank\" title=\"Святая блаженная Ксения Петербургская\">Ксении</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2568_24.html\" target=\"_blank\" >икона</a>) Петербургской Мчч. <a  href=\"http://days.pravoslavie.ru/name/1508.html\" target=\"_blank\" title=\"Мелетий Галатийский, трибун, мч.\">Мелетия</a> Стратилата, <a  href=\"http://days.pravoslavie.ru/name/2054.html\" target=\"_blank\" title=\"Стефан Галатийский, мч.\">Стефана</a>, <a  href=\"http://days.pravoslavie.ru/name/970.html\" target=\"_blank\" title=\"Иоанн Галатийский, мч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/1960.html\" target=\"_blank\" title=\"Святитель Серапион Египтянин, Галатийский, епископ, сщмч.\">Серапиона</a> египтянина, <a  href=\"http://days.pravoslavie.ru/name/1156.html\" target=\"_blank\" title=\"Каллиник Галатийский, мч.\">Каллиника</a> волхва, <a  href=\"http://days.pravoslavie.ru/name/2182.html\" target=\"_blank\" title=\"Феодор Галатийский, мч.\">Феодора</a> и <a  href=\"http://days.pravoslavie.ru/name/2149.html\" target=\"_blank\" title=\"Фавст Галатийский, мч.\">Фавста</a>, и с ними 1218 воинов с женами и детьми. Прп. <a  href=\"http://days.pravoslavie.ru/name/14900.html\" target=\"_blank\" title=\"Викентий Леринский, прп.\">Викентия</a> Леринского. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_28_1_31.html#z\">Деян., 51 зач., XXVIII, 1-31.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25.</a> За упокой: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_15_47_57.html#z\">1 Кор., 163 зач., XV, 47-57.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_6_35_39.html#z\">Ин., 21 зач., VI, 35-39.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17924.htm\" target=\"_blank\" title=\"Библия\">Дея. 28; 1-31</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17925.htm\" target=\"_blank\" title=\"Библия\">Ин. 21, 15-25</a>). Никто не поленится помянуть своих родителей; но поминать надо и всех православных христиан, и не в этот только день, а во всякое время, на всякой молитве. Сами там будем, и понуждаемся в молитве этой, как бедный в куске хлеба и чаше воды. Помни, что молитва об усопших и сильна общностью - тем, что идет от лица всей Церкви. Церковь дышет молитвой. Но как в естественном порядке, при беременности мать дышет, а сила дыхания переходит и на дитя, так и в благодатном порядке Церковь дышет общею всех молитвою, а сила молитвы переходит и на усопших, содержимых в лоне Церкви, которая слагается из живых и умерших, воюющих и торжествующих. Не поленись же на всякой молитве усердно поминать всех отшедших отец и братий наших. Это будет от тебя им милостыня. . .<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

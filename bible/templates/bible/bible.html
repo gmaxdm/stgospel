@@ -1,0 +1,15 @@
+{% extends 'wrapper.html' %}
+{% block description %}
+    <meta name="description" content="Библия. Синодальный перевод. Соборное чтение Библии. Чтение Библии онлайн на любых устройствах." />
+{% endblock %}
+{% block title %}Библия. Синодальный перевод{% endblock %}
+{% block main %}
+    <div class="">
+        <h1>Библия. Синодальный перевод</h1>
+        <ul class="p-3">
+            {% for book in object_list %}
+            <li><a href="{% url 'book' book.slug %}">{{ book.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

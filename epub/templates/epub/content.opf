@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xlink="http://www.w3.org/1999/xlink" unique-identifier="bookid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title>Чтение Священного писания в группах по соглашению</dc:title>
+    <dc:description>Соборное чтение Священного Писания в группах по соглашению. Чтение Библии онлайн на любых устройствах. Выберите одну или несколько книг Библии и начните читать по главе в день. Добавляйте к чтению списки поминовения и различные молитвы.</dc:description>
+    <dc:creator>{{ user }}</dc:creator>
+    <dc:identifier id="bookid" opf:scheme="ID">{{ bookid }}</dc:identifier>
+    <dc:language>ru</dc:language>
+    <meta name="cover" content="cover-image" />
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="title" href="title.html" media-type="application/xhtml+xml"/>
+    {% for page in pages %}
+    <item id="{{ page.name }}" href="{{ page.name }}.html" media-type="application/xhtml+xml"/>
+    {% endfor %}
+    <item id="cover-image" href="images/ic_bible_128.png" media-type="image/png"/>
+    <item id="style" href="css/style.css" media-type="text/css"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="title" linear="yes"/>
+    {% for page in pages %}
+    <itemref idref="{{ page.name }}" linear="yes"/>
+    {% endfor %}
+  </spine>
+  <guide>
+    <reference href="title.html" type="cover" title="Cover"/>
+  </guide>
+</package>

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("9 ноября 2020 г. ( 27 октября ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 23-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/1603.html\" target=\"_blank\" title=\"Нестор Солунский (Фессалоникийский), мч.\">Нестора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1603_1935.html\" target=\"_blank\" >икона</a>) Солунского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1600.html\" target=\"_blank\" title=\"Преподобный Нестор Летописец\">Нестора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1600_608.html\" target=\"_blank\" >икона</a>) Летописца, Мцц. <a  href=\"http://days.pravoslavie.ru/name/2547.html\" target=\"_blank\" title=\"Капитолина Каппадокийская, мц.\">Капитолины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2547_3790.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2506.html\" target=\"_blank\" title=\"Еротиида Каппадокийская, мц.\">Еротииды</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2506_3790.html\" target=\"_blank\" >икона</a>). <a  href=\"http://days.pravoslavie.ru/name/1602.html\" target=\"_blank\" title=\"Нестор Печерский. Некнижный\">Нестора</a> Некнижного, Печерского. Обретение мощей блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/189.html\" target=\"_blank\" title=\"Святой благоверный князь Андрей\">Андрея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii189_3559.html\" target=\"_blank\" >икона</a>) Смоленского в Переславле-Залесском. Мч. <a  href=\"http://days.pravoslavie.ru/name/1467.html\" target=\"_blank\" title=\"Марк Фиваидский, мч.\">Марка</a> и иже с ним. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14521.html\" target=\"_blank\" title=\"Сергий (Чернухин), игумен, прмч.\">Сергия</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-sol_1_1_5.html#z\">1 Сол., 262 зач., I, 1-5.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_22_24.html#z\">Лк., 52 зач., X, 22-24.</a> Мч.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18257.htm\" target=\"_blank\" title=\"Библия\">1 Фес. 1, 1-5</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18258.htm\" target=\"_blank\" title=\"Библия\">Лк. 10, 22-24</a>). \"Кто есть Отец, не знает никто, кроме Сына, и кому Сын хочет открыть\". Сын же был на земле и все нужное нам открыл Сам и через Духа Святого, действовавшего в апостолах. Следовательно, что найдешь в Евангелии и апостольских писаниях, то только и будешь и можешь знать об Отце и Божеских вещах. Больше этого не ищи и помимо этого не думай где либо еще найти истину о Боге и планах Божиих. Каким великим сокровищем обладаем мы!. . Все уже сказано. Не ломай головы, а только с верою прими что открыто. Открыто, что Бог един по существу и троичен в лицах  -Отец, Сын и Святый Дух, прими это верою и содержи так. Открыто, что Триипостасный Бог все создал словом, все содержит в деснице Своей и о всем промышляет, прими это верою и содержи так. Открыто, что мы были в блаженном состоянии и пали, и что для восстановления и искупления нас Сын Божий, второе лицо Пресвятой Троицы, воплотился, пострадал, умер на кресте, воскрес и вознесся на небо, - прими это верою и содержи так. Открыто, что желающий спастись должен уверовать в Господа и, приняв божественную благодать во св. таинствах, с помощью ее, жить по заповедям Господним, борясь со страстями и похотями посредством соответствующих подвигов, - прими это верою и делай так. Открыто, что кто живет по указанию Господню, тот по смерти поступает в светлые обители, предначаток вечного блаженства, а кто не живет так, тот по смерти предначинает испытывать муки адские, - прими это верою и тем вразумляй и воодушевляй себя на добро и подвиги. Так и все с верою принимай и верно храни. Нет надобности ломать голову на придумывание чего-либо своего; и тех, которые умничают много, не слушай, ибо они пошли не зная куда.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

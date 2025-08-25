@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("8 января 2020 г. (26  декабря 2019 г. ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 30-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Попразднство Рождества Христова. <a  href=\"http://days.pravoslavie.ru/name/6960.html\" target=\"_blank\" title=\"Собор Пресвятой Богородицы.\">Собор</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6960_1139.html\" target=\"_blank\" >икона</a>) Пресвятой Богородицы. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/742.html\" target=\"_blank\" title=\"Святитель Евфимий Сардийский, епископ, сщмч.\">Евфимия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii742_3904.html\" target=\"_blank\" >икона</a>), еп. Сардийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1277.html\" target=\"_blank\" title=\"Константин Синадский (Фригийский), прп.\">Константина</a> Синадского. Прп. <a  href=\"http://days.pravoslavie.ru/name/664.html\" target=\"_blank\" title=\"Еварест Студит, прп.\">Евареста</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1629.html\" target=\"_blank\" title=\"Никодим Тисманский, Румынский, прп.\">Никодима</a> Тисманского, Румынского (Рум.). Прмч. <a  href=\"http://days.pravoslavie.ru/name/9174.html\" target=\"_blank\" title=\"Исаакий (Бобриков) Оптинский, архимандрит, сщмч.\">Исаакия</a> II, Оптинского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/13396.html\" target=\"_blank\" title=\"Александр (Волков), иерей, сщмч.\">Александра</a> и <a  href=\"http://days.pravoslavie.ru/name/13398.html\" target=\"_blank\" title=\"Димитрий (Чистосердов), протоиерей, сщмч.\">Димитрия</a> пресвитеров. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/14374.html\" target=\"_blank\" title=\"Николай (Залесский), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/14375.html\" target=\"_blank\" title=\"Николай (Тарбеев), протоиерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/14373.html\" target=\"_blank\" title=\"Михаил (Чельцов), протоиерей, сщмч.\">Михаила</a> пресвитеров и <a  href=\"http://days.pravoslavie.ru/name/14376.html\" target=\"_blank\" title=\"Михаил (Смирнов), диакон, сщмч.\">Михаила</a> диакона. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13903.html\" target=\"_blank\" title=\"Святитель Леонид (Антощенко), епископ Марийский, сщмч.\">Леонида</a>, еп. Марийского, <a  href=\"http://days.pravoslavie.ru/name/13904.html\" target=\"_blank\" title=\"Александр (Крылов), протоиерей, сщмч.\">Александра</a> пресвитера, прмч. <a  href=\"http://days.pravoslavie.ru/name/14444.html\" target=\"_blank\" title=\"Василий (Мазуренко), иеромонах, прмч.\">Василия</a>, и прмцц. <a  href=\"http://days.pravoslavie.ru/name/13905.html\" target=\"_blank\" title=\"Анфиса (Сысоева), прмц.\">Анфисы</a> и <a  href=\"http://days.pravoslavie.ru/name/13906.html\" target=\"_blank\" title=\"Макария (Сапрыкина), прмц.\">Макарии</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13907.html\" target=\"_blank\" title=\"Григорий (Сербаринов), протоиерей, сщмч.\">Григория</a> пресвитера, прмцц. <a  href=\"http://days.pravoslavie.ru/name/13605.html\" target=\"_blank\" title=\"Августа (Защук), схимонахиня, прмц.\">Августы</a> и <a  href=\"http://days.pravoslavie.ru/name/13606.html\" target=\"_blank\" title=\"Мария (Лактионова), прмц.\">Марии</a>, мц. <a  href=\"http://days.pravoslavie.ru/name/13607.html\" target=\"_blank\" title=\"Агриппина (Лесина), мц.\">Агриппины</a>. <a  href=\"http://days.pravoslavie.ru/name/2940.html\" target=\"_blank\" title=\"Остробрамская Виленская\">Виленской-Остробрамской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2940_451.html\" target=\"_blank\" >икона</a>), именуемых <a  href=\"http://days.pravoslavie.ru/name/2993.html\" target=\"_blank\" title=\"\"Трех радостей\"\">\"Трех радостей\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2993_2529.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2903.html\" target=\"_blank\" title=\"\"Милостивая\"\">\"Милостивая\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2903_957.html\" target=\"_blank\" >икона</a>), и <a  href=\"http://days.pravoslavie.ru/name/2776.html\" target=\"_blank\" title=\"Барловская (Блаженное Чрево)\">Барловской</a> \"Блаженное Чрево\" икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_evr_2_11_18.html#z\">Евр., 306 зач., II, 11-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_2_13_23.html#z\">Мф., 4 зач., II, 13-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

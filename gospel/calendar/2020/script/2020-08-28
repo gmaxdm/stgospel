@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("28 августа 2020 г. ( 15 августа ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 12-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("На трапезе разрешается рыба. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/3044.html\" target=\"_blank\" title=\"Успение Пресвятой Владычицы нашей Богородицы и Приснодевы Марии\">Успение Пресвятой Владычицы нашей Богородицы и Приснодевы Марии.</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii3044_299.html\" target=\"_blank\" >икона</a>)</span></span><br> Иконы <a  href=\"http://days.pravoslavie.ru/name/2975.html\" target=\"_blank\" title=\"София - Премудрость Божия (Новгородская)\">Софии, Премудрости Божией</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2975_1144.html\" target=\"_blank\" >икона</a>) (Новгородской). Чтимых икон Успения Божией Матери: <a  href=\"http://days.pravoslavie.ru/name/3003.html\" target=\"_blank\" title=\"\"Успение\" Киево-Печерская\">Киево-Печерской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3003_3622.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/3004.html\" target=\"_blank\" title=\"\"Успение\" Овиновская\">Овиновской</a>, <a  href=\"http://days.pravoslavie.ru/name/3005.html\" target=\"_blank\" title=\"\"Успение\" Псково-Печерская\">Псково-Печерской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3005_2887.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/3002.html\" target=\"_blank\" title=\"\"Успение\" (\"Семигородная\")\">Семигородной</a>, <a  href=\"http://days.pravoslavie.ru/name/3006.html\" target=\"_blank\" title=\"\"Успение\" Пюхтицкая\">Пюхтицкой</a>. Икон Божией Матери: <a  href=\"http://days.pravoslavie.ru/name/2774.html\" target=\"_blank\" title=\"Ацкурская\">Ацкурской</a>, <a  href=\"http://days.pravoslavie.ru/name/3020.html\" target=\"_blank\" title=\"Цилканская\">Цилканской</a>, <a  href=\"http://days.pravoslavie.ru/name/2816.html\" target=\"_blank\" title=\"Владимирская (Ростовская)\">Владимирской-Ростовской</a>, <a  href=\"http://days.pravoslavie.ru/name/2910.html\" target=\"_blank\" title=\"Моздокская (Иверская)\">Моздокской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2910_2783.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2830.html\" target=\"_blank\" title=\"Гаенатская\">Гаенатской</a>, <a  href=\"http://days.pravoslavie.ru/name/2832.html\" target=\"_blank\" title=\"Галичская (Чухломская)\">Чухломской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2832_3487.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2984.html\" target=\"_blank\" title=\"Сурдегская\">Сурдегской</a>, <a  href=\"http://days.pravoslavie.ru/name/2995.html\" target=\"_blank\" title=\"Тупичевская\">Тупичевской</a>,  <a  href=\"http://days.pravoslavie.ru/name/2819.html\" target=\"_blank\" title=\"Влахернская (Грузинская)\">Влахернской</a>, <a  href=\"http://days.pravoslavie.ru/name/2778.html\" target=\"_blank\" title=\"Бахчисарайская\">Бахчисарайской</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Мария же избрала благую часть\" (Лк. 10, 42). Успение Божией Матери представляет благий конец сего избрания. Сам Спаситель в успении Ее принял в руки Свои Ее душу. Того же сподоблялись и многие святые; то же встречают, в разных видах и степенях, и все избиратели благой части. В час избрания упованием только прозревается этот конец, а в некоторой степени даже предощущается; но потом труды, борения и себя принуждения следуют одни за другими и мрачат избранный путь. Путеводною звездою остается благий конец благой части. Это то же, что вдали светящийся огонек для путника, застигнутого темнотою. Упование - возбудитель энергии и поддержатель терпения и постоянства в начатом, а само оно крепко верою. По вере избирают, упованием бывают твердыми в избрании, а терпением достигают благого конца.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

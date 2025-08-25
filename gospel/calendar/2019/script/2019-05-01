@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("1 мая 2020 г. ( 18 апреля ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1018.html\" target=\"_blank\" title=\"Иоанн Солунский (Фессалоникийский), прп.\">Иоанна</a>, ученика св. <a  href=\"http://days.pravoslavie.ru/name/539.html\" target=\"_blank\" title=\"Преподобный Григорий Декаполит\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii539_510.html\" target=\"_blank\" >икона</a>) Декаполита. Мчч. <a  href=\"http://days.pravoslavie.ru/name/417.html\" target=\"_blank\" title=\"Мученик Виктор Никомидийский\">Виктора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii417_109.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/857.html\" target=\"_blank\" title=\"Зотик Никомидийский, мч.\">Зотика</a>, <a  href=\"http://days.pravoslavie.ru/name/840.html\" target=\"_blank\" title=\"Зинон Никомидийский, мч.\">Зинона</a>, <a  href=\"http://days.pravoslavie.ru/name/98.html\" target=\"_blank\" title=\"Акиндин Никомидийский, мч.\">Акиндина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii98_1631.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1945.html\" target=\"_blank\" title=\"Севериан Никомидийский, мч.\">Севериана</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/1300.html\" target=\"_blank\" title=\"Святитель Косма Халкидонский, епископ, исповедник\">Космы</a> исп., еп. Халкидонского, и прп. <a  href=\"http://days.pravoslavie.ru/name/28.html\" target=\"_blank\" title=\"Авксентий Халкидский, исповедник, прп.\">Авксентия</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/992.html\" target=\"_blank\" title=\"Иоанн Новый, Янинский, мч.\">Иоанна</a> Нового из Янины. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9523.html\" target=\"_blank\" title=\"Виссарион (Селинин), иерей, сщмч.\">Виссариона</a> пресвитера. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14454.html\" target=\"_blank\" title=\"Тамара (Сатси), игумения, прмц.\">Тамары</a>. <a  href=\"http://days.pravoslavie.ru/name/2901.html\" target=\"_blank\" title=\"Максимовская\">Максимовской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2901_932.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_5_1_11.html#z\">Деян., 13 зач., V, 1-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_5_30_0_6_0_2.html#z\">Ин., 17 зач., V, 30 - VI, 2.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17845.htm\" target=\"_blank\" title=\"Библия\">Дея. 5, 1-11</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17846.htm\" target=\"_blank\" title=\"Библия\">Ин. 5, 30-6, 2</a>). Отчего так согрешили Анания и Сапфира? Оттого что забыли, что Бог видит их дела и помышления. Если бы содержали они в мысли, что Бог все видит и вне и внутрь, яснее чем все люди и даже они сами, не пришло бы им и в голову так покривить душою перед Апостолами. Оттого же происходят и наши все грехи и грешные замыслы. Ухитряемся все прикрыть от взоров человеческих, и думаем, что все ничего. Люди точно не видят ничего и отдают нам цену, как исправным; но это не изменяет нашей существенной ничтожности. Ведая это, тверди всяк себе: почто сатана исполняет мое сердце лгать в лицо Богу? Очи Его светлее солнца видят в сокровенных тайниках сердца; ни ночь, ни море, ни подземелье не укрывают от Него. Помни это, и потому устраивай свое внутреннее и внешнее, хоть и невидное, поведение. Если бы Всевидящий был чужд для нас, - можно бы еще равнодушно относиться к Его всеведению; а то Он же и Судия, и суд Свой, в силу всеведения, произносит нередко прежде, чем чаем. Может быть, там у Него уже положено тотчас произнести суд и над нами, когда только мы еще думаем укрыться с своими грехами в темной лжи: \"Не видит Бог!\".<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("29 июня 2020 г. ( 16 июня ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/2115.html\" target=\"_blank\" title=\"Святитель Тихон Амафунтский, епископ\">Тихона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2115_1193.html\" target=\"_blank\" >икона</a>), еп. Амафунтского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2118.html\" target=\"_blank\" title=\"Преподобный Тихон, Калужский чудотворец\">Тихона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2118_2067.html\" target=\"_blank\" >икона</a>) Медынского, Калужского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2117.html\" target=\"_blank\" title=\"Преподобный Тихон Луховский, Костромской\">Тихона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2117_2068.html\" target=\"_blank\" >икона</a>) Луховского, Костромского чудотворца. Прп. <a  href=\"http://days.pravoslavie.ru/name/6992.html\" target=\"_blank\" title=\"Моисей Оптинский, прп.\">Моисея</a> Оптинского. Перенесение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/2253.html\" target=\"_blank\" title=\"Святитель Феофан Затворник, Вышенский, епископ\">Феофана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2253_683.html\" target=\"_blank\" >икона</a>), Затворника Вышенского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2098.html\" target=\"_blank\" title=\"Тигрий Константинопольский, пресвитер, сщмч.\">Тигрия</a> пресвитера и мч. <a  href=\"http://days.pravoslavie.ru/name/734.html\" target=\"_blank\" title=\"Евтропий Константинопольский, чтец, мч.\">Евтропия</a> чтеца. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9140.html\" target=\"_blank\" title=\"Святитель Гермоген (Долганев), епископ Тобольский, сщмч.\">Гермогена</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9140_599.html\" target=\"_blank\" >икона</a>), еп. Тобольского, <a  href=\"http://days.pravoslavie.ru/name/9320.html\" target=\"_blank\" title=\"Ефрем (Долганев), протоиерей, сщмч.\">Ефрема</a>, <a  href=\"http://days.pravoslavie.ru/name/9687.html\" target=\"_blank\" title=\"Михаил (Макаров), иерей, сщмч.\">Михаила</a> и <a  href=\"http://days.pravoslavie.ru/name/9766.html\" target=\"_blank\" title=\"Петр (Карелин), иерей, сщмч.\">Петра</a> пресвитеров и мч. <a  href=\"http://days.pravoslavie.ru/name/9990.html\" target=\"_blank\" title=\"Константин (Минятов), мч.\">Константина</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_rim_9_18_33.html#z\">Рим., 102 зач., IX, 18-33.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_2_15.html#z\">Мф., 40 зач., XI, 2-15.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Чтения свт. Феофана (на утрене и литургии) читаются, если ему совершается служба. Если совершается славословная служба прп. Тихона Калужского или прп. Тихона Луховского, то на литургии - чтения дня и преподобного: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17972.htm\" target=\"_blank\" title=\"Библия\">Рим. 9, 18-33</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17973.htm\" target=\"_blank\" title=\"Библия\">Мф. 11, 2-15</a>). \"Царство Небесное силою берется, и употребляющие усилие восхищают его\". Нудится Царствие, то есть с нуждою, с трудом, усилиями и тяжкими подвигами достигается; потому и достигает его только тот, кто ведет жизнь притрудную, подвижническую. Этим, на пути к Царствию, отрицается всякого рода утешность. Утехи всех сортов удаляют от Царствия, а у нас ныне только и забот что об утехах, изредка душевных, а больше плотских: есть, пить, веселиться, гулять и роскошествовать во всем. Царствию сказали: \"прошу тебя, извини меня\", хоть и в нем пир, и пир царский, какого и на ум никому не придет приготовить, да вкусы у нас не те. Что там сладким считается, то нам горько; что там приятно, то нам противно, что там веселит, то нас тяготит, - разошлись совсем. И Царствие с нуждницами , восхищающими его, отходит от нас. Мы и рады, даже готовы поскорее бы прогнать их и речи уже о том заводим, да лукавый все как то не ухитряется это уладить.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

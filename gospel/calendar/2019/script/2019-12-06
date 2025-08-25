@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("6 декабря 2020 г. ( 23 ноября ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Неделя 26-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/153.html\" target=\"_blank\" title=\"Святитель Амфилохий Иконийский, епископ\">Амфилохия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii153_3571.html\" target=\"_blank\" >икона</a>), еп. Иконийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/530.html\" target=\"_blank\" title=\"Святитель Григорий Акрагантийский, епископ\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii530_3424.html\" target=\"_blank\" >икона</a>), еп. Акрагантийского. Блгв. вел. кн. <a  href=\"http://days.pravoslavie.ru/name/114.html\" target=\"_blank\" title=\"Святой благоверный князь Александр Невский\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii114_30.html\" target=\"_blank\" >икона</a>) Невского, в схиме Алексия. Свт. <a  href=\"http://days.pravoslavie.ru/name/1545.html\" target=\"_blank\" title=\"Святитель Митрофан, епископ Воронежский\">Митрофана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1545_363.html\" target=\"_blank\" >икона</a>), в схиме Макария, еп. Воронежского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2023.html\" target=\"_blank\" title=\"Святитель Сисиний Кизический, епископ, сщмч.\">Сисиния</a>, еп. Кизического, Мч. <a  href=\"http://days.pravoslavie.ru/name/2177.html\" target=\"_blank\" title=\"Феодор Антиохийский, исповедник\">Феодора</a> Антиохийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/15005.html\" target=\"_blank\" title=\"Колумбан Люксейский, прп.\">Колумбана</a>, игумена Люксейского. Прмч. <a  href=\"http://days.pravoslavie.ru/name/13866.html\" target=\"_blank\" title=\"Серафим (Тьевар), иеромонах, прмч.\">Серафима</a>. Св. <a  href=\"http://days.pravoslavie.ru/name/13867.html\" target=\"_blank\" title=\"Иоанн (Васильев), исповедник\">Иоанна</a> исп. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9574.html\" target=\"_blank\" title=\"Елеазар (Спиридонов), иерей, сщмч.\">Елеазара</a> пресвитера и мч. <a  href=\"http://days.pravoslavie.ru/name/9931.html\" target=\"_blank\" title=\"Александр (Уксусов), мч.\">Александра</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 4-е, <a href=\"http://days.pravoslavie.ru/bible/z_lk_24_1_12.html#z\">Лк., 112 зач., XXIV, 1-12.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_ef_5_8_19.html#z\">Еф., 229 зач., V, 8-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_16_21.html#z\">Лк., 66 зач., XII, 16-21.</a> Блгв. кн.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18314.htm\" target=\"_blank\" title=\"Библия\">Еф. 5, 9-19</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18315.htm\" target=\"_blank\" title=\"Библия\">Лк. 12, 16-21</a>). Сказав притчу о разбогатевшем, который собирался только есть, пить и веселиться, и за то поражен был смертью, не дожив до предположенных утех, Господь заключил: \"Так бывает с тем, кто собирает сокровища для себя, а не в Бога богатеет\". \"Так\", то есть, таковы бывают, или такая участь постигает и тех и других. Богатеющие с богозабвением только и думают о плотских утехах. Желающие избежать этой горькой участи пусть \"собирают\" не \"себе, а богатеют только в Бога\". А так как богатство от Бога, то, когда оно течет, и посвящай его Богу, и выйдет святое богатство. Все избытки разделяй с нуждающимся: это будет то же, что данное Богом возвращать Богу. Кто бедному дает, Богу дает. Истощая как будто богатство, таковой истинно богатеет, богатясь добрыми делами, - богатеет ради Бога, в видах угождения Ему, богатеет Богом, привлекая Его благоволение, богатеет от Бога, Который верного вмале поставляет над многими; богатеет в Бога, а не себе, ибо не считает себя хозяином, а только приставником и расходчиком, вся забота которого состоят в том, чтобы удовлетворить всех приходящих к нему с нуждою, а что-либо особенно истратить на себя боится, считая это неправым употреблением вверенного ему достояния.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

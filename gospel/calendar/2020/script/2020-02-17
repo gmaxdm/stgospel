@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("17 февраля 2020 г. ( 4 февраля ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица мясопустная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1114.html\" target=\"_blank\" title=\"Исидор Пелусиот, прп.\">Исидора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1114_4006.html\" target=\"_blank\" >икона</a>) Пелусиотского. Блгв. вел. кн. <a  href=\"http://days.pravoslavie.ru/name/487.html\" target=\"_blank\" title=\"Святой благоверный князь Георгий Всеволодович\">Георгия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii487_508.html\" target=\"_blank\" >икона</a>) (Юрия) Всеволодовича Владимирского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1229.html\" target=\"_blank\" title=\"Преподобный Кирилл Новоезерский\">Кирилла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1229_881.html\" target=\"_blank\" >икона</a>) Новоезерского. Мч. <a  href=\"http://days.pravoslavie.ru/name/862.html\" target=\"_blank\" title=\"Иадор, мч.\">Иадора</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/31.html\" target=\"_blank\" title=\"Святитель Авраамий Арвильский, епископ, сщмч.\">Аврамия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii31_4004.html\" target=\"_blank\" >икона</a>), еп. Арвильского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1639.html\" target=\"_blank\" title=\"Николай Студийский, игумен, исповедник\">Николая</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1639_1954.html\" target=\"_blank\" >икона</a>) исп., игумена Студийского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/36.html\" target=\"_blank\" title=\"Авраамий Печенгский, Вологодский, прп.\">Авраамия</a> и <a  href=\"http://days.pravoslavie.ru/name/1283.html\" target=\"_blank\" title=\"Коприй Печенгский, Вологодский, прп.\">Коприя</a> Печенгских, Вологодских. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9149.html\" target=\"_blank\" title=\"Святитель Мефодий (Красноперов), епископ Петропавловский, сщмч.\">Мефодия</a>, еп. Петропавловского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9571.html\" target=\"_blank\" title=\"Евстафий (Сокольский), иерей, сщмч.\">Евстафия</a>, <a  href=\"http://days.pravoslavie.ru/name/9592.html\" target=\"_blank\" title=\"Иоанн (Алешковский), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9434.html\" target=\"_blank\" title=\"Александр (Минервин), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9792.html\" target=\"_blank\" title=\"Сергий (Соловьев), иерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/9594.html\" target=\"_blank\" title=\"Иоанн (Артоболевский), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9265.html\" target=\"_blank\" title=\"Александр (Соколов), протоиерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9373.html\" target=\"_blank\" title=\"Николай (Кандауров), протоиерей, сщмч.\">Николая</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9373_1016.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/9469.html\" target=\"_blank\" title=\"Алексий (Шаров), иерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/13645.html\" target=\"_blank\" title=\"Николай (Поспелов), протоиерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/13646.html\" target=\"_blank\" title=\"Алексий (Княжеский), иерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/13642.html\" target=\"_blank\" title=\"Александр (Покровский), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/13648.html\" target=\"_blank\" title=\"Аркадий (Лобцов), иерей, сщмч.\">Аркадия</a>, <a  href=\"http://days.pravoslavie.ru/name/13649.html\" target=\"_blank\" title=\"Борис (Назаров), протоиерей, сщмч.\">Бориса</a>, <a  href=\"http://days.pravoslavie.ru/name/13650.html\" target=\"_blank\" title=\"Михаил (Рыбин), иерей, сщмч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/13644.html\" target=\"_blank\" title=\"Николай (Голышев), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/13647.html\" target=\"_blank\" title=\"Алексий (Лебедев), иерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/13651.html\" target=\"_blank\" title=\"Андрей (Беднов), иерей, сщмч.\">Андрея</a>, <a  href=\"http://days.pravoslavie.ru/name/13658.html\" target=\"_blank\" title=\"Димитрий (Кедроливанский), иерей, сщмч.\">Димитрия</a>, <a  href=\"http://days.pravoslavie.ru/name/13641.html\" target=\"_blank\" title=\"Иоанн (Тихомиров), протоиерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13653.html\" target=\"_blank\" title=\"Петр (Соколов), протоиерей, сщмч.\">Петра</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/13654.html\" target=\"_blank\" title=\"Серафим (Вавилов), архидиакон, сщмч.\">Серафима</a>, <a  href=\"http://days.pravoslavie.ru/name/14712.html\" target=\"_blank\" title=\"Феодосий (Бобков), иеромонах, прмч.\">Феодосия</a>, прмцц.  <a  href=\"http://days.pravoslavie.ru/name/13655.html\" target=\"_blank\" title=\"Рафаила (Вишнякова), прмц.\">Рафаилы</a>, <a  href=\"http://days.pravoslavie.ru/name/14215.html\" target=\"_blank\" title=\"Екатерина (Декалина), прмц.\">Екатерины</a>, <a  href=\"http://days.pravoslavie.ru/name/14504.html\" target=\"_blank\" title=\"Мария (Виноградова), послушница, прмц.\">Марии</a> и <a  href=\"http://days.pravoslavie.ru/name/13656.html\" target=\"_blank\" title=\"Анна (Ефремова), прмц.\">Анны</a>, мчч. <a  href=\"http://days.pravoslavie.ru/name/9983.html\" target=\"_blank\" title=\"Иоанн (Шувалов), мч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13657.html\" target=\"_blank\" title=\"Василий (Иванов), мч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/13652.html\" target=\"_blank\" title=\"Димитрий (Казамацкий), псаломщик, мч.\">Димитрия</a>, <a  href=\"http://days.pravoslavie.ru/name/14216.html\" target=\"_blank\" title=\"Димитрий (Ильинский), псаломщик, мч.\">Димитрия</a> и <a  href=\"http://days.pravoslavie.ru/name/13643.html\" target=\"_blank\" title=\"Феодор (Пальшков), псаломщик, мч.\">Феодора</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-in_2_18_0_3_0_10.html#z\">1 Ин., 71 зач., II, 18 - III, 10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_11_1_11.html#z\">Мк., 49 зач., XI, 1-11.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18444.htm\" target=\"_blank\" title=\"Библия\">1 Ин. 2, 18-3, 10</a>). Вчера притча о блудном приглашала нас возвратиться от беспутства на добрый путь. Ныне Св. Апостол Иоанн воодушевляет нас к тому, удостоверяя, что если сделаем это, то, когда явится Господь, будем подобны Ему. Что может сравниться с таким достоинством?! Предполагаю, что слыша это, ты порываешься желанием и себе достигнуть его. Доброе и больше всего благопотребное дело! Не отлагай же взяться и за то, через что это достигается. Читай далее: \"всякий, имеющий эту надежду на Него, очищает себя, так как Он чист\". Есть ли что у тебя подлежащее очищению? Конечно, найдется не малое нечто. Спеши же: ибо туда, где Господь, ничто не войдет нечистое. Но и не ужасайся трудности дела. Сам же Господь и помощник тебе будет во всем. Возжелай только всеусердно и к Господу обратись за благопотребною помощью. К твоим усилиям притечет Его благодатная сила, и дело пойдет легко и успешно. Как нет греха, побеждающего милосердие Божие, так нет никакой нечистоты нравственной, которая бы устояла против съедающей ее благодатной силы. Будь только с твоей стороны нехотение этой нечистоты, посильное усилие к отторжению ее, и прибегание с верою к Господу.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

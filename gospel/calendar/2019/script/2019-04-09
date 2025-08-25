@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("9 апреля 2020 г. ( 27 марта ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я Великого поста (седмица ваий). ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Мц. <a  href=\"http://days.pravoslavie.ru/name/2614.html\" target=\"_blank\" title=\"Матрона Солунская (Фессалоникийская), мц.\">Матроны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2614_4468.html\" target=\"_blank\" >икона</a>) Солунской. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1446.html\" target=\"_blank\" title=\"Мануил Сирмийский, мч.\">Мануила</a> и <a  href=\"http://days.pravoslavie.ru/name/2212.html\" target=\"_blank\" title=\"Феодосий Сирмийский, мч.\">Феодосия</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1006.html\" target=\"_blank\" title=\"Иоанн Прозорливый, Египетский, прп.\">Иоанна</a> прозорливого, Египетского. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_65_8_16.html#z\">Ис. LXV, 8-16.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_46_1_7.html#z\">Быт. XLVI, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_23_15_0_24_0_5.html#z\">Притч. XXIII, 15 - XXIV, 5.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Слушай, сын мой, и будь мудр, и направляй сердце твое на прямой путь\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17808.htm\" target=\"_blank\" title=\"Библия\">Прит. 23, 19</a>). Из сердца непрестанно исходят помышления, иногда добрые, а больше злые. Злым совсем не должно следовать, но и добрые не всегда должно исполнять; бывает, что и добрые сами по себе помышления неуместны на деле по обстоятельствам. Вот почему и предписывается внимать себе, смотреть за всем, исходящим из сердца, - злое отвергать, доброе обсуждать и исполнять только то, что окажется истинно добрым. Но лучше бы всего совсем заключить сердце, чтоб из него не выходило и в него не входило ничего, без разрешения ума, чтобы ум во всем предшествовал, определяя движения сердца. Но таким бывает ум только тогда, когда он есть ум Христов. Стало быть, умносердечно сочетайся со Христом и будет внутри тебя все исправно.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

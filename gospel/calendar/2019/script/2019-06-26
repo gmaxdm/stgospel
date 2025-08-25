@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("26 июня 2020 г. ( 13 июня ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Мц. <a  href=\"http://days.pravoslavie.ru/name/2375.html\" target=\"_blank\" title=\"Акилина Старшая, Библская (Финикийская), мц.\">Акилины</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/14272.html\" target=\"_blank\" title=\"Александра (Мельгунова) Дивеевская, прп.\">Александры</a> Дивеевской. Свт. <a  href=\"http://days.pravoslavie.ru/name/2123.html\" target=\"_blank\" title=\"Святитель Трифиллий Левкусийский (Кипрский), епископ\">Трифиллия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2123_4551.html\" target=\"_blank\" >икона</a>), еп. Левкусии Кипрской. Мц. <a  href=\"http://days.pravoslavie.ru/name/2401.html\" target=\"_blank\" title=\"Мученица Антонина Никейская\">Антонины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2401_2140.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/2391.html\" target=\"_blank\" title=\"Преподобная Анна Вифинская\">Анны</a> и сына ее <a  href=\"http://days.pravoslavie.ru/name/966.html\" target=\"_blank\" title=\"Иоанн Вифинский, прп.\">Иоанна</a>. Прпп. <a  href=\"http://days.pravoslavie.ru/name/195.html\" target=\"_blank\" title=\"Андроник Московский, игумен\">Андроника</a> (<a  href=\"http://days.pravoslavie.ru/images/ii195_407.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1896.html\" target=\"_blank\" title=\"Савва Московский, прп.\">Саввы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1896_407.html\" target=\"_blank\" >икона</a>), иконописцев  Московских. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13725.html\" target=\"_blank\" title=\"Алексий (Архангельский), иерей, сщмч.\">Алексия</a> пресвитера. Мц. <a  href=\"http://days.pravoslavie.ru/name/9904.html\" target=\"_blank\" title=\"Пелагия (Жидко), инокиня, мц.\">Пелагии</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_rim_9_6_19.html#z\">Рим., 101 зач., IX, 6-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_32_36_11_1_1.html#z\">Мф., 38 зач., X, 32-36; XI, 1.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17966.htm\" target=\"_blank\" title=\"Библия\">Рим. 9, 6-19</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17967.htm\" target=\"_blank\" title=\"Библия\">Мф. 10, 32-35; 11, 1</a>). \"Всякого, кто исповедает Меня перед людьми, того исповедаю и Я перед Отцем Моим Небесным\". Трудно ли исповедать Господа? Никакого нет труда. Какой труд сказать, когда требуется, что Господь наш Иисус Христос единородный Сын Божий и Бог, Который ради нас пришел на землю, воплотился от Духа Святого и Марии Девы и вочеловечился, был распят, пострадал, погребен, воскрес в третий день, взошел на небеса и сидит одесную Бога Отца, и опять придет судить живых и мертвых, - послал Духа Святого на св. апостолов, силою Его устроивших на земле святую Церковь, которая, научая истине и освящая таинствами, незаблудным путем ведет всех верных чад своих в Царство Небесное? Все это мы повторяем всякий раз, когда слышим и читаем символ веры. Так возьми эти истины, напечатлей их в сердце своем, и будь готов, не боясь никакого лица человеческого, предъявить, что так, а не иначе, должно веровать, чтоб быть спасену, готовясь вместе потерпеть и то, что за это в ином случае достанется тебе. Заграждай уста учителей лжи и хулителей христианства словом истины, - и получишь то, что обетовано Господом. Ты исповедуешь Его Богом и Спасителем перед человеками, а Он перед Богом Отцем исповедует, что ты верный Его последователь и исповедник.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

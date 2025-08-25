@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("25 января 2020 г. ( 12 января ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 32-я по Пятидесятнице. Суббота пo Богоявлении. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Попразднство Богоявления. Мц. <a  href=\"http://days.pravoslavie.ru/name/2688.html\" target=\"_blank\" title=\"Святая мученица Татиана\">Татианы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2688_1189.html\" target=\"_blank\" >икона</a>) и с нею в Риме пострадавших. Свт. <a  href=\"http://days.pravoslavie.ru/name/1901.html\" target=\"_blank\" title=\"Святитель Савва, первый архиепископ Сербский\">Саввы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1901_542.html\" target=\"_blank\" >икона</a>), архиеп. Сербского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1490.html\" target=\"_blank\" title=\"Мартиниан Белозерский, игумен\">Мартиниана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1490_1909.html\" target=\"_blank\" >икона</a>) Белозерского. Мч. <a  href=\"http://days.pravoslavie.ru/name/1523.html\" target=\"_blank\" title=\"Мертий, мч.\">Мертия</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/1763.html\" target=\"_blank\" title=\"Петр Авессаломит (Анийский), мч.\">Петра</a> Авессаломита. Прп. <a  href=\"http://days.pravoslavie.ru/name/2474.html\" target=\"_blank\" title=\"Евпраксия Тавенская, Старшая, прп.\">Евпраксии</a> Тавенской. Прп. <a  href=\"http://days.pravoslavie.ru/name/1757.html\" target=\"_blank\" title=\"Пахомий Кенский, прп.\">Пахомия</a> Кенского. Икон Божией Матери, именуемых <a  href=\"http://days.pravoslavie.ru/name/2767.html\" target=\"_blank\" title=\"Акафистная\">\"Акафистная\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2767_2292.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2908.html\" target=\"_blank\" title=\"\"Млекопитательница\"\">\"Млекопитательница\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2908_36.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("Субботы по Богоявлении: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_1_11.html#z\">Мф., 7 зач., IV, 1-11.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_kol_1_3_6.html#z\">Кол., 249 зач. (от&nbsp;полу&#769;), I, 3-6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_16_10_15.html#z\">Лк., 81 зач., XVI, 10-15.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18408.htm\" target=\"_blank\" title=\"Библия\">Еф. 6, 10-17</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18409.htm\" target=\"_blank\" title=\"Библия\">Мф. 4, 1-11</a>). Апостол облекает христиан во всеоружие Божие. Прилично подошло это в след за предыдущим уроком. Ибо если кто, вняв призванию Божию, воспринял начало новой жизни, с помощью благодати Божией, привнесши с своей к тому стороны \"все старание\"; то ему после этого предлежит не почивание на лаврах, а борьба. Он оставил мир, - мир за это начнет теснить его: он спасся от власти диавола, диавол будет гнать вслед его и ставить ему козни, чтоб сбить его с доброго пути и опять возвратить в свою область; он отвергся себя, отверг самость со всем полчищем страстей, - но этот живущий в нас грех не вдруг расстается с своим привольным житием в самоугодии, и поминутно будет покушаться под разными предлогами опять водворить внутри те же порядки жизни, которые так богато насыщали и питали его прежде. Три врага, - каждый с безчисленным полчищем, - но главнокомандующий есть диавол, ближайшие же помощники его бесы. Они всем ворочают в греховной жизни, - противнице жизни духовной. Почему Апостол против них и вооружает христианина, так как бы прочих не было совсем. Говорит: \"наша брань не против крови и плоти, но против начальств, против властей, против мироправителей тьмы века сего, против злобы поднебесных\". Ибо не будь их, и брани, может быть, не было бы.  Равно, коль скоро они отражены и поражены, то отражение и поражение других ничего уже не стоит. Итак смотри всякий, куда следует направлять стрелы, или по крайней мере с какой особенно стороны надлежит себя ограждать. - И ограждай! - Апостол прописал несколько орудий; но все они сильны лишь Господом. Почему опытные борцы духовные и предали нам; именем Господа Иисуса бей ратников.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

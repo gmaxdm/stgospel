@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("1 июня 2020 г. ( 19 мая ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 7-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/1747.html\" target=\"_blank\" title=\"Святитель Патрикий Прусский (Брусский), Вифинский, епископ, сщмч.\">Патрикия</a>, еп. Прусского, и с ним трех пресвитеров: <a  href=\"http://days.pravoslavie.ru/name/90.html\" target=\"_blank\" title=\"Акакий Прусский, (Вифинский), пресвитер, сщмч.\">Акакия</a>, <a  href=\"http://days.pravoslavie.ru/name/1516.html\" target=\"_blank\" title=\"Менандр Прусский (Вифинский), пресвитер, сщмч.\">Менандра</a> и <a  href=\"http://days.pravoslavie.ru/name/1808.html\" target=\"_blank\" title=\"Полиен Прусский (Вифинский), пресвитер, сщмч.\">Полиена</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1285.html\" target=\"_blank\" title=\"Корнилий Комельский, прп.\">Корнилия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1285_896.html\" target=\"_blank\" >икона</a>), чудотворца Комельского. Блгвв. вел. кн. <a  href=\"http://days.pravoslavie.ru/name/598.html\" target=\"_blank\" title=\"Димитрий Донской, великий князь\">Димитрия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii598_516.html\" target=\"_blank\" >икона</a>) Донского и вел. кн. <a  href=\"http://days.pravoslavie.ru/name/2467.html\" target=\"_blank\" title=\"Преподобная Евфросиния Московская\">Евдокии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2467_349.html\" target=\"_blank\" >икона</a>), в инокинях Евфросинии Мч. <a  href=\"http://days.pravoslavie.ru/name/1164.html\" target=\"_blank\" title=\"Калуф Египтянин, мч.\">Калуфа</a> Египтянина. Прп. <a  href=\"http://days.pravoslavie.ru/name/971.html\" target=\"_blank\" title=\"Святитель Иоанн Готфский, епископ\">Иоанна</a>, еп. Готфского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1286.html\" target=\"_blank\" title=\"Корнилий Палеостровский, Олонецкий, игумен\">Корнилия</a>, игумена Палеостровского, Олонецкого. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/1021.html\" target=\"_blank\" title=\"Иоанн (в иночестве Игнатий) Угличский, Вологодский, Прилуцкий, князь, схимонах\">Иоанна</a> Угличского, в иночестве Игнатия, Вологодского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1978.html\" target=\"_blank\" title=\"Преподобный Сергий Шухтомский\">Сергия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1978_3037.html\" target=\"_blank\" >икона</a>) Шухтомского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9674.html\" target=\"_blank\" title=\"Матфий (Вознесенский), иерей, сщмч.\">Матфия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9516.html\" target=\"_blank\" title=\"Виктор (Каракулин), иерей, сщмч.\">Виктора</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9130.html\" target=\"_blank\" title=\"Святитель Антоний (Панкеев), епископ Белгородский, сщмч.\">Антония</a>, еп. Белгородского, и с ним <a  href=\"http://days.pravoslavie.ru/name/9676.html\" target=\"_blank\" title=\"Митрофан (Вильгельмский), иерей, сщмч.\">Митрофана</a>, <a  href=\"http://days.pravoslavie.ru/name/9424.html\" target=\"_blank\" title=\"Александр (Ерошов), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9682.html\" target=\"_blank\" title=\"Михаил (Дейнека), иерей, сщмч.\">Михаила</a>, <a  href=\"http://days.pravoslavie.ru/name/9653.html\" target=\"_blank\" title=\"Ипполит (Красновский), иерей, сщмч.\">Ипполита</a>, <a  href=\"http://days.pravoslavie.ru/name/9710.html\" target=\"_blank\" title=\"Николай (Кулаков), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9491.html\" target=\"_blank\" title=\"Василий (Иванов), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9731.html\" target=\"_blank\" title=\"Николай (Садовский), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9672.html\" target=\"_blank\" title=\"Максим (Богданов), иерей, сщмч.\">Максима</a>, <a  href=\"http://days.pravoslavie.ru/name/9448.html\" target=\"_blank\" title=\"Александр (Саульский), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9744.html\" target=\"_blank\" title=\"Павел (Брянцев), иерей, сщмч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/9748.html\" target=\"_blank\" title=\"Павел (Попов), иерей, сщмч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/9963.html\" target=\"_blank\" title=\"Георгий (Богоявленский), сщмч.\">Георгия</a> пресвитеров и мч. <a  href=\"http://days.pravoslavie.ru/name/9997.html\" target=\"_blank\" title=\"Михаил (Вознесенский), мч.\">Михаила</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9119.html\" target=\"_blank\" title=\"Святитель Онуфрий (Гагалюк), архиепископ Курский, сщмч.\">Онуфрия</a>, архиеп. Курского. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14259.html\" target=\"_blank\" title=\"Валентин (Лукьянов), иеромонах, прмч.\">Валентина</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_21_8_14.html#z\">Деян., 45 зач., XXI, 8-14.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_14_27_0_15_0_7.html#z\">Ин., 49 зач., XIV, 27 - XV, 7.</a> Блгв. кн.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17914.htm\" target=\"_blank\" title=\"Библия\">Дея. 21, 8-14</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17915.htm\" target=\"_blank\" title=\"Библия\">Ин. 14, 27-15, 7</a>). Господь Иисус Христос - лоза, дерево виноградное; христиане - ветви и отростки. Мы прицепляемся к Нему верою, плод же приносим жизнью по вере. Отец Небесный - вертоградарь , который смотрит за этим деревом. Какая ветвь не приносит плода, то есть кто верует, а не живет по вере, - ту Он отсекает: а какая приносит плод, ту очищает, то есть кто не только верует, но усердствует и жить по вере, тому Бог всячески помогает богатиться добрыми делами, которые плоды веры. По этому закону Божия действия на нас, всякий и устраивай свою жизнь, твердо помня, что без Господа ничего сделать нельзя. К Нему прибегай со всякой нуждою. Имя же Его пресвятое и пресладкое да вращается неотступно в уме, сердце и на языке твоем.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

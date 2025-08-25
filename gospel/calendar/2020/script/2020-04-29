@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("29 апреля 2020 г. ( 16 апреля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мцц. <a  href=\"http://days.pravoslavie.ru/name/2367.html\" target=\"_blank\" title=\"Мученица Агапия Аквилейская\">Агапии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2367_4198.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2519.html\" target=\"_blank\" title=\"Мученица Ирина Аквилейская\">Ирины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2519_4198.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2749.html\" target=\"_blank\" title=\"Мученица Хиония Аквилейская\">Хионии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2749_4198.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/1341.html\" target=\"_blank\" title=\"Мученик Леонид Коринфский\">Леонида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1341_138.html\" target=\"_blank\" >икона</a>) и мцц. <a  href=\"http://days.pravoslavie.ru/name/2745.html\" target=\"_blank\" title=\"Мученица Хариесса Коринфская\">Хариессы</a>, <a  href=\"http://days.pravoslavie.ru/name/2628.html\" target=\"_blank\" title=\"Ника\">Ники</a>, <a  href=\"http://days.pravoslavie.ru/name/2442.html\" target=\"_blank\" title=\"Мученица Галина Коринфская\">Галины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2442_499.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2543.html\" target=\"_blank\" title=\"Калиса Коринфская, мц.\">Калисы</a>, <a  href=\"http://days.pravoslavie.ru/name/2632.html\" target=\"_blank\" title=\"Мученица Нунехия Коринфская\">Нунехии</a>, <a  href=\"http://days.pravoslavie.ru/name/2429.html\" target=\"_blank\" title=\"Мученица Василисса Коринфская\">Василиссы</a>, <a  href=\"http://days.pravoslavie.ru/name/2710.html\" target=\"_blank\" title=\"Мученица Феодора Коринфская\">Феодоры</a>, <a  href=\"http://days.pravoslavie.ru/name/2522.html\" target=\"_blank\" title=\"Мученица Ирина Коринфская\">Ирины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2522_357.html\" target=\"_blank\" >икона</a>) и иных. Икон Божией Матери <a  href=\"http://days.pravoslavie.ru/name/2863.html\" target=\"_blank\" title=\"Ильинская (Черниговская)\">Ильинско-Черниговской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2863_1005.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2987.html\" target=\"_blank\" title=\"Тамбовская (Уткинская)\">Тамбовской</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_4_13_22.html#z\">Деян., 11 зач., IV, 13-22.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_5_17_24.html#z\">Ин., 15 зач., V, 17-24.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17840.htm\" target=\"_blank\" title=\"Библия\">Дея. 4, 13-22</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17841.htm\" target=\"_blank\" title=\"Библия\">Ин. 5, 17-24</a>). \"Судите справедливо ли перед Богом слушать вас более, нежели Бога? Мы не можем не говорить того, что видели и слышали\". Так говорили властям св. апостолы Петр и Иоанн, когда им запрещали говорить о Господе Иисусе воскресшем, после того, когда они именем Его исцелили хромого от детства. Не побоялись они угроз, ибо очевидность истины не позволяла им молчать: мы видели и слышали, говорили они, и руки наши осязали, как после прибавил св. Иоанн (<a  href=\"https://days.pravoslavie.ru/Bible/C17842.htm\" target=\"_blank\" title=\"Библия\">1 Ин. 1, 1</a>). Они очевидцы: очевидцы же, по началам человеческого познания, - первые надежные свидетели истины. В этом отношении, ни одна область человеческих знаний не имеет подобных свидетелей. Оттого, что с того времени прошло 18 1/2 веков (теперь уже 19 1/2 - ред. ), сила свидетельства их не умалилась нисколько, а следовательно, не умалилась и очевидность истины, ими свидетельствуемой. Если отпадают в неверие, - а ныне отпадающих очень много, - то отпадают не почему другому как по недостатку здравомыслия. Не хотят обсудить и увлекаются призраками, которым лесть сердца порочного охотно придает некоторую вероятность. Бедные души! Гибнут, воображая, что попали, наконец, на должный след, и радуясь тому особенно, что первые вступили в эту колею и стали для других передовыми вожаками. Но не велика радость сидеть на седалище губителей.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

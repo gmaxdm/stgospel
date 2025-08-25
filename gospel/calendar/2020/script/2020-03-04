@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("4 марта 2020 г. ( 20 февраля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 1-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1332.html\" target=\"_blank\" title=\"Святитель Лев Катанский, епископ\">Льва</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1332_3174.html\" target=\"_blank\" >икона</a>), еп. Катанского. <a  href=\"http://days.pravoslavie.ru/name/6984.html\" target=\"_blank\" title=\"34 преподобномученика Валаамских\">34 преподобномучеников Валаамских</a>: <a  href=\"http://days.pravoslavie.ru/name/10596.html\" target=\"_blank\" title=\"Тит Валаамский, прмч.\">Тита</a>, <a  href=\"http://days.pravoslavie.ru/name/10598.html\" target=\"_blank\" title=\"Тихон Валаамский, прмч.\">Тихона</a>, <a  href=\"http://days.pravoslavie.ru/name/10600.html\" target=\"_blank\" title=\"Геласий Валаамский, прмч.\">Геласия</a>, <a  href=\"http://days.pravoslavie.ru/name/10602.html\" target=\"_blank\" title=\"Сергий Валаамский, прмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/10604.html\" target=\"_blank\" title=\"Варлаам Валаамский, прмч.\">Варлаама</a>, <a  href=\"http://days.pravoslavie.ru/name/10606.html\" target=\"_blank\" title=\"Савва Валаамский, прмч.\">Саввы</a>, <a  href=\"http://days.pravoslavie.ru/name/10608.html\" target=\"_blank\" title=\"Конон Валаамский, прмч.\">Конона</a>, <a  href=\"http://days.pravoslavie.ru/name/10610.html\" target=\"_blank\" title=\"Сильвестр Валаамский, прмч.\">Сильвестра</a>, <a  href=\"http://days.pravoslavie.ru/name/10612.html\" target=\"_blank\" title=\"Киприан Валаамский, прмч.\">Киприана</a>, <a  href=\"http://days.pravoslavie.ru/name/10614.html\" target=\"_blank\" title=\"Пимен Валаамский, прмч.\">Пимена</a>, <a  href=\"http://days.pravoslavie.ru/name/10616.html\" target=\"_blank\" title=\"Иоанн Валаамский, прмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/10618.html\" target=\"_blank\" title=\"Самон Валаамский, прмч.\">Самона</a>, <a  href=\"http://days.pravoslavie.ru/name/10620.html\" target=\"_blank\" title=\"Иона Валаамский, прмч.\">Ионы</a>, <a  href=\"http://days.pravoslavie.ru/name/10622.html\" target=\"_blank\" title=\"Давид Валаамский, прмч.\">Давида</a>, <a  href=\"http://days.pravoslavie.ru/name/10624.html\" target=\"_blank\" title=\"Корнилий Валаамский, прмч.\">Корнилия</a>, <a  href=\"http://days.pravoslavie.ru/name/10626.html\" target=\"_blank\" title=\"Нифонт Валаамский, прмч.\">Нифонта</a>, <a  href=\"http://days.pravoslavie.ru/name/10628.html\" target=\"_blank\" title=\"Афанасий Валаамский, прмч.\">Афанасия</a>, <a  href=\"http://days.pravoslavie.ru/name/10630.html\" target=\"_blank\" title=\"Серапион Валаамский, прмч.\">Серапиона</a>, <a  href=\"http://days.pravoslavie.ru/name/10632.html\" target=\"_blank\" title=\"Варлаам Валаамский, прмч.\">Варлаама</a>, <a  href=\"http://days.pravoslavie.ru/name/10634.html\" target=\"_blank\" title=\"Афанасий Валаамский, прмч.\">Афанасия</a>, <a  href=\"http://days.pravoslavie.ru/name/10636.html\" target=\"_blank\" title=\"Антоний Валаамский, прмч.\">Антония</a>, <a  href=\"http://days.pravoslavie.ru/name/10638.html\" target=\"_blank\" title=\"Лука Валаамский, прмч.\">Луки</a>, <a  href=\"http://days.pravoslavie.ru/name/10640.html\" target=\"_blank\" title=\"Леонтий Валаамский, прмч.\">Леонтия</a>, <a  href=\"http://days.pravoslavie.ru/name/10642.html\" target=\"_blank\" title=\"Фома Валаамский, прмч.\">Фомы</a>, <a  href=\"http://days.pravoslavie.ru/name/10644.html\" target=\"_blank\" title=\"Дионисий Валаамский, прмч.\">Дионисия</a>, <a  href=\"http://days.pravoslavie.ru/name/10646.html\" target=\"_blank\" title=\"Филипп Валаамский, прмч.\">Филиппа</a>, <a  href=\"http://days.pravoslavie.ru/name/10648.html\" target=\"_blank\" title=\"Игнатий Валаамский, прмч.\">Игнатия</a>, <a  href=\"http://days.pravoslavie.ru/name/10650.html\" target=\"_blank\" title=\"Василий Валаамский, прмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/10652.html\" target=\"_blank\" title=\"Пахомий Валаамский, прмч.\">Пахомия</a>, <a  href=\"http://days.pravoslavie.ru/name/10654.html\" target=\"_blank\" title=\"Василий Валаамский, прмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/10656.html\" target=\"_blank\" title=\"Феофил Валаамский, прмч.\">Феофила</a>, <a  href=\"http://days.pravoslavie.ru/name/10658.html\" target=\"_blank\" title=\"Иоанн Валаамский, прмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/10660.html\" target=\"_blank\" title=\"Феодор Валаамский, прмч.\">Феодора</a>, <a  href=\"http://days.pravoslavie.ru/name/10662.html\" target=\"_blank\" title=\"Иоанн Валаамский, прмч.\">Иоанна</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1914.html\" target=\"_blank\" title=\"Священномученик Садок Персидский\">Садока</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1914_3774.html\" target=\"_blank\" >икона</a>)(Шах-Дуста), еп. Персидского, и с ним 128-ми мучеников. Прп. <a  href=\"http://days.pravoslavie.ru/name/61.html\" target=\"_blank\" title=\"Святитель Агафон Римский, папа\">Агафона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii61_4066.html\" target=\"_blank\" >икона</a>), Папы Римского. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/14221.html\" target=\"_blank\" title=\"Ярослав Мудрый, князь\">Ярослава</a> Мудрого. Прп. <a  href=\"http://days.pravoslavie.ru/name/60.html\" target=\"_blank\" title=\"Преподобный Агафон Печерский\">Агафона</a> Печерского. Прмч. <a  href=\"http://days.pravoslavie.ru/name/1288.html\" target=\"_blank\" title=\"Преподобномученик Корнилий Псково-Печерский\">Корнилия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1288_59.html\" target=\"_blank\" >икона</a>), игумена Псково-Печерского . Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13676.html\" target=\"_blank\" title=\"Николай (Розов), протоиерей, сщмч.\">Николая</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_2_3_11.html#z\">Ис. II, 3-11.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_1_24_0_2_0_3.html#z\">Быт. I, 24 - II, 3.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_2_1_22.html#z\">Притч. II, 1-22.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Если будешь призывать знание и взывать к разуму; если будешь искать его, как серебра, и отыскивать его, как сокровище: то уразумеешь страх Господень и найдешь познание о Боге\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18472.htm\" target=\"_blank\" title=\"Библия\">Прит. 2, 3-6</a>). Корень богоугодной жизни - страх Господень. Когда придет он, то как творческая сила все в тебе перестроит и воссоздаст в тебе прекрасный порядок - космос духовный. Как стяжать страх Божий? Он в тебе есть, только заглушен: воскреси его. Для этого дай голос разуму твоему и открой сердце твое для принятия внушений истины. Доселе разуму не давали слова: он был в рабстве и не смел говорить здравые речи: пусть теперь говорит. Он начнет речь о Божием вседержительстве, тебя держащем и могущем бросить в каждое мгновение, - о Божием вездесущии и всеведении, все в тебе видящем и гневающемся на тебя за все худое в тебе, - о Божием правосудии, готовом наказать тебя сейчас, но удерживаемом до времени милостью, - о смерти, в каждое мгновение готовой схватить тебя и предать суду и воздаянию. Слушай и вводи сердце твое в чувство этих истин. Пробудишь чувство, - придет вместе с тем и страх Божий. Это заря жизни.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

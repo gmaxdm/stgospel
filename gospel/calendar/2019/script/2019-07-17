@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("17 июля 2020 г. ( 4 июля ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/181.html\" target=\"_blank\" title=\"Святитель Андрей, архиепископ Критский\">Андрея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii181_403.html\" target=\"_blank\" >икона</a>), архиеп. Критского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2605.html\" target=\"_blank\" title=\"Марфа Антиохийская, Едесская\">Марфы</a>, матери прп. <a  href=\"http://days.pravoslavie.ru/name/2012.html\" target=\"_blank\" title=\"Преподобный Симеон Столпник, Дивногорец\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2012_1109.html\" target=\"_blank\" >икона</a>) Дивногорца. Прп. <a  href=\"http://days.pravoslavie.ru/name/187.html\" target=\"_blank\" title=\"Андрей Рублев, иконописец, прп.\">Андрея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii187_331.html\" target=\"_blank\" >икона</a>) Рублева, иконописца. Страстотерпцев Императора <a  href=\"http://days.pravoslavie.ru/name/6994.html\" target=\"_blank\" title=\"Николай (Романов) II, император, страстотерпец\">Николая</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6994_603.html\" target=\"_blank\" >икона</a>) II, Императрицы <a  href=\"http://days.pravoslavie.ru/name/6995.html\" target=\"_blank\" title=\"Александра (Романова), императрица, страстотерпица\">Александры</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6995_603.html\" target=\"_blank\" >икона</a>), царевича <a  href=\"http://days.pravoslavie.ru/name/6996.html\" target=\"_blank\" title=\"Алексий (Романов), царевич, страстотерпец\">Алексия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6996_603.html\" target=\"_blank\" >икона</a>), великих княжен <a  href=\"http://days.pravoslavie.ru/name/6997.html\" target=\"_blank\" title=\"Ольга (Романова), великая княжна, страстотерпица\">Ольги</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6997_603.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/6998.html\" target=\"_blank\" title=\"Татиана (Романова), великая княжна, страстотерпица\">Татианы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6998_603.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/6999.html\" target=\"_blank\" title=\"Мария (Романова), великая княжна, страстотерпица\">Марии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6999_603.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/7000.html\" target=\"_blank\" title=\"Анастасия (Романова), великая княжна, страстотерпица\">Анастасии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii7000_603.html\" target=\"_blank\" >икона</a>) и страстотерпца праведного <a  href=\"http://days.pravoslavie.ru/name/14918.html\" target=\"_blank\" title=\"Евгений (Боткин), врач, страстотерпец\">Евгения</a> врача. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2222.html\" target=\"_blank\" title=\"Феодот Римский, мч.\">Феодота</a> и <a  href=\"http://days.pravoslavie.ru/name/2720.html\" target=\"_blank\" title=\"Феодотия Римская, мц.\">Феодотии</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2193.html\" target=\"_blank\" title=\"Святитель Феодор, епископ Киринейский, сщмч.\">Феодора</a>, еп. Киринейского. Блгв. вел. кн. <a  href=\"http://days.pravoslavie.ru/name/177.html\" target=\"_blank\" title=\"Святой благоверный князь Андрей Боголюбский\">Андрея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii177_105.html\" target=\"_blank\" >икона</a>) Боголюбского. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/743.html\" target=\"_blank\" title=\"Преподобный Евфимий Суздальский\">Евфимия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii743_124.html\" target=\"_blank\" >икона</a>), Суздальского чудотворца. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/14512.html\" target=\"_blank\" title=\"Святитель Савва (Трлаич), епископ Горнокарловацкий, сщмч.\">Саввы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14512_3416.html\" target=\"_blank\" >икона</a>), еп. Горнокарловацкого (Серб.). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9556.html\" target=\"_blank\" title=\"Димитрий (Казанский), иерей, сщмч.\">Димитрия</a> пресвитера. <a  href=\"http://days.pravoslavie.ru/name/2831.html\" target=\"_blank\" title=\"Галатская\">Галатской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2831_2334.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - Страстотерпцев: <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_4_5_8.html#z\">1 Кор., 130 зач. (от&nbsp;полу&#769;), IV, 5-8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_13_44_54.html#z\">Мф., 55 зач., XIII, 44-54.</a> Страстотерпцев: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_28_39.html#z\">Рим., 99 зач., VIII, 28-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_15_17_0_16_0_2.html#z\">Ин., 52 зач., XV, 17 - XVI, 2.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_8_3_6.html#z\">Евр., 318 зач. (от&nbsp;полу&#769;), VIII, 3-6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_7_12_21.html#z\">Мф., 21 зач., VII, 12-21.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Чтения страстотерпцев (на утрене и литургии) читаются, если им совершается служба. Если совершается полиелейная служба прп. Андрея Рублева, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30,</a> а на литургии - чтения дня и преподобного: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_7_16.html#z\">Евр., 334 зач., XIII, 7-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a> Если совершается полиелейная служба блгв. вел. кн. Андрея Боголюбского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22,</a> а на литургии - чтения дня и благоверного князя: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_28_39.html#z\">Рим., 99 зач., VIII, 28-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_15_17_0_16_0_2.html#z\">Ин., 52 зач., XV, 17 - XVI, 2.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18011.htm\" target=\"_blank\" title=\"Библия\">Мф. 13, 44-54</a>). Прибывши в Назарет Господь не встретил там веры. Видимая простота Его помешала назареянам прозреть невидимую славу и божество. Не то же ли бывает и с христианином? Христианские догматы на вид очень просты, но для ума, входящего внутрь их, они представляют всеобъемлющую стройную в себе систему, которой не порождал и породить не может ни один тварный ум. Гордоумие, бросив беглый взгляд на простоту евангельскую, отвращается от нее и начинает само себе строить здание ведения, как ему кажется, громаднейшее, с которого открываются, будто бы, виды широкие. На деле же выходит то, что здание громоздится из карт, а кругозор составляют миражи, призраки разгоряченного воображения. Но ему хоть не говори. Всякого, хотящего разуверить такого, он и братия его готовы своими критическими нападками тотчас свергнуть с горы в пропасть, но истина всегда проходит невредимою среди их и идет к другим душам, способным принять ее.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

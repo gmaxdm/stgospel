@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("29 сентября 2020 г. ( 16 сентября ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 17-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмц. <a  href=\"http://days.pravoslavie.ru/name/2479.html\" target=\"_blank\" title=\"Святая великомученица Евфимия Всехвальная\">Евфимии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2479_530.html\" target=\"_blank\" >икона</a>) всехвальной. Перенесение мощей прав. <a  href=\"http://days.pravoslavie.ru/name/6991.html\" target=\"_blank\" title=\"Алексий (Мечев) Московский, протоиерей, прав.\">Алексия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6991_1646.html\" target=\"_blank\" >икона</a>) Московского. Мц. <a  href=\"http://days.pravoslavie.ru/name/2665.html\" target=\"_blank\" title=\"Севастиана Гераклейская, мц.\">Севастианы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2665_3618.html\" target=\"_blank\" >икона</a>). Мц. <a  href=\"http://days.pravoslavie.ru/name/2616.html\" target=\"_blank\" title=\"Мелитина Маркианопольская, мц.\">Мелитины</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/419.html\" target=\"_blank\" title=\"Виктор Халкидонский, мч.\">Виктора</a> и <a  href=\"http://days.pravoslavie.ru/name/2039.html\" target=\"_blank\" title=\"Сосфен Халкидонский, мч.\">Сосфена</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/650.html\" target=\"_blank\" title=\"Дорофей Египетский, пресвитер, пустынник\">Дорофея</a>, пустынника Египетского. Мчч. братьев <a  href=\"http://days.pravoslavie.ru/name/1064.html\" target=\"_blank\" title=\"Иосиф Феодосиопольский (Эрзерумский), мч.\">Иосифа</a> и <a  href=\"http://days.pravoslavie.ru/name/1099.html\" target=\"_blank\" title=\"Исаак Феодосиопольский (Эрзерумский), мч.\">Исаака</a> Грузинских (Груз.). Мц. <a  href=\"http://days.pravoslavie.ru/name/2577.html\" target=\"_blank\" title=\"Людмила Чешская, княгиня, мц.\">Людмилы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2577_2215.html\" target=\"_blank\" >икона</a>), кн. Чешской. Прп. <a  href=\"http://days.pravoslavie.ru/name/6850.html\" target=\"_blank\" title=\"Прокопий Чешский, прп.\">Прокопия</a>, игумена Сазавского. Свт. <a  href=\"http://days.pravoslavie.ru/name/1209.html\" target=\"_blank\" title=\"Святитель Киприан, митрополит Московский и всея Руси\">Киприана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1209_874.html\" target=\"_blank\" >икона</a>), митр. Московского, всея России чудотворца. Свт. <a  href=\"http://days.pravoslavie.ru/name/2331.html\" target=\"_blank\" title=\"Святитель Фотий, митрополит Киевский, Московский и всея Руси\">Фотия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2331_2107.html\" target=\"_blank\" >икона</a>), митр. Киевского, Московского и всея Руси, чудотворца. Прп. <a  href=\"http://days.pravoslavie.ru/name/14323.html\" target=\"_blank\" title=\"Кукша Одесский, исповедник, прп.\">Кукши</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14323_3648.html\" target=\"_blank\" >икона</a>) Одесского, исп.. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9307.html\" target=\"_blank\" title=\"Григорий (Раевский), протоиерей, сщмч.\">Григория</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13793.html\" target=\"_blank\" title=\"Сергий (Лосев), иерей, сщмч.\">Сергия</a> пресвитера. Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2949.html\" target=\"_blank\" title=\"\"Призри на смирение\"\">\"Призри на смирение\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2949_2473.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_ef_2_19_0_3_0_7.html#z\">Еф., 222 зач., II, 19 - III, 7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_11_11_23.html#z\">Мк., 50 зач., XI, 11-23.</a> Вмц.: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_6_1_10.html#z\">2 Кор., 181 зач., VI, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_36_50.html#z\">Лк., 33 зач., VII, 36-50.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18169.htm\" target=\"_blank\" title=\"Библия\">Мк. 11, 11-23</a>). Смоковница покрытая листьями была благолепна на вид, но не удостоилась одобрения от Господа, потому что не было на ней плодов, а плодов не было потому, что не было внутренней плодородительной силы. Сколько таких смоковниц бывает в нравственном смысле! На вид все исправно, а внутри ничего нет. Степенны, честны и все христианское исполняют, а духа жизни о Христе Иисусе не имеют; оттого не имеют плодов живых; а то, что есть в них, только кажется плодом, а не есть. В чем же дух жизни о Христе Иисусе? На это скажем: одно в нем от Господа, а другое от нас. Что от Господа, то собственно и есть плодородительная духовная сила; а что от нас, то только приемник этой силы. О последнем и позаботься больше. Тут корень - чувство, что ты погибающий и что если не Господь - погибнешь: отсюда во всю жизнь, при всех делах и трудах - сердце сокрушенно и смиренно. Далее, как будущее безвестно, а врагов много и спотыкание возможно поминутно, то страх и трепет в содевании спасения и непрестанное вопияние: \"имиже веси судьбами, спаси мя \". Горе почивающему на чем-нибудь, кроме Господа; горе и тому, кто трудился для чего-нибудь, кроме Господа! Спроси себя, трудившийся в делах, которые считаются богоугодными, для кого трудишься? Если совесть смело ответит: только для Господа - добре; а если нет - то ты созидаешь дом на песке. Вот несколько указаний о плодородном внутреннем духе. По этому и о прочем разумевай.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

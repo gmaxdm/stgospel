@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("20 февраля 2020 г. ( 7 февраля ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица мясопустная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1741.html\" target=\"_blank\" title=\"Святитель Парфений Лампсакийский, епископ\">Парфения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1741_1975.html\" target=\"_blank\" >икона</a>), еп. Лампсакийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1376.html\" target=\"_blank\" title=\"Лука Елладский, отшельник\">Луки</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1376_4012.html\" target=\"_blank\" >икона</a>) Елладского. <a  href=\"http://days.pravoslavie.ru/name/6615.html\" target=\"_blank\" title=\"1003 мученика Никомидийских.\">Мчч. 1003 Никомидийских</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9453.html\" target=\"_blank\" title=\"Александр (Талызин), иерей, сщмч.\">Александра</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14218.html\" target=\"_blank\" title=\"Алексий (Троицкий), иерей, сщмч.\">Алексия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-in_4_20_0_5_0_21.html#z\">1 Ин., 74 зач., IV, 20 - V, 21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_15_1_15.html#z\">Мк., 66 зач., XV, 1-15.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18450.htm\" target=\"_blank\" title=\"Библия\">1 Ин. 4, 20-5, 21</a>). \"Сия есть победа, победившая мир, вера наша\", вера христианская. Мир победить что такое? Не то, чтоб всех миролюбцев перебить и все миролюбное истребить и уничтожить, а, живя среди миролюбцев и вращаясь среди миролюбных обычаев, жить и быть чуждым всем и всему. Коль скоро ты отвергся мира и всего мирского, то этим самым действием победил ты мир. А отвергнуться мира кто тебя учит, и кто силу на то дает? Вера наша. Она раскрывает пагубность прелестей мира и зарождает желание высвободиться из сетей их. Затем, когда кто решается расторгнуть эти узы, раскаивается и приступает к таинствам обновления - к крещению или покаянию, она дает в этом действии таинственно ощутить сладость противоположной миру жизни, такую, с которою все сласти мира ни в какое сравнение идти не могут. Отсюда в сердце водворяется отвращение ко всему мирскому, которое собственно и есть победа над миром. Но в том же действии таинственном, вследствие которого рождается отвращение к миру, подается сила и к непоколебимому пребыванию в этом отвращении и отчуждении от мира; а это есть победа решительная и прочная.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

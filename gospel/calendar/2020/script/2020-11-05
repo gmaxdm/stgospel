@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("5 ноября 2020 г. ( 23 октября ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 22-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апостола <a  href=\"http://days.pravoslavie.ru/name/869.html\" target=\"_blank\" title=\"Апостол Иаков, брат Господень\">Иакова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii869_578.html\" target=\"_blank\" >икона</a>), брата Господня по плоти. Прп. <a  href=\"http://days.pravoslavie.ru/name/868.html\" target=\"_blank\" title=\"Праведный Иаков Боровичский\">Иакова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii868_577.html\" target=\"_blank\" >икона</a>) Боровичского, Новгородского чудотворца. Свт. <a  href=\"http://days.pravoslavie.ru/name/901.html\" target=\"_blank\" title=\"Святитель Игнатий Константинопольский, патриарх\">Игнатия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii901_3553.html\" target=\"_blank\" >икона</a>), патриарха Константинопольского. Прп. <a  href=\"http://days.pravoslavie.ru/name/763.html\" target=\"_blank\" title=\"Елисей Лавришевский, прп.\">Елисея</a> Лавришевского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9363.html\" target=\"_blank\" title=\"Николай (Агафонников), протоиерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9291.html\" target=\"_blank\" title=\"Владимир (Амбарцумов), протоиерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/9452.html\" target=\"_blank\" title=\"Александр (Соловьев), иерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9700.html\" target=\"_blank\" title=\"Николай (Архангельский), иерей, сщмч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9575.html\" target=\"_blank\" title=\"Емилиан (Гончаров), иерей, сщмч.\">Емилиана</a> и <a  href=\"http://days.pravoslavie.ru/name/9799.html\" target=\"_blank\" title=\"Созонт (Решетилов), иерей, сщмч.\">Созонта</a> пресвитеров. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14432.html\" target=\"_blank\" title=\"Евфросиния (Тимофеева), прмц.\">Евфросинии</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_kol_4_2_9.html#z\">Кол., 260 зач., IV, 2-9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_9_49_56.html#z\">Лк., 48 зач., IX, 49-56.</a> Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_1_11_19.html#z\">Гал., 200 зач., I, 11-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_13_54_58.html#z\">Мф., 56 зач., XIII, 54-58.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18249.htm\" target=\"_blank\" title=\"Библия\">Кол. 4, 2-9</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18250.htm\" target=\"_blank\" title=\"Библия\">Лк. 9, 49-56</a>). Как относиться к неверам, неисповедующим Господа? Так же как Господь отнесся к непринявшей Его веси. Юная ревность, являющая много жару, хотела бы огонь низвести на них с неба, но ее сдерживает Сам Господь: \"не знаете, какого вы духа\". . . Господь Спаситель, в принятии Которого состоит и самое спасение, ничего не сделал непринявшим Его, но, минуя их, пошел в другую весь, предоставив их самим себе. Так и ныне надобно: пусть неверы идут своею дорогою, а верующие своею. Есть Бог, Который всех разберет в свое время. О них жалеть и молиться надобно; надо желать, чтобы они познали истину и изыскивать случаи намекнуть им о ней, а когда гласно станут нападать на истину, дать им отпор любовный, но вразумительный - и довольно.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

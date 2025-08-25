@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("26 марта 2020 г. ( 13 марта ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я Великого поста, Крестопоклонная. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Перенесение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/1625.html\" target=\"_blank\" title=\"Святитель Никифор,  I Патриарх Константинопольский\">Никифора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1625_3188.html\" target=\"_blank\" >икона</a>), патриарха Константинопольского. Мч. <a  href=\"http://days.pravoslavie.ru/name/1910.html\" target=\"_blank\" title=\"Савин Ермопольский (Египетский), мч.\">Савина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1910_1076.html\" target=\"_blank\" >икона</a>). Мчч. <a  href=\"http://days.pravoslavie.ru/name/313.html\" target=\"_blank\" title=\"Мученик Африкан Петрийский (Африканский)\">Африкана</a>, <a  href=\"http://days.pravoslavie.ru/name/1859.html\" target=\"_blank\" title=\"Публий Петрийский (Африканский), мч.\">Публия</a> и <a  href=\"http://days.pravoslavie.ru/name/2093.html\" target=\"_blank\" title=\"Мученик Терентий Петрийский (Африканский)\">Терентия</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/118.html\" target=\"_blank\" title=\"Александр Пиднский, пресвитер, сщмч.\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii118_4126.html\" target=\"_blank\" >икона</a>). Мц. <a  href=\"http://days.pravoslavie.ru/name/2756.html\" target=\"_blank\" title=\"Христина Персидская, мц.\">Христины</a> Персидской. Прп. <a  href=\"http://days.pravoslavie.ru/name/202.html\" target=\"_blank\" title=\"Анин Халкидонский, иеромонах\">Анина</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14415.html\" target=\"_blank\" title=\"Николай (Попов), иерей, сщмч.\">Николая</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14237.html\" target=\"_blank\" title=\"Григорий (Поспелов), протоиерей, сщмч.\">Григория</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13703.html\" target=\"_blank\" title=\"Михаил (Околович), протоиерей, сщмч.\">Михаила</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_28_14_22.html#z\">Ис. XXVIII, 14-22.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_10_32_0_11_0_9.html#z\">Быт. X, 32 - XI, 9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_13_20_0_14_0_6.html#z\">Притч. XIII, 20 - XIV, 6.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"Иже щадит жезл свой, ненавидит сына: любяй же наказует прилежно \" (<a  href=\"https://days.pravoslavie.ru/Bible/C18516.htm\" target=\"_blank\" title=\"Библия\">Прит. 13, 25</a>). Оставим детей и займемся собою. В отношении к каждому это значит вот что: не щади себя, прилежно наказывай. Саможаление - корень всех наших поползновений на грех. Кто же не снисходит себе, тот всегда тверд в добре. Больше всего держать надо в самой строгой дисциплине плоть, эту рабу несмысленную. Когда томят ее, она смиренна; а дай ей только малую льготу, уж она начинает показывать когти и свирепеть очами любострастными. Но дивно то, что, хоть не говори, все стоят за плоть и всякие ей выдумывают угодья. Даже наука будто бы без этого нейдет. Что же это должно быть за наука такая?<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

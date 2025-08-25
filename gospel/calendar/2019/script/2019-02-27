@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("27 февраля 2020 г. ( 14 февраля ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица cырная (масленица) - сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Из трапезы исключается мясо. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/25.html\" target=\"_blank\" title=\"Авксентий Вифинский, пресвитер, отшельник\">Авксентия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii25_4043.html\" target=\"_blank\" >икона</a>). Равноап. <a  href=\"http://days.pravoslavie.ru/name/1233.html\" target=\"_blank\" title=\"Равноапостольный Кирилл, учитель Словенский\">Кирилла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1233_54.html\" target=\"_blank\" >икона</a>), учителя Словенского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1485.html\" target=\"_blank\" title=\"Преподобный Марон, пустынник Сирийский\">Марона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1485_1907.html\" target=\"_blank\" >икона</a>), пустынника Сирийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/35.html\" target=\"_blank\" title=\"Святитель Авраамий Каррийский, епископ\">Авраамия</a>, еп. Каррийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2359.html\" target=\"_blank\" title=\"Преподобный Шио Мгвимский\">Шио</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2359_4260.html\" target=\"_blank\" >икона</a>) Мгвимского. <a  href=\"http://days.pravoslavie.ru/name/13670.html\" target=\"_blank\" title=\"12 греков стоителей Успенской церкви Киево-Печерской Лавры\">12-ти греков</a>, строителей соборной Успенской церкви Киево-Печерской Лавры. Прп. <a  href=\"http://days.pravoslavie.ru/name/1105.html\" target=\"_blank\" title=\"Преподобный Исаакий, Затворник Печерский\">Исаакия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1105_1849.html\" target=\"_blank\" >икона</a>), затворника Печерского. Перенесение мощей блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/1550.html\" target=\"_blank\" title=\"Святой благоверный князь Михаил Черниговский\">Михаила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1550_259.html\" target=\"_blank\" >икона</a>) Черниговского и болярина <a  href=\"http://days.pravoslavie.ru/name/2205.html\" target=\"_blank\" title=\"Мученик Феодор Черниговский\">Феодора</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/14889.html\" target=\"_blank\" title=\"Иларион Грузин, новый, Имеретийский и Афонский, прп.\">Илариона</a> Грузина, Святогорца (Груз.).  Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14988.html\" target=\"_blank\" title=\"Павел (Дернов), протоиерей, сщмч.\">Павла</a> Дернова пресвитера и сыновей его мчч. <a  href=\"http://days.pravoslavie.ru/name/14989.html\" target=\"_blank\" title=\"Борис (Дернов), мч.\">Бориса</a>, <a  href=\"http://days.pravoslavie.ru/name/14990.html\" target=\"_blank\" title=\"Григорий (Дернов), мч.\">Григория</a> и <a  href=\"http://days.pravoslavie.ru/name/14991.html\" target=\"_blank\" title=\"Симеон (Дернов), мч.\">Симеона</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/10554.html\" target=\"_blank\" title=\"Святитель Онисим (Пылаев), епископ Тульский, сщмч.\">Онисима</a>, еп. Тульского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14448.html\" target=\"_blank\" title=\"Трифон (Родонежский), диакон, сщмч.\">Трифона</a> диакона. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_iud_1_11_25.html#z\">Иуд., 78 зач., I, 11-25.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_23_1_34_23_44_56.html#z\">Лк., 110 зач., XXIII, 1-34, 44-56.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18463.htm\" target=\"_blank\" title=\"Библия\">Иуд. 1, 11-25</a>). Горе возвещает св. апостол Иуда тем, которые соблазнительно держат себя в обществе, без страха утучняются на пиршествах, пенятся срамотами своими, ходят по своим похотям, говорят прегордое и отделяют себя от единства веры. Горе! Ибо вот грядет Господь, со всеми, и обличить всех нечестивых во всех делах, какие наделало нечестие их.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

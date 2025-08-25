@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("1 февраля 2020 г. ( 19 января ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 33-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1401.html\" target=\"_blank\" title=\"Преподобный Макарий Великий, Египетский\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1401_921.html\" target=\"_blank\" >икона</a>) Великого, Египетского. Свт. <a  href=\"http://days.pravoslavie.ru/name/1460.html\" target=\"_blank\" title=\"Святитель Марк Евгеник, архиепископ Ефесский\">Марка</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1460_1906.html\" target=\"_blank\" >икона</a>) Евгеника, архиеп. Ефесского. Блж. <a  href=\"http://days.pravoslavie.ru/name/2191.html\" target=\"_blank\" title=\"Блаженный Феодор Новгородский\">Феодора</a>, Христа ради юродивого, Новгородского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1413.html\" target=\"_blank\" title=\"Макарий Римлянин, Новгородский, прп.\">Макария</a> Римлянина, Новгородского. Мц. <a  href=\"http://days.pravoslavie.ru/name/2482.html\" target=\"_blank\" title=\"Евфрасия Никомидийская, дева, мц.\">Евфрасии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2482_3967.html\" target=\"_blank\" >икона</a>) девы. Прп. <a  href=\"http://days.pravoslavie.ru/name/1398.html\" target=\"_blank\" title=\"Преподобный Макарий Александрийский\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1398_1891.html\" target=\"_blank\" >икона</a>) Александрийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/215.html\" target=\"_blank\" title=\"Преподобный Антоний, столпник Марткопский, Иверский\">Антония</a> (<a  href=\"http://days.pravoslavie.ru/images/ii215_3213.html\" target=\"_blank\" >икона</a>), столпника Марткопского (Груз.). Свт. <a  href=\"http://days.pravoslavie.ru/name/263.html\" target=\"_blank\" title=\"Святитель Арсений Керкирский, архиепископ\">Арсения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii263_3215.html\" target=\"_blank\" >икона</a>), архиеп. Керкирского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1411.html\" target=\"_blank\" title=\"Преподобный Макарий Печерский, постник\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1411_3216.html\" target=\"_blank\" >икона</a>), постника Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1410.html\" target=\"_blank\" title=\"Преподобный Макарий Печерский, диакон\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1410_1897.html\" target=\"_blank\" >икона</a>), диакона Печерского. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/1904.html\" target=\"_blank\" title=\"Преподобный Савва Сторожевский\">Саввы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1904_1071.html\" target=\"_blank\" >икона</a>) Сторожевского, Звенигородского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/10308.html\" target=\"_blank\" title=\"Петр (Скипетров), пресвитер, сщмч.\">Петра</a> пресвитера. Сщмч.  <a  href=\"http://days.pravoslavie.ru/name/9703.html\" target=\"_blank\" title=\"Николай (Восторгов), иерей, сщмч.\">Николая</a> пресвитера. Мч. <a  href=\"http://days.pravoslavie.ru/name/14209.html\" target=\"_blank\" title=\"Феодор (Гусев), мч.\">Феодора</a>. <a  href=\"http://days.pravoslavie.ru/name/14502.html\" target=\"_blank\" title=\"День интронизации Святейшего Патриарха Московского и всея Руси Кирилла\">День интронизации Святейшего Патриарха Московского и всея Руси Кирилла</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_1-sol_5_14_23.html#z\">1 Сол., 273 зач., V, 14-23.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_17_3_10.html#z\">Лк., 84 зач., XVII, 3-10.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("29 января 2020 г. ( 16 января ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 33-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Поклонение честным веригам ап. <a  href=\"http://days.pravoslavie.ru/name/1785.html\" target=\"_blank\" title=\"Апостол Петр\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1785_15.html\" target=\"_blank\" >икона</a>). Прав. <a  href=\"http://days.pravoslavie.ru/name/1436.html\" target=\"_blank\" title=\"Праведный Максим, иерей Тотемский\">Максима</a>, иерея Тотемского, Христа ради юродивого. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2046.html\" target=\"_blank\" title=\"Спевсипп Лангонийский, мч.\">Спевсиппа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2046_539.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/756.html\" target=\"_blank\" title=\"Елевсипп Лангонийский, мч.\">Елевсиппа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii756_539.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1506.html\" target=\"_blank\" title=\"Мелевсипп Лангонийский, мч.\">Мелевсиппа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1506_539.html\" target=\"_blank\" >икона</a>), бабки их <a  href=\"http://days.pravoslavie.ru/name/2570.html\" target=\"_blank\" title=\"Леонилла (Неонилла) Лангонийская, мц.\">Леониллы</a> и с ними <a  href=\"http://days.pravoslavie.ru/name/1594.html\" target=\"_blank\" title=\"Неон Лангонийский, мч.\">Неона</a>, <a  href=\"http://days.pravoslavie.ru/name/2134.html\" target=\"_blank\" title=\"Турвон Лангонийский, мч.\">Турвона</a> и <a  href=\"http://days.pravoslavie.ru/name/2516.html\" target=\"_blank\" title=\"Иовилла Лангонийская, мц.\">Иовиллы</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/576.html\" target=\"_blank\" title=\"Данакт Иллирийский, чтец, мч.\">Данакта</a> чтеца. Свт. <a  href=\"http://days.pravoslavie.ru/name/14898.html\" target=\"_blank\" title=\"Святитель Гонорат епископ Арльский, архиепископ Арльскиц, свт.\">Гонората</a>, епископа Арльского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13635.html\" target=\"_blank\" title=\"Иоанн (Петтайя), иерей, сщмч.\">Иоанна</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_iak_3_11_0_4_0_6.html#z\">Иак., 55 зач., III, 11 - IV, 6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_11_23_26.html#z\">Мк., 51 зач., XI, 23-26,</a> и за четверг (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_iak_4_7_0_5_0_9.html#z\">Иак., 56 зач., IV, 7 - V, 9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_11_27_33.html#z\">Мк., 52 зач., XI, 27-33.</a> Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_deqn_12_1_11.html#z\">Деян., 29 зач., XII, 1-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

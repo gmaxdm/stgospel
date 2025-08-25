@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("21 мая 2020 г. ( 8 мая ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апостола и евангелиста <a  href=\"http://days.pravoslavie.ru/name/962.html\" target=\"_blank\" title=\"Апостол и евангелист Иоанн Богослов\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii962_183.html\" target=\"_blank\" >икона</a>) Богослова. Прп. <a  href=\"http://days.pravoslavie.ru/name/262.html\" target=\"_blank\" title=\"Преподобный Арсений Великий\">Арсения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii262_93.html\" target=\"_blank\" >икона</a>) Великого. Прпп. <a  href=\"http://days.pravoslavie.ru/name/1793.html\" target=\"_blank\" title=\"Преподобный Пимен, постник Печерский\">Пимена</a> постника и <a  href=\"http://days.pravoslavie.ru/name/268.html\" target=\"_blank\" title=\"Преподобный Арсений Трудолюбивый\">Арсения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii268_1673.html\" target=\"_blank\" >икона</a>) трудолюбивого, Печерских. Мч. <a  href=\"http://days.pravoslavie.ru/name/14418.html\" target=\"_blank\" title=\"Никифор (Зайцев), мч.\">Никифора</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_14_20_27.html#z\">Деян., 35 зач., XIV, 20-27.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_9_39_0_10_0_9.html#z\">Ин., 35 зач., IX, 39 - X, 9.</a> Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_1-in_1_1_7.html#z\">1 Ин., 68 зач., I, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_19_25_27_21_24_25.html#z\">Ин., 61 зач., XIX, 25-27; XXI, 24-25.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17890.htm\" target=\"_blank\" title=\"Библия\">Дея. 14, 20-27</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17891.htm\" target=\"_blank\" title=\"Библия\">Ин. 9, 39-10, 9</a>). \"И сказал Иисус: на суд пришел Я в мир сей, чтобы невидящие видели, а видящие стали слепы\". Не видящие - это простой народ, в простоте сердца веровавший Господу; а видящие - это тогдашние книжники, ученые, которые по гордости ума и сами не веровали, и народу возбраняли. Умники наши себя считают зрячими, и, потому что считают себя такими, чуждаются веры в Господа, которой крепко держатся простые сердцем и умом. И стало быть, по истине-то Господней слепы они, а народ видит. Они точь в точь как те птицы, которые ночью видят, а днем не видят. Истина Христова им темна, а противное этой истине - ложь, им кажется ясною; тут они в своей стихии. Как это ни очевидно, а все же они готовы спросить: \"неужели и мы слепы?\" Нечего скрывать: слепы. А так как слепы по своей вине, то грех слепоты и невидения света на вас лежит. Можете видеть, да не хотите, полюбивши обманчивую, но прелестную ложь.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

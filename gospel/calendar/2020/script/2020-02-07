@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("7 февраля 2020 г. ( 25 января ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 34-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/535.html\" target=\"_blank\" title=\"Святитель Григорий Богослов, архиепископ Константинопольский\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii535_8.html\" target=\"_blank\" >икона</a>) Богослова, архиеп. Константинопольского. Прп. <a  href=\"http://days.pravoslavie.ru/name/6982.html\" target=\"_blank\" title=\"Анатолий (Зерцалов) Оптинский I, прп.\">Анатолия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6982_3252.html\" target=\"_blank\" >икона</a>) Оптинского, Старшего. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/430.html\" target=\"_blank\" title=\"Священномученик Владимир Киевский и Галицкий\">Владимира</a> (<a  href=\"http://days.pravoslavie.ru/images/ii430_27.html\" target=\"_blank\" >икона</a>), митр. Киевского. Мц. <a  href=\"http://days.pravoslavie.ru/name/2735.html\" target=\"_blank\" title=\"Филицата Римская, мц.\">Филицаты</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2735_2277.html\" target=\"_blank\" >икона</a>) и сыновей ее: <a  href=\"http://days.pravoslavie.ru/name/892.html\" target=\"_blank\" title=\"Ианнуарий Римлянин, мч.\">Ианнуария</a>, <a  href=\"http://days.pravoslavie.ru/name/2166.html\" target=\"_blank\" title=\"Феликс Римлянин, мч.\">Феликса</a>, <a  href=\"http://days.pravoslavie.ru/name/2296.html\" target=\"_blank\" title=\"Филипп Римлянин, мч.\">Филиппа</a>, <a  href=\"http://days.pravoslavie.ru/name/1992.html\" target=\"_blank\" title=\"Сильван Римлянин, мч.\">Сильвана</a>, <a  href=\"http://days.pravoslavie.ru/name/120.html\" target=\"_blank\" title=\"Мученик Александр Римлянин\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/428.html\" target=\"_blank\" title=\"Виталий Римлянин, мч.\">Виталия</a> и <a  href=\"http://days.pravoslavie.ru/name/1499.html\" target=\"_blank\" title=\"Марциал Римлянин, мч.\">Марциала</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/1823.html\" target=\"_blank\" title=\"Поплий Сирийский, прп.\">Поплия</a> Сирийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1447.html\" target=\"_blank\" title=\"Мар Певец, Омирский, прп.\">Мара</a> певца. Свт. <a  href=\"http://days.pravoslavie.ru/name/1570.html\" target=\"_blank\" title=\"Святитель Моисей, архиепископ Новгородский\">Моисея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1570_1925.html\" target=\"_blank\" >икона</a>), архиеп. Новгородского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9121.html\" target=\"_blank\" title=\"Святитель Петр (Зверев), архиепископ Воронежский, сщмч.\">Петра</a>, архиеп. Воронежского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9137.html\" target=\"_blank\" title=\"Святитель Василий (Зеленцов), епископ Прилукский, сщмч.\">Василия</a>, еп. Прилукского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14405.html\" target=\"_blank\" title=\"Стефан (Грачев), иерей, сщмч.\">Стефана</a> пресвитера. Мч. <a  href=\"http://days.pravoslavie.ru/name/13638.html\" target=\"_blank\" title=\"Борис (Заварин), мч.\">Бориса</a>. Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/3010.html\" target=\"_blank\" title=\"\"Утоли моя печали\"\">\"Утоли моя печали\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3010_374.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_2-pet_1_1_10.html#z\">2 Пет., 64 зач., I, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_13_1_8.html#z\">Мк., 58 зач., XIII, 1-8.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_12_7_11.html#z\">1 Кор., 151 зач., XII, 7-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> Сщмч.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_7_16.html#z\">Евр., 334 зач., XIII, 7-16</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.  </div><div class=\'DAYS_snoska\' style=\'display:none\'>* Чтения сщмч. Владимира читаются, если ему совершается служба. Если служба в честь свт. Григория Богослова совершается в соединении со службой сщмч. Владимира, митрополита Киевского, то на литургии Апостол - дня, святителя (под зачало) и священномученика: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_7_16.html#z\">Евр., 334 зач., XIII, 7-16,</a> а Евангелие - дня и святых: <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16</a> (евангельские чтения свт. Григория и сщмч. Владимира совпадают). Если совершается только полиелейная служба сщмч. Владимира, митрополита Киевского, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_lk_12_32_40.html#z\">Лк., 67 зач., XII, 32-40,</a> а на литургии - чтения дня и священномученика: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_7_16.html#z\">Евр., 334 зач., XIII, 7-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18423.htm\" target=\"_blank\" title=\"Библия\">2 Пет. 1, 1-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18424.htm\" target=\"_blank\" title=\"Библия\">Мк. 13, 1-8</a>). Перечислив добродетели, о которых надлежит поиметь все старание, по принятии благодатных сил, Апостол в побуждение к тому сказал: \"Если это в вас есть и умножается, то вы не останетесь без успеха и плода в познании Господа нашего Иисуса Христа\". Какие это добродетели выше приведено в понедельник. Теперь прибавим только, что добродетели эти неоднократно только проявить требуется, но так сделать, чтобы они всегда пребывали в нас, были сущие в нас, вкорененные, - и, таковыми будучи, не стояли на одной степени, но все более и более множились и возрастали в силе и плодовитости. Только в таком случае, говорит, будешь ты не празден и не бесплоден \"в познании Господа нашего Иисуса Христа\". Входит в познание Господа тот, кто верует в Него и исповедует Его. Ты веруешь, говорит?! Смотри же не делай этой веры праздною и безплодною. Что же надо делать, чтобы вера моя не была такою? Преуспевай во всякой добродетели. Где твердящие, что веруй и довольно: ничего более не нужно?! - Кто так думает, тот слеп.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("4 февраля 2020 г. ( 22 января ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 34-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Ап. <a  href=\"http://days.pravoslavie.ru/name/2101.html\" target=\"_blank\" title=\"Святитель Тимофей, епископ Ефесский, апостол от 70-ти, сщмч.\">Тимофея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2101_1190.html\" target=\"_blank\" >икона</a>). Прмч. <a  href=\"http://days.pravoslavie.ru/name/165.html\" target=\"_blank\" title=\"Преподобномученик Анастасий Персиянин\">Анастасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii165_3237.html\" target=\"_blank\" >икона</a>) Персянина. Прп. <a  href=\"http://days.pravoslavie.ru/name/1402.html\" target=\"_blank\" title=\"Преподобный Макарий Жабынский, Белевский\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1402_317.html\" target=\"_blank\" >икона</a>) Жабынского, Белевского чудотворца. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1444.html\" target=\"_blank\" title=\"Святитель Мануил Адрианопольский, епископ, сщмч.\">Мануила</a>, <a  href=\"http://days.pravoslavie.ru/name/488.html\" target=\"_blank\" title=\"Святитель Георгий Девельтский, Адрианопольский, епископ, сщмч.\">Георгия</a>, <a  href=\"http://days.pravoslavie.ru/name/1769.html\" target=\"_blank\" title=\"Святитель Петр Адрианопольский, епископ, сщмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/1349.html\" target=\"_blank\" title=\"Святитель Леонтий (Леон) Адрианопольский, епископ, сщмч.\">Леонтия</a> епископов, <a  href=\"http://days.pravoslavie.ru/name/2022.html\" target=\"_blank\" title=\"Сионий Адрианопольский, мч.\">Сиония</a>, <a  href=\"http://days.pravoslavie.ru/name/445.html\" target=\"_blank\" title=\"Гавриил Адрианопольский, мч.\">Гавриила</a>, <a  href=\"http://days.pravoslavie.ru/name/963.html\" target=\"_blank\" title=\"Иоанн Адрианопольский, мч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/1344.html\" target=\"_blank\" title=\"Леонт Адрианопольский, мч.\">Леонта</a>, <a  href=\"http://days.pravoslavie.ru/name/1740.html\" target=\"_blank\" title=\"Парод Болгарский, пресвитер, сщмч.\">Парода</a> пресвитера и прочих 377-ми. Прмч. <a  href=\"http://days.pravoslavie.ru/name/166.html\" target=\"_blank\" title=\"Преподобномученик Анастасий, диакон Печерский\">Анастасия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii166_3239.html\" target=\"_blank\" >икона</a>), диакона Печерского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9648.html\" target=\"_blank\" title=\"Иоанн (Успенский), иерей, сщмч.\">Иоанна</a> и  <a  href=\"http://days.pravoslavie.ru/name/9573.html\" target=\"_blank\" title=\"Евфимий (Тихонравов), иерей, сщмч.\">Евфимия</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-pet_3_10_22.html#z\">1 Пет., 60 зач., III, 10-22.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_12_18_27.html#z\">Мк., 55 зач., XII, 18-27.</a> Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_2-tim_1_3_9.html#z\">2 Тим., 290 зач. (от&nbsp;полу&#769;), I, 3-9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_1_15.html#z\">Лк., 50 зач., X, 1-15.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18417.htm\" target=\"_blank\" title=\"Библия\">1 Пет. 3, 10-22</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18418.htm\" target=\"_blank\" title=\"Библия\">Мк. 12, 18-27</a>). \"Господа Бога святите в сердцах ваших\". Освящение Господа в сердце есть душа и дух изображаемого выше сокровенного сердца человека. Как первоначально Бог, создав из частиц персти тело человека, вдунул в него дыхание жизни, - и стал человек как следует быть; так и созидаемый внутри из показанных добродетелей сокровенный сердца человек, тогда только явится настоящим духовным человеком, когда это сердце будет святить Господа Бога, как и в молитве Господней читаем: \"да святится имя Твое\". Если не будет этого, то слеплеваемый из сказанных добродетелей человек выйдет мертворожденное дитя, без духа жизни. Да ведают это думающие обойтись с одними некиими добродетелями без всякого отношения к Богу! Что есть святить Бога в сердце? Непрестанно благоговеть перед Ним, всегда нося в уме помышление о Его вездеприсутствии, всей ревностью ревновать в каждое мгновение благоугодным перед Ним быть и со всяким страхом остерегаться всего Ему неугодного, особенно же Его отеческому попечению предав весь живот свой, и временный и вечный, все случающееся смиренно, благопокорливо и благодарно принимать, как прямо от руки Его идущее.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

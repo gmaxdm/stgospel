@@ -1,0 +1,112 @@
+{% extends 'wrapper.html' %}
+{% load static %}
+{% load common %}
+{% block main %}
+    {% load common %}
+    <h2>Православный церковный календарь. Месяцеслов</h2>
+    <div class="mt-5">
+        <div class="clearfix"><small><span class="float-left"><span class="text-muted">{{ yesterday_old }}</span> / {{ yesterday|calendar }}, {{ yesterday|date:"l" }}</span><span class="float-right"><span class="text-muted">{{ tomorrow_old }}</span> / {{ tomorrow|calendar }}, {{ tomorrow|date:"l" }}</span></small></div>
+        <div class="text-right mb-2"><span class="text-muted"><em>{{ today_old }}</em></span> / <em>{{ today }}</em>, {{ today|date:"l" }}</div>
+        <div class="trapeza">
+            <div class="trapeza-img tr-{{ calendar.trapeza_id }}"></div>
+            <p>{{ calendar.trapeza }}</p>
+        </div>
+        {% if calendar.saints or calendar.title %}
+        <h5>Церковь почитает и вспоминает</h5>
+        <div class="card border-warning">
+            <div class="card-body">
+                {% if calendar.title %}
+                    {% for t in calendar.title %}
+                    <div class="text-center alert alert-success" role="alert">
+                        {{ t|safe }}
+                    </div>
+                    {% endfor %}
+                {% endif %}
+                <div id="days{{ shft }}" class="float-left mr-3 mb-3"></div>
+                {% if calendar.saints %}
+                    <div>
+                    {% for s in calendar.saints %}
+                    <p>{{ s|safe }}</p>
+                    {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+        <div class="reading mb-4">
+            <h4 class="mt-4">Чтение за Богослужением</h4>
+            {% for refs in calendar.reading %}
+                {% for s in refs %}
+                <span>{{ s|safe }}</span>
+                {% endfor %}
+            {% endfor %}
+        </div>
+        <div class="mb-5">
+            {% for name, prays in calendar.prayers.items %}
+            {% if prays %}
+                <h5>{{ name|safe }}</h5>
+                {% for pray in prays %}
+                <p class="lead">{{ pray|safe }}</p>
+                {% endfor %}
+            {% endif %}
+            {% endfor %}
+        </div>
+        <blockquote class="blockquote">
+            {% for s in calendar.preaching %}
+            <p>{{ s|safe }}</p>
+            {% endfor %}
+        </blockquote>
+        {% if calendar.feofan %}
+        <blockquote class="blockquote">
+            <h4 class="text-center mt-5 mb-4">Святитель Феофан Затворник. Мысли на каждый день года</h4>
+            <div class="float-left mr-3"><img src="{% static 'img/Feofan.jpg' %}" /></div>
+            <div id="fp">
+            {{ calendar.feofan|safe }}
+            </div>
+        </blockquote>
+        {% endif %}
+        {% if next %}
+        <div class="text-right">
+            <div><em>Следующий праздник</em></div>
+            <p><strong>{% for t in next.data.title %}{{ t|safe }}{% endfor %}</strong></p>
+            <p class="text-muted">
+                <em>
+                {% if next.days %}
+                через {{ next.days }} {{ next.days|declension:"день,дня,дней" }},
+                {% else %}
+                завтра,
+                {% endif %}
+                </em>
+                {{ next.date }}
+            </p>
+        </div>
+        {% endif %}
+        <div id="calendar-month"></div>
+    </div>
+    <script>
+    var TMSHIFT = {{ shft }};
+    function dayiconloaded() {
+        var _w = dayicon.w;
+        var _h = dayicon.h;
+        $("#days"+TMSHIFT).html(
+            '<img src="'+dayicon.src+'" WIDTH='+_w+' HEIGHT='+_h+' ALT="'+dayicon.text+'" title="'+dayicon.text+'">'
+        );
+    }
+    function loadDayIcon(tmshift) {
+        var _sh24 = tmshift || 0;
+        var _prev = 'dayiconscript'+TMSHIFT;
+        var head = document.getElementsByTagName('head').item(0);
+        var scriptTag = document.getElementById(_prev);
+        if(scriptTag) head.removeChild(scriptTag);
+        script = document.createElement('script');
+        script.src = "https://script.pravoslavie.ru/icon.php?advanced=2&tmshift="+_sh24;
+        script.type = 'text/javascript';
+        script.id = 'dayiconscript' + _sh24;
+        head.appendChild(script);
+        TMSHIFT = _sh24;
+    }
+    $(function() {
+        loadDayIcon({{ shft }});
+    });
+    </script>
+{% endblock %}

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("30 апреля 2020 г. ( 17 апреля ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 2-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2001.html\" target=\"_blank\" title=\"Святитель Симеон Ктезифонтский, Селевкийский (Персидский), епископ, сщмч.\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2001_4202.html\" target=\"_blank\" >икона</a>), еп. Персидского, и с ним мчч. <a  href=\"http://days.pravoslavie.ru/name/6.html\" target=\"_blank\" title=\"Авделай Селевкийский, пресвитер\">Авделая</a> и <a  href=\"http://days.pravoslavie.ru/name/159.html\" target=\"_blank\" title=\"Анания Селевкийский, пресвитер, сщмч.\">Анании</a> пресвитеров, <a  href=\"http://days.pravoslavie.ru/name/2357.html\" target=\"_blank\" title=\"Хусдазад (Усфазан) Селевкийский, мч.\">Хусдазата</a> евнуха, <a  href=\"http://days.pravoslavie.ru/name/2341.html\" target=\"_blank\" title=\"Фусик Селевкийский, мч.\">Фусика</a>, <a  href=\"http://days.pravoslavie.ru/name/84.html\" target=\"_blank\" title=\"Мученик Азат Персидский\">Азата</a>, мч. <a  href=\"http://days.pravoslavie.ru/name/2415.html\" target=\"_blank\" title=\"Аскитрея Селевкийская, мц.\">Аскитреи</a> и иных многих. Прп. <a  href=\"http://days.pravoslavie.ru/name/6599.html\" target=\"_blank\" title=\"Святитель Акакий Мелитинский, епископ\">Акакия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6599_4396.html\" target=\"_blank\" >икона</a>), еп. Мелитинского. Прп. <a  href=\"http://days.pravoslavie.ru/name/854.html\" target=\"_blank\" title=\"Преподобный Зосима, игумен Соловецкий\">Зосимы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii854_180.html\" target=\"_blank\" >икона</a>), игумена Соловецкого. Мч. <a  href=\"http://days.pravoslavie.ru/name/73.html\" target=\"_blank\" title=\"Мученик Адриан Коринфский\">Адриана</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/55.html\" target=\"_blank\" title=\"Святитель Агапит I Римский, папа\">Агапита</a>, папы Римского. Обретение мощей прп. <a  href=\"http://days.pravoslavie.ru/name/125.html\" target=\"_blank\" title=\"Преподобный Александр Свирский\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii125_1636.html\" target=\"_blank\" >икона</a>) Свирского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14949.html\" target=\"_blank\" title=\"Паисий Киевский, прп., Христа ради юродивый\">Паисия</a> Киевского, Христа ради юродивого. Св. <a  href=\"http://days.pravoslavie.ru/name/9358.html\" target=\"_blank\" title=\"Михаил (Новицкий), протоиерей, исп.\">Михаила</a> исп., пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9818.html\" target=\"_blank\" title=\"Феодор (Недосекин), иерей, сщмч.\">Феодора</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_deqn_4_23_31.html#z\">Деян., 12 зач., IV, 23-31.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_5_24_30.html#z\">Ин., 16 зач., V, 24-30</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба прп. Зосимы, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30,</a> а на литургии - чтения дня и преподобного: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17843.htm\" target=\"_blank\" title=\"Библия\">Дея. 4, 23-31</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17844.htm\" target=\"_blank\" title=\"Библия\">Ин. 5, 24-30</a>). \"И изыдут творившие добро в воскресение жизни, а делавшие зло в воскресение осуждения\". Вот чем все кончится! Как реки текут каждая в свое море, так течение жизней наших приспеет, наконец, каждое в место по характеру своему. И те, которые воскреснут в жизнь, будут на суде, но суд только запечатлеет их оправдание и определение на жизнь; тогда как другие воскреснут только за тем, чтобы выслушать осуждение на вечную смерть. Жизнь и смерть их характеризуются теперь еще, оттого что одни делают живые дела, а другие - дела мертвые и мертвящие. Живые дела те, которые совершаются по заповедям с радостью духа, во славу Божию; мертвящие дела те, которые совершаются в противность заповедям, с богозабвением, в угоду себе и страстям своим. Мертвые дела - все, которые хоть по форме не противны заповедям, но делаются без всякой мысли о Боге и вечном спасении, по каким либо видам себялюбия. Бог - жизнь; то только и живо, в чем есть часть Его. И вот у кого только мертвые и мертвящие дела, тот прямо идет и в последний день изыдет на осуждение смерти; а у кого дела все живые, тот идет и в последний день изыдет на получение вечной жизни.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

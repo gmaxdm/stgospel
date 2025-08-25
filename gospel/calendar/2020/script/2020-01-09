@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("9 января 2020 г. (27  декабря 2019 г. ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 30-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Ап. первомч. и архидиакона <a  href=\"http://days.pravoslavie.ru/name/2051.html\" target=\"_blank\" title=\"Первомученик и архидиакон Стефан\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2051_373.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/2190.html\" target=\"_blank\" title=\"Феодор Начертанный, Константинопольский, исповедник, прп.\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2190_3605.html\" target=\"_blank\" >икона</a>) Начертанного, исп. Свт. <a  href=\"http://days.pravoslavie.ru/name/2187.html\" target=\"_blank\" title=\"Святитель Феодор I Константинопольский, патриарх\">Феодора</a>, архиеп. Константинопольского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14984.html\" target=\"_blank\" title=\"Вонифатий (Виноградский) Феофановский, Киевский, игумен, прп.\">Вонифатия</a> Феофановского, Киевского.  Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9126.html\" target=\"_blank\" title=\"Святитель Тихон (Никаноров), архиепископ Воронежский, сщмч.\">Тихона</a>, архиеп. Воронежского. Мц. <a  href=\"http://days.pravoslavie.ru/name/14500.html\" target=\"_blank\" title=\"Антонина (Брянских), мц.\">Антонины</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_10_35_0_11_0_7.html#z\">Евр., 326 зач., X, 35 - XI, 7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_11_27_33.html#z\">Мк., 52 зач., XI, 27-33.</a> Первомч.: <a href=\"http://days.pravoslavie.ru/bible/z_deqn_6_8_15_7_1_5_7_47_60.html#z\">Деян., 17 зач., VI, 8-15; VII, 1-5, 47-60.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_21_33_42.html#z\">Мф., 87 зач., XXI, 33-42.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

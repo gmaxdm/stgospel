@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("15 июля 2020 г. ( 2 июля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6925.html\" target=\"_blank\" title=\"Положение честной ризы Пресвятой Богородицы во Влахерне\">Положение</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6925_4359.html\" target=\"_blank\" >икона</a>) честной ризы Пресвятой Богородицы во Влахерне. Свт. <a  href=\"http://days.pravoslavie.ru/name/1130.html\" target=\"_blank\" title=\"Святитель Иувеналий (Ювеналий) Иерусалимский, патриарх\">Иувеналия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1130_4356.html\" target=\"_blank\" >икона</a>), архиеп. Иерусалимского. Свт. <a  href=\"http://days.pravoslavie.ru/name/2331.html\" target=\"_blank\" title=\"Святитель Фотий, митрополит Киевский, Московский и всея Руси\">Фотия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2331_2107.html\" target=\"_blank\" >икона</a>), митр. Киевского. <a  href=\"http://days.pravoslavie.ru/name/3012.html\" target=\"_blank\" title=\"Феодотьевская\">Феодотьевской</a>, <a  href=\"http://days.pravoslavie.ru/name/2946.html\" target=\"_blank\" title=\"Пожайская\">Пожайской</a>, и <a  href=\"http://days.pravoslavie.ru/name/2773.html\" target=\"_blank\" title=\"Ахтырская\">Ахтырской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2773_428.html\" target=\"_blank\" >икона</a>) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-kor_2_9_0_3_0_8.html#z\">1 Кор., 127 зач., II, 9 - III, 8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_13_31_36.html#z\">Мф., 53 зач., XIII, 31-36.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_evr_9_1_7.html#z\">Евр., 320 зач., IX, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18006.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 2, 9-3, 8</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18007.htm\" target=\"_blank\" title=\"Библия\">Мф. 13, 31-36</a>). Подобно Царствие зерну горчичному и закваске. Маленькое горчичное зерно разрастается в большой куст; закваска проникает все замешанное тесто и делает его вскисшим. Тут, с одной стороны, образ Церкви, которая сначала только состояла из апостолов и нескольких других лиц, потом разрослась и сделалась многочисленной, проникла все человечество; с другой - образ духовной жизни, раскрывающейся в каждом человеке. Первое зернышко ее - намерение и решимость спасаться через богоугождение по вере в Господа Спасителя. Эта решимость, как бы ни была крепка, похожа на малую точку. Вначале она обнимает только сознание и самодеятельность; из этого развивается потом вся деятельность духовной жизни. Сама в себе она размножается в движениях и силе, и мужает, а в отношении к душе, начинает проникать ее во всех ее силах - в уме, воле, чувстве и иcполняет их собою, делает вскисшими по своему духу, проникает и весь состав естества человеческого и тело, и душу, и дух, в котором зарождается.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

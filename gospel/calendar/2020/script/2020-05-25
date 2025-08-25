@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("25 мая 2020 г. ( 12 мая ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 6-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Свт. <a  href=\"http://days.pravoslavie.ru/name/784.html\" target=\"_blank\" title=\"Святитель Епифаний Кипрский, епископ\">Епифания</a> (<a  href=\"http://days.pravoslavie.ru/images/ii784_4265.html\" target=\"_blank\" >икона</a>), еп. Кипрского. Свт. <a  href=\"http://days.pravoslavie.ru/name/511.html\" target=\"_blank\" title=\"Святитель Герман Константинопольский, патриарх\">Германа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii511_346.html\" target=\"_blank\" >икона</a>), патриарха Константинопольского. Прославление сщмч. <a  href=\"http://days.pravoslavie.ru/name/804.html\" target=\"_blank\" title=\"Священномученик Ермоген, патриарх Московский и всея Руси\">Ермогена</a> (<a  href=\"http://days.pravoslavie.ru/images/ii804_214.html\" target=\"_blank\" >икона</a>), патриарха Московского и всея России, чудотворца. Свтт. <a  href=\"http://days.pravoslavie.ru/name/1912.html\" target=\"_blank\" title=\"Святитель Савин Кипрский, архиепископ\">Савина</a>, архиеп. Кипрского и прочих свтт. Кипрских. Свт. <a  href=\"http://days.pravoslavie.ru/name/1817.html\" target=\"_blank\" title=\"Святитель Полувий Ринокирский, епископ\">Полувия</a>, еп. Ринокирского. Мч. <a  href=\"http://days.pravoslavie.ru/name/968.html\" target=\"_blank\" title=\"Иоанн Влах (Валах), Румынский, мч.\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii968_4268.html\" target=\"_blank\" >икона</a>) Валаха (Рум.). Прп. <a  href=\"http://days.pravoslavie.ru/name/630.html\" target=\"_blank\" title=\"Преподобный Дионисий Радонежский\">Дионисия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii630_1757.html\" target=\"_blank\" >икона</a>) Радонежского. Второе обретение мощей прав. <a  href=\"http://days.pravoslavie.ru/name/1999.html\" target=\"_blank\" title=\"Праведный Симеон Верхотурский\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1999_1103.html\" target=\"_blank\" >икона</a>) Верхотурского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9776.html\" target=\"_blank\" title=\"Петр (Попов), иерей, сщмч.\">Петра</a>, пресвитера. Мц. <a  href=\"http://days.pravoslavie.ru/name/10067.html\" target=\"_blank\" title=\"Евдокия (Мартишкина), мц.\">Евдокии</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_17_1_15.html#z\">Деян., 39 зач., XVII, 1-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_11_47_57.html#z\">Ин., 40 зач., XI, 47-57.</a> Свтт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19,</a> или сщмч.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_17_21.html#z\">Евр., 335 зач., XIII, 17-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17898.htm\" target=\"_blank\" title=\"Библия\">Дея. 17, 1-15</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17899.htm\" target=\"_blank\" title=\"Библия\">Ин. 11, 47-57</a>). \"Что нам делать? Этот Человек много чудес творит\". Только и нашла в Спасителе виновного иудейская ученость. И в наши дни немецкая ученость только и находит неуместного в Евангелии Христовом, что сверхъестественное: все хорошо, только это - вишь нейдет. И в решении обе учености сошлись. иудейская решила: \"лучше, чтобы один человек умер\", а не все погибнут; и немецкая положила: устраним сверхъестественное, чтоб сохранить все прочие истины евангельские. Что же вышло? Те сгубили народ, а эти растеряли все христианские истины, и теперь остались почти не при чем. Господь есть краеугольный камень здания спасения; так и вера в сверхъестественное есть краеугольный камень всего здания богодухновенной истины. Сам Спаситель, в лице Своем, венец сверхъестественности, а в Церкви - неистощимый Источник ее. Касающийся сего пункта касается зеницы ока Божия.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

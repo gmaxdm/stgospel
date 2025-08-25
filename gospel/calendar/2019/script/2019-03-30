@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("30 марта 2020 г. ( 17 марта ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/134.html\" target=\"_blank\" title=\"Преподобный Алексий, человек Божий\">Алексия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii134_75.html\" target=\"_blank\" >икона</a>), человека Божия. Прп. <a  href=\"http://days.pravoslavie.ru/name/1404.html\" target=\"_blank\" title=\"Преподобный Макарий Калязинский\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1404_1894.html\" target=\"_blank\" >икона</a>), игумена Калязинского, чудотворца. Мч. <a  href=\"http://days.pravoslavie.ru/name/1454.html\" target=\"_blank\" title=\"Марин Кесарийский (Палестинский), мч.\">Марина</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/14843.html\" target=\"_blank\" title=\"Святитель Патрикий просветитель Ирландии, епископ, свт.\">Патрикия</a>, просветителя Ирландии. Прп. <a  href=\"http://days.pravoslavie.ru/name/13454.html\" target=\"_blank\" title=\"Парфений (Краснопевцев), иеросхимонах Киево-Печерской лавры, прп.\">Парфения</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13454_669.html\" target=\"_blank\" >икона</a>) Киевского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9443.html\" target=\"_blank\" title=\"Александр (Поливанов), иерей, сщмч.\">Александра</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9290.html\" target=\"_blank\" title=\"Виктор (Киранов), протоиерей, сщмч.\">Виктора</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_37_33_0_38_0_6.html#z\">Ис. XXXVII, 33 - XXXVIII, 6.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_13_12_18.html#z\">Быт. XIII, 12-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_14_27_0_15_0_4.html#z\">Притч. XIV, 27 - XV, 4.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"На всяком месте очи Господни; они видят злых и добрых\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17794.htm\" target=\"_blank\" title=\"Библия\">Прит. 15, 3</a>). О, когда бы всегда памятовала об этом разумная тварь! Не посмела бы она тогда не только бесчинствовать явно и предаваться плотским непотребствам, но и внутренне, в помышлениях ума своего и в движениях сердца, не допускала бы ничего неугодного Богу. Стояла бы она тогда как воин перед царем во фронте, со всем вниманием и строгостью к себе, чтобы не оказаться не знающею своих артикулов и не подпасть гневу цареву и наказанию. Артикулы для ней - заповеди Божии, определяющие и образ мыслей приличный ей, и то, какова она должна быть в своих чувствах и расположениях; во всем этом была бы она тогда вполне исправна.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("25 августа 2020 г. ( 12 августа ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 12-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Успенский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: горячая пища без масла. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/2334.html\" target=\"_blank\" title=\"Фотий Никомидийский, мч.\">Фотия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2334_3516.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/200.html\" target=\"_blank\" title=\"Аникита Никомидийский, мч.\">Аникиты</a> (<a  href=\"http://days.pravoslavie.ru/images/ii200_1661.html\" target=\"_blank\" >икона</a>) и многих с ними. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/110.html\" target=\"_blank\" title=\"Святитель Александр Команский, епископ, сщмч.\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii110_3514.html\" target=\"_blank\" >икона</a>), еп. Команского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1723.html\" target=\"_blank\" title=\"Памфил Оливрийский (Константинопольский), мч.\">Памфила</a> и <a  href=\"http://days.pravoslavie.ru/name/1171.html\" target=\"_blank\" title=\"Капитон Оливрийский (Константинопольский), мч.\">Капитона</a>. Прмчч. Белогорских: <a  href=\"http://days.pravoslavie.ru/name/9165.html\" target=\"_blank\" title=\"Варлаам (Коноплев), архимандрит настоятель Белогорского Св.-Николаевского, сщмч.\">Варлаама</a>, <a  href=\"http://days.pravoslavie.ru/name/9245.html\" target=\"_blank\" title=\"Сергий, иеромонах Белогорского Св.-Николаевского монастыря, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/9214.html\" target=\"_blank\" title=\"Илия, иеромонах Белогорского Св.-Николаевского монастыря, сщмч.\">Илии</a>, <a  href=\"http://days.pravoslavie.ru/name/9202.html\" target=\"_blank\" title=\"Вячеслав, иеромонах Белогорского Св.-Николаевского монастыря, сщмч.\">Вячеслава</a>, <a  href=\"http://days.pravoslavie.ru/name/9220.html\" target=\"_blank\" title=\"Иоасаф, иеромонах Белогорского Св.-Николаевского монастыря, сщмч.\">Иоасафа</a>, <a  href=\"http://days.pravoslavie.ru/name/9217.html\" target=\"_blank\" title=\"Иоанн, иеромонах Белогорского Св.-Николаевского монастыря, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9196.html\" target=\"_blank\" title=\"Антоний, иеромонах Белогорского Св.-Николаевского монастыря, сщмч.\">Антония</a>, <a  href=\"http://days.pravoslavie.ru/name/9832.html\" target=\"_blank\" title=\"Михей, иеродиакон, инок Белогорского Св.-Николаевского монастыря, сщмч.\">Михея</a>, <a  href=\"http://days.pravoslavie.ru/name/9829.html\" target=\"_blank\" title=\"Виссарион, иеродиакон, инок Белогорского Св.-Николаевского монастыря, сщмч.\">Виссариона</a>, <a  href=\"http://days.pravoslavie.ru/name/9831.html\" target=\"_blank\" title=\"Матфей, иеродиакон, инок Белогорского Св.-Николаевского монастыря, сщмч.\">Матфея</a>, <a  href=\"http://days.pravoslavie.ru/name/9830.html\" target=\"_blank\" title=\"Евфимий, иеродиакон, инок Белогорского Св.-Николаевского монастыря, сщмч.\">Евфимия</a>, <a  href=\"http://days.pravoslavie.ru/name/9869.html\" target=\"_blank\" title=\"Варнава, инок Белогорского Св.-Николаевского монастыря, прмч.\">Варнавы</a>, <a  href=\"http://days.pravoslavie.ru/name/9872.html\" target=\"_blank\" title=\"Димитрий, инок Белогорского Св.-Николаевского монастыря, прмч.\">Димитрия</a>, <a  href=\"http://days.pravoslavie.ru/name/9879.html\" target=\"_blank\" title=\"Савва, инок Белогорского Св.-Николаевского монастыря, прмч.\">Саввы</a>, <a  href=\"http://days.pravoslavie.ru/name/9871.html\" target=\"_blank\" title=\"Гермоген, инок Белогорского Св.-Николаевского монастыря, прмч.\">Гермогена</a>, <a  href=\"http://days.pravoslavie.ru/name/9868.html\" target=\"_blank\" title=\"Аркадий, инок Белогорского Св.-Николаевского монастыря, прмч.\">Аркадия</a>, <a  href=\"http://days.pravoslavie.ru/name/9873.html\" target=\"_blank\" title=\"Евфимий, инок Белогорского Св.-Николаевского монастыря, прмч.\">Евфимия</a>, <a  href=\"http://days.pravoslavie.ru/name/9876.html\" target=\"_blank\" title=\"Маркелл, инок Белогорского Св.-Николаевского монастыря, прмч.\">Маркелла</a>, <a  href=\"http://days.pravoslavie.ru/name/9916.html\" target=\"_blank\" title=\"Иоанн, послушник Белогорского Св.-Николаевского монастыря, прмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/9912.html\" target=\"_blank\" title=\"Иаков, послушник Белогорского Св.-Николаевского монастыря, прмч.\">Иакова</a>, <a  href=\"http://days.pravoslavie.ru/name/9917.html\" target=\"_blank\" title=\"Петр, послушник Белогорского Св.-Николаевского монастыря, прмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/9913.html\" target=\"_blank\" title=\"Иаков (другой), послушник Белогорского Св.-Николаевского монастыря, прмч.\">Иакова</a>, <a  href=\"http://days.pravoslavie.ru/name/9909.html\" target=\"_blank\" title=\"Александр, послушник Белогорского Св.-Николаевского монастыря, прмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/9921.html\" target=\"_blank\" title=\"Феодор, послушник Белогорского Св.-Николаевского монастыря, прмч.\">Феодора</a>, <a  href=\"http://days.pravoslavie.ru/name/9918.html\" target=\"_blank\" title=\"Петр (другой), послушник Белогорского Св.-Николаевского монастыря, прмч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/9920.html\" target=\"_blank\" title=\"Сергий, послушник Белогорского Св.-Николаевского монастыря, прмч.\">Сергия</a> и <a  href=\"http://days.pravoslavie.ru/name/9910.html\" target=\"_blank\" title=\"Алексий, послушник Белогорского Св.-Николаевского монастыря, прмч.\">Алексия</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13761.html\" target=\"_blank\" title=\"Василий (Инфантьев), иерей, сщмч.\">Василия</a> пресвитера. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9347.html\" target=\"_blank\" title=\"Леонид (Бирюкович), протоиерей, сщмч.\">Леонида</a>,  <a  href=\"http://days.pravoslavie.ru/name/9623.html\" target=\"_blank\" title=\"Иоанн (Никольский), иерей, сщмч.\">Иоанна</a> и <a  href=\"http://days.pravoslavie.ru/name/11950.html\" target=\"_blank\" title=\"Николай (Доброумов), иерей, сщмч.\">Николая</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_2-kor_5_15_21.html#z\">2 Кор., 180 зач., V, 15-21.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_1_16_22.html#z\">Мк., 3 зач., I, 16-22</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба свт. Тихона (c 13 августа), то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16,</a> а на литургии - чтения дня и святителя: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_5_14_19.html#z\">Мф., 11 зач., V, 14-19.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18096.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 5, 15-21</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18097.htm\" target=\"_blank\" title=\"Библия\">Мк. 1, 16-22</a>). Господь учил в синагоге Капернаумской, и все дивились о учении Его: \"ибо Он учил их как власть имеющий, а не как книжники\". Эта власть - не тон повелительный, а сила влияния на души и сердца. Слово Его проходило во внутрь и вязало совести людские, указывая, что все так есть, как Он говорил. Таково и всегда слово, проникнутое силою Божественною, слово от Духа, или слово помазанное. Таково оно было и у святых апостолов, и после них у всех влиятельных учителей, говоривших не от научности, а от того, как дух давал им провещавать. Это дар Божий, стяжаемый, однако, трудами не над одним исследованием истины, а более над сердечным и жизненным усвоением ее. Где это совершится, там слово проникается убедительностью, потому что переходит от сердца к сердцу; тут и власть слова над душами. Книжникам, говорящим и пишущим от научности, не дается такая сила, потому что они говорят от головы, и в голову пересыпают свое умствование. В голове же нет жизни, а только верхушка ее. Жизнь - в сердце, и только исходящее из сердца может воздействовать на токи жизни.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

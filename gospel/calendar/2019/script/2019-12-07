@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("7 декабря 2020 г. ( 24 ноября ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 27-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: горячая пища без масла. ");
+}
+
+function print_saints()
+{
+ daysd.write("Вмц. <a  href=\"http://days.pravoslavie.ru/name/2491.html\" target=\"_blank\" title=\"Великомученица Екатерина\">Екатерины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2491_85.html\" target=\"_blank\" >икона</a>). Вмч. <a  href=\"http://days.pravoslavie.ru/name/1519.html\" target=\"_blank\" title=\"Меркурий Кесарийский (Каппадокийский), военачальник, вмч.\">Меркурия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1519_257.html\" target=\"_blank\" >икона</a>). Мч. <a  href=\"http://days.pravoslavie.ru/name/1521.html\" target=\"_blank\" title=\"Мученик Меркурий Смоленский\">Меркурия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1521_954.html\" target=\"_blank\" >икона</a>) Смоленского. Мц. <a  href=\"http://days.pravoslavie.ru/name/2366.html\" target=\"_blank\" title=\"Августа (Василисса) Римская, императрица, мц.\">Августы</a>, мчч. <a  href=\"http://days.pravoslavie.ru/name/1829.html\" target=\"_blank\" title=\"Порфирий Стратилат, Александрийский, мч.\">Порфирия</a> Стратилата и 200 воинов. Прп. <a  href=\"http://days.pravoslavie.ru/name/1520.html\" target=\"_blank\" title=\"Преподобный Меркурий Киево-Печерский\">Меркурия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1520_3560.html\" target=\"_blank\" >икона</a>), постника Печерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2017.html\" target=\"_blank\" title=\"Преподобный Симон Сойгинский\">Симона</a> Сойгинского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2610.html\" target=\"_blank\" title=\"Мастридия Александрийская, дева, прп.\">Мастридии</a> девицы. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9318.html\" target=\"_blank\" title=\"Евграф (Еварестов), протоиерей, сщмч.\">Евграфа</a> пресвитера. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9568.html\" target=\"_blank\" title=\"Евгений (Яковлев), иерей, сщмч.\">Евгения</a> и  <a  href=\"http://days.pravoslavie.ru/name/14352.html\" target=\"_blank\" title=\"Михаил (Богородицкий), сщмч.\">Михаила</a> пресвитеров. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/14353.html\" target=\"_blank\" title=\"Александр (Левицкий), протоиерей, сщмч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/14354.html\" target=\"_blank\" title=\"Алексий (Тютюнов), иерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/14356.html\" target=\"_blank\" title=\"Иоанн (Никольский), иерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/14357.html\" target=\"_blank\" title=\"Корнилий (Удилович), иерей, сщмч.\">Корнилия</a> и <a  href=\"http://days.pravoslavie.ru/name/14358.html\" target=\"_blank\" title=\"Митрофан (Корницкий), иерей, сщмч.\">Митрофана</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-tim_5_1_10.html#z\">1 Тим., 285 зач. (от&nbsp;полу&#769;), V, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_17_20_25.html#z\">Лк., 86 зач., XVII, 20-25.</a> Свв.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18316.htm\" target=\"_blank\" title=\"Библия\">1 Тим. 5, 1-10</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18317.htm\" target=\"_blank\" title=\"Библия\">Лк. 17, 20-25</a>). Сказав, что Сын Человеческий явится в день свой, как молния, мгновенно освещающая всю поднебесную, Господь прибавил: \"Прежде надлежит Ему много пострадать и быть отвержену родом сим\". По связи речи видно, что это \"надлежит пострадать\" должно предшествовать явлению Господа во славе. Следовательно, все время до того дня - время страданий Господа. В Своем лице Он пострадал в одно известное время, после же того, страдания Его продолжаются в лице верующих, - страдания рождения верующих, их воспитание в духе и охранения от вражеских действий, внутренних и внешних; ибо союз у Господа с своими не мысленный только и нравственный, а живой, ради которого все касающееся их воспринимается и Им, как главою. Исходя из этой мысли, нельзя не видеть, что Господь точно много страдает. Самые чувствительные скорби, это - падения верующих; еще более чувствительны для Него отпадения от веры. Но это - заключительные уязвления; постоянные же стрелы - скорби и соблазны и колебания веры неверием. Речи и писания, дышащие неверием, - разженные стрелы лукавого. В нынешнее время много кузниц завел лукавый для кования таких стрел. Сердца верующих болят, бывая поражаемы ими и видя поражения других; с ними и Господь болит. Но явится день славы Господа - тогда откроются тайная тьмы, и страдавшие возрадуются с Господом. До того же времени надо терпеть и молиться.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

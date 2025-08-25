@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("21 декабря 2020 г. ( 8 декабря ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 29-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: горячая пища без масла. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1743.html\" target=\"_blank\" title=\"Патапий Фивский, Константинопольский, прп.\">Патапия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1743_1977.html\" target=\"_blank\" >икона</a>). Апп. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/2038.html\" target=\"_blank\" title=\"Апостол от 70-ти Сосфен\">Сосфена</a>, <a  href=\"http://days.pravoslavie.ru/name/244.html\" target=\"_blank\" title=\"Апостол от 70-ти Аполлос Александриец\">Аполлоса</a>, <a  href=\"http://days.pravoslavie.ru/name/1239.html\" target=\"_blank\" title=\"Апостол от 70-ти Кифа\">Кифы</a>, <a  href=\"http://days.pravoslavie.ru/name/2114.html\" target=\"_blank\" title=\"Святитель Тихик, епископ Колофонский, апостол от 70-ти\">Тихика</a>, <a  href=\"http://days.pravoslavie.ru/name/780.html\" target=\"_blank\" title=\"Апостол от 70-ти Епафродит\">Епафродита</a>, <a  href=\"http://days.pravoslavie.ru/name/1200.html\" target=\"_blank\" title=\"Апостол от 70-ти Кесарь\">Кесаря</a> и <a  href=\"http://days.pravoslavie.ru/name/1668.html\" target=\"_blank\" title=\"Апостол от 70-ти Онисифор\">Онисифора</a>. <a  href=\"http://days.pravoslavie.ru/name/6937.html\" target=\"_blank\" title=\"Мученики 62 иерея и 300 мирян, в Африке от ариан пострадавшие\">Мчч. 62-х иереев и 300 мирян</a>, в Африке от ариан пострадавших. Мц. <a  href=\"http://days.pravoslavie.ru/name/2404.html\" target=\"_blank\" title=\"Мученица Анфиса Римская\">Анфисы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2404_2142.html\" target=\"_blank\" >икона</a>) в Риме. Прп. <a  href=\"http://days.pravoslavie.ru/name/1234.html\" target=\"_blank\" title=\"Преподобный Кирилл Челмогорский\">Кирилла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1234_886.html\" target=\"_blank\" >икона</a>) Челмогорского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14369.html\" target=\"_blank\" title=\"Сергий (Орлов), иерей, сщмч.\">Сергия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_3_5_11_3_17_19.html#z\">Евр., 308 зач., III, 5-11, 17-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_20_27_44.html#z\">Лк., 102 зач., XX, 27-44.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18344.htm\" target=\"_blank\" title=\"Библия\">Евр. 3, 5-11. 17-19</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18345.htm\" target=\"_blank\" title=\"Библия\">Лк. 20, 27-44</a>). Саддукеи имели возражение против воскресения, которое казалось им неразрешимым; а Господь решил его несколькими словами, и притом так ясно, что все поняли и признали саддукеев побежденными истиною слова Его (<a  href=\"https://days.pravoslavie.ru/Bible/C18346.htm\" target=\"_blank\" title=\"Библия\">Лк. 20, 27-40</a>). Что тогда были саддукеи, то ныне неверы всех сортов. Нагородили они себе множество мечтательных предположений, возвели их в неопровержимые истины и величаются тем, полагая, что уж против них и сказать нечего. На деле же они так пусты, что и говорить против них не стоит. Все их мудрования - карточный дом: дунь и разлетится. По частям их и опровергать нет нужды, а достаточно отнестись к ним так, как относятся к снам. Говоря против снов, не доказывают несообразности в составе или в частях сна, а говорят только: это сон, - и тем все решают. Точно такова теория образования мира из туманных пятен, с подставками своими - теорией произвольного зарождения, дарвиновского происхождения родов и видов, и с его же последним мечтанием о происхождении человека. Все, как бред сонного. Читая их, ходишь среди теней. А ученые? Да что с ними поделаешь? Их девиз: не любо не слушай, а лгать не мешай.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

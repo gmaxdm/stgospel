@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("17 августа 2020 г. ( 4 августа ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 11-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Успенский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Семи отроков, иже во Ефесе: <a  href=\"http://days.pravoslavie.ru/name/1439.html\" target=\"_blank\" title=\"Максимилиан Ефесский\">Максимилиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1439_370.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/888.html\" target=\"_blank\" title=\"Иамвлих Ефесский\">Иамвлиха</a> (<a  href=\"http://days.pravoslavie.ru/images/ii888_370.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1491.html\" target=\"_blank\" title=\"Мартиниан Ефесский\">Мартиниана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1491_370.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/976.html\" target=\"_blank\" title=\"Иоанн Ефесский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii976_370.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/621.html\" target=\"_blank\" title=\"Дионисий Ефесский\">Дионисия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii621_370.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/752.html\" target=\"_blank\" title=\"Ексакустодиан (Константин) Ефесский\">Ексакустодиана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii752_370.html\" target=\"_blank\" >икона</a>) (Константина) и <a  href=\"http://days.pravoslavie.ru/name/224.html\" target=\"_blank\" title=\"Антонин Ефесский\">Антонина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii224_370.html\" target=\"_blank\" >икона</a>). Обретение мощей прав. <a  href=\"http://days.pravoslavie.ru/name/10108.html\" target=\"_blank\" title=\"Алексий (Гневушев) Бортсурманский, иерей\">Алексия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10108_4536.html\" target=\"_blank\" >икона</a>) Бортсурманского. Мч. <a  href=\"http://days.pravoslavie.ru/name/758.html\" target=\"_blank\" title=\"Мученик Елевферий Кувикуларий\">Елевферия</a>. Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/14955.html\" target=\"_blank\" title=\"Святитель Арсений Элассонский\">Арсения</a> Элассонского. Прмц. <a  href=\"http://days.pravoslavie.ru/name/2468.html\" target=\"_blank\" title=\"Святая преподобномученица Евдокия\">Евдокии</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/9230.html\" target=\"_blank\" title=\"Михаил (Жук), иеромонах, сщмч.\">Михаила</a>, мчч. <a  href=\"http://days.pravoslavie.ru/name/10033.html\" target=\"_blank\" title=\"Симеон (Воробьев), мч.\">Симеона</a> и <a  href=\"http://days.pravoslavie.ru/name/9964.html\" target=\"_blank\" title=\"Димитрий (Воробьев), мч.\">Димитрия</a>. <a  href=\"http://days.pravoslavie.ru/name/10117.html\" target=\"_blank\" title=\"Казанская (Пензенская)\">Пензенской-Казанской</a>  иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-kor_2_3_15.html#z\">2 Кор., 171 зач., II, 3-15.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_23_13_22.html#z\">Мф., 94 зач., XXIII, 13-22.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18080.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 2, 4-15</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18081.htm\" target=\"_blank\" title=\"Библия\">Мф. 23, 13-22</a>). \"Горе вам, . . . что затворяете Царство Небесное человекам\". Это сказано архиереям, которые и сами не учат народ спасительному пути и священников не заставляют делать то; сказано и священникам, которые оставляют народ в небрежении, не заботясь толковать им, что нужно для спасения души. От этого народ пребывает в слепоте, и одна часть остается в уверенности, что идет исправно; другая хоть и замечает, что у нее не так дело идет, но нейдет куда следует, потому что не знает как и куда идти. От этого разные нелепые понятия в народе; от этого находят у него прием и раскольники, и молоканы, и хлысты, от этого удобно идет к нему и всякое злое учение. Священник обычно думает, что у него в приходе все исправно, и хватается за дело только тогда, когда это зло уж разрастается и выходит наружу. Но тогда уж ничего не поделаешь. Священник первым делом совести своей должен считать - взрослых усовершать в ведении христианской веры, а юное, народившееся поколение с первых сознательных лет подготовлять, толкуя им что нужно и можно им знать. Школ нечего дожидаться. Это надо делать словесно, собирая детей в церковь и в дом по воскресным вечерам, или когда и как будет удобнее.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

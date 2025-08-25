@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("18 марта 2020 г. ( 5 марта ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/1266.html\" target=\"_blank\" title=\"Конон Исаврийский, исповедник\">Конона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1266_3184.html\" target=\"_blank\" >икона</a>) Исаврийского. Обретение мощей блгв. князей <a  href=\"http://days.pravoslavie.ru/name/2197.html\" target=\"_blank\" title=\"Святой благоверный князь Феодор, Смоленский и Ярославский\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2197_1229.html\" target=\"_blank\" >икона</a>) Смоленского и чад его <a  href=\"http://days.pravoslavie.ru/name/565.html\" target=\"_blank\" title=\"Давид Ярославский, князь\">Давида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii565_1229.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1279.html\" target=\"_blank\" title=\"Святой благоверный князь Константин Ярославский\">Константина</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1279_1229.html\" target=\"_blank\" >икона</a>), Ярославских чудотворцев. Мч. <a  href=\"http://days.pravoslavie.ru/name/1663.html\" target=\"_blank\" title=\"Онисий Усуровский (Исаврийский), мч.\">Онисия</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/1267.html\" target=\"_blank\" title=\"Конон Мандонский (Памфилийский), градарь (огородник), мч.\">Конона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1267_893.html\" target=\"_blank\" >икона</a>) градаря. Прп. <a  href=\"http://days.pravoslavie.ru/name/1463.html\" target=\"_blank\" title=\"Марк Нитрийский, Египетский, Келлийский, Постник\">Марка</a> Постника. Прп. <a  href=\"http://days.pravoslavie.ru/name/1122.html\" target=\"_blank\" title=\"Исихий Вифинский, постник, прп.\">Исихия</a> Постника. Прмч. <a  href=\"http://days.pravoslavie.ru/name/76.html\" target=\"_blank\" title=\"Священномученик Адриан Пошехонский\">Адриана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii76_387.html\" target=\"_blank\" >икона</a>) Пошехонского, Ярославского. Мц. <a  href=\"http://days.pravoslavie.ru/name/2518.html\" target=\"_blank\" title=\"Ираида, мц.\">Ираиды</a>. Мч. <a  href=\"http://days.pravoslavie.ru/name/685.html\" target=\"_blank\" title=\"Евлогий Палестинский, мч.\">Евлогия</a>, иже в Палестине. Мч. <a  href=\"http://days.pravoslavie.ru/name/682.html\" target=\"_blank\" title=\"Евлампий Палестинский, мч.\">Евлампия</a>. Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/9115.html\" target=\"_blank\" title=\"Святитель Лука (Войно-Ясенецкий), архиепископ Симферопольский, исп.\">Луки</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9115_644.html\" target=\"_blank\" >икона</a>) исп., архиеп. Симферопольского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14256.html\" target=\"_blank\" title=\"Николай (Покровский), иерей, сщмч.\">Николая</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9620.html\" target=\"_blank\" title=\"Иоанн (Миротворцев), иерей, сщмч.\">Иоанна</a> пресвитера и прмчч. <a  href=\"http://days.pravoslavie.ru/name/9227.html\" target=\"_blank\" title=\"Мардарий (Исаев), иеромонах, сщмч.\">Мардария</a> и <a  href=\"http://days.pravoslavie.ru/name/13694.html\" target=\"_blank\" title=\"Феофан (Графов), иеродиакон, прмч.\">Феофана</a>. Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2822.html\" target=\"_blank\" title=\"\"Воспитание\"\">\"Воспитание\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2822_2325.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_10_12_20.html#z\">Ис. X, 12-20.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_7_6_9.html#z\">Быт. VII, 6-9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_9_12_18.html#z\">Притч. IX, 12-18.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("Замечательно, что Премудрость зовет к себе безумных: \"кто неразумен, обратись сюда\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18500.htm\" target=\"_blank\" title=\"Библия\">Прит. 9, 4</a>). Стало быть умникам нет входа в дом Премудрости или в св. Церковь. Умность всякую надо отложить у самого входа в этот дом. С другой стороны, если всякая мудрость и ведение только в доме Премудрости, то вне сего дома, вне св. Церкви, только безумие, неведение и слепота. Дивное Божие учреждение! Входя в Церковь, оставь ум свой и станешь истинно умным; оставь свою самодеятельность, и станешь истинным деятелем; отвергнись и всего себя, и станешь настоящим владыкою над собою. Ах, когда бы мир уразумел премудрость эту! Но это сокрыто от него. Не разумея премудрости Божией, он вопиет на нее, и безумных разумников продолжает держать в ослеплении своем.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

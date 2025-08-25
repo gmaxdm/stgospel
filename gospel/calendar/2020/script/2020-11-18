@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("18 ноября 2020 г. ( 5 ноября ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 24-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/461.html\" target=\"_blank\" title=\"Галактион Емесский (Финикийский), мч.\">Галактиона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii461_3561.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2503.html\" target=\"_blank\" title=\"Епистимия Емесская (Финикийская), мц.\">Епистимии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2503_3561.html\" target=\"_blank\" >икона</a>). Свт. <a  href=\"http://days.pravoslavie.ru/name/1043.html\" target=\"_blank\" title=\"Святитель Иона, архиепископ Новгородский\">Ионы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1043_846.html\" target=\"_blank\" >икона</a>), архиеп. Новгородского. Свт. <a  href=\"http://days.pravoslavie.ru/name/2119.html\" target=\"_blank\" title=\"Святитель Тихон (Белавин), патриарх Московский и всея Руси\">Тихона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2119_26.html\" target=\"_blank\" >икона</a>), патриарха Московского и всея Руси. Апп. от 70-ти <a  href=\"http://days.pravoslavie.ru/name/1749.html\" target=\"_blank\" title=\"Святитель Патров, епископ Неапольский и Путеольский, апостол от 70-ти\">Патрова</a>, <a  href=\"http://days.pravoslavie.ru/name/792.html\" target=\"_blank\" title=\"Святой Ерм, апостол от 70-ти\">Ерма</a>, <a  href=\"http://days.pravoslavie.ru/name/1360.html\" target=\"_blank\" title=\"Святитель Лин, папа Римский, апостол от 70-ти, сщмч.\">Лина</a>, <a  href=\"http://days.pravoslavie.ru/name/455.html\" target=\"_blank\" title=\"Святитель Гаий, епископ Ефесский, апостол от 70-ти\">Гаия</a>, <a  href=\"http://days.pravoslavie.ru/name/2301.html\" target=\"_blank\" title=\"Святитель Филолог, епископ Синопский, апостол от 70-ти\">Филолога</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/532.html\" target=\"_blank\" title=\"Святитель Григорий Александрийский, архиепископ, исповедник\">Григория</a>, архиеп. Александрийского. Отцов Поместного <a  href=\"http://days.pravoslavie.ru/name/14978.html\" target=\"_blank\" title=\"Отцов Поместного Собора Церкви Русской 1917–1918 годов.\">Собора</a> Церкви Русской 1917–1918 годов. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9548.html\" target=\"_blank\" title=\"Гавриил (Масленников), иерей, сщмч.\">Гавриила</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-sol_4_1_12.html#z\">1 Сол., 269 зач., IV, 1-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_11_42_46.html#z\">Лк., 61 зач., XI, 42-46.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Чтения свт. Тихона (на утрене и литургии) читаются, если ему совершается служба. Если совершается полиелейная служба Отцов Поместного Собора Церкви Русской 1917-1918 годов, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_16_22.html#z\">Мф., 36 зач., X, 16-22,</a> а на литургии - чтения дня и Отцов Поместного Собора: <a href=\"http://days.pravoslavie.ru/bible/z_rim_8_31_39.html#z\">Рим., 99 зач., VIII, 31-39.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_8_19.html#z\">Лк., 105-106 зач., XXI, 8-19.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18276.htm\" target=\"_blank\" title=\"Библия\">1 Фес. 4, 1-12</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18277.htm\" target=\"_blank\" title=\"Библия\">Лк. 11, 42-46</a>). Господь начинает укор Своим современникам тем, что они \"нерадят о суде и любви Божией\". Иссякновение правды и любви - корень всякого нестроения как в обществе, так и в каждом человеке. Само же оно происходит от преобладания самолюбия или эгоизма. Когда эгоизм вселится в сердце, то в нем распложается целое полчище страстей. Сам он поражает правду и любовь, требующих самоотвержения, а страсти, им порождаемые, изгоняют все другие добродетели. И становится человек, по сердечному строю, негодным ни к чему истинно доброму. Дать \"десятину с мяты, руты и всяких овощей\" еще может, а сделать что-либо посущественнее не находит в себе мужества. Это не значит, чтоб и внешнее поведение его было безобразно. Нет, оно всячески скрашивается добропорядочностью, только сам в себе он \"гроб скрытый, над которым люди ходят и не знают того\". Начало самоисправления - начало возникновения в сердце самоотвержения, вслед за которым восстанавливается правота и любовь, а от них потом начинают оживать одна за другою и все прочие добродетели. Человек по сердечному строю становится тогда благообразен перед очами Божиими, хотя для людей, снаружи, может иногда казаться невзрачным. Но суд людской не важное дело, лишь бы суд Божий был не против нас.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

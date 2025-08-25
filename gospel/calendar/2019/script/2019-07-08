@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("8 июля 2020 г. ( 25 июня ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 5-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прмц. <a  href=\"http://days.pravoslavie.ru/name/2697.html\" target=\"_blank\" title=\"Феврония Сирская, дева, прмц.\">Февронии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2697_4604.html\" target=\"_blank\" >икона</a>) девы. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/1781.html\" target=\"_blank\" title=\"Святой благоверный князь Петр Муромский\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1781_3494.html\" target=\"_blank\" >икона</a>), в иночестве Давида, и кн. <a  href=\"http://days.pravoslavie.ru/name/2696.html\" target=\"_blank\" title=\"Феврония (в иночестве Евфросиния) Муромская, княгиня\">Февронии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2696_3494.html\" target=\"_blank\" >икона</a>), в иночестве Евфросинии, Муромских чудотворцев. Прп. <a  href=\"http://days.pravoslavie.ru/name/14722.html\" target=\"_blank\" title=\"Далмат Исетский, прп.\">Далмата</a> Исетского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13735.html\" target=\"_blank\" title=\"Василий (Милицын), иерей, сщмч.\">Василия</a> пресвитера. Прп. <a  href=\"http://days.pravoslavie.ru/name/6993.html\" target=\"_blank\" title=\"Никон (Беляев) Оптинский, исповедник, прп.\">Никона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6993_3495.html\" target=\"_blank\" >икона</a>) Оптинского, исповедника. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13736.html\" target=\"_blank\" title=\"Василий (Протопопов), иерей, сщмч.\">Василия</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_rim_15_7_16.html#z\">Рим., 117 зач., XV, 7-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_12_38_45.html#z\">Мф., 48 зач., XII, 38-45.</a> Прмц.: <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_6_1_10.html#z\">2 Кор., 181 зач., VI, 1-10.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_7_36_50.html#z\">Лк., 33 зач., VII, 36-50,</a> или блгвв. кнн.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17991.htm\" target=\"_blank\" title=\"Библия\">Рим. 15, 7-16</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17992.htm\" target=\"_blank\" title=\"Библия\">Мф. 12, 38-45</a>). Во всяком человеке, нераскаянно живущем во грехе, живет бес, как в доме, и всем у него распоряжается. Когда по благодати Божией такой грешник приходит в сокрушение о грехах своих, кается и перестает грешить, - бес из него изгоняется. Сначала он не беспокоит покаявшегося, потому что в нем на первых порах много ревности, которая как огонь жжет бесов и как стрела отражает их. Но потом, когда ревность начинает охладевать, подступает и бес издали со своими предложениями, вбрасывает воспоминание о прежних удовольствиях и вызывает к ним. Но поостерегись только покаянник - от сочувствия скоро перейдет к желанию; если и здесь не опомнится и не возвратит себя в состояние прежней трезвенности, то падение недалеко. Из желания рождается склонение на грех и решимость: внутренний грех готов, для внешнего ожидается только удобство. Представься оно - и грех будет сделан. С этим вместе бес опять входит и начинает гнать человека от греха к греху еще быстрее, чем прежде. Это изобразил Господь притчею о вторичном возвращении беса в дом очищенный, подметенный.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

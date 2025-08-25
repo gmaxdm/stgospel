@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("16 сентября 2020 г. ( 3 сентября ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 15-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Сщмч. <a  href=\"http://days.pravoslavie.ru/name/233.html\" target=\"_blank\" title=\"Святитель Анфим Никомидийский, епископ, сщмч.\">Анфима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii233_415.html\" target=\"_blank\" >икона</a>), еп. Никомидийского, и с ним мчч. <a  href=\"http://days.pravoslavie.ru/name/2264.html\" target=\"_blank\" title=\"Священномученик Феофил Никомидийский\">Феофила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2264_3910.html\" target=\"_blank\" >икона</a>) диакона, <a  href=\"http://days.pravoslavie.ru/name/652.html\" target=\"_blank\" title=\"Мученик Дорофей Никомидийский\">Дорофея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii652_3910.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1450.html\" target=\"_blank\" title=\"Мученик Мардоний Никомидийский\">Мардония</a>, <a  href=\"http://days.pravoslavie.ru/name/1530.html\" target=\"_blank\" title=\"Мигдоний Никомидийский, мч.\">Мигдония</a>, <a  href=\"http://days.pravoslavie.ru/name/1783.html\" target=\"_blank\" title=\"Мученик Петр Никомидийский\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/948.html\" target=\"_blank\" title=\"Мученик Индис Никомидийский\">Индиса</a>, <a  href=\"http://days.pravoslavie.ru/name/524.html\" target=\"_blank\" title=\"Мученик Горгоний Никомидийский\">Горгония</a>, <a  href=\"http://days.pravoslavie.ru/name/841.html\" target=\"_blank\" title=\"Зинон Никомидийский, мч.\">Зинона</a>, <a  href=\"http://days.pravoslavie.ru/name/2450.html\" target=\"_blank\" title=\"Домна Никомидийская, дева, мц.\">Домны</a> девы и <a  href=\"http://days.pravoslavie.ru/name/736.html\" target=\"_blank\" title=\"Мученик Евфимий Никомидийский\">Евфимия</a>. Прп. <a  href=\"http://days.pravoslavie.ru/name/2238.html\" target=\"_blank\" title=\"Феоктист Палестинский, игумен, прп.\">Феоктиста</a>, спостника <a  href=\"http://days.pravoslavie.ru/name/735.html\" target=\"_blank\" title=\"Евфимий Великий, иеромонах\">Евфимия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii735_528.html\" target=\"_blank\" >икона</a>) Великого. Блж. <a  href=\"http://days.pravoslavie.ru/name/967.html\" target=\"_blank\" title=\"Блаженный Иоанн Власатый, Милостивый, Ростовский\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii967_1321.html\" target=\"_blank\" >икона</a>) Власатого, Ростовского чудотворца. Св. <a  href=\"http://days.pravoslavie.ru/name/2732.html\" target=\"_blank\" title=\"Фива Кенхрейская (Коринфская), диакониса\">Фивы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2732_2276.html\" target=\"_blank\" >икона</a>) диаконисы. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/254.html\" target=\"_blank\" title=\"Святитель Аристион, епископ Александрии Сирийской, сщмч.\">Аристиона</a>, еп. Александрии Сирийской. Мц. <a  href=\"http://days.pravoslavie.ru/name/2430.html\" target=\"_blank\" title=\"Василисса Никомидийская, отроковица, мц.\">Василиссы</a> Никомидийской. Свт. <a  href=\"http://days.pravoslavie.ru/name/1030.html\" target=\"_blank\" title=\"Святитель Иоанникий II Сербский, патриарх\">Иоанникия</a> II, патриарха Сербского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9153.html\" target=\"_blank\" title=\"Святитель Пимен (Белоликов), епископ Верненский, сщмч.\">Пимена</a>, еп. Верненского, <a  href=\"http://days.pravoslavie.ru/name/9403.html\" target=\"_blank\" title=\"Сергий (Феноменов), протоиерей, сщмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/9493.html\" target=\"_blank\" title=\"Василий (Колмыков), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9412.html\" target=\"_blank\" title=\"Филипп (Шацкий), протоиерей, сщмч.\">Филиппа</a>, <a  href=\"http://days.pravoslavie.ru/name/9530.html\" target=\"_blank\" title=\"Владимир (Дмитриевский), иерей, сщмч.\">Владимира</a> пресвитеров, прмч. <a  href=\"http://days.pravoslavie.ru/name/9228.html\" target=\"_blank\" title=\"Мелетий (Голоколосов), иеромонах, прмч.\">Мелетия</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9494.html\" target=\"_blank\" title=\"Василий (Красивский), иерей, сщмч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9754.html\" target=\"_blank\" title=\"Парфений (Красивский), иерей, сщмч.\">Парфения</a> пресвитеров. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9477.html\" target=\"_blank\" title=\"Андрей (Дальников), иерей, сщмч.\">Андрея</a>, <a  href=\"http://days.pravoslavie.ru/name/9410.html\" target=\"_blank\" title=\"Феофан (Соколов), протоиерей, сщмч.\">Феофана</a> пресвитеров. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9539.html\" target=\"_blank\" title=\"Владимир (Садовский), иерей, сщмч.\">Владимира</a>, <a  href=\"http://days.pravoslavie.ru/name/14311.html\" target=\"_blank\" title=\"Михаил (Сушков), иерей, сщмч.\">Михаила</a> пресвитеров. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9383.html\" target=\"_blank\" title=\"Николай (Сущевский), протоиерей, сщмч.\">Николая</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9572.html\" target=\"_blank\" title=\"Евфимий (Круговых), иерей, сщмч.\">Евфимия</a> пресвитера и с ним 4-х мучеников. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9784.html\" target=\"_blank\" title=\"Роман (Марченко), иерей, сщмч.\">Романа</a> пресвитера. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9459.html\" target=\"_blank\" title=\"Алексий (Зиновьев), иерей, сщмч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/13776.html\" target=\"_blank\" title=\"Илия (Бажанов), протоиерей, сщмч.\">Илии</a> пресвитеров. <a  href=\"http://days.pravoslavie.ru/name/2945.html\" target=\"_blank\" title=\"Писидийская\">Писидийской</a> иконы Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_gal_3_15_22.html#z\">Гал., 207 зач., III, 15-22.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_6_7_13.html#z\">Мк., 23 зач., VI, 7-13.</a> Сщмч.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_13_7_16.html#z\">Евр., 334 зач., XIII, 7-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

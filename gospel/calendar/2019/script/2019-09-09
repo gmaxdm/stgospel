@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("9 сентября 2020 г. ( 27 августа ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 14-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прп. <a  href=\"http://days.pravoslavie.ru/name/1790.html\" target=\"_blank\" title=\"Преподобный Пимен Великий\">Пимена</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1790_366.html\" target=\"_blank\" >икона</a>) Великого. Свт. <a  href=\"http://days.pravoslavie.ru/name/1679.html\" target=\"_blank\" title=\"Святитель Осия Кордувийский, епископ, исповедник\">Осии</a> исп., еп. Кордувийского. Свт. <a  href=\"http://days.pravoslavie.ru/name/1357.html\" target=\"_blank\" title=\"Святитель Ливерий Римский, папа, исповедник\">Ливерия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1357_3518.html\" target=\"_blank\" >икона</a>) исп. папы Римского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1791.html\" target=\"_blank\" title=\"Пимен Палестинский, прп.\">Пимена</a> Палестинского. Прпп. сщмч. <a  href=\"http://days.pravoslavie.ru/name/1315.html\" target=\"_blank\" title=\"Кукша Печерский, иеромонах, сщмч.\">Кукши</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1315_3519.html\" target=\"_blank\" >икона</a>) и ученика его мч. <a  href=\"http://days.pravoslavie.ru/name/14081.html\" target=\"_blank\" title=\"Никон Печерский, мч.\">Никона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14081_3519.html\" target=\"_blank\" >икона</a>) и прп. <a  href=\"http://days.pravoslavie.ru/name/1794.html\" target=\"_blank\" title=\"Пимен Печерский, постник\">Пимена</a> постника, Печерских. Прп. <a  href=\"http://days.pravoslavie.ru/name/1892.html\" target=\"_blank\" title=\"Савва Венефальский, прп.\">Саввы</a>. Мц. <a  href=\"http://days.pravoslavie.ru/name/2403.html\" target=\"_blank\" title=\"Анфиса (Анфуса) Новая, мц.\">Анфисы</a> Новой. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9680.html\" target=\"_blank\" title=\"Михаил (Воскресенский), иерей, сщмч.\">Михаила</a> пресвитера и с ним 28-ми мучеников. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9802.html\" target=\"_blank\" title=\"Стефан (Немков), иерей, сщмч.\">Стефана</a> пресвитера и с ним 18-ти мучеников. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14743.html\" target=\"_blank\" title=\"Павел (Фокин), сщмч.\">Павла</a> пресвитера.  Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9335.html\" target=\"_blank\" title=\"Иоанн (Смирнов), протоиерей, сщмч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/13770.html\" target=\"_blank\" title=\"Иоанн (Лебедев), протоиерей, сщмч.\">Иоанна</a> пресвитеров и прмч. <a  href=\"http://days.pravoslavie.ru/name/9229.html\" target=\"_blank\" title=\"Мефодий (Иванов), иеромонах, сщмч.\">Мефодия</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14305.html\" target=\"_blank\" title=\"Александр (Цицеров), протоиерей, сщмч.\">Александра</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14306.html\" target=\"_blank\" title=\"Владимир (Соколов), протоиерей, сщмч.\">Владимира</a> пресвитера. Св. <a  href=\"http://days.pravoslavie.ru/name/9557.html\" target=\"_blank\" title=\"Димитрий (Крючков), иерей, исп.\">Димитрия</a> исп., пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-kor_13_3_13.html#z\">2 Кор., 197 зач., XIII, 3-13.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_4_35_41.html#z\">Мк., 18 зач., IV, 35-41.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18128.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 13, 3-13</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18129.htm\" target=\"_blank\" title=\"Библия\">Мк. 4, 35-41</a>). Ученики плывут по морю; поднимается буря и поставляет их в опасное положение, а Господь спит. Взывают к Нему: \"Господи, спаси!\", и Он одним словом укрощает бурю. Другое фактическое представление порядка Божественного промышления. И каждый человек, и народы, и Церковь - плывут по морю жизни сами, силами, в них вложенными, естественными и сверхестественными, по порядкам, Богом заведенным. Господь почивает, хотя и пребывает среди движущихся событий; Сам же действовать начинает тогда, когда угрожает неминуемая беда, могущая уклонить направление событий, в противность Божественным Его планам. Он всюду есть, все хранит, все согревает веянием любви Своей, но действовать предоставляет Своим тварям, силами Им данными, по законам и порядкам, Им повсюду заведенным и хранимым. Он не лично вседействующ, хотя все от Него и без Него ничего не бывает. Всегда готов Он и Сам воздействовать, когда это нужно по Его безпредельной премудрости и правде. Молитва - приемник Божиих действий. Но самая лучшая молитва: \"Господи! Тебе все ведомо, сотвори со мною, как изволишь!\"<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("27 января 2020 г. ( 14 января ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 33-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Отдание праздника Богоявления. <a  href=\"http://days.pravoslavie.ru/name/13628.html\" target=\"_blank\" title=\"Память преподобных отцев в Синае и Раифе избиенных\">Преподобных отец, в Синае и Раифе избиенных</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13628_2888.html\" target=\"_blank\" >икона</a>): <a  href=\"http://days.pravoslavie.ru/name/1111.html\" target=\"_blank\" title=\"Исаия Синайский, прмч.\">Исаии</a>, <a  href=\"http://days.pravoslavie.ru/name/1903.html\" target=\"_blank\" title=\"Савва Синайский, прмч.\">Саввы</a>, <a  href=\"http://days.pravoslavie.ru/name/1572.html\" target=\"_blank\" title=\"Моисей Синайский, прмч.\">Моисея</a> и ученика его <a  href=\"http://days.pravoslavie.ru/name/1573.html\" target=\"_blank\" title=\"Моисей Синайский, прмч.\">Моисея</a>, <a  href=\"http://days.pravoslavie.ru/name/917.html\" target=\"_blank\" title=\"Иеремия Синайский, прмч.\">Иеремии</a>, <a  href=\"http://days.pravoslavie.ru/name/1700.html\" target=\"_blank\" title=\"Павел Синайский, игумен, сщмч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/71.html\" target=\"_blank\" title=\"Адам Синайский, прмч.\">Адама</a>, <a  href=\"http://days.pravoslavie.ru/name/1977.html\" target=\"_blank\" title=\"Сергий Синайский, прмч.\">Сергия</a>, <a  href=\"http://days.pravoslavie.ru/name/646.html\" target=\"_blank\" title=\"Домн Синайский, прмч.\">Домна</a>, <a  href=\"http://days.pravoslavie.ru/name/1841.html\" target=\"_blank\" title=\"Прокл Синайский, прмч.\">Прокла</a>, <a  href=\"http://days.pravoslavie.ru/name/1072.html\" target=\"_blank\" title=\"Ипатий Синайский, прмч.\">Ипатия</a>, <a  href=\"http://days.pravoslavie.ru/name/1096.html\" target=\"_blank\" title=\"Исаак Синайский, прмч.\">Исаака</a>, <a  href=\"http://days.pravoslavie.ru/name/1415.html\" target=\"_blank\" title=\"Макарий Синайский, прмч.\">Макария</a>, <a  href=\"http://days.pravoslavie.ru/name/1466.html\" target=\"_blank\" title=\"Марк Синайский, прмч.\">Марка</a>, <a  href=\"http://days.pravoslavie.ru/name/409.html\" target=\"_blank\" title=\"Вениамин Синайский, прмч.\">Вениамина</a>, <a  href=\"http://days.pravoslavie.ru/name/702.html\" target=\"_blank\" title=\"Евсевий Синайский, прмч.\">Евсевия</a>, <a  href=\"http://days.pravoslavie.ru/name/943.html\" target=\"_blank\" title=\"Илия Синайский, прмч.\">Илии</a> и иных с ними. Равноап. <a  href=\"http://days.pravoslavie.ru/name/2630.html\" target=\"_blank\" title=\"Равноапостольная Нина, просветительница Грузии\">Нины</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2630_20.html\" target=\"_blank\" >икона</a>), просветительницы Грузии. Прп. <a  href=\"http://days.pravoslavie.ru/name/1051.html\" target=\"_blank\" title=\"Иосиф Аналитин, Раифский, прп.\">Иосифа</a> Аналитина Раифского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2230.html\" target=\"_blank\" title=\"Феодул Синайский, иеромонах\">Феодула</a> Синайского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2053.html\" target=\"_blank\" title=\"Стефан Вифинский (Халкидонский), прп.\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2053_3959.html\" target=\"_blank\" >икона</a>), основателя обители Хиннолакковой. Прп. <a  href=\"http://days.pravoslavie.ru/name/9250.html\" target=\"_blank\" title=\"Иоанн (Кевролетин), иеросхимонах, исп.\">Иоанна</a> исп. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_1_8.html#z\">Мф., 34 зач. (от&nbsp;полу&#769;), X, 1-8.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_iak_2_14_26.html#z\">Иак., 53 зач., II, 14-26.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_10_46_52.html#z\">Мк., 48 зач., X, 46-52.</a> Равноап.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_4_9_16.html#z\">1 Кор., 131 зач., IV, 9-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_25_1_13.html#z\">Мф., 104 зач., XXV, 1-13.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18396.htm\" target=\"_blank\" title=\"Библия\">Иак. 2, 14-26</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18397.htm\" target=\"_blank\" title=\"Библия\">Мк. 10, 46-52</a>). \"Что пользы, братия мои, если кто говорит что он имеет веру, а дел не - имеет? Может ли эта вера спасти его?\" Путь к вере - покаяние. В покаянии же что говорят? - Согрешил, не буду. Не буду грешить, следовательно буду жить по заповедям. Поскольку с принятием веры покаяние не отходит но с нею сочетавшись до конца пребывает, то и решение то - жить по заповедям пребывает в силе и при вере. Потому верующий, если пришел к вере прямым путем т. е. путем покаяния, бывает ревнителем исполнения заповедей или творителем добрых дел. Вера дает ему на то сильнейшие побуждения; вера дает ему на то и силы благодатные через Св. Таинства. Так вера споспешествует делам. А дела веру делают совершенною: ибо пока делом не сделано то, чему кто уверовал дотоле, вера будто не вера. Она видною становится только в делах. И не только видною, но и крепкою. Дела воздействуют обратно на веру и ее укрепляют.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

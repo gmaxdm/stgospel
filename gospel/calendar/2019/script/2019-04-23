@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("23 апреля 2020 г. ( 10 апреля ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Светлая седмица - сплошная. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/2093.html\" target=\"_blank\" title=\"Мученик Терентий Петрийский (Африканский)\">Терентия</a>, <a  href=\"http://days.pravoslavie.ru/name/1819.html\" target=\"_blank\" title=\"Помпий Африканский (Карфагенский), мч.\">Помпия</a>, <a  href=\"http://days.pravoslavie.ru/name/313.html\" target=\"_blank\" title=\"Мученик Африкан Петрийский (Африканский)\">Африкана</a>, <a  href=\"http://days.pravoslavie.ru/name/1423.html\" target=\"_blank\" title=\"Максим Африканский, мч.\">Максима</a>, <a  href=\"http://days.pravoslavie.ru/name/833.html\" target=\"_blank\" title=\"Зинон Африканский (Карфагенский), мч.\">Зинона</a>, <a  href=\"http://days.pravoslavie.ru/name/104.html\" target=\"_blank\" title=\"Александр Африканский, мч.\">Александра</a>, <a  href=\"http://days.pravoslavie.ru/name/2179.html\" target=\"_blank\" title=\"Феодор Африканский, мч.\">Феодора</a> и иных 33-х. Мчч. <a  href=\"http://days.pravoslavie.ru/name/880.html\" target=\"_blank\" title=\"Иаков Персидский, пресвитер, сщмч.\">Иакова</a> пресвитера, <a  href=\"http://days.pravoslavie.ru/name/80.html\" target=\"_blank\" title=\"Азадан Персидский, диакон, сщмч.\">Азадана</a> и <a  href=\"http://days.pravoslavie.ru/name/10.html\" target=\"_blank\" title=\"Авдикий Персидский, диакон, сщмч.\">Авдикия</a> диаконов, Персидских. <a  href=\"http://days.pravoslavie.ru/name/14999.html\" target=\"_blank\" title=\"Прмчч. обители Пантократора, в Дау Пендели\">Прмчч. многих</a> священной обители Пантократора, в Дау Пендели (Аттика) пострадавших. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/6700.html\" target=\"_blank\" title=\"Святитель Григорий V, патриарх Константинопольский, сщмч.\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6700_4516.html\" target=\"_blank\" >икона</a>) V, патриарха Константинопольского. Сщмч.  <a  href=\"http://days.pravoslavie.ru/name/10863.html\" target=\"_blank\" title=\"Флегонт (Понгильский), протоиерей, сщмч.\">Флегонта</a> пресвитера. Мч. <a  href=\"http://days.pravoslavie.ru/name/13712.html\" target=\"_blank\" title=\"Димитрий (Вдовин), мч.\">Димитрия</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_2_38_43.html#z\">Деян., 6 зач., II, 38-43.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_3_1_15.html#z\">Ин., 8 зач., III, 1-15.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17824.htm\" target=\"_blank\" title=\"Библия\">Дея. 2, 38-43</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17825.htm\" target=\"_blank\" title=\"Библия\">Ин. 3, 1-15</a>). Благодетелен труд тех, которые здравыми соображениями разбивают взгромождаемую против истины Воскресения ложь. Читай и вооружайся этими соображениями; но при этом не ленись все больше и больше давать простора для входа в тебя силы Воскресения Христова. Чем больше будешь делать это, тем больше будешь дышать воздухом Воскресения, и тем безопаснейшим становиться от всех стрел вражиих, направляемых против этой истины. Спросишь, что же для этого надо? Ничего особенного: будь тем, чем должен ты быть по завету, в который вступил во святом крещении, которое есть наше воскресение. Оплевал ты сатану и все дела его? - и продолжай так себя держать в отношении к нему. Сочетался ты со Христом? - и пребудь с Ним. Дела тьмы и света явны. Бегай одних и прилежи другим. Но делай это без всяких уступок, даже малейших, чтобы нормою жизни твоей было следующее: нет общения свету ко тьме, Христу с велиаром.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

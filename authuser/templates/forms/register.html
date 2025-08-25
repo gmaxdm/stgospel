@@ -1,0 +1,84 @@
+{% extends "wrapper.html" %}
+{% load i18n %}
+{% block main %}
+{% if messages %}
+<h1>{% trans 'Регистрация' %}</h1>
+{% for message in messages %}
+<div class="body_maindiv">
+    <div class="body_textsection">
+    	{% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+    	<div class="body_card_header">{% trans 'Успешно' %}!</div>
+    	<div class="info_basetext center">
+			<p>{% trans 'Вам выслано письмо на email, указанный при регистрации' %}</p>
+		</div>
+	    <div class="info_maintext">
+	        <p>{% trans 'Для завершения регистрации, пожалуйста, откройте отправленное письмо и пройдите по ссылке для активации вашей учетной записи' %}</p>
+	    </div>
+	    {% else %}
+	    <div class="body_card_header">{% trans 'Что-то не так' %}:</div>
+    	<div class="info_basetext center">
+			<p class="_bold">{{ message }}</p>
+		</div>
+	    <div class="info_maintext">
+	        <p>{% trans 'Пожалуйста, обратите внимание на неточности и попробуйте зарегистрироваться еще раз' %}</p>
+	    </div>
+	    <div class="info_maintext center">
+	    	<p><a href="{% url 'register' %}" class="button_prior">{% trans 'Зарегистрироваться' %}</a></p>
+	    </div>
+	    {% endif %}
+    </div>
+</div>
+{% endfor %}
+{% else %}
+	<h1>{% trans 'Регистрация' %}</h1>
+	<p>{% trans 'Вы можете зарегистрироваться, чтобы начать участвовать в группах.' %}</p>
+    {% if form.errors %}
+        {% for f, errs in form.errors.items %}
+        <p>{{f}}</p>
+        <ul class="list-unstyled">
+            {% for err in errs %}
+                <li class="alert alert-danger">{{ err }}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    {% endif %}
+    <form action="{% url "register" %}" name="freg" method="POST">{% csrf_token %}
+        <dl class="form_data">
+            <div class="form_data_field">
+            <dt><label for="email">E-mail:</label></dt>
+            <dd>
+                <p><input type="email" name="email" value="{{ form.data.email }}" id="email" required></p>
+            </dd>
+            </div>
+            <div class="form_data_field">
+                <dt><label for="first_name">{% trans 'Имя' %}:</label></dt>
+            <dd>
+                <p><input type="text" name="first_name" value="{{ form.data.first_name }}" id="first_name" required></p>
+            </dd>
+            </div>
+            <div class="form_data_field">
+                <dt><label for="last_name">{% trans 'Фамилия'%}:</label></dt>
+            <dd>
+                <p><input type="text" name="last_name" value="{{ form.data.last_name }}" id="last_name" required></p>
+            </dd>
+            </div>
+            <div class="info_basetext center">
+                <p>{% trans 'Вы должны иметь доступ к указанному почтовому ящику' %}</p>
+            </div>
+            <div class="form_data_field">
+                <dt><label for="password1">{% trans 'Пароль' %}:</label></dt>
+                <dd><p><input type="password" name="password1" value="" id="password1" required></p></dd>
+            </div>
+            <div class="form_data_field">
+                <dt><label for="password2">{% trans 'Подтвердите пароль' %}:</label></dt>
+                <dd><p><input type="password" name="password2" value="" id="password2" required></p></dd>
+            </div>
+        </dl>
+<div class="m-3">
+	<p>{% trans 'После успешного заполнения формы на указанный вами email будет отправлено письмо.' %}</p>
+    <p>{% trans 'Для завершения регистрации, пожалуйста, откройте это письмо и пройдите по присланной ссылке' %}</p>
+    <p><button class="btn btn-primary" type="submit">{% trans 'Зарегистрироваться' %}</button></p>
+</div>
+    </form>
+{% endif %}
+{% endblock %}

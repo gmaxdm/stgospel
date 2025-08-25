@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("25 июля 2020 г. ( 12 июля ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 7-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/1838.html\" target=\"_blank\" title=\"Прокл Калиптский, мч.\">Прокла</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1838_4380.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/925.html\" target=\"_blank\" title=\"Иларий Калиптский, мч.\">Илария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii925_4380.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1555.html\" target=\"_blank\" title=\"Преподобный Михаил Малеин\">Михаила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1555_967.html\" target=\"_blank\" >икона</a>) Малеина. Мц. <a  href=\"http://days.pravoslavie.ru/name/2448.html\" target=\"_blank\" title=\"Голиндуха (в крещении Мария) Персидская, исповедница\">Голиндухи</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2448_4379.html\" target=\"_blank\" >икона</a>), во св. Крещении Марии. Прпп. <a  href=\"http://days.pravoslavie.ru/name/1013.html\" target=\"_blank\" title=\"Иоанн Святогорец, Иверский (Афонский), прп.\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1013_4540.html\" target=\"_blank\" >икона</a>) (Груз.) и <a  href=\"http://days.pravoslavie.ru/name/451.html\" target=\"_blank\" title=\"Гавриил Святогорец, Иверский (Афонский), прп.\">Гавриила</a> (Груз.) Святогорцев. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2180.html\" target=\"_blank\" title=\"Мученик Феодор Варяг, Киевский\">Феодора</a> варяга и сына его <a  href=\"http://days.pravoslavie.ru/name/1000.html\" target=\"_blank\" title=\"Иоанн Печерский, Киевский, отрок\">Иоанна</a>, в Киеве. Прп. <a  href=\"http://days.pravoslavie.ru/name/267.html\" target=\"_blank\" title=\"Христа ради юродивый\">Арсения</a> Новгородского. Прп. <a  href=\"http://days.pravoslavie.ru/name/2013.html\" target=\"_blank\" title=\"Священномученик Симон Воломский, Устюжский\">Симона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2013_1108.html\" target=\"_blank\" >икона</a>) Воломского. Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2994.html\" target=\"_blank\" title=\"Икона Божией Матери, именуемая \"Троеручица\"\">\"Троеручица\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2994_298.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_rim_12_1_3.html#z\">Рим., 108 зач., XII, 1-3.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_37_0_11_0_1.html#z\">Мф., 39 зач., X, 37 - XI, 1.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18027.htm\" target=\"_blank\" title=\"Библия\">Рим. 12, 1-3</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18028.htm\" target=\"_blank\" title=\"Библия\">Мф. 10, 37-11, 1</a>). \"Кто принимает пророка, во имя пророка, получит награду пророка; и кто принимает праведника, во имя праведника, получит награду праведника\". Этим решаются все недоразумения при подаянии милостыни. Доброхотство в отношении к бедным, почти всегда если не пресекается, то значительно сокращается вопросами: кто просит и куда пойдет поданное? Господь говорит таковым: в каком смысле примешь ты просящего и поможешь ему, в том и награда тебе будет. Не на просящего смотри, а на свои при том помышления. Каковы будут эти последние, такова будет и цена дела твоего. Какие же мысли иметь о бедном, это определяется другим словом: милующий нищего взаймы дает Богу; или \"если сотворили вы одному из них, то Мне сотворили\". Итак, принимай всякого нуждающегося как Господа, и делай для Него, что можешь сделать с тою мыслью, что делаешь для Бога, и получишь мзду не пророка только и праведника, но Господню.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

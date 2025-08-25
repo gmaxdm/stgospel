@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("20 января 2020 г. ( 7 января ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 32-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Попразднство Богоявления. <a  href=\"http://days.pravoslavie.ru/name/6898.html\" target=\"_blank\" title=\"Собор Предтечи и Крестителя Господня Иоанна\">Собор</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6898_3934.html\" target=\"_blank\" >икона</a>) Предтечи и Крестителя Господня <a  href=\"http://days.pravoslavie.ru/name/1007.html\" target=\"_blank\" title=\"Пророк, Предтеча и Креститель Господень Иоанн\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1007_11.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_11_17_23_11_27_31.html#z\">Евр., 329 зач., XI, 17-23, 27-31.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_9_42_0_10_0_1.html#z\">Мк., 42 зач., IX, 42 - X, 1.</a> Предтечи: <a href=\"http://days.pravoslavie.ru/bible/z_deqn_19_1_8.html#z\">Деян., 42 зач., XIX, 1-8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_1_29_34.html#z\">Ин., 3 зач., I, 29-34.</a>  ");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18402.htm\" target=\"_blank\" title=\"Библия\">Дея. 19, 1-8</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18403.htm\" target=\"_blank\" title=\"Библия\">Ин. 1, 29-34</a>). Св. Иоанн свидетельствовал о Христе Иисусе, что Он есть воистину \"Агнец Божий, Который берет на себя грех мира\", - есть обетованный Избавитель, всеми чаемый. Слышали это бывшие при нем и уверовали. От них прошло это свидетельство в народ и все стали думать, что свидетельствованный Иоанном не простой человек. Спаситель указал на это, когда в последние дни в храме, предложил главам церковным вопрос откуда крещение Иоанново, с неба или от человек (<a  href=\"https://days.pravoslavie.ru/Bible/C18404.htm\" target=\"_blank\" title=\"Библия\">Мк. 11, 29</a>)? Те устранились от ответа; потому что им нельзя было не видеть, что Иоанн не сам от себя пришел, водою крестя. Но скажи они это; тотчас должны были признать и свидетельство его, что перед ними Обетованный, и вследствие того покориться Его учению. А этого они не хотели не по каким либо основательным причинам, а по одному предубеждению. Но их упорство нисколько не умаляет силы свидетельства Св. Иоанна. Оно и доселе столько же удостоверительно, как было когда изошло из уст его. И мы Иоанна слышим, указующего нам истинного Избавителя, и тем оживляем веру свою, как веру, имеющую за себя осязательные доказательства.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("5 октября 2020 г. ( 22 сентября ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 18-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/1047.html\" target=\"_blank\" title=\"Пророк Иона\">Ионы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1047_847.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/2321.html\" target=\"_blank\" title=\"Священномученик Фока Синопский\">Фоки</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2321_1262.html\" target=\"_blank\" >икона</a>), еп. Синопийского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1044.html\" target=\"_blank\" title=\"Иона Палестинский, иеромонах, прп.\">Ионы</a> пресвитера, отца свв.<a  href=\"http://days.pravoslavie.ru/name/2256.html\" target=\"_blank\" title=\"Исповедник Феофан Никейский, Константинопольский\">Феофана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2256_1252.html\" target=\"_blank\" >икона</a>), творца канонов, и <a  href=\"http://days.pravoslavie.ru/name/2190.html\" target=\"_blank\" title=\"Феодор Начертанный, Константинопольский, исповедник, прп.\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2190_3605.html\" target=\"_blank\" >икона</a>) Начертанных. Блж. <a  href=\"http://days.pravoslavie.ru/name/14330.html\" target=\"_blank\" title=\"Параскева Дивеевская, Христа ради юродивая\">Параскевы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14330_3164.html\" target=\"_blank\" >икона</a>) Дивеевской. Мч. <a  href=\"http://days.pravoslavie.ru/name/2318.html\" target=\"_blank\" title=\"Фока Вертоградарь (Садовник), Синопский, мч.\">Фоки</a> вертоградаря. Прав. <a  href=\"http://days.pravoslavie.ru/name/1768.html\" target=\"_blank\" title=\"Петр Африканский\">Петра</a>, бывшего мытаря. Прп. <a  href=\"http://days.pravoslavie.ru/name/1048.html\" target=\"_blank\" title=\"Иона Ящезерский, прп.\">Ионы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1048_2976.html\" target=\"_blank\" >икона</a>) Яшезерского. Прп. <a  href=\"http://days.pravoslavie.ru/name/1402.html\" target=\"_blank\" title=\"Преподобный Макарий Жабынский, Белевский\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1402_317.html\" target=\"_blank\" >икона</a>) Жабынского, Белевского чудотворца. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14481.html\" target=\"_blank\" title=\"Святитель Феодосий Бразский, митрополит, сщмч.\">Феодосия</a> Бразского (Рум.). <a  href=\"http://days.pravoslavie.ru/name/6901.html\" target=\"_blank\" title=\"Собор Тульских святых\">Собор</a> Тульских святых. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9138.html\" target=\"_blank\" title=\"Святитель Вениамин (Воскресенский), епископ Романовский, сщмч.\">Вениамина</a>, еп. Романовского. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_ef_4_25_32.html#z\">Еф., 227 зач., IV, 25-32.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_3_19_22.html#z\">Лк., 10 зач., III, 19-22.</a> Сщмч.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_4_14_0_5_0_6.html#z\">Евр., 311 зач., IV, 14 - V, 6.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18181.htm\" target=\"_blank\" title=\"Библия\">Лк. З, 19-22</a>). Ирод - образ раздраженного самолюбия, от встревожения совести обличениями правды, чающего избавиться от этой неприятности насилием. Иоанн Предтеча - образ правды, гонимой самолюбием, когда оно обладает средствами к тому. Как ни умягчай правды снисхождением и оборотами речи, какие может изобретать нежность любви, не желающей наносить другому уязвление в сердце, лик правды предстанет перед очами совести, и там, внутри, подымает бурю обличения. Самость недальновидна и не может различить, что обличение не совне, а внутри, и всею своею силою восстает на внешнего обличителя. Заградив ему уста, она чает заглушить и внутренний голос. Не успевает, однако; не туда обращается забота. Надо совесть умиротворить; тогда, сколько ни будь внешних обличителей, мира внутреннего они не нарушат, а разве только углубят его, заставив собрать внутри успокоительные убеждения,  -веру в распятого Господа, искренность покаяния и исповеди, и твердость решения не делать ничего против совести. Вот куда обратись, а Иоаннов всех не пересажать в темницы; ибо слово правды Божией всюду ходит по земле, и всякое из них для тебя Иоанн - обличитель.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

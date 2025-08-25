@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("18 августа 2020 г. ( 5 августа ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 11-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Успенский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: горячая пища без масла. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14385.html\" target=\"_blank\" title=\"Предпразднство Преображения Господня\">Предпразднство</a> Преображения Господня. Мч. <a  href=\"http://days.pravoslavie.ru/name/706.html\" target=\"_blank\" title=\"Евсигний Антиохийский, мч.\">Евсигния</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/234.html\" target=\"_blank\" title=\"Святитель Анфир Римский, папа, сщмч.\">Анфира</a> и <a  href=\"http://days.pravoslavie.ru/name/2145.html\" target=\"_blank\" title=\"Святитель Фавий Римский, папа, сщмч.\">Фавия</a>, пап Римских. Мч. <a  href=\"http://days.pravoslavie.ru/name/1822.html\" target=\"_blank\" title=\"Понтий Римлянин, Кимельский, мч.\">Понтия</a> Римлянина. Прав. <a  href=\"http://days.pravoslavie.ru/name/2631.html\" target=\"_blank\" title=\"Нонна Назианзская, диакониса\">Нонны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2631_2242.html\" target=\"_blank\" >икона</a>), матери св. <a  href=\"http://days.pravoslavie.ru/name/535.html\" target=\"_blank\" title=\"Святитель Григорий Богослов, архиепископ Константинопольский\">Григория</a> (<a  href=\"http://days.pravoslavie.ru/images/ii535_8.html\" target=\"_blank\" >икона</a>) Богослова. Прп. <a  href=\"http://days.pravoslavie.ru/name/1038.html\" target=\"_blank\" title=\"Преподобный Иов Ущельский\">Иова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1038_3510.html\" target=\"_blank\" >икона</a>) Ущельского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1169.html\" target=\"_blank\" title=\"Кантидий (Кандидий) Египетский, мч.\">Кантидия</a>, <a  href=\"http://days.pravoslavie.ru/name/1168.html\" target=\"_blank\" title=\"Кантидиан Египетский, мч.\">Кантидиана</a> и <a  href=\"http://days.pravoslavie.ru/name/1979.html\" target=\"_blank\" title=\"Сивел Египетский, мч.\">Сивела</a>, в Египте. Сщмч.  <a  href=\"http://days.pravoslavie.ru/name/13765.html\" target=\"_blank\" title=\"Стефан (Хитров), иерей, сщмч.\">Стефана</a> пресвитера. Мцц. <a  href=\"http://days.pravoslavie.ru/name/10070.html\" target=\"_blank\" title=\"Евдокия (Шейкова), мц.\">Евдокии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10070_4631.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/10062.html\" target=\"_blank\" title=\"Дария (Улыбина), мц.\">Дарии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10062_4631.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/10063.html\" target=\"_blank\" title=\"Дария (Тимагина), мц.\">Дарии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10063_4631.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/10086.html\" target=\"_blank\" title=\"Мария (Неизвестная), мц.\">Марии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10086_4631.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9157.html\" target=\"_blank\" title=\"Святитель Симон (Шлеев), епископ Уфимский, сщмч.\">Симона</a>, еп. Уфимского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13760.html\" target=\"_blank\" title=\"Иоанн (Смирнов), диакон, сщмч.\">Иоанна</a> диакона. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_2-kor_2_14_0_3_0_3.html#z\">2 Кор., 172 зач., II, 14 - III, 3.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_23_23_28.html#z\">Мф., 95 зач., XXIII, 23-28,</a> и за среду (под зачало): <a href=\"http://days.pravoslavie.ru/bible/z_2-kor_3_4_11.html#z\">2 Кор., 173 зач., III, 4-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_23_29_39.html#z\">Мф., 96 зач., XXIII, 29-39.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18082.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 2, 14-3, З</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18083.htm\" target=\"_blank\" title=\"Библия\">Мф. 23, 23-28</a>). Очисти внутреннее, чтоб и внешнее чисто было. Внешнее поведение у нас в общежитии всегда почти исправно: боимся суда людского и сдерживаемся. Если же и внешне предаются порокам, то это уж последнее дело; значит стыд всякий потерян. Но при исправности поведения видимого, не всегда бывает исправен внутренний строй мыслей и чувств. Там дается полная свобода самоугодию, которое наружно и удовлетворяется, насколько это сносит людской глаз и насколько можно прикрыть от него дела свои. Это точь в точь гроб раскрашенный. Вместе с тем внутренняя нечистота делает нечистым и внешнее. Очисти же это внутреннее, тогда и внешнее станет чисто и весь будешь чист, сделаешься сосудом, годным на всякое доброе употребление домовладыке. Дивиться надо, отчего это внутреннее остается в пренебрежении: ведь погибели себе никто не хочет. Верно, враг держит такую душу в ослеплении: что это ничего, - лишь бы явных грехов не было, или научает ее отлагать на завтра главное дело - завтра займемся серьезно собою, как следует, а ныне пусть душа поусладится страстными мыслями и мечтами, если не делами. Постережемся, как бы не устареть в этом настроении и как бы исправление для нас также не стало невозможным, как переучивание старика.<br>(<a  href=\"https://days.pravoslavie.ru/Bible/C18084.htm\" target=\"_blank\" title=\"Библия\">2 Кор. З, 4-11</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18085.htm\" target=\"_blank\" title=\"Библия\">Мф. 23, 29-39</a>). Сколько милостей явил Господь Иерусалиму (т. е. иудеям)! И, наконец-таки вынужден был сказать: \"се оставляется дом ваш пуст\". Известно всем, какие были от этого последствия: иудеи до сих пор бездомны. Не бывает ли подобного и с душою? Печется о ней Господь и всячески ее вразумляет; покорная идет указанным путем, а непокорная остается в своем противлении Божию званию. Но Господь не бросает и ее, а употребляет все средства, чтоб ее образумить. Возрастает упорство; возрастает и Божие воздействие. Но всему мера. Душа доходит до ожесточения и Господь, видя, что уже ничего более сделать с нею нельзя, оставляет ее в руках падения своего - и гибнет она, подобно фараону. Вот и возьми всякий, кого борют страсти, себе отсюда урок, что нельзя безнаказанно продолжать поблажку до конца. Не пора ли бросить, и не по временам только себе отказывать, а сделать уже решительный поворот? Ведь никто не может сказать, когда преступит границу. Может быть, вот-вот и конец Божию долготерпению.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

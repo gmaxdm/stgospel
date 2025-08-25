@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("10 мая 2020 г. ( 27 апреля ст.ст.), воскресенье. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/13532.html\" target=\"_blank\" title=\"Неделя о расслабленном\">Неделя 4-я по Пасхе, о расслабленом</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13532_1305.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Ап. и сщмч. <a  href=\"http://days.pravoslavie.ru/name/1997.html\" target=\"_blank\" title=\"Святой Симеон, апостол от 70-ти\">Симеона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1997_1099.html\" target=\"_blank\" >икона</a>), сродника Господня. Прав. <a  href=\"http://days.pravoslavie.ru/name/2684.html\" target=\"_blank\" title=\"Тавифа Иоппийская\">Тавифы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2684_3558.html\" target=\"_blank\" >икона</a>). Прав. <a  href=\"http://days.pravoslavie.ru/name/686.html\" target=\"_blank\" title=\"Евлогий Странноприимец, Фиваидский\">Евлогия</a> странноприимца. Прп. <a  href=\"http://days.pravoslavie.ru/name/2065.html\" target=\"_blank\" title=\"Преподобный Стефан, игумен Печерский\">Стефана</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2065_2049.html\" target=\"_blank\" >икона</a>), игумена Печерского, еп. Владимиро-Волынского. Перенесение мощей мч. <a  href=\"http://days.pravoslavie.ru/name/32.html\" target=\"_blank\" title=\"Святой мученик Аврамий Болгарский\">Авраамия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii32_1620.html\" target=\"_blank\" >икона</a>) Болгарского. Сщмчч.  <a  href=\"http://days.pravoslavie.ru/name/9387.html\" target=\"_blank\" title=\"Павел (Светозаров), протоиерей, сщмч.\">Павла</a>  и <a  href=\"http://days.pravoslavie.ru/name/9630.html\" target=\"_blank\" title=\"Иоанн (Рождественский), иерей, сщмч.\">Иоанна</a> пресвитеров, мчч. <a  href=\"http://days.pravoslavie.ru/name/10026.html\" target=\"_blank\" title=\"Петр (Языков), мч.\">Петра</a>, <a  href=\"http://days.pravoslavie.ru/name/10004.html\" target=\"_blank\" title=\"Николай (Малков), мч.\">Николая</a>, <a  href=\"http://days.pravoslavie.ru/name/9927.html\" target=\"_blank\" title=\"Авксентий (Калашников), мч.\">Авксентия</a>, <a  href=\"http://days.pravoslavie.ru/name/10030.html\" target=\"_blank\" title=\"Сергий (Мефодиев), мч.\">Сергия</a> и мц. <a  href=\"http://days.pravoslavie.ru/name/10048.html\" target=\"_blank\" title=\"Анастасия, мц.\">Анастасии</a>. Прмц. <a  href=\"http://days.pravoslavie.ru/name/14250.html\" target=\"_blank\" title=\"Мария (Носова), послушница, прмц.\">Марии</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9642.html\" target=\"_blank\" title=\"Иоанн (Спасский), иерей, сщмч.\">Иоанна</a> пресвитера. Прославление сщмч. <a  href=\"http://days.pravoslavie.ru/name/9113.html\" target=\"_blank\" title=\"Сщмч. Иларион (Троицкий), архиепископ Верейский\">Илариона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9113_1790.html\" target=\"_blank\" >икона</a>), архиепископа Верейского. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - Ев. 4-е, <a href=\"http://days.pravoslavie.ru/bible/z_lk_24_1_12.html#z\">Лк., 112 зач., XXIV, 1-12.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_9_32_42.html#z\">Деян., 23 зач., IX, 32-42.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_5_1_15.html#z\">Ин., 14 зач., V, 1-15.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17866.htm\" target=\"_blank\" title=\"Библия\">Дея. 9, 32-42</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17867.htm\" target=\"_blank\" title=\"Библия\">Ин. 5, 1-15</a>). \"Вот, ты выздоровел; не греши больше, чтобы не случилось с тобою чего хуже\". Грех не душу только поражает, но и тело. В иных случаях это весьма очевидно; в других, хоть не так ясно, но истина остается истиною, что и болезни тела все и всегда от грехов и ради грехов. Грех совершается в душе и прямо делает ее больною; но так как жизнь тела от души, то от больной души, конечно, жизнь не здоровая. Уже то одно, что грех наводит мрак и тугу, должно неблагоприятно действовать на кровь, в которой основание здоровья телесного. Но когда припомнишь, что он отделяет от Бога - Источника жизни, и ставит человека в разлад со всеми законами, действующими и в нем самом и в природе, то еще дивиться надо, как остается живым грешник после греха. Это милость Божия, ожидающая покаяния и обращения. Следовательно, большому, прежде всякого другого дела, надо поспешить очиститься от грехов и в совести своей примириться с Богом. Этим проложится путь и благодетельному действию лекарств. Слышно, что был какой-то знаменательный врач, который не приступал к лечению, пока больной не исповедуется и не причастится св. Таин; и чем труднее была болезнь, тем он настойчивее этого требовал.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

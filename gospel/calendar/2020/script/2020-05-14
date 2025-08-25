@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("14 мая 2020 г. ( 1 мая ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прор. <a  href=\"http://days.pravoslavie.ru/name/916.html\" target=\"_blank\" title=\"Иеремия, пророк\">Иеремии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii916_996.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/1752.html\" target=\"_blank\" title=\"Пафнутий Боровский, игумен\">Пафнутия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1752_152.html\" target=\"_blank\" >икона</a>) Боровского. Прмч. <a  href=\"http://days.pravoslavie.ru/name/399.html\" target=\"_blank\" title=\"Вата Персиянин, прмч.\">Ваты</a> Персянина. Блгв. <a  href=\"http://days.pravoslavie.ru/name/2687.html\" target=\"_blank\" title=\"Святая благоверная царица Тамара\">Тамары</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2687_156.html\" target=\"_blank\" >икона</a>), царицы Грузинской. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1406.html\" target=\"_blank\" title=\"Священномученик Макарий, митрополит Киевский\">Макария</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1406_254.html\" target=\"_blank\" >икона</a>), митр. Киевского. Прп. <a  href=\"http://days.pravoslavie.ru/name/501.html\" target=\"_blank\" title=\"Преподобный Герасим Болдинский\">Герасима</a> (<a  href=\"http://days.pravoslavie.ru/images/ii501_4630.html\" target=\"_blank\" >икона</a>) Болдинского. Прмчч. Афонских <a  href=\"http://days.pravoslavie.ru/name/738.html\" target=\"_blank\" title=\"Евфимий Новый, Афонский, Константинопольский, прмч.\">Евфимия</a>, <a  href=\"http://days.pravoslavie.ru/name/903.html\" target=\"_blank\" title=\"Игнатий Новый, Афонский, Константинопольский, прмч.\">Игнатия</a> и <a  href=\"http://days.pravoslavie.ru/name/89.html\" target=\"_blank\" title=\"Акакий Новый, Сярский, Афонский, прмч.\">Акакия</a>. Мц. <a  href=\"http://days.pravoslavie.ru/name/10097.html\" target=\"_blank\" title=\"Нина (Кузнецова), мц.\">Нины</a>. <a  href=\"http://days.pravoslavie.ru/name/3016.html\" target=\"_blank\" title=\"Царевококшайская (\"Мироносицкая\")\">Царевококшайской</a> или Мироносицкой, <a  href=\"http://days.pravoslavie.ru/name/2770.html\" target=\"_blank\" title=\"Андрониковская\">Андрониковской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2770_408.html\" target=\"_blank\" >икона</a>), и именуемой <a  href=\"http://days.pravoslavie.ru/name/2917.html\" target=\"_blank\" title=\"\"Нечаянная Радость\"\">\"Нечаянная Радость\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2917_2436.html\" target=\"_blank\" >икона</a>) икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div><a href=\"http://days.pravoslavie.ru/bible/z_deqn_10_34_43.html#z\">Деян., 26 зач., X, 34-43.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_8_12_20.html#z\">Ин., 29 зач., VIII, 12-20.</a> Прор.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_14_20_25.html#z\">1 Кор., 156 зач., XIV, 20-25.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_4_22_30.html#z\">Лк., 14 зач., IV, 22-30</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>.</div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба прп. Пафнутия, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30,</a> а на литургии - чтения дня и преподобного: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_4_25_0_5_0_12.html#z\">Мф., 10 зач., IV, 25 - V, 12.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17875.htm\" target=\"_blank\" title=\"Библия\">Дея. 10, 34-43</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17876.htm\" target=\"_blank\" title=\"Библия\">Ин. 8, 12-20</a>). \"Я свет миру; кто последует за Мною, тот не будет ходить во тьме, но будет иметь свет жизни\", говорит Господь. Следовательно, кто отклоняет от Господа, тот отклоняет от света и ведет во тьму, и есть потому настоящий обскурант. Знаешь, чего требует учение Христово и смотри: коль скоро кто проводит мысли противные этому учению, не бойся называть того обскурантом, это прямое ему имя. Учит Господь, что Бог един по существу и троичен в лицах, это есть луч преестественного света истины; кто проповедует противное этому, тот ведет во тьму от света, и он обскурант. Учит Господь, что Бог Триипостасный, сотворив мир словом Своим, промышляет о нем - это Божественный свет, освещающий не земно-утешительным светом мрачные тропы жизни нашей: кто проповедует противное этому, тот ведет во тьму безотрадную - это обскурант. Учит Господь, что Бог, создав человека, по образу Своему и подобию, положил ему жить в раю; когда же он согрешил, праведно изгнал его из рая жить на этой земле, полной скорбей и нужд. Не до конца, однакоже, прогневался на него, но благоволил устроить ему спасение через крестную смерть воплотившегося Единородного Сына Божия - и это духовный свет, освещающий нравственный мрак, облежащий души наши; кто проповедует противное этому, тот ведет во тьму и есть обскурант. Учит Господь: веруй и, приняв силу благодати в Божественных таинствах, живи по Моим заповедям и спасешься, - это единственный способ к тому, чтобы свет Божий вошел в нас и сделал нас просвещенными; кто учит противному, тот хочет удержать нас в омрачении и потому обскурант. Господь учит: входите узкими вратами строгой, самоотверженной жизни, и это единственный путь к свету; кто же ведет на широкий путь самоугодия, тот ведет во тьму и это обскурант. Господь учит: помни последняя - смерть, суд, ад, рай, - и это свет, освещающий наше будущее; кто учит, что смерть всему конец, тот наводит тьму на нашу участь, и потому обскурант. Любители света, научитесь по сему различать, где тьма и уклонитесь от нее.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

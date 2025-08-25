@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("5 июня 2020 г. ( 23 мая ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 7-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14695.html\" target=\"_blank\" title=\"Отдание Вознесения\">Отдание</a> праздника Вознесения Господня. Прп. <a  href=\"http://days.pravoslavie.ru/name/1559.html\" target=\"_blank\" title=\"Святитель Михаил Синадский (Фригийский), епископ, исповедник\">Михаила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1559_4286.html\" target=\"_blank\" >икона</a>) исп., еп. Синадского. Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/1354.html\" target=\"_blank\" title=\"Святитель Леонтий Ростовский, епископ, сщмч.\">Леонтия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1354_915.html\" target=\"_blank\" >икона</a>), еп. Ростовского. <a  href=\"http://days.pravoslavie.ru/name/6907.html\" target=\"_blank\" title=\"Собор Ростово-Ярославских святых\">Собор</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6907_854.html\" target=\"_blank\" >икона</a>) Ростово-Ярославских святых. Прмч. <a  href=\"http://days.pravoslavie.ru/name/1558.html\" target=\"_blank\" title=\"Преподобномученик Михаил Эдесский\">Михаила</a> черноризца. Прп. <a  href=\"http://days.pravoslavie.ru/name/2488.html\" target=\"_blank\" title=\"Преподобная Евфросиния, игумения Полоцкая\">Евфросинии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2488_229.html\" target=\"_blank\" >икона</a>), игумении Полоцкой. Прп. <a  href=\"http://days.pravoslavie.ru/name/1709.html\" target=\"_blank\" title=\"Паисий Галичский, архимандрит\">Паисия</a> Галичского. Обретение мощей мцц. <a  href=\"http://days.pravoslavie.ru/name/10070.html\" target=\"_blank\" title=\"Евдокия (Шейкова), мц.\">Евдокии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10070_4631.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/10062.html\" target=\"_blank\" title=\"Дария (Улыбина), мц.\">Дарии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10062_4631.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/10063.html\" target=\"_blank\" title=\"Дария (Тимагина), мц.\">Дарии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10063_4631.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/10086.html\" target=\"_blank\" title=\"Мария (Неизвестная), мц.\">Марии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10086_4631.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_deqn_27_1_44.html#z\">Деян., 50 зач., XXVII, 1-44.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_17_18_26.html#z\">Ин., 57 зач., XVII, 18-26.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17922.htm\" target=\"_blank\" title=\"Библия\">Дея. 27, 1-44</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17923.htm\" target=\"_blank\" title=\"Библия\">Ин. 17, 18-26</a>). \"Как Ты, Отче, во Мне, и Я в Тебе, так и они да будут в нас едино. . . Я в них, и Ты во Мне\". Вот златая цепь, связующая нас с Божеством! Отпали мы - восстал Посредник, Который едино есть с Богом Отцом, и стал едино с нами. Становясь едино с Ним, мы соединяемся в Нем и через Него с Богом Отцом. Слава безпредельной милости Твоей к нам, Триипостасный Боже, благоволивший устроить для нас такой светлый путь к обожению! Высоко подъемлет нас Господь; не отрицай же благодеяния, исповедуй милость и хвали неизреченную благостыню! Отрицаясь от такой высоты, ты думаешь смиряться, а на деле обнаруживаешь грубую неблагодарность и небрежение к высокому дару. Ведай, что средины нет: или все, или ничего. Не хочешь этой высоты - останешься вне в горьком унижении, и временно, и вечно.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

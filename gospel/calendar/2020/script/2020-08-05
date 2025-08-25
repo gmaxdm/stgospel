@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("5 августа 2020 г. ( 23 июля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 9-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/2947.html\" target=\"_blank\" title=\"Почаевская икона Божией Матери\">Почаевской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2947_338.html\" target=\"_blank\" >икона</a>) иконы Божией Матери. Мчч. <a  href=\"http://days.pravoslavie.ru/name/2131.html\" target=\"_blank\" title=\"Трофим Ликийский, мч.\">Трофима</a>, <a  href=\"http://days.pravoslavie.ru/name/2262.html\" target=\"_blank\" title=\"Феофил Ликийский, мч.\">Феофила</a> и с ними 13-ти мучеников. Прав. воина <a  href=\"http://days.pravoslavie.ru/name/14294.html\" target=\"_blank\" title=\"Феодор (Ушаков) Санаксарский, воин\">Феодора</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14294_2076.html\" target=\"_blank\" >икона</a>) Ушакова. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/238.html\" target=\"_blank\" title=\"Святитель Аполлинарий Равеннийский, епископ, сщмч.\">Аполлинария</a>, еп. Равеннийского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14534.html\" target=\"_blank\" title=\"Михаил (Троицкий), иерей, сщмч.\">Михаила</a> пресвитера и мч. <a  href=\"http://days.pravoslavie.ru/name/14295.html\" target=\"_blank\" title=\"Андрей (Аргунов), мч.\">Андрея</a>. Иконы Божией Матери, именуемой <a  href=\"http://days.pravoslavie.ru/name/2825.html\" target=\"_blank\" title=\"\"Всех скорбящих Радость\" (с грошиками)\">\"Всех скорбящих Радость\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2825_3294.html\" target=\"_blank\" >икона</a>) (с грошиками). ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_13_4_0_14_0_5.html#z\">1 Кор., 154 зач., XIII, 4 - XIV, 5.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_20_1_16.html#z\">Мф., 80 зач., XX, 1-16.</a> Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_evr_9_1_7.html#z\">Евр., 320 зач., IX, 1-7.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18055.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 13, 4-14, 5</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18056.htm\" target=\"_blank\" title=\"Библия\">Мф. 20, 1-16</a>). В притче о наемниках и тот, кому один только час работать пришлось, был одинаково вознагражден домовладыкою. Часы дня в этой притче - образ течения жизни нашей. Одиннадцатый час - последнее время этой жизни. Господь показывает, что и те, которые до этого срока дожили, не работая Ему, могут начать работать и угодить Ему не меньше других. Нечего, следовательно, отговариваться старостью и отчаиваться, полагая, что уже не к чему начинать. Начинай не робея; милостив Господь; все тебе даст, что и другим, и по чину благодати здесь, и по закону правды там. Только усердием побольше разгорись и посокрушеннее поскорби о нерадении, в котором проведена вся почти жизнь. Скажешь: там позвал хозяин, пусть и меня позовет Господь. А разве не зовет? Не слышишь разве в церкви гласа Господня: \"придите ко Мне все\" и апостольского призвания: \"как бы Сам Бог увещевает через нас, от имени Христова просим: примиритесь с Богом\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18057.htm\" target=\"_blank\" title=\"Библия\">2 Кор. 5, 20</a>).<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

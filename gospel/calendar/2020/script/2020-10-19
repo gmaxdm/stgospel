@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("19 октября 2020 г. ( 6 октября ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 20-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Апостола <a  href=\"http://days.pravoslavie.ru/name/2323.html\" target=\"_blank\" title=\"Апостол Фома\">Фомы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2323_4515.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9635.html\" target=\"_blank\" title=\"Иоанн (Рыбин), иерей, сщмч.\">Иоанна</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_12_16.html#z\">Флп., 241 зач., II, 12-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_24_30.html#z\">Лк., 25 зач., VI, 24-30.</a> Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_4_9_16.html#z\">1 Кор., 131 зач., IV, 9-16.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_20_19_31.html#z\">Ин., 65 зач., XX, 19-31.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18211.htm\" target=\"_blank\" title=\"Библия\">Лк. 6, 24-30</a>). Горе богатым, насыщенным, смеющимся, хвалимым; напротив, благо тем, которые терпят всякую напраслину, побои, ограбления, насильные утруждения, - совсем наперекор тому, как обычно судят и чувствуют люди! Мысли Божии отстоят от помышлений человеческих, как небо от земли. Да и как же иначе. Мы в изгнании, а изгнанникам не дивны обиды и оскорбления. Мы под эпитимиею , а эпитимия и состоит в лишениях и трудах. Мы больны: а больным полезнее горькие лекарства. И Сам Спаситель вовсю жизнь Свою не имел где главу подклонить и кончил ее на кресте - с какой же стати иметь лучшую участь последователям Его? Дух Христов - дух готовности все терпеть и благодушно нести все скорбное. Утешность, гонор, пышность, довольство, чужды его исканий и вкусов. Путь его лежит по безплодной, безотрадной пустыне. Образец - сорокалетнее странствование израильтян по пустыне. Кто же следует этим путем? Всякий, кто за пустынею зрит Ханаан, кипящий медом и млеком. Во время странствования своего и он получает манну, но не от земли, а с неба, не телесно, а духовно. Вся слава - внутрь.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

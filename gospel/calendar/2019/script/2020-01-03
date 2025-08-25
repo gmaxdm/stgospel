@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("3 января 2020 г. (21  декабря 2019 г. ст.ст.), пятница. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 29-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Рождественский пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Мц. <a  href=\"http://days.pravoslavie.ru/name/2530.html\" target=\"_blank\" title=\"Иулиания Никомидийская, дева, мц.\">Иулиании</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2530_2192.html\" target=\"_blank\" >икона</a>) и с нею 500 мужей и 130-ти жен, в Никомидии пострадавших. Свт. <a  href=\"http://days.pravoslavie.ru/name/1779.html\" target=\"_blank\" title=\"Святитель Петр, митрополит Московский и всея Руси\">Петра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1779_262.html\" target=\"_blank\" >икона</a>), митр. Московского и всея России чудотворца. Мч. <a  href=\"http://days.pravoslavie.ru/name/2168.html\" target=\"_blank\" title=\"Фемистоклей Мирликийский, мч.\">Фемистоклея</a>. Блгв. кн. <a  href=\"http://days.pravoslavie.ru/name/2526.html\" target=\"_blank\" title=\"Благоверная Иулиания, княгиня Вяземская и Новоторжская\">Иулиании</a> Вяземской. Преставление блж. <a  href=\"http://days.pravoslavie.ru/name/1842.html\" target=\"_blank\" title=\"Прокопий Вятский, Христа ради юродивый\">Прокопия</a>, Христа ради юродивого, Вятского. Свт. <a  href=\"http://days.pravoslavie.ru/name/13451.html\" target=\"_blank\" title=\"Святитель Филарет (в схиме Феодосий) (Амфитеатров), митрополит Киевский и Галицкий\">Филарета</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13451_666.html\" target=\"_blank\" >икона</a>), митр. Киевского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9357.html\" target=\"_blank\" title=\"Михаил (Киселев), протоиерей, сщмч.\">Михаила</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14499.html\" target=\"_blank\" title=\"Сергий (Цветков), диакон, сщмч.\">Сергия</a> диакона. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/13370.html\" target=\"_blank\" title=\"Святитель Никита (Прибытков), епископ Белевский, сщмч.\">Никиты</a>, еп. Белевского. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14372.html\" target=\"_blank\" title=\"Леонтий (Строцюк), диакон, сщмч.\">Леонтия</a> диакона. ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_18_25.html#z\">Евр., 317 зач., VII, 18-25.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_10_23_32.html#z\">Мк., 46 зач., X, 23-32.</a> Свт.: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_6_17_23.html#z\">Лк., 24 зач., VI, 17-23.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18383.htm\" target=\"_blank\" title=\"Библия\">Мр. 10, 23-32</a>). Услышав слово Господа о неудобстве богатым войти в Царствие Божие, ученики подумали: \"кто же может спастись?\" Господь сказал на это: \"человекам это невозможно, но не Богу; ибо все возможно Богу\". Невозможно отрешиться от корыстолюбия без благодатного воздействия на сердце; невозможно сладить и со всяким другим пристрастием, и со всем грехом живущим в нас, и со всем его порождением без благодати Божией. благодать Божия дается, по вере в Господа, в таинствах св. Церкви. Держись же крепче св. Церкви Божией и всех ее учреждений, и сила Божия, пособствующая на всякое добро, всегда будет присуща тебе. Только при этом всегда помни, что осветительные и животворные эти учреждения - средства, а не цель; потому и проходи их только для того, чтобы под действием их оживить и попитать сокрытые в тебе благодатные силы, и исходить потом на делание свое мужем крепким, готовым на всякое благое дело. Если удержишь принятое в себе и не дашь тому исхода в делах благих, будешь не прав; равно, как неправ тот, кто чуждается всего церковного. От неправых ревнителей благочестия самый строй благочестной жизни подвергается нареканию: но это не отнимает значения у этого строя и не оправдывает умствователей, чуждающихся его на сем только основании.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

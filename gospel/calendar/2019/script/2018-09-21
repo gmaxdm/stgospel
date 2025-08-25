@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("21 сентября 2020 г. ( 8 сентября ст.ст.), понедельник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 16-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/3045.html\" target=\"_blank\" title=\"Рождество Пресвятой Владычицы нашей Богородицы и Приснодевы Марии\">Рождество Пресвятой Владычицы нашей Богородицы и Приснодевы Марии.</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii3045_189.html\" target=\"_blank\" >икона</a>)</span></span><br> Прпп. <a  href=\"http://days.pravoslavie.ru/name/14317.html\" target=\"_blank\" title=\"Иоанн (Майсурадзе), архимандрит, исповедник, прп.\">Иоанна</a>  и <a  href=\"http://days.pravoslavie.ru/name/14318.html\" target=\"_blank\" title=\"Георгий (Мхеидзе), архимандрит, исповедник, прп.\">Георгия</a>, исповедников (Груз.). <a  href=\"http://days.pravoslavie.ru/name/2974.html\" target=\"_blank\" title=\"София - Премудрость Божия (Киевская)\">Иконы Софии, Премудрости Божией</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2974_1144.html\" target=\"_blank\" >икона</a>) (Киевской). Чтимых икон Рождества Богородицы: <a  href=\"http://days.pravoslavie.ru/name/2957.html\" target=\"_blank\" title=\"\"Рождества Богородицы\" Сямская\">Сямской</a>, <a  href=\"http://days.pravoslavie.ru/name/2955.html\" target=\"_blank\" title=\"\"Рождества Богородицы\" Глинская\">Глинской</a>, <a  href=\"http://days.pravoslavie.ru/name/2956.html\" target=\"_blank\" title=\"\"Рождества Богородицы\" Лукиановская\">Лукиановской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2956_4535.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2864.html\" target=\"_blank\" title=\"Исааковская\">Исааковской</a>. Икон Божией Матери: <a  href=\"http://days.pravoslavie.ru/name/2855.html\" target=\"_blank\" title=\"Знамение Курская-Коренная\">Курской-Коренной</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2855_2365.html\" target=\"_blank\" >икона</a>) \"Знамение\", <a  href=\"http://days.pravoslavie.ru/name/2947.html\" target=\"_blank\" title=\"Почаевская икона Божией Матери\">Почаевской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2947_338.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2843.html\" target=\"_blank\" title=\"Домницкая\">Домницкой</a>, <a  href=\"http://days.pravoslavie.ru/name/3014.html\" target=\"_blank\" title=\"Холмская икона Божией Матери\">Холмской</a> и <a  href=\"http://days.pravoslavie.ru/name/2894.html\" target=\"_blank\" title=\"Леснинская\">Леснинской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2894_2418.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_1_39_49_1_56_56.html#z\">Лк., 4 зач., I, 39-49, 56.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

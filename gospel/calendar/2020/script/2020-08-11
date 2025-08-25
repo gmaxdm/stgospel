@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("11 августа 2020 г. ( 29 июля ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 10-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/1158.html\" target=\"_blank\" title=\"Каллиник Киликийский, Гангрский, мч.\">Каллиника</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1158_3505.html\" target=\"_blank\" >икона</a>). Мц. <a  href=\"http://days.pravoslavie.ru/name/2666.html\" target=\"_blank\" title=\"Мученица Серафима Римская\">Серафимы</a> девы. Мц. <a  href=\"http://days.pravoslavie.ru/name/2718.html\" target=\"_blank\" title=\"Святая мученица Феодотия\">Феодотии</a> и трех чад её. Свт. <a  href=\"http://days.pravoslavie.ru/name/14901.html\" target=\"_blank\" title=\"Святитель Луп епископ Труа, епископ Труа, свт.\">Лупа</a>, епископа Труа. Мч. <a  href=\"http://days.pravoslavie.ru/name/711.html\" target=\"_blank\" title=\"Евстафий Мцхетский, Тифлисский, мч.\">Евстафия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii711_3506.html\" target=\"_blank\" >икона</a>) Мцхетского (Груз.). Прмч. <a  href=\"http://days.pravoslavie.ru/name/1558.html\" target=\"_blank\" title=\"Преподобномученик Михаил Эдесский\">Михаила</a>. Прпп. <a  href=\"http://days.pravoslavie.ru/name/1275.html\" target=\"_blank\" title=\"Константин Косинский, Старорусский, прп.\">Константина</a> и <a  href=\"http://days.pravoslavie.ru/name/1296.html\" target=\"_blank\" title=\"Косма Косинский, Старорусский, прп.\">Космы</a> Косинских, Старорусских. Мч. <a  href=\"http://days.pravoslavie.ru/name/14954.html\" target=\"_blank\" title=\"Даниил (Кушнир) Черкасский, мч.\">Даниила</a> Черкасского. Прмчч. <a  href=\"http://days.pravoslavie.ru/name/9242.html\" target=\"_blank\" title=\"Серафим (Богословский), иеромонах, сщмч.\">Серафима</a> и <a  href=\"http://days.pravoslavie.ru/name/9248.html\" target=\"_blank\" title=\"Феогност, иеромонах, сщмч.\">Феогноста</a>. Прмч. <a  href=\"http://days.pravoslavie.ru/name/14298.html\" target=\"_blank\" title=\"Анатолий (Смирнов), иеромонах, прмч.\">Анатолия</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14299.html\" target=\"_blank\" title=\"Алексий (Красновский), иерей, сщмч.\">Алексия</a> пресвитера, прмч. <a  href=\"http://days.pravoslavie.ru/name/9240.html\" target=\"_blank\" title=\"Пахомий (Русин), иеромонах, сщмч.\">Пахомия</a>. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-kor_15_29_38.html#z\">1 Кор., 161 зач., XV, 29-38.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_21_23_27.html#z\">Мф., 85 зач., XXI, 23-27.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18069.htm\" target=\"_blank\" title=\"Библия\">Мф. 21, 23-27</a>). На вопрос Господа об Иоанне Предтече, архиереи и старцы думали: так ли скажем или так, все для нас невыгодно, а потому решили лучше прикрыться незнанием. Интерес свой связал им язык и не дал им засвидетельствовать истину. Если бы они любили истину больше, чем себя, была бы иная речь, иное было бы и дело. Свой интерес закрыл истину и не допустил ее до сердца, помешал образоваться искреннему убеждению и сделал его равнодушным к ней. И всегда так: эгоистические стремления - изначальные враги истины. Все другие враги идут за ними и действуют через посредство их. Если разобрать, как родились все заблуждения и ереси, то окажется, что всех их источник именно этот. На словах, истина - истина, а на деле, мешает истина в том и в том отношении, надо ее устранить и поставить на место ее благоприятную нам ложь. Отчего, например, являются материалисты - нигилисты? Оттого что идея Бога Творца, Промыслителя и Судии с идеею о духовности души, мешает им шире жить по своим наклонностям; вот и отстраняют ее. Что не истина руководит нигилистами, это видно из ничтожности оснований, на которых они утверждаются: им желательно, чтобы было так, как они думают, и всякий призрак, отражающий их мысли, выставляется ими как свидетель истины. Если бы они отрезвились хоть немного, тотчас бы увидали ложь свою. Но себя жаль, потому и остаются так как есть.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

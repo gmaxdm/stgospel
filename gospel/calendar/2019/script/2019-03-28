@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("28 марта 2020 г. ( 15 марта ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я Великого поста, Крестопоклонная. <a  href=\"http://days.pravoslavie.ru/name/3565.html\" target=\"_blank\" title=\"Суббота четвертой седмицы Великого поста\">Поминовение усопших</a>. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/48.html\" target=\"_blank\" title=\"Агапий Газский, Кесарийский (Палестинский), мч.\">Агапия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii48_3190.html\" target=\"_blank\" >икона</a>) и с ним семи мучеников: <a  href=\"http://days.pravoslavie.ru/name/1862.html\" target=\"_blank\" title=\"Пуплий Кесарийский (Палестинский), мч.\">Пуплия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1862_3190.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/2099.html\" target=\"_blank\" title=\"Тимолай (Тимофей) Кесарийский (Палестинский), мч.\">Тимолая</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2099_3190.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1881.html\" target=\"_blank\" title=\"Ромил Кесарийский (Палестинский), мч.\">Ромила</a>, двух <a  href=\"http://days.pravoslavie.ru/name/106.html\" target=\"_blank\" title=\"Александр Египетский, Кесарийский (Палестинский), мч.\">Александров</a> и двух Дионисиев (1,2). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/127.html\" target=\"_blank\" title=\"Александр Сидский (Памфилийский), иерей, сщмч.\">Александра</a> (<a  href=\"http://days.pravoslavie.ru/images/ii127_4128.html\" target=\"_blank\" >икона</a>), иерея в Сиде. Мч. <a  href=\"http://days.pravoslavie.ru/name/1606.html\" target=\"_blank\" title=\"Никандр Египтянин, врач, мч.\">Никандра</a>. Сщмчч.  <a  href=\"http://days.pravoslavie.ru/name/9271.html\" target=\"_blank\" title=\"Алексий (Виноградов), протоиерей, сщмч.\">Алексия</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9355.html\" target=\"_blank\" title=\"Михаил (Богословский), протоиерей, сщмч.\">Михаила</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_evr_6_9_12.html#z\">Евр., 313 зач., VI, 9-12.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mk_7_31_37.html#z\">Мк., 31 зач., VII, 31-37.</a> За упокой: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_15_47_57.html#z\">1 Кор., 163 зач., XV, 47-57.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_5_24_30.html#z\">Ин., 16 зач., V, 24-30.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18518.htm\" target=\"_blank\" title=\"Библия\">Ев. 6, 9-12</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18519.htm\" target=\"_blank\" title=\"Библия\">Мк. 7, 31-37</a>). \"Плоть и кровь не могут наследовать Царствия Божия\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18520.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 15, 50</a>). Следовательно, для получения Царствия надобно обесплотить и обескровить, то есть утвердиться в таком характере жизни, что крови и плоти словно нет. Это достигается совершенным отречением от дел кровяных и плотских. \"Дела плоти известны; они суть: прелюбодеяние, блуд, нечистота, непотребство. идолослужение, волшебство, вражда, ссоры, зависть, гнев, распри, разногласия, (соблазны) ереси, ненависть, убийства, пьянство, бесчинство и тому подобное\". Перечислив все это, апостол прибавляет: \"предваряю вас, как и прежде предварял, что поступающие так Царствия Божия не наследуют\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18521.htm\" target=\"_blank\" title=\"Библия\">Гал. 5, 10-21</a>). Имеющий уши слышать, да слышит.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("13 мая 2020 г. ( 30 апреля ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я по Пасхе. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/13529.html\" target=\"_blank\" title=\"Преполовение Пятидесятницы\">Преполовение Пятидесятницы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13529_4526.html\" target=\"_blank\" >икона</a>). Ап. <a  href=\"http://days.pravoslavie.ru/name/872.html\" target=\"_blank\" title=\"Апостол Иаков Зеведеев\">Иакова</a> (<a  href=\"http://days.pravoslavie.ru/images/ii872_579.html\" target=\"_blank\" >икона</a>) Зеведеева. Обретение мощей свт. <a  href=\"http://days.pravoslavie.ru/name/1617.html\" target=\"_blank\" title=\"Святитель Никита Печерский, епископ Новгородский, затворник\">Никиты</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1617_3166.html\" target=\"_blank\" >икона</a>), еп. Новгородского. Свт. <a  href=\"http://days.pravoslavie.ru/name/898.html\" target=\"_blank\" title=\"Святитель Игнатий Брянчанинов\">Игнатия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii898_231.html\" target=\"_blank\" >икона</a>) Брянчанинова, еп. Кавказского и Черноморского. Свт. <a  href=\"http://days.pravoslavie.ru/name/648.html\" target=\"_blank\" title=\"Святитель Донат Еврийский, епископ\">Доната</a>, еп. Еврии. Обретение мощей сщмч. <a  href=\"http://days.pravoslavie.ru/name/369.html\" target=\"_blank\" title=\"Святитель Василий Амасийский, епископ, сщмч.\">Василия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii369_1699.html\" target=\"_blank\" >икона</a>), еп. Амасийского. Мч. <a  href=\"http://days.pravoslavie.ru/name/1432.html\" target=\"_blank\" title=\"Максим, мч.\">Максима</a>. <a  href=\"http://days.pravoslavie.ru/name/2910.html\" target=\"_blank\" title=\"Моздокская (Иверская)\">Моздокской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2910_2783.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2846.html\" target=\"_blank\" title=\"Дубенская (Красногорская)\">Дубенской-Красногорской</a> икон Божией Матери. ");
+}
+
+function print_chten()
+{
+ daysd.write("<div>Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_in_21_15_25.html#z\">Ин., 67 зач., XXI, 15-25</a> <span class=\"DAYS_asterix\" style=\"display:none\">*</span>. Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_deqn_14_6_18.html#z\">Деян., 34 зач., XIV, 6-18.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_7_14_30.html#z\">Ин., 26 зач., VII, 14-30.</a> Ап.: <a href=\"http://days.pravoslavie.ru/bible/z_deqn_12_1_11.html#z\">Деян., 29 зач., XII, 1-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_5_1_11.html#z\">Лк., 17 зач., V, 1-11.</a></div><div class=\'DAYS_snoska\' style=\'display:none\'>* Если совершается полиелейная служба свт. Игнатия, то на утрене читается <a href=\"http://days.pravoslavie.ru/bible/z_in_10_1_9.html#z\">Ин., 35 зач. (от&nbsp;полу&#769;), X, 1-9,</a> а на литургии - чтения дня и святителя: <a href=\"http://days.pravoslavie.ru/bible/z_evr_7_26_0_8_0_2.html#z\">Евр., 318 зач., VII, 26 - VIII, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_in_10_9_16.html#z\">Ин., 36 зач., X, 9-16.</a> </div>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17872.htm\" target=\"_blank\" title=\"Библия\">Дея. 14, 6-18</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17873.htm\" target=\"_blank\" title=\"Библия\">Ин. 7, 14-30</a>). В Преполовение слышится воззвание от лица Господа: \"кто жаждет, иди ко Мне и пей\" (<a  href=\"https://days.pravoslavie.ru/Bible/C17874.htm\" target=\"_blank\" title=\"Библия\">Ин. 7, 37</a>). Если так, то пойдемте все к Нему. Кто чего бы ни жаждал, только бы то не противно было духу Господа, непременно найдет удовлетворение. Жаждущие знания, идите ко Господу, ибо Он - единственный свет, истинно просвещаюший всякого человека. Жаждущие очищения от грехов и утоления совестного жжения, идите ко Господу; ибо Он вознес грехи всего мира на древо и рукописание их разодрал. Жаждущие покоя сердечного, идите ко Господу; ибо Он есть сокровище, обладание которым заставит вас забыть все лишения и презреть все блага, чтобы обладать Им единым. - Сила кому нужна - у Него всякая сила. Слава ли - у Него слава премирная. Свобода ли - Он дарователь истинной свободы. Он решит все наши недоумения, расторгнет узы страстей, развеет все скорби и туги, даст преодолеть все препоны, все искушения и козни врага. и уравняет путь нашей жизни духовной. Пойдемте же все ко Господу!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

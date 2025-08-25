@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("19 марта 2020 г. ( 6 марта ст.ст.), четверг. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 3-я Великого поста. ");
+}
+
+function print_post()
+{
+ daysd.write("Великий пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Монастырский устав: cухоядение (хлеб, овощи, фрукты). ");
+}
+
+function print_saints()
+{
+ daysd.write("Мч. <a  href=\"http://days.pravoslavie.ru/name/14541.html\" target=\"_blank\" title=\"42 мученика в Амморее\">42-х во Амморее</a> (<a  href=\"http://days.pravoslavie.ru/images/ii14541_3185.html\" target=\"_blank\" >икона</a>) <a  href=\"http://days.pravoslavie.ru/name/1268.html\" target=\"_blank\" title=\"Константин Амморейский (Фригийский), мч.\">Константина</a>, <a  href=\"http://days.pravoslavie.ru/name/77.html\" target=\"_blank\" title=\"Аетий Амморейский (Фригийский), мч.\">Аетия</a>, <a  href=\"http://days.pravoslavie.ru/name/2259.html\" target=\"_blank\" title=\"Феофил Амморейский (Фригийский), мч.\">Феофила</a>, <a  href=\"http://days.pravoslavie.ru/name/2176.html\" target=\"_blank\" title=\"Феодор Амморейский (Фригийский), мч.\">Феодора</a>, <a  href=\"http://days.pravoslavie.ru/name/1511.html\" target=\"_blank\" title=\"Мелиссен Амморейский (Фригийский), мч.\">Мелиссена</a>, <a  href=\"http://days.pravoslavie.ru/name/1162.html\" target=\"_blank\" title=\"Каллист Амморейский (Фригийский), мч.\">Каллиста</a>, <a  href=\"http://days.pravoslavie.ru/name/393.html\" target=\"_blank\" title=\"Васой Амморейский (Фригийский), мч.\">Васоя</a> и прочих с ними. Прп. <a  href=\"http://days.pravoslavie.ru/name/6649.html\" target=\"_blank\" title=\"Преподобный Иов, в схиме Иисус, Анзерский\">Иова</a>, в схиме Иисуса, Анзерского. Прмчч. <a  href=\"http://days.pravoslavie.ru/name/1265.html\" target=\"_blank\" title=\"Конон Иконийский, Старший (отец), прмч.\">Конона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1265_4110.html\" target=\"_blank\" >икона</a>) и сына его <a  href=\"http://days.pravoslavie.ru/name/1264.html\" target=\"_blank\" title=\"Конон Иконийский, Младший (сын), прмч.\">Конона</a>. <a  href=\"http://days.pravoslavie.ru/name/14679.html\" target=\"_blank\" title=\"Обретение Честного креста и гвоздей св. равноапостольной царицею Еленою во Иерусалиме\">Обретение</a> Честного креста и гвоздей св. равноапостольной царицею <a  href=\"http://days.pravoslavie.ru/name/2494.html\" target=\"_blank\" title=\"Равноапостольная царица Елена\">Еленою</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2494_894.html\" target=\"_blank\" >икона</a>) во Иерусалиме. Прп. <a  href=\"http://days.pravoslavie.ru/name/258.html\" target=\"_blank\" title=\"Аркадий Кипрский, прп.\">Аркадия</a> Кипрского. Прп. <a  href=\"http://days.pravoslavie.ru/name/14994.html\" target=\"_blank\" title=\"Фридолин Зекингенский, прп.\">Фридолина</a> Зекингенского. Икон Божией Матери: <a  href=\"http://days.pravoslavie.ru/name/3022.html\" target=\"_blank\" title=\"Ченстоховская\">Ченстоховской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3022_1278.html\" target=\"_blank\" >икона</a>) <a  href=\"http://days.pravoslavie.ru/name/2784.html\" target=\"_blank\" title=\"\"Благодатное Небо\"\">\"Благодатное Небо\"</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2784_2302.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/3028.html\" target=\"_blank\" title=\"Шестоковская\">Шестоковской</a> (<a  href=\"http://days.pravoslavie.ru/images/ii3028_2566.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("На 6-м часе: <a href=\"http://days.pravoslavie.ru/bible/z_is_11_10_0_12_0_2.html#z\">Ис. XI, 10 - XII, 2.</a> На веч.: <a href=\"http://days.pravoslavie.ru/bible/z_byt_7_11_0_8_0_3.html#z\">Быт. VII, 11 - VIII, 3.</a> <a href=\"http://days.pravoslavie.ru/bible/z_pritch_10_1_22.html#z\">Притч. X, 1-22.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("\"При многословии не миновать греха\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18501.htm\" target=\"_blank\" title=\"Библия\">Прит. 10, 19</a>). Внимательные к себе христиане все чувства называют окнами души, которые если открыть, уйдет вся внутренняя теплота. Но самое широкое отверстие, просторная дверь, в обилии пропускающая эту теплоту, есть язык, которому дается воля говорить сколько и что хочет. Какой вред вниманию и внутреннему строю наносят все чувства в совокупности, такой же причиняет многословие, ибо оно касается предметов всех чувств и заставляет душу, не видя видеть, не слыша слышать, не осязая осязать. Что внутри мечтание, то вне многословие; но последнее пагубнее, ибо оно фактично и потому более впечатлительно. К тому же, с ним в близкой связи самомнение, дерзость и самочиние - эти, буре подобные, разорители внутреннего строя, оставляющие за собой нечувствие и ослепление. Как после этого избежать греха при многословии?!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

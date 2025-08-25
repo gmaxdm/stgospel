@@ -1,0 +1,18 @@
+{% extends 'wrapper.html' %}
+{% block description %}
+    <meta name="description" content="Библия. Синодальный перевод. {{ book.title }}. Глава {{ num }}. Соборное чтение Библии." />
+{% endblock %}
+{% block title %}{{ book.title }}. Глава {{ num }}{% endblock %}
+{% block main %}
+    <div class="">
+        <h3 class="mb-3">{{ book.title }}</h3>
+        {% include 'bible/chapters_nums.html' %}
+        <h4 class="mb-3">Глава {{ num }}</h4>
+        <div class="chapter">
+            {% for l in lines %}
+            <p>{% if l.num %}<strong class="text-danger">{{ l.num }}</strong>{% endif %} {{ l.text }}</p>
+            {% endfor %}
+        </div>
+        {% include 'bible/chapters_nums.html' %}
+    </div>
+{% endblock %}

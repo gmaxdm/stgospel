@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("11 ноября 2020 г. ( 29 октября ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 23-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("День постный. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Прмц. <a  href=\"http://days.pravoslavie.ru/name/2382.html\" target=\"_blank\" title=\"Преподобномученица Анастасия Римляныня\">Анастасии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2382_4590.html\" target=\"_blank\" >икона</a>) Римляныни. Прп. <a  href=\"http://days.pravoslavie.ru/name/34.html\" target=\"_blank\" title=\"Аврамий Затворник, Хиданский, пресвитер, прп.\">Аврамия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii34_3798.html\" target=\"_blank\" >икона</a>) затворника и блж. <a  href=\"http://days.pravoslavie.ru/name/2603.html\" target=\"_blank\" title=\"Мария Хиданская, прп.\">Марии</a>, племянницы его. Прп. <a  href=\"http://days.pravoslavie.ru/name/39.html\" target=\"_blank\" title=\"Аврамий Ростовский, архимандрит\">Аврамия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii39_382.html\" target=\"_blank\" >икона</a>), архим. Ростовского. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1243.html\" target=\"_blank\" title=\"Клавдий Киликийский, мч.\">Клавдия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1243_3799.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/285.html\" target=\"_blank\" title=\"Астерий Киликийский, мч.\">Астерия</a> (<a  href=\"http://days.pravoslavie.ru/images/ii285_3799.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1592.html\" target=\"_blank\" title=\"Неон Киликийский, мч.\">Неона</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1592_3799.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/2726.html\" target=\"_blank\" title=\"Феонилла Киликийская, мц.\">Феониллы</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2726_3799.html\" target=\"_blank\" >икона</a>). Прп. <a  href=\"http://days.pravoslavie.ru/name/2391.html\" target=\"_blank\" title=\"Преподобная Анна Вифинская\">Анны</a> (Евфимиана). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9724.html\" target=\"_blank\" title=\"Николай (Пробатов), иерей, сщмч.\">Николая</a> пресвитера и с ним. мчч.  Агломазовских: <a  href=\"http://days.pravoslavie.ru/name/9991.html\" target=\"_blank\" title=\"Косма, мч.\">Космы</a>, <a  href=\"http://days.pravoslavie.ru/name/9956.html\" target=\"_blank\" title=\"Виктор (Краснов), мч.\">Виктора</a>, <a  href=\"http://days.pravoslavie.ru/name/10001.html\" target=\"_blank\" title=\"Наум, мч.\">Наума</a>, <a  href=\"http://days.pravoslavie.ru/name/10039.html\" target=\"_blank\" title=\"Филипп, мч.\">Филиппа</a>, <a  href=\"http://days.pravoslavie.ru/name/9984.html\" target=\"_blank\" title=\"Иоанн, мч.\">Иоанна</a>, <a  href=\"http://days.pravoslavie.ru/name/10015.html\" target=\"_blank\" title=\"Павел, мч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/9943.html\" target=\"_blank\" title=\"Андрей, мч.\">Андрея</a>, <a  href=\"http://days.pravoslavie.ru/name/10016.html\" target=\"_blank\" title=\"Павел, мч.\">Павла</a>, <a  href=\"http://days.pravoslavie.ru/name/9955.html\" target=\"_blank\" title=\"Василий, мч.\">Василия</a>, <a  href=\"http://days.pravoslavie.ru/name/9938.html\" target=\"_blank\" title=\"Алексий, мч.\">Алексия</a>, <a  href=\"http://days.pravoslavie.ru/name/9985.html\" target=\"_blank\" title=\"Иоанн, мч.\">Иоанна</a> и мц. <a  href=\"http://days.pravoslavie.ru/name/10041.html\" target=\"_blank\" title=\"Агафия, мц.\">Агафии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii10041_3682.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9633.html\" target=\"_blank\" title=\"Иоанн (Рудинский), иерей, сщмч.\">Иоанна</a> пресвитера. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9316.html\" target=\"_blank\" title=\"Евгений (Ивашко), протоиерей, сщмч.\">Евгения</a> пресвитера. Мц. <a  href=\"http://days.pravoslavie.ru/name/10047.html\" target=\"_blank\" title=\"Анастасия (Лебедева), мц.\">Анастасии</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/14341.html\" target=\"_blank\" title=\"Леонид (Муравьев), иерей, сщмч.\">Леонида</a> пресвитера. ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_1-sol_2_1_8.html#z\">1 Сол., 264 зач., II, 1-8.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_11_9_13.html#z\">Лк., 56 зач., XI, 9-13.</a> Прп.: <a href=\"http://days.pravoslavie.ru/bible/z_gal_5_22_0_6_0_2.html#z\">Гал., 213 зач., V, 22 - VI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_27_30.html#z\">Мф., 43 зач., XI, 27-30.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18261.htm\" target=\"_blank\" title=\"Библия\">1 Фес. 2, 1-8</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18262.htm\" target=\"_blank\" title=\"Библия\">Лк. 11, 9-13</a>). Господь убеждает к молитве обетованием услышания, поясняя его сердоболием естественного отца, благосклонного к прошениям детей своих. Но тут же намекает на причину и того, почему иногда бывают не услышаны или не исполняются молитвы и прошения. Отец не даст детям камня, вместо хлеба, и змеи, вместо рыбы. Если же естественный отец не делает так, тем более не станет так делать Отец Небесный. А прошения наши нередко походят на прошение змеи и камня. Нам кажется, что то хлеб и рыба, чего просим, а Отец Небесный видит, что просимое будет для нас камень или змея - и не дает просимого. Отец и мать изливают перед Богом теплые молитвы о сыне, да устроит ему лучшее, но вместе с тем выражают и то, что считают лучшим для своего сына, именно, чтобы был он жив, здоров и счастлив. Господь слышит молитву их и устраивает для сына их лучшее, только не по понятию просящих, а так, как оно есть на самом деле для сына их: посылает болезнь, от которой умирает сын. Для тех, у которых все кончается настоящею жизнью, это не услышание, а делание наперекор, или предоставление лица, о котором молятся, его участи; для верующих же, что настоящая жизнь только приготовление к другой жизни, не может быть сомнения, что сын, о котором молились, заболел и умер именно потому, что услышана молитва и что для него лучше было отойти отсюда, чем оставаться тут. Скажешь: так на что же и молиться? Нет, не молиться нельзя, но в молитвах об определенных предметах всегда надо содержать в мысли условие: \"если, Господи, Сам Ты находишь это спасительным\". Св. Исаак Сирианин и всякую молитву советует сокращать так: \"Тебе Господи, ведомо, что для меня полезно: сотвори же со мной по воле Твоей\".<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

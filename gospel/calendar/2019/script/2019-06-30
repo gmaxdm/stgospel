@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("30 июня 2020 г. ( 17 июня ст.ст.), вторник. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 4-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Петров пост. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Пища с растительным маслом. ");
+}
+
+function print_saints()
+{
+ daysd.write("Мчч. <a  href=\"http://days.pravoslavie.ru/name/1445.html\" target=\"_blank\" title=\"Мануил Персиянин, Халкидонский, мч.\">Мануила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1445_3483.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1908.html\" target=\"_blank\" title=\"Савел Персиянин, Халкидонский, мч.\">Савела</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1908_3483.html\" target=\"_blank\" >икона</a>) и <a  href=\"http://days.pravoslavie.ru/name/1128.html\" target=\"_blank\" title=\"Исмаил Персиянин, Халкидонский, мч.\">Исмаила</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1128_3483.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/9415.html\" target=\"_blank\" title=\"Аверкий (Северовостоков), иерей, сщмч.\">Аверкия</a> пресвитера. Прп. <a  href=\"http://days.pravoslavie.ru/name/9226.html\" target=\"_blank\" title=\"Максим (Попов), иеромонах, прп., исповедник\">Максима</a> исп. Мц. <a  href=\"http://days.pravoslavie.ru/name/13727.html\" target=\"_blank\" title=\"Пелагия (Балакирева), мц.\">Пелагии</a> (<a  href=\"http://days.pravoslavie.ru/images/ii13727_3490.html\" target=\"_blank\" >икона</a>). ");
+}
+
+function print_chten()
+{
+ daysd.write("<a href=\"http://days.pravoslavie.ru/bible/z_rim_10_11_0_11_0_2.html#z\">Рим., 104 зач., X, 11 - XI, 2.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_11_16_20.html#z\">Мф., 41 зач., XI, 16-20.</a> Мчч.: <a href=\"http://days.pravoslavie.ru/bible/z_ef_6_10_17.html#z\">Еф., 233 зач., VI, 10-17.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_21_12_19.html#z\">Лк., 106 зач., XXI, 12-19.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C17974.htm\" target=\"_blank\" title=\"Библия\">Рим. 10, 11-11, 2</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C17975.htm\" target=\"_blank\" title=\"Библия\">Мф. 11, 16-20</a>). Говорит Господь, что мы, не слушающие Евангелия, похожи на тех, которым поют веселые песни, - они не пляшут; поют печальные - они не плачут; ничего с ними не поделаешь. Обещают Царствие Небесное, пресветлое и прерадостное - не шевелимся, будто не нам говорят. Угрожают судом неумытным и муками нескончаемыми - не тревожимся, будто не слышим. Забиты, потеряли всякое чувство самосохранения истинного. Ведемся, как ведомые прямо на пагубу и никакой заботы о своей участи. Опустили руки, предались нечаянию: что будет, то будет! Вот каково положение наше! Не оттого ли так часты самоубийства? И это плод нынешних учений, нынешних взглядов на человека и его значение! Вот вам и прогресс! Вот и просвещение! Лучше уж совсем быть невеждою, да со страхом Божиим душу свою спасти, чем достигнув титла просвещенного, погибнуть на веки, во всю жизнь не вспомянув о том, что будет по смерти. Из слова Божия, определяющего и Царство Небесное и ад, не пройдет и иота едина: все будет как написано. Прими же всякий это к сердцу, как дело, лично тебя касающееся, и позаботься о себе, сколько есть сил, и сколько еще времени осталось.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

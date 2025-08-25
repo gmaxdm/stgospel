@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("19 августа 2020 г. ( 6 августа ст.ст.), среда. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 11-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("Успенский пост. На трапезе разрешается рыба. ");
+}
+
+function print_trapeza()
+{
+ daysd.write("Разрешается рыба. ");
+}
+
+function print_saints()
+{
+ daysd.write("<span style=\'font-size: 120%; font-weight:bold;\' data-prazdnik=\'1\' ><span style=\'color:#b33\'><a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/name/3043.html\" target=\"_blank\" title=\"Преображение Господне\">Преображение Господа Бога и Спаса нашего Иисуса Христа.</a> (<a style=\"color:#b33;\"  href=\"http://days.pravoslavie.ru/images/ii3043_277.html\" target=\"_blank\" >икона</a>)</span></span><br> ");
+}
+
+function print_chten()
+{
+ daysd.write("Утр. - <a href=\"http://days.pravoslavie.ru/bible/z_lk_9_28_36.html#z\">Лк., 45 зач., IX, 28-36.</a> Лит. - <a href=\"http://days.pravoslavie.ru/bible/z_2-pet_1_10_19.html#z\">2 Пет., 65 зач., I, 10-19.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_17_1_9.html#z\">Мф., 70 зач., XVII, 1-9.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("В Преображение глас с неба не другое что изрек, как \"Его слушайте\" (<a  href=\"https://days.pravoslavie.ru/Bible/C18104.htm\" target=\"_blank\" title=\"Библия\">Мф. 17, 5</a>). Отчего так? Оттого, что здесь перед глазами был представлен и плод послушания. Отец небесный говорил как бы: хотите достигнуть до этого? Слушайте же, что Он будет внушать и заповедывать вам. И если пойдете путем Его, то несомненно вступите в область света, который будет обнимать вас не со вне, а извнутрь исходить, и всегда держать вас в таком состоянии, что все кости ваши будут изрекать: добро нам так быть. Вас преисполнит свет отрады, свет благонастроения, свет ведения; все печали мимо идут, нестроения страстей исчезнут, ложь и заблуждения рассеются. Станете на земле небесными, из земнородных - богородными, из бренных - вечноблаженными. Тогда все будет ваше, потому что вы сами станете Христовыми. Любящий Христа Господа возлюблен бывает Отцом небесным, и Оба к нему приходят и обитель у него творят. Вот и свет Преображения!<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

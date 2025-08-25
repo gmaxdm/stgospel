@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("26 сентября 2020 г. ( 13 сентября ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 16-я по Пятидесятнице. Суббота перед Воздвижением. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/6933.html\" target=\"_blank\" title=\"Память обновления (освящения) храма Воскресения Христова в Иерусалиме (Воскресение словущее)\">Память</a> (<a  href=\"http://days.pravoslavie.ru/images/ii6933_1310.html\" target=\"_blank\" >икона</a>)  обновления (освящения) храма Воскресения Христова в Иерусалиме (Воскресение словущее). <a  href=\"http://days.pravoslavie.ru/name/14387.html\" target=\"_blank\" title=\"Предпразднство Воздвижения Честного и Животворящего Креста Господня.\">Предпразднство</a> Воздвижения Честного и Животворящего Креста Господня. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1289.html\" target=\"_blank\" title=\"Священномученик Корнилий сотник\">Корнилия</a> сотника. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1307.html\" target=\"_blank\" title=\"Кронид Александрийский, мч.\">Кронида</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1307_4565.html\" target=\"_blank\" >икона</a>), <a  href=\"http://days.pravoslavie.ru/name/1345.html\" target=\"_blank\" title=\"Леонтий Александрийский, мч.\">Леонтия</a> и <a  href=\"http://days.pravoslavie.ru/name/1959.html\" target=\"_blank\" title=\"Серапион Александрийский, мч.\">Серапиона</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1954.html\" target=\"_blank\" title=\"Селевк Галатийский, мч.\">Селевка</a> и <a  href=\"http://days.pravoslavie.ru/name/2081.html\" target=\"_blank\" title=\"Стратор (Стратоник) Никомидийский, мч.\">Стратоника</a>. Мчч. <a  href=\"http://days.pravoslavie.ru/name/1418.html\" target=\"_blank\" title=\"Макровий Новодунский, мч.\">Макровия</a>,  <a  href=\"http://days.pravoslavie.ru/name/526.html\" target=\"_blank\" title=\"Гордиан Новодунский, мч.\">Гордиана</a>, <a  href=\"http://days.pravoslavie.ru/name/945.html\" target=\"_blank\" title=\"Илия Томский (Кюстенджийский), мч.\">Илии</a>, <a  href=\"http://days.pravoslavie.ru/name/861.html\" target=\"_blank\" title=\"Зотик Томский (Кюстенджийский), мч.\">Зотика</a>, <a  href=\"http://days.pravoslavie.ru/name/1387.html\" target=\"_blank\" title=\"Лукиан Томский (Кюстенджийский), мч.\">Лукиана</a> и <a  href=\"http://days.pravoslavie.ru/name/340.html\" target=\"_blank\" title=\"Валериан Томский (Кюстенджийский), мч.\">Валериана</a>. Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1135.html\" target=\"_blank\" title=\"Иулиан Галатийский, пресвитер, сщмч.\">Иулиана</a> пресвитера. Прп. <a  href=\"http://days.pravoslavie.ru/name/1766.html\" target=\"_blank\" title=\"Петр Атройский, прп.\">Петра</a> в Атрои. Вмц. <a  href=\"http://days.pravoslavie.ru/name/2550.html\" target=\"_blank\" title=\"Кетевань Кахетинская, царица, вмц.\">Кетеваны</a> (<a  href=\"http://days.pravoslavie.ru/images/ii2550_3686.html\" target=\"_blank\" >икона</a>), царицы Кахетинской (Груз.). Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9800.html\" target=\"_blank\" title=\"Стефан (Костогрыз), иерей, сщмч.\">Стефана</a>, <a  href=\"http://days.pravoslavie.ru/name/9417.html\" target=\"_blank\" title=\"Александр (Аксенов), иерей, сщмч.\">Александра</a> пресвитеров и <a  href=\"http://days.pravoslavie.ru/name/9858.html\" target=\"_blank\" title=\"Николай (Васюкович), диакон, сщмч.\">Николая</a> диакона. ");
+}
+
+function print_chten()
+{
+ daysd.write("Обновления: <a href=\"http://days.pravoslavie.ru/bible/z_evr_3_1_4.html#z\">Евр., 307 зач., III, 1-4.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_16_13_18.html#z\">Мф., 67 зач., XVI, 13-18.</a> Субботы пред Воздвижением: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_2_6_9.html#z\">1 Кор., 126 зач., II, 6-9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_10_37_0_11_0_1.html#z\">Мф., 39 зач., X, 37 - XI, 1.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

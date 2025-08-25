@@ -1,0 +1,58 @@
+<!--
+daysd= document;
+function print_separator()
+{
+ daysd.write("<div style='margin-top:2px'></div>");
+}
+
+function print_day()
+{
+ daysd.write("5 сентября 2020 г. ( 23 августа ст.ст.), суббота. ");
+}
+
+function print_holiday()
+{
+ daysd.write("");
+}
+
+function print_week()
+{
+ daysd.write("Седмица 13-я по Пятидесятнице. ");
+}
+
+function print_post()
+{
+ daysd.write("");
+}
+
+function print_trapeza()
+{
+ daysd.write("Поста нет. ");
+}
+
+function print_saints()
+{
+ daysd.write("<a  href=\"http://days.pravoslavie.ru/name/14705.html\" target=\"_blank\" title=\"Отдание праздника Успения Пресвятой Богородицы\">Отдание</a> праздника Успения Пресвятой Богородицы. Мч. <a  href=\"http://days.pravoslavie.ru/name/1390.html\" target=\"_blank\" title=\"Лупп Солунский (Фессалоникийский), мч.\">Луппа</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1390_919.html\" target=\"_blank\" >икона</a>). Сщмч. <a  href=\"http://days.pravoslavie.ru/name/1089.html\" target=\"_blank\" title=\"Святитель Ириней Лионский, епископ, сщмч.\">Иринея</a> (<a  href=\"http://days.pravoslavie.ru/images/ii1089_4584.html\" target=\"_blank\" >икона</a>), еп. Лионского. Прпп. <a  href=\"http://days.pravoslavie.ru/name/729.html\" target=\"_blank\" title=\"Евтихий Нурсийский, Италийский, игумен\">Евтихия</a> и <a  href=\"http://days.pravoslavie.ru/name/2316.html\" target=\"_blank\" title=\"Флорентий Нурсийский, Италийский, Фолиньосский, прп.\">Флорентия</a>. Свт. <a  href=\"http://days.pravoslavie.ru/name/1159.html\" target=\"_blank\" title=\"Святитель Каллиник I Константинопольский, патриарх\">Каллиника</a>, патриарха Константинопольского. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9142.html\" target=\"_blank\" title=\"Святитель Ефрем (Кузнецов), епископ Селенгинский, сщмч.\">Ефрема</a>, еп. Селенгинского, <a  href=\"http://days.pravoslavie.ru/name/9328.html\" target=\"_blank\" title=\"Иоанн (Восторгов), протоиерей, сщмч.\">Иоанна</a> (<a  href=\"http://days.pravoslavie.ru/images/ii9328_4559.html\" target=\"_blank\" >икона</a>) пресвитера и мч. <a  href=\"http://days.pravoslavie.ru/name/10003.html\" target=\"_blank\" title=\"Николай (Варжанский), мч.\">Николая</a>. Сщмчч. <a  href=\"http://days.pravoslavie.ru/name/9746.html\" target=\"_blank\" title=\"Павел (Гайдай), иерей, сщмч.\">Павла</a> и <a  href=\"http://days.pravoslavie.ru/name/12131.html\" target=\"_blank\" title=\"Иоанн (Карабанов), иерей, сщмч.\">Иоанна</a> пресвитеров. ");
+}
+
+function print_chten()
+{
+ daysd.write("Богородицы: <a href=\"http://days.pravoslavie.ru/bible/z_flp_2_5_11.html#z\">Флп., 240 зач., II, 5-11.</a> <a href=\"http://days.pravoslavie.ru/bible/z_lk_10_38_42_11_27_28.html#z\">Лк., 54 зач., X, 38-42; XI, 27-28.</a> Ряд.: <a href=\"http://days.pravoslavie.ru/bible/z_1-kor_2_6_9.html#z\">1 Кор., 126 зач., II, 6-9.</a> <a href=\"http://days.pravoslavie.ru/bible/z_mf_22_15_22.html#z\">Мф., 90 зач., XXII, 15-22.</a>");
+}
+
+function print_hrams()
+{
+ daysd.write("");
+}
+
+function print_feofan()
+{
+ daysd.write("(<a  href=\"https://days.pravoslavie.ru/Bible/C18120.htm\" target=\"_blank\" title=\"Библия\">1 Кор. 2, 6-9</a>; <a  href=\"https://days.pravoslavie.ru/Bible/C18121.htm\" target=\"_blank\" title=\"Библия\">Мф. 22, 15-22</a>). \"Отдавайте кесарево кесарю, а Божие Богу\"; отдай всякому свое. Отсюда закон: не одною стороною угождай Богу, а всякою, какою угождать можешь и должен; всякую силу свою и всякий способ свой обращай на служение Богу. Сказав: отдавай кесарево кесарю, Господь показал, что такое действование угодно Ему. Если под кесаревым будешь разуметь все вообще порядки земной жизни, необходимые и существенные, а под Божиими - все порядки Богом учрежденной Церкви, то отсюда выйдет, что все пути жизни нашей переполнены способами ко спасению. Внимай только и успевай всем пользоваться и всюду действовать сообразно с Божиею волею, так как хочет от тебя Бог, - спасение у тебя под руками. Можешь так устроиться, что ни шаг, то дело угодное Богу, и следовательно, шаг ко спасению, ибо путь спасения есть шествие путем воли Божией. Ходи в присутствии Божием, внимай, рассуждай и, не жалея себя, приступай тотчас к делу, на какое укажет тебе в ту пору совесть.<br>");
+}
+
+function print_signature()
+{
+ daysd.write("");
+}
+
+//-->

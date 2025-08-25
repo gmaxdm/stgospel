@@ -1,0 +1,30 @@
+{% extends 'wrapper.html' %}
+{% block title %}Молитвы{% endblock %}
+{% block main %}
+    <p class="text-right"><a href="{% url 'myprayers-edit' %}">Редактировать</a></p>
+    <div class="">
+        <h1>Молитвы</h1>
+        {% if prayers %}
+        <ul class="p-3">
+            {% for ref in prayers %}
+            <li>
+                <a href="#{{ ref.pray.slug }}">{{ ref.pray.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        {% for ref in prayers %}
+        <div id="{{ ref.pray.slug }}" class="card mb-3">
+            <div class="card-header">
+                {{ ref.pray.title }}
+            </div>
+            <div class="card-body">
+                {{ ref.pray.text|linebreaksbr }}
+            </div>
+        </div>
+        {% endfor %}
+        {% else %}
+            <p class="text-center">Список молитв пуст.</p>
+            <p class="text-center text-muted"><small>Нажмите на <a href="{% url 'myprayers-edit' %}">редактировать</a>, чтобы добавить молитвы в список.</small></p>
+        {% endif %}
+    </div>
+{% endblock %}

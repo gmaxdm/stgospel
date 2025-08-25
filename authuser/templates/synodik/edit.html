@@ -1,0 +1,12 @@
+{% extends 'wrapper.html' %}
+{% block title %}Редактирование помянника{% endblock %}
+{% block main %}
+    <div class="mt-3 mb-3 text-center">
+        <h3>Редактирование помянника</h3>
+    </div>
+    <div id="synodik-edit"></div>
+    <div class="m-3 text-right"><a href="{% url 'mysynodik' %}">Мой помянник</a></div>
+    <script type="text/javascript">
+        URLS.SYNODIK = "{% url 'j-synodik' %}";
+    </script>
+{% endblock %}
