@@ -4,13 +4,13 @@ upstream stgospel {
 
 server {
      listen 80;
-     server_name st-gospel.ru www.st-gospel.ru www.st-bible.ru st-bible.ru;
+     server_name st-gospel.ru www.st-gospel.ru;
      rewrite ^ https://st-gospel.ru$request_uri? permanent;
 }
 
 server {
      listen 443 ssl;
-     server_name www.st-gospel.ru www.st-bible.ru st-bible.ru;
+     server_name www.st-gospel.ru;
      keepalive_timeout   70;
      ssl_certificate     /home/www/ssl/st-gospel.ru.chained.crt;
      ssl_certificate_key /home/www/ssl/st-gospel.ru.key;
@@ -18,6 +18,8 @@ server {
 }
 
 server {
+    #listen 80 default_server;
+    #listen [::]:80 default_server;
     listen 443 ssl;
     server_name st-gospel.ru;
     keepalive_timeout   70;

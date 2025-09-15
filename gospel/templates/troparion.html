@@ -27,7 +27,7 @@
                 <div class="text-muted ml-3"><small>{{ dt|date:"j E" }}</small></div>
                 {% endwith %}
                 <div class="m-3">
-                    {{ tr.text|linebreaksbr }}
+                    {{ tr.text|join:"<br/>"|linebreaksbr }}
                 </div>
             </div>
             {% endfor %}

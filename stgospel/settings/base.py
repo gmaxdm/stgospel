@@ -33,8 +33,11 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'st.gospel.ru@gmail.com'
 EMAIL_PORT = 587
 
-EMAIL_BLACKLIST_FILE = os.path.join(BASE_DIR, "email_blacklist.txt")
-USER_BLACKLIST_FILE = os.path.join(BASE_DIR, "user_blacklist.txt")
+
+BLACKLIST_DIR = "blacklist"
+EMAIL_BLACKLIST_FILE = os.path.join(BASE_DIR, BLACKLIST_DIR, "email_blacklist.txt")
+EMAIL_DOMAIN_BLACKLIST_FILE = os.path.join(BASE_DIR, BLACKLIST_DIR, "email_domain_blacklist.txt")
+USER_BLACKLIST_FILE = os.path.join(BASE_DIR, BLACKLIST_DIR, "user_blacklist.txt")
 
 
 # Quick-start development settings - unsuitable for production

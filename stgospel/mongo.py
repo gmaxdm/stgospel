@@ -3,7 +3,7 @@ import pymongo
 import bson
 from django.conf import settings
 from bson.objectid import ObjectId
-from pymongo.errors import InvalidId
+from bson.errors import InvalidId
 
 
 logger = logging.getLogger("django")

@@ -99,6 +99,10 @@ class TroparView(JsonContextView):
             pk = self.request.GET["id"]
             from stgospel.mongo import MongoDBClient as mongo
             context["pray"] = mongo.get_tropar_by_id(pk)
+            try:
+                context["pray"]["text"] = "<br/>".join(context["pray"]["text"])
+            except KeyError:
+                pass
         except (KeyError, ValueError):
             raise Http404
         return context
