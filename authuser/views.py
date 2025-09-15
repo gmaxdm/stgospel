@@ -44,6 +44,15 @@ class EmailBlacklist:
         return cls._bl
 
     @classmethod
+    def emaildomainlist(cls):
+        if not hasattr(cls, "_edbl"):
+            cls._edbl = set()
+            with open(settings.EMAIL_DOMAIN_BLACKLIST_FILE) as f:
+                for line in f:
+                    cls._edbl.add(line.strip())
+        return cls._edbl
+
+    @classmethod
     def userlist(cls):
         if not hasattr(cls, "_ubl"):
             cls._ubl = set()
@@ -57,8 +66,11 @@ class EmailBlacklist:
         if email in cls.blacklist():
             return True
         try:
-            username = email.split("@")[0]
-        except IndexError:
+            username, domain = email.split("@")
+        except (IndexError, ValueError):
+            return True
+
+        if domain in cls.emaildomainlist():
             return True
 
         username = username.replace(".", "")

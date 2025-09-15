@@ -14,17 +14,27 @@ gospel/calendar/<year>/json
 
 
 ## Database setup
-´´´sql
+```sql
 CREATE USER 'gospel'@'localhost' IDENTIFIED BY 'PassWORD';
 
 CREATE SCHEMA `stgospel` DEFAULT CHARACTER SET utf8mb4 ;
 
 GRANT ALL PRIVILEGES ON stgospel.* TO 'gospel'@'localhost';
-´´´
+```
+
+## Create tables
+```python
+python manage.py migrate
+```
 
 ## Import Bible to DB from txt
 1. python manage.py txt2db
 2. python manage.py prim2db
 3. python manage.py psaltir2db
 4. python manage.py make_orders_patch
+
+## Collect static
+```python
+python manage.py collectstatic
+```
 

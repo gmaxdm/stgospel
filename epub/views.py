@@ -58,24 +58,24 @@ class EPubView(View):
                             os.path.join(tdir, "css"))
             shutil.copytree(os.path.join(settings.EPUB_SRC, "images"),
                             os.path.join(tdir, "images"))
-            with open(os.path.join(tdir, "content.opf"), "w") as f:
+            with open(os.path.join(tdir, "content.opf"), "w", encoding='utf-8') as f:
                 f.write(render_to_string("epub/content.opf", {
                     "bookid": bookid,
                     "user": request.user,
                     "pages": pages,
                 }))
-            with open(os.path.join(tdir, "title.html"), "w") as f:
+            with open(os.path.join(tdir, "title.html"), "w", encoding='utf-8') as f:
                 f.write(render_to_string("epub/title.html", {
                     "group": group,
                     "break": breakinside,
                 }))
-            with open(os.path.join(tdir, "toc.ncx"), "w") as f:
+            with open(os.path.join(tdir, "toc.ncx"), "w",  encoding='utf-8') as f:
                 f.write(render_to_string("epub/toc.ncx", {
                     "bookid": bookid,
                     "pages": pages,
                 }))
             for page in pages:
-                with open(os.path.join(tdir, "{}.html".format(page["name"])), "w") as f:
+                with open(os.path.join(tdir, "{}.html".format(page["name"])), "w",  encoding='utf-8') as f:
                     f.write(render_to_string("epub/reading.html", page).replace("<br>", r"<br/>"))
             bookfile = os.path.join(settings.EPUB_ROOT, "{}.epub".format(bookid))
             with zipfile.ZipFile(bookfile, "w") as f:

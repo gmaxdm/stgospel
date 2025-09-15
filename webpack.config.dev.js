@@ -10,7 +10,7 @@ module.exports = merge(base, {
         port: 2016,
         proxy: {
             '/': {
-                target: "http://localhost:2004",
+                target: "https://91.218.229.91",
                 bypass: function(req, res, proxyOptions) {
                     if(req.url.indexOf('.bundle.js') > 0) {
                         console.log("[webpack devserver] " + req.url);

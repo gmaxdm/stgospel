@@ -5,6 +5,7 @@ var CircularDependencyPlugin = require('circular-dependency-plugin');
 
 module.exports = {
     mode: "production",
+    //mode: "development",
     entry: [
         './jsx/main.jsx'
     ],
