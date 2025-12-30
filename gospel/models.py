@@ -101,6 +101,7 @@ def get_today_for_user(user, with_time=False):
 class OrthodoxCalendar:
 
     def __init__(self, date=None, tz_name=None):
+        self._data = None
         if date is None or isinstance(date, datetime.date):
             self.date = date or get_today(user_tz_name=tz_name)
         else:
@@ -122,6 +123,18 @@ class OrthodoxCalendar:
         except (FileNotFoundError, ValueError):
             return {}
 
+    def save_data(self):
+        if self._data is None:
+            return
+
+        try:
+            with open(os.path.join(settings.BASE_DIR, "gospel", "calendar",
+                                   self.filename[:4], "json",
+                                   self.filename), "w") as f:
+                f.write(ujson.dumps(self._data))
+        except (FileNotFoundError, ValueError):
+            pass
+
     @staticmethod
     def all():
         """ return generator of dicts
@@ -137,7 +150,7 @@ class OrthodoxCalendar:
 
     @property
     def data(self):
-        if not hasattr(self, "_data"):
+        if self._data is None:
             self._data = self.__read_data(self.__get_filename(self.date))
         return self._data
 
