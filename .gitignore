@@ -148,3 +148,15 @@ __pycache__
 static/js/gospel.bundle.js
 stgospel/settings/local.py
 root/sitemap.xml
+
+# calendar src
+gospel/calendar/2018/src/
+gospel/calendar/2019/src/
+gospel/calendar/2020/src/
+gospel/calendar/2021/src/
+gospel/calendar/2022/src/
+gospel/calendar/2023/src/
+gospel/calendar/2024/src/
+gospel/calendar/2025/src/
+gospel/calendar/2026/src/
+gospel/calendar/2027/src/

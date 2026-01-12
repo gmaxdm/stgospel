@@ -79,7 +79,7 @@ def replace_readings(refs, line):
         if _cnt == 1:
             _line = _line.replace(st, link)
         else:
-            _line = re.sub('{}(?![\<\.])'.format(st), link, _line)
+            _line = re.sub(r'{}(?![\<\.])'.format(st), link, _line)
     return _line
 
 
