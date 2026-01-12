@@ -349,7 +349,7 @@ class Calendar:
                     print("[ERROR]: pray without pray: {}".format(_line))
                 if "арь и кондак воскресн" in _line:
                     holyday_parse = True
-                    reH = re.compile("\d+")
+                    reH = re.compile(r"\d+")
                     d = reH.findall(_line)[0]
                     pr = self.prayers["Тропарь воскресный {}-го гласа:".format(d)] = []
                     pr.append(HOLYDAY[d]["troparion"])
@@ -358,7 +358,7 @@ class Calendar:
                     pr = None
                 elif 0 and "Тропарь воскресный" in _line:
                     holyday_parse = True
-                    reH = re.compile("\d+")
+                    reH = re.compile(r"\d+")
                     d = reH.findall(_line)[0]
                     pr = self.prayers["Тропарь воскресный {}-го гласа:".format(d)] = []
                     pr.append(HOLYDAY[d]["troparion"])

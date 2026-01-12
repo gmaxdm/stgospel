@@ -40,8 +40,8 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         #dt = datetime.date(settings.CALENDAR_YEAR, 1, 1)
-        stop_date = datetime.date(2026, 1, 15)
-        dt = datetime.date(2025, 1, 1)
+        stop_date = datetime.date(2027, 1, 15)
+        dt = datetime.date(2026, 1, 1)
         #for day in range(settings.CALENDAR_PARAM_FROM, settings.CALENDAR_PARAM_TO + 1):
         #for day in (dt,):
         while dt < stop_date:
