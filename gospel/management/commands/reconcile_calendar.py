@@ -47,8 +47,8 @@ class Command(BaseCommand):
             data = self.read(datefile)
             #data["rip"] = 1
             #data["easter"] = 1
-            #data["carnival"] = 1
-            data["twelve"] = 1
+            data["carnival"] = 1
+            #data["twelve"] = 1
 
             #day2 = "2023-04-01.json"
             #data2 = self.read(day2)
