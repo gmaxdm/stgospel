@@ -35,7 +35,7 @@ class Command(BaseCommand):
         delta = datetime.timedelta(days=1)
         #dt = datetime.date(2024, 3, 25)
         #for day in [85]:
-        dt = datetime.date(settings.CALENDAR_YEAR, 2, 2)
+        dt = settings.CALENDAR_PARSE_START_DATE
         for day in range(settings.CALENDAR_PARAM_FROM, settings.CALENDAR_PARAM_TO + 1):
             url = "{}?{}={}".format(settings.CALENDAR_URL,
                                     settings.CALENDAR_PARAM,
