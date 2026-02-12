@@ -491,7 +491,7 @@ class Command(BaseCommand):
         date = kwargs["date"]
         if date is None:
             delta = datetime.timedelta(days=1)
-            dt = datetime.date(settings.CALENDAR_YEAR, 2, 2)
+            dt = settings.CALENDAR_PARSE_START_DATE
             while dt < settings.CALENDAR_PARSE_FINISHED_DATE:
                 self.stdout.write("Parsing day: {}".format(dt))
                 self.__parse_date(dt)
