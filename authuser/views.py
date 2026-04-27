@@ -113,6 +113,11 @@ class RegisterView(CreateView):
             if email.strip() in EmailBlacklist.blacklist():
                 messages.error(self.request, f"{email} is blacklisted")
                 return HttpResponseRedirect(reverse("register"))
+
+            if form.cleaned_data['first_name'] == form.cleaned_data['last_name']:
+                messages.error(self.request, "Имя и фамилия должны быть разными")
+                return HttpResponseRedirect(reverse("register"))
+
             try:
                 user = User.objects.get(username=email, email=email)
                 messages.error(self.request,
