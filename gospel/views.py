@@ -8,6 +8,7 @@ from django.shortcuts import render
 from django.urls import reverse
 from django.http import (HttpResponse, HttpResponseRedirect, HttpResponseForbidden,
                          JsonResponse, HttpResponseNotFound)
+from django.utils.decorators import method_decorator
 from django.views.decorators.cache import never_cache
 from django.views.generic import TemplateView
 from django.views.generic.edit import FormView
@@ -305,7 +306,7 @@ class GroupInviteView(TemplateView):
 
 class InviteConfirmView(View):
 
-    @never_cache
+    @method_decorator(never_cache)
     def get(self, request):
         try:
             confirmstr = request.GET['t']

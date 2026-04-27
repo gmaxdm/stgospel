@@ -9,6 +9,7 @@ from django.urls import reverse
 from django.http import HttpResponseRedirect, JsonResponse
 from django.core.mail import EmailMessage
 from django.utils.crypto import get_random_string
+from django.utils.decorators import method_decorator
 from django.views.decorators.cache import never_cache
 from django.views.generic import TemplateView
 from django.views import View
@@ -183,7 +184,7 @@ class RemindView(FormView):
 
 class RegisterConfirmView(View):
 
-    @never_cache
+    @method_decorator(never_cache)
     def get(self, request):
         try:
             confirmstr = request.GET['t']
@@ -209,7 +210,7 @@ class RegisterConfirmView(View):
 
 class RemindConfirmView(View):
 
-    @never_cache
+    @method_decorator(never_cache)
     def get(self, request):
         try:
             confirmstr = request.GET['t']
