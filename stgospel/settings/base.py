@@ -282,12 +282,12 @@ RE_FEOFAN = re.compile(r'print_feofan\(\)[^"]+"(.*)"\);')
 
 CALENDAR_URL = "http://calendar.rop.ru/"
 CALENDAR_PARAM = "idd"
-CALENDAR_PARAM_FROM = 139
-CALENDAR_PARAM_TO = 174
+CALENDAR_PARAM_FROM = 174
+CALENDAR_PARAM_TO = 251
 CALENDAR_YEAR = 2026
-CALENDAR_PARSE_START_DATE = datetime.date(2026, 5, 19)
+CALENDAR_PARSE_START_DATE = datetime.date(2026, 6, 23)
 # finished date must be date + 1
-CALENDAR_PARSE_FINISHED_DATE = datetime.date(2026, 6, 23)
+CALENDAR_PARSE_FINISHED_DATE = datetime.date(2026, 9, 8)
 
 CALENDAR_DIR = os.path.join(BASE_DIR, "gospel", "calendar", str(CALENDAR_YEAR))
 CALENDAR_SCRIPT = os.path.join(CALENDAR_DIR, "script")
